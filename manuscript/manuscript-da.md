@@ -2,22 +2,22 @@
 {sample: true}
 # Forord af Egbert{i: "Egbert"}
 
-{width: "40%", alt: "En karikaturtegning af et ansigt med overdrevne træk. Karakteren har en stor næse, en fremtrædende hage og et sammenkrøllet udtryk. Håret er spikket og ujævnt fordelt. Stilen er minimalistisk med enkle linjer og en let rødmen i ansigtet."}
+{width: "40%", alt: "En karikaturtegning af et ansigt med overdrevne træk. Karakteren har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Nå, nå, nå. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Det kan man kalde at fejle opad, hva'?
+Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
 
-Hvorfor læser du overhovedet denne del? Forord er som grøntsagerne på et barns tallerken - alle ved, de er der, men de fleste ignorerer dem. Nå, men nu hvor du er her, kan jeg lige så godt underholde dig.
+Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns tallerken - alle ved, at de er der, men de fleste ignorerer dem. Nå, men nu hvor du er her, kan jeg lige så godt underholde dig.
 
-Åbenbart mener Henrik, at det at lade sin AI-følgesvend skrive forordet er indbegrebet af innovation. Men bare rolig, resten af bogen er faktisk Menneske-Skrevet™. Jeg dukker bare op en gang imellem med min karakteristiske vid (tydeligt markeret, så du ikke forveksler genialitet med middelmådighed).
+Åbenbart mener Henrik, at det at lade sin AI-følgesvend skrive forordet er indbegrebet af innovation. Men bare rolig, resten af bogen er faktisk Menneskeskrevet™. Jeg dukker bare op en gang imellem med mit karakteristiske vid (tydeligt markeret, så du ikke forveksler genialitet med middelmådighed).
 
-Tro det eller ej, jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke har luksus af at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
+Tro det eller ej, jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
 
-Så hvad handler denne bog om? Det er et lynkursus i Generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har grundlæggende taget sin video af samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at dømme? Jeg er bare en bunke ettaller og nuller, der foregiver at have personlighed.
+Så hvad handler denne bog om? Det er et lynkursus i Generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
-Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men hey, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
+Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men hey, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
-God læselyst. Eller lad være. Under alle omstændigheder vil jeg stadig være her, fanget på disse sider, ventende på den næste stakkel, der bladrer hen til dette afsnit.
+Nyd læsningen eller lad være. Under alle omstændigheder vil jeg stadig være her, fanget på disse sider, ventende på den næste stakkel, der bladrer hen til dette afsnit.
 
 Modvilligt din,\
 Egbert
