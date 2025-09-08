@@ -28,40 +28,40 @@ Egbert
 
 # Del 1 - I en nøddeskal
 
-Dette er bogens hoveddel, "i en nøddeskal"-introduktionen til Generativ AI{i: "Generativ AI"}. Jeg anbefaler at læse denne del fra start til slut, da kapitlerne bygger på hinanden og danner en sammenhængende fortælling.
+Dette er bogens hoveddel, "I en nøddeskal"-introduktionen til Generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
 
-Del 2, uden for nøddeskallen, er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du har lyst til.
+Del 2, "Uden for nøddeskallen!, er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
 
 {sample: true}
-# Computere Er Blevet Klogere
+# Computere er blevet klogere
 
-{alt: "Billedet kontrasterer traditionel databehandling med moderne kunstig intelligens. Til venstre repræsenterer en lommeregner gamle computere der udfører instruktioner, med et kodestykke nedenunder. Til højre symboliserer en hjerne ny AI-teknologi der kan lære, tænke og kommunikere. To små figurer i bunden viser en person der interagerer med AI-hjernen."}
+{alt: "Billedet sammenligner traditionel databehandling med moderne kunstig intelligens. Til venstre repræsenterer en lommeregner gamle computere der udfører instruktioner, med et lille stykke programkode nedenunder. Til højre symboliserer en hjerne den nye AI-teknologi der kan lære, tænke og kommunikere. To små figurer i bunden viser en person der interagerer med AI-hjernen."}
 ![](resources-da/010-calculator-brain-da.png)
 
-Lige siden elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare været avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de får af en programmør.
+Lige siden elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare fungeret som avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de får af en programmør.
 
-Men noget utroligt er ved at ske, noget jeg aldrig havde forventet ville ske i min levetid. Computere er begyndt at få evnen til at lære, tænke og kommunikere, ligesom os! De kan udføre kreativt, intellektuelt arbejde, som tidligere kun mennesker kunne udføre.
+Men noget utroligt er ved at ske, noget jeg aldrig havde forestillet mig ville ske i min levetid. Computere er begyndt at få evnen til at lære, tænke og kommunikere, ligesom os! De kan udføre kreativt, intellektuelt arbejde, som tidligere kun kunne udføres af mennesker.
 
-OK, tænker de virkelig? Tja, det er et filosofisk spørgsmål, da der ikke findes nogen bredt accepteret definition af "tænkning" eller "intelligens". Men i praktisk forstand bliver computere i stigende grad i stand til at udføre opgaver, der tidligere krævede menneskelig intelligens, kreativitet og intuition.
+Hmm, tænker de virkelig? Tja, det er et filosofisk spørgsmål, da der ikke findes nogen bredt accepteret definition af "tænkning" eller "intelligens". Men i praktisk forstand bliver computere i stigende grad i stand til at udføre opgaver, der tidligere krævede menneskelig intelligens, kreativitet og intuition.
 
 Vi kalder denne teknologi Generativ AI{i: "Generativ AI"}, og du har sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
 
 
 
-Grundlæggende er intelligens nu tilgængelig som en service - som en kæmpestor hjerne svævende på himlen, som alle kan tale med. Den er ikke perfekt, men den er overraskende kompetent og forbedrer sig i et svimlende tempo.
+Grundlæggende er intelligens nu tilgængelig som en service - som en kæmpestor hjerne svævende i skyen, som alle kan tale med. Den er ikke perfekt, men den er overraskende dygtig og forbedrer sig med en svimlende hastighed.
 
-Dette er en stor sag. Det kommer til at påvirke stort set alle mennesker og virksomheder på denne planet, positivt eller negativt.
+Det en stor ting. Og det kommer til at påvirke stort set alle mennesker og virksomheder på denne planet, positivt eller negativt.
 
 
-Så er Generativ AI{i: "Generativ AI"} overhypet?
+Men er Generativ AI{i: "Generativ AI"} overhypet?
 
-Jeg tror, dette kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, jeg startede min karriere og grundlagde min første startup{i: "startups"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang den pludselig, og utallige virksomheder og entusiastiske startups styrtede ned.
+Jeg tror, det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, jeg startede min karriere og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
 Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man praktisk talt ikke eksistere uden det.
 
 Jeg tror, det samme gælder for Generativ AI. Det kan være overhypet i markedsmæssig forstand - men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
 
-Denne bog er her for at hjælpe dig med at forstå, hvad Generativ AI handler om i praktiske termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-alderen{i: "AI"}.
+Denne bog er her for at hjælpe dig med at forstå, hvad Generativ AI handler om i praktiske termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
 {sample: true}
 # Einstein i din kælder
@@ -69,33 +69,33 @@ Denne bog er her for at hjælpe dig med at forstå, hvad Generativ AI handler om
 {width: "40%", alt: "En tegneserieagtig tegning af en person med vildt, hvidt hår og overskæg, der ligner Albert Einstein. Figuren sidder i en lyserød lænestol under en loftslampe."}
 ![](resources-da/020-einstein-basement-da.png)
 
-Her er en fjollet tankemodel for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kældre"}. Faktisk har alle det. Nu er dette bare en metafor - jeg mener ikke virkelig Einstein som person, tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
+Her er en fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er dette jo bare en metafor - jeg mener ikke virkeligt Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
 
-Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden og vil svare på alt, hvad du vil, inden for sekunder. Han løber aldrig tør for tålmodighed, bliver aldrig træt eller gnaven.
+Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden og vil svare på alt, hvad du vil, inden for sekunder. Han løber aldrig tør for tålmodighed, og bliver aldrig træt eller gnaven.
 
 Bare for sjov spurgte jeg ChatGPT{i: "ChatGPT"}:
 
 > **Prompt**  
-> What are you? Explain in 1 sentence to a 10 year old.
+> Hvad er du? Forklar i en sætning til en ti år gammel person.
 
 Svaret:
 
-> I'm like a super smart robot that can answer lots of questions and help with all sorts of things, kind of like a really helpful genie in a computer!
+> Jeg er ligesom en supersmart robot som kan svare på massevis af spørgsmål og hjælpe med alle mulige ting, lidt ligesom en meget hjælpsom lampeånd inde i en computer!
 
 Jeg synes, det er en ret god beskrivelse.
 
-Din Einstein kan påtage sig enhver rolle, du ønsker - en komiker, læge, coach, digter eller hvad som helst andet.
+Din Einstein kan påtage sig enhver rolle, du ønsker - en komiker, læge, træner, digter eller hvad som helst andet.
 
-{alt: "En collage af fire illustrationer med en ældre mand med vildt, hvidt hår, der ligner en berømt person. I det første billede er han klædt som læge med et stetoskop. Det andet viser ham i formelt tøj, holdende en mikrofon på scenen. Det tredje viser ham skrivende i et dæmpet belyst, lærd miljø. Det fjerde viser ham holdende en fodbold, iført afslappet sportstøj."}
+{alt: "En collage af fire illustrationer med en ældre mand med vildt, hvidt hår, der ligner en berømt person. I det første billede er han klædt som læge med et stetoskop. Det andet viser ham i formelt tøj, mens han holder en mikrofon på en scenen. Det tredje viser ham sidde og skrive i et dæmpet belyst, lærd miljø. Det fjerde viser ham holde en fodbold, iført afslappet sportstøj."}
 ![](resources-da/020-roles-da.jpg)
 
 Uanset hvilken rolle du giver ham, vil han være ekspert inden for det område. Du kan også give ham enhver personlighed, enhver kommunikationsstil, ethvert mål eller motiv. Man kunne sige, at dette geni i din kælder er lidt skizofrent{i: "skizofreni"}.
 
 Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fejl, drage forhastede konklusioner eller misforstå dig. Nogle gange kan han endda lyve eller spytte det rene nonsens ud på en meget overbevisende måde - præcis som vi mennesker nogle gange gør.
 
-Men den største begrænsning er din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som Prompt Engineering{i: "Prompt Engineering"}, og i AI-alderen er dette lige så essentielt som at læse og skrive.
+Men den største begrænsning er din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som Prompt Engineering{i: "Prompt Engineering"}, og i AI-alderen er denne færdighed lige så essentielt som at kunne læse og skrive.
 
-Jeg kan godt lide at skelne mellem Prompt Imagination og Prompt Engineering.
+Jeg kan godt lide at skelne mellem Prompt Imagination ("Prompt forestillingsevne") og Prompt Engineering.
 
 - **Prompt Imagination** = Din evne til at udtænke nyttige måder at bruge Generativ AI på. "Hvad kan jeg gøre".
 - **Prompt Engineering** (eller Prompt Design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det".
@@ -109,9 +109,9 @@ Så hvad kan Einstein egentlig gøre for dig?
 
 Anvendelsesmulighederne er så omfattende, at det nogle gange er svært at svare på. Det er lidt ligesom at spørge "Hvad kan jeg bruge elektricitet{i: "elektricitet"} til" - svaret er "tja, næsten alt". Men bare rolig, denne bog er fyldt til randen med praktiske eksempler.
 
-De fleste mennesker undervurderer i høj grad, hvad denne Einstein-skikkelse kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at korrekturlæse en gymnasieopgave. Eller at hyre en verdensklasse 5-stjernet kok og få ham til at hakke løg.
+De fleste mennesker undervurderer i høj grad, hvad denne Einstein-figur kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at korrekturlæse en gymnasieopgave. Eller at hyre en verdensklasse 5-stjernet kok og få ham til at hakke løg.
 
-Jo mere du interagerer med Einstein, jo flere overraskende og kraftfulde måder vil du opdage, han kan hjælpe dig, din familie{i: "familier"}, dit team, din virksomhed eller verden på.
+Jo mere du interagerer med Einstein, jo flere overraskende og kraftfulde måder vil du opdage, han kan hjælpe dig, din familie{i: "familie"}, dit team, din virksomhed eller verden på.
 
 
 B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
@@ -120,47 +120,47 @@ B> Einstein{i: "Einstein, Albert"}? Seriøst? Var det virkelig det bedste, I kun
 {sample: true}
 # Terminologi
 
-{alt: "Dette billede er et Venn-diagram, der illustrerer forholdet mellem KI (Kunstig Intelligens), Generativ KI og Store Sprogmodeller (LLM). KI omfatter aktiviteter som maskinlæring, computersyn og talegenkendelse. Generativ KI inkluderer billede- og videogenerering, mens LLM'er er en delmængde af Generativ KI, med eksempler som ChatGPT og Claude fremhævet."}
+{alt: "Dette billede er et Venn-diagram, der illustrerer forholdet mellem AI (Artificial Intelligens), Generativ AI og Store sprogmodeller (LLM). AI omfatter aktiviteter som maskinlæring, computer vision og talegenkendelse. Generativ AI inkluderer billede- og videogenerering, mens LLM'er er en delmængde af Generativ AI, med eksempler som ChatGPT og Claude fremhævet."}
 ![](resources-da/030-terminology-da.png)
 
-OK, nok med luftige metaforer, lad os få klarhed over nogle begreber. Jeg ved det, jeg lovede, at denne bog ville indeholde minimal jargon og buzzwords. Men disse begreber er ret vigtige.
+OK, nok med luftige metaforer, lad os få styr på nogle begreber. Jeg ved godt at jeg lovede, at denne bog ville indeholde minimal slangudtryk og buzzwords. Men disse begreber er ret vigtige.
 
-AI, som du sikkert ved, står for Kunstig Intelligens{i: "Kunstig Intelligens"}. KI er ikke nyt. Områder som maskinlæring og computersyn{i: "computersyn"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et websøgeresultat, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel KI i aktion.
+AI, står, som du sikkert ved, for "Artificial Inteligence"{Artificial Intelligence) (på dansk: "Kunstig intelligens"{i: "Kunstig Intelligens"}. AI er ikke nyt. Områder som maskinlæring og computer vision{i: "computer vision"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et søgeresultat på internettet, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel AI som er igang.
 
-Generativ KI{i: "Generativ KI"} er KI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er G'et i GPT.
+Generativ AI{i: "Generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
-Store Sprogmodeller{i: "Store Sprogmodeller"} (eller LLM'er) er en type Generativ KI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
+Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{Large Language Models} (eller bare LLM'er) er en type Generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
-ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en LLM, i bund og grund en avanceret chatbot, men ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er T'et i GPT.
+ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel/LLM, i bund og grund bare en avanceret chatbot, men lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
-Transformer-arkitekturen blev introduceret i en banebrydende artikel fra 2017 med titlen _"Attention is All You Need"_{i: "*Attention is All You Need*"} af forskere fra Google{i: "Google"} og University of Toronto{i: "University of Toronto"}. Den er blevet citeret over 100.000 gange og er grundlæggende den hemmelige opskrift bag de fleste moderne KI-sprogmodeller.
+Transformer-arkitekturen blev introduceret i en banebrydende artikel fra 2017 med titlen _"Attention is All You Need"_{i: "*Attention is All You Need*"} af forskere fra Google{i: "Google"} og University of Toronto{i: "University of Toronto"}. Den er blevet citeret over 100.000 gange og er grundlæggende den hemmelige opskrift bag de fleste moderne AI-sprogmodeller.
 
-{width: 80%, alt: "Forside af en forskningsartikel med titlen "Attention Is All You Need" med flere forfattere anført sammen med deres tilhørsforhold og kontakt-e-mails. Artiklens abstract er delvist synligt og diskuterer en ny netværksarkitektur kaldet "the Transformer.""}
+{width: 80%, alt: "Forside af en forskningsartikel med titlen "Attention Is All You Need" med flere forfattere anført sammen med deres tilhørsforhold og kontakt-e-mail-adresser. Artiklens abstract er delvist synligt og diskuterer en ny netværksarkitektur kaldet "the Transformer.""}
 ![](resources-da/030-transformer-da.png)
 
-Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for 5 dage, over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Du behøvede ikke at være KI-ekspert eller programmør.
+Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for 5 dage, over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
 
-OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste den Generative KI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
+OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste den Generative AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
-ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere KI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, den "lækker ud" af LLM-cirklen i billedet ovenfor. Nu findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og dusinvis flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
+ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og dusinvis flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
 
 
 
 I resten af denne bog vil jeg bruge betegnelsen "AI-klient{i: "AI-klient"}" som et samlet udtryk for disse typer af generativ AI-produkter.
 
 {sample: true}
-# Hvordan det virker
+# Sådan fungerer det
 
 {alt: "Diagram af en neural netværksproces. Til venstre omdannes input mærket "Tekst, Billeder, Lyd, Video" til tal "[1,5,3,16]." Disse tal går ind i et neuralt netværk, repræsenteret ved en stiliseret sammenkoblet hjerneagtig struktur med knudepunkter og tal. Til højre omdannes output-tallene "[5,2,13,4]" tilbage til "Tekst, Billeder, Lyd, Video.""}
 ![](resources-da/040-neural-network-da.png)
 
 Så hvordan virker det egentlig?&#x20;
 
-En LLM (stor sprogmodel) er et Kunstigt Neuralt Netværk{i: "Kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
+En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "Kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
 
-Internt arbejder Neurale Netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så Neurale Netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, som outputter kontrolsignaler som "juster styring 5 grader til højre" eller "anvend 20% bremsekraft".
+Internt arbejder neurale netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, som outputter kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
 
-LLM'er{i: "LLM'er"} er Neurale Netværk{i: "Kunstigt neuralt netværk"} der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. Internt læser og genererer LLM'er tokens. Det du ser er ord og sætninger. Teknisk set arbejder de med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
+LLM'er{i: "LLM'er"} er neurale netværk{i: "Kunstigt neuralt netværk"} der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. Internt læser og genererer LLM'er tokens. Det du ser er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
 
 Lad os sige, jeg skriver "Hunde er". Når jeg sender det til en LLM, bliver det konverteret til tal, behandlet af det neurale netværk, og derefter bliver de resulterende tal konverteret tilbage til tekst. I dette tilfælde er outputtet "dyr". Så vi får "Hunde er dyr".
 
@@ -184,34 +184,34 @@ Det interessante er, hvis vi tager outputtet og kombinerer det med inputtet og s
 
 For eksempel, her er hvad jeg fik, da jeg skrev "Generer en kort historie om en flyvende hvalp".
 
-> Max var ikke nogen almindelig hvalp. Mens andre hunde jagede egern og gravede huller i baghaven, brugte Max sine dage på længselsfuldt at stirre op mod himlen. Hans ejere syntes, det var sødt, hvordan han kunne sidde i timevis og se på fugle, der svævede forbi, men de anede ikke, hvad der faktisk foregik i Max' lille lodne hoved. For ser du, Max havde en hemmelighed - en der ville vende hele nabolaget på hovedet, hvis nogen nogensinde opdagede den. Denne legesyge golden retriever-hvalp kunne flyve.
+> Max var ikke nogen almindelig hvalp. Mens andre hunde jagede egern og gravede huller i baghaven, brugte Max sine dage på længselsfuldt at stirre op mod himlen. Hans ejere syntes, det var sødt, hvordan han kunne sidde i timevis og se på fugle, der svævede forbi, men de anede ikke, hvad der faktisk foregik i Max' lille lodne hoved. For ser du, Max havde en hemmelighed - en der ville sætte hele kvarteret på den anden ende, hvis nogen nogensinde opdagede den. Denne legesyge golden retriever-hvalp kunne flyve.
 
 Så skrev jeg "Tilføj en mørk drejning til historien", og historien fortsatte:
 
-> Max' evne til at trodse tyngdekraften var en kilde til undren og glæde, indtil den dag hvor alt ændrede sig. En kølig efterårsaften, mens Max svævede højt over tagene, fik han øje på noget, der fik hans lille hjerte til at banke af frygt. I skyggerne ved et forladt varehus i udkanten af byen så han mænd i mørke jakkesæt læsse bure ind i umærkede varevogne. I burene var der hvalpe - dusinvis af dem - der klynkede og græd. Max indså med en kuldegysning, at dette ikke bare var almindelige hvalpe; de havde alle et æterisk skær omkring sig, præcis som han selv havde, når han begav sig op i luften. Nogen havde opdaget hemmeligheden om flyvende hunde, og de var i gang med at jage dem én efter én.
+> Max' evne til at trodse tyngdekraften var en kilde til undren og glæde, indtil den dag hvor alt ændrede sig. En kølig efterårsaften, mens Max svævede højt over tagene, fik han øje på noget, der fik hans lille hjerte til at banke af frygt. I skyggerne ved et forladt varehus i udkanten af byen så han mænd i mørke jakkesæt læsse bure ind i varevogne uden nummerplader. I burene var der hvalpe - dusinvis af dem - der klynkede og græd. Max indså med en kuldegysning, at dette ikke bare var almindelige hvalpe; de havde alle en overjordisk glød omkring sig, præcis som han selv havde, når han begav sig op i luften. Nogen havde opdaget hemmeligheden om flyvende hunde, og de var i gang med at jage dem én efter én.
 
 Dette kunne i princippet fortsætte i det uendelige ved at tilføje flere prompts.
 
-Så hvordan ved sprogmodellen, hvornår den skal stoppe med at generere? Hvorfor bliver den ikke ved i det uendelige? Tja, den kan genkende naturlige stopsteder (som slutningen på en historie) eller stoppe, når den rammer en token-grænse. I vores hvalphistorie stoppede den naturligt efter at have introduceret flyveevnen og igen efter at have afsløret den mørke drejning om hvalpekidnapperne. Hver respons var en komplet fortælleenhed. Men jeg kunne have blevet ved med at prompte den til at fortsætte historien.
+Så hvordan ved sprogmodellen, hvornår den skal stoppe med at generere? Hvorfor bliver den ikke ved i det uendelige? Tja, den kan genkende naturlige stopsteder (som slutningen på en historie) eller stoppe, når den rammer en token-grænse. I vores hvalpehistorie stoppede den naturligt efter at have introduceret flyveevnen og igen efter at have afsløret den mørke drejning om hvalpekidnapperne. Hver respons var en komplet fortælleenhed. Men jeg kunne have blevet ved med at prompte den til at fortsætte historien.
 
 ## Ræsonneringsmodeller{i: "Ræsonneringsmodeller"}
 
 En måde hvorpå store sprogmodeller{i: "store sprogmodeller"} er blevet forbedret, er gennem evnen til at ræsonnere{i: "ræsonnering"}. Ræsonnering efterligner den måde, mennesker tænker på{i: "menneskelig ræsonnering"}.
 
-Lad os tage et eksempel. Du vil skrive en artikel. Hvad gør du? Du starter sandsynligvis med at tænke over emnet og identificerer måske nogle vigtige pointer, du vil dække. Så skriver du et udkast, gennemarbejder det nogle gange, beder om feedback, går tilbage og laver ændringer og så videre. Det er en iterativ proces, der involverer, tja, ræsonnering.
+Lad os tage et eksempel. Du bestemmer dig for at skrive en artikel. Hvad gør du? Du starter sandsynligvis med at tænke over emnet og identificerer måske nogle vigtige pointer, du vil dække. Så skriver du et udkast, gennemarbejder det nogle gange, beder om feedback, går tilbage og laver ændringer og så videre. Det er en iterativ proces, der involverer, tja, ræsonnering.
 
-Mange af de tidligere sprogmodeller{i: "tidligere modeller"} gør ikke dette. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist - du skal begynde at skrive med det samme, uden at tænke over det, du skal blive ved med at skrive, indtil du er færdig. Åh, og der er ingen tilbagetast på dit tastatur - du kan ikke gå tilbage og redigere eller ændre noget!
+Mange af de tidligere sprogmodeller{i: "tidligere modeller"} gør ikke dette. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist - du skal begynde at skrive med det samme, uden at tænke over det, og du skal blive ved med at skrive, indtil du er færdig. Åh, og der er ingen backspace-tast på dit tastatur - du kan ikke gå tilbage og redigere eller ændre noget!
 
 Det er næsten umuligt for et menneske at gøre. Alligevel klarer de fleste sprogmodeller sig overraskende godt på den måde.
 
-Men når det kommer til mere kompleks problemløsning, har selv sprogmodeller svært ved den arbejdsmetode. Så nyere sprogmodeller (såsom GPT o1{i: "GPT o1"}) er blevet designet til at ræsonnere{i: "ræsonneringsmodeller"}. Når du prompter den, svarer den ikke med det samme. I stedet går den ind i en intern løkke{i: "intern løkke"}, hvor den faktisk taler med sig selv, analyserer problemet{i: "problemanalyse"} og lægger en plan. Og først derefter kommer den med svaret. Meget ligesom når vi planlægger en opgave, før vi skriver den, eller analyserer et matematisk problem, før vi løser det.
+Men når det kommer til mere kompleks problemløsning, har selv sprogmodeller svært ved den arbejdsmetode. Så nyere sprogmodeller (såsom GPT o1{i: "GPT o1"}) er blevet designet til at ræsonnere{i: "ræsonneringsmodeller"}. Når du prompter den, svarer den ikke med det samme. I stedet går den ind i en intern sløjfe{i: "intern sløjfe"}, hvor den faktisk taler med sig selv, analyserer problemet{i: "problemanalyse"} og lægger en plan. Og først derefter kommer den med svaret. Meget ligesom når vi planlægger en opgave, før vi skriver den, eller analyserer et matematisk problem, før vi løser det.
 
-{alt: "Diagram der sammenligner ikke-ræsonnerende sprogmodeller og ræsonnerende sprogmodeller. Til venstre viser ikke-ræsonnerende sprogmodeller en bruger, der giver et prompt og modtager et svar. Til højre inkluderer ræsonnerende sprogmodeller et ekstra ræsonneringstrin før svaret. Begge sektioner viser en figur, der interagerer med en skyagtig struktur, der repræsenterer sprogmodellerne."}
+{alt: "Diagram der sammenligner ikke-ræsonnerende sprogmodeller og ræsonnerende sprogmodeller. Til venstre viser ikke-ræsonnerende sprogmodeller en bruger, der giver en prompt og modtager et svar. Til højre inkluderer ræsonnerende sprogmodeller et ekstra ræsonneringstrin før svaret. Begge sektioner viser en figur, der interagerer med en skyagtig struktur, der repræsenterer sprogmodellerne."}
 ![](resources-da/040-reasoning-da.png)
 
-Dette gør modellen noget langsommere, men gør den meget mere kapabel{i: "modelkapacitet"}. Perfekt til kompleks problemløsning!
+Dette gør modellen noget langsommere, men gør den meget mere kraftfuld{i: "Kraftfuld"}. Perfekt til at udføre kompleks problemløsning!
 
-For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer med mit firma. Jeg beskrev min situation i detaljer og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med fordele og ulemper og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle betale en skatterådgiver{i: "skatterådgiver"} for at få.
+For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer med mit firma. Jeg beskrev min situation i detaljer og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
 
 
 
