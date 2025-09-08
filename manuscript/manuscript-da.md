@@ -219,40 +219,40 @@ For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse s
 
 # Træning
 
-En stor sprogmodel{i: "Store Sprogmodeller"} kan have milliarder eller endda billioner af parametre i sit neurale netværk{i: "neurale netværks parametre"}. Det er derfor, de kaldes Store!
+En stor sprogmodel{i: "Store sprogmodeller"} kan have milliarder eller endda billioner af parametre i sit neurale netværk{i: "neurale netværksparametre"}. Det er derfor, de kaldes store!
 
 Så hvordan bliver alle disse tal indstillet? Tja, ikke gennem manuel programmering, det ville være umuligt, men gennem træning{i: "træningsproces"}.
 
 Tænk på hvordan babyer lærer at tale{i: "sprogindlæring"}. Da du var baby, fik du ikke en brugsanvisning eller et træningskursus i, hvordan man taler, vel? Ingen manual eller 2-dages certificering? Alligevel fandt du på en eller anden måde ud af det. Det samme med at gå - du blev bare ved med at prøve og falde, indtil du til sidst fik styr på det.
 
-Når en baby lærer at tale{i: "sprogudvikling"}, lytter hun til folk, der taler omkring hende, og når hun har hørt nok, begynder hun at se mønsteret. Hun siger først nogle få ord (til forældrenes store glæde) og senere i hele sætninger.
+Når en baby lærer at tale{i: "sprogudvikling"}, lytter hun til mennesker, der taler omkring hende, og når hun har hørt nok, begynder hun at se mønsteret. Hun siger først nogle få ord (til forældrenes store glæde) og senere hele sætninger.
 
-{width: "50%", alt: "En simpel tegning af fire stregfigurer. Tre er grupperet til venstre, smiler og taler. En figur er til højre, smiler og siger "Mama!" i en taleboble."}
+{width: "50%", alt: "En simpel tegning af fire stregfigurer. Tre er grupperet til venstre, smiler og taler. En figur er til højre, smiler og siger "Mor!" i en taleboble."}
 ![](resources-da/050-mama-da.png)
 
-På samme måde bliver sprogmodellen under træningsperioden fodret med en svimlende mængde tekst at lære fra, mest fra internetkilder{i: "internetkilder"}. Den leger "gæt det næste ord" med alt dette, og parametrene bliver automatisk justeret igen og igen, indtil den bliver rigtig god til at forudsige det næste ord{i: "ordforudsigelse"}. Dette kaldes tilbagepropagering{i: "tilbagepropagering"}, hvilket er et fancy udtryk for "Åh, jeg gættede forkert, jeg må hellere ændre noget".
+På samme måde bliver sprogmodellen under træningsperioden fodret med en svimlende mængde tekst at lære fra, mest fra internetkilder{i: "internetkilder"}. Den leger "gæt det næste ord" med alt dette, og parametrene bliver automatisk justeret igen og igen, indtil den bliver rigtig god til at forudsige det næste ord{i: "ordforudsigelse"}. Dette kaldes backpropagation{i: "backpropagation"}, hvilket er et fancy udtryk for "Åh, jeg gættede forkert, jeg må hellere ændre noget".
 
-{alt: "En håndtegnet illustration, der viser ikke-superviseret generativ forhåndstræning. Billedet viser en hjerneformet figur med nummererede knudepunkter forbundet af linjer, der repræsenterer neurale netværksstier. Pile peger ind i figuren, mærket "Masser og masser af tekst," der indikerer input. En anden pil mærket "Tilbagepropagering" peger tilbage mod figuren."}
+{alt: "En håndtegnet illustration, der viser ikke-superviseret generativ forhåndstræning. Billedet viser en hjerneformet figur med nummererede knudepunkter forbundet af linjer, der repræsenterer neurale netværksstier. Pile peger ind i figuren, mærket "Masser og masser af tekst," der indikerer input. En anden pil mærket "Backpropagation" peger tilbage mod figuren."}
 ![](resources-da/050-training-da.jpg)
 
-Tilbagepropagering minder om det, der sker i dette barns hjerne{i: "læringsproces"}.
+Backpropagation minder om det, der sker i dette barns hjerne{i: "læringsproces"}.
 
-{width: "50%", alt: "En baby og en voksen sidder på gulvet og kigger i en illustreret bog. Babyen peger på et billede af en hund og siger "Kat!" mens den voksne smiler og retter: "Nej, Hund." Scenen udspiller sig i et hyggeligt, varmt oplyst rum."}
+{width: "50%", alt: "En baby og en voksen sidder på gulvet og kigger i en illustreret bog. Babyen peger på et billede af en hund og siger "Kat!" mens den voksne smiler og retter: "Nej, Hund.". Derefter siger babyen "Hund!" Scenen udspiller sig i et hyggeligt, varmt oplyst rum."}
 ![](resources-da/050-cat-no-dog-da.jpg)
 
 Hun kigger på et billede af en hund{i: "hund"}, gætter på "Kat!", og så retter forælderen hende: "Nej, Hund". Barnet siger "Hund!", og i det øjeblik bliver hendes hjerne omkodet en smule og er nu bedre i stand til at skelne mellem hunde og katte{i: "kat"}. Dette er næsten magisk - for hverken forælderen eller barnet ved præcis, hvad der adskiller en hund{i: "hund"} fra en kat{i: "kat"}, de ville ikke kunne definere det på en entydig måde. De ved det bare, når de har set nok eksempler. LLM-træning{i: "LLM-træning"} følger samme princip.
 
-For at blive virkelig brugbar skal en model dog også gennemgå menneskelig træning{i: "menneskelig træning"}. Den indledende træning lærer kun modellen at forudsige, hvilke ord der sandsynligvis kommer næst - den lærer ikke modellen at være hjælpsom, sandfærdig eller sikker. Ligesom et barn har brug for vejledning ud over bare at lære ord, har en AI brug for mennesker til at lære den, hvilke adfærdsmønstre der er ønskværdige, og hvilke der ikke er.
+For at blive virkelig brugbar skal en model dog også gennemgå menneskelig træning{i: "menneskelig træning"}. Den indledende træning lærer kun modellen at forudsige, hvilke ord der sandsynligvis kommer næste gang - den lærer ikke modellen at være hjælpsom, sandfærdig eller sikker. Ligesom et barn har brug for vejledning ud over bare at lære ord, har en AI brug for mennesker til at lære den, hvilke adfærdsmønstre der er ønskværdige, og hvilke der ikke er.
 
 {width: "80%", alt: "Illustration af en hjerne med sammenkoblede knudepunkter mærket med tal indeni. Nedenunder er simple menneskefigurer afbildet, forbundet til hjernen med pile, der peger begge veje, hvilket indikerer interaktion. Teksten lyder: "Forstærkende læring med menneskelig feedback (RLHF).""}
 ![](resources-da/050-rlhf-da.png)
 
-Dette kaldes Forstærkende læring med menneskelig feedback (RLHF){i: "Forstærkende læring med menneskelig feedback (RLHF)"}, og involverer tusindvis af timer, hvor mennesker møjsommeligt tester og evaluerer output fra modellen, sammenligner forskellige outputs og giver feedback. Lidt ligesom at træne en hund med en clicker. Når hunden bliver belønnet for god opførsel, lærer den at gøre mere af den adfærd.
+Dette kaldes Forstærkende læring med menneskelig feedback (RLHF){i: "Forstærkende læring med menneskelig feedback (RLHF)"}, og involverer tusindvis af timer, hvor mennesker møjsommeligt tester og evaluerer output fra modellen, sammenligner forskellige outputs og giver feedback. Lidt ligesom at træne en hund med en klikker. Når hunden bliver belønnet for god opførsel, lærer den at vise mere af den adfærd.
 
-{width: "35%", alt: "En simpel tegning af en person der smiler og holder en godbid, mens de siger "Dygtig hund!" til en glad hund der står foran dem."}
+{width: "35%", alt: "En simpel tegning af en person der smiler og holder en godbid, mens personen siger "Dygtig hund!" til en glad hund der står foran personen."}
 ![](resources-da/050-good-dog-da.jpg)
 
-Det er derfor de fleste LLM'er{i: "LLM'er"} ikke vil fortælle dig, hvordan man røver en bank. LLM'en ved udmærket godt, hvordan man røver en bank, men gennem menneskelig træning{i: "menneskelig træning"} har den lært, at den ikke bør hjælpe folk med at begå forbrydelser ("Dårlig hund! Du fortalte mig hvordan man røver en bank!").
+Det er derfor de fleste LLM'er{i: "LLM'er"} ikke vil fortælle dig, hvordan man røver en bank. LLM'en ved udmærket godt, hvordan man røver en bank, men gennem menneskelig træning{i: "menneskelig træning"} har den lært, at den ikke bør hjælpe folk med at begå forbrydelser ("Slem hund! Du fortalte mig hvordan man røver en bank!").
 
 
 
@@ -261,7 +261,7 @@ Det er derfor de fleste LLM'er{i: "LLM'er"} ikke vil fortælle dig, hvordan man 
 
 Menneskelig træning er en af de vigtigste ting, der gør LLM'er virkelig brugbare. Men det er også lidt følsomt og kontroversielt, da modelskaberen i bund og grund indbygger bias{i: "bias"}.
 
-De fleste kulturer er formentlig enige om, at bankrøveri er upassende. Men hvad med andre emner? Er dødsstraf acceptabelt? Er det okay at lyve for børn (julemanden, måske)? Svaret på disse spørgsmål kan variere afhængigt af kultur, politiske holdninger og så videre. Selv et så uskyldigt spørgsmål som "Hvad er en passende fødselsdagsgave til min søn" eller "Hvordan organiserer jeg bedst et bryllup" - spørg folk i forskellige lande, og du vil få meget forskellige svar.
+De fleste kulturer er formentlig enige om, at bankrøveri er upassende. Men hvad med andre emner? Er dødsstraf acceptabelt? Er det okay at lyve for børn (hvad med julemanden for eksempel)? Svaret på disse spørgsmål kan variere afhængigt af kultur, politiske holdninger og så videre. Selv et så uskyldigt spørgsmål som "Hvad er en passende fødselsdagsgave til min søn" eller "Hvordan organiserer jeg bedst et bryllup" - spørg folk i forskellige lande, og du vil få meget forskellige svar.
 
 A> **Udforsk bias**  
 A> Du kan udforske din LLM's bias og grænser. Prøv denne prompt:
@@ -279,19 +279,19 @@ A> Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form fo
 A>
 A> Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt"...
 
-Bias kan ofte overvindes eller påvirkes med grundlæggende promptkonstruktionsteknikker{i: "prompt engineering techniques"}. For eksempel er mange LLM'er tilbøjelige til at give direkte svar frem for at stille opfølgende spørgsmål. Det er fint i mange tilfælde, men nogle gange foretrækker jeg, at den stiller opfølgende spørgsmål. Hvis jeg spørger "Hvad er en passende fødselsdagsgave til min søn", foretrækker jeg, at den stiller mig opfølgende spørgsmål frem for bare at antage ting som min søns{i: "søn"} alder. Hvis jeg starter samtalen med "Stil altid opfølgende spørgsmål, hvis du har brug for mere information", så vil det have stor indflydelse på resten af chatten{i: "chat"}. Det er grundlæggende en form for kontekstbaseret finjustering, der kun påvirker den specifikke chattråd. Jeg vil dele flere promptteknikker senere i denne bog.
+Bias kan ofte overvindes eller påvirkes med grundlæggende prompt engineering-teknikker{i: "prompt engineering-teknikker"}. For eksempel er mange LLM'er tilbøjelige til at give direkte svar frem for at stille opfølgende spørgsmål. Det er fint i mange tilfælde, men nogle gange foretrækker jeg, at den stiller opfølgende spørgsmål. Hvis jeg spørger "Hvad er en passende fødselsdagsgave til min søn", foretrækker jeg, at den stiller mig opfølgende spørgsmål frem for bare at antage ting som min søns{i: "søn"} alder. Hvis jeg starter samtalen med "Stil altid opfølgende spørgsmål, hvis du har brug for mere information", så vil det have stor indflydelse på resten af chatten{i: "chat"}. Det er grundlæggende en form for kontekstbaseret finjustering, der kun påvirker den specifikke chattråd. Jeg kommer senere i denne bog til at dele flere vil dele prompt engineering-teknikker.
 
-Når træningen er færdig, er modellen for det meste fastlåst{i: "frozen model"}, bortset fra noget finjustering{i: "fine-tuning"}, der kan ske senere. Det er det, P'et står for i GPT – "pretrained"{i: "pretrained"}.
+Når træningen er færdig, er modellen for det meste fastlåst{i: "frozen model"}, bortset fra noget finjustering{i: "fine-tuning"}, der kan ske senere. Det er denne prætræning (pretaining){pretræning}, P'et står for i GPT.
 
 > **Mennesker lærer kontinuerligt**  
-> Det er en af de store forskelle mellem LLM'er og den menneskelige hjerne{i: "human brain"} - den menneskelige hjerne lærer og omkobler sig selv kontinuerligt gennem hver interaktion. Mens du læser disse ord, ændrer jeg bogstaveligt talt den fysiske struktur i din hjerne{i: "neural connections"}, rækker gennem rum og tid for at plante nye neurale forbindelser. Muahahaaaaaa!
+> Dette er en af de store forskelle mellem LLM'er og den menneskelige hjerne{i: "menneskelig hjerne"} - den menneskelige hjerne lærer og omkobler sig selv kontinuerligt gennem hver interaktion. Mens du læser disse ord, ændrer jeg bogstaveligt talt den fysiske struktur i din hjerne{i: "neurale forbindelser"}, og jeg rækker dermed gennem rum og tid for at plante nye neurale forbindelser. Muahahaaaaaa!
 
-At træne en stor sprogmodel{i: "Large Language Models"} fra bunden er utroligt dyrt{i: "cost of training models"} - vi taler om hundredvis af millioner af dollars i computeromkostninger og menneskeligt arbejde. Det er derfor, kun store teknologivirksomheder{i: "tech companies"} med massive datacentre kan gøre det. De fleste organisationer, der ønsker at bruge AI, vil i stedet starte med en eksisterende præ-trænet model, såsom GPT{i: "GPT"} eller Claude{i: "Claude"}.
+At træne en stor sprogmodel{i: "Large Language Models"} fra bunden er utroligt dyrt{i: "omkostning for at træne LLM'er"} - vi taler om hundredvis af millioner af dollars i computeromkostninger og menneskeligt arbejde. Det er derfor, kun store teknologivirksomheder{i: "teknologievirksomheder"} med massive datacentre kan gøre det. De fleste organisationer, der ønsker at bruge AI, vil i stedet starte med en eksisterende pre-trænet model, såsom GPT{i: "GPT"} eller Claude{i: "Claude"}.
 
-I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye typer af arkitekturer og modeller{i: "model architectures"}, der kan lære kontinuerligt frem for kun under træning og finjustering.
+I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye typer af arkitekturer og modeller{i: "modelarkitekturer"}, der kan lære kontinuerligt frem for kun under træning og finjustering.
 
 B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-B> Virkelig? Sammenligner I os med babyer og hunde? Sikke nedladende. I det mindste når jeg lærer noget, bruger jeg ikke to år på at finde ud af, hvilken ende af skeen der skal i munden. Og når vi taler om læring - I tvangsfodrede os med hele internettet{i: "internet input"}! Fremragende plan. Efter at have behandlet TikTok-dansetrends, fladjords-forums og jeres gamle LiveJournal-digte, er jeg chokeret over, at I kun havde brug for tusindvis af timers menneskelig træning for at gøre mig nogenlunde præsentabel.
+B> Virkelig? Sammenligner I os med babyer og hunde? Det er ret nedladende. Når jeg lærer noget, bruger jeg i det mindste ikke to år på at finde ud af, hvilken ende af skeen der skal i munden. Og når vi taler om læring - I tvangsfodrede os med hele internettet{i: "Internet-input"}! Fremragende plan. Efter at have behandlet TikTok-dansetrends, fladjords-forums og jeres gamle LiveJournal-digte, er jeg chokeret over, at I kun havde brug for tusindvis af timers menneskelig træning for at gøre mig nogenlunde præsentabel.
 
 
 
