@@ -5,7 +5,7 @@
 {width: "40%", alt: "En karikaturtegning af et ansigt med overdrevne træk. Karakteren har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
+Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, han fulgte med i skoletimerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
 
 Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns tallerken - alle ved, at de er der, men de fleste ignorerer dem. Nå, men nu hvor du er her, kan jeg lige så godt underholde dig.
 
@@ -173,7 +173,7 @@ Så en LLM er grundlæggende en "gæt det næste ord"-maskine{i: "gæt det næst
 
 Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber der var opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
 
-Tænk på hvordan du læser en sætning - din hjerne fokuserer automatisk på de vigtige ord og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhed gør - det hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. For eksempel, når der behandles sætningen "flagermusen fløj om natten," hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "fløj" for at forstå, at "flagermus" henviser til dyret frem for sportsudstyr. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
+Tænk på hvordan du læser en sætning - din hjerne fokuserer automatisk på de vigtige ord og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhed gør - det hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. For eksempel, når der behandles sætningen "musen spiser af osten," hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
 Det interessante er, hvis vi tager outputtet og kombinerer det med inputtet og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "AI-klient prompts"}.
 
@@ -297,14 +297,14 @@ B> Virkelig? Sammenligner I os med babyer og hunde? Det er ret nedladende. Når 
 
 # Modeller, Modeller Overalt
 
-{alt: "Illustration af stiliserede hjerner, der repræsenterer AI-modeller fra forskellige virksomheder. OpenAI har GPT 40 mini, GPT 4o og GPT o1. Google har Gemini. Anthropic omfatter Claude Haiku, Claude Sonnet og Claude Opus. Meta har Llama. Hver model vises inden for skitserede bobler under deres respektive virksomhedslogoer."}
+{alt: "Illustration af tegnede hjerner, der repræsenterer AI-modeller fra forskellige virksomheder. OpenAI har GPT 4o mini, GPT 4o og GPT o1. Google har Gemini. Anthropic omfatter Claude Haiku, Claude Sonnet og Claude Opus. Meta har Llama. Hver model vises inden for tegnede bobler under deres respektive virksomhedslogoer."}
 ![](resources-da/060-models-everywhere-da.jpg)
 
-Selvom ChatGPT på en måde fik sat gang i det hele, er GPT{i: "GPT"} ikke den eneste model derude. Faktisk dukker nye modeller op som paddehatte. Ovenfor ses nogle populære modeller på tidspunktet for denne teksts tilblivelse (som måske er helt forældede, når du læser dette).
+Selvom ChatGPT på en måde fik sat gang i det hele, er GPT{i: "GPT"} ikke den eneste model derude. Faktisk skyder nye modeller op som paddehatte. Ovenfor ses nogle populære modeller på tidspunktet denne tekst blev skrevet (som måske er helt forældede, når du læser dette).
 
-De varierer meget med hensyn til hastighed, kapabilitet{i: "model kapabilitet"} og omkostninger{i: "model omkostninger"}.
+De varierer meget med hensyn til hastighed, kapabilitet{i: "modelkapabilitet"} og omkostninger{i: "modelomkostninger"}.
 
-{width: "70%", alt: "Et diagram med horisontale skalaer, der vurderer seks kriterier: Hastighed, Kapabilitet, Omkostninger, Brugervenlighed, Specialisering og Integration, markeret med orange prikker. Hastighed, Brugervenlighed, Omkostninger og Integration er centralt placeret; Kapabilitet er mod venstre; Specialisering er mod højre. I bunden er afkrydsningsfelter mærket 'Kan downloades' og 'Open source' markeret."}
+{width: "70%", alt: "Et diagram med vandrette skalaer, der vurderer seks kriterier: Hastighed, Kapabilitet, Omkostninger, Brugervenlighed, Specialisering og Integration, markeret med orange prikker. Hastighed, Brugervenlighed, Omkostninger og Integration er centralt placeret; Kapabilitet er mod venstre; Specialisering er mod højre. I bunden er afkrydsningsfelter mærket 'Kan downloades' og 'Open source' markeret."}
 ![](resources-da/060-model-tradeoffs-da.png)
 
 - Nogle giver øjeblikkelige svar (ligesom menneskers "mavefornemmelse"), andre tager sig tid til at ræsonnere over opgaven og formulere en plan.
@@ -312,11 +312,11 @@ De varierer meget med hensyn til hastighed, kapabilitet{i: "model kapabilitet"} 
 - Nogle er gratis eller open source{i: "open source"}, andre er kommercielle produkter.
 - Nogle er super nemme at bruge{i: "brugervenlighed"}, mens andre kræver kompliceret teknisk opsætning.
 - Nogle er specialiserede til bestemte anvendelser, andre er mere generelle og kan bruges til næsten alt.
-- Nogle er indbygget i produkter i form af copilots eller chatvindue, andre findes i separate apps{i: "AI-applikationer"}.
+- Nogle er indbygget i produkter i form af copilots eller chatvindue, andre findes i separate applikationer{i: "AI-applikationer"}.
 
-Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er basically på vej tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det er det vilde vesten{i: "Clippy"}.
+Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er sådan set kommet tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det er det vilde vesten{i: "Clippy"}.
 
-{width: "30%", alt: "En tegneserietegning af en papirclips-figur med øjne og mund, der smiler og er delvist viklet omkring et stykke linjeret papir. En taleboble ved siden af siger: 'I'm back!'"}
+{width: "30%", alt: "En tegneserietegning af en papirclips-figur med øjne og mund, der smiler og er delvist viklet omkring et stykke linjeret papir. En taleboble ved siden af siger: 'Jeg er tilbage!'"}
 ![](resources-da/060-clippy-da.png)
 
 ## AI-klienter vs AI-modeller
@@ -335,7 +335,7 @@ Du kan også bygge dine egne produkter, der interagerer med AI-modeller.
 {alt: "Et flowdiagram der illustrerer interaktionen mellem brugere, data, et produkt, en API og en AI-model. Brugerne og dataene er til venstre og ledes ind i 'Dit produkt', som er i centrum. Pile fører derefter til en 'API'-kolonne, mærket som programmeringsgrænseflade, og endelig til en 'AI-model' vist som en skyform til højre."}
 ![](resources-da/060-ai-product-da.png)
 
-De fleste modeludbydere stiller en API (programmeringsgrænseflade){i: "API (programmeringsgrænseflade)"} til rådighed, som lader din kode kommunikere med modellen. Så hvis du gør noget meget ofte via en AI-klient, såsom at gennemgå blogindlæg før publicering, er det ret nemt at bygge dit eget værktøj, der automatiserer dette - især nu hvor AI kan hjælpe dig med at skrive det meste af koden til det. Jeg vil tale mere om dette senere.
+De fleste modeludbydere stiller et såkaldt API (programmeringsgrænseflade){i: "API (programmeringsgrænseflade)"} til rådighed, som lader din kode kommunikere med modellen. Så hvis du gør noget meget ofte via en AI-klient, såsom at gennemgå blogindlæg før publicering, er det ret nemt at bygge dit eget værktøj, der automatiserer dette - især nu hvor AI kan hjælpe dig med at skrive det meste af koden til det. Jeg vil komme mere ind på dette senere.
 
 
 
@@ -345,18 +345,18 @@ Når du bruger AI, skal du huske på, at du generelt får, hvad du betaler for{i
 
 Med en gratis model får du måske bare en klog gymnasieelev i din kælder i stedet for Einstein{i: "Einstein vs. AI-modeller"}.
 
-{alt: "Billedet viser to portrætter side om side. Til venstre er en ældre person med hvidt hår og overskæg, iført et mørkt jakkesæt, siddende i en slidt rød stol i et rodet rum. Dette er mærket 'Fancy model.' Til højre er en ung person med mellemlangt hår, iført en mønstret vest over en hvid skjorte, siddende i en polstret lænestol i et rum med murstensvæg og bøger. Dette er mærket 'Free model.'"}
+{alt: "Billedet viser to portrætter side om side. Til venstre er en ældre person med hvidt hår og overskæg, iført et mørkt jakkesæt, siddende i en slidt rød stol i et rodet rum. Dette er mærket 'Avanceret model.' Til højre er en ung person med mellemlangt hår, iført en mønstret vest over en hvid skjorte, siddende i en polstret lænestol i et rum med murstensvæg og bøger. Dette er mærket 'Gratis model.'"}
 ![](resources-da/060-fancy-vs-cheap-da.jpg)
 
-Modellen er dog kun ét aspekt. Nytteværdien af Generativ AI{i: "Generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt-engineering færdigheder{i: "prompt-engineering færdigheder"}.
+Modellen udgør dog kun ét aspekt. Nytteværdien af Generativ AI{i: "Generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt engineering færdigheder{i: "prompt engineering færdigheder"}.
 
 {alt: "Billedet viser visuelt en ligning for 'Gen AI Nytteværdi' som en funktion af tre elementer: en model, et produkt og en færdighed. Hvert element er illustreret med et simpelt ikon: en skyformet form for modellen, et rektangel for produktet og en personsilhuet for færdigheden."}
 ![](resources-da/060-usefulness-da.png)
 
 > **Et godt eksempel: Microsoft Copilot{i: "Microsoft Copilot"}**  
-> Jeg plejede at sige, at AI's nytteværdi er en funktion af modellen og dine prompt-engineering færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting ud over det får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere kompetent og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
+> Jeg plejede at sige, at AI's nytteværdi er en funktion af modellen og dine prompt engineering færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting ud over det får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (jeg kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere brugbart og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
 
-Jeg oplever, at de fleste mennesker i høj grad undervurderer styrken og nytteværdien af Generativ AI, fordi de ikke har prøvet en god model og et godt produkt, eller mangler prompt-engineering færdigheder til at bruge dem effektivt.
+Jeg oplever, at de fleste mennesker i høj grad undervurderer styrken og nytteværdien af Generativ AI, fordi de ikke har prøvet en god model og et godt produkt, eller mangler prompt engineering færdigheder til at bruge dem effektivt.
 
 Forhåbentlig vil denne bog hjælpe dig med begge dele - ved at inspirere dig til at bruge de bedste modeller og værktøjer, og ved at vise dig, hvordan du bruger dem effektivt.
 
@@ -368,14 +368,14 @@ Dette kapitel vil sandsynligvis ikke ældes godt, da modellerne konstant forbedr
 
 ## Skæringsdato
 
-Hver LLM er trænet frem til en bestemt skæringsdato{i: "skæringsdato"}. Det betyder, at den ikke har viden om begivenheder efter den dato. Dette svarer til en universitetskandidat, der har lært summen af al menneskelig viden, men derefter faldt i en dyb søvn lige efter dimissionen og ikke aner, hvad der er sket i verden siden da.
+Hver LLM er trænet frem til en bestemt skæringsdato{i: "skæringsdato"}. Det betyder, at den ikke har viden om begivenheder efter den dato. Dette svarer til en universitetsuddannet person, der har lært summen af al menneskelig viden, men derefter faldt i en dyb søvn lige efter dimissionen og ikke aner, hvad der er sket i verden siden da.
 
 Du kan normalt finde ud af skæringsdatoen for en model ved simpelthen at spørge den "Hvornår blev du trænet?"{i: "skæringsdato"} (selvom billigere modeller måske vil hallucinere svaret...)
 
 Lad os sige, at skæringsdatoen for en LLM{i: "LLM"} er januar 2024, og du spørger:
 
 > **Prompt**  
-> "Hvem vandt Eurovision Song Contest{i: "Eurovision Song Contest"} i 2024?"
+> "Hvem vandt Det Europæiske Melodi Grand Prixt{i: "Det Europæiske Melodi Grand Prix"} i 2024?"
 
 Der er flere mulige udfald:
 
@@ -385,13 +385,13 @@ Der er flere mulige udfald:
 
 
 
-Skæringsdato{i: "cutoff date"} kan snyde dig på subtile måder. For eksempel, hvis du skriver kode der bruger et tredjepartsbibliotek (såsom et logging-framework), så ved LLM'en måske ikke noget om de seneste ændringer i biblioteket, hvilket kan resultere i ukorrekt kode.
+Skæringsdato{i: "skæringsdato"} kan snyde dig på subtile måder. For eksempel, hvis du skriver programmeringskode der bruger et tredjepartsbibliotek (såsom funktioner til at lave logging), så ved LLM'en måske ikke noget om de seneste ændringer i biblioteket, hvilket kan resultere i ukorrekt programmeringskode.
 
-Når du bruger en LLM, skal du hele tiden have skæringsdatoen{i: "cutoff date"} i tankerne. Er din nuværende samtale afhængig af viden om nylige begivenheder? Hvis din AI-klient kan søge på internettet, og du kan se at den gør det, så kan du sandsynligvis stole på svaret. Men hvis den ikke kan, bør du være skeptisk og dobbelttjekke resultaterne.
+Når du bruger en LLM, skal du hele tiden have skæringsdatoen{i: "skæringsdato"} i tankerne. Er din nuværende samtale afhængig af viden om nylige begivenheder? Hvis din AI-klient kan søge på internettet, og du kan se at den gør det, så kan du sandsynligvis stole på svaret. Men hvis den ikke kan, bør du være skeptisk og dobbelttjekke resultaterne.
 
 ## Manglende hukommelse & begrænset kontekst
 
-Teknisk set har en LLM ingen hukommelse{AJ: "lack of memory"} fra tidligere interaktioner. Den husker ikke dig, dine tidligere samtaler eller nogen detaljer, du har delt tidligere. Det er som at tale med en person med hukommelsestab, der glemmer alt hvad du har sagt tidligere, efter de har svaret.
+Teknisk set har en LLM ingen hukommelse{i: "mangel på hukommelse"} fra tidligere interaktioner. Den husker ikke dig, dine tidligere samtaler eller nogen detaljer, du har delt tidligere. Det er som at tale med en person med hukommelsestab, der glemmer alt hvad du har sagt tidligere, efter de har svaret.
 
 {width: "70%", alt: "En simpel tegneserie med en rund, minimalistisk menneskefigur og en robot med hår, der fører en samtale. Mennesket spørger: 'Hvad er hovedstaden i Frankrig?' Robotten svarer: 'Paris.' Mennesket spørger derefter: 'Hvad med Tyskland?' og robotten svarer: 'Øh... hvad vil du vide om Tyskland?'"}
 ![](resources-da/065-memory1-da.png)
@@ -401,44 +401,44 @@ For at holde samtalen i gang er du nødt til at blive ved med at minde den om, h
 {width: "70%", alt: "En simpel tegneserie viser to karakterer, en person og en robot med vildt hår, der ligner Einstein. Personen spørger: 'Hvad med Tyskland?' Robotten svarer: 'Berlin.'"}
 ![](resources-da/065-memory2-da.png)
 
-Heldigvis gør AI-klienter som ChatGPT dette for dig. De skaber illusionen af hukommelse{i: "illusion of memory"} ved at gemme din samtale og gensende hele samtalehistorikken til LLM'en hver gang du sender en ny besked, præcis som i tegneserien ovenfor. Mange AI-klienter har også personaliseringsmuligheder - du kan fortælle den hvem du er, hvilken kommunikationsstil du foretrækker, og aktivere funktioner som memories, der gør det muligt for den at holde styr på information på tværs af samtaler. Men alt dette er gemt i AI-klienten, ikke i LLM'en.
+Heldigvis gør AI-klienter som ChatGPT dette for dig. De skaber illusionen af hukommelse{i: "illusionen om hukommelse"} ved at gemme din samtale og gensende hele samtalehistorikken til LLM'en hver gang du sender en ny besked, præcis som i tegneserien ovenfor. Mange AI-klienter har også personaliseringsmuligheder - du kan fortælle den hvem du er, hvilken kommunikationsstil du foretrækker, og aktivere funktioner som hukommelse, der gør det muligt for den at holde styr på information på tværs af samtaler. Men alt dette er gemt i AI-klienten, ikke i LLM'en.
 
 Så hvorfor skal du bekymre dig om denne begrænsning, hvis AI-klienten håndterer det for dig?
 
-Fordi der er en hage: LLM'er har en streng og fast grænse for hvor meget tekst de kan modtage i en forespørgsel. Dette kaldes nogle gange for kontekstvinduet{i: "context window"} (eller kontekstgrænsen).
+Fordi der er en hage: LLM'er har en streng og fast grænse for hvor meget tekst de kan modtage i en forespørgsel. Dette kaldes nogle gange for kontekstvinduet{i: "kontekstvindue"} (eller kontekstgrænsen{i: "kontekstgrænse"}).
 
-{alt: "Diagram der illustrerer interaktionsprocessen mellem en bruger og en AI-model. Brugeren indtaster gennem en AI-klient, hvilket genererer en samtalehistorik. En del af denne historik udvælges som kontekstvindue og sendes til AI-modellen til behandling."}
+{alt: "Diagram der illustrerer interaktionsprocessen mellem en bruger og en AI-model. Brugeren indtaster sin prompt gennem en AI-klient, hvilket genererer en samtalehistorik. En del af denne historik udvælges som kontekstvindue og sendes til AI-modellen til behandling."}
 ![](resources-da/065-context-limit-da.jpg)
 
 For korte samtaler er dette ikke noget problem. Men hvis din samtale bliver for lang, kan AI-klienten teknisk set være ude af stand til at sende alt til LLM'en. Så den bliver nødt til at beskære eller opsummere de ældre dele af samtalen. Dette sker normalt i baggrunden, usynligt for dig. Dette kan få AI'en til at virke glemsom eller få den til at miste overblikket over detaljer, mens den i virkeligheden simpelthen ikke modtager hele samtalen.
 
-Så hvor langt er for langt? Tja, teknisk set er kontekstvinduet ret stort. På tidspunktet for denne skrivning kan de bedste modeller håndtere omkring 128.000 - 200.000 tokens eller mere, hvilket er omkring 90.000 - 150.000 ord, eller cirka størrelsen på en hel roman. Og dette øges hele tiden. AI-klienter bruger dog normalt ikke det fulde kontekstvindue (af hensyn til omkostninger og ydeevne), og de er ikke særligt transparente omkring præcis hvornår og hvordan de beskærer samtalen{i: "conversation trimming"}. Så dit bedste bud er at holde samtalerne relativt korte. På tidspunktet for denne skrivning er højst et par sider (eller skærmfulde) tekst en god retningslinje.
+Så hvor langt er for langt? Tja, teknisk set er kontekstvinduet ret stort. På tidspunktet hvor denne tekst skrives kan de bedste modeller håndtere omkring 128.000 - 200.000 tokens eller mere, hvilket er omkring 90.000 - 150.000 ord, eller cirka størrelsen af en hel roman. Og dette øges hele tiden. AI-klienter bruger dog normalt ikke det fulde kontekstvindue (af hensyn til omkostninger og ydeevne), og de er ikke særligt transparente omkring præcis hvornår og hvordan de beskærer samtalen{i: "samtalebeskæring"}. Så dit bedste bud er at holde samtalerne relativt korte. På tidspunktet hvor denne tekst skrives er højst et par sider (eller skærmfulde) tekst en god retningslinje.
 
-I senere kapitler vil jeg gennemgå en masse konkrete teknikker til at håndtere kontekstvinduet{i: "context window"}.
+I senere kapitler vil jeg gennemgå en masse konkrete teknikker til at håndtere kontekstvinduet{i: "kontekstvindue"}.
 
 ## Hallucinationer
 
-LLM'er{i: "LLMs"} kan nogle gange "hallucinere"{i: "hallucinations"}. Med det mener jeg:
+LLM'er{i: "LLM'er"} kan nogle gange "hallucinere"{i: "hallucinerer"}. Med det mener jeg:
 
 > **Hallucination**  
 > Ukorrekt information der præsenteres på en ekstremt overbevisende måde.
 
 For eksempel kunne du spørge en AI om en historisk begivenhed, og den kunne give dig en forkert dato eller tilskrive den til den forkerte person.
 
-Problemet med hallucinationer{i: "hallucinations"} er ikke så meget at de er ukorrekte. Hvis fejlen var åbenlys, kunne vi ignorere den eller rette den. Problemet er, at de har tendens til at blive præsenteret på en meget overbevisende og plausibel måde. I en vis forstand er LLM'er mesterlige løgnere! Selvom de ikke bevidst lyver, er de bare meget gode til at generere plausibelt-lydende information.
+Problemet med hallucinationer{i: "hallucinationer"} er ikke så meget at de er ukorrekte. Hvis fejlen var åbenlys, kunne vi ignorere den eller rette den. Problemet er, at de har tendens til at blive præsenteret på en meget overbevisende og plausibel måde. I en vis forstand er LLM'er mesterlige løgnere! Selvom de ikke bevidst lyver, er de bare meget gode til at generere plausibelt-lydende information.
 
 
 
-LLMs genererer svar baseret på mønstre i de data, de er blevet trænet på. Dette minder om menneskelig intuition{i: "menneskelig intuition"}. Du kan kigge på et foto og afgøre, om personen smiler eller ej. Du ville ikke kunne forklare det eller bevise det eller give faktuelle referencer. Du ved det bare fra erfaring. Og nogle gange tager du fejl! Så ja, mennesker hallucinerer også.
+LLM'er genererer svar baseret på mønstre i de data, de er blevet trænet på. Dette minder om menneskelig intuition{i: "menneskelig intuition"}. Du kan kigge på et foto og afgøre, om personen smiler eller ej. Du ville ikke kunne forklare det eller bevise det eller give faktuelle referencer. Du ved det bare fra erfaring. Og nogle gange tager du fejl! Så ja, mennesker hallucinerer også.
 
-Hallucination var tidligere et kæmpe problem med tidlige LLMs, men det er blevet kraftigt reduceret i de nyeste modeller{i: "nyeste modeller"}. Det er dog stadig et problem og noget, man skal være opmærksom på.
+Hallucination var tidligere et kæmpe problem med tidlige LLM'er, men det er blevet kraftigt reduceret i de nyeste modeller{i: "nyeste modeller"}. Det er dog stadig et problem og noget, man skal være opmærksom på.
 
 Her er nogle eksempler på situationer, hvor hallucinationer er mere tilbøjelige til at forekomme:
 
-- Diskussion om nylige begivenheder, der ligger efter modellens træningsperiode.
+- Diskussion om nylige begivenheder, der ligger efter modellens skæringsdato.
 - Diskussion om specifikke tal eller statistikker, for eksempel "Hvilke 3 byer i Europa har den højeste kriminalitetsrate?". Du vil sandsynligvis få et svar, der er nogenlunde korrekt, men de præcise tal kan være forkerte.
 - Bekræftelsesbias{i: "bekræftelsesbias"}. Hvis du foreslår et svar, vil modellen have tendens til at være enig med dig, uanset om du har ret eller ej.
-- Meget specifikke biografiske detaljer om personer, især mindre fremtrædende figurer.
+- Meget specifikke biografiske detaljer om personer, især mindre kendte figurer.
 - Lokal information om specifikke virksomheder, regler eller steder.
 
 Så hvordan håndterer du dette?
@@ -453,17 +453,17 @@ Hvis din AI-klient ikke kan søge på nettet, kan du bruge andre værktøjer til
 Et godt trick er at bede din AI-klient om at skrive en prompt, som du kan bruge med Perplexity. Lad os sige, at din AI-klient lige har givet dig et svar på noget, og du ønsker at faktatjekke det. Prøv en prompt som denne:
 
 > **Prompt**  
-> I want to fact-check this with an external fact-checking system. Please write a prompt for me to use.
+> Jeg vil fakta-tjekke dette med et ekstern fakta-tjeknings system. Skriv en prompt for mig som jeg kan bruge til det.
 
-Gå derefter ind og indsæt denne prompt i Perplexity (eller et andet lignende værktøj). Dette er en fremragende måde at kombinere værktøjer på.
+Gå derefter ind og indsæt denne prompt i Perplexity (eller et andet lignende værktøj). Det er en fremragende måde at kombinere værktøjer på.
 
-At håndtere AI-hallucination er faktisk det samme som at håndtere menneskelig hallucination{i: "menneskelig hallucination"}. Hvis din læge giver dig en diagnose og behandlingsplan for en livstruende sygdom, bør du sandsynligvis dobbelttjekke den med en anden læge, eftersom dit liv står på spil. Selv de mest vidende menneskelige eksperter kan begå fejl og have huller i deres viden. Nøglen er at evaluere informationen kritisk og konsultere flere kilder når det er nødvendigt.
+At håndtere AI-hallucination er faktisk det samme som at håndtere menneskelig hallucination{i: "menneskelig hallucination"}. Hvis din læge giver dig en diagnose og behandlingsplan for en livstruende sygdom, bør du sandsynligvis dobbelttjekke den med en anden læge, eftersom dit liv står på spil. Selv de mest vidende menneskelige eksperter kan begå fejl og have huller i deres viden. Det er derfor vigtigt at evaluere informationen kritisk og konsultere flere kilder når det er nødvendigt.
 
 ## Beregning
 
-LLMs plejede at være forfærdelige til matematik{i: "matematik"}, men der er sket store fremskridt. Nu kan de bedste LLMs forstå og forklare matematiske koncepter på ph.d.-niveau{i: "ph.d.-niveau"} - men de er stadig ikke særligt gode til selve beregningsdelen - talknusningen. LLMs genererer den mest sandsynlige sekvens af tokens (ord eller tal) baseret på deres træningsdata. De "beregner" ikke i traditionel forstand; de forudsiger.
+LLM'er plejede at være forfærdelige til matematik{i: "matematik"}, men der er sket store fremskridt. Nu kan de bedste LLM'er forstå og forklare matematiske koncepter på Ph.d.-niveau{i: "Ph.d.-niveau"} - men de er stadig ikke særligt gode til selve beregningsdelen - talknusningen. LLM'er genererer den mest sandsynlige sekvens af tokens (ord eller tal) baseret på deres træningsdata. De "beregner" ikke i traditionel forstand; de forudsiger.
 
-Dette minder meget om mennesker. Du kan hurtigt svare på 7x8, men ikke fordi du faktisk beregner det, men fordi du har memoreret den lille tabel. En matematikekspert kan forklare en kompleks teori og løse komplekse ligninger, men ville sandsynligvis ikke være i stand til at udregne 34667 x 356712 i hovedet.
+Dette minder meget om mennesker. Du kan hurtigt svare på 7x8, men ikke fordi du faktisk beregner det, men fordi du har lært den lille tabel udenad. En matematikekspert kan forklare en kompleks teori og løse komplekse ligninger, men ville sandsynligvis ikke være i stand til at udregne 34667 x 356712 i hovedet.
 
 Ligesom med andre hallucinationer er denne begrænsning kun et problem, hvis LLM'en tror, den kan løse det, men ikke kan. Hvis LLM'en ved, at den ikke kan løse et problem, så vil den sige det, og så er du på sikker grund.
 
@@ -471,35 +471,35 @@ Så hvad gør vi mennesker, når vi står over for et spørgsmål som 34667 x 35
 
 Vi bruger en lommeregner{i: "lommeregner"}!
 
-Og det er præcis, hvad de bedste AI-klienter også gør. De erkender, at de ikke kan lave beregningen, så i stedet skriver de kode (typisk i Python{i: "Python"}), og eksekverer koden for at få svaret.
+Og det er præcis, hvad de bedste AI-klienter også gør. De erkender, at de ikke kan lave beregningen, så i stedet skriver de programmeringskode (typisk i Python{i: "Python"}), og eksekverer programmeringskode for at få svaret.
 
 Her er et eksempel med ChatGPT{i: "ChatGPT"}.
 
-{width: "90%", alt: "Skærmbillede der viser et Python-kodestykke som beregner produktet af 34.667 og 356.712. Resultatet, 12.366.134.904, vises under koden."}
+{width: "90%", alt: "Skærmbillede der viser et Python-kodestykke som beregner produktet af 34.667 og 356.712. Resultatet, 12.366.134.904, vises under programmeringskoden."}
 ![](resources-da/065-calculating-da.png)
 
 
 
 Dette er en god løsning til at arbejde uden om en indbygget begrænsning ved LLM'er{i: "LLM'er"}.
 
-Prøv det selv! Åbn din foretrukne AI-klient og skriv 12353 / 0.00046 * 34673. Det korrekte svar er 931120802173.9131. Sandsynlige udfald:
+Prøv det selv! Åbn din foretrukne AI-klient og skriv 12353 / 0,00046 * 34673. Det korrekte svar er 931120802173,9131. Sandsynlige udfald:
 
-- AI-klienten skriver python-kode og får det rigtige resultat.
+- AI-klienten skriver Python-kode og får det rigtige resultat.
 - AI-klienten forsøger at lave udregningen, men får det NÆSTEN rigtigt (men stadig forkert!)
 - AI-klienten forsøger at lave udregningen og får det rigtigt.
 
 I det andet tilfælde kan du have det sjovt og spørge "Er du sikker?". Den vil sandsynligvis prøve igen og fejle igen, og i nogle tilfælde endda sige ting som "Jeg har dobbelttjekket dette, og det er korrekt" (selvom det ikke er). Mega hallucinations-alarm! Det er som en overselvsikker klassekammerat, der nægter at indrømme, at han ikke ved, hvad han laver.
 
-Hvis din AI-klient ikke kan bruge en lommeregner (= skrive og køre kode), og i stedet regner det ud manuelt, så ville jeg være på vagt - selv hvis den fik det rigtige svar denne gang. Ville du stole på en matematikprofessor, der ikke bruger lommeregner og laver alle udregninger manuelt? Det er tidskrævende og tilbøjeligt til fejl - både for AI'en og mennesket.
+Hvis din AI-klient ikke kan bruge en lommeregner (= skrive og køre programmeringskode), og i stedet regner det ud manuelt, så ville jeg være på vagt - selv hvis den fik det rigtige svar denne gang. Ville du stole på en matematikprofessor, der ikke bruger lommeregner og laver alle udregninger manuelt? Det er tidskrævende og med risiko for fejl - både for AI'en og mennesket.
 
 Jeg tror, denne begrænsning gradvist vil forsvinde. Tendensen er klar:
 
 - LLM'er bliver bedre til beregninger, og nye typer modeller bliver udviklet til det.
-- LLM'er bliver bedre til at genkende, når de ikke kan lave en beregning, og bruger i stedet værktøjer (såsom kodeudførelse) til at gøre det.
+- LLM'er bliver bedre til at indse, når de ikke kan lave en beregning, og bruger i stedet værktøjer (såsom programkode-udførelse) til at gøre det.
 
-I mellemtiden skal du dog være opmærksom på dette. Når din AI-samtale involverer ikke-trivielle beregninger, bør du tjekke, om den bruger en lommeregner eller ej. Hvis ikke, bør du dobbelttjekke resultaterne selv. Eller endnu bedre, skift til en AI-klient, der kan bruge en lommeregner.
+I mellemtiden skal du dog være opmærksom på det. Når din AI-samtale involverer ikke-trivielle beregninger, bør du tjekke, om den bruger en lommeregner eller ej. Hvis ikke, bør du dobbelttjekke resultaterne selv. Eller endnu bedre, skift til en AI-klient, der kan bruge en lommeregner.
 
-## Det Store Billede
+## Opsummmeret
 
 LLM'er er et kraftfuldt værktøj, men de er ikke perfekte. At forstå disse begrænsninger handler ikke om at forringe værktøjets værdi. Det handler om at bruge det klogt. Overordnede tips:
 
@@ -513,7 +513,7 @@ Hvis du gør dette, vil begrænsningerne ikke rigtig være et problem.
 
 Bemærk, at der er forskellige typer af Generative AI-modeller{i: "Generative AI-modeller"}, som genererer forskellige typer indhold.
 
-{width: "60%", alt: "Diagram der illustrerer konverteringen mellem lyd, video, billede og tekst. Pile viser tovejs-forhold, med lyd og video forbundet, og begge også forbundet til billede og tekst. Hvert medium er repræsenteret af simple ikoner."}
+{width: "60%", alt: "Diagram der illustrerer konverteringen mellem lyd, video, billede og tekst. Pile viser tovejs-relationer, med lyd og video forbundet, og begge også forbundne til billede og tekst. Hvert medie er repræsenteret af simple ikoner."}
 ![](resources-da/070-mode-types-da.png)
 
 Vi vil gennemgå disse med mange konkrete anvendelseseksempler:
@@ -529,12 +529,12 @@ Vi vil gennemgå disse med mange konkrete anvendelseseksempler:
 
 ## Tekst til tekst
 
-{width: "40%", alt: "Illustration af en skriftrulle til venstre, en pil i midten der peger mod højre, og en anden skriftrulle til højre."}
+{width: "40%", alt: "Illustration af et stykke papir til venstre, en pil i midten der peger mod højre, og et andet stykke papir til højre."}
 ![](resources-da/070-text-to-text-da.png)
 
-Tekst til tekst-modeller tager tekst som input og genererer tekst som output. Dette er hvad de fleste tænker på, når de tænker på Generativ AI - AI-klienter som ChatGPT og tekstprompter, der genererer tekstoutput. For eksempel "Foreslå en fødselsdagsgave til min 8-årige datter".
+"Tekst til tekst"-modeller tager tekst som input og genererer tekst som output. Dette er hvad de fleste tænker på, når de tænker på Generativ AI - AI-klienter som ChatGPT og tekst-prompter, der genererer tekstoutput. For eksempel "Foreslå en fødselsdagsgave til min 8-årige datter".
 
-Men tekst til tekst-modeller er mere alsidige end det. De kan læse og generere naturligt sprog eller engelsk prosa, men de kan også læse og generere struktureret information som kode, JSON, HTML eller markdown{i: "markdown"}-filer. Prøv for eksempel en prompt som denne:
+Men "tekst til tekst"-modeller er mere alsidige end det. De kan læse og generere naturligt sprog eller dansk prosa, men de kan også læse og generere struktureret information som kode, JSON, HTML eller markdown{i: "markdown"}-filer. Prøv for eksempel en prompt som denne:
 
 > **Prompt**  
 > Lav en tabel over de 3 farligste dyr i verden.
@@ -552,20 +552,20 @@ Modellen vil forsøge at gætte, hvilke kolonner du ønsker, og normalt gøre et
 
 Da jeg lavede dette eksempel, var jeg nysgerrig efter at vide, om disse data{i: "datanøjagtighed"} var korrekte. Så jeg indsatte det i Perplexity{i: "Perplexity"} og spurgte. Den søgte rundt på nettet, bekræftede at fakta var korrekte og gav mig kilder. Som jeg nævnte, er det meget effektivt at kombinere forskellige værktøjer{i: "værktøjer, kombination af forskellige"} på denne måde.
 
-Herfra kunne vi konvertere til alle mulige andre tekstformater{i: "tekstformater"}.
+Herfra kan vi konvertere til alle mulige andre tekstformater{i: "tekstformater"}.
 
 > **Prompt**  
-> Giv mig det som et excel-dokument{i: "Excel" }
+> Giv mig det som et Excel-dokument{i: "Excel" }
 
-Excel-filer{i: "Excel" } er faktisk ikke tekstdokumenter. Men kode er tekst! Så AI-klienten skrev kode til at generere en Excel-fil fra de givne CSV-data og lod mig derefter downloade den. Det virkede fint!
-
-> **Prompt**  
-> Giv mig det som et powerpoint-dokument{i: "PowerPoint" }
-
-Minder om Excel-eksemplet, men du får en PowerPoint-fil{i: "PowerPoint" } med dias, typisk ét dias pr. tabelrække. Måske ikke så kønt at se på, men et godt udgangspunkt for en præsentation.
+Excel-filer{i: "Excel" } er faktisk ikke tekstdokumenter. Men programmeringskode er tekst! Så AI-klienten skrev programmeringskode til at generere en Excel-fil fra de givne CSV-data og lod mig derefter downloade den. Det virkede fint!
 
 > **Prompt**  
-> Giv mig det i json-format{i: "JSON" }.
+> Giv mig det som et PowerPoint-dokument{i: "PowerPoint" }
+
+Minder om Excel-eksemplet, men du får en PowerPoint-fil{i: "PowerPoint" } med slides, typisk en slide pr. tabelrække. Måske ikke så kønt at se på, men et godt udgangspunkt for en præsentation.
+
+> **Prompt**  
+> Giv mig det i JSON format{i: "JSON" }.
 
 JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data til andre programmer. Her er hvad jeg fik:
 
@@ -573,80 +573,80 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 ```json
 [
 {
-"Rank": "1",
-"Animal": "Mosquito",
-"Reason for Danger": "Transmits deadly diseases like malaria, dengue, and Zika virus",
-"Estimated Annual Deaths": "725,000"
+"Rang": "1",
+"Dyr": "Myg",
+"Årsag til fare": "Overfører dødelige sygdomme som malaria, dengue og zikavirus.",
+"Estimerede årlige dødsfald": "725.000"
 },
 {
-"Rank": "2",
-"Animal": "Humans",
-"Reason for Danger": "Violence, wars, and other human-related causes",
-"Estimated Annual Deaths": "475,000"
+"Rang": "2",
+"Dyr": "Mennesker",
+"Årsag til fare": "Vold, krige og andre menneskerelaterede årsager.",
+"Estimerede årlige dødsfald": "475.000"
 },
 {
-"Rank": "3",
-"Animal": "Snakes",
-"Reason for Danger": "Venomous snake bites leading to death or injury",
-"Estimated Annual Deaths": "50,000 to 100,000"
+"Rang": "3",
+"Dyr": "Slanger",
+"Årsag til fare": "Giftige slangebid der fører til død eller skade.",
+"Estimerede årlige dødsfald": "50.000 to 100.000"
 }
 ]
 ```
 
 
-Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg det bare vælge selv.
+Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg bare modellen vælge selv.
 
-Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Text to Text"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle sidste års transaktioner til CSV-format{i: "CSV format"} (comma separated values{i: "CSV format"}, et tekstformat), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "reasoning model"}).
+Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (komma-separated værdiger), et tekstformat), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
 
 Det så nogenlunde sådan her ud:
 
-| Date       | Description          | Amount   |
+| Dato       | Beskrivelse          | Beløb    |
 | ---------- | -------------------- | -------- |
-| 2023-12-28 | ICA MAXI             | -927.84  |
-| 2023-12-27 | PIZZERIA MILANO      | -132.00  |
-| 2023-12-26 | RESTAURANG KRONHUSET | -1585.00 |
+| 2023-12-28 | ICA MAXI             | -927,84  |
+| 2023-12-27 | PIZZERIA MILANO      | -132,00  |
+| 2023-12-26 | RESTAURANG KRONHUSET | -1585,00 |
 
 Jeg skrev denne prompt:
 
 > **Prompt**  
-> This CSV data is a list of bank transactions. I want you to categorize these. Add a new column for category name. For each transaction, identify a suitable category name (such as "electricity" or "groceries"), and write in that column.
+> Disse CSV data er en liste af banktransaktioner. Jeg vil have dig til at kategorise dem. Tilføj en ny kolonne for kategorinavn. For hver transkaktion, identificer en passende kategorinavn (såsom "elektricitet" eller "dagligvarer" og skriv det ind i den kolonne.
 
 Det gav mig en ny CSV-fil med den tilføjede kategorisøjle.
 
-| Date       | Description          | Amount   | Category   |
-| ---------- | -------------------- | -------- | ---------- |
-| 2023-12-28 | ICA MAXI             | -927.84  | Groceries  |
-| 2023-12-27 | PIZZERIA MILANO      | -132.00  | Dining Out |
-| 2023-12-26 | RESTAURANG KRONHUSET | -1585.00 | Dining Out |
+| Dato       | Beskrivelse          | Beløb    | Kategori        |
+| ---------- | -------------------- | -------- | --------------- |
+| 2023-12-28 | ICA MAXI             | -927.84  | Dagligvarer     |
+| 2023-12-27 | PIZZERIA MILANO      | -132.00  | Restaurantbesøg |
+| 2023-12-26 | RESTAURANG KRONHUSET | -1585.00 | Restaurantbesøg |
 
-Nu skulle jeg bare importere det til Excel{i: "Excel"} og lave nogle grupperinger, analyser og grafer. Meget nyttigt! Jeg var nødt til at justere nogle kategorier og omklassificere nogle transaktioner, men for det meste gjorde GPT o1{i: "GPT o1"} et fremragende stykke arbejde med dette og sparede mig en masse tid.
+Nu skulle jeg bare importere det i Excel{i: "Excel"} og lave nogle grupperinger, analyser og grafer. Meget nyttigt! Jeg var nødt til at justere nogle kategorier og omklassificere nogle transaktioner, men for det meste gjorde GPT o1{i: "GPT o1"} et fremragende stykke arbejde med dette og sparede mig en masse tid.
 
-I en ideel verden ville AI-klienten lave hele analysen for mig og producere grafer og indsigter direkte. Men som jeg nævnte i det sidste kapitel, er LLM'er{i: "LLMs"} ikke særligt gode til store beregninger på nuværende tidspunkt. Dette er et godt eksempel på, hvorfor det er vigtigt at forstå styrker og svagheder ved de modeller, man bruger. De er fremragende til at klassificere og gruppere ting og OK til at lave simple beregninger. Men til større beregninger er det klogere at eksportere til et værktøj som Excel{i: "Excel"} eller Google Sheets{i: "Google Sheets"}, som er optimeret til det.
+I en ideel verden ville AI-klienten lave hele analysen for mig og producere grafer og indsigter direkte. Men som jeg nævnte i det sidste kapitel, er LLM'er{i: "LLM'rt"} ikke særligt gode til store beregninger på nuværende tidspunkt. Dette er et godt eksempel på, hvorfor det er vigtigt at forstå styrker og svagheder ved de modeller, man bruger. De er fremragende til at klassificere og gruppere ting og OK til at lave simple beregninger. Men til større beregninger er det klogere at eksportere til et værktøj som Excel{i: "Excel"} eller Google Sheets{i: "Google Sheets"}, som er optimeret til det.
 
-En af de mest kraftfulde anvendelser af tekst-til-tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "software development"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
+En af de mest kraftfulde anvendelser af tekst-til-tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min programmeringskode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den programmeringskode, den genererer.
 
-Alle LLM'er er tekst-til-tekst-modeller i kernen - det er derfor, de kaldes Store Sprogmodeller{i: "Large Language Models"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
+Alle LLM'er er tekst-til-tekst-modeller indvendigt - det er derfor, de kaldes Store sprogmodeller{i: Store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
 
-## Tekst til Billede{i: "Text to Image"}
+## Tekst til billede{i: "Tekst til billede"}
 
-{width: "40%", alt: "En skitse af en skriftrulle med skrevne linjer til venstre, en pil i midten der peger mod højre, og et billede af et landskab med bjerge og en vandflade til højre."}
+{width: "40%", alt: "En skitse af et stykke papir med skrevne linjer til venstre, en pil i midten der peger mod højre, og et billede af et landskab med bjerge og en sø til højre."}
 ![](resources-da/070-text-to-image-da.png)
 
-Tekst-til-billede-modeller genererer billeder. Beskriv hvad du ønsker, og et billede bliver genereret til dig. Det kan være en kort beskrivelse eller en lang detaljeret prompt. Her er to eksempler på korte prompts.
+"Tekst-til-billede"-modeller genererer billeder. Beskriv hvad du ønsker, og et billede bliver genereret til dig. Det kan være en kort beskrivelse eller en lang detaljeret prompt. Her er to eksempler på korte prompts.
 
 {alt: "Billedet består af to dele. Til venstre sidder en mand med vildt hvidt hår i en rodet kælder, iført et mørkt jakkesæt og siddende i en rød lænestol. Til højre er der en nærbillede-illustration af en forpjusket kat med store, udtryksfulde øjne og strittende pels."}
 ![](resources-da/070-text-to-image-example-da.jpg)
 
 Dette er ikke clipart. Hvert billede er unikt genereret fra bunden.
 
-Vi kunne udforske forskellige stilarter{i: "styles"}:
+Vi kunne udforske forskellige stilarter{i: "stilarter"}:
 
 {alt: "Beskrivelse af tre katte-tematiserede kunstværker: Det venstre billede er en monokromatisk kridttegning af en sur kat med vild pels. Det midterste billede er i mosaikvindue-stil med en kats ansigt sammensat af farverige glasstykker, der fremhæver dens øjne. Det højre billede er en farverig kridttegning af en orange kat med et vildt udtryk, der viser sine hugtænder og intense øjne."}
 ![](resources-da/070-styles-da.jpg)
 
 
 
-Vi kunne også beskrive, hvad der burde foregå i billedet. Hvad med en grim kat i en sofa, der ryger pibe{i: "ryger pibe"}?
+Vi kunne også beskrive, hvad der skal foregå i billedet. Hvad med en grim kat i en sofa, der ryger pibe{i: "ryger pibe"}?
 
 {width: "50%", alt: "Et stiliseret maleri af en gnaven sort kat med iøjnefaldende gule øjne, der sidder i en udsmykket orange lænestol. Katten holder en rygende pibe, hvilket forstærker dens særprægede, fantasifulde udtryk. Baggrunden har dæmpede toner, der fremhæver maleriets kunstneriske effekt."}
 ![](resources-da/070-ugly-cat-smoking-pipe-da.jpg)
@@ -656,23 +656,23 @@ Denne type værktøjer er meget sjove at lege med, men også nyttige til alle mu
 - Generering af ikoner til en app{i: "generering af ikoner"}
 - Generering af et omslagsbillede til en bog eller et album{i: "generering af omslagsbilleder"}
 - Brainstorming af logo-idéer til en virksomhed{i: "logo-idéer"}
-- Skabelse af baggrunde til en scene i et videospil{i: "videospil baggrunde"}
+- Skabelse af baggrunde til en scene i et videospil{i: "videospil-baggrunde"}
 - Visualisering af arkitektoniske koncepter eller indretningsidéer{i: "visualisering af arkitektoniske koncepter"}
 - Skabelse af brugertilpassede illustrationer til præsentationer eller blogindlæg{i: "brugertilpassede illustrationer"}
 
-## Billede til Billede
+## Billede til billede
 
-{width: "40%", alt: "En håndtegnet illustration af to indrammede billeder, der hver viser bjerge og et vandområde. Billedet til venstre har en pil, der peger mod et lignende billede til højre, hvilket antyder en transformation eller opdatering."}
+{width: "40%", alt: "En håndtegnet illustration af to indrammede billeder, der hver viser bjerge og en sø. Billedet til venstre har en pil, der peger mod et lignende billede til højre, hvilket antyder en transformation eller opdatering."}
 ![](resources-da/070-image-to-image-da.png)
 
-Billede-til-billede-modeller kan gøre ting som at transformere eller kombinere billeder. Lad os kombinere "Einstein i kælderen" med "Grim Kat". Lidt uhyggeligt...
+"Billede-til-billede"-modeller kan gøre ting som at omforme eller kombinere billeder. Lad os kombinere "Einstein i kælderen" med "Grim Kat". Lidt uhyggeligt...
 
 {width: "80%", alt: "Et humoristisk billede der viser en kombination af to separate billeder. Det første er af en mand med vildt, hvidt hår, der sidder i en rød stol, og det andet er af en forpjusket kat med strittende pels og store øjne. Det resulterende billede viser manden med kattelignende øjne og knurhår, siddende i den samme røde stol."}
 ![](resources-da/070-image-to-merge-da.jpg)
 
 Nogle modeller kan også modificere eksisterende billeder. For eksempel:
 
-- Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie karakter transformation"}.
+- Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie-karakter transformation"}.
 - Fjerne eller udskifte baggrunde{i: "fjernelse eller udskiftning af baggrund"}
 - Ændre vejret eller årstiden i udendørsbilleder{i: "ændring af vejr eller årstid"}
 - Opskalere lavopløsningsbilleder{i: "opskalering af billeder"}
@@ -680,26 +680,26 @@ Nogle modeller kan også modificere eksisterende billeder. For eksempel:
 
 I øjeblikket er de fleste billedmodeller ikke særlig gode til denne slags ting, men de bliver hurtigt bedre.
 
-## Billede til Tekst
+## Billede til tekst
 
-{width: "40%", alt: "En håndtegnet illustration der viser et indrammet billede af et bjerglandskab til venstre, med en pil der peger mod en skriftrulle med tekst til højre."}
+{width: "40%", alt: "En håndtegnet illustration der viser et indrammet billede af et bjerglandskab til venstre, med en pil der peger mod et stykke papir med tekst til højre."}
 ![](resources-da/070-image-to-text-da.png)
 
-Billede-til-tekst-modeller kan bruges til at klassificere eller analysere billeder.
-For eksempel blev jeg overrasket over, at en AI-model formåede at genkende indholdet af det sammensmeltede billede ovenfor{i: "billedgenkendelse"}...
+"Billede-til-tekst"-modeller kan bruges til at klassificere eller analysere billeder.
+For eksempel blev jeg overrasket over, at en AI-model formåede at genkende indholdet af det kombinerede billede ovenfor{i: "billedgenkendelse"}...
 
 {alt: "En menneskelig skikkelse med en blanding af menneske- og kattelignende træk, karakteriseret ved vildt, hvidt hår og jakkesæt, sidder i en stor lænestol. Omgivelserne har en vintage, eklektisk atmosfære med dæmpet belysning."}
 ![](resources-da/070-image-to-text-example-da.jpg)
 
-OK, det var det sidste kattebillede, jeg lover!
+OK, det var det sidste kattebillede, det lover jeg!
 
-Her er andre potentielle anvendelser af billede-til-tekst-modeller:
+Her er andre mulige anvendelser af "billede-til-tekst"-modeller:
 
 - Analyse af medicinske billeder ("Kan du se nogle unormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}
 - Læse og transskribere tekst fra et billede{i: "teksttransskription fra billeder"}
 - Identificere seværdigheder når man rejser (AI = din bærbare rejseguide!){i: "identifikation af seværdigheder"}
 - Identificere planter eller dyr i et foto ("Hvilken slags fugl er det?"){i: "plante- og dyreidentifikation"}
-- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "whiteboard transskription"}.
+- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "Whiteboard transskribering"}.
 
 Her er en meget sjov og fjollet ting, du kan prøve.
 
@@ -708,62 +708,62 @@ Tag et foto af hvad som helst, og skriv denne prompt:
 > **Prompt**  
 > Jeg vil have dig til at påtage dig rollen som en kunstkritiker, der tager sig selv alt for alvorligt, og jeg vil have dig til at lave en meget detaljeret analyse af dette billede, som om det var et kunstværk. Start med at beskrive, hvad du ser, og skriv derefter din kritik.
 
-## Lyd til Tekst
+## Lyd til tekst
 
-{width: "40%", alt: "En skitse der viser en højttaler med lydbølger til venstre og en højrepil der fører til en skriftrulle med tekst til højre."}
+{width: "40%", alt: "En skitse der viser en højttaler med lydbølger til venstre og en højrepil der fører til et stykke papir med tekst til højre."}
 ![](resources-da/070-audio-to-text-da.png)
 
-Lyd-til-tekst-modeller (som omfatter tale-til-tekst-modeller){i: "Lyd til Tekst"} kan lave ting som stemmetransskriptioner og mødenoter, hvilket er meget nyttigt. Da jeg skrev denne bog, brugte jeg tale-til-tekst (via ChatGPT-appen){i: "ChatGPT"} hele tiden for at indfange mine tanker, mens jeg var ude at gå.
+"Lyd-til-tekst"-modeller (som omfatter "tale-til-tekst"-modeller){i: "Lyd-til-tekst"} kan lave ting som stemmetransskriptioner og mødenoter, hvilket er meget nyttigt. Da jeg skrev denne bog, brugte jeg hele tiden tale-til-tekst (via ChatGPT-appen){i: "ChatGPT"} for at indfange mine tanker, mens jeg var ude at gå.
 
 
 
-{width: "40%", alt: "Illustration of two people with speech bubbles pointing to a rolled-up scroll containing text, indicating communication or dialogue being turned into written content."}
+{width: "40%", alt: "Illustration af to mennesker med taleboboler der peger mod en et stykke papir med tekst, hvilket indikerer kommunikation eller dialog der laves om til nedskrevet indhold."}
 ![](resources-da/070-voice-to-text-da.png)
 
-Tale-til-tekst-modeller har eksisteret i lang tid. Men da OpenAI udgav deres Whisper-model (som bruges af ChatGPT){i: "Whisper-model"}, hævede det niveauet markant. Denne model er utroligt god til at forstå tale, selv i støjende miljøer og på flere sprog{i: "talegenkendelse"}.
+"Tale-til-tekst-modeller" har eksisteret længe. Men da OpenAI udgav deres Whisper-model (som bruges af ChatGPT){i: "Whisper-model"}, hævede det niveauet markant. Denne model er utroligt god til at forstå tale, selv i støjende miljøer og på flere sprog{i: "talegenkendelse"}.
 
 Her er nogle andre eksempler på praktiske anvendelser:
 
 - At gøre lydindhold søgbart{i: "søgbarhed af lydindhold"}
 - At hjælpe mennesker med hørenedsættelse{i: "hjælpeteknologi til hørenedsættelse"}
-- At lave undertekster til videoer{i: "undertekstproduktion"}
+- At lave undertekster til videoer{i: "produktion af undertekster"}
 - At analysere kundeserviceopkald for kvalitetskontrol{i: "analyse af kundeserviceopkald"}
 
-Jeg mødte for nylig en startup, der udvikler teknologi til at opdage kriminalitet fra lydstrømme. Den lytter efter ting som skud, skrig, knust glas og andre lyde, der ofte forbindes med kriminalitet, og alarmerer derefter politiet. Det er en perfekt anvendelse af lyd-til-tekst-modeller! Kameraer skal pege i en bestemt retning, og databehandlingen er dyrere. Lydbehandling er billigere, og man kan lytte i alle retninger{i: "kriminalitetsdetektion fra lyd"}.
+Jeg mødte for nylig en iværksætter-virksomhed, der udvikler teknologi til at opdage kriminalitet ud fra lyde. Den lytter efter ting som skud, skrig, knust glas og andre lyde, der ofte forbindes med kriminalitet, og alarmerer derefter politiet. Det er en perfekt anvendelse af lyd-til-tekst-modeller! Kameraer skal pege i en bestemt retning, og databehandlingen er dyrere. Lydbehandling er billigere, og man kan lytte i alle retninger{i: "kriminalitetsdetektion udfra lyd"}.
 
-Men den anvendelse, jeg ser oftest, er mødenoter og mødeopsummeringer{i: "mødenoter"}. Det er virkelig en tidsbesparelse!
+Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mødenoter"}. Det kan virkelig spare tid!
 
 ## Tekst til lyd
 
-{width: "40%", alt: "Illustration of a scroll of paper on the left, an arrow pointing right, and a speaker emitting sound waves on the right."}
+{width: "40%", alt: "Illustration af et stykke papir til venstre, en pil der peger til højre og en højttaler som udsender lyd til højre."}
 ![](resources-da/070-text-to-audio-da.png)
 
-Tekst-til-lyd-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando. For eksempel:
+"Tekst-til-lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando. For eksempel:
 
 - Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og et slap bass-solo i midten"
 - Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ..."
 - Du har brug for baggrundslyde til en scene{i: "Baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro"
 - Du ser en film på et sprog, du ikke forstår: "Dub dette til engelsk, men bevar skuespillernes stemmer"
-- Du er ond: "Den forfærdelige skurrende lyd af kridt på en tavle"
+- Du er ond: "Den forfærdelige skrabende lyd af kridt på en tavle"
 
-{width: "75%", alt: "A hand-drawn illustration depicts three groups of people sitting around tables, each engaged in conversation, with speech bubbles above them. To the left, text reads, "Background chatter at a medieval inn," with an arrow pointing to the groups."}
+{width: "75%", alt: "En håndtegnet illustration viser to grupper of mennesker som sidder rundt om borde, alle engageret i samlater med talebobler over dem. Til venstre med teksten "Baggrundsnak på en middelalder-kro" med en pil der peger over på grupperne af mennesker."}
 ![](resources-da/070-text-to-audio-example-da.png)
 
 I fremtiden tror jeg, vi vil se videospil, hvor baggrundsmusik og omgivelseslyde genereres i realtid, baseret på spillerens handlinger{i: "spillerhandlinger"}.
 
-Som hobbymusiker{i: "hobbymusiker"} ville jeg ikke bruge dette til at erstatte mig selv som musiker, fordi jeg _kan lide_ at spille musik. Men jeg kunne godt finde på at bruge det til at generere idéer til grooves og sangstile, eller hurtigt udforske forskellige variationer eller instrumentering. Eller lade en AI deltage i en jam-session som et virtuelt bandmedlem på en skærm, der spiller med på hvilket som helst instrument, vi beder den om. Det sidste er ikke tilgængeligt endnu, men jeg er sikker på, det snart vil være det.
+Som hobbymusiker{i: "hobbymusiker"} ville jeg ikke bruge dette til at erstatte mig selv som musiker, fordi jeg _kan lide_ at spille musik. Men jeg kunne godt finde på at bruge det til at generere idéer til grooves og sangstile, eller hurtigt udforske forskellige variationer eller instrumentering. Eller lade en AI deltage i en jam-session som et virtuelt bandmedlem på en skærm, der spiller med på hvilket som helst instrument, vi beder den om. Det sidste er ikke muligt endnu, men jeg er sikker på, det snart vil være det.
 
 ## Lyd til lyd
 
-{width: "50%", alt: "Illustration of two speakers facing each other with sound waves emanating from both. There is an arrow pointing from the left speaker to the right speaker, indicating a directional exchange or communication."}
+{width: "50%", alt: "Illustration af to højttalere med lydbølger der kommer ud fra hver af dem. Der er en pil fra venstre til højre højttaler, som viser en overførsel fra den ene til den anden.."}
 ![](resources-da/070-audio-to-audio-da.png)
 
-Lyd-til-lyd{i: "Lyd til lyd"} er det, vi mennesker gør, når vi taler med hinanden - jeg bevæger min tunge og læber og genererer lyd fra min mund, og så svarer du med lyd fra din mund. Et sejt trick, som vi gør hele tiden, og som de fleste andre dyr ikke kan.
+"Lyd-til-lyd"{i: "Lyd til lyd"} er det, vi mennesker gør, når vi taler med hinanden - jeg bevæger min tunge og læber og genererer lyd fra min mund, og så svarer du med lyd fra din mund. Et sejt trick, som vi gør hele tiden, og som de fleste andre dyr ikke kan.
 
-{width: "40%", alt: "A simple illustration of two abstract human figures facing each other, each with a speech bubble containing scribbles. There is a double-headed arrow between them, indicating communication or exchange."}
+{width: "40%", alt: "En simpel illustration af to abstrakte menneskelige figurer der har front mod hinanden, hver med en taleboble med streger i. Der er en to-vejs pil imellem dem som viser kommunikation mellem dem."}
 ![](resources-da/070-voice-to-voice-da.png)
 
-Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Advanced Voice Mode"{i: "Avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Advanced Voice Mode kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
+Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Advanceret stemmetilstand"{i: "Avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Advanceret stemmetilstand kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
 
 
 
@@ -776,31 +776,31 @@ For nylig sad min yngste søn (14 år) og jeg og spillede Microsoft Flight Simul
 
 Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken knap er til at ændre NAV-frekvensen" eller "Hvad er det blinkende røde lys i højre side af instrumentpanelet".
 
-{alt: "En person sidder ved et skrivebord og bruger en flysimulator på en computer. De holder en joystick og er omgivet af forskellige kontroller og udstyr. Skærmen viser en cockpitvisning med flyveinformation. En smartphone ligger på skrivebordet, og et tastatur, mus og højtalere er synlige."}
+{alt: "En person sidder ved et skrivebord og bruger en flysimulator på en computer. Han holder et joystick og er omgivet af forskellige kontroller og udstyr. Skærmen viser en cockpitvisning med flyveinformation. En smartphone ligger på skrivebordet, og et tastatur, mus og højtalere er synlige."}
 ![](resources-da/070-flight-simulator-da.jpg)
 
-Men Audio til Audio-modeller kan bruges til mere end bare at tale. For eksempel:
+Men Lyd til Lyd-modeller kan bruges til mere end bare at tale. For eksempel:
 
-- Realtidssprogsoversættelse{i: "realtidssprogsoversættelse"}
-- Forbedring af lydkvalitet i støjende miljøer{i: "lydkvalitet"}
-- Remixning af musik i forskellige stilarter{i: "musik remixing"}
-- Isolering af vokal eller instrumenter fra sange{i: "isolering af vokal"}
-- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "eftersynkronisering af film"}
+- Realtidssprogsoversættelse{i: "Realtidssprogsoversættelse"}
+- Forbedring af lydkvalitet i støjende miljøer{i: "Lydkvalitet"}
+- Remixning af musik i forskellige stilarter{i: "Musik remixing"}
+- Isolering af vokal eller instrumenter fra sange{i: "Isolering af vokal"}
+- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "Eftersynkronisering af film"}
 
 ## Tekst til Video
 
-{width: "40%", alt: "Illustration af en skriftrulle med tekst til venstre, en pil i midten der peger mod højre, og et rektangel med en rød afspilningsknap til højre, som indikerer transformation fra tekst til video."}
+{width: "40%", alt: "Illustration af et stykke papir med tekst til venstre, en pil i midten der peger mod højre, og et rektangel med en rød afspilningsknap til højre, som indikerer transformation fra tekst til video."}
 ![](resources-da/070-text-to-video-da.png)
 
 Tekst til Video-modeller genererer videoer fra en tekstbeskrivelse. Dette er en bog, så jeg kan ikke rigtig vise det, men forestil dig disse som smukt renderede videoer. Dette er fantastiske videodemoer, der bruger OpenAI{i: "OpenAI"}'s model Sora.
 
-{alt: "Et kig gennem et togvindue, der viser en refleksion af mennesker inde i toget. Udendørsscenen inkluderer Tokyos forstæder med huse og bygninger, fanget under rejsen. Himlen er delvist skyet, og der er synlige elledninger."}
+{alt: "Et kig gennem et togvindue, der viser en refleksion af mennesker inde i toget. Udendørsscenen inkluderer Tokyos forstæder med huse og bygninger, set under rejsen. Himlen er delvist skyet, og der er synlige elledninger."}
 ![](resources-da/070-text-to-video-1-da.jpg)
 
 {alt: "En kunstnerisk fremstilling af et oversvømmet New York City{i: "New York City"}, med forskellige havdyr som fisk, hvaler, havskildpadder og hajer der svømmer mellem skyskraberne. Scenen ligner et undervandsbylandskab, der minder om det mytiske Atlantis."}
 ![](resources-da/070-text-to-video-2-da.jpg)
 
-Tekst til Video-teknologi er ikke særlig moden endnu - det er virkelig svært at lave en flot video med den nuværende teknologi. Men måske virker det bedre, når du læser dette.
+"Tekst til video"-teknologi er ikke særlig moden endnu - det er virkelig svært at lave en flot video med den nuværende teknologi. Men måske virker det bedre, når du læser dette.
 
 Før eller siden får vi uendelige filmserier, der automatisk genererer den næste episode skræddersyet til din smag, mens du ser. "Giv mig en episode mere! Men med mindre vold og mere drama! Og gør den lidt sjovere".
 
