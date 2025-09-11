@@ -393,7 +393,7 @@ Når du bruger en LLM, skal du hele tiden have skæringsdatoen{i: "skæringsdato
 
 Teknisk set har en LLM ingen hukommelse{i: "mangel på hukommelse"} fra tidligere interaktioner. Den husker ikke dig, dine tidligere samtaler eller nogen detaljer, du har delt tidligere. Det er som at tale med en person med hukommelsestab, der glemmer alt hvad du har sagt tidligere, efter de har svaret.
 
-{width: "70%", alt: "En simpel tegneserie med en rund, minimalistisk menneskefigur og en robot med hår, der fører en samtale. Mennesket spørger: 'Hvad er hovedstaden i Frankrig?' Robotten svarer: 'Paris.' Mennesket spørger derefter: 'Hvad med Tyskland?' og robotten svarer: 'Øh... hvad vil du vide om Tyskland?'"}
+{width: "70%", alt: "En simpel tegneserie med en rund, minimalistisk menneskefigur og en robot med hår, der fører en samtale. Mennesket spørger: 'Hvad hedder hovedstaden i Frankrig?' Robotten svarer: 'Paris.' Mennesket spørger derefter: 'Hvad med Tyskland?' og robotten svarer: 'Øh... hvad vil du vide om Tyskland?'"}
 ![](resources-da/065-memory1-da.png)
 
 For at holde samtalen i gang er du nødt til at blive ved med at minde den om, hvad I har talt om indtil nu.
