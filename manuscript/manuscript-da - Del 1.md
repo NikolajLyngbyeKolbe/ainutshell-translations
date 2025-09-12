@@ -140,7 +140,7 @@ Transformer-arkitekturen blev introduceret i en banebrydende artikel fra 2017 me
 
 Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for 5 dage, over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
 
-OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste den Generative AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
+OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste generativ AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
 ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og dusinvis flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
 
