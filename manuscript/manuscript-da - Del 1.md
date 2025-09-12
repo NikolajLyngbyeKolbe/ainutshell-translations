@@ -1850,7 +1850,7 @@ Her er de vigtigste ting, jeg håber, du vil huske.
 - Jo bedre du forstår generativ AI, jo mere sandsynligt er det, at det bliver en mulighed frem for en trussel.
 - Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi ("hvad kan jeg gøre"), og dine prompt engineering-færdigheder ("Hvordan gør jeg det").
 - Vi bevæger os hurtigt mod en verden, hvor mennesker og AI-agenter arbejder sammen som kolleger. Begynd at tænke over, hvad du ønsker, din AI-kollega skal gøre.
-- Prompt engieneering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
+- Prompt engineering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
 
 ## Eksperimenter!
 
