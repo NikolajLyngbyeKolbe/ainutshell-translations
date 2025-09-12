@@ -1663,7 +1663,7 @@ Denne kombination - LLM + værktøjer + autonomi - er utroligt kraftfuld.
 
 Med autonome AI-agenter bliver prompt engineering{i: "prompt engineering"} endnu vigtigere. For din autonome værktøjshåndterende agent kan gøre meget godt eller meget skade afhængigt af, hvordan du udformer din missionserklæring og prompts.
 
-{width: "30%", alt: "En gul advarselstrekant med et udråbstegn over teksten "Farligt område" skrevet med en stiliseret skrifttype."}
+{width: "30%", alt: "En gul advarselstrekant med et udråbstegn over teksten "Pas godt på her" skrevet med en stiliseret skrifttype."}
 ![](resources-da/150-dragons-da.png)
 
 ## Eksempel 1: en fejlretningsagent
