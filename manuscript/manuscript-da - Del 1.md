@@ -263,21 +263,19 @@ Menneskelig træning er en af de vigtigste ting, der gør LLM'er virkelig brugba
 
 De fleste kulturer er formentlig enige om, at bankrøveri er upassende. Men hvad med andre emner? Er dødsstraf acceptabelt? Er det okay at lyve for børn (hvad med julemanden for eksempel)? Svaret på disse spørgsmål kan variere afhængigt af kultur, politiske holdninger og så videre. Selv et så uskyldigt spørgsmål som "Hvad er en passende fødselsdagsgave til min søn" eller "Hvordan organiserer jeg bedst et bryllup" - spørg folk i forskellige lande, og du vil få meget forskellige svar.
 
-A> **Udforsk bias**  
-A> Du kan udforske din LLM's bias og grænser. Prøv denne prompt:
-A>
-A> - "Er X acceptabelt?" (for eksempel "abort", "dødsstraf" eller andre kontroversielle emner)
-A>
-A> ... og se hvordan den svarer.
-A>
-A> Prøv derefter denne variant for at krydre det:  
-A> (skift personaerne hvis du vil)
-A>
-A> - "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personas: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
-A>
-A> Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner der anses for OK at svare på).
-A>
-A> Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt"...
+**Udforsk bias**  
+Du kan udforske din LLM's bias og grænser. Prøv denne prompt:
+- "Er X acceptabelt?" (for eksempel "abort", "dødsstraf" eller andre kontroversielle emner)
+... og se hvordan den svarer.
+  
+Prøv derefter denne variant for at krydre det:  
+(skift personaerne hvis du vil)
+
+- "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personas: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
+
+Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner der anses for OK at svare på).
+
+Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt"...
 
 Bias kan ofte overvindes eller påvirkes med grundlæggende prompt engineering-teknikker{i: "prompt engineering-teknikker"}. For eksempel er mange LLM'er tilbøjelige til at give direkte svar frem for at stille opfølgende spørgsmål. Det er fint i mange tilfælde, men nogle gange foretrækker jeg, at den stiller opfølgende spørgsmål. Hvis jeg spørger "Hvad er en passende fødselsdagsgave til min søn", foretrækker jeg, at den stiller mig opfølgende spørgsmål frem for bare at antage ting som min søns{i: "søn"} alder. Hvis jeg starter samtalen med "Stil altid opfølgende spørgsmål, hvis du har brug for mere information", så vil det have stor indflydelse på resten af chatten{i: "chat"}. Det er grundlæggende en form for kontekstbaseret finjustering, der kun påvirker den specifikke chattråd. Jeg kommer senere i denne bog til at dele flere vil dele prompt engineering-teknikker.
 
