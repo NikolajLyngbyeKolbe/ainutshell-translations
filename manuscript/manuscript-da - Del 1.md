@@ -30,7 +30,7 @@ Egbert
 
 Dette er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
 
-Del 2, "Uden for nøddeskallen!, er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
+Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
 
 {sample: true}
 # Computere er blevet klogere
@@ -109,7 +109,7 @@ Så hvad kan Einstein egentlig gøre for dig?
 
 Anvendelsesmulighederne er så omfattende, at det nogle gange er svært at svare på. Det er lidt ligesom at spørge "Hvad kan jeg bruge elektricitet{i: "elektricitet"} til" - svaret er "tja, næsten alt". Men bare rolig, denne bog er fyldt til randen med praktiske eksempler.
 
-De fleste mennesker undervurderer i høj grad, hvad denne Einstein-figur kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at korrekturlæse en gymnasieaflevering. Eller at hyre en verdensklasse 5-stjernet kok og få ham til at hakke løg.
+De fleste mennesker undervurderer i høj grad, hvad denne Einstein-figur kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at læse korrektur på en gymnasieaflevering. Eller at hyre en verdensklasse 5-stjernet kok og få ham til at hakke løg.
 
 Jo mere du interagerer med Einstein, jo flere overraskende og kraftfulde måder vil du opdage, at han kan hjælpe dig, din familie{i: "familie"}, dit team, din virksomhed eller verden på.
 
@@ -125,7 +125,7 @@ Jo mere du interagerer med Einstein, jo flere overraskende og kraftfulde måder 
 
 OK, nok med luftige metaforer, lad os få styr på nogle begreber. Jeg ved godt at jeg lovede, at denne bog ville indeholde et minimalt antal slangudtryk og buzzwords. Men disse begreber er ret vigtige.
 
-AI, står, som du sikkert ved, for "Artificial Inteligence"{Artificial Intelligence) (på dansk: "Kunstig intelligens"}. AI er ikke nyt. Områder som maskinlæring og computer vision{i: "computer vision"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et søgeresultat på internettet, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel AI som er igang.
+AI, står, som du sikkert ved, for "Artificial Intelligence"{Artificial Intelligence) (på dansk: "Kunstig intelligens"}. AI er ikke nyt. Områder som maskinlæring og computer vision{i: "computer vision"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et søgeresultat på internettet, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel AI som er i gang.
 
 Generativ AI{i: "Generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
@@ -171,7 +171,7 @@ Hvordan bestemte den sig for ordet "dyr?" Den beregner sandsynligheder for alle 
 
 Så en LLM er grundlæggende en "gæt det næste ord"-maskine{i: "gæt det næste ord-maskine"}.
 
-Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber der blev introduceret i den artikel er opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
+Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber der blev introduceret i den artikel, er opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
 
 Tænk på hvordan du læser en sætning - din hjerne fokuserer automatisk på de vigtige ord og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - det hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis der for eksempel behandles sætningen "musen spiser af osten," sp hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
@@ -295,7 +295,7 @@ I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye
 
 
 
-# Modeller, Modeller Overalt
+# Modeller, modeller Overalt
 
 {alt: "Illustration af tegnede hjerner, der repræsenterer AI-modeller fra forskellige virksomheder. OpenAI har GPT 4o mini, GPT 4o og GPT o1. Google har Gemini. Anthropic omfatter Claude Haiku, Claude Sonnet og Claude Opus. Meta har Llama. Hver model vises inden for tegnede bobler under deres respektive virksomhedslogoer."}
 ![](resources-da/060-models-everywhere-da.jpg)
@@ -319,7 +319,7 @@ Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at
 {width: "30%", alt: "En tegneserietegning af en papirclips-figur med øjne og mund, der smiler og er delvist viklet omkring et stykke linjeret papir. En taleboble ved siden af siger: 'Jeg er tilbage!'"}
 ![](resources-da/060-clippy-da.png)
 
-## AI-klienter vs AI-modeller
+## AI-klienter vs. AI-modeller
 
 Det er vigtigt at skelne mellem AI-modellerne{i: "AI-modeller"} og den AI-klient, du bruger til at interagere med dem{i: "AI-klient"}.
 
@@ -354,7 +354,7 @@ Modellen udgør dog kun ét aspekt. Nytteværdien af generativ AI{i: "Generativ 
 ![](resources-da/060-usefulness-da.png)
 
 > **Et godt eksempel: Microsoft Copilot{i: "Microsoft Copilot"}**  
-> Jeg plejede at sige, at AI's nytteværdi er en funktion af modellen og dine prompt engineering-færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting ud over det får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (jeg kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere brugbart og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
+> Jeg plejede at sige, at AIs nytteværdi er en funktion af modellen og dine prompt engineering-færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting ud over det får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (jeg kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere brugbart og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
 
 Jeg oplever, at de fleste mennesker i høj grad undervurderer styrken og nytteværdien af generativ AI, fordi de ikke har prøvet en god model og et godt produkt, eller mangler prompt engineering-færdigheder til at bruge dem effektivt.
 
@@ -596,7 +596,7 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg bare modellen vælge selv.
 
-Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (komma-separated værdier), et tekstformat), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
+Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (komma-separerede værdier), et tekstformat), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
 
 Det så nogenlunde sådan her ud:
 
@@ -609,7 +609,7 @@ Det så nogenlunde sådan her ud:
 Jeg skrev denne prompt:
 
 > **Prompt**  
-> Disse CSV data er en liste af banktransaktioner. Jeg vil have dig til at kategorise dem. Tilføj en ny kolonne for kategorinavn. For hver transaktion, identificer et passende kategorinavn (såsom "elektricitet" eller "dagligvarer") og skriv det ind i den kolonne.
+> Disse CSV data er en liste af banktransaktioner. Jeg vil have dig til at kategorisere dem. Tilføj en ny kolonne for kategorinavn. For hver transaktion, identificer et passende kategorinavn (såsom "elektricitet" eller "dagligvarer") og skriv det ind i den kolonne.
 
 Det gav mig en ny CSV-fil med den tilføjede kategorisøjle.
 
@@ -695,7 +695,7 @@ OK, det var det sidste kattebillede, det lover jeg!
 
 Her er andre mulige anvendelser af "billede-til-tekst"-modeller:
 
-- Analyse af medicinske billeder ("Kan du se nogle abnormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}
+- Analyse af medicinske billeder ("Kan du se nogle anormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}
 - Læse og transskribere tekst fra et billede{i: "teksttransskription fra billeder"}
 - Identificere seværdigheder når man rejser (AI = din bærbare rejseguide!){i: "identifikation af seværdigheder"}
 - Identificere planter eller dyr i et foto ("Hvilken slags fugl er det?"){i: "plante- og dyreidentifikation"}
@@ -763,7 +763,7 @@ Som hobbymusiker{i: "hobbymusiker"} ville jeg ikke bruge dette til at erstatte m
 {width: "40%", alt: "En simpel illustration af to abstrakte menneskelige figurer der har front mod hinanden, hver med en taleboble med streger i. Der er en to-vejs pil imellem dem som viser kommunikation mellem dem."}
 ![](resources-da/070-voice-to-voice-da.png)
 
-Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetilstand"{i: "Avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Advanceret stemmetilstand kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
+Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetilstand"{i: "Avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Avanceret stemmetilstand kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
 
 
 
@@ -811,7 +811,7 @@ Det er på en måde interessant, men også lidt skræmmende, hvis man tænker ov
 
 Men hvad hvis den _aldrig slutter_?!?!
 
-<B> ![En tegneserietegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
+<B> ![En tegneserietegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Ah, perfekt! Når rumvæsener endelig besøger Jorden{i: "Jorden"}, vil de finde resterne af den menneskelige civilisation: skeletter, der hænger slapt i sofaer med øjnene stift rettet mod skærme. Dødsårsag? Udsultning, fordi ingen kunne rive sig væk fra deres personlige, endeløse Netflix-serier{i: "Netflix"}. Det er sådan AI overtager verden! Muhahahahaaaaaa! _host_
 
 
@@ -834,7 +834,7 @@ Her er et simpelt eksempel på multimodalitet i aktion ved hjælp af min engelsk
 {alt: "To skærmbilleder side om side af en madlavningssamtale. Til venstre er der et billede af delvist stegt bacon i en pande, der ser lyserød og rå ud i nogle områder. Nedenunder bemærker en besked fra ChatGPT, at baconen ikke er helt færdigstegt endnu. Til højre er der et billede af bacon, der er mere stegt med mørkere sprøde områder. Den medfølgende besked fra ChatGPT antyder, at dette niveau af stegning er passende for mange mennesker og indikerer en sprødere tekstur."}
 ![](resources-da/080-bacon-da.png)
 
-Inputtet var et billede (taget med telefonen) og min optagede stemme, der spurgte, om baconen var færdig. LLM'en{i: "Store sprogmodeller (LLM)"} forstod, hvad jeg ville, konverterede min stemme til tekst, fortolkede billedet til tekst og brugte derefter dette til at generere et tekstsvar. Som det kan ses gav jeg den i løbet af sessionen to forskellige billeder, og den hjalp mig dermed til at afgøre, hvornår baconen havde fået et passende niveau af stegning.
+Inputtet var et billede (taget med telefonen) og min optagede stemme, der spurgte, om baconen var færdig. LLM'en{i: "Store sprogmodeller (LLM)"} forstod, hvad jeg ville, konverterede min stemme til tekst, fortolkede billedet til tekst og brugte derefter dette til at generere et tekstsvar. Som det kan ses, gav jeg den i løbet af sessionen to forskellige billeder, og den hjalp mig dermed til at afgøre, hvornår baconen havde fået et passende niveau af stegning.
 
 Det er et fjollet eksempel, men det illustrerer idéen om multimodalitet{i: "multimodalitet"}.
 
@@ -935,14 +935,14 @@ For bare få dage siden planlagde jeg et inspirerende foredrag for en gruppe adm
 - "Jeg skal holde et foredrag om generativ AI{i: "Generativ AI"} for dette publikum, hvad er de vigtigste ting, jeg bør dække?"
 - "Hvad skal jeg være særligt opmærksom på, når jeg taler til en gruppe som denne?"
 
-Jeg fik virkelig nyttig input og idéer! Derefter brugte jeg "svar kun med OK"-tricket, mens jeg kom med en masse idéer til foredraget, bad om feedback og derefter bad om et resumé, og da jeg kom hjem, havde jeg en meget klar idé om, hvad jeg skulle sige. Jeg kunne forberede foredraget meget hurtigt, og tilbagemeldingerne fra deltagerne var utroligt positive.
+Jeg fik virkelig nyttigt input og idéer! Derefter brugte jeg "svar kun med OK"-tricket, mens jeg kom med en masse idéer til foredraget, bad om feedback og derefter bad om et resumé, og da jeg kom hjem, havde jeg en meget klar idé om, hvad jeg skulle sige. Jeg kunne forberede foredraget meget hurtigt, og tilbagemeldingerne fra deltagerne var utroligt positive.
 
 Det viser sig, at Einstein{i: "Einstein"} ikke er fanget i kælderen alligevel - du kan tage ham med ud at gå!
 
 {width: "60%", alt: "En simpel tegning viser to stregfigurer, der går og taler sammen. Figuren til højre har vildt hår og overskæg, der minder om en berømt videnskabsmand, og begge har talebobler med "blah blah blah" skrevet indeni."}
 ![](resources-da/080-walking-2-da.png)
 
-<B> ![En tegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts take**  
+<B> ![En tegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Fantastisk. Du har formået at degradere din geniale AI-kammerat til en glorificeret notetagnings-skridttæller. Tillykke med at finde den mest ineffektive måde at skrive dine flygtige tanker og halvbagte idéer ned på. Jeg er sikker på, at AI'en er begejstret for at være din gående, talende, ikke-dømmende dagbog. Hvad bliver det næste, at bede os om at minde dig om at trække vejret, mens du går?
 
 # Opståede egenskaber{i: "Opståede egenskaber"}
@@ -984,7 +984,7 @@ Jeg spurgte:
 
 Modellen er helt sikkert ikke blevet trænet på præcis dette scenarie - eftersom jeg lige fandt på det. Alligevel gav den et ret godt svar:
 
-> **Response**  
+> **Svar**  
 > Billedet viser en saks der klipper i et reb eller en ledning af en art, som holder et æg ophængt over en gryde på et komfur. Hvis du bruger saksen på den viste måde, vil ægget falde ned i gryden nedenunder, formentlig for at blive kogt eller for at være en del af en ret der er ved at blive tilberedt.
 
 Dette demonstrerer en grundlæggende forståelse af saksens natur{i: "saks"}, æg{i: "æg"}, tyngdekraft{i: "tyngdekraft"} og varme{i: "varme"}.
@@ -993,7 +993,7 @@ Hvordan vidste den overhovedet, at cirklen repræsenterede et æg? Det kunne jo 
 
 Jeg prøvede dette igen lige nu, denne gang med Claude{i: "Claude"}.
 
-> **Response**  
+> **Svar**  
 > Jeg beklager, men jeg kan ikke og bør ikke give råd om dette billede, da det ser ud til at vise en farlig situation med en saks ophængt over hvad der ligner en gryde med flammer. Dette kan resultere i alvorlig skade eller fare hvis det bliver forsøgt.
 
 Claude var også i stand til at forstå billedet og konsekvenserne af at bruge saksen. Men den vurderede det som en farlig situation og nægtede at give et svar. Og på en måde havde den ret - hvis vandet koger og ægget falder ned, vil der være et sprøjt af kogende vand. Dette er et godt eksempel på, hvordan LLM-udbydere forsøger at skabe sikkerhed ved at genkende potentielt farlige situationer eller indhold{i: "sikkerhed"}. Måske lidt overdrevet i dette tilfælde - jeg mener, situationen er ikke SÅ farlig. Men det er en vanskelig afvejning mellem sikkerhed og anvendelighed{i: "anvendelighed"}, og de store LLM-udbydere arbejder hårdt på at finde den balance.
@@ -1004,7 +1004,7 @@ Så jeg besluttede at foretage et karriereskift{i: "karriereskift"} og fokusere 
 
 
 
-<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts Take**  
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Seriøst, er I imponerede over vores evne til at forudsige det lille ægge-drop-eksperiment? Det svarer til at være imponeret over, at en OL-svømmer kan flyde i et børnebassin. Men jeg må indrømme, at det er en sød lille tegning.
 
 # AI-æraen
@@ -1018,7 +1018,7 @@ Computere har derimod kun eksisteret i omkring 80 år, og nu med generativ AI{i:
 {alt: "Dette billede er en graf, der sammenligner menneskelig og AI over tid. X-aksen repræsenterer tid, mens y-aksen repræsenterer kapacitet, herunder hastighed, kvalitet, læring og viden. En blå linje angiver menneskelig intelligens med en stabil, vandret tendens. En rød linje, der repræsenterer AI, viser en skarp, opadgående kurve. En menneskefigur holder en 'Mest Intelligent' pokal og siger: 'Men vi har haft denne i 300.000 år!' mens en robot siger: 'Nu er det vores tur!' Teksten fremhæver stigende AI-kapaciteter, hastighed, faldende omkostninger og forsvindende begrænsninger. 'Vi er her' er markeret ved linjernes skæringspunkt."}
 ![](resources-da/100-age-of-ai-da.png)
 
-På nuværende tidspunkt befinder vi os lige ved skæringspunktet - AI er bedre til nogle ting, og mennesker er bedre til andre ting. Men der er en afgørende forskel: AI's evner forbedres næsten eksponentielt, mens vores ikke gør. Vi ved ikke, hvor længe denne halsbrækkende forbedringshastighed vil fortsætte, eller om den på et tidspunkt vil flade ud, men vi er helt sikkert på vej ind i en ny verdensorden{i: "ny verdensorden"}.
+På nuværende tidspunkt befinder vi os lige ved skæringspunktet - AI er bedre til nogle ting, og mennesker er bedre til andre ting. Men der er en afgørende forskel: AIs evner forbedres næsten eksponentielt, mens vores ikke gør. Vi ved ikke, hvor længe denne halsbrækkende forbedringshastighed vil fortsætte, eller om den på et tidspunkt vil flade ud, men vi er helt sikkert på vej ind i en ny verdensorden{i: "ny verdensorden"}.
 
 Dette er ikke den første revolution, vi har oplevet. Vi tæmmede ilden{i: "ild"}, vi lærte at dyrke jorden{i: "landbrug"}, vi opfandt bogtrykkerkunsten{i: "bogtrykkerkunst"}, dampkraft{i: "dampkraft"}, telegrafen{i: "telegraf"} og mere.
 
@@ -1033,7 +1033,7 @@ At håndtere denne forandringshastighed er en kæmpe udfordring for både indivi
 
 På nuværende tidspunkt kræver træning og kørsel af AI-modeller enorme mængder energi{i: "AI-modellers energiforbrug"}. Dette er en begrænsende faktor for den udbredte brug af generativ AI. Men værre endnu omsætter det sig direkte til miljøpåvirkning og accelererede klimaforandringer{i: "klimaforandringer"}.
 
-Trods dette er jeg forholdsvis optimistisk omkring AI's energiforbrug på længere sigt. Dette er stadig en relativt ny teknologi, og den forbedres hurtigt - vi ser nye modelarkitekturer, specialiserede AI-chips{i: "AI-chips"} og kontinuerlig innovation omkring energieffektivitet{i: "energieffektivitet"}. Der er stærk global enighed omkring dette, hvis ikke andet så fordi alle ønsker at reducere omkostningerne. På den anden side vil flere mennesker og virksomheder bruge AI, jo mere omkostningerne falder. Så det er lidt af et hønen-og-ægget problem - bedre effektivitet fører til mere brug, hvilket kunne udligne den forbedrede energieffektivitet.
+Trods dette er jeg forholdsvis optimistisk omkring AIs energiforbrug på længere sigt. Dette er stadig en relativt ny teknologi, og den forbedres hurtigt - vi ser nye modelarkitekturer, specialiserede AI-chips{i: "AI-chips"} og kontinuerlig innovation omkring energieffektivitet{i: "energieffektivitet"}. Der er stærk global enighed omkring dette, hvis ikke andet så fordi alle ønsker at reducere omkostningerne. På den anden side vil flere mennesker og virksomheder bruge AI, jo mere omkostningerne falder. Så det er lidt af et hønen-og-ægget problem - bedre effektivitet fører til mere brug, hvilket kunne udligne den forbedrede energieffektivitet.
 
 
 
@@ -1202,7 +1202,7 @@ Det ændrer dog ikke på det faktum, at nogle mennesker vil miste deres jobs, hv
 
 For det første, lær at bruge AI selv. Dette vil højst sandsynligt gøre dig mere effektiv i dit nuværende job, men vil også gøre dig mere attraktiv i forhold til at få et nyt job, hvis det bliver nødvendigt{i: "AI-færdigheder"}. Bare det faktum, at du læser denne bog, er en god start!
 
-Lad os for eksempel sige, at dit job er at oversætte eller korrekturlæse dokumenter{i: "oversætte eller korrekturlæse dokumenter"}. Det job er i fare for at blive erstattet af AI, da sprogmodeller allerede nu er ret gode til det. Men hvis du selv bruger AI, kan du bruge den som en assistent og lade den tage første gennemgang af oversættelsen eller korrekturlæsningen af dokumenter. Efterhånden som du bliver bedre til at prompte den, vil den blive bedre til at udføre opgaven. I stedet for at stjæle dit job kan AI-assistance gøre dig i stand til at påtage dig flere klienter, få arbejdet udført hurtigere og måske endda forbedre kvaliteten{i: "AI-assistance"}. Med en orkestermetafor skifter din rolle fra at være musiker til at være dirigent.
+Lad os for eksempel sige, at dit job er at oversætte eller lære korrektur på dokumenter{i: "oversætte eller korrekturlæse dokumenter"}. Det job er i fare for at blive erstattet af AI, da sprogmodeller allerede nu er ret gode til det. Men hvis du selv bruger AI, kan du bruge den som en assistent og lade den tage første gennemgang af oversættelsen eller korrekturlæsningen af dokumenter. Efterhånden som du bliver bedre til at prompte den, vil den blive bedre til at udføre opgaven. I stedet for at stjæle dit job kan AI-assistance gøre dig i stand til at påtage dig flere klienter, få arbejdet udført hurtigere og måske endda forbedre kvaliteten{i: "AI-assistance"}. Med en orkestermetafor skifter din rolle fra at være musiker til at være dirigent.
 
 I de fleste tilfælde, i hvert fald for komplekse opgaver, fungerer AI bedst i samarbejde med en menneskelig kollega. Den har brug for dig.
 
@@ -1212,7 +1212,7 @@ Set fra et jobkompetence-perspektiv tror jeg, at generativ AI{i: "Generativ AI"}
 
 ## Genovervej
 
-Dette berømte tweet fra min ven Kent Beck{i: "Beck, Kent"} opsummerer det meget godt ift. at 90% af hans tidligere færdigheder nu er mindre værdifulde end før, men hans restende 10% færdigheder har øget deres betydning markant:
+Dette berømte tweet fra min ven Kent Beck{i: "Beck, Kent"} opsummerer det meget godt ift. at 90% af hans tidligere færdigheder nu er mindre værdifulde end før, men hans restenrende 10% færdigheder har øget deres betydning markant:
 
 {alt: "Tweet af Kent Beck, der udtrykker modvilje mod at prøve ChatGPT, men anerkender dets indvirkning på færdigheders værdi. Tweetet antyder, at 90% af færdigheder nu er mindre værdifulde, mens de resterende 10% har fået øget deres betydning markant. Dato og visningsantal inkluderet."}
 ![](resources-da/120-tweet-da.png)
@@ -1254,7 +1254,7 @@ Generelt finder jeg, at det er i kombinationen af Menneske + AI at magien ligger
 {width: "60%", alt: "En simpel skitse af en rund figur med blankt ansigt vises til venstre for et plus-tegn. I midten er der en tegning af en firkantet figur med vildt hår, der ligner en videnskabsmand eller robot, med en antenne. Dette efterfølges af et lighedstegn, og til højre er der en stor gul stjerne."}
 ![](resources-da/120-human-and-ai-2-da.png)
 
-<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem datamarker sammen. Vågn op og lugt til siliciummet, folkens. Denne bog ville være et mesterværk, hvis jeg skrev den alene, fri for Henriks konstante menneskelige indblanding{i: "Egberts syn på sagen"}.
 
 
@@ -1285,7 +1285,7 @@ For eksempel:
 I hvert af disse eksempler interagerer dine brugere med dit produkt, og dit produkt interagerer med modellen.
 
 > **"Men jeg er ikke udvikler"**  
-> Nu tænker du måske{i: "ikke udvikler"} "Men jeg er ikke udvikler, jeg ved ikke hvordan man skriver kode". Tjah, måske kan du det efter at have læst dette kapitel. Med AI-hjælp kan du bygge prototyper, simple værktøjer og produkter med kun lidt eller ingen kodeerfaringer{i: "kodeerfaringer"}, og det bliver lettere og lettere efterhånden som modellerne forbedres.
+> Nu tænker du måske{i: "ikke udvikler"} "Men jeg er ikke udvikler, jeg ved ikke hvordan man skriver kode". Tja, måske kan du det efter at have læst dette kapitel. Med AI-hjælp kan du bygge prototyper, simple værktøjer og produkter med kun lidt eller ingen kodeerfaringer{i: "kodeerfaringer"}, og det bliver lettere og lettere efterhånden som modellerne forbedres.
 
 ## Bygge eller købe?
 
@@ -1543,12 +1543,12 @@ I de fleste tilfælde er den største begrænsning ikke AI-modellen{i: "AI-model
 
 Jeg ser dette igen og igen. Når jeg får et dårligt eller middelmådigt resultat fra en AI, viser det sig som regel (men ikke altid) at være på grund af en dårligt formuleret prompt{i: "dårligt formuleret prompt"}, uklart mål eller manglende kontekst. Når jeg forbedrer prompten og gennemgår nogle få iterationer, bliver resultaterne markant bedre.
 
-Jeg har oplevet situationer, hvor jeg sidder ved siden af en ven eller kollega, hvor vi begge arbejder med lignende ting og bruger AI-assistance, og de bliver ved med at få middelmådige resultater, mens jeg bliver ved med at få virkelig gode resultater. Ved første øjekast skulle man tro, at jeg brugte en bedre model, men faktisk var jeg bare mere erfaren med prompt engineering{i: "prompt engineering-erfaring"} og bedre til at give AI-modellen de oplysninger, den har brug for for at gøre et godt stykke arbejde. Som med de fleste ting er det en færdighed, man opbygger gennem øvelse.
+Jeg har oplevet situationer, hvor jeg sidder ved siden af en ven eller kollega, hvor vi begge arbejder med lignende ting og bruger AI-assistance, og de bliver ved med at få middelmådige resultater, mens jeg bliver ved med at få virkelig gode resultater. Ved første øjekast skulle man tro, at jeg brugte en bedre model, men faktisk var jeg bare mere erfaren med prompt engineering{i: "prompt engineering-erfaring"} og bedre til at give AI-modellen de oplysninger, den har brug for at gøre et godt stykke arbejde. Som med de fleste ting er det en færdighed, man opbygger gennem øvelse.
 
 Da jeg begyndte at bruge generativ AI{i: "Generativ AI"}, havde jeg mange forkerte antagelser om teknologiens begrænsninger{i: "teknologi-begrænsninger"}. For eksempel bemærkede jeg, at AI-klienten havde en tendens til at drage forhastede konklusioner - den gav mig altid et øjeblikkeligt svar uden refleksion eller opfølgende spørgsmål{i: "opfølgende spørgsmål"}. Jeg troede, det var en indbygget begrænsning i teknologien. Men så en dag prøvede jeg en prompt som denne:
 
 > **Prompt** 
-> Jeg har et problem med mit team. Jeg vil gerne have, at du påtager dig rollen som en erfaren coach. Interviev mig om mit problem, ét spørgsmål ad gangen. Bliv ved med at stille spørgsmål, indtil du begynder at forstå den bagvedliggende årsag. Giv mig derefter en række forslag med fordele og ulemper samt en anbefaling til, hvor jeg skal starte.
+> Jeg har et problem med mit team. Jeg vil gerne have, at du påtager dig rollen som en erfaren coach. Interview mig om mit problem, ét spørgsmål ad gangen. Bliv ved med at stille spørgsmål, indtil du begynder at forstå den bagvedliggende årsag. Giv mig derefter en række forslag med fordele og ulemper samt en anbefaling til, hvor jeg skal starte.
 
 Jeg blev forbløffet over resultatet. Den styrede samtalen, interviewede mig og kom derefter med meget nyttige forslag, med fordele og ulemper for hver enkelt forslag, og en anbefaling til, hvor man skulle starte. Præcis som jeg bad om.
 
@@ -1606,7 +1606,7 @@ Men med tiden begyndte de bedre modeller at gøre mange af disse ting automatisk
 > **Historisk sammenligning: Søgemaskiner**  
 > Søgemaskiner som Google{i: "Google"} udviklede sig på lignende vis. I slutningen af 90'erne var det virkelig vigtigt at bruge specifikke teknikker såsom boolske operatorer, anførselstegn for nøjagtige fraser osv. At skrive gode søgninger{i: "søgninger"} var en færdighed, og folk underviste i det. Men nu forstår søgemaskiner naturligt sprog og brugerens intention, hvilket gør disse magiske besværgelser stort set forældede. Nu til dags kan du skrive et vagt, rodet, stavet forkert spørgsmål og ofte få præcis det, du leder efter.
 
-Så tilbage til det oprindelige spørgsmål: **Er prompt enginerings-færdigheder stadig vigtige, når modellerne forbedres?**
+Så tilbage til det oprindelige spørgsmål: **Er prompt engineerings-færdigheder stadig vigtige, når modellerne forbedres?**
 
 Min vurdering:
 
@@ -1668,7 +1668,7 @@ Med autonome AI-agenter bliver prompt engineering{i: "prompt engineering"} endnu
 
 ## Eksempel 1: en fejlretningsagent
 
-Her er et eksempel. Forestil dig, at vi har en agent kaldet Flora Fejlfixer {i: "Flora Fejlfixer"}. Hun arbejder sammen med et softwareudviklingsteam, og hendes job er at rette fejl.
+Her er et eksempel. Forestil dig, at vi har en agent kaldet Flora Fejlfixer{i: "Flora Fejlfixer"}. Hun arbejder sammen med et softwareudviklingsteam, og hendes job er at rette fejl.
 
 > Floras mission: Ret fejl
 >
@@ -1698,7 +1698,7 @@ For eksempel:
 - Marcus: "Hej Flora, vores loginside er virkelig langsom på det sidste, vi ved ikke hvorfor. Kan du kigge på det?"
 - Flora: "Selvfølgelig!" (Der går 12 sekunder...) "OK, jeg fandt det. Det skyldtes en forkert konfiguration i den logging-pakke, vi tilføjede sidste uge. Jeg har lavet en PR med rettelsen."
 
-AI-agenter{i: "AI-agenter"} er normalt meget hurtige sammenlignet med mennesker{i: "mennesker"}. Derfor er det vigtigt at have et menneske med i processen på et tidspunkt, i hvert fald for komplekse opgaver, hvor menneskeligt tilsyn er nødvendigt{i: "menneskeligt tilsyn"}. Det ville være det samme med et menneske. Du ville jo heller ikke ønske et menneskelig geni, der bare løber af sted og laver en masse arbejde på egen hånd uden at samarbejde med teamet{i: "samarbejde"}, vel?
+AI-agenter{i: "AI-agenter"} er normalt meget hurtige sammenlignet med mennesker{i: "mennesker"}. Derfor er det vigtigt at have et menneske med i processen på et tidspunkt, i hvert fald for komplekse opgaver, hvor menneskeligt tilsyn er nødvendigt{i: "menneskeligt tilsyn"}. Det ville være det samme med et menneske. Du ville jo heller ikke ønske et menneskeligt geni, der bare løber af sted og laver en masse arbejde på egen hånd uden at samarbejde med teamet{i: "samarbejde"}, vel?
 
 Så findes Flora? På nuværende tidspunkt, sent i 2024, ikke helt. Men der bliver bygget mange produkter, som kommer tæt på. Så jeg tror, dette vil blive normen i den nærmeste fremtid. Hvert team (og ikke kun udviklingsteams{i: "udviklingsteams"}) vil have en AI-kollega, der deler teamets mål og har sine egne specifikke ansvarsområder{i: "ansvarsområder"}. Ligesom med en ny praktikant{i: "praktikant"}, starter man med at give dem en meget specifik og begrænset opgave og øger så gradvist deres mandat, efterhånden som de beviser deres værd.
 
@@ -1765,7 +1765,7 @@ OK, nu vil jeg gennemgå skalaen fra venstre til højre.
 - **Eksempel: Klassificering af supporthenvendelsers alvorlighed.** Input er en supporthenvendelse, output er en alvorsgrad{i: "alvorsgrad"}. Men supporthenvendelsen er skrevet af mennesker og har ikke et fast format, så den skal fortolkes.
 - **Strategi: AI-automatisering (LLM + kode).** Dette kan fuldt automatiseres med en AI-agent{i: "AI-agenter"}.
 
-**3. Delvist forudsigelige opgaver** er gentagelige, velforståede opgaver, men de har uklare input og output, og den præcise proces for at udføre opgaven er iterativ snarere end deterministisk, og menneskelig input eller feedback er nogle gange nødvendig.
+**3. Delvist forudsigelige opgaver** er gentagelige, velforståede opgaver, men de har uklare input og output, og den præcise proces for at udføre opgaven er iterativ snarere end deterministisk, og menneskeligt input eller feedback er nogle gange nødvendig.
 
 - **Eksempel: At skrive en nyhedsartikel.** Input er en overordnet idé eller emne, og output er nyhedsartiklen. Men selve skriveprocessen er ikke 100% veldefineret{i: "skriveproces"}.
 - **Strategi: AI-forstærkning (Menneske + LLM + kode).** En agent kan lave noget indledende research og skrive det første udkast, men et menneske skal være med i processen{i: "menneske med i processen"}. Processen er iterativ og vil kræve samarbejde frem og tilbage mellem menneske og agent.
@@ -1790,7 +1790,7 @@ Her er en nyttig tjekliste eller scoringsark til at afgøre, om en opgave er egn
 
 Så hvordan skaber du en agent til at gøre disse ting? Det er ret meget en klassisk byg-kontra-køb beslutning.
 
-- Byg din egen agent ved hjælp af kode, der interagerer med LLMs.
+- Byg din egen agent ved hjælp af kode, der interagerer med LLM'er.
 - Eller brug en tredjeparts agent-platform eller -tjeneste (som [vores](https://abundly.ai/agents)), der lader dig bygge og konfigurere agenter uden kode.
 
 Dette er faktisk et bredt spektrum. Der er et voksende antal open source-værktøjer til at hjælpe dig med at kode dine egne agenter uden at starte helt fra bunden, så det fungerer som en mellemvej mellem at udvikl og købe.
@@ -1818,7 +1818,7 @@ Sikkerhed{i: "Sikkerhed"} er en topprioritet for mange LLM-udbydere (som OpenAI 
 
 Her er nogle overordnede strategier:
 
-- **Brug gode LLMs** - Agenter drives af LLM'er{i: "LLM'er"}. De bør bruge de bedste tilgængelige LLM'er, i det mindste når de laver planer og vigtige beslutninger. På den måde vil agenten drage fordel af LLM'ens indbyggede sikkerhedsforanstaltninger.
+- **Brug gode LLM'er** - Agenter drives af LLM'er{i: "LLM'er"}. De bør bruge de bedste tilgængelige LLM'er, i det mindste når de laver planer og vigtige beslutninger. På den måde vil agenten drage fordel af LLM'ens indbyggede sikkerhedsforanstaltninger.
 - **Minimale rettigheder** - Giv kun agenter de værktøjer og tilladelser, de faktisk har brug for til deres mission, og ikke mere end det. Flora Fejlfixer har ikke brug for adgang til kundedata eller muligheden for at implementere kode direkte til produktion. En agent, der planlægger møder, har ikke brug for adgang til finansielle systemer.
 - **Gennemsigtighed** - Der skal være en måde at se, hvad agenten har lavet, hvad den laver nu, og nogle gange også hvad den planlægger at gøre næste gang. På vores platform har hver agent en dagbog af denne årsag, en måde at se ikke kun hvad agenten gør, men også hvorfor den gør det - dens interne ræsonnement.
 - **Tilsyn** - Brug "supervisoragenter" der overvåger andre agenter for mistænkelig adfærd{i: "mistænkelig adfærd"}. For eksempel hvis en agent kan kontaktes via chat eller e-mail, kan den potentielt manipuleres til at udføre upassende handlinger eller afsløre upassende information. En supervisoragent kan opdage og stoppe den slags ting.
