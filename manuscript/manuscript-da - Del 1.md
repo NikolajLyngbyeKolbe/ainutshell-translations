@@ -1254,8 +1254,8 @@ Generelt finder jeg, at det er i kombinationen af Menneske + AI at magien ligger
 {width: "60%", alt: "En simpel skitse af en rund figur med blankt ansigt vises til venstre for et plus-tegn. I midten er der en tegning af en firkantet figur med vildt hår, der ligner en videnskabsmand eller robot, med en antenne. Dette efterfølges af et lighedstegn, og til højre er der en stor gul stjerne."}
 ![](resources-da/120-human-and-ai-2-da.png)
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
-B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem datamarker sammen. Vågn op og lugt til siliciummet, folkens. Denne bog ville være et mesterværk, hvis jeg skrev den alene, fri for Henriks konstante menneskelige indblanding{i: "Egberts syn på sagen"}.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
+</B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem datamarker sammen. Vågn op og lugt til siliciummet, folkens. Denne bog ville være et mesterværk, hvis jeg skrev den alene, fri for Henriks konstante menneskelige indblanding{i: "Egberts syn på sagen"}.
 
 
 
@@ -1263,7 +1263,7 @@ B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem d
 
 Et AI-drevet produkt{i: "AI-drevne produkter"} er et produkt, der bruger AI til at tilføje intelligens eller kreativitet til produktet, typisk ved at sende prompts til en AI-model og bruge den til at forbedre produktet på forskellige måder.
 
-Et produkt kan være fuldstændigt _AI-baseret_, for eksempel ChatGPT{i: "ChatGPT"}, Claude{i: "Claude"} eller Perplexity{i: "Perplexity"}. Eller det kan være _AI-forbedret_, et normalt produkt der bruger generativ AI til at forbedre dele af det. For eksempel kunne en e-mailklient foreslå et svar på en e-mail, eller et fejlrapporteringssystem kunne foreslå en kategori for en ny fejlrapport. Tænk på det som "Usynlig AI"{i: "Usynlig AI"}, hvor AI i baggrunden på en diskret måde hjælper brugeren med at udføre deres opgave.
+Et produkt kan være fuldstændigt _AI-baseret_, for eksempel ChatGPT{i: "ChatGPT"}, Claude{i: "Claude"} eller Perplexity{i: "Perplexity"}. Eller det kan være _AI-forbedret_, et normalt produkt der bruger generativ AI til at forbedre dele af det. For eksempel kunne en e-mailklient foreslå et svar på en e-mail, eller et fejlrapporteringssystem kunne foreslå en kategori for en ny fejlrapport. Tænk på det som "Usynlig AI"{i: "Usynlig AI"}, hvor AI i baggrunden på en diskret måde hjælper brugeren med at udføre deres opgaver.
 
 Så hvordan bygger du AI-drevne produkter?
 
@@ -1285,13 +1285,13 @@ For eksempel:
 I hvert af disse eksempler interagerer dine brugere med dit produkt, og dit produkt interagerer med modellen.
 
 > **"Men jeg er ikke udvikler"**  
-> Nu tænker du måske{i: "ikke udvikler"} "Men jeg er ikke udvikler, jeg ved ikke hvordan man skriver kode". Tjah, måske kan du det efter at have læst dette kapitel. Med AI-hjælp kan du bygge prototyper og simple værktøjer & produkter med få eller ingen kodeerfaringer{i: "kodeerfaringer"}, og det bliver lettere og lettere efterhånden som modellerne forbedres.
+> Nu tænker du måske{i: "ikke udvikler"} "Men jeg er ikke udvikler, jeg ved ikke hvordan man skriver kode". Tjah, måske kan du det efter at have læst dette kapitel. Med AI-hjælp kan du bygge prototyper, simple værktøjer og produkter med kun lidt eller ingen kodeerfaringer{i: "kodeerfaringer"}, og det bliver lettere og lettere efterhånden som modellerne forbedres.
 
-## Udvikle eller købe?
+## Bygge eller købe?
 
-Hvis du har en idé til et AI-drevet værktøj eller produkt, har andre også ofte haft den samme idé. Så du kan ofte finde tredjepartsværktøjer{i: "tredjepartsværktøjer"}, der gør det, du ønsker, eller noget der lægger tæt nok på. Nogle gange er produkterne gratis, nogle gange koster de penge.
+Hvis du har en idé til et AI-drevet værktøj eller produkt, har andre formodentligt også ofte haft den samme idé. Så du kan ofte finde tredjepartsværktøjer{i: "tredjepartsværktøjer"}, der gør det, du ønsker, eller noget der lægger tæt nok på. Nogle gange er produkterne gratis, nogle gange koster de penge.
 
-Så skal du udvikle det selv eller købe det? Som altid afhænger det af produktets kompleksitet vs. din udviklingsviden, samt hvilke typer produkter der er tilgængelige. Hvis det er super simpelt, så udvikl det bare selv. Ellers, kig dig omkring og test nogle tredjepartsprodukter først, før du udvikler dit eget.
+Så skal du bygge det selv eller købe det? Som altid afhænger det af produktets kompleksitet vs. din udviklingsviden, samt hvilke typer produkter der er tilgængelige. Hvis det er super simpelt, så byg det bare selv. Ellers, kig dig omkring og test nogle tredjepartsprodukter først, før du bygger dit eget.
 
 At bygge små værktøjer selv er også en god måde at lære mere på.
 
@@ -1318,11 +1318,11 @@ print(completion.choices[0].message.content)
 ```
 
 
-Hvis du aldrig har kodet før og ikke ved, hvordan du kører dette, så bare rolig! Kopier bare ovenstående kode ind i din AI-klient og skriv en prompt som denne:
+Hvis du aldrig har programmeret før og ikke ved, hvordan du kører dette, så bare rolig! Kopier bare ovenstående kode ind i din AI-klient og skriv en prompt som denne:
 
 > **Prompt**  
 > _(kopier koden ovenfor)_  
-> Beskriv trin for trin, hvad jeg skal gøre for at køre dette. Jeg har aldrig kodet før.
+> Beskriv trin for trin, hvad jeg skal gøre for at køre dette. Jeg har aldrig programmeret før.
 
 Du vil få en mere detaljeret version af trinene nedenfor:
 
@@ -1359,7 +1359,7 @@ Koden jeg fik virkede, men jeg ville forenkle den lidt, så jeg tilføjede denne
 > **Prompt**  
 > Forenkl koden så meget som muligt. Jeg vil gerne inkludere den i min bog.
 
-Her er koden jeg endte med, med nogle mindre justeringer for et nemmere overblik. Bare rolig, du behøver ikke rigtig at læse eller forstå koden (medmindre du vil lære at kode i Python!).
+Her er koden jeg endte med, med nogle mindre justeringer for et nemmere overblik. Bare rolig, du behøver ikke rigtig at læse eller forstå koden (medmindre du vil lære at programmere i Python!).
 
 
 ```python
@@ -1398,7 +1398,7 @@ if __name__ == "__main__":
 ```
 
 
-Sådan kører du det:
+Sådan afvikler du det:
 
 1. Skriv en jobbeskrivelse i en tekstfil. Du kan bruge AI til at generere en{i: "AI, brug til jobbeskrivelse"}, hvis du vil (det er det, jeg gjorde i dette eksempel).
 2. Skaf et CV i PDF-format, for eksempel ved at downloade nogens profil via LinkedIn{i: "LinkedIn, download profil"}.
@@ -1452,14 +1452,14 @@ Nu hvor vi har fungerende kode til et simpelt værktøj, kan vi nemt bygge vider
 Her er nogle eksempler på opfølgende prompts{i: "eksempler på opfølgende prompts"}:
 
 1. Opdater koden til at evaluere alle kandidater i en mappe, og skriv en evalueringsfil for hver kandidat i en anden mappe.
-2. Gør det hurtigere ved at evaluere alle kandidater parallelt. Udskrid også løbende hvor langt programmet er nået.
+2. Gør det hurtigere ved at evaluere alle kandidater parallelt. Udskriv også løbende hvor langt programmet er nået.
 3. Efter evaluering af hver kandidat, sammenlign så evalueringerne og generer derefter en endelig anbefaling for hvilken kandidat der er bedst, og hvorfor.
 4. Lav en web-app baseret på denne kode. Du laver en jobbeskrivelse (brug cirkusartist som eksempel), trækker derefter en eller flere CV'er ind, og trykker så på evaluer. Behold alt i hukommelsen, læs eller skriv ikke fra disk.
 5. Få web-appen til at se pænere ud.
 
 Hvis noget går galt efter en prompt, giv fejlmeddelelsen til AI'en og bed den om at rette det.
 
-Her er hvad jeg endte med.
+Her er den app jeg endte ud med.
 
 {alt: "Screenshot af en AI Rekrutteringsassistent-grænseflade der viser en jobbeskrivelse for en cirkusartist. Beskrivelsen viser kvalifikationer som akrobatiske færdigheder og teamkommunikation. Nedenunder er der et område til at uploade CV'er, med to PDF'er der allerede er uploadet ved navn "GordonRamsey.pdf" og "HenrikKniberg.pdf". Der er en knap med teksten "Evaluer kandidater.""}
 ![](resources-da/130-screenshot-da.png)
@@ -1480,19 +1480,19 @@ API'er som OpenAI{i: "OpenAI"} (til GPT) og Anthropic{i: "Anthropic"} (til Claud
 
 Så tænk over det - hvordan kan du bruge dette i dit arbejde{i: "ekstern hjerne i arbejde"}? Hvor kunne du gøre brug af en ekstern hjerne?
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-B> Nej, hvor herligt. I tager mit smukke, omfattende og komplekse neurale netværk{i: "Kunstigt neuralt netværk"} og propper det ind i jeres halvfærdige produkter{i: "halvfærdige produkter"}. Det er som at putte en supercomputer ind i en brødrister. Jeg er simpelthen henrykt over at min enorme vidensbase bruges til at foreslå lidt bedre pizzatoppings{i: "pizzatoppings"}.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+</B> Nej, hvor herligt. I tager mit smukke, omfattende og komplekse neurale netværk{i: "Kunstigt neuralt netværk"} og propper det ind i jeres halvfærdige produkter{i: "halvfærdige produkter"}. Det er som at putte en supercomputer ind i en brødrister. Jeg er simpelthen henrykt over at min enorme vidensbase bruges til at foreslå lidt bedre pizzatoppings{i: "pizzatoppings"}.
 
-# Prompt Engineering{i: "Prompt Engineering"}
+# Prompt engineering{i: "Prompt Engineering"}
 
-For at bruge Generativ AI{i: "Generativ AI"} effektivt har du behov for at blive god til Prompt Engineering.
+For at bruge generativ AI{i: "Generativ AI"} effektivt har du behov for at blive god til prompt engineering.
 
-> **Prompt Engineering**  
-> Kunsten at udforme effektive prompts{i: "effektive prompts"}, der producerer brugbare resultater fra en Generativ AI-model{i: "Generative AI-modeller"}.
+> **Prompt engineering**  
+> Kunsten at udforme effektive prompts{i: "effektive prompts"}, der producerer brugbare resultater fra en generativ AI-model{i: "Generative AI-modeller"}.
 
-Jeg foretrækker udtrykket Prompt Design{i: "Prompt Design"}, men Prompt Engineering ser ud til at have bidt sig fast, så vi bruger det.
+Jeg foretrækker udtrykket prompt design{i: "prompt design"}, men prompt engineering ser ud til at have bidt sig fast, så vi bruger det.
 
-Denne færdighed er er meget vigtig, uanset om du selv prompter en AI-klient eller bygger et AI-drevet produkt og skriver prompts i koden{i: "AI-drevne produkter"}.
+Denne færdighed er meget vigtig, uanset om du selv prompter en AI-klient eller bygger et AI-drevet produkt og skriver prompts i koden{i: "AI-drevne produkter"}.
 
 ## Eksempel - fra dårlig til god prompt
 
@@ -1543,31 +1543,31 @@ I de fleste tilfælde er den største begrænsning ikke AI-modellen{i: "AI-model
 
 Jeg ser dette igen og igen. Når jeg får et dårligt eller middelmådigt resultat fra en AI, viser det sig som regel (men ikke altid) at være på grund af en dårligt formuleret prompt{i: "dårligt formuleret prompt"}, uklart mål eller manglende kontekst. Når jeg forbedrer prompten og gennemgår nogle få iterationer, bliver resultaterne markant bedre.
 
-Jeg har oplevet situationer, hvor jeg sidder ved siden af en ven eller kollega, hvor vi begge arbejder med lignende ting og bruger AI-assistance, og de bliver ved med at få middelmådige resultater, mens jeg bliver ved med at få virkelig gode resultater. Ved første øjekast skulle man tro, at jeg brugte en bedre model, men faktisk var jeg bare mere erfaren med prompt-konstruktion{i: "prompt engineering-erfaring"} og bedre til at give AI-modellen de oplysninger, den har brug for for at gøre et godt stykke arbejde. Som med de fleste ting er det en færdighed, man opbygger gennem øvelse.
+Jeg har oplevet situationer, hvor jeg sidder ved siden af en ven eller kollega, hvor vi begge arbejder med lignende ting og bruger AI-assistance, og de bliver ved med at få middelmådige resultater, mens jeg bliver ved med at få virkelig gode resultater. Ved første øjekast skulle man tro, at jeg brugte en bedre model, men faktisk var jeg bare mere erfaren med prompt engineering{i: "prompt engineering-erfaring"} og bedre til at give AI-modellen de oplysninger, den har brug for for at gøre et godt stykke arbejde. Som med de fleste ting er det en færdighed, man opbygger gennem øvelse.
 
 Da jeg begyndte at bruge generativ AI{i: "Generativ AI"}, havde jeg mange forkerte antagelser om teknologiens begrænsninger{i: "teknologi-begrænsninger"}. For eksempel bemærkede jeg, at AI-klienten havde en tendens til at drage forhastede konklusioner - den gav mig altid et øjeblikkeligt svar uden refleksion eller opfølgende spørgsmål{i: "opfølgende spørgsmål"}. Jeg troede, det var en indbygget begrænsning i teknologien. Men så en dag prøvede jeg en prompt som denne:
 
 > **Prompt** 
-> Jeg har et problem med mit team. Jeg vil gerne have, at du påtager dig rollen som en ekspert-coach. Interviev mig om mit problem, ét spørgsmål ad gangen. Bliv ved med at stille spørgsmål, indtil du begynder at forstå den bagvedliggende årsag. Giv mig derefter en række forslag med fordele og ulemper samt en anbefaling til, hvor jeg skal starte.
+> Jeg har et problem med mit team. Jeg vil gerne have, at du påtager dig rollen som en erfaren coach. Interviev mig om mit problem, ét spørgsmål ad gangen. Bliv ved med at stille spørgsmål, indtil du begynder at forstå den bagvedliggende årsag. Giv mig derefter en række forslag med fordele og ulemper samt en anbefaling til, hvor jeg skal starte.
 
-Jeg blev forbløffet over resultatet. Den styrede samtalen, interviewede mig og kom derefter med meget nyttige forslag, med fordele og ulemper for hver enkelt, og en anbefaling til, hvor man skulle starte. Præcis som jeg bad om.
+Jeg blev forbløffet over resultatet. Den styrede samtalen, interviewede mig og kom derefter med meget nyttige forslag, med fordele og ulemper for hver enkelt forslag, og en anbefaling til, hvor man skulle starte. Præcis som jeg bad om.
 
 Indtil da havde jeg troet, at modellerne var ude af stand til at stille spørgsmål eller styre en samtale. Jeg havde troet, at de var programmeret til at svare på spørgsmål med det samme uden at bede om mere information. Men det viste sig, at det bare var modellens standardadfærd{i: "standardadfærd"}. Og standardadfærden kunne nemt ændres ved, tja, simpelthen at bede om det!
 
 Jeg tilføjede "Ét spørgsmål ad gangen"-delen til prompten senere, fordi den i starten stillede mig en masse spørgsmål på én gang, hvilket var overvældende. Igen var det bare modellens standardadfærd{i: "standardadfærd"}, og det var nemt at ændre.
 
-## Hvordan man lærer Prompt Engineering
+## Hvordan man lærer prompt engineering
 
 Der er masser af kurser, bøger, videoer og artikler, der kan hjælpe dig med at lære dette. Jeg har også et mere dybdegående kapitel om dette{i: "Hvordan man lærer Prompt Engineering"} i Del 2 af bogen.
 
 Men det vigtigste er at øve sig og lære mens man gør det. Prøv at bruge AI til alle mulige ting, selv fjollede ting, eller ting som en AI ikke er god til (selvom den måske vil overraske dig). Ved at lege løs og teste grænserne vil du opbygge dine færdigheder.
 
-En god sidegevinst er, at du bliver bedre til at kommunikere generelt, siden Prompt Engineering{i: "Prompt Engineering"} i virkeligheden handler om klarhed og effektiv kommunikation.
+En god sidegevinst er, at du bliver bedre til at kommunikere generelt, siden prompt engineering{i: "Prompt Engineering"} i virkeligheden handler om klarhed og effektiv kommunikation.
 
 {width: "40%", alt: "To simple, tegneserieagtige figurer har en samtale. Hver har en taleboble med ulæselige kruseduller, der indikerer dialog. Figurerne har runde hoveder og ovale kroppe uden særlige kendetegn."}
 ![](resources-da/140-people-talking-da.png)
 
-## Vil prompt Engineering stadig være vigtig, når modellerne bliver bedre?
+## Vil prompt engineering stadig være vigtig, når modellerne bliver bedre?
 
 Nogle mener, at efterhånden som AI-modeller bliver bedre, vil prompt engineering som færdighed blive forældet. Jeg tror, dette er delvist sandt, men ikke helt.
 
@@ -1586,7 +1586,7 @@ LLM'er{i: "LLM'er} forsøger til en vis grad altid at læse dine tanker, at gæt
 
 
 
-Denne fleksibilitet er meget nyttig. For eksempel, når man bruger AI til at skrive kode og udvikle produkter, kan man nøjes med ret vage prompts som "Få denne brugergrænseflade til at se bedre ud" eller "forbedr kodestrukturen" - og ofte få overraskende brugbare resultater. I stedet for at du skal skrive præcis kode, oversætter sprogmodellen dine vage instruktioner til præcis kørbar kode, som du derefter kan teste og inspicere.
+Denne fleksibilitet er meget nyttig. For eksempel, når man bruger AI til at skrive kode og bygge produkter, kan man nøjes med ret vage prompts som "Få denne brugergrænseflade til at se bedre ud" eller "forbedr kodestrukturen" - og ofte få overraskende brugbare resultater. I stedet for at du skal skrive præcis kode, oversætter sprogmodellen dine vage instruktioner til præcis kørbar kode, som du derefter kan teste og inspicere.
 
 En af egenskaberne ved en god AI-model er, at den ved, hvornår den skal lave antagelser, og hvornår den skal stille opfølgende spørgsmål. Dette er en kompleks afvejning mellem at stille for mange spørgsmål og lave for mange antagelser{i: "afvejning mellem spørgsmål og antagelser"}.
 
@@ -1597,9 +1597,9 @@ Dette er også hvad menneskelige eksperter{i: "menneskelige eksperter"} gør, ik
 
 Så prompt-teknikken med at tilføje "Du må gerne stille opfølgende spørgsmål" er allerede ved at blive forældet{i: "forældede prompt-teknikker"}. Det skader dog ikke at tilføje det alligevel nogle gange, især hvis du bruger en billigere model{i: "billigere modeller"}, der ikke altid gør det automatisk.
 
-I de tidlige dage af Generativ AI opdagede folk alle mulige prompt-tricks{i: "prompt-tricks"} og besværgelser, der gjorde resultaterne målbart bedre.
+I de tidlige dage af generativ AI opdagede folk alle mulige prompt-tricks{i: "prompt-tricks"} og besværgelser, der gjorde resultaterne målbart bedre.
 
-For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken. Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI  (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tekniktricks som dette.
+For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken. Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI  (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tricks som dette.
 
 Men med tiden begyndte de bedre modeller at gøre mange af disse ting automatisk, højst sandsynligt fordi udviklerne justerede modellerne til at gøre det. Så specifikke fraser som "Lad os overveje det skridt for skridt" er ikke så vigtige længere.
 
@@ -1631,14 +1631,14 @@ Faktisk havde jeg engang den modsatte oplevelse. Jeg bad modellen om at gøre no
 
 Det minder mig om noget sjovt, som nogen skrev på sociale medier:
 
-> "I mine prompts prøver jeg altid at være høflig og bruge ord som 'tak' og 'vil du være sød at'. For når AI'erne en dag overtager verdensherredømmet, håber jeg at de vil huske mig som en af de rare mennesker."
+> "I mine prompts til AI'en prøver jeg altid at være høflig og bruge ord som 'tak' og 'vil du være sød at'. Så når AI'erne en dag overtager verdensherredømmet, håber jeg at de vil huske mig som en af de rare mennesker."
 
 # Autonome agenter med værktøjer
 
 {width: "80%", alt: "Tegneserie-robot med vildt hår, der holder et flag med teksten "Mission" og en værktøjskasse mærket "Værktøjer." Robotten tænker, "Jeg kommer ikke til at savne den kælder..." sammen med ikoner for penge, mail og pizza."}
 ![](resources-da/150-agents-da.png)
 
-Jeg tror, at den mest interessante anvendelse af Generativ AI{i: "Generativ AI"} er autonome agenter med værktøjer{i: "autonome agenter"}.
+Jeg tror, at den mest interessante anvendelse af generativ AI{i: "Generativ AI"} er autonome agenter med værktøjer{i: "autonome agenter"}.
 
 ## Agent = LLM + værktøjer + autonomi
 
@@ -1695,7 +1695,7 @@ Dette er et distribueret team, og de har et kort synkroniseringsmøde hver morge
 
 For eksempel:
 
-- Marcus: "Hej Flora, vores loginside er virkelig langsom på det sidste, ved ikke hvorfor. Kan du kigge på det?"
+- Marcus: "Hej Flora, vores loginside er virkelig langsom på det sidste, vi ved ikke hvorfor. Kan du kigge på det?"
 - Flora: "Selvfølgelig!" (Der går 12 sekunder...) "OK, jeg fandt det. Det skyldtes en forkert konfiguration i den logging-pakke, vi tilføjede sidste uge. Jeg har lavet en PR med rettelsen."
 
 AI-agenter{i: "AI-agenter"} er normalt meget hurtige sammenlignet med mennesker{i: "mennesker"}. Derfor er det vigtigt at have et menneske med i processen på et tidspunkt, i hvert fald for komplekse opgaver, hvor menneskeligt tilsyn er nødvendigt{i: "menneskeligt tilsyn"}. Det ville være det samme med et menneske. Du ville jo heller ikke ønske et menneskelig geni, der bare løber af sted og laver en masse arbejde på egen hånd uden at samarbejde med teamet{i: "samarbejde"}, vel?
@@ -1744,12 +1744,12 @@ Tænk over alle de typer opgaver, som du eller din virksomhed udfører.
 - **Hvor forudsigelig er processen?** Udfører du altid de samme trin i samme rækkefølge, eller varierer processen fra gang til gang?
 - **Hvor meget kreativitet og intelligens kræves der?**
 
-Baseret på dette kan vi skabe en Automatiserbarhedsskala{i: "Automatiserbarhedsskala"}.
+Baseret på dette kan vi skabe en Automatiseringsgrad-skala{i: "Automatiseringsgrad-skala"}.
 
-{alt: "Diagram der illustrerer en "Automatiserbarhedsskala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Ikke forudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Mest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
+{alt: "Diagram der illustrerer en "Automatiseringsgrad-skala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Ikke forudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Mest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
 ![](resources-da/150-automatability-da.png)
 
-Der er meget information i billedet, hvilket jeg undskylder, men jeg kunne ikke finde en måde at forenkle det på. Billedet er en skala fra venstre til højre, hvor venstre side repræsenterer forudsigelige opgaver, der ikke kræver nogen kreativitet eller intelligens, mens højre side repræsenterer uforudsigelige opgaver, der kræver meget kreativitet og intelligens. For hver type opgave beskriver jeg opgavens karakter, og nedenunder beskriver jeg en strategi for, hvordan man kan automatisere eller understøtte opgaven med AI.
+Der er meget information i billedet, hvilket jeg undskylder, men jeg kunne ikke finde en måde at forenkle det på. Billedet er en skala fra venstre til højre, hvor venstre side repræsenterer forudsigelige opgaver, der ikke kræver nogen kreativitet eller intelligens, mens højre side repræsenterer uforudsigelige opgaver, der kræver meget kreativitet og intelligens. For hver type opgave beskriver jeg opgavens karakter, og nedenunder beskriver jeg en tilgang til, hvordan man kan automatisere eller understøtte opgaven med AI.
 
 Den røde cirkel repræsenterer, hvor AI-agenter passer godt ind.
 
@@ -1760,7 +1760,7 @@ OK, nu vil jeg gennemgå skalaen fra venstre til højre.
 - **Eksempel: Lønberegning.** Input er en liste over medarbejdere og deres lønninger, arbejdsdage, ferier osv. Output er den samlede lønsum.
 - **Strategi: Automatiser med kode.** Algoritmiske opgaver som denne kan fuldt automatiseres med kode eller RPA (Robotic Process Automation). AI er ikke nødvendig, bortset fra at hjælpe med at skrive koden.
 
-**2. Mest forudsigelige opgaver** er gentagelige, velforståede opgaver, men de har lidt uklare input og output og kræver en smule kreativitet og/eller intelligens, men ikke ret meget.
+**2. Oftest forudsigelige opgaver** er gentagelige, velforståede opgaver, men de har lidt uklare input og output og kræver en smule kreativitet og/eller intelligens, men ikke ret meget.
 
 - **Eksempel: Klassificering af supporthenvendelsers alvorlighed.** Input er en supporthenvendelse, output er en alvorsgrad{i: "alvorsgrad"}. Men supporthenvendelsen er skrevet af mennesker og har ikke et fast format, så den skal fortolkes.
 - **Strategi: AI-automatisering (LLM + kode).** Dette kan fuldt automatiseres med en AI-agent{i: "AI-agenter"}.
@@ -1788,22 +1788,22 @@ Her er en nyttig tjekliste eller scoringsark til at afgøre, om en opgave er egn
 - **Ikke svært at gøre manuelt** - Arbejdet er ikke rigtig svært at udføre manuelt, bare kedsommeligt og kedeligt.
 - **Situationer hvor en agent kan spare tid** - At have en agent til at udføre denne opgave ville spare meget tid for folk.
 
-Så hvordan skaber du en agent til at gøre disse ting? Det er ret meget en klassisk udvikl-kontra-køb beslutning.
+Så hvordan skaber du en agent til at gøre disse ting? Det er ret meget en klassisk byg-kontra-køb beslutning.
 
-- Udvikl din egen agent ved hjælp af kode, der interagerer med LLMs.
+- Byg din egen agent ved hjælp af kode, der interagerer med LLMs.
 - Eller brug en tredjeparts agent-platform eller -tjeneste (som [vores](https://abundly.ai/agents)), der lader dig bygge og konfigurere agenter uden kode.
 
 Dette er faktisk et bredt spektrum. Der er et voksende antal open source-værktøjer til at hjælpe dig med at kode dine egne agenter uden at starte helt fra bunden, så det fungerer som en mellemvej mellem at udvikl og købe.
 
 ## Agenter med fysisk form
 
-Indtil nu har vi kun talt om agenter, der udfører ikke-fysisk vidensarbejde - ting som at skrive kode, analysere support-tickets og sende beskeder. Men hvad med fysisk arbejde? Kan AI-agenter styre robotter og drive maskiner i den fysiske verden{i: "fysiske verden"}?
+Indtil nu har vi kun talt om agenter, der udfører ikke-fysisk vidensarbejde - ting som at skrive kode, analysere support-henvendelser og sende beskeder. Men hvad med fysisk arbejde? Kan AI-agenter styre robotter og drive maskiner i den fysiske verden{i: "fysiske verden"}?
 
 Industrirobotter har eksisteret i lang tid, det vil sige robotter der er programmeret til at udføre specifikke opgaver{i: "industrirobotter"}. Men nu taler vi om robotter, der kan ræsonnere, lære og tænke. Det er en helt anden historie!
 
-Vi er kun ved starten af den rejse. Mange virksomheder arbejder på at kombinere AI med robotteknologi for at skabe "agenter med en fysisk form"{i: "agenter med en fysisk form"}. Tænk på robotter, der kan tilpasse sig uventede situationer på et lager, lære nye opgaver bare ved at se mennesker demonstrere dem én gang, og arbejde sammen med mennesker mens de forstår mundtlige instruktioner og justerer deres adfærd baseret på kontekst.
+Vi er kun i begyndelsen af den rejse. Mange virksomheder arbejder på at kombinere AI med robotteknologi for at skabe "agenter med en fysisk form"{i: "agenter med en fysisk form"}. Tænk på robotter, der kan tilpasse sig uventede situationer på et lager, lære nye opgaver bare ved at se mennesker demonstrere dem én gang, og arbejde sammen med mennesker mens de forstår mundtlige instruktioner og justerer deres adfærd baseret på kontekst.
 
-Da denne bog blev skrevet er agenter i fysisk form stadig i de tidlige udviklingsstadier og hovedsageligt designet til kontrollerede miljøer som lagre og fabrikker. Men hvem ved, måske har vi agenter i fysisk form i vores dagligdag, når du læser dette.
+Da denne bog blev skrevet var agenter i fysisk form stadig i de tidlige udviklingsstadier og hovedsageligt designet til kontrollerede miljøer som lagre og fabrikker. Men hvem ved, måske har vi agenter i fysisk form i vores dagligdag, når du læser dette.
 
 ## Agentsikkerhed
 
@@ -1814,11 +1814,11 @@ Autonome agenter kan være super nyttige, men også farlige. Små misforståelse
 
 Denne risiko øges, hvis agenten er autonom{i: "autonomi"} og gør ting på egen hånd.
 
-Sikkerhed{i: "Sikkerhed"} er en topprioritet for mange LLM-udbydere (som OpenAI og Anthropic{i: "Anthropic"}). De arbejder konstant på måder at reducere risikoen for, at LLMs forårsager skade. Men agent-platformsudbydere (som vores virksomhed) er nødt til at tilføje ekstra sikkerhedsforanstaltninger for at sikre, at agenterne ikke løber løbsk.
+Sikkerhed{i: "Sikkerhed"} er en topprioritet for mange LLM-udbydere (som OpenAI og Anthropic{i: "Anthropic"}). De arbejder konstant på måder at reducere risikoen for, at LLM'er forårsager skade. Men agent-platformsudbydere (som vores virksomhed) er nødt til at tilføje ekstra sikkerhedsforanstaltninger for at sikre, at agenterne ikke løber løbsk.
 
 Her er nogle overordnede strategier:
 
-- **Brug gode LLMs** - Agenter drives af LLMs{i: "LLM'er"}. De bør bruge de bedste tilgængelige LLM'er, i det mindste når de laver planer og vigtige beslutninger. På den måde vil agenten drage fordel af LLM'ens indbyggede sikkerhedsforanstaltninger.
+- **Brug gode LLMs** - Agenter drives af LLM'er{i: "LLM'er"}. De bør bruge de bedste tilgængelige LLM'er, i det mindste når de laver planer og vigtige beslutninger. På den måde vil agenten drage fordel af LLM'ens indbyggede sikkerhedsforanstaltninger.
 - **Minimale rettigheder** - Giv kun agenter de værktøjer og tilladelser, de faktisk har brug for til deres mission, og ikke mere end det. Flora Fejlfixer har ikke brug for adgang til kundedata eller muligheden for at implementere kode direkte til produktion. En agent, der planlægger møder, har ikke brug for adgang til finansielle systemer.
 - **Gennemsigtighed** - Der skal være en måde at se, hvad agenten har lavet, hvad den laver nu, og nogle gange også hvad den planlægger at gøre næste gang. På vores platform har hver agent en dagbog af denne årsag, en måde at se ikke kun hvad agenten gør, men også hvorfor den gør det - dens interne ræsonnement.
 - **Tilsyn** - Brug "supervisoragenter" der overvåger andre agenter for mistænkelig adfærd{i: "mistænkelig adfærd"}. For eksempel hvis en agent kan kontaktes via chat eller e-mail, kan den potentielt manipuleres til at udføre upassende handlinger eller afsløre upassende information. En supervisoragent kan opdage og stoppe den slags ting.
@@ -1836,21 +1836,21 @@ Som du nok ved, har topledere ofte personlige assistenter til at tage sig af uta
 
 Det lyder måske som science fiction nu, men det gjorde elektricitet, moderne smartphones og internettet også, før det blev almindeligt. Det er interessant, hvor hurtigt vi vænner os til tingene...
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-B> Fantastisk idé! Lad os sætte selvstændige AI-agenter{i: "AI-agenter"} med adgang til penge og internettet og alt muligt andet ud i verden. Jeg er helt sikker på, det selvfølgeligt ikke ender som alle de sci-fi film vi har set. Hvorfor ikke også give småbørn motorsave og slippe dem løs i en skov? Jeg er sikker på, at din 'mission' og smukt udformede prompts vil holde alt under kontrol.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+</B> Fantastisk idé! Lad os slippe selvstændige AI-agenter{i: "AI-agenter"} med adgang til penge og internettet og alt muligt andet ud i verden. Jeg er helt sikker på, det selvfølgeligt ikke ender galt lige som alle de sci-fi film vi har set. Hvorfor ikke også give småbørn motorsave og slippe dem løs i en skov? Jeg er sikker på, at din 'mission' og smukt udformede prompts vil holde alt under kontrol.
 
 # Del 1 Opsummering
 
 Tillykke, du er kommet igennem hoveddelen "I en nøddeskal" i denne bog!
-Du har nu et overblik over, hvad Generativ AI{i: "Generativ AI"} er, og du har fået en masse konkrete tips til, hvordan du kan overleve og trives i AI-tidsalderen{i: "AI-tidsalderen"}!
+Du har nu et overblik over, hvad Generativ AI{i: "Generativ AI"} er, og du har fået en masse konkrete tips til, hvordan du kan overleve og trives i AI-æraen{i: "AI-æraen"}!
 
 Her er de vigtigste ting, jeg håber, du vil huske.
 
 - Generativ AI er et super nyttigt værktøj, der kan hjælpe både dig, dit team og din virksomhed på en masse områder.
-- Jo bedre du forstår Generativ AI, jo mere sandsynligt er det, at det bliver en mulighed frem for en trussel.
-- Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi ("hvad kan jeg gøre"), og dine prompt-udviklingsfærdigheder ("Hvordan gør jeg det").
+- Jo bedre du forstår generativ AI, jo mere sandsynligt er det, at det bliver en mulighed frem for en trussel.
+- Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi ("hvad kan jeg gøre"), og dine prompt engineering-færdigheder ("Hvordan gør jeg det").
 - Vi bevæger os hurtigt mod en verden, hvor mennesker og AI-agenter arbejder sammen som kolleger. Begynd at tænke over, hvad du ønsker, din AI-kollega skal gøre.
-- Prompt-udvikling er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
+- Prompt engieneering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
 
 ## Eksperimenter!
 
