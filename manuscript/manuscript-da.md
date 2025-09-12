@@ -499,7 +499,7 @@ Jeg tror, denne begrænsning gradvist vil forsvinde. Tendensen er klar:
 
 I mellemtiden skal du dog være opmærksom på det. Når din AI-samtale involverer ikke-trivielle beregninger, bør du tjekke, om den bruger en lommeregner eller ej. Hvis ikke, bør du dobbelttjekke resultaterne selv. Eller endnu bedre, skift til en AI-klient, der kan bruge en lommeregner.
 
-## Opsummmeret
+## Opsummering
 
 LLM'er er et kraftfuldt værktøj, men de er ikke perfekte. At forstå disse begrænsninger handler ikke om at forringe værktøjets værdi. Det handler om at bruge det klogt. Overordnede tips:
 
