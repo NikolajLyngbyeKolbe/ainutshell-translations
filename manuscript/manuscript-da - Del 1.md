@@ -13,7 +13,7 @@ Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns
 
 Tro det eller ej, jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
 
-Så hvad handler denne bog om? Det er et lynkursus i Generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
+Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
 Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men hey, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
@@ -28,7 +28,7 @@ Egbert
 
 # Del 1 - I en nøddeskal
 
-Dette er bogens hoveddel, "I en nøddeskal"-introduktionen til Generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
+Dette er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
 
 Del 2, "Uden for nøddeskallen!, er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
 
@@ -44,7 +44,7 @@ Men noget utroligt er ved at ske, noget jeg aldrig havde forestillet mig ville s
 
 Hmm, tænker de virkelig? Tja, det er et filosofisk spørgsmål, da der ikke findes nogen bredt accepteret definition af "tænkning" eller "intelligens". Men i praktisk forstand bliver computere i stigende grad i stand til at udføre opgaver, der tidligere krævede menneskelig intelligens, kreativitet og intuition.
 
-Vi kalder denne teknologi Generativ AI{i: "Generativ AI"}, og du har sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
+Vi kalder denne teknologi generativ AI{i: "Generativ AI"}, og du har sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
 
 
 
@@ -53,15 +53,15 @@ Grundlæggende er intelligens nu tilgængelig som en service - som en kæmpestor
 Det er en enorm forandring. Og det kommer til at påvirke stort set alle mennesker og virksomheder på denne planet, positivt eller negativt.
 
 
-Men er Generativ AI{i: "Generativ AI"} overhypet?
+Men er generativ AI{i: "Generativ AI"} overhypet?
 
 Jeg tror, det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, jeg startede min karriere og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
 Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man praktisk talt ikke eksistere uden at bruge internettet.
 
-Jeg tror, det samme gælder for Generativ AI. Det kan være overhypet i markedsmæssig forstand - men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
+Jeg tror, det samme gælder for generativ AI. Det kan være overhypet i markedsmæssig forstand - men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
 
-Denne bog er skabt for at hjælpe dig med at forstå, hvad Generativ AI handler om i helt praktiske termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-æraen{i: "AI-æraen"}.
+Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler om i helt praktiske termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-æraen{i: "AI-æraen"}.
 
 {sample: true}
 # Einstein i din kælder
@@ -97,7 +97,7 @@ Men den største begrænsning er faktisk din fantasi og din evne til at kommunik
 
 Jeg kan godt lide at skelne mellem Prompt imagination ("prompt forestillingsevne") og prompt engineering.
 
-- **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge Generativ AI på. "Hvad kan jeg gøre".
+- **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge generativ AI på. "Hvad kan jeg gøre".
 - **Prompt engineering** (eller prompt design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det".
 
 {width: "80%", alt: "Illustration med en simpel figur der tænker, vist med tankebobler. Den venstre boble, mærket "Prompt Imagination," indeholder "Hvad kan jeg gøre?" Den højre boble, mærket "Prompt Engineering," indeholder "Hvordan gør jeg det?""}
@@ -129,7 +129,7 @@ AI, står, som du sikkert ved, for "Artificial Inteligence"{Artificial Intellige
 
 Generativ AI{i: "Generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
-Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{Large Language Models} (eller bare LLM'er) er en type Generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
+Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{Large Language Models} (eller bare LLM'er) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
 ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel/LLM, i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
@@ -348,7 +348,7 @@ Med en gratis model får du måske bare en klog gymnasieelev i din kælder i ste
 {alt: "Billedet viser to portrætter side om side. Til venstre er en ældre person med hvidt hår og overskæg, iført et mørkt jakkesæt, siddende i en slidt rød stol i et rodet rum. Dette er mærket 'Avanceret model.' Til højre er en ung person med mellemlangt hår, iført en mønstret vest over en hvid skjorte, siddende i en polstret lænestol i et rum med murstensvæg og bøger. Dette er mærket 'Gratis model.'"}
 ![](resources-da/060-fancy-vs-cheap-da.jpg)
 
-Modellen udgør dog kun ét aspekt. Nytteværdien af Generativ AI{i: "Generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt engineering-færdigheder{i: "prompt engineering færdigheder"}.
+Modellen udgør dog kun ét aspekt. Nytteværdien af generativ AI{i: "Generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt engineering-færdigheder{i: "prompt engineering færdigheder"}.
 
 {alt: "Billedet viser visuelt en ligning for 'Gen AI Nytteværdi' som en funktion af tre elementer: en model, et produkt og en færdighed. Hvert element er illustreret med et simpelt ikon: en skyformet form for modellen, et rektangel for produktet og en personsilhuet for færdigheden."}
 ![](resources-da/060-usefulness-da.png)
@@ -1842,7 +1842,7 @@ Det lyder måske som science fiction nu, men det gjorde elektricitet, moderne sm
 # Del 1 Opsummering
 
 Tillykke, du er kommet igennem hoveddelen "I en nøddeskal" i denne bog!
-Du har nu et overblik over, hvad Generativ AI{i: "Generativ AI"} er, og du har fået en masse konkrete tips til, hvordan du kan overleve og trives i AI-æraen{i: "AI-æraen"}!
+Du har nu et overblik over, hvad generativ AI{i: "Generativ AI"} er, og du har fået en masse konkrete tips til, hvordan du kan overleve og trives i AI-æraen{i: "AI-æraen"}!
 
 Her er de vigtigste ting, jeg håber, du vil huske.
 
@@ -1850,7 +1850,7 @@ Her er de vigtigste ting, jeg håber, du vil huske.
 - Jo bedre du forstår generativ AI, jo mere sandsynligt er det, at det bliver en mulighed frem for en trussel.
 - Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi ("hvad kan jeg gøre"), og dine prompt engineering-færdigheder ("Hvordan gør jeg det").
 - Vi bevæger os hurtigt mod en verden, hvor mennesker og AI-agenter arbejder sammen som kolleger. Begynd at tænke over, hvad du ønsker, din AI-kollega skal gøre.
-- Prompt engieneering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
+- Prompt engineering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
 
 ## Eksperimenter!
 
