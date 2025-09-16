@@ -572,24 +572,24 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 ```json
 [
-{
-"Rang": "1",
-"Dyr": "Myg",
-"Årsag til fare": "Overfører dødelige sygdomme som malaria, dengue og zikavirus.",
-"Estimerede årlige dødsfald": "725.000"
-},
-{
-"Rang": "2",
-"Dyr": "Mennesker",
-"Årsag til fare": "Vold, krige og andre menneskerelaterede årsager.",
-"Estimerede årlige dødsfald": "475.000"
-},
-{
-"Rang": "3",
-"Dyr": "Slanger",
-"Årsag til fare": "Giftige slangebid der fører til død eller skade.",
-"Estimerede årlige dødsfald": "50.000 to 100.000"
-}
+ {
+  "Rang": "1",
+  "Dyr": "Myg",
+  "Årsag til fare": "Overfører dødelige sygdomme som malaria, dengue og zikavirus.",
+  "Estimerede årlige dødsfald": "725.000"
+ },
+ {
+  "Rang": "2",
+  "Dyr": "Mennesker",
+  "Årsag til fare": "Vold, krige og andre menneskerelaterede årsager.",
+  "Estimerede årlige dødsfald": "475.000"
+ },
+ {
+  "Rang": "3",
+  "Dyr": "Slanger",
+  "Årsag til fare": "Giftige slangebid der fører til død eller skade.",
+  "Estimerede årlige dødsfald": "50.000 to 100.000"
+ }
 ]
 ```
 
