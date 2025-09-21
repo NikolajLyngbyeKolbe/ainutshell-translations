@@ -1597,7 +1597,7 @@ Så prompt-teknikken med at tilføje "Du må gerne stille opfølgende spørgsmå
 
 I de tidlige dage af generativ AI opdagede folk alle mulige prompt-tricks{i: "prompt-tricks"} og besværgelser, der gjorde resultaterne målbart bedre.
 
-For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken: Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI  (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tricks som dette.
+For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken: Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tricks som dette.
 
 Men med tiden begyndte de bedre modeller at gøre mange af disse ting automatisk, højst sandsynligt fordi udviklerne justerede modellerne til at gøre det. Så specifikke fraser som "Lad os overveje det skridt for skridt" er ikke så vigtige længere.
 
