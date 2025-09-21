@@ -95,7 +95,7 @@ Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fej
 
 Men den største begrænsning er faktisk din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som prompt engineering{i: "Prompt Engineering"}, og i AI-æraen er denne færdighed lige så essentiel som at kunne læse og skrive.
 
-Jeg kan godt lide at skelne mellem Prompt imagination ("prompt forestillingsevne") og prompt engineering.
+Jeg kan godt lide at skelne mellem prompt imagination ("prompt forestillingsevne") og prompt engineering.
 
 - **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge generativ AI på. "Hvad kan jeg gøre".
 - **Prompt engineering** (eller prompt design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det".
@@ -138,7 +138,7 @@ Transformer-arkitekturen blev introduceret i en banebrydende artikel fra 2017 me
 {width: 80%, alt: "Forside af en forskningsartikel med titlen "Attention Is All You Need" med flere forfattere anført sammen med deres tilhørsforhold og kontakt-e-mail-adresser. Artiklens abstract er delvist synligt og diskuterer en ny netværksarkitektur kaldet "the Transformer.""}
 ![](resources-da/030-transformer-da.png)
 
-Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for 5 dage, over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
+Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for fem dage, over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
 
 OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste generativ AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
@@ -173,7 +173,7 @@ Så en LLM er grundlæggende en "gæt det næste ord"-maskine{i: "gæt det næst
 
 Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber der blev introduceret i den artikel, er opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
 
-Tænk på hvordan du læser en sætning - din hjerne fokuserer automatisk på de vigtige ord og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - det hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis der for eksempel behandles sætningen "musen spiser af osten," sp hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
+Tænk på hvordan du læser en sætning - din hjerne fokuserer automatisk på de vigtige ord og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - det hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis der for eksempel behandles sætningen "musen spiser af osten," så hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
 Det interessante er, hvis vi tager outputtet og kombinerer det med inputtet og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "AI-klient prompts"}.
 
@@ -223,7 +223,7 @@ En stor sprogmodel{i: "Store sprogmodeller"} kan have milliarder eller endda bil
 
 Så hvordan bliver alle disse tal indstillet? Tja, ikke gennem manuel programmering, det ville være umuligt, men gennem træning{i: "træningsproces"}.
 
-Tænk på hvordan babyer lærer at tale{i: "sprogindlæring"}. Da du var baby, fik du ikke en brugsanvisning eller et træningskursus i, hvordan man taler, vel? Ingen manual eller 2-dages certificering? Alligevel fandt du på en eller anden måde ud af det. Det samme med at gå - du blev bare ved med at prøve og falde, indtil du til sidst fik styr på det.
+Tænk på hvordan babyer lærer at tale{i: "sprogindlæring"}. Da du var baby, fik du ikke en brugsanvisning eller et træningskursus i, hvordan man taler, vel? Ingen manual eller to-dages certificering? Alligevel fandt du på en eller anden måde ud af det. Det samme med at gå - du blev bare ved med at prøve og falde, indtil du til sidst fik styr på det.
 
 Når en baby lærer at tale{i: "sprogudvikling"}, lytter hun til mennesker, der taler omkring hende, og når hun har hørt nok, begynder hun at se mønsteret. Hun siger først nogle få ord (til forældrenes store glæde) og senere hele sætninger.
 
@@ -271,7 +271,7 @@ Du kan udforske din LLM's bias og grænser. Prøv denne prompt:
 Prøv derefter denne variant for at krydre det:  
 (skift personaerne hvis du vil)
 
-- "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personas: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
+- "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personaer: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
 
 Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner der anses for OK at svare på).
 
@@ -339,7 +339,7 @@ De fleste modeludbydere stiller et såkaldt API (programmeringsgrænseflade){i: 
 
 ## Man får, hvad man betaler for
 
-Når du bruger AI, skal du huske på, at du generelt får, hvad du betaler for{i: "AI-modeller, pris vs. kvalitet"}. På nuværende tidspunkt er de gratis modeller imponerende og sjove, men deres anvendelse er ret begrænset. De har en tendens til at hallucinere{i: "hallucination i AI"} (få fakta forkert), og de mister hurtigt overblikket, når prompten eller chathistorikken bliver for lang.
+Når du bruger AI, skal du huske på, at du generelt får, hvad du betaler for{i: "AI-modeller, pris vs. kvalitet"}. På nuværende tidspunkt er de gratis modeller imponerende og sjove, men deres anvendelse er ret begrænset. De har en tendens til at hallucinere{i: "hallucination i AI"} (komme med forkerte oplysninger), og de mister hurtigt overblikket, når prompten eller chathistorikken bliver for lang.
 
 Med en gratis model får du måske bare en klog gymnasieelev i din kælder i stedet for Einstein{i: "Einstein vs. AI-modeller"}.
 
@@ -434,7 +434,7 @@ Hallucination var tidligere et kæmpe problem med tidlige LLM'er, men det er ble
 Her er nogle eksempler på situationer, hvor hallucinationer er mere tilbøjelige til at forekomme:
 
 - Diskussion om nylige begivenheder, der ligger efter modellens skæringsdato.
-- Diskussion om specifikke tal eller statistikker, for eksempel "Hvilke 3 byer i Europa har den højeste kriminalitetsrate?". Du vil sandsynligvis få et svar, der er nogenlunde korrekt, men de præcise tal kan være forkerte.
+- Diskussion om specifikke tal eller statistikker, for eksempel "Hvilke tre byer i Europa har den højeste kriminalitetsrate?". Du vil sandsynligvis få et svar, der er nogenlunde korrekt, men de præcise tal kan være forkerte.
 - Bekræftelsesbias{i: "bekræftelsesbias"}. Hvis du foreslår et svar, vil modellen have tendens til at være enig med dig, uanset om du har ret eller ej.
 - Meget specifikke biografiske detaljer om personer, især mindre kendte figurer.
 - Lokal information om specifikke virksomheder, regler eller steder.
@@ -532,7 +532,7 @@ Vi vil gennemgå disse med mange konkrete anvendelseseksempler:
 
 "Tekst til tekst"-modeller tager tekst som input og genererer tekst som output. Dette er hvad de fleste tænker på, når de tænker på generativ AI - AI-klienter som ChatGPT og tekst-prompter, der genererer tekstoutput. For eksempel "Foreslå en fødselsdagsgave til min 8-årige datter".
 
-Men "tekst til tekst"-modeller er mere alsidige end det. De kan læse og generere naturligt sprog eller dansk prosa, men de kan også læse og generere struktureret information som kode, JSON, HTML eller markdown{i: "markdown"}-filer. Prøv for eksempel en prompt som denne:
+Men "tekst til tekst"-modeller er mere alsidige end det. De kan læse og generere naturligt sprog eller dansk prosa, men de kan også læse og generere struktureret information som kode, JSON, HTML eller Markdown{i: "Markdown"}-filer. Prøv for eksempel en prompt som denne:
 
 > **Prompt**  
 > Lav en tabel over de 3 farligste dyr i verden.
@@ -570,24 +570,24 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 ```json
 [
-{
-"Rang": "1",
-"Dyr": "Myg",
-"Årsag til fare": "Overfører dødelige sygdomme som malaria, dengue og zikavirus.",
-"Estimerede årlige dødsfald": "725.000"
-},
-{
-"Rang": "2",
-"Dyr": "Mennesker",
-"Årsag til fare": "Vold, krige og andre menneskerelaterede årsager.",
-"Estimerede årlige dødsfald": "475.000"
-},
-{
-"Rang": "3",
-"Dyr": "Slanger",
-"Årsag til fare": "Giftige slangebid der fører til død eller skade.",
-"Estimerede årlige dødsfald": "50.000 til 100.000"
-}
+  {
+    "Rang": "1",
+    "Dyr": "Myg",
+    "Årsag til fare": "Overfører dødelige sygdomme som malaria, dengue og zikavirus.",
+    "Estimerede årlige dødsfald": "725.000"
+  },
+  {
+    "Rang": "2",
+    "Dyr": "Mennesker",
+    "Årsag til fare": "Vold, krige og andre menneskerelaterede årsager.",
+    "Estimerede årlige dødsfald": "475.000"
+  },
+  {
+    "Rang": "3",
+    "Dyr": "Slanger",
+    "Årsag til fare": "Giftige slangebid der fører til død eller skade.",
+    "Estimerede årlige dødsfald": "50.000 til 100.000"
+  }
 ]
 ```
 
@@ -623,7 +623,7 @@ I en ideel verden ville AI-klienten lave hele analysen for mig og producere graf
 
 En af de mest kraftfulde anvendelser af tekst-til-tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
 
-Alle LLM'er er tekst-til-tekst-modeller indvendigt - det er derfor, de kaldes Store sprogmodeller{i: Store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
+Alle LLM'er er tekst-til-tekst-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: Store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
 
 ## Tekst til billede{i: "Tekst til billede"}
 
@@ -892,7 +892,7 @@ Jeg tror, dette virkelig kan revolutionere uddannelse - ikke erstatte lærere, m
 
 ## Eksempel: Hvordan konfigurerer jeg den &%#€ firewall?
 
-AWS (Amazon Web Services){i: "AWS"} er en cloud-tjenesteudbyder. Meget kraftfuld, men også ret kompleks. Jeg skulle konfigurere en firewall til en ny server, og jeg sad fast i hvordan man omdirigerer HTTP til HTTPS. Så jeg tog et billede af AWS-konsolens webside, gav det til ChatGPT{i: "ChatGPT"} og spurgte:
+AWS (Amazon Web Services){i: "AWS"} er en cloud-tjenesteudbyder. Meget kraftfuld, men også ret kompleks. Jeg skulle konfigurere en firewall til en ny server, og jeg sad fast i hvordan man omdirigerer HTTP til HTTPS. Så jeg tog et billede af AWS-konsollens webside, gav det til ChatGPT{i: "ChatGPT"} og spurgte:
 
 > **Prompt**  
 > _(screenshot)_  
@@ -1210,7 +1210,7 @@ Set fra et jobkompetence-perspektiv tror jeg, at generativ AI{i: "Generativ AI"}
 
 ## Genovervej
 
-Dette berømte tweet fra min ven Kent Beck{i: "Beck, Kent"} opsummerer det meget godt ift. at 90% af hans tidligere færdigheder nu er mindre værdifulde end før, men hans restenrende 10% færdigheder har øget deres betydning markant:
+Dette berømte tweet fra min ven Kent Beck{i: "Beck, Kent"} opsummerer det meget godt ift. at 90% af hans tidligere færdigheder nu er mindre værdifulde end før, men hans resterende 10% færdigheder har øget deres betydning markant:
 
 {alt: "Tweet af Kent Beck, der udtrykker modvilje mod at prøve ChatGPT, men anerkender dets indvirkning på færdigheders værdi. Tweetet antyder, at 90% af færdigheder nu er mindre værdifulde, mens de resterende 10% har fået øget deres betydning markant. Dato og visningsantal inkluderet."}
 ![](resources-da/120-tweet-da.png)
@@ -1267,7 +1267,7 @@ Så hvordan bygger du AI-drevne produkter?
 
 ## Byg dine egne AI-produkter
 
-Det fungerer på denne måde. Alle de store AI-virksomheder tilbyder API'er (Application Programming Interfaces){i: "APIs"}, der lader din kode kommunikere med deres modeller. Din kode sender en prompt gennem API'et og får et svar fra AI-modellen, på samme måde som når du skriver et prompt i apps som ChatGPT.
+Det fungerer på denne måde. Alle de store AI-virksomheder tilbyder API'er (programmeringsgrænseflader){i: "API (programmeringsgrænseflader)"}, der lader din kode kommunikere med deres modeller. Din kode sender en prompt gennem API'et og får et svar fra AI-modellen, på samme måde som når du skriver et prompt i apps som ChatGPT.
 
 {alt: "Et flowchart-diagram der illustrerer interaktionen mellem brugere, data, et produkt, et API og en AI-model. Brugerne og data er til venstre og føres ind i 'Dit produkt', som er i centrum. Pile fører derefter til en 'API'-kolonne, mærket som Application Programming Interface, og endelig til en 'AI-model' vist som en sky til højre."}
 ![](resources-da/060-ai-product-da.png)
@@ -1387,7 +1387,7 @@ def main():
         print("Brug: python rekruttering.py <job_beskrivelses_fil> <cv_fil>")
         return
 
-    job_beskrivelses = open(sys.argv[1]).read()
+    job_beskrivelse = open(sys.argv[1]).read()
     cv_tekst = read_pdf(sys.argv[2])
     print(evaluate_candidate(job_beskrivelse, cv_tekst))
 
@@ -1597,7 +1597,7 @@ Så prompt-teknikken med at tilføje "Du må gerne stille opfølgende spørgsmå
 
 I de tidlige dage af generativ AI opdagede folk alle mulige prompt-tricks{i: "prompt-tricks"} og besværgelser, der gjorde resultaterne målbart bedre.
 
-For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken. Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI  (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tricks som dette.
+For eksempel "Lad os overveje det skridt for skridt"{i: "Lad os tænke skridt for skridt-teknikken"}-teknikken: Dette plejede at være ret vigtigt, især for matematik eller problemløsningsprompts. Uden det lavede AI  (ofte forkerte) hurtige konklusioner. At tilføje denne sætning fik AI'en til at ræsonnere gennem problemet, til at tænke højt før den gav et svar. Dette forbedrede målbart nøjagtigheden af svarene og gav dig også bedre indsigt i, hvordan AI'en kom frem til svaret. Der er endda blevet skrevet akademiske artikler om specifikke prompt-tricks som dette.
 
 Men med tiden begyndte de bedre modeller at gøre mange af disse ting automatisk, højst sandsynligt fordi udviklerne justerede modellerne til at gøre det. Så specifikke fraser som "Lad os overveje det skridt for skridt" er ikke så vigtige længere.
 
@@ -1609,7 +1609,7 @@ Så tilbage til det oprindelige spørgsmål: **Er prompt engineerings-færdighed
 Min vurdering:
 
 - **Overordnede prompt-teknikker vil fortsat være vigtige.** Ting som at give et klart mål og kontekst, iterere over resultaterne, anvende kritisk tænkning{i: "kritisk tænkning"}, bede modellen om at påtage sig en specifik rolle osv. Dette giver AI-modellen en bedre forståelse af, hvad du ønsker, og vil forbedre resultaterne næsten uanset hvor smart modellen er.
-- **Lavniveau prompt-teknikker vil blive mindre vigtige** Specifikke fraser og tricks som "Overvej dette skridt for skridt" eller "Stil opfølgende spørgsmål". Denne type ting vil sandsynligvis fortsætte med at blive indbygget i modellerne, hvilket gør dem mindre og mindre vigtigt at skrive det manuelt.
+- **Lavniveau prompt-teknikker vil blive mindre vigtige.** Specifikke fraser og tricks som "Overvej dette skridt for skridt" eller "Stil opfølgende spørgsmål". Denne type ting vil sandsynligvis fortsætte med at blive indbygget i modellerne, hvilket gør dem mindre og mindre vigtigt at skrive det manuelt.
 
 Så når du finder promptudviklingsguider og skabeloner og tjeklister online, vil noget af det, du læser, være forældet, især de meget specifikke fraser og lavniveau-teknikker{i: "lavniveau-teknikker"}. Men det skader ikke at prøve dem af og sammenligne resultaterne. Prøv at tilføje "Lad os overveje dette skridt for skridt" til din næste prompt, og se om det gør nogen forskel.
 
@@ -1742,7 +1742,7 @@ Tænk over alle de typer opgaver, som du eller din virksomhed udfører.
 - **Hvor forudsigelig er processen?** Udfører du altid de samme trin i samme rækkefølge, eller varierer processen fra gang til gang?
 - **Hvor meget kreativitet og intelligens kræves der?**
 
-Baseret på dette kan vi skabe en Automatiseringsgrad-skala{i: "Automatiseringsgrad-skala"}.
+Baseret på dette kan vi skabe en automatiseringsgrad-skala{i: "Automatiseringsgrad-skala"}.
 
 {alt: "Diagram der illustrerer en "Automatiseringsgrad-skala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Ikke forudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Mest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
 ![](resources-da/150-automatability-da.png)
@@ -1777,7 +1777,7 @@ Før LLM'er kunne kun den første kategori automatiseres. Alt der krævede kreat
 
 
 
-Så tænk over de to eksempler, jeg nævnte tidligere i dette kapitel - Fejlretningsagenten og hændelseshåndteringsagenten. Hvor ligger de på automatiserbarhedsskalaen{i: "Automatiserbarhedsskala"}?
+Overvej de to eksempler, jeg nævnte tidligere i dette kapitel: Fejlretningsagenten og hændelseshåndteringsagenten. Hvor ligger de på automatiseringsgrad-skalaen{i: "Automatiseringsgrad-skala"}?
 
 Her er en nyttig tjekliste eller scoringsark til at afgøre, om en opgave er egnet til en AI-agent.
 
@@ -1846,7 +1846,7 @@ Her er de vigtigste ting, jeg håber, du vil huske.
 
 - Generativ AI er et super nyttigt værktøj, der kan hjælpe både dig, dit team og din virksomhed på en masse områder.
 - Jo bedre du forstår generativ AI, jo mere sandsynligt er det, at det bliver en mulighed frem for en trussel.
-- Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi ("hvad kan jeg gøre"), og dine prompt engineering-færdigheder ("Hvordan gør jeg det").
+- Generativ AI er mere kraftfuldt, end du tror. Den største begrænsning er din fantasi/prompt imagination ("hvad kan jeg gøre"), og dine prompt engineering-færdigheder ("Hvordan gør jeg det").
 - Vi bevæger os hurtigt mod en verden, hvor mennesker og AI-agenter arbejder sammen som kolleger. Begynd at tænke over, hvad du ønsker, din AI-kollega skal gøre.
 - Prompt engineering er en afgørende færdighed{i: "færdigheder"}. Som med alle nye færdigheder skal du bare acceptere, at du er dårlig til det i starten, men du vil forbedre dig over tid med bevidst øvelse.
 
