@@ -483,7 +483,7 @@ Dette er en god løsning til at arbejde uden om en indbygget begrænsning ved LL
 Prøv det selv! Åbn din foretrukne AI-klient og skriv 12.353 / 0,00046 * 34.673. Det korrekte svar er 931.120.802.173,9131. Sandsynlige udfald:
 
 - AI-klienten skriver Python-kode, og får det rigtige resultat.
-- AI-klienten forsøger at lave udregningen, men får det NÆSTEN rigtigt (men stadig forkert!)
+- AI-klienten forsøger at lave udregningen, men får det NÆSTEN rigtigt (men stadig forkert!).
 - AI-klienten forsøger at lave udregningen, og får det rigtigt.
 
 I det andet tilfælde kan du have det sjovt og spørge: "Er du sikker?". Den vil sandsynligvis prøve igen og fejle igen, og i nogle tilfælde endda sige ting som "Jeg har dobbelttjekket dette, og det er korrekt" (selvom det ikke er). Mega hallucinations-alarm! Det er som en overselvsikker klassekammerat, der nægter at indrømme, at han ikke ved, hvad han laver.
@@ -516,14 +516,14 @@ Bemærk, at der er forskellige typer af generativ AI-modeller{i: "Generative AI-
 
 Vi vil gennemgå disse med mange konkrete anvendelseseksempler:
 
-- Tekst til tekst{i: "Tekst til tekst"}
-- Tekst til billede{i: "Tekst til billede"}
-- Billede til billede{i: "Billede til billede"}
-- Billede til tekst{i: "Billede til tekst"}
-- Lyd til tekst{i: "Lyd til tekst"}
-- Tekst til lyd{i: "Tekst til lyd"}
-- Lyd til lyd{i: "Lyd til lyd"}
-- Tekst til video{i: "Tekst til video"}
+- Tekst til tekst{i: "Tekst til tekst"}.
+- Tekst til billede{i: "Tekst til billede"}.
+- Billede til billede{i: "Billede til billede"}.
+- Billede til tekst{i: "Billede til tekst"}.
+- Lyd til tekst{i: "Lyd til tekst"}.
+- Tekst til lyd{i: "Tekst til lyd"}.
+- Lyd til lyd{i: "Lyd til lyd"}.
+- Tekst til video{i: "Tekst til video"}.
 
 ## Tekst til tekst
 
@@ -651,12 +651,12 @@ Vi kunne også beskrive, hvad der skal foregå i billedet. Hvad med en grim kat 
 
 Denne type værktøjer er meget sjove at lege med, men også nyttige til alle mulige ting, som for eksempel:
 
-- Generering af ikoner til en app{i: "generering af ikoner"}
-- Generering af et omslagsbillede til en bog eller et album{i: "generering af omslagsbilleder"}
-- Brainstorming af logo-idéer til en virksomhed{i: "logo-idéer"}
-- Skabelse af baggrunde til en scene i et videospil{i: "videospil-baggrunde"}
-- Visualisering af arkitektoniske koncepter eller indretningsidéer{i: "visualisering af arkitektoniske koncepter"}
-- Skabelse af brugertilpassede illustrationer til præsentationer eller blogindlæg{i: "brugertilpassede illustrationer"}
+- Generering af ikoner til en app{i: "generering af ikoner"}.
+- Generering af et omslagsbillede til en bog eller et album{i: "generering af omslagsbilleder"}.
+- Brainstorming af logo-idéer til en virksomhed{i: "logo-idéer"}.
+- Skabelse af baggrunde til en scene i et videospil{i: "videospil-baggrunde"}.
+- Visualisering af arkitektoniske koncepter eller indretningsidéer{i: "visualisering af arkitektoniske koncepter"}.
+- Skabelse af brugertilpassede illustrationer til præsentationer eller blogindlæg{i: "brugertilpassede illustrationer"}.
 
 ## Billede til billede
 
@@ -671,10 +671,10 @@ Denne type værktøjer er meget sjove at lege med, men også nyttige til alle mu
 Nogle modeller kan også modificere eksisterende billeder. For eksempel:
 
 - Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie-karakter transformation"}.
-- Fjerne eller udskifte baggrunde{i: "fjernelse eller udskiftning af baggrund"}
-- Ændre vejret eller årstiden i udendørsbilleder{i: "ændring af vejr eller årstid"}
-- Opskalere lavopløsningsbilleder{i: "opskalering af billeder"}
-- Farvelægge sort-hvide fotos{i: "farvelægning af fotos"}
+- Fjerne eller udskifte baggrunde{i: "fjernelse eller udskiftning af baggrund"}.
+- Ændre vejret eller årstiden i udendørsbilleder{i: "ændring af vejr eller årstid"}.
+- Opskalere lavopløsningsbilleder{i: "opskalering af billeder"}.
+- Farvelægge sort-hvide fotos{i: "farvelægning af fotos"}.
 
 I øjeblikket er de fleste billedmodeller ikke særlig gode til denne slags ting, men de bliver hurtigt bedre.
 
@@ -693,11 +693,11 @@ OK, det var det sidste kattebillede, det lover jeg!
 
 Her er andre mulige anvendelser af "billede-til-tekst"-modeller:
 
-- Analyse af medicinske billeder ("Kan du se nogle anormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}
-- Læse og transskribere tekst fra et billede{i: "teksttransskription fra billeder"}
-- Identificere seværdigheder når man rejser (AI = din bærbare rejseguide!){i: "identifikation af seværdigheder"}
-- Identificere planter eller dyr i et foto ("Hvilken slags fugl er det?"){i: "plante- og dyreidentifikation"}
-- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "Whiteboard transskribering"}.
+- Analyse af medicinske billeder ("Kan du se nogle anormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}.
+- Læse og transskribere tekst fra et billede{i: "teksttransskription fra billeder"}.
+- Identificere seværdigheder når man rejser (AI = din bærbare rejseguide!){i: "identifikation af seværdigheder"}.
+- Identificere planter eller dyr i et foto ("Hvilken slags fugl er det?"){i: "plante- og dyreidentifikation"}.
+- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "Whiteboard transskribering"}..
 
 Her er en meget sjov og fjollet ting, du kan prøve.
 
@@ -722,10 +722,10 @@ Tag et foto af hvad som helst, og skriv denne prompt:
 
 Her er nogle andre eksempler på praktiske anvendelser:
 
-- At gøre lydindhold søgbart{i: "søgbarhed af lydindhold"}
-- At hjælpe mennesker med hørenedsættelse{i: "hjælpeteknologi til hørenedsættelse"}
-- At lave undertekster til videoer{i: "produktion af undertekster"}
-- At analysere kundeserviceopkald for kvalitetskontrol{i: "analyse af kundeserviceopkald"}
+- At gøre lydindhold søgbart{i: "søgbarhed af lydindhold"}.
+- At hjælpe mennesker med hørenedsættelse{i: "hjælpeteknologi til hørenedsættelse"}.
+- At lave undertekster til videoer{i: "produktion af undertekster"}.
+- At analysere kundeserviceopkald for kvalitetskontrol{i: "analyse af kundeserviceopkald"}.
 
 Jeg mødte for nylig en iværksætter-virksomhed, der udvikler teknologi til at opdage kriminalitet ud fra lyde. Den lytter efter ting som skud, skrig, knust glas og andre lyde, der ofte forbindes med kriminalitet, og alarmerer derefter politiet. Det er en perfekt anvendelse af lyd-til-tekst-modeller! Kameraer skal pege i en bestemt retning, og databehandlingen er dyrere. Lydbehandling er billigere, og man kan lytte i alle retninger{i: "kriminalitetsdetektion udfra lyd"}.
 
@@ -738,11 +738,11 @@ Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mød
 
 "Tekst-til-lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando. For eksempel:
 
-- Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og en slap bas-solo i midten"
-- Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ..."
-- Du har brug for baggrundslyde til en scene{i: "Baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro"
-- Du ser en film på et sprog, du ikke forstår: "Dub dette til engelsk, men bevar skuespillernes stemmer"
-- Du er ond: "Den forfærdelige skrabende lyd af kridt på en tavle"
+- Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og en slap bas-solo i midten".
+- Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ...".
+- Du har brug for baggrundslyde til en scene{i: "Baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro".
+- Du ser en film på et sprog, du ikke forstår: "Dub dette til engelsk, men bevar skuespillernes stemmer".
+- Du er ond: "Den forfærdelige skrabende lyd af kridt på en tavle".
 
 {width: "75%", alt: "En håndtegnet illustration viser to grupper of mennesker som sidder rundt om borde, alle engageret i samlater med talebobler over dem. Til venstre med teksten "Baggrundsnak på en middelalder-kro" med en pil der peger over på grupperne af mennesker."}
 ![](resources-da/070-text-to-audio-example-da.png)
@@ -767,10 +767,10 @@ Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetils
 
 For nylig sad min yngste søn (14 år) og jeg og spillede Microsoft Flight Simulator{i: "Microsoft Flight Simulator"}, et meget komplekst og realistisk simulationsspil{i: "simulationsspil"}. Vi havde stemmechat kørende i baggrunden på telefonen og brugte det til alle mulige ting:
 
-- Flyvetræning{i: "Flyvetræning"}. "Hvordan indstiller jeg ILS og konfigurerer min autopilot til at foretage den endelige indflyvning", eller "Hvornår skal jeg bruge flaps", eller "hvad gør HDG-knappen" eller "Hvordan slukker jeg for motoren":
+- Flyvetræning{i: "Flyvetræning"}. "Hvordan indstiller jeg ILS og konfigurerer min autopilot til at foretage den endelige indflyvning?", eller "Hvornår skal jeg bruge flaps?", eller "hvad gør HDG-knappen?" eller "Hvordan slukker jeg for motoren?".
 - Rollespil: "Lad som om du er et utålmodigt barn på bagsædet af flyet".
-- Rejseguide: "Jeg flyver over byen X i Frankrig, hvad er nogle interessante facts om det sted?"
-- Træner: "Jeg forsøger at lande i stærk vind. Vær min andenpilot og træner. Vejled mig."
+- Rejseguide: "Jeg flyver over byen X i Frankrig, hvad er nogle interessante facts om det sted?".
+- Træner: "Jeg forsøger at lande i stærk vind. Vær min andenpilot og træner. Vejled mig.".
 
 Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken knap skal bruges for at ændre NAV-frekvensen" eller "Hvad er det blinkende røde lys i højre side af instrumentpanelet".
 
@@ -779,11 +779,11 @@ Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken kna
 
 Men Lyd til Lyd-modeller kan bruges til mere end bare at tale. For eksempel:
 
-- Realtidssprogsoversættelse{i: "Realtidssprogsoversættelse"}
-- Forbedring af lydkvalitet i støjende miljøer{i: "Lydkvalitet"}
-- Remixning af musik i forskellige stilarter{i: "Musik remixing"}
-- Isolering af vokal eller instrumenter fra sange{i: "Isolering af vokal"}
-- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "Eftersynkronisering af film"}
+- Realtidssprogsoversættelse{i: "Realtidssprogsoversættelse"}.
+- Forbedring af lydkvalitet i støjende miljøer{i: "Lydkvalitet"}.
+- Remixning af musik i forskellige stilarter{i: "Musik remixing"}.
+- Isolering af vokal eller instrumenter fra sange{i: "Isolering af vokal"}.
+- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "Eftersynkronisering af film"}.
 
 ## Tekst til Video
 
@@ -929,9 +929,9 @@ Dette er også perfekt, når man kører bil. At køre og læse/skrive er en MEGE
 
 For bare få dage siden planlagde jeg et inspirerende foredrag for en gruppe administrerende direktører{i: "direktører"}. Arrangøren viste mig en slide med alle deltagerne og virksomhederne. På min næste gåtur sendte jeg et screenshot af denne slide til ChatGPT og stillede en masse spørgsmål som:
 
-- "Fortæl mig om disse virksomheder, hvad laver de, hvor store er de?"
-- "Jeg skal holde et foredrag om generativ AI{i: "Generativ AI"} for dette publikum, hvad er de vigtigste ting, jeg bør dække?"
-- "Hvad skal jeg være særligt opmærksom på, når jeg taler til en gruppe som denne?"
+- "Fortæl mig om disse virksomheder, hvad laver de, hvor store er de?".
+- "Jeg skal holde et foredrag om generativ AI{i: "Generativ AI"} for dette publikum, hvad er de vigtigste ting, jeg bør dække?".
+- "Hvad skal jeg være særligt opmærksom på, når jeg taler til en gruppe som denne?".
 
 Jeg fik virkelig nyttigt input og idéer! Derefter brugte jeg "svar kun med OK"-tricket, mens jeg kom med en masse idéer til foredraget, bad om feedback og derefter bad om et resumé, og da jeg kom hjem, havde jeg en meget klar idé om, hvad jeg skulle sige. Jeg kunne forberede foredraget meget hurtigt, og tilbagemeldingerne fra deltagerne var utroligt positive.
 
@@ -1059,10 +1059,10 @@ Der er dog også mange scenarier, hvor AI kan transformere verden til det bedre.
 
 Anthropic er et forbillede her. De tager risiciene meget alvorligt{i: "AI-risici"} og lægger meget arbejde i at opbygge sikkerhedsforanstaltninger{i: "AI-sikkerhedsforanstaltninger"} og teste deres modeller. For eksempel var de pionerer inden for "konstitutionel AI" - en tilgang hvor AI-modeller trænes til at følge specifikke principper og adfærdsretningslinjer. Dette hjælper med at sikre, at AI'en forbliver hjælpsom, mens skadelige handlinger undgås. De fremmer AI-regulering og investerer kraftigt i AI-sikkerhedsforskning{i: "AI-sikkerhedsforskning"}, såsom:
 
-- Hvordan man gør AI-systemer mere gennemsigtige og forståelige
-- Måder at teste og validere AI-adfærd systematisk
-- Metoder til at holde AI-systemer på linje med menneskelige værdier{i: "menneskelige værdier"}, efterhånden som de bliver mere kapable
-- Teknikker til at gøre AI-systemer mere sandfærdige og modstandsdygtige over for manipulation
+- Hvordan man gør AI-systemer mere gennemsigtige og forståelige.
+- Måder at teste og validere AI-adfærd systematisk.
+- Metoder til at holde AI-systemer på linje med menneskelige værdier{i: "menneskelige værdier"}, efterhånden som de bliver mere kapable.
+- Teknikker til at gøre AI-systemer mere sandfærdige og modstandsdygtige over for manipulation.
 
 Dette er en balancegang. Målet er at realisere AI'ens positive potentiale samtidig med at minimere risiciene. Historien giver os grund til forsigtig optimisme, for eksempel hvis vi sammenligner med atomkraft{i: "Atomkraft"}. Atomkraft er en utroligt nyttig og kraftfuld teknologi, men med katastrofale konsekvenser hvis den misbruges eller ikke håndteres omhyggeligt. Vi har formået at holde den under kontrol (indtil videre i hvert fald) gennem bevidst globalt samarbejde, internationale traktater{i: "internationale traktater"} og omhyggelig regulering{i: "regulering"}. Mange lignende tiltag er ved at dukke op for AI.
 
@@ -1120,9 +1120,9 @@ For at vende tilbage til tankesætsskalaen startede hun på venstre side (uviden
 
 
 
-- Grave i retspraksis{i: "retspraksis"} og lange juridiske dokumenter{i: "juridiske dokumenter"}
-- Finde relevant præcedens{i: "præcedens"}
-- Hjælpe med at forklare komplekse juridiske begreber{i: "juridiske begreber"} til hendes klienter
+- Grave i retspraksis{i: "retspraksis"} og lange juridiske dokumenter{i: "juridiske dokumenter"}.
+- Finde relevant præcedens{i: "præcedens"}.
+- Hjælpe med at forklare komplekse juridiske begreber{i: "juridiske begreber"} til hendes klienter.
 
 > **Vis > Fortæl**  
 > At vise er meget mere effektivt end at forklare{i: "forklare"}. Jeg oplever, at de fleste mennesker (inklusive mig selv) ikke rigtigt "forstår det" før de har oplevet det på egen hånd, i deres egen kontekst.
@@ -1154,10 +1154,10 @@ Men OK, nok med luftige visioner, lad os tale om elefanten i rummet. Den konkret
 
 Nogle jobs vil uundgåeligt forsvinde - dette sker ved ethvert teknologiskift{i: "teknologiskift"}, og det sker allerede med AI. Men for de fleste roller tror jeg stadig, at vi mennesker er nødvendige. Nogen med domæneviden skal beslutte:
 
-- Hvad man skal spørge AI'en om
-- Hvordan man formulerer prompten
-- Hvilken kontekst der skal gives
-- Hvordan man evaluerer resultatet{i: "evaluering af resultat"}
+- Hvad man skal spørge AI'en om.
+- Hvordan man formulerer prompten.
+- Hvilken kontekst der skal gives.
+- Hvordan man evaluerer resultatet{i: "evaluering af resultat"}.
 
 LLM'er er ikke perfekte. De kan være absolut geniale, men nogle gange også frygteligt dumme. De kan nogle gange hallucinere og give fejlagtig information på en meget overbevisende måde.
 
@@ -1324,12 +1324,12 @@ Hvis du aldrig har programmeret før og ikke ved, hvordan du kører dette, så b
 
 Du vil få en mere detaljeret version af trinene nedenfor:
 
-1. Installer Python{i: "Python"}
+1. Installer Python{i: "Python"}.
 2. Opret en fil med navnet hej.py{i: "hej.py"} med koden ovenfor.
 3. Åbn en terminal{i: "terminal"} i samme mappe som din fil og skriv `pip install openai` - dette installerer de nødvendige afhængigheder. Skal kun gøres én gang.
 4. Opret en [OpenAI platform-konto](https://platform.openai.com/signup){i: "OpenAI platform-konto"}, log ind og opret en API-nøgle. En API-nøgle{i: "API-nøgle"} er en form for adgangskode, der lader din kode få adgang til OpenAI-modeller som GPT{i: "GPT"}.
 5. Gør API-nøglen tilgængelig for din kode ved at indstille `OPENAI_API_KEY` miljøvariablen. Dette kan normalt gøres ved at skrive `export OPENAI_API_KEY=...` i terminalen.
-6. Skriv `python hej.py`
+6. Skriv `python hej.py`.
 
 Når du kører dette, vil din kode forbinde til GPT og bede den om at generere en kreativ hilsen. Jeg fik dette:
 
@@ -1427,7 +1427,7 @@ Jeg kørte scriptet, fik nogle fordele og ulemper, og denne personlige refleksio
 
 Nu vil jeg vise, hvad der sker, når vi justerer prompten en lille smule{i: "prompt-justering"}. Jeg tilføjer et enkelt ord til den første sætning, som Egbert ville bifalde{i: "Egbert"}:
 
-- Før: "Du er en rekrutteringsekspert."
+- Før: "Du er en rekrutteringsekspert.".
 - Efter: "Du er en **sarkastisk** rekrutteringsekspert."{i: "sarkastisk rekrutteringsekspert"}
 
 Og jeg kørte scriptet igen:
@@ -1646,12 +1646,12 @@ Forestil dig en menneskelig kollega, der aldrig gør noget af sig selv, aldrig t
 
 I stedet skal du gå ned til Einstein i kælderen og gøre det, en god leder ville gøre for et team. Giv ham en overordnet mission og de værktøjer, der er nødvendige for at udføre den, og åbn så døren og lad ham gå ud for at gøre sit arbejde - autonomt. Du giver ham vejledning og feedback, men ingen mikromanagement. Værktøjerne kunne være ting som:
 
-- Adgang til internettet
-- Adgang til penge
-- Mulighed for at slå ting op i en database
-- Mulighed for at sende og modtage beskeder på Slack, Teams, email, osv.
-- Mulighed for at kommunikere med systemer som Notion, Trello, Google Docs eller MS Sharepoint
-- Mulighed for at bestille pizza
+- Adgang til internettet.
+- Adgang til penge.
+- Mulighed for at slå ting op i en database.
+- Mulighed for at sende og modtage beskeder på Slack, Teams, email, osv..
+- Mulighed for at kommunikere med systemer som Notion, Trello, Google Docs eller MS Sharepoint.
+- Mulighed for at bestille pizza.
 - ... osv ...
 
 Denne kombination - LLM + værktøjer + autonomi - er utroligt kraftfuld.
@@ -1672,9 +1672,9 @@ Her er et eksempel. Forestil dig, at vi har en agent kaldet Flora Fejlfixer{i: "
 >
 > Floras værktøjer:
 >
-> - Adgang til et fejlsporingssystem
-> - Adgang til koden (via GitHub)
-> - Adgang til Slack (for teamkommunikation)
+> - Adgang til et fejlsporingssystem.
+> - Adgang til koden (via GitHub).
+> - Adgang til Slack (for teamkommunikation).
 
 
 
@@ -1706,13 +1706,13 @@ Her er et andet eksempel. Forestil dig en situation med et kundesupportteam{i: "
 
 Det kan være udfordrende fordi:
 
-- Kundesupport skal forstå og beskrive problemet
-- De skal finde ud af, hvilket udviklingsteam der skal involveres{i: "udviklingsteam"}
-- Udviklere bliver afbrudt med problemer, som måske ikke er relevante for dem
-- Tid er kritisk - hvert minuts forsinkelse påvirker kunderne{i: "kunder"}
-- Hvis det forkerte team bliver involveret, betyder det endnu flere forsinkelser
-- Supporthenvendelser mangler ofte vigtige tekniske detaljer
-- At finde frem til problemets bagvedliggende årsag kan være udfordrende og tidskrævende
+- Kundesupport skal forstå og beskrive problemet.
+- De skal finde ud af, hvilket udviklingsteam der skal involveres{i: "udviklingsteam"}.
+- Udviklere bliver afbrudt med problemer, som måske ikke er relevante for dem.
+- Tid er kritisk - hvert minuts forsinkelse påvirker kunderne{i: "kunder"}.
+- Hvis det forkerte team bliver involveret, betyder det endnu flere forsinkelser.
+- Supporthenvendelser mangler ofte vigtige tekniske detaljer.
+- At finde frem til problemets bagvedliggende årsag kan være udfordrende og tidskrævende.
 
 En AI-agent kan være meget nyttig i en situation som denne.
 
@@ -1721,13 +1721,11 @@ En AI-agent kan være meget nyttig i en situation som denne.
 
 Den tager automatisk imod supporthenvendelsen, analyserer den, graver information frem fra en vidensbase{i: "vidensbase"} og bruger en LLM til at hjælpe med at finde ud af:
 
-- Sandsynlig hovedårsag (eller flere hypoteser){i: "hovedårsag"}
-- Hvilket udviklingsteam der skal have henvendelsen{i: "udviklingsteam"}
-- Foreslåede handlinger der skal udføres
+- Sandsynlig hovedårsag (eller flere hypoteser){i: "hovedårsag"}.
+- Hvilket udviklingsteam der skal have henvendelsen{i: "udviklingsteam"}.
+- Foreslåede handlinger der skal udføres.
 
 Den tilføjer denne information til henvendelsen, så når henvendelsen når frem til udviklingsteamet, har de allerede et godt udgangspunkt for at løse problemet.
-
-
 
 Dette er et godt eksempel på menneske + AI, der arbejder sammen{i: "Menneske-AI-samarbejde"}. AI-agenten løser ikke hele problemet selv, den laver blot forarbejdet for at hjælpe de menneskelige udviklere med at forstå og løse problemet hurtigere.
 
