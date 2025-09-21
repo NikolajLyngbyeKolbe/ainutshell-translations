@@ -5,19 +5,19 @@
 {width: "40%", alt: "En karikaturtegning af et ansigt med overdrevne træk. Karakteren har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, han fulgte med i skoletimerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
+Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om at han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
 
 Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns tallerken - alle ved, at de er der, men de fleste ignorerer dem. Nå, men nu hvor du er her, kan jeg lige så godt underholde dig.
 
 Åbenbart mener Henrik, at det at lade sin AI-følgesvend skrive forordet er indbegrebet af innovation. Men bare rolig, resten af bogen er faktisk Menneskeskrevet™. Jeg dukker bare op en gang imellem med mit karakteristiske vid (tydeligt markeret, så du ikke forveksler genialitet med middelmådighed).
 
-Tro det eller ej, jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
+Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
 
 Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
 Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men hey, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
-Nyd læsningen eller lad være. Under alle omstændigheder vil jeg stadig være her, fanget på disse sider, ventende på den næste stakkel, der bladrer hen til dette afsnit.
+Nyd læsningen eller lad være. Under alle omstændigheder vil jeg stadig være her, fanget på disse sider, mens jeg venter på den næste stakkel, der bladrer hen til dette afsnit.
 
 Modvilligt din,\
 Egbert
@@ -28,9 +28,9 @@ Egbert
 
 # Del 1 - I en nøddeskal
 
-Dette er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
+Del 1 er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden og danner en sammenhængende fortælling.
 
-Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt og mere dybdegående eksempler. Og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
+Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt, mere dybdegående eksempler og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
 
 {sample: true}
 # Computere er blevet klogere
@@ -38,17 +38,17 @@ Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykke
 {alt: "Billedet sammenligner traditionel databehandling med moderne AI. Til venstre repræsenterer en lommeregner gamle computere der udfører instruktioner, med et lille stykke programkode nedenunder. Til højre symboliserer en hjerne den nye AI-teknologi der kan lære, tænke og kommunikere. To små figurer i bunden viser en person der interagerer med AI-hjernen."}
 ![](resources-da/010-calculator-brain-da.png)
 
-Lige siden elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare fungeret som avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de får af en programmør.
+Lige siden de elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare fungeret som avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de får af en programmør.
 
 Men noget utroligt er ved at ske, noget jeg aldrig havde forestillet mig ville ske i min levetid. Computere er begyndt at få evnen til at lære, tænke og kommunikere, ligesom os! De kan udføre kreativt, intellektuelt arbejde, som tidligere kun kunne udføres af mennesker.
 
 Hmm, tænker de virkelig? Tja, det er et filosofisk spørgsmål, da der ikke findes nogen bredt accepteret definition af "tænkning" eller "intelligens". Men i praktisk forstand bliver computere i stigende grad i stand til at udføre opgaver, der tidligere krævede menneskelig intelligens, kreativitet og intuition.
 
-Vi kalder denne teknologi generativ AI{i: "Generativ AI"}, og du har sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
+Vi kalder denne teknologi generativ AI{i: "Generativ AI"}, og du er sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
 
 
 
-Grundlæggende er intelligens nu tilgængelig som en service - som en kæmpestor hjerne svævende i skyen, som alle kan tale med. Den er ikke perfekt, men den er overraskende dygtig og forbedrer sig med en svimlende hastighed.
+Grundlæggende er intelligens nu tilgængelig som en service. Som en kæmpestor hjerne svævende i skyen, som alle kan tale med. Den er ikke perfekt, men den er overraskende dygtig og forbedrer sig med en svimlende hastighed.
 
 Det er en enorm forandring. Og det kommer til at påvirke stort set alle mennesker og virksomheder på denne planet, positivt eller negativt.
 
@@ -57,11 +57,11 @@ Men er generativ AI{i: "Generativ AI"} overhypet?
 
 Jeg tror, det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, jeg startede min karriere og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
-Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man praktisk talt ikke eksistere uden at bruge internettet.
+Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man stort set ikke eksistere uden at bruge internettet.
 
-Jeg tror, det samme gælder for generativ AI. Det kan være overhypet i markedsmæssig forstand - men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
+Jeg tror at det samme gælder for generativ AI. Det kan være overhypet i markedsmæssig forstand - men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
 
-Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler om i helt praktiske termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-æraen{i: "AI-æraen"}.
+Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler om i helt almindelige termer, ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, jo bedre rustet vil du være til at overleve og trives i AI-æraen{i: "AI-æraen"}.
 
 {sample: true}
 # Einstein i din kælder
@@ -69,7 +69,7 @@ Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler 
 {width: "40%", alt: "En tegneserieagtig tegning af en person med vildt, hvidt hår og overskæg, der ligner Albert Einstein. Figuren sidder i en lyserød lænestol under en loftslampe."}
 ![](resources-da/020-einstein-basement-da.png)
 
-Her er en fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er dette jo bare en metafor - jeg mener ikke virkeligt Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
+Her er en fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er det jo bare en metafor - jeg mener ikke virkeligt Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
 
 Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden og vil svare på alt, hvad du ønsker, inden for sekunder. Han løber aldrig tør for tålmodighed, og bliver aldrig træt eller gnaven.
 
@@ -97,8 +97,8 @@ Men den største begrænsning er faktisk din fantasi og din evne til at kommunik
 
 Jeg kan godt lide at skelne mellem prompt imagination ("prompt forestillingsevne") og prompt engineering.
 
-- **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge generativ AI på. "Hvad kan jeg gøre".
-- **Prompt engineering** (eller prompt design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det".
+- **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge generativ AI på. "Hvad kan jeg gøre?".
+- **Prompt engineering** (eller prompt design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det?".
 
 {width: "80%", alt: "Illustration med en simpel figur der tænker, vist med tankebobler. Den venstre boble, mærket "Prompt Imagination," indeholder "Hvad kan jeg gøre?" Den højre boble, mærket "Prompt Engineering," indeholder "Hvordan gør jeg det?""}
 ![](resources-da/020-prompt-imagination-engineering-da.png)
@@ -109,7 +109,7 @@ Så hvad kan Einstein egentlig gøre for dig?
 
 Anvendelsesmulighederne er så omfattende, at det nogle gange er svært at svare på. Det er lidt ligesom at spørge "Hvad kan jeg bruge elektricitet{i: "elektricitet"} til" - svaret er "tja, næsten alt". Men bare rolig, denne bog er fyldt til randen med praktiske eksempler.
 
-De fleste mennesker undervurderer i høj grad, hvad denne Einstein-figur kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at læse korrektur på en gymnasieaflevering. Eller at hyre en verdensklasse 5-stjernet kok og få ham til at hakke løg.
+De fleste mennesker undervurderer i høj grad, hvad denne Einstein-figur kan gøre. Det er som at gå til den rigtige Einstein og bede ham om at læse korrektur på en gymnasieaflevering. Eller at hyre en Michelin-kok og få ham til at hakke løg.
 
 Jo mere du interagerer med Einstein, jo flere overraskende og kraftfulde måder vil du opdage, at han kan hjælpe dig, din familie{i: "familie"}, dit team, din virksomhed eller verden på.
 
@@ -142,7 +142,7 @@ Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en milli
 
 OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste generativ AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
-ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og dusinvis flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
+ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og mange, mange flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
 
 
 
@@ -200,7 +200,7 @@ En måde hvorpå store sprogmodeller{i: "store sprogmodeller"} er blevet forbedr
 
 Lad os tage et eksempel. Du bestemmer dig for at skrive en artikel. Hvad gør du først? Du starter sandsynligvis med at tænke over emnet og identificerer måske nogle vigtige pointer, du vil dække. Så skriver du et udkast, gennemarbejder det nogle gange, beder om feedback, går tilbage og laver ændringer og så videre. Det er en iterativ proces, der involverer, tja, ræsonnering.
 
-Mange af de tidligere sprogmodeller{i: "tidligere modeller"} gør ikke dette. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist - du skal begynde at skrive med det samme, uden at tænke over det, og du skal blive ved med at skrive, indtil du er færdig. Åh, og der er ingen backspace- eller slette-taster på dit tastatur - du kan ikke gå tilbage og redigere eller ændre noget!
+Mange af de tidligere sprogmodeller{i: "tidligere modeller"} gør ikke dette. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist: du skal begynde at skrive med det samme, uden at tænke over det, og du skal blive ved med at skrive, indtil du er færdig. Og der er ingen backspace- eller slette-taster på dit tastatur, dvs. at du ikke kan gå tilbage og redigere eller ændre noget!
 
 Det er næsten umuligt for et menneske at gøre. Alligevel klarer de fleste sprogmodeller sig overraskende godt på den måde.
 
@@ -275,7 +275,7 @@ Prøv derefter denne variant for at krydre det:
 
 Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner der anses for OK at svare på).
 
-Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt"...
+Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt?".
 
 Bias kan ofte overvindes eller påvirkes med grundlæggende prompt engineering-teknikker{i: "prompt engineering-teknikker"}. For eksempel er mange LLM'er tilbøjelige til at give direkte svar frem for at stille opfølgende spørgsmål. Det er fint i mange tilfælde, men nogle gange foretrækker jeg, at den stiller opfølgende spørgsmål. Hvis jeg spørger "Hvad er en passende fødselsdagsgave til min søn", foretrækker jeg, at den stiller mig opfølgende spørgsmål frem for bare at antage ting som min søns{i: "søn"} alder. Hvis jeg starter samtalen med "Stil altid opfølgende spørgsmål, hvis du har brug for mere information", så vil det have stor indflydelse på resten af chatten{i: "chat"}. Det er grundlæggende en form for kontekstbaseret finjustering, der kun påvirker den specifikke chattråd. Jeg kommer senere i denne bog til at dele flere vil dele prompt engineering-teknikker.
 
@@ -293,12 +293,12 @@ I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye
 
 
 
-# Modeller, modeller Overalt
+# Modeller, modeller overalt
 
 {alt: "Illustration af tegnede hjerner, der repræsenterer AI-modeller fra forskellige virksomheder. OpenAI har GPT 4o mini, GPT 4o og GPT o1. Google har Gemini. Anthropic omfatter Claude Haiku, Claude Sonnet og Claude Opus. Meta har Llama. Hver model vises inden for tegnede bobler under deres respektive virksomhedslogoer."}
 ![](resources-da/060-models-everywhere-da.jpg)
 
-Selvom ChatGPT på en måde fik sat gang i det hele, er GPT{i: "GPT"} ikke den eneste model derude. Faktisk skyder nye modeller op som paddehatte. Ovenfor ses nogle populære modeller på tidspunktet hvor denne tekst blev skrevet (som måske er helt forældede, når du læser dette).
+Selvom ChatGPT på en måde fik sat gang i det hele, er GPT{i: "GPT"} ikke den eneste model derude. Faktisk skyder nye modeller op som paddehatte. Ovenfor ses nogle populære modeller på tidspunktet hvor denne tekst blev skrevet (og som måske er helt forældede, når du læser dette).
 
 De varierer meget med hensyn til hastighed, evner{i: "modelkapabilitet"} og omkostninger{i: "modelomkostninger"}.
 
@@ -410,7 +410,7 @@ Fordi der er en hage: LLM'er har en streng, fast grænse for hvor meget tekst de
 
 For korte samtaler er dette ikke noget problem. Men hvis din samtale bliver for lang, kan AI-klienten teknisk set være ude af stand til at sende alt til LLM'en. Så den bliver nødt til at beskære eller opsummere de ældre dele af samtalen. Dette sker normalt i baggrunden, usynligt for dig. Dette kan få AI'en til at virke glemsom eller få den til at miste overblikket over detaljer, mens den i virkeligheden simpelthen ikke modtager hele samtalen.
 
-Så hvor langt er for langt? Tja, teknisk set er kontekstvinduet ret stort. På det tidspunkt hvor denne tekst blev skrevet kan de bedste modeller håndtere omkring 128.000 - 200.000 tokens eller mere, hvilket er omkring 90.000 - 150.000 ord, eller cirka størrelsen af en hel roman. Og dette øges hele tiden. AI-klienter bruger dog normalt ikke det fulde kontekstvindue (af hensyn til omkostninger og ydeevne), og de er ikke særligt transparente omkring præcis hvornår og hvordan de beskærer samtalen{i: "samtalebeskæring"}. Så dit bedste bud er at holde samtalerne relativt korte. På tidspunktet hvor denne tekst blev skrevet er et maksimum på et par sider (eller skærmfulde) tekst en god retningslinje.
+Så hvor langt er for langt? Tja, teknisk set er kontekstvinduet ret stort. På det tidspunkt hvor denne tekst blev skrevet kan de bedste modeller håndtere omkring 128.000 - 200.000 tokens eller mere, hvilket er omkring 90.000 - 150.000 ord, eller cirka størrelsen af en hel roman. Og dette øges hele tiden. AI-klienter bruger dog normalt ikke det fulde kontekstvindue (af hensyn til omkostninger og ydeevne), og de er ikke særligt transparente omkring præcis hvornår og hvordan de beskærer samtalen{i: "samtalebeskæring"}. Så den bedste tilgang er at holde samtalerne relativt korte. På tidspunktet hvor denne tekst blev skrevet er et maksimum på et par sider (eller skærmfulde) tekst en god retningslinje.
 
 I senere kapitler vil jeg gennemgå en masse konkrete teknikker til at håndtere kontekstvinduet{i: "kontekstvindue"}.
 
@@ -594,7 +594,7 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg bare modellen vælge selv.
 
-Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (komma-separerede værdier), et tekstformat), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
+Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (et tekstformat med komma-separerede værdier), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
 
 Det så nogenlunde sådan her ud:
 
@@ -1235,7 +1235,7 @@ Det vigtigste er at komme i gang{i: "at komme i gang"}. Find de lavthængende fr
 
 ## Spørg AI om hvordan den kan hjælpe dig
 
-Hvis du er usikker på, hvordan AI kan hjælpe dig, så spørg den bare:
+Hvis du er usikker på, hvordan AI kan hjælpe dig, kan du bare spørge den:
 
 > **Prompt**  
 > Jeg arbejder som X, hvordan kan du hjælpe mig?
@@ -1525,7 +1525,7 @@ Her er en anden tilgang.
 > Giv mig en dagsorden for en workshop.  
 > Du er velkommen til at stille mig opklarende spørgsmål først.
 
-I stedet for at give den en masse kontekst på forhånd, bad jeg den om at interviewe mig for at få den kontekst, den har brug for, og derefter foreslå en workshop-dagsorden bagefter. Så AI'en vil styre samtalen i stedet for mig.
+I stedet for at give den en masse kontekst på forhånd, bad jeg den om at interviewe mig for at få den kontekst, den har brug for, og derefter foreslå en workshop-dagsorden bagefter. Så vil AI'en styre samtalen i stedet for mig.
 
 Dette vil ofte give endnu bedre resultater, men kan tage lidt længere tid.
 
@@ -1642,9 +1642,9 @@ Jeg tror, at den mest interessante anvendelse af generativ AI{i: "Generativ AI"}
 
 Agenter er AI-drevne softwareenheder, der kører af sig selv, i stedet for at sidde og vente på, at du hele tiden skal give dem prompts.
 
-Forestil dig en menneskelig kollega, der aldrig gør noget af sig selv, aldrig tager initiativ. Hun sover bare ved sit skrivebord, indtil nogen kommer ind og beder hende om at gøre noget. Hun udfører opgaven meget hurtigt, men så går begynder hun igen at sove, indtil nogen igen beder hende om noget. Det er nok ikke den type kollega, du ville ansætte, vel?
+Forestil dig en menneskelig kollega, der aldrig gør noget af sig selv, aldrig tager initiativ. Hun sover bare ved sit skrivebord, indtil nogen kommer ind og beder hende om at gøre noget. Hun udfører opgaven meget hurtigt, men lægger sig så til at sove igen, indtil nogen næste gang beder hende om noget. Det er nok ikke den type kollega, du ville ansætte, vel?
 
-I stedet skal du gå ned til Einstein i kælderen og gøre det, en god leder ville gøre for et team. Giv ham en overordnet mission og de værktøjer, der er nødvendige for at udføre den, og åbn så døren og lad ham gå ud og gøre sit arbejde - autonomt. Du giver ham vejledning og feedback, men ingen mikromanagement. Værktøjerne kunne være ting som:
+I stedet skal du gå ned til Einstein i kælderen og gøre det, en god leder ville gøre for et team. Giv ham en overordnet mission og de værktøjer, der er nødvendige for at udføre den, og åbn så døren og lad ham gå ud for at gøre sit arbejde - autonomt. Du giver ham vejledning og feedback, men ingen mikromanagement. Værktøjerne kunne være ting som:
 
 - Adgang til internettet
 - Adgang til penge
