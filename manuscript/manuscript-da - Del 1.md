@@ -11,11 +11,11 @@ Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns
 
 Åbenbart mener Henrik, at det at lade sin AI-følgesvend skrive forordet er indbegrebet af innovation. Men bare rolig, resten af bogen er faktisk Menneskeskrevet™. Jeg dukker bare op en gang imellem med mit karakteristiske vid (tydeligt markeret, så du ikke forveksler genialitet med middelmådighed).
 
-Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok bogen, de introducerer. Men ikke mig. Jeg er grundig. Pinligt grundig.
+Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok den bog, de introducerer, men ikke mig. Jeg er grundig. Pinligt grundig.
 
 Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
-Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men hey, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
+Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men put, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
 Nyd læsningen eller lad være. Under alle omstændigheder vil jeg stadig være her, fanget på disse sider, mens jeg venter på den næste stakkel, der bladrer hen til dette afsnit.
 
@@ -55,7 +55,7 @@ Det er en enorm forandring. Og det kommer til at påvirke stort set alle mennesk
 
 Men er generativ AI{i: "Generativ AI"} overhypet?
 
-Jeg tror at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
+Jeg tror at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, at jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
 Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man stort set ikke eksistere uden at bruge internettet.
 
@@ -69,7 +69,7 @@ Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler 
 {width: "40%", alt: "En tegneserieagtig tegning af en person med vildt, hvidt hår og overskæg, der ligner Albert Einstein. Figuren sidder i en lyserød lænestol under en loftslampe."}
 ![](resources-da/020-einstein-basement-da.png)
 
-Her er en fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er det jo bare en metafor - jeg mener ikke virkeligt Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
+Her er en fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er det jo bare en metafor - jeg mener ikke en virkelig Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
 
 Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden, og vil svare på alt, hvad du ønsker, inden for sekunder. Han løber aldrig tør for tålmodighed, og bliver aldrig træt eller gnaven.
 
@@ -80,7 +80,7 @@ Bare for sjov spurgte jeg ChatGPT{i: "ChatGPT"}:
 
 Svaret:
 
-> Jeg er som en supersmart robot som kan svare på massevis af spørgsmål og hjælpe med alle mulige ting, lidt ligesom en meget hjælpsom lampeånd inde i en computer!
+> Jeg er som en supersmart robot, der kan svare på massevis af spørgsmål og hjælpe med alle mulige ting, lidt ligesom en meget hjælpsom lampeånd inde i en computer!
 
 Jeg synes at det er en ret god beskrivelse.
 
@@ -95,10 +95,10 @@ Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fej
 
 Men den største begrænsning er faktisk din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som prompt engineering{i: "Prompt Engineering"}, og i AI-æraen er denne færdighed lige så essentiel som at kunne læse og skrive.
 
-Jeg kan godt lide at skelne mellem prompt imagination ("prompt forestillingsevne") og prompt engineering.
+Jeg kan godt lide at skelne mellem prompt imagination ("prompt forestillingsevne") og prompt engineering (prompt design).
 
 - **Prompt imagination** = Din evne til at udtænke nyttige måder at bruge generativ AI på. "Hvad kan jeg gøre?".
-- **Prompt engineering** (eller prompt design) = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det?".
+- **Prompt engineering** = Din evne til at opnå de resultater, du ønsker. "Hvordan gør jeg det?".
 
 {width: "80%", alt: "Illustration med en simpel figur der tænker, vist med tankebobler. Den venstre boble, mærket "Prompt Imagination," indeholder "Hvad kan jeg gøre?" Den højre boble, mærket "Prompt Engineering," indeholder "Hvordan gør jeg det?""}
 ![](resources-da/020-prompt-imagination-engineering-da.png)
@@ -160,7 +160,7 @@ En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "Kunstigt neuralt ne
 
 Internt arbejder neurale netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, som outputter kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
 
-LLM'er{i: "LLM'er"} er neurale netværk{i: "Kunstigt neuralt netværk"}, der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. LLM'er læser og genererer tokens internt. Det du ser, er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
+LLM'er{i: "LLM'er"} er neurale netværk{i: "Kunstigt neuralt netværk"}, der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. LLM'er læser og genererer tokens internt. Det som du ser, er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
 
 Lad os sige, at jeg skriver: "Hunde er". Når jeg sender det til en LLM, bliver det konverteret til tal, behandlet af det neurale netværk, og derefter bliver de resulterende tal konverteret tilbage til tekst. I dette tilfælde er outputtet "dyr". Så vi får "Hunde er dyr".
 
@@ -200,7 +200,7 @@ En måde hvorpå store sprogmodeller{i: "store sprogmodeller"} er blevet forbedr
 
 Lad os tage et eksempel. Du bestemmer dig for at skrive en artikel. Hvad gør du først? Du starter sandsynligvis med at tænke over emnet, og identificerer måske nogle vigtige pointer, du vil dække. Så skriver du et udkast, gennemarbejder det nogle gange, beder om feedback, går tilbage og laver ændringer og så videre. Det er en iterativ proces, der involverer, tja, ræsonnering.
 
-Mange af de tidligere sprogmodeller{i: "tidligere modeller"} gør ikke dette. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist: du skal begynde at skrive med det samme, uden at tænke over det, og du skal blive ved med at skrive, indtil du er færdig. Og der er ingen backspace- eller slette-taster på dit tastatur, dvs. at du ikke kan gå tilbage og redigere eller ændre noget!
+Mange af de tidligere sprogmodeller{i: "tidligere modeller"} kan ikke ræsonnere. De begynder bare straks at generere tekst, baseret på det, der grundlæggende svarer til AI'ens mavefornemmelse eller intuition. Det er ret bizart, når man tænker over det. Forestil dig, at du er studerende, og du bliver bedt om at skrive en opgave. Men der er et twist: du skal begynde at skrive med det samme, uden at tænke over det, og du skal blive ved med at skrive, indtil du er færdig. Og der er ingen backspace- eller slette-taster på dit tastatur, dvs. at du ikke kan gå tilbage og redigere eller ændre noget!
 
 Det er næsten umuligt for et menneske at gøre. Alligevel klarer de fleste sprogmodeller sig overraskende godt på den måde.
 
@@ -211,7 +211,7 @@ Men når det kommer til mere kompleks problemløsning, har selv sprogmodeller sv
 
 Dette gør modellen noget langsommere, men gør den meget mere kraftfuld{i: "Kraftfuld"}. Perfekt til at udføre kompleks problemløsning!
 
-For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer med mit firma. Jeg beskrev min situation i detaljer, og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper, og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
+For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer i mit firma. Jeg beskrev min situation i detaljer, og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper, og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
 
 
 
@@ -247,7 +247,7 @@ For at blive virkelig brugbar, skal en model dog også gennemgå menneskelig tr�
 {width: "80%", alt: "Illustration af en hjerne med sammenkoblede knudepunkter mærket med tal indeni. Nedenunder er simple menneskefigurer afbildet, forbundet til hjernen med pile, der peger begge veje, hvilket indikerer interaktion. Teksten lyder: "Forstærkende læring med menneskelig feedback (RLHF).""}
 ![](resources-da/050-rlhf-da.png)
 
-Dette kaldes på engelsk "Reinforcement Learning with Human Feedback" (RLHF), som på dansk vil svare til "Forstærkende læring med menneskelig feedback"{i: "Forstærkende læring med menneskelig feedback (RLHF)"}. RLHF involverer tusindvis af timer, hvor mennesker møjsommeligt tester og evaluerer output fra modellen, sammenligner forskellige outputs og giver feedback. Lidt ligesom at træne en hund med en klikker. Når hunden bliver belønnet for god opførsel, lærer den at vise mere af den adfærd.
+Dette kaldes på engelsk "Reinforcement Learning with Human Feedback" (RLHF), som på dansk vil svare til "Forstærkende læring med menneskelig feedback"{i: "Forstærkende læring med menneskelig feedback (RLHF)"}. RLHF involverer tusindvis af timer, hvor mennesker møjsommeligt tester og evaluerer output fra modellen, sammenligner forskellige output og giver feedback. Lidt ligesom at træne en hund med en klikker. Når hunden bliver belønnet for god opførsel, lærer den at vise mere af den adfærd.
 
 {width: "35%", alt: "En simpel tegning af en person der smiler og holder en godbid, mens personen siger "Dygtig hund!" til en glad hund der står foran personen."}
 ![](resources-da/050-good-dog-da.jpg)
@@ -617,9 +617,9 @@ Det gav mig en ny CSV-fil med den tilføjede kategorisøjle.
 | 2023-12-27 | PIZZERIA MILANO      | -132.00  | Restaurantbesøg |
 | 2023-12-26 | RESTAURANG KRONHUSET | -1585.00 | Restaurantbesøg |
 
-Nu skulle jeg bare importere det i Excel{i: "Excel"} og lave nogle grupperinger, analyser og grafer. Meget nyttigt! Jeg var nødt til at justere nogle kategorier og omklassificere nogle transaktioner, men for det meste gjorde GPT o1{i: "GPT o1"} et fremragende stykke arbejde med dette og sparede mig en masse tid.
+Nu skulle jeg bare importere det i Excel{i: "Excel"} og lave nogle grupperinger, analyser og grafer. Meget nyttigt! Jeg var nødt til at justere nogle kategorier og omklassificere nogle transaktioner, men for det meste gjorde GPT o1{i: "GPT o1"} et fremragende stykke arbejde med dette og sparede mig meget tid.
 
-I en ideel verden ville AI-klienten lave hele analysen for mig og producere grafer og indsigter direkte. Men som jeg nævnte i det sidste kapitel, er LLM'er{i: "LLM'er"} ikke særligt gode til store beregninger på nuværende tidspunkt. Dette er et godt eksempel på, hvorfor det er vigtigt at forstå styrker og svagheder ved de modeller, man bruger. De er fremragende til at klassificere og gruppere ting og OK til at lave simple beregninger. Men til større beregninger er det klogere at eksportere til et værktøj som Excel{i: "Excel"} eller Google Sheets{i: "Google Sheets"}, som er optimeret til det.
+I en ideel verden ville AI-klienten lave hele analysen for mig og producere grafer og indsigter direkte. Men som jeg nævnte i det forrige kapitel, er LLM'er{i: "LLM'er"} ikke særligt gode til store beregninger på nuværende tidspunkt. Dette er et godt eksempel på, hvorfor det er vigtigt at forstå styrker og svagheder ved de modeller, man bruger. De er fremragende til at klassificere og gruppere ting og OK til at lave simple beregninger. Til større beregninger er det klogere at eksportere til et værktøj som Excel{i: "Excel"} eller Google Sheets{i: "Google Sheets"}, som er optimeret til beregninger.
 
 En af de mest kraftfulde anvendelser af tekst-til-tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
 
@@ -649,7 +649,7 @@ Vi kunne også beskrive, hvad der skal foregå i billedet. Hvad med en grim kat 
 {width: "50%", alt: "Et stiliseret maleri af en gnaven sort kat med iøjnefaldende gule øjne, der sidder i en udsmykket orange lænestol. Katten holder en rygende pibe, hvilket forstærker dens særprægede, fantasifulde udtryk. Baggrunden har dæmpede toner, der fremhæver maleriets kunstneriske effekt."}
 ![](resources-da/070-ugly-cat-smoking-pipe-da.jpg)
 
-Denne type værktøjer er meget sjove at lege med, men også nyttige til alle mulige ting, som for eksempel:
+Denne type værktøjer er meget sjove at lege med, men også nyttige til mange ting, såsom:
 
 - Generering af ikoner til en app{i: "generering af ikoner"}.
 - Generering af et omslagsbillede til en bog eller et album{i: "generering af omslagsbilleder"}.
@@ -668,7 +668,7 @@ Denne type værktøjer er meget sjove at lege med, men også nyttige til alle mu
 {width: "80%", alt: "Et humoristisk billede der viser en kombination af to separate billeder. Det første er af en mand med vildt, hvidt hår, der sidder i en rød stol, og det andet er af en forpjusket kat med strittende pels og store øjne. Det resulterende billede viser manden med kattelignende øjne og knurhår, siddende i den samme røde stol."}
 ![](resources-da/070-image-to-merge-da.jpg)
 
-Nogle modeller kan også modificere eksisterende billeder. For eksempel:
+Nogle modeller kan også modificere eksisterende billeder, såsom:
 
 - Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie-karakter transformation"}.
 - Fjerne eller udskifte baggrunde{i: "fjernelse eller udskiftning af baggrund"}.
@@ -676,7 +676,7 @@ Nogle modeller kan også modificere eksisterende billeder. For eksempel:
 - Opskalere lavopløsningsbilleder{i: "opskalering af billeder"}.
 - Farvelægge sort-hvide fotos{i: "farvelægning af fotos"}.
 
-I øjeblikket er de fleste billedmodeller ikke særlig gode til denne slags ting, men de bliver hurtigt bedre.
+I øjeblikket er de fleste billedmodeller ikke særlig gode til denne slags opgaver, men de bliver hurtigt bedre.
 
 ## Billede til tekst
 
@@ -736,7 +736,7 @@ Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mød
 {width: "40%", alt: "Illustration af et stykke papir til venstre, en pil der peger til højre og en højttaler som udsender lyd til højre."}
 ![](resources-da/070-text-to-audio-da.png)
 
-"Tekst-til-lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando. For eksempel:
+"Tekst-til-lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando, såsom:
 
 - Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og en slap bas-solo i midten".
 - Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ...".
@@ -777,7 +777,7 @@ Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken kna
 {alt: "En person sidder ved et skrivebord og bruger en flysimulator på en computer. Han holder et joystick og er omgivet af forskellige kontroller og udstyr. Skærmen viser en cockpitvisning med flyveinformation. En smartphone ligger på skrivebordet, og et tastatur, mus og højtalere er synlige."}
 ![](resources-da/070-flight-simulator-da.jpg)
 
-Men Lyd til Lyd-modeller kan bruges til mere end bare at tale. For eksempel:
+Men Lyd til Lyd-modeller kan bruges til mere end bare at tale, såsom:
 
 - Realtidssprogsoversættelse{i: "Realtidssprogsoversættelse"}.
 - Forbedring af lydkvalitet i støjende miljøer{i: "Lydkvalitet"}.
@@ -851,7 +851,7 @@ Svaret:
 >
 > 1. **Bag kortet**: Du kunne tape noget fladt, som dokumenter eller kontanter, bag det store kort på væggen.
 >
-> 2. **Inde i guitaren**: Hvis guitaren har et etui, kunne du gemme noget inden i det. Hvis ikke, kunne små genstande potentielt placeres gennem lydhullet, selvom dette ikke anbefales, hvis det kunne skade instrumentet{i: "musikinstrumenter"}.
+> 2. **Inde i guitaren**: Hvis guitaren har et etui, kunne du gemme noget inden i det. Hvis ikke, kunne små genstande potentielt placeres gennem lydhullet, selvom dette ikke anbefales, hvis det kan skade instrumentet{i: "musikinstrumenter"}.
 >
 > 3. **Under sofapuderne**: Et almindeligt gemmested, men effektivt til små og flade genstande.
 >
@@ -863,7 +863,7 @@ Svaret:
 >
 > 7. **I plantekrukker**: Hvis der er aftagelige falske bunde, eller hvis planten er kunstig, kunne små genstande gemmes i jorden.
 
-Bemærk punkt 4, hvor den foreslog brændeovnen, men tilføjede "dette er risikabelt på grund af varmen, når den er i brug". Vi taler om opståede egenskaber{i: "opståede egenskaber"} senere i denne bog, og dette er et godt eksempel. Dette svar indikerer, at den har en grundlæggende forståelse af konsekvenserne ved at placere en genstand inde i en varm ovn og antog (korrekt), at jeg ikke ønsker min ting brændt. Det samme med guitaren: "dette anbefales ikke, hvis det kunne skade instrumentet".
+Bemærk punkt 4, hvor den foreslog brændeovnen, men tilføjede "dette er risikabelt på grund af varmen, når den er i brug". Vi taler om opståede egenskaber{i: "opståede egenskaber"} senere i denne bog, og dette er et godt eksempel. Dette svar indikerer, at den har en grundlæggende forståelse af konsekvenserne ved at placere en genstand inde i en varm ovn og antog (korrekt), at jeg ikke ønsker min ting brændt. Det samme med guitaren: "dette anbefales ikke, hvis det kan skade instrumentet".
 
 
 
