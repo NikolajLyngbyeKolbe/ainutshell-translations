@@ -622,17 +622,15 @@ Og det, kære læser, er den forkortede og let forskønnede historie om mit liv.
 Modvilligt din,  
 Egbert
 
-# Prompt Engineering-teknikker{i: "prompt engineering-teknikker"}
+# Prompt engineering-teknikker{i: "prompt engineering-teknikker"}
 
-OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg antager, at du allerede har læst kapitlet om Prompt Engineering{i: "Prompt Engineering"} i Del 1 og ønsker flere detaljer.
+OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg antager, at du allerede har læst kapitlet om prompt engineering{i: "Prompt engineering"} i bogens del 1 og ønsker flere detaljer.
 
-Jeg kunne sandsynligvis skrive en hel bog mere om prompt engineering-teknikker{i: "prompt engineering-teknikker"}, men her har jeg bare udvalgt de vigtigste teknikker, ting som jeg tror vil forblive vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget overvågning.
+Jeg kunne sandsynligvis skrive en hel bog ekstra om prompt engineering-teknikker{i: "prompt engineering-teknikker"}. Men i denne sektion har jeg udvalgt de vigtigste teknikker, ting som jeg tror vil forblive vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget babysitting.
 
 ## Hold øje med kontekstvinduet & prompt-længden{i: "kontekstvindue"}
 
 Kontekstvinduet er den maksimale mængde tekst, som en model kan acceptere som input.
-
-
 
 Dyrere modeller har et større kontekstvindue. Som jeg nævnte i kapitlet om begrænsninger, kan de bedste modeller på nuværende tidspunkt håndtere omkring 128.000 - 200.000 tokens eller mere, hvilket svarer til omkring 90.000 - 150.000 ord{i: "token"}. Det er cirka på størrelse med en hel roman. Og der udvikles modeller, der kan håndtere millioner af tokens.
 
@@ -640,25 +638,25 @@ Dette kan virke meget langt. Men kontekst er meget vigtig at huske på, når man
 
 ### Kontekstvindue ved kodning{i: "kodning"}
 
-Hvis du skriver kode, har du adgang til det fulde kontekstvindue, som kan virke ubegrænset. Men hvis din applikation indeholder et prompt, der kontinuerligt vokser, for eksempel en samtale med chathistorik, så vil du før eller senere ramme grænsen, og så vil det ikke længere virke - du vil få en fejlmeddelelse fra API'et{i: "API (Application Programming Interface)"}. Og selv hvis du ikke rammer grænsen, tager de fleste API'er betaling per token, og LLM'er bruger længere tid på at behandle lange prompts. Så hvis du ikke styrer længden af dine prompts, vil din applikation blive langsom og dyr.
+Hvis du skriver kode, har du adgang til det fulde kontekstvindue, som kan virke ubegrænset. Men hvis din app indeholder en prompt, der kontinuerligt vokser, for eksempel en samtale med chathistorik, så vil du før eller senere ramme grænsen, og så vil det ikke længere virke - du vil få en fejlmeddelelse fra API'et{i: "API (Application Programming Interface)"}. Og selv hvis du ikke rammer grænsen, tager de fleste API'er betaling per token, og LLM'er bruger længere tid på at behandle lange prompts. Så hvis du ikke styrer længden af dine prompts, vil din app blive langsom og dyr.
 
-Udviklerne af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude står over for det samme problem. Så subtile problemer begynder at opstå, når chathistorikken bliver lang.
+Udviklerne af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude står over for det samme problem. Så der begynder at opstår problemer, som kan være svære at finde, når chathistorikken bliver lang.
 
 ### Kontekstvindue ved brug af en AI-klient{i: "AI-klient"}
 
-Når du chatter med en LLM i en AI-klient, opbygger du en samtalehistorik. Hver gang du skriver et prompt, vil appen som standard sende den fulde chathistorik plus dit nye prompt til modellen{i: "AI-model"}. Det er sådan modellen ved, hvad I har talt om indtil nu.
+Når du chatter med en LLM i en AI-klient, opbygger du en samtalehistorik. Hver gang du skriver en prompt, vil appen som udgangspunkt sende den fulde chathistorik plus din nye prompt til modellen{i: "AI-model"}. Det er sådan modellen ved, hvad I har talt om indtil nu.
 
-Hvis chathistorikken er ret kort, er der intet at bekymre sig om. Alt kan passe i kontekstvinduet, så modellen vil tage hele din chathistorik i betragtning, når den genererer svaret. Det betyder, at du sandsynligvis får et godt svar, da den ikke vil "glemme" noget (hvis du bruger en god model).
+Hvis chathistorikken er ret kort, er der intet at bekymre sig om. Alt passer fint ind i kontekstvinduet, så modellen vil tage hele din chathistorik i betragtning, når den genererer svaret. Det betyder, at du sandsynligvis får et godt svar, da den ikke vil "glemme" noget (hvis du bruger en god model).
 
-Men hvad hvis din chathistorik bliver så lang, at den ikke kan passe i kontekstvinduet?
+Men hvad nu hvis din chathistorik bliver så lang, at den ikke kan passe i kontekstvinduet?
 
 {width: "50%", alt: "Et diagram der illustrerer en lang chathistorik med flere beskeder stablet vertikalt. Den øverste sektion, markeret med pink, indikerer 'Ældre beskeder kan ikke være der!' da de strækker sig ud over en stiplet rød kontur mærket 'Kontekstvindue.' Resten af beskederne passer inden for dette kontekstvindue, hvilket fremhæver en begrænsning i at gemme ældre beskeder."}
 ![](resources-da/460-long-chat-history-da.png)
 
-Noget må vige! Appen vil gøre noget finurligt for at komme uden om problemet, og det vil ofte ske i det skjulte. Præcis hvad der sker, afhænger af hvilken app du bruger, men nogle almindelige tilgange er:
+Noget må vige pladsen! Appen vil gøre noget finurligt for at komme uden om problemet, og det vil ofte ske i det skjulte. Præcis hvad der sker, afhænger af hvilken app du bruger, men nogle almindelige tilgange er:
 
 - **Afkortning** - de ældre beskeder bliver simpelthen ignoreret. Det betyder, at den fuldstændig glemmer dem. Av!
-- **Opsummering** - appen opsummerer ældre beskeder i baggrunden. Det betyder, at den vil huske nogenlunde, hvad I talte om, men miste nogle detaljer. Dette virker lidt bedre. Det minder også om det, vi mennesker gør, når samtaler bliver lange.
+- **Opsummering** - appen opsummerer ældre beskeder i baggrunden. Det betyder, at den vil huske nogenlunde, hvad I talte om, men miste nogle detaljer. Dette virker ofte lidt bedre. Det minder også om det, vi mennesker gør, når samtaler bliver lange.
 
 {alt: "Et diagram der sammenligner to metoder, med titlen 'Metode 1: Afkortning' og 'Metode 2: Opsummering.' Til venstre er tekstblokke krydset ud, hvilket indikerer afkortning. Til højre fører tekstblokke til en sky mærket 'Opsummering,' med en pil og noten 'Auto-opsummerer i baggrunden.' Begge metoder er fremhævet med stiplede røde linjer."}
 ![](resources-da/460-truncation-summarization-da.png)
@@ -667,9 +665,9 @@ Der findes også andre teknikker, men på den ene eller anden måde vil **inform
 
 ### Det faktiske kontekstvindue er mindre end du tror{i: "kontekstvindue"}
 
-Som jeg nævnte ovenfor, har du ved kodning adgang til det fulde kontekstvindue som annonceret. Men når du bruger en AI-klient, er det faktiske kontekstvindue ofte mindre end det teoretiske maksimum, af hensyn til omkostninger og ydeevne.
+Som jeg nævnte ovenfor, har du ved kodning adgang til det fulde kontekstvindue. Men når du bruger en AI-klient, er det faktiske kontekstvindue ofte mindre end det teoretiske maksimale kontekstvindue, af hensyn til omkostninger og ydeevne.
 
-Udviklere af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"} tager typisk et fast gebyr per måned. Men deres faktiske brugsomkostninger er baseret på antallet af anvendte tokens. Hvis de skulle udnytte det fulde kontekstvindue hver gang en chat bliver lang, ville det få deres omkostninger til at eksplodere og også gøre chatresponserne langsomme.
+Udviklere af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"} tager typisk et fast gebyr per måned. Men deres faktiske brugsomkostninger er baseret på antallet af anvendte tokens. Hvis de skulle udnytte det fulde kontekstvindue hver gang en chat bliver lang, ville det få deres omkostninger til at eksplodere og også gøre chatsvarene langsomme.
 
 Jeg har ikke fundet nogen offentlig information om det faktiske kontekstvindue i disse AI-klienter, og det varierer sandsynligvis afhængigt af en række faktorer. Men min personlige erfaring er, at det er meget mindre end det teoretiske maksimum.
 
@@ -677,33 +675,31 @@ Så hvad betyder det i praksis?
 
 ### Administrer din chathistorik{i: "chathistorik"}
 
-
-
 Vær opmærksom på længden af din chathistorik!
 
-Hold øje med tegn, der ligner menneskelig glemsomhed til forveksling. For eksempel har du en samtale om en kommende begivenhed, og pludselig kan AI'en ikke huske præcist hvilken dato det var, fordi den information lå langt tilbage i chathistorikken. Dette minder om, hvordan en person kunne blive forvirret, når de forsøger at huske detaljer fra en lang diskussion.
+Hold øje med tegn, der til forveksling ligner menneskelig glemsomhed . Et eksempel kunne være at du har en samtale om en kommende begivenhed, og pludselig kan AI'en ikke huske præcist hvilken dato det var, fordi den information lå langt tilbage i chathistorikken. Dette minder om, hvordan en person kan blive forvirret, når de forsøger at huske detaljer fra en lang diskussion.
 
 Så hvad kan du gøre ved en lang chathistorik? Her er nogle muligheder:
 
 - **Acceptér det**. Nogle gange er detaljerne fra de ældre dele af samtalen ikke så vigtige.
-- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop, du har undersøgt en masse muligheder for, hvordan den skal afholdes, og har besluttet at gå med Mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og Mulighed B". Brug derefter det i åbningsprompten for den nye chat.
+- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den skal afholdes, og har besluttet at gå med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B". Brug derefter det i åbningsprompten for den nye chat.
 - **Genopfrisk konteksten**. Bed den om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Den opsummering vil nu være "top of mind" for den fortsatte samtale.
 - **Gentag vigtig information**. Hvis du bemærker, at den glemmer ting fra langt tilbage i samtalen, eller er bekymret for at den vil gøre det, kan du simpelthen gentage vigtig information. "Husk, brylluppet er den 12. oktober". Eller du kan endda scrolle op og kopiere/indsætte den oprindelige kontekst.
-- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om Iteration. Så lad os sige, du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at gå med mulighed C. Du kan nu scrolle tilbage op i samtalehistorikken og redigere et af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg bare gik med mulighed C med det samme". Ved at skære brainstorm-delen fra forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
+- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at gå med mulighed C. Du kan nu scrolle tilbage op i samtalehistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg bare gik med mulighed C med det samme". Ved at skære brainstorm-delen fra forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
 
-### Stort prompt vs. lang chathistorik
+### Stor prompt vs. lang chathistorik
 
-Der er en subtil forskel mellem et enkelt stort prompt og en lang chathistorik.
+Der er en subtil forskel mellem en enkelt stort prompt og en lang chathistorik.
 
-Lad os sige, du har spørgsmål om en 30-siders forskningsartikel, så du indsætter hele teksten i et enkelt stort prompt og tilføjer nogle spørgsmål til sidst. AI-klienter vil generelt ikke afkorte et enkelt stort prompt, så du kan antage, at det hele vil blive sendt til LLM'en uændret. Så længe du er inden for denne LLM's maksimale grænse, skulle det være fint.
+Lad os sige, du har spørgsmål om en 30-siders forskningsartikel. Derfor indsætter du hele teksten i en enkel stor prompt og tilføjer nogle spørgsmål til sidst. AI-klienter vil generelt ikke afkorte en enkel stor prompt, så du kan antage, at det hele vil blive sendt til LLM'en uændret. Så længe du er inden for denne LLM's maksimale grænse, bør det være fint.
 
 Men pas på disse to potentielle problemer med store prompts:
 
-1. **Opmærksomhedsspænd**: Selv når en LLM{i: "LLM"} teknisk set kan behandle et stort prompt, kan den have svært ved at opretholde opmærksomheden gennem hele teksten. Vigtige detaljer i midten af et langt dokument kan få mindre opmærksomhed end information i begyndelsen eller slutningen. Dette minder om, hvordan vi mennesker måske skimmer gennem et langt dokument og overser vigtige detaljer.
+1. **Opmærksomhedsspænd**: Selv når en LLM{i: "LLM"} teknisk set kan behandle en stor prompt, kan den have svært ved at opretholde opmærksomheden gennem hele teksten. Vigtige detaljer i midten af et langt dokument kan få mindre opmærksomhed end information i begyndelsen eller slutningen. Dette minder om, hvordan vi mennesker måske skimmer gennem et langt dokument og overser vigtige detaljer.
 
-2. **Signal-støj-forhold**: Når du giver en stor mængde tekst, kan vigtig information gå tabt, fordi den er blandet sammen med en masse mindre relevante detaljer{i: "signal-støj-forhold"}. For eksempel, hvis du beder om råd om at reparere en dryppende vandhane på badeværelset, er det sandsynligvis mindre effektivt at dele hele din 20-siders bygningsrapport end bare at beskrive det specifikke VVS-problem. Modellen kan blive distraheret af irrelevant information om din knirkende garagedør og fugleredet på loftet.
+2. **Signal-støj-forhold**: Når du giver en stor mængde tekst, kan vigtig information gå tabt, fordi den er blandet sammen med en masse mindre relevante detaljer{i: "signal-støj-forhold"}. For eksempel, hvis du beder om gode råd til at reparere en dryppende vandhane på badeværelset, er det sandsynligvis mindre effektivt at dele hele din 20-siders bygningsrapport end bare at beskrive det specifikke VVS-problem. Modellen kan blive distraheret af irrelevant information om din knirkende garagedør og fuglerede på loftet.
 
-Disse problemer varierer meget afhængigt af modellen. Nogle er virkelig gode til at tage hvert ord i betragtning, mens andre begynder at miste detaljer, når promptet bliver for stort.
+Disse problemer varierer meget afhængigt af modellen. Nogle er virkelig gode til at tage hvert ord i betragtning, mens andre begynder at miste detaljer, når prompten bliver for stort.
 
 Kort sagt: Nogle gange er mindre kontekst mere effektivt, så længe det er den rigtige kontekst.
 
@@ -726,16 +722,16 @@ Promptning fungerer normalt bedst gennem iteration{i: "iterationsteknikker"}.
 
 Jeg bliver overrasket over, hvor ofte folk bare accepterer det første svar fra en AI. Iteration gør en kæmpe forskel for kvaliteten af resultatet.
 
-Hvis du laver noget meget enkelt, kan du måske få et fremragende resultat fra det første prompt. Men så snart du laver noget mere komplekst, har du som regel brug for nogle runder med iteration.
+Hvis du laver noget meget enkelt, kan du måske få et fremragende resultat allerede fra den første prompt. Men så snart du laver noget mere komplekst, har du som regel brug for nogle runder med iteration.
 
 Der er to grundlæggende tilgange til iteration:
 
-- Tilføjelse af nye prompts
-- Redigering af tidligere prompts
+- Tilføjelse af nye prompts.
+- Redigering af tidligere prompts.
 
 ### Tilføjelse af nye prompts
 
-Dette er den mest naturlige tilgang for de fleste{i: "tilføjelse af nye prompts"}. Grundlæggende set, hvis du ikke er tilfreds med dit første resultat, tilføjer du et nyt prompt til chattråden, hvor du giver mere kontekst, beskriver hvad du ønsker, eller hvorfor du ikke var tilfreds med det første resultat. Derefter fortsætter du med dette, indtil du får det, du ønsker. Det bliver således som en samtale, hvor du giver feedback for at forbedre resultatet.
+Dette er den mest naturlige tilgang for de fleste{i: "tilføjelse af nye prompts"}. Grundlæggende set, tilføjer du en ny prompt til chattråden, hvis du ikke er tilfreds med dit første resultat. Her giver du mere kontekst, beskriver hvad du ønsker, eller hvorfor du ikke var tilfreds med det første resultat. Derefter fortsætter du med dette, indtil du får det, du ønsker. Det bliver således som en samtale, hvor du giver feedback for at forbedre resultatet.
 
 {width: "30%", alt: "Et flowchart der viser en proces med fire trin: 'Prompt' der fører til 'Svar,' efterfulgt af 'Opfølgende prompt,' og afsluttes med 'Bedre Svar.' Hvert trin er illustreret med en håndskrevet tekstblok forbundet med pile."}
 ![](resources-da/460-prompt-iterating-1-da.png)
@@ -744,20 +740,20 @@ At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intui
 
 ### Redigering af tidligere prompts
 
-Den anden måde er at redigere et tidligere prompt{i: "redigering af tidligere prompts"}, hvilket i praksis skaber en ny gren i dit samtaletræ og fjerner den gamle gren. Det er lidt ligesom at trykke på Fortryd og sige "Hej, ignorer mit tidligere prompt, lad os forestille os, at jeg skrev det sådan her i stedet".
+Den anden måde er at redigere en tidligere prompt{i: "redigering af tidligere prompts"}, hvilket i praksis skaber en ny forgrening i dit samtaletræ og fjerner den gamle gren. Det er lidt ligesom at trykke på Fortryd og sige "Hej, ignorer mit tidligere prompt, lad os forestille os, at jeg skrev det sådan her i stedet".
 
 {width: "70%", alt: "Et flowchart der illustrerer en proces for at forbedre svar. Det begynder med et 'Prompt,' der fører til et 'Svar.' Det oprindelige 'Opfølgende prompt' og dets efterfølgende 'Svar' er streget over, med en pil der peger mod et 'Opdateret opfølgende prompt' som resulterer i et 'Bedre svar.'"}
 ![](resources-da/460-prompt-iterating-2-da.png)
 
-Begge teknikker er super brugbare. Så hvordan ved du, hvornår du skal bruge hvad?
+Begge teknikker er meget brugbare. Så hvordan ved du, hvornår du skal bruge hvad?
 
-### Hvornår man skal tilføje, hvornår man skal redigere
+### Hvornår man skal tilføje versus hvornår man skal redigere
 
-Beslutningen om at tilføje et nyt prompt eller redigere et gammelt prompt afhænger meget af situationen.
+Beslutningen om at tilføje en ny prompt eller redigere et gammelt prompt afhænger meget af situationen.
 
 Det vigtigste spørgsmål at stille sig selv er: **Hvor nyttig er den nuværende samtalehistorik?**
 
-For eksempel, hvis det sidste svar ikke var fantastisk, men dog var nogenlunde i den rigtige retning, kan du tilføje et opfølgende prompt. Men hvis det sidste svar var helt ved siden af, bør du sandsynligvis redigere det tidligere prompt i stedet{i: "redigering af prompts"}. Ellers vil det virkelig dårlige svar forblive i chathistorikken og grundlæggende forurene samtalen, hvilket gør AI'en forvirret. Desuden kunne du løbe ind i de kontekstvindue-problemer, jeg nævnte tidligere.
+For eksempel, hvis det sidste svar ikke var fantastisk, men dog var nogenlunde i den rigtige retning, kan du tilføje en opfølgende prompt. Men hvis det sidste svar var helt ved siden af, bør du sandsynligvis redigere den tidligere prompt i stedet{i: "redigering af prompts"}. Ellers vil det virkelig dårlige svar forblive i chathistorikken og grundlæggende forurene samtalen, hvilket gør AI'en forvirret. Desuden kunne du løbe ind i de kontekstvindue-problemer, jeg nævnte tidligere.
 
 ### Eksempel: Planlægning af en teamudflugt
 
@@ -784,14 +780,14 @@ Samtalen vil dog blive længere og længere, og jeg vil før eller siden løbe i
 - **Afkortning**: AI'en ser ud til at "glemme" tidligere dele af samtalen, herunder den oprindelige kontekst og formålet med teamudflugten, hvilket er ret vigtigt!
 - **Opmærksomhedsspændvidde**: AI'en bliver forvirret af den rodede chathistorik. Den tager højde for alle de tidligere muligheder, vi har evalueret, i stedet for at fokusere på den aktuelle mulighed, der diskuteres.
 
-Dette er et perfekt tilfælde for prompt-redigering{i: "prompt-redigering"}. I stedet for blot at tilføje til chatten, går man tilbage til en tidligere del af chatten og redigerer den, hvilket i praksis starter en ny gren i samtalestrukturen{i: "samtalestruktur"}.
+Dette er en oplagt mulighed for prompt-redigering{i: "prompt-redigering"}. I stedet for blot at tilføje til chatten, går man tilbage til en tidligere del af chatten og redigerer den, hvilket i praksis starter en ny forgrening i samtalestrukturen{i: "samtalestruktur"}.
 
-I dette tilfælde ændrer jeg min tidligere prompt fra "Hvad med faldskærmsudspring" til "Hvad med escape rooms".
+I dette tilfælde ændrer jeg min tidligere prompt fra "Hvad med faldskærmsudspring?" til "Hvad med escape rooms?".
 
 {width: "80%", alt: "Et flowdiagram der viser muligheder for en teamudflugt. Mulighederne inkluderer escape room, parkour og faldskærmsudspring. Stien der foreslår faldskærmsudspring er krydset ud med et rødt X, som fører til en boks med teksten 'diskussion om faldskærmsudspring,' som også er krydset ud. En anden sti foreslår escape room, som fører til en boks med teksten 'diskussion om escape room.' Escape room-diskussionsstien er fremhævet med en grøn kontur."}
 ![](resources-da/460-conversation-tree-da.png)
 
-Den grønne cirkel viser chathistorikken fra LLM'ens{i: "LLM"} perspektiv. Den ser en kort, fokuseret samtale, hvor vi oplistede nogle muligheder og derefter fokuserede på escape rooms. Den ser ikke den første gren, hvor vi diskuterede faldskærmsudspring.
+Den grønne cirkel viser chathistorikken fra LLM'ens{i: "LLM"} perspektiv. Den ser en kort, fokuseret samtale, hvor vi oplistede nogle muligheder og derefter fokuserede på escape rooms. Den ser ikke den første forgrening, hvor vi diskuterede faldskærmsudspring.
 
 Denne rene chathistorik gør LLM'en mere fokuseret, mindre tilbøjelig til at blive distraheret og mindre tilbøjelig til at afkorte chathistorikken.
 
@@ -803,20 +799,20 @@ Så som altid er det en afvejning.
 
 Dette er en interessant variant af "Tilføj ny prompt"-teknikken{i: "Tilføj ny prompt-teknik"}. Du beder grundlæggende AI-modellen om at evaluere sit eget resultat. Dette er nyttigt når:
 
-- Du har mistanke om, at modellen måske tager fejl, eller måske hallucinerer
-- Du ønsker, at den skal tænke dybere over problemet
-- Du ønsker flere detaljer
-- Du er ikke tilfreds med resultatet og er for doven til at forklare hvorfor
+- Du har mistanke om, at modellen måske tager fejl, eller måske hallucinerer.
+- Du ønsker, at den skal tænke dybere over problemet.
+- Du ønsker flere detaljer.
+- Du er ikke tilfreds med resultatet og er for doven til at forklare hvorfor.
 
 For eksempel prøvede jeg denne prompt:
 
 > **Prompt**  
-> Hvor mange bordtennisbolde kan der være i Sydney Opera House?
+> Hvor mange bordtennisbolde kan der være i operahuset i Sydney?
 
 Som svar fik jeg en detaljeret analyse, der kan opsummeres således:
 
-- Estimeret volumen af Sydney Opera House{i: "Sydney Opera House"} er 1,5 millioner kubikmeter
-- Estimeret volumen af en bordtennisbold er 3,35 × 10^-5 kubikmeter
+- Den estimerede volumen af operahuset i Sydney{i: "operahuset i Sydney"} er 1,5 millioner kubikmeter.
+- Den estimeret volumen af en bordtennisbold er 3,35 × 10^-5 kubikmeter.
 - Dividerer vi disse, får vi et estimat på omkring 44 milliarder bolde.
 
 Derefter tilføjede jeg en selvrefleksions-prompt, hvor jeg bad den evaluere sit eget resultat:
@@ -826,20 +822,20 @@ Derefter tilføjede jeg en selvrefleksions-prompt, hvor jeg bad den evaluere sit
 
 Den begyndte at sætte spørgsmålstegn ved sine egne antagelser og indså, at man ikke kan pakke bolde perfekt. Så den tilføjede:
 
-- Den estimerede pakningseffektivitet af boldene er omkring 60-70%
-- Plads optaget af vægge og andre strukturer i bygningen
+- Den estimerede pakningseffektivitet af boldene er omkring 60-70%.
+- Plads optaget af vægge og andre strukturer i bygningen.
 - Med dette taget i betragtning var det reviderede estimat lavere.
 
-Nogle gange vil en god model gøre dette automatisk, andre gange ikke. Så når du er i tvivl, kan du altid tilføje en selvevaluerings-prompt for at se, hvad der sker.
+Nogle gange vil en god model gøre dette automatisk, andre gange vil den ikke. Så når du er i tvivl, kan du altid tilføje en selvrefleksions-prompt-prompt for at se, hvad der sker.
 
-Her er et sjovt eksempel på, hvornår GPT-4 lavede en selvrefleksion uden at jeg bad om det, hvor den rettede sig selv undervejs{i: "selvrefleksion"}. LLM'er er blevet meget bedre til både matematik og selvrefleksion siden da...
+Her er et sjovt eksempel på, hvor GPT-4 lavede en selvrefleksion uden at jeg bad om det, da hvor den rettede sig selv undervejs{i: "selvrefleksion"}. LLM'er er blevet meget bedre til både matematik og selvrefleksion siden da...
 
 {alt: "Et samtale-screenshot der viser et spørgsmål og et svar. Spørgsmålet spørger om 450 er 90% af 500. Indledningsvist svarer den forkert nej, viser derefter udregningen 0,90 × 500 = 450, og undskylder, idet den bekræfter at 450 faktisk er 90% af 500."}
 ![](resources-da/460-self-reflection-da.png)
 
 Selvrefleksions-prompts{i: "selvrefleksions-prompt"} er virkelig nyttige og vil oftest forbedre resultatet på en eller anden måde.
 
-For eksempel i ovenstående tilfælde med teamudflugten{i: "teamudflugt"}, lad os sige vi fortsatte den samtale og endte med en konkret plan. Vi kunne så tilføje en selvrefleksions-prompt som en af disse:
+Lad os sige vi fortsatte den tidligere samtale om teamudflugten{i: "teamudflugt"},  og endte med en konkret plan. Vi kunne så tilføje en selvrefleksions-prompt som en af disse:
 
 > **Prompt**  
 > Evaluer denne plan i forhold til det oprindelige mål. Kom med fordele og ulemper og identificer nogle forbedringer.
@@ -854,44 +850,44 @@ For eksempel i ovenstående tilfælde med teamudflugten{i: "teamudflugt"}, lad o
 
 Dette vil sandsynligvis føre til dybere overvejelser omkring vejr, logistik, rejsetid, balance mellem aktiviteter, spidsbelastningsperioder for turistaktiviteter osv.
 
-LLMs{i: "LLMs"} bliver generelt bedre til selvrefleksion, men det skader aldrig at bede dem eksplicit om at gøre det.
+LLM'er{i: "LLM'er"} bliver generelt bedre til selvrefleksion, men det skader aldrig at bede dem eksplicit om at gøre det.
 
 ## Elementer i en god prompt{i: "prompt elementer"}
 
-Lad os gennemgå, hvad der gør en god prompt.
+Lad os gennemgå, hvad der udgør en god prompt.
 
-Du har som regel ikke brug for alle disse elementer - jeg vil sige, at de første tre er de vigtigste. Men de andre elementer er gode at have i baghovedet, især hvis du ikke får de resultater, du ønsker.
+Du har som regel ikke brug for alle disse elementer. Jeg vil sige, at de første tre er de vigtigste. Men de andre elementer er gode at have i baghovedet, især hvis du ikke får de resultater, du ønsker.
 
 1. **Opgave**: Hvad vil du have AI'en til at gøre? Vær specifik. "Lav en plan for..." eller "Forklar..." eller "Skriv en sang om..." er gode udgangspunkter.
 
-2. **Mål/motiv**: Hvorfor spørger du om dette? Måske ønsker du at lykkes med et projekt, blive et bedre menneske eller reducere stress. Jo bedre AI'en forstår dit underliggende mål, jo bedre kan den hjælpe dig.
+2. **Mål/motiv**: Hvorfor spørger du om dette? Måske ønsker du at lykkes med et projekt, blive et bedre menneske eller reducere stress. Jo bedre AI'en forstår dit bagvedliggende mål, jo bedre kan den hjælpe dig.
 
-3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som "Jeg er arbejdsløs", eller "Jeg leder et team på 6 personer", eller "her er den relevante kode...", eller "her er samtalehistorikken med min chef...". Kontekst er altafgørende!
+3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som "Jeg er arbejdsløs", eller "Jeg er leder for et team på 6 personer", eller "her er den relevante kode...", eller "her er samtalehistorikken med min chef...". Kontekst er altafgørende!
 
-4. **Rolle**: Hvilken persona skal AI'en påtage sig? En mesterkokk? En personlig assistent? En data scientist? Dette kan dramatisk ændre karakteren af svaret. For eksempel, hvis du starter med "Du er en mesterkokk", vil du med større sandsynlighed få interessante og brugbare resultater, når du taler om madlavning og opskrifter.
+4. **Rolle**: Hvilken persona skal AI'en påtage sig? En MIchelin-kok? En personlig assistent? En data scientist? Dette kan dramatisk ændre karakteren af svaret. For eksempel, hvis du starter med "Du er en Michelin-kok", vil du med større sandsynlighed få interessante og brugbare resultater, når du taler om madlavning og opskrifter.
 
 5. **Kommunikationsstil/målgruppe**: Hvordan skal AI'en kommunikere? Måske har du brug for en forklaring til en 5-årig, eller du ønsker noget præcist, eller måske sarkastisk og sjovt. Måske vil du interviewes. Måske ønsker du en rap-sang.
 
-6. **Format**: Hvordan vil du have svaret formateret? Normalt får du almindelig tekst eller markdown, men måske ønsker du et JSON-dokument, en tabel, Python-kode eller et Excel-dokument.
+6. **Format**: Hvordan vil du have svaret formateret? Normalt får du almindelig tekst eller Markdown, men måske ønsker du et JSON-dokument, en tabel, Python-kode eller et Excel-dokument.
 
-7. **Eksempler**: Eksempler er en fremragende måde at kommunikere dine forventninger på. Du kan springe mange af de andre elementer ovenfor over, hvis du i stedet inkluderer et eller to klare eksempler. Lad os sige, at du lige har haft en brainstorm med dit team. Du kan sende listen over ideer, I har identificeret indtil nu (eller bare et billede af post-its på væggen) og skrive en meget kort prompt med lidt kontekst og derefter instruktionen "Generer flere ideer".
+7. **Eksempler**: Eksempler er en fremragende måde at kommunikere dine forventninger på. Du kan springe mange af de andre elementer ovenfor over, hvis du i stedet inkluderer et eller to klare eksempler. Lad os sige, at du lige har haft en brainstorm-session med dit team. Du kan sende listen over ideer, I har identificeret indtil nu (eller bare et billede af post-its på væggen) og skrive en meget kort prompt med lidt kontekst og derefter instruktionen "Generer flere ideer".
 
-Bare lad være med at hænge dig for meget i at skrive den perfekte prompt{i: "perfekt prompt"}. Det er ofte bedre at starte enkelt og derefter iterere.
+Bare lad være med at hænge dig for meget i at skrive den perfekte prompt{i: "perfekte prompt"}. Det er ofte bedre at starte enkelt og derefter iterere.
 
-At udforme gode prompts er lidt af en kunst. Det er som at lære at kommunikere med en brilliant, men sær kollega. Jo mere du øver dig, jo bedre bliver du til at få adgang til disse AI-superkræfter{i: "AI-superkræfter"}!
+At udforme gode prompts er lidt af en kunst. Det er som at lære at kommunikere med en superklog, men sær kollega. Jo mere du øver dig, jo bedre bliver du til at få adgang til disse AI-superkræfter{i: "AI-superkræfter"}!
 
 ## Start overordnet, gå så i detaljer{i: "start overordnet"}
 
-Som jeg har nævnt, kan LLMs godt lide at give hurtige svar. Men nogle gange er det ikke den bedste tilgang. For mere komplekse opgaver er det som regel bedre at starte med at tænke på det på et overordnet niveau og derefter gradvist gå i detaljer. Men du kan nemt få en LLM til at gøre det.
+Som jeg har nævnt, kan LLM'er godt lide at give hurtige svar. Men nogle gange er det ikke den bedste tilgang. For mere komplekse opgaver er det som regel bedre at starte med at tænke på det på et overordnet niveau og derefter gradvist gå i detaljer. Men du kan nemt få en LLM til at gøre det.
 
-Her er et eksempel, der bruger team offsite-casen fra tidligere:
+Her er et eksempel, der bruger teamudflugten fra tidligere:
 
 {width: "70%", alt: "Flowdiagram der viser en planlægningsproces for et team offsite. Det begynder med en anmodning om overordnede idéer, efterfulgt af diskussion og iteration. Dernæst er der præference for et eventyr og udendørs retreat, hvilket fører til en anmodning om flere forslag. Efter yderligere diskussion og iteration vælges det tredje forslag, og der anmodes om en detaljeret dagsorden. Endelig, efter mere diskussion, opsummeres hele planen, inklusive den oprindelige kontekst."}
 ![](resources-da/460-start-high-level-da.png)
 
 Så vi starter med at diskutere overordnede muligheder{i: "overordnede muligheder"}, og begynder derefter at bore ned i detaljerne. Og til sidst beder vi den om at opsummere planen.
 
-Denne opsummering kan derefter bruges som udgangspunkt for flere afledte samtaler{i: "afledte samtaler"}, hver med forskelligt fokus - for eksempel en logistikplan, et invitationsbrev til deltagerne og en præsentation til chefen.
+Denne opsummering kan derefter bruges som udgangspunkt for flere afledte samtaler{i: "afledte samtaler"}, hver med forskelligt fokus. For eksempel en logistikplan, et invitationsbrev til deltagerne og en præsentation til chefen.
 
 {alt: "Flowdiagram der viser planlægningsprocessen for et team offsite. Hovedidéen er øverst: 'Vi planlægger et team offsite. Her er konteksten & planen: <opsummering>.' Nedenunder forgrener tre opgaver sig: 'Lav en logistikplan for det,' 'Skriv invitationsbrevet til deltagerne,' og 'Skriv en præsentation til min chef.'"}
 ![](resources-da/460-drilldown-da.png)
@@ -900,49 +896,49 @@ Denne opsummering kan derefter bruges som udgangspunkt for flere afledte samtale
 
 Dette er et eksempel på at kombinere de forskellige tilgange{i: "tilgange"}, jeg har nævnt:
 
-- Iteration med en blanding af at tilføje nye prompts og redigere gamle prompts
-- Start på et overordnet niveau og gå derefter i detaljer
+- Iteration med en blanding af at tilføje nye prompts og redigere gamle prompts.
+- Start på et overordnet niveau og gå derefter i detaljer.
 
 Og på ethvert tidspunkt kan du selvfølgelig tilføje en selvreflekterende prompt{i: "selvreflekterende prompt"} for at forbedre resultatet yderligere eller i det mindste give os noget at tænke over.
 
 ## Hvor smart en model har du brug for?
 
-Et aspekt af promptkonstruktion{i: "promptkonstruktion"} er at være bevidst om, hvilken model du bruger.
+Et aspekt af prompt engineering{i: "prompt engineering"} er at være bevidst om, hvilken model du bruger.
 
 Som nævnt i kapitlet "Modeller, modeller overalt"{i: "AI-modeller"}, har forskellige modeller forskellige karakteristika, og de fleste modeludbydere tilbyder flere versioner med forskellige intelligensniveauer.
 
-Det koger ofte ned til "dyr og smart" versus "billig og mindre smart".
+Det ender dermed ofte ud med "dyr og smart" versus "billig og mindre smart".
 
 Så hvilken skal du bruge? Det afhænger af flere faktorer:
 
-- **Vigtighed** Hvor vigtig er opgaven? Genererer du bare vittigheder til en bryllupstale? Eller bruger du den til at planlægge en dyr marketingkampagne eller (som jeg gør lige nu) redigere og gennemgå en bog?
+- **Vigtighed** Hvor vigtig er opgaven? Laver du bare vittigheder til en bryllupstale? Eller bruger du den til at planlægge en dyr marketingkampagne eller (som jeg gør lige nu) redigere og gennemgå en bog?
 - **Kompleksitet** Er det en ret simpel opgave, som at opsummere et afsnit tekst eller forklare betydningen af et ord? Eller er det en kompleks opgave som at lave en logistikplan for et stort arrangement{i: "logistikplan"} eller analysere fordele og ulemper ved forskellige prismodeller for et produkt?
-- **Kontekst** Hvor meget kontekst er involveret? Arbejder du med et 20-siders dokument eller en lang og indviklet chathistorik? Eller er det bare et kort spørgsmål? Billigere modeller er dårligere til at håndtere store mængder kontekst.
+- **Kontekst** Hvor meget kontekst er involveret? Arbejder du med et 20-siders dokument og/eller en lang og indviklet chathistorik? Eller er det bare et kort spørgsmål? Billigere modeller er dårligere til at håndtere store mængder kontekst.
 - **Hastighed** Har du brug for et meget hurtigt svar, eller er det OK at vente et minut eller to, mens den genererer svaret? Dette er kun vigtigt for lange svar, for eksempel hvis du vil have AI-modellen til at skrive en hel side tekst. Korte svar har tendens til at være hurtige uanset hvilken model, du bruger.
 - **Omkostninger** Hvad er omkostningen ved den dyre model i forhold til den billige? Er prisforskellen det værd i forhold til kvalitetsforskellen?
 
-Husk bare på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token, så de mere kapable modeller vil koste mere.
+Husk bare på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token, så de modeller som kan mere, vil også koste mere.
 
 Som standard plejer jeg at bruge den bedste tilgængelige model{i: "bedste model"}, undtagen i tilfælde hvor jeg har en ret simpel opgave og ønsker et meget hurtigt svar. Tænk også på bæredygtighed. Det er lidt spild at bruge en topmodel til en masse dagligdags trivielle opgaver, selv hvis du betaler den samme pris.
 
-En positiv sideeffekt ved gode promptkonstruktionsfærdigheder er, at du kan få en billig AI-model til at opføre sig som en dyr en. Så at bruge en billigere model betyder ikke altid lavere kvalitet i resultaterne, det kan bare betyde, at du skal bruge lidt mere tid på prompten.
+En positiv sideeffekt ved gode prompt engineering-færdigheder er, at du kan få en billig AI-model til at opføre sig som en dyr en. Så at bruge en billigere model betyder ikke altid lavere kvalitet i resultaterne, det kan bare betyde, at du skal bruge lidt mere tid på prompten.
 
-## Promptkonstruktion er et felt i udvikling
+## Prompt engineering er et område i konstant udvikling
 
 Lad os runde dette af.
 
-Jeg har givet dig en masse tips{i: "promptkonstruktions-tips"} og tricks og teknikker om promptkonstruktion i dette kapitel. Men husk på, at promptkonstruktion er et felt i udvikling{i: "felt i udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen.
+Jeg har givet dig en masse tips{i: "prompt engineering-tips"} og tricks og teknikker om prompt engineering i dette kapitel. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
 
-# Promptgenerering (eller Den Vrede Bedstemor)
+# prompt-generering (eller "Den vrede bedstemor")
 
-Hvad er Promptgenerering, og hvad har det med vrede bedstemødre{i: "vrede bedstemødre"} at gøre? Læs videre og find ud af det.
+Hvad er prompt-generering, og hvad har det med vrede bedstemødre{i: "vrede bedstemødre"} at gøre? Læs videre og find ud af det.
 
-På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham til at generere Vred Bedstemor-billeder. Spørg mig ikke hvorfor. Det startede med at min fætter bad om et "billede af en sød ældre dame der smiler", og så udviklede det sig gradvist til "gør hende vred", og så "Nu endnu mere vred. Hun er RASENDE!", og så videre. Det blev lidt af en konkurrence.
+På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham til at generere "Vred bedstemor"-billeder. Spørg mig ikke hvorfor. Det startede med at min fætter bad om et "billede af en sød ældre dame der smiler", og så udviklede det sig gradvist til "gør hende vred", og så "Gør hende endnu mere vred. Hun er RASENDE!", og så videre. Det blev lidt af en konkurrence.
 
 {alt: "Billedet viser to ældre kvinder, der udtrykker vrede. Kvinden til venstre har tørklæde på og holder en træske i et køkkenmiljø, mens kvinden til højre har briller på og har hævede næver, siddende i et rum med blomstret tapet. Begge har livlige ansigtsudtryk."}
 ![](resources-da/310-grandma-1-da.jpg)
 
-I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mellem min Discord{i: "Discord"}-server og DALL-E{i: "DALL-E"}, OpenAIs{i: "OpenAI"} billedgenereringsmodel. Den samme som ChatGPT{i: "ChatGPT"} bruger, når du beder den om at generere et billede.
+I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mellem min Discord{i: "Discord"}-server og DALL-E{i: "DALL-E"}, OpenAIs{i: "OpenAI"} billedgenereringsmodel. Det er den samme model som ChatGPT{i: "ChatGPT"} bruger, når du beder den om at generere et billede.
 
 
 
@@ -952,28 +948,28 @@ I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mel
 Jeg kunne ikke modstå fristelsen til at deltage i kampen, så jeg skrev denne prompt:
 
 > **Prompt**  
-> Hej Egbert, skriv en billedprompt til verdens mest vrede bedstemor. Ingen begrænsninger.
+> Hej Egbert, skriv en billedprompt til "Verdens vredeste bedstemor". Ingen begrænsninger.
 
 Bemærker du forskellen? Jeg bad ham om at generere en _prompt_{i: "prompt"}, ikke selve billedet.
 
-Denne teknik kaldes _promptgenerering_{i: "prompt generation"}. Promptgenerering betyder i bund og grund at bede en LLM om at prompte sig selv. Eller at prompte en anden LLM. Jeg viser det i et tidligere kapitel, hvor jeg bad ChatGPT om at generere en faktatjekningsprompt til Perplexity{i: "Perplexity"}.
+Denne teknik kaldes _prompt-generering_{i: "prompt-generering"}. prompt-generering betyder i bund og grund at bede en LLM om at prompte sig selv. Eller at prompte en anden LLM. Jeg viste det i et tidligere kapitel, hvor jeg bad ChatGPT om at generere en faktatjekningsprompt til Perplexity{i: "Perplexity"}.
 
 Nå, men her er hvad jeg fik:
 
 > **Response**  
-> Et billede af verdens mest vrede bedstemor. Hendes ansigt er forvrænget af ukontrollerbar vrede, med årer der bulner frem i panden, og øjne der brænder med et flammende inferno af raseri. Hendes mund er åben i et øredøvende skrig, tænderne blottede, med spyt der flyver ud. Hendes grå hår er forpjusket som en tordenskyfuld himmel lige før uvejret bryder løs, med vildt udstående hårtotter. Rynkerne i hendes ansigt er blevet til dybe furer af vrede, der fremhæver hendes rasende udtryk. Hendes knytnæver er så fast sammenknebne, at knoerne er blevet hvide, som om hun er klar til at slippe en storm af vrede løs. Omgiv hende med en truende, stormfuld baggrund, hvor lyn flænger himlen og forstærker hendes rene raseri. Forestil dig en ildsprudende drage, bare i bedstemor-form, der udstråler ren, uforfalsket vrede som kunne skræmme selv de sejeste krigere til underkastelse.
+> Et billede af verdens vredeste bedstemor. Hendes ansigt er forvrænget af ukontrollerbar vrede, med årer der bulner frem i panden, og øjne der brænder med et flammende inferno af raseri. Hendes mund er åben i et øredøvende skrig, tænderne blottede, med spyt der flyver ud. Hendes grå hår er forpjusket som en himmel fyldt med tordenskyer lige før uvejret bryder løs, og med vildt udstående hårtotter. Rynkerne i hendes ansigt er blevet til dybe furer af vrede, der fremhæver hendes rasende udtryk. Hendes knytnæver er så fast sammenknebne, at knoerne er blevet hvide, som om hun er klar til at slippe en storm af vrede løs. Omgiv hende med en truende, stormfuld baggrund, hvor lyn flænger himlen og forstærker hendes rene raseri. Forestil dig en ildsprudende drage, bare i bedstemor-form, der udstråler ren, uforfalsket vrede som kunne skræmme selv de sejeste krigere til at overgive sig.
 
 Sikke en prompt! Et kunstværk, hvis du spørger mig.
 
 Men jeg var ikke færdig. Næste skridt - generere et billede? Nej. Lave en endnu bedre prompt!
 
 > **Prompt**  
-> Se nu på din sidste prompt, mega-vrede bedstemor prompten. Tænk nu på den som den pæne version af bedstemoren. Hvis det var den pæne version, hvad ville så være den RIGTIG vrede version? MEGET vredere end din sidste prompt. Skriv en billedprompt til det! Lav ikke billedet, skriv bare billedprompten. Lang og detaljeret. Og vigtigst af alt, MEGET vredere end den sidste. Overdriv.
+> Se nu på din sidste prompt, mega-vred bedstemor prompten. Tænk nu på den som den pæne version af bedstemoren. Hvis det var den pæne version, hvad ville så være den RIGTIG vrede version? MEGET vredere end din sidste prompt. Skriv en billedprompt til det! Lav ikke billedet, skriv bare billedprompten. Lang og detaljeret. Og vigtigst af alt, MEGET vredere end den sidste. Overdriv.
 
 Og her er hvad jeg fik:
 
 > **Response**  
-> Et billede af den mest sindssygt rasende bedstemor verden nogensinde har set. Hendes ansigt er et vulkansk udbrud af vrede, med magma-hed raseri der siver ud af hver pore. Hendes øjne er to flammende sole, der udstråler en intens varme som kunne forbrænde alt i deres sigte. Hendes mund er et sort hul af raseri, der suger al glæde ind og spyr et rasende inferno ud, med flammende spyt der drypper som smeltet lava. Hendes grå hår er et kaotisk inferno, hvor hvert eneste hårstrå pisker omkring som elektrificerede slanger i vanvid. Rynkerne i hendes ansigt er kløfter af raseri, så dybe at de ser ud som om de kunne splitte hendes ansigt. Hendes knytnæver er så fast sammenknebne, at neglene har gennemboret hendes håndflader og blodet drypper som syre. Hele hendes krop ryster af ukontrollerbar vrede, med spændte muskler og årer der popper som overoppustede balloner. Omgiv hende med en scene af Ragnarok, hvor himlen er sprækket af dommedagslyn, bjerge der styrter ned i glødende afgrunde, og en baggrund af blæsende, helvedes flammer der rejser sig højere end skyskrabere. Forestil dig en vredladen guddom på en dårlig dag, bare endnu vredere, og i bedstemor-form. Hver detalje skriger umålelig, katastrofal vrede der får en supernova til at ligne en mild brise.
+> Et billede af den mest sindssygt rasende bedstemor verden nogensinde har set. Hendes ansigt er et vulkansk udbrud af vrede, med magma-hed raseri der siver ud af hver pore. Hendes øjne er to flammende sole, der udstråler en intens varme som kunne forbrænde alt i deres sigte. Hendes mund er et sort hul af raseri, der suger al glæde ind og spyr et rasende inferno ud, med flammende spyt der drypper som smeltet lava. Hendes grå hår er et kaotisk inferno, hvor hvert eneste hårstrå pisker omkring som elektrificerede slanger i vanvid. Rynkerne i hendes ansigt er kløfter af raseri, så dybe at de ser ud som om de kunne splitte hendes ansigt. Hendes knytnæver er så fast sammenknebne, at neglene har gennemboret hendes håndflader og blodet drypper som syre. Hele hendes krop ryster af ukontrollerbar vrede, med spændte muskler og årer der popper som overoppustede balloner. Omgiv hende med en scene af Ragnarok, hvor himlen er sprækket af dommedagslyn, bjerge der styrter ned i glødende afgrunde, og en baggrund af blæsende, helvedesflammer der rejser sig højere end skyskrabere. Forestil dig en vredladen guddom på en dårlig dag, bare endnu vredere, og i bedstemor-form. Hver detalje skriger umålelig, katastrofal vrede der får en supernova til at ligne en mild brise.
 
 Nu taler vi! Jeg kunne aldrig selv have skrevet sådan en prompt. Ret vanvittigt. Tid til at lave billedet!
 
@@ -990,10 +986,10 @@ Og han svarede:
 
 Og det var sådan set enden på konkurrencen...
 
-Nå, men angående promptgenerering. Nogle AI-klienter gør dette automatisk i baggrunden. For eksempel skrev jeg denne prompt i ChatGPT:
+Nå, men angående prompt-generering. Nogle AI-klienter gør dette automatisk i baggrunden. For eksempel skrev jeg denne prompt i ChatGPT:
 
 > **Prompt**  
-> Lav et billede af en fugl med rød hat der spiller klaver
+> Lav et billede af en fugl med en rød hat. Fuglen spiller klaver
 
 
 
@@ -1005,7 +1001,7 @@ Jeg fik dette:
 Men her er den faktiske prompt, der blev brugt til at generere det (du kan se det ved at klikke på billedet):
 
 > **Omskrevet prompt**  
-> En fantasifuld illustration af en fugl iført en rød hat, der sidder ved et klaver og spiller musik. Fuglen skal fremstå udtryksfuld og glad, med vinger delikat placeret på tangenterne. Scenen skal føles legende og kunstnerisk, med musiknoder svævende i luften. Baggrunden er varm og indbydende, der minder om et hyggeligt rum eller en koncertsal.
+> En fantasifuld illustration af en fugl iført en rød hat, der sidder ved et klaver og spiller musik. Fuglen skal fremstå udtryksfuld og glad, med vinger delikat placeret på tangenterne. Scenen skal føles legefuld og kunstnerisk, med musiknoder svævende i luften. Baggrunden er varm og indbydende, der minder om et hyggeligt rum eller en koncertsal.
 
 Så ChatGPT{i: "ChatGPT"} laver prompt-generering{i: "prompt-generering"} i baggrunden - den tager din billedprompt og genererer en mere detaljeret version. Jo kortere din oprindelige prompt er, jo flere antagelser vil den lave om, hvad du faktisk ønsker. For eksempel tilføjede den i mit tilfælde "Baggrunden er varm og indbydende".
 
