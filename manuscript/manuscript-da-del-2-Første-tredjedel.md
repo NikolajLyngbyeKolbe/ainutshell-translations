@@ -1112,7 +1112,7 @@ Herunder kan ses, hvor kan se ud i praksis, når en bruger interagerer med din a
 1. Bruger spørger "Hvad koster en brødrister?"{i: "brødrister-pris"}
 2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}
 3. LLM'en{i: "LLM"} genkender, at det har brug for info om produktet, så det beder om at kalde hentProduktInfo("Brødrister"){i: "hentProduktInfo funktion"}
-4. App spørger ned i databasen og får al information om brødrister-produktet (inklusiv pris).
+4. App tjekker i databasen og får al information om brødrister-produktet (inklusiv pris).
 5. App sender databasens svar (ufiltreret) tilbage til LLM'en{i: "LLM"}.
 6. LLM'en{i: "LLM"} fortolker dataene og genererer svaret: "Brødristeren koster 199 DKK".
 7. App videresender svaret tilbage til brugeren.
@@ -1192,7 +1192,7 @@ Når en kundeforespørgsel kommer ind, gør vores applikation følgende:
 
 1. Brugeren sender en forespørgsel, såsom "Mit produkt var beskadiget, hvordan får jeg det refunderet?"
 2. App'en beregner vektor-embeddings for brugerens besked.
-3. App'e spørger ned i vektordatabasen for at finde de nærmest matchende FAQ-indgange.
+3. App'e tjekker i vektordatabasen for at finde de nærmest matchende FAQ-indgange.
 4. App'e kombinerer brugerens besked og relevante FAQ-indgange i en prompt til LLM'en{i: "LLM"}.
 5. LLM'en genererer et svar, som sendes tilbage til brugeren.
 
