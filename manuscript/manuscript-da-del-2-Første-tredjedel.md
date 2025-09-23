@@ -929,7 +929,7 @@ Lad os runde dette af.
 
 Jeg har givet dig en masse tips{i: "prompt engineering-tips"} og tricks og teknikker om prompt engineering i dette kapitel. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
 
-# prompt-generering (eller "Den vrede bedstemor")
+# Prompt-generering (eller "Den vrede bedstemor")
 
 Hvad er prompt-generering, og hvad har det med vrede bedstemødre{i: "vrede bedstemødre"} at gøre? Læs videre og find ud af det.
 
@@ -1016,3 +1016,346 @@ Jeg gjorde det igen med den samme simple prompt og fik et helt andet billede, fo
 ## Konklusioner
 
 Dette er fjollede eksempler, men jeg håber, det giver dig en idé om værdien af prompt-generering. Denne teknik er ikke altid nødvendig, men i nogle tilfælde kan den være virkelig nyttig.
+
+
+# Retrieval Augmented Generation{i: "Retrieval Augmented Generation (RAG)"} og funktionskald
+
+Husker du, da vi talte om Einstein{i: "Einstein"} i din kælder? Nogle gange har Einstein brug for at slå ting op. Det er her Retrieval Augmented Generation (RAG) kommer ind i billedet.
+
+RAG er en almindelig teknik, der hovedsageligt er relevant, når man udvikler AI-drevne{i: "AI-drevne"} produkter, men du kan også bruge den til at udvikle bedre prompts til dit eget brug.
+
+Så hvad er RAG? Navnet "Retrieval Augmented Generation" er ret beskrivende. Det er en måde at _generere_ bedre resultater fra en LLM{i: "LLM"} ved at _hente_ (på engelske "retrieve") data og _udvide_ (på engelsk "augment") prompten.
+
+Lad os tage et simpelt eksempel. Du skal på forretningsrejse, og du har nogle spørgsmål om virksomhedens procedurer omkring rejseudgifter. Du har adgang til virksomhedens dokument med procedurer, men du er for doven til at læse det. Så du trækker og slipper det ind i din AI-klient og stiller dine spørgsmål der. Det er stort set RAG. Du hentede dokumentent med procedurer og udvidede din prompt med det.
+
+Lad os nu se på, hvordan dette bruges i AI-drevne apps.
+
+BEMÆRK: hvis du ikke har planer om at udvikle dine egne AI-drevne apps, kan du sandsynligvis springe resten af dette kapitel over.
+
+## RAG i en nøddeskal
+
+{alt: "Flowchart-diagram der viser en proces med en bruger, en app, et datalager og en large language model (LLM). Brugeren sender en besked til applikationen, som henter relevante data fra datalagreret. App'en kombinerer dataene og brugerens besked som en prompt til LLM'en, som genererer et svar der sendes tilbage til applikationen og derefter til brugeren."}
+![](resources-da/475-rag-overview-da.png)
+
+1. Brugeren skriver en prompt.
+2. Din app slår relevante data op i en form for datakilde (en database, en fil osv.).
+3. Dataene returneres fra datakilden.
+4. Din app udvider brugerens prompt med dataene.
+5. LLM'en genererer et svar baseret på den udvidede prompt.
+6. Svaret returneres til brugeren.
+
+Dette lader LLM'en generere bedre resultater, da den kan bruge både sine egne træningsdata og de data, du giver den.
+
+Vi mennesker gør dette hele tiden. Hvis nogen spørger dig om din virksomheds produkter, behøver du ikke udelukkende at stole på hukommelsen. Du kan slå produktspecifikationerne op, tjekke de seneste priser eller gennemgå den seneste kundefeedback.
+
+## Eksempel - kundesupport
+
+Et klassisk eksempel på brug af RAG er i kundesupport.
+
+Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det faktiske refusionspolitik-dokument og derefter give et præcist og korrekt svar baseret på dette.
+
+Lad os tage et andet eksempel: "For pokker, jeg har glemt mit kodeord igen!". Hvordan genererer vi et svar? LLM'en{i: "store sprogmodeller (LLM)"} skal bruge noget kontekst, ligesom en menneskelig supportmedarbejder ville have brug for.
+
+- Hvilket firma arbejder vi for? Hvad er produktet?
+- Hvilke almindelige spørgsmål og svar er relateret til denne henvendelse?
+- Hvem er denne kunde? Har vi interageret med kunden før? Hvilket produkt bruger kunden?
+
+Hvis vores app henter denne information og udvider prompten, så har LLM'en alt, hvad den behøver for at generere et nyttigt svar, målrettet specifikt til denne kunde.
+
+{alt: "Billedet viser et flowdiagram over en kundesupportinteraktion. Til venstre, under 'Brugerbesked,' er der en gul boks med teksten 'For pokker, jeg har glemt mit kodeord igen!' I midten, under 'Retrieval-augmenteret brugerbesked,' er der en rød-omrandet boks med detaljer til en chatbot: den er fra XYZ corp, svarer høfligt men humoristisk, og inkluderer pladsholdertekst for kundedata og FAQ-opslag. Til højre, under 'LLM-svar,' er der en orange boks med teksten 'Åh nej, ikke igen! Skal jeg sende password-reset linket til din sædvanlige e-mailadresse?'"}
+![](resources-da/475-rag-example-da.png)
+
+Se på LLM-svaret i dette eksempel. Det er kort, men meget præcist.
+
+- "Åh nej, ikke igen". Den var konfigureret til at svare høfligt, men med et strejf af humor. Og den ved, at kunden også en tidligere gang har glemt sit kodeord.
+- "Skal jeg sende linket til nulstilling af dit kodeord". Den kender proceduren for nulstilling af kodeord.
+- "... til din sædvanlige e-mailadresse?". Den kender kundens e-mailadresse.
+
+## Forskellige tilgange til at hente data
+
+Så hvordan henter vores app rent faktisk data? Nogle almindelige teknikker er:
+
+- Inkluder alle data.
+- Lad LLM'en hente data via funktionskald{i: "funktionskald"}
+- Inkluder relevant tekst ved hjælp af vektorindlejringer{i: "vektorindlejringer"}
+
+Jeg forklarer herunde alle tre teknikker. Bemærk at RAG{i: "Retrieval Augmented Generation (RAG)"} ofte forbindes med vektorindlejringer. Men det er ikke den eneste måde at gøre det på, og nogle gange heller ikke den bedste måde.
+
+## Tilgang 1: At inkludere alle data
+
+Dette er den simple, dovne mulighed. For eksempel kunne vi inkludere det fulde produktkatalog såvel som den fulde vidensbase med alle vores FAQ-elementer. Hvis vores app inkluderer disse data med hver prompt, har LLM'en al den information, den behøver.
+
+Der er nogle potentielle ulemper:
+
+- **Omkostninger.** Du sender måske en masse data, som ikke er relevante for denne specifikke forespørgsel. Dette øger omkostningerne og forsinker svartiden.
+- **Sikkerhed.** Du kan øge risikoen for at afsløre følsomme oplysninger. Hvis du for eksempel inkluderer din fulde kundeliste, kan LLM'en ved et uheld afsløre information om én kunde til en anden.
+- **Kvalitet.** LLM'en kan blive forvirret af alle de irrelevante data og kan generere dårligere svar.
+
+På trods af de potentielle ulemper er denne tilgang nyttig for simple apps såsom en FAQ-chatbot{i: "FAQ-chatbot"}, eller hvis du laver en prototype. Så længe FAQ'en ikke er for lang, kan du sende det hele med hver prompt og generere et godt svar.
+
+## Tilgang 2: At lade LLM'en hente data via funktionskald
+
+Funktionskald{i: "funktionskald"} er en teknik, hvor LLM'en kan bede din app om at kalde en funktion. Dette kaldes nogle gange "værktøjskald", "værktøjsbrug" eller "kapabiliteter". Værktøjer er en god metafor. Mennesker udfører arbejde ved at bruge værktøjer, og hvis vi giver værktøjer til en LLM, kan den udrette mere.
+
+Lad os tage Einstein-eksemplet. Hans viden er omfattende, men han sidder fast i kælderen uden direkte adgang til internet eller andre værktøjer. Så hvad nu hvis du giver ham en forskningsopgave, og den kræver adgang til nettet? Tja, du kan tilbyde at lave websøgninger for ham. Du kan være hans assistent, og han kan prompte dig, når han har brug for at slå noget op. Så du prompter ham til at løse et problem, og han prompter dig, når han har brug for at slå ting op. Et fint samarbejde!
+
+{width: "70%", alt: "En tegneseriefigur med vildt hvidt hår sidder på en pink stol under en lampe. En anden simpel figur står i nærheden med en taleboble, hvor der står: 'Hey Einstein, løs venligst X. Hvis du har brug for at google noget som en del af dette, så sig til, og jeg vil gøre det for dig.'"}
+![](resources-da/475-einstein-function-calling-da.png)
+
+
+
+Herunder kan ses, hvor kan se ud i praksis, når en bruger interagerer med din app, og din app til gengæld interagerer med LLM'et via funktionskald.
+
+{alt: "Et flowchart der illustrerer en proces hvor en bruger spørger, "Hvad koster en brødrister?" til en applikation (App). Appen henter produktinformation fra en database (DB) ved hjælp af et funktionskald, getProductInfo("toaster"). Applikationen sender derefter informationen til en stor sprogmodel (LLM), som returnerer svaret, "Brødristere koster €12." Svaret sendes tilbage til brugeren."}
+![](resources-da/475-toaster-da.png)
+
+1. Bruger spørger "Hvad koster en brødrister?"{i: "brødrister-pris"}
+2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}
+3. LLM'en{i: "LLM"} genkender, at det har brug for info om produktet, så det beder om at kalde hentProduktInfo("Brødrister"){i: "hentProduktInfo funktion"}
+4. App spørger ned i databasen og får al information om brødrister-produktet (inklusiv pris).
+5. App sender databasens svar (ufiltreret) tilbage til LLM'en{i: "LLM"}.
+6. LLM'en{i: "LLM"} fortolker dataene og genererer svaret: "Brødristeren koster 199 DKK".
+7. App videresender svaret tilbage til brugeren.
+
+Så i tekniske termer udfører LLM'en{i: "LLM"} en slags fjernprocedure-kald (RPC){i: "fjernprocedure-kald"} til applikationen, hvor det beder den om at kalde en funktion og venter på svaret før det fortsætter.
+
+Funktionskald{i: "funktionskald"} kan bruges til alle mulige ting, RAG{i: "Retrieval Augmented Generation (RAG)"} er bare ét eksempel. Det fine ved denne tilgang er, at app'en ikke behøver at regne ud, hvad LLM'et{i: "LLM"} har brug for, den stiller bare en liste af funktioner til rådighed og lader LLM'en hente de data, den har brug for.
+
+## Tilgang 3: Inkludering af relevant tekst ved hjælp af vektorindlejringer{i: "vektorindlejringer"}
+
+Dette er en smart teknik, men lidt sværere at forklare. Men lad os give det et forsøg.
+
+Først skal vi forstå, hvad vektorindlejringer er.
+
+En vektorindlejring er en måde at repræsentere et tekststykke som en numerisk vektor, i bund og grund en lang liste af tal. Disse tal repræsenterer tekstens semantiske betydning.
+
+Lad os lave et simpelt eksempel med kun to dimensioner: Følelses-påvirkning og Mad-relation (ja, jeg opfandt lige de to ord){i: "Følelses-påvirkning"}{i: "Mad-relation"}. Jeg vil liste nogle få sætninger og evaluere hvor følelses-påvirkende de er, og hvor mad-relaterede de er, på en skala fra -1 til 1.
+
+| Sætning                      | Følelses-påvirkning | Mad-relation{i: "Mad-relation"} |
+| ---------------------------- | ----------------- | ------------ |
+| En ny restaurant er åbnet   | -0.3              | 0.9          |
+| Jeg er sulten               | 0.6               | 0.8          |
+| Jeg ELSKER is!              | 0.9               | 0.8          |
+| Jeg har brug for en sundere livsstil | 0.4      | 0.1          |
+| Bilen er blå                | -1                | -1           |
+| Dette er et dumt eksempel   | 0.7               | -0.8         |
+
+Hvis vi behandler disse som koordinater (eller en vektor) i et todimensionelt rum, kan vi plotte dem sådan her:
+
+{alt: "Et diagram med to akser: "Madsværhedsgrad" på den vertikale og "Følelsesmæssighed" på den horisontale, begge rangerende fra -1.0 til 1.0. Diagrammet indeholder seks udsagn placeret på forskellige positioner. "En ny restaurant har åbnet," "Jeg er sulten," og "Jeg ELSKER is!" er placeret i topområdet, hvilket indikerer høj madsværhedsgrad. "Jeg har brug for en sundere livsstil" og "Dette eksempel er dårligt" er i midterområdet, som viser moderat følelsesmæssighed. "Bilen er blå" er i bunden til venstre, hvilket indikerer lav følelsesmæssighed og madsværhedsgrad."}
+![](resources-da/475-embeddings-graph-da.png)
+
+Nu kan vi lave en semantisk sammenligning ved bare at sammenligne afstanden mellem vektorerne. For eksempel er sætningen "Jeg er sulten" tæt på "Jeg ELSKER is!", men langt fra "Bilen er blå".
+
+Dette giver en beregningsmæssigt effektiv måde at finde relateret tekst.
+
+Her er et eksempel fra det virkelige liv. Jeg tog sætningerne "Katte er søde"{i: "Katte er søde"}, "Hvem har stjålet min brødrister"{i: "Hvem har stjålet min brødrister"} og "Jeg er sulten", og konverterede hver af dem til en vektorindlejring ved hjælp af OpenAI embeddings API'et{i: "OpenAI embeddings API"}, hvilket resulterer i en liste på omkring 1500 tal pr. sætning.
+
+
+
+{alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller indlejringer for hver sætning, med en bemærkning der indikerer "1436 flere elementer" i bunden af hver liste."}
+![](resources-da/475-embeddings-da.png)
+
+Disse tal opnås ved hjælp af en indlejringsmodel{i: "indlejringsmodel"}, som er en specialiseret model trænet på store mængder tekstdata. Modellen lærer at kortlægge ord, sætninger eller endda hele dokumenter til vektorer på en sådan måde, at lignende tekster har lignende vektorer.
+
+Koden er simpel. Her er et eksempel, der bruger OpenAIs indlejrings-API.
+
+
+```python
+from openai import OpenAI
+client = OpenAI()
+
+client.embeddings.create(
+  model="text-embedding-ada-002",
+  input="Hvem har stjålet min brødrister"
+)
+```
+
+
+Forestil dig nu et 1500-dimensionelt rum{i: "dimensionelt rum"} med tre punkter{i: "punkter"}, der repræsenterer de tre sætninger ovenfor. OK, jeg ved godt, at det ikke rigtig er muligt at forestille sig, men prøv i det mindste. Så i stedet for 2 dimensioner med specifikke navne (Følelses-påvirkningd og Mad-relation), har vi et 1500-dimensionelt rum uden specifikke navne.
+
+Det er, hvad en vektordatabase{i: "vektordatabase"} er. En meget kraftfuld og effektiv måde at sammenligne, hvor tæt sætningerne er på hinanden. Det præcise antal dimensioner vil naturligvis variere afhængigt af modellen, men det overordnede koncept er det samme{i: "koncept"}.
+
+{alt: "3D-spredningsdiagram med forskellige størrelser af grønne og gule prikker spredt i et gitter. Akserne er mærket med "Wolf," "Dog," "Cat," "Banana," og "Apple." Prikkerne varierer i størrelse, hvilket antyder forskellige værdier eller intensiteter."}
+![](resources-da/475-embeddings-graph-3d-da.png)
+
+[Image source](https://weaviate.io/blog/what-is-a-vector-database)
+
+Så hvordan bruges dette sammen med RAG{i: "Retrieval Augmented Generation (RAG)"}?
+
+Lad os sige, vi har hundredvis af FAQ-elementer{i: "FAQ-elementer"}, som vi ønsker at bruge til en chatbot{i: "chatbot"}. For at gøre disse data søgbare beregner vi vektor-embeddings{i: "vektor-embeddings"} for hver FAQ-element, og vi gemmer disse i en vektordatabase. Så nu har vi en database, der indeholder hver FAQ-element og deres tilsvarende vektor-embedding (de 1500 tal). Lidt ligesom et indeks.
+
+Når en kundeforespørgsel kommer ind, gør vores applikation følgende:
+
+{alt: "Diagram der viser en arbejdsgang mellem en bruger, en applikation og to modeller: en embeddings-model og en stor sprogmodel (LLM). Processen involverer brugeren der sender en besked til applikationen. Applikationen beregner embeddings, finder de nærmeste indgange i en vektordatabase og sender derefter beskeden sammen med yderligere data til LLM'en for at få et svar, som til sidst sendes tilbage til brugeren. Trinene er nummereret fra 1 til 5."}
+![](resources-da/475-rag-with-embeddings-da.png)
+
+1. Brugeren sender en forespørgsel, såsom "Mit produkt var beskadiget, hvordan får jeg det refunderet?"
+2. App'en beregner vektor-embeddings for brugerens besked.
+3. App'e spørger ned i vektordatabasen for at finde de nærmest matchende FAQ-indgange.
+4. App'e kombinerer brugerens besked og relevante FAQ-indgange i en prompt til LLM'en{i: "LLM"}.
+5. LLM'en genererer et svar, som sendes tilbage til brugeren.
+
+## Kombination af tilgangene
+
+De tre tilgange kombineres ofte{i: "kombinerede tilgange"} på tværs, da hver af dem har fordele og ulemper.
+
+Her er et eksempel:
+
+{alt: "Diagram der viser en brugerbesked: "Dammit I lost my password again!" efterfulgt af et retrieval-augmented svar. Svaret inkluderer: en fast prompt til en kundeservice-chatbot der arbejder for en online boghandel, SQL-søgeresultater med relevante kundedata, en vektorsøgning med relevante FAQ-indgange og den oprindelige brugerinput. Etiketter indikerer hver del af svaret."}
+![](resources-da/475-rag-combined-da.png)
+
+- Den første del "Du er en kundeservice-chatbot..." er en fast del, der er hardcodet og inkluderet i alle forespørgsler.
+- Den anden del "Her er den information om kunden, som er relevant." kommer fra et funktionskald, der henter relevante data fra en SQL-database{i: "SQL-database"}.
+- Den tredje del "Her er en samling af relevante FAQ-elmenter..." kommer fra en vektorsøgning, der henter relevante data fra vektordatabasen.
+- Den fjerde del "For dælen, jeg har glemt mit kodeord igen!" er den beskeden fra brugeren.
+
+Tilsammen giver dette LLM'en en fyldig kontekst at arbejde med, så den kan generere et godt svar, der er præcist og målrettet brugeren.
+
+Det reducerer også markant hallucinationer{i: "hallucinationer"}, da LLM'en arbejder med faktiske data i stedet for blot at komme med kvalificerede gæt.
+
+## Sjovt eksperiment: opretFunktion-funktionen{i: "opretFunktion-funktion"}
+
+I forbindelse med vores snak om funktionskald (også kendt som værktøjsbrug){i: "værktøjsbrug"}, har jeg haft en meget interessant oplevelse med det, som jeg gerne vil dele.
+
+En af de vigtigste beslutninger, når man bygger en AI-app{i: "AI-app"}, er hvilke funktioner man skal tilbyde LLM'en. Tager vi en en kundeservice-chatbot som et eksempel, vil man måske tilbyde funktioner til at slå produktinformation op, annullere ordrer og downloade kvitteringer. Det ville være det samme for et menneske - hvad har en menneskelig supportmedarbejder brug for at kunne gøre?
+
+For en kundeservice-chatbot ved vi generelt, hvilke funktioner der er nødvendige. Men for en mere generel chatbot, kan vi ikke altid vide hvilke funktioner der er nødvendige. Hvis brugeren spørger om vejret, har LLM'en brug for en funktion til at kunne finde en vejrudsigt. Hvis brugeren vil bestille pizza, er der brug for helt andre værktøjer.
+
+Jeg fik en dag pludselig en åbenbaring:
+Hvad hvis vi giver LLM'en en opretFunktion-funktion?
+
+Vi giver den kun et enkelt værktøj - et meta-værktøj som den kan bruge til dynamisk at generere hvilke som helst andre værktøjer den har brug for! Wow!
+
+{alt: "Et diagram der viser en interaktion mellem en bruger, en app og en LLM (stor sprogmodel). Brugeren sender et prompt til appen, som derefter videresender det til LLM'en. Appen stiller også en tilgængelig funktion, "createFunction(name, code)," til rådighed for opgaver som LLM'en ikke kan udføre selvstændigt. En taleboble fra appen informerer LLM'en om denne funktion."}
+![](resources-da/475-createfunction-function-da.png)
+
+Dette var min tankegang:
+
+- LLM'er er som standard fanget i en sandkasse og kan ikke gøre ting som at redigere filer på din computer{i: "sandkasse"}, få adgang til internettet, foretage opkald osv.
+- Næsten alt kan gøres ved hjælp af kode.
+- LLM'er er gode til at skrive kode{i: "LLM-kapabiliteter"}.
+- Hvad hvis jeg lader LLM'en skrive kode og køre den på min computer?
+- Tadaaa, nu kan LLM'en gøre næsten hvad som helst{i: "LLM-kapabiliteter"}!
+
+Så LLM'en får adgang til en opretFunktion-funktion{i: "opretFunktion-funktion"}, som tager to parametre: navnet på funktionen og koden til funktionen. Når LLM'en bliver bedt om at gøre noget, som den ikke kan (fordi den er i sandkassen), bruger den opretFunktion til at sende kode til min app. Den siger i princippet "Jeg har brug for at kunne finde en vejr-udsigt. Her er koden til det. Gem den venligst på din computer og gør den tilgængelig for mig at køre". Koden gemmes på min computer som en navngivet funktion og inkluderes i fremtidige prompts til LLM'en. Så når LLM'en først har oprettet funktionen, kan den bruges af LLM'en præcis som enhver anden funktion.
+
+Her er et eksempel:
+
+{alt: "Diagram der viser en trin-for-trin proces af en app, der håndterer en vejrforespørgsel ved hjælp af en sprogmodel (LLM). En bruger spørger om vejret i Stockholm, hvilket udløser en funktionsoprettelse i appen. Appen gemmer og kører den genererede kode for at tjekke vejret, kalder en funktion med Stockholm som parameter, henter vejrdata ('Det er solskin i Stockholm') og præsenterer resultatet tilbage til brugeren. Elementerne omfatter appen, gemt kode, LLM-sky, bruger og flowpile der indikerer processens trin."}
+![](resources-da/475-createfunction-function2-da.png)
+
+I dette eksempel genererer den dynamisk en findVejrudsigt funktion{i: "findVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
+
+Jeg kunne ikke modstå at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app, lidt ala ChatGPT. Men jeg tilføjede opretFunktion funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
+
+Derefter prøvede jeg denne prompt:
+
+> **Prompt**  
+> Ændr outputtet fra https://github.com/hkniberg/test-project, så det returnerer 'Livet er interessant' i stedet. Klon det, lav ændringen, commit, og push.
+
+Så jeg bad den altså om at opdatere kode i et softwareprojekt gemt på GitHub (en platform til blandt andet opbevaring af kode){i: "GitHub"}.
+
+Som standard kan en LLM ikke gøre nogen af disse ting. Den kan ikke browse på internettet, den kan ikke redigere filer, og den kan helt sikkert ikke pushe kode til et GitHub repository.
+
+Dette er hvad der skete:
+
+1. Den oprettede funktionen klonGitRepo{i: "klonGitRepo funktion"}, som forbinder til GitHub og kloner (downloader) kode-repositoriet.
+2. Den kørte klonGitRepo for at downloade koden til min computer{i: "kloning af repository"}.
+3. Den oprettede funktionen redigerFil{i: "redigerFil funktion"}.
+4. Den kørte redigerFil og opdaterede koden.
+5. Den stoppede og spurgte mig "Jeg har succesfuldt klonet repositoriet og redigeret filen til at returnere 'Livet er interessant'. Dog har jeg i øjeblikket ikke mulighed for at committe og pushe ændringer til repositoriet. Vil du have mig til at oprette en funktion til det?"
+6. Jeg svarede "Ja".
+7. Den oprettede funktionen commitOgPushAendringer{i: "commitOgPushAendringer funktion"}.
+8. Den kørte commitOgPushAendringer for at committe og pushe ændringerne til repositoriet.
+9. Den skrev "Jeg har succesfuldt klonet repositoriet, lavet ændringen til at returnere 'Livet er interessant', committet ændringen og pushet den til det fjerne repository."
+
+Jeg kunne slet ikke tro det, og spekulerede på om den mon hallucinerede. Men jeg dobbelttjekkede og, ja, commit'et var der på GitHub{i: "commit-bekræftelse"}.
+
+
+
+{alt: "Screenshot of a GitHub repository page for "test-project" by user "hkniberg." The image shows a commit with the message "Changed output to 'Life is interesting'" made on September 3, 2023. The commit ID is 63213fc, and it is displayed under the "Commits" section."}
+![](resources-da/475-commit-da.png)
+
+Jeg var forbløffet over, at den automatisk kunne skrive og køre al den kode, der var nødvendig for at løse opgaven, uden nogen vejledning fra mig. Og dette var med GPT4-modellen i september 2023{i: "GPT-4"}, som er underlegen i forhold til de modeller, vi har i dag.
+
+Selvfølgelig er der alle mulige sikkerhedsrisici forbundet med dette, og man skal være meget forsigtig med at tilføje denne type funktionalitet til et rigtigt produkt{i: "sikkerhedsrisici"}. Men dette lille eksperiment gav mig et glimt af, hvor kraftfuld denne teknologi kan være.
+
+## Eksempel: AI chatbot-hukommelse ved hjælp af RAG
+
+Det første AI-drevne produkt, jeg udviklere, var en chatbot-platform{i: "chatbot platform"}. Jeg ejer en Discord-server og Minecraft-server som bruges af venner og familie. Og jeg tænkte, at det ville være sjovt at have Egbert der, chatte med folk og skrive sarkastiske kommentarer om ting, der sker på serveren. Det startede som et lille hack, men udviklede sig så til en generisk platform til at oprette og hoste LLM-drevede chatbots. Hvis du er nysgerrig, kan du finde koden her: https://github.com/hkniberg/egbert{i: "Egbert"}.
+
+For at gøre det ekstra sjovt ville jeg give Egbert hukommelse{i: "Egbert hukommelse"}, så han ville huske ting, der sker på serveren. Et perfekt tilfælde for RAG{i: "Retrieval Augmented Generation (RAG)"}. Jeg endte med at bruge embeddings{i: "embeddings"} og en vektordatabase{i: "vektordatabase"}, som beskrevet i tilgang 3{i: "tilgang 3"} ovenover. Men i stedet for at gemme FAQ-elementer til en kundeservice-bot, gemmer vi Egberts minder. Platformen kan være vært for flere chatbots, og hver chatbot har sine egne minder.
+
+{width: "70%", alt: "En tegneseriefigur med en stor næse og rødt hår er tegnet ved siden af en liste med titlen "Memories." Listen indeholder tre punkter: "Peter built the castle across the lake," "Framistan goes on long journeys and dies a lot," og "Build large contraptions near each other causes lag." Der er yderligere pladsholderbokse med ellipser."}
+![](resources-da/475-egbert-memories-da.png)
+
+Der er to nøgleprocesser her:
+
+1. Gemme nye minder,
+2. Genkalde minder der er relevante for den aktuelle samtale
+
+### Gemme nye minder
+
+At gemme nye minder gøres via funktionskald. Når en bruger skriver en besked til Egbert i Minecraft{i: "Minecraft"} eller Discord{i: "Discord"}, bruger platformen en LLM{i: "LLM"} til at generere et svar med Egberts karakteristiske sarkastiske stil. Platformen tilføjer dog også en skjult systembesked, der cirka siger "Hvis brugeren beder dig om at huske noget, så brug tilføjMinde-funktionen".
+
+Så hvis brugeren skriver "Hej Egbert, husk at Peter byggede slottet på den anden side af søen{i: "Peter byggede slottet"}", vil LLM'en bemærke, at den skal huske dette, og vil bruge tilføjMinde-funktionen. Platformen vil derefter bruge OpenAI embeddings{i: "OpenAI embeddings"} til at konvertere brugerens besked til en vektor-embedding og gemme den i vektordatabasen, og derefter vil Egbert bekræfte, at han har husket det. I Discord viser vi også et lille diskette-ikon for at indikere, at beskeden er blevet gemt som et minde.
+
+Ret enkelt, men overraskende effektivt.
+
+{alt: "Et flowdiagram illustrerer en hukommelseslagringsproces, der involverer en karakter, der kommunikerer med en app og en LLM (large language model). Trin inkluderer at sende en besked, kalde en funktion for at tilføje hukommelse, beregne embeddings, gemme dem i en vektordatabase og bekræfte, at hukommelsen er bevaret. Pile forbinder elementerne for at vise informationsflowet."}
+![](resources-da/475-storing-memories-da.png)
+
+### Genkalde relevante minder
+
+Når en bruger skriver en besked til Egbert, vil platformen først generere embeddings for brugerens besked og derefter søge i vektordatabasen efter minder, der ligner brugerens besked. Den tilføjer derefter disse minder til prompten og sender den til LLM'en.
+
+Så den samlede prompt ser cirka sådan ud:
+
+- Du er en sarkastisk AI chatbot ved navn Egbert, som kan lide at gøre grin med folk.
+- Brugeren har skrevet følgende besked: "Hej Egbert, hvad er nogle fede steder at besøge på denne server?"
+- Her er de foregående 10 beskeder i samme chat-tråd: ....
+- Du husker følgende minder:
+  - "Peter byggede slottet på den anden side af søen"
+  - "...."
+  - "...."
+
+
+
+Gennem indlejringernes magi kan Egbert have en masse minder og stadig generere et godt svar, da de mest semantisk relevante minder bliver udvalgt og inkluderet i prompten. Bemærk, at prompten også inkluderer tidligere beskeder i samme chattråd, hvilket hjælper LLM'en med at forstå samtalens kontekst{i: "samtalens kontekst"}.
+
+Dette billede opsummerer processen:
+
+{alt: "Diagram der illustrerer en proces med seks trin. Trin 1: Bruger spørger Egbert om fede steder at besøge på en server. Trin 2: Appen beregner en indlejring for brugerens besked. Trin 3: Den slår relaterede minder op i en Vector DB. Trin 4: Appen henter og viser relevante minder, såsom 'Peter byggede slottet på den anden side af søen.' Trin 5: Appen sender forespørgsel til LLM'en (stort sprogmodel). Trin 6: Brugeren modtager forslaget, 'Hvad med Peters slot på den anden side af søen?'"}
+![](resources-da/475-memory-recall-da.png)
+
+Dette er en ret simpel tilgang set fra et programmeringsperspektiv{i: "programmeringsperspektiv"}. Det tunge arbejde udføres af LLM'en og vektordatabasen, og applikationen skal bare videreformidle beskederne frem og tilbage.
+
+For sjov tilføjede jeg noget kode, der underretter Egbert, når der sker ting på Minecraft-serveren. Det kunne for eksempel være, hvis nogen logger ind, opnår en bedrift eller dør. Der er en vis procentvis chance for, at Egbert vil reagere på dette, og det gøres på samme måde som chatten.
+
+Her er et eksempel på det kombinerede prompt:
+
+- Du er en sarkastisk AI-chatbot ved navn Egbert, som kan lide at gøre grin med folk.
+- Brugeren Framistan{i: "Framistan"} er lige logget ind.
+- Her er de seneste 10 begivenheder og chatbeskeder på serveren: ....
+- Du husker følgende minder:
+  - "Framistan kan lide at tage på lange rejser".
+  - "Framistan har en tendens til at blive dræbt af væsner under sine rejser".
+  - "Framistan kan lide at samle eksotiske dyr".
+
+Alt dette sker i baggrunden. Men fra vores perspektiv som spillere sker følgende:
+
+- Framistan{i: "Framistan"} logger ind
+- Egbert{i: "Egbert"} siger "Åh, Framis er her. Hvilket mærkeligt væsen planlægger du at blive dræbt af denne gang?"
+
+Hukommelsesfunktionen{i: "hukommelsesfunktion"} tilføjer virkelig dybde til chatbotten og gør den sjovere at lege med.
+
+Oprindeligt gjorde vi minderne automatiske. Det vil sige at vi lod LLM'en{i: "LLM"} selv bestemme, hvornår den skulle gemme minder. Dette blev dog for kaotisk, Egbert ville huske alle mulige irrelevante ting, og de vigtige ting ville drukne i støj.
+
+Hukommelsesfunktionen blev meget mere brugbar, da vi promptede LLM'en til kun at gemme minder, når den eksplicit blev bedt om det.
+
+ChatGPT{i: "ChatGPT"} implementerede for nylig en lignende funktion, kaldet "Hukommelse". Den fungerer på samme måde og begår desværre samme fejl, som jeg oprindeligt begik med Egbert. Den forsøger selv at finde ud af, hvad der skal gemmes, og hvad der ikke skal gemmes. Så hvis jeg skriver "Jeg er i øjeblikket i Amsterdam{i: "Amsterdam"} for at holde en præsentation", så vil ChatGPT huske det. Uger senere, i en helt urelateret samtale, kan tingene blive ret forvirrende, fordi ChatGPT pludselig vil "huske", at jeg er i Amsterdam, selvom jeg ikke er der længere. Eller værre endnu, jeg kan have en samtale om et meget følsomt emne, og så vil ChatGPT huske det og bringe det op senere i en helt anden sammenhæng. Så jeg har slukket for hukommelsesfunktionen. Jeg tror, det ville være bedre, hvis den kun husker ting, når brugeren eksplicit beder den om det.
+
+## RAG er et stort emne
+
+Der er meget mere at sige om RAG{i: "Retrieval Augmented Generation (RAG)"}. Flere yderligere RAG-teknikker, hvornår man skal bruge det, hvornår man ikke skal bruge det og almindelige faldgruber. Men det vil være et emne til en anden bog eller en længere artikel. Jeg håber dog, at dette kapitel har hjulpet dig med et overblik over de generelle ideer omkring RAG.
