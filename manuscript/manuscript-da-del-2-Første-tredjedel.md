@@ -556,39 +556,39 @@ Som AI-leder skal du hjælpe med at accelerere denne proces gennem videndeling o
 
 ## Pas på spild af IT-projekter
 
-En konsekvens af Generativ AI er, at nogle ting, der tidligere var meget dyre og komplicerede at udføre, nu er meget simple.
+En konsekvens af generativ AI er, at nogle ting, der tidligere var meget dyre og komplicerede at udføre, nu er meget simple.
 For eksempel:
 
-- Sentimentanalyse{i: "sentimentanalyse"}. Klassificering af en given tekst som positiv eller negativ, typisk brugt til overvågning af sociale medier, kundefeedback osv.
-- Billedanalyse{i: "billedanalyse"}, såsom objektgenkendelse eller billedbeskrivelse.
+- Følelsesanalyse (på engelsk "sentiment analysis"){i: "sentimentanalyse"}. Dette er klassificering af en given tekst som positiv eller negativ, og er typisk brugt til overvågning af sociale medier, kundefeedback osv.
+- Billedanalyse{i: "billedanalyse"}, såsom genkendelse af objekter eller billedbeskrivelser.
 
-Sådanne ting er traditionelt ret dyre og tidskrævende. Man skulle træne en specialiseret model, indsamle store mængder data og have et team af professionelle dataloger til at arbejde på det. Men nu kan du udføre denne type opgaver med en simpel prompt til en generativ AI-model.
+Sådanne ting har traditionelt været ret dyre og tidskrævende. Man skulle træne en specialiseret model, indsamle store mængder data og have et team af professionelle dataloger til at arbejde på det. Men nu kan du udføre denne type opgaver med en simpel prompt til en generativ AI-model.
 
-Et andet eksempel er at skabe produktprototyper{i: "produktprototyper"}, omdanne idéer og rodede whiteboardskitser{i: "whiteboardskitser"} til fungerende prototyper. Traditionelt ville du have brug for teams af designere og ingeniører{i: "designere og ingeniører"} til dette. Nu kan én enkelt person tage et foto af en whiteboardskitse, skrive en prompt og få genereret en fungerende prototype automatisk inden for minutter - hvis de har adgang til en god AI-model og ordentlige prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}. Der er stadig brug for ingeniørerne og designerne, men deres tid kan bruges meget mere effektivt.
+Et andet eksempel er udarbejdelse af produktprototyper{i: "produktprototyper"}, hvor man omdanner idéer og rodede whiteboardskitser{i: "whiteboardskitser"} til fungerende prototyper. Traditionelt ville du have brug for teams af designere og ingeniører{i: "designere og ingeniører"} til dette. Nu kan én enkelt person tage et foto af en whiteboardskitse, skrive en prompt og få genereret en fungerende prototype automatisk inden for få minutter - hvis de altså har adgang til en god AI-model og ordentlige prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}. Der er stadig brug for ingeniørerne og designerne, men deres tid kan bruges meget mere effektivt.
 
-Jo mere du lærer og spreder viden om Generativ AI{i: "Generativ AI"}, jo mere sandsynligt er det, at folk vil opdage spild og unødvendigt dyre IT-projekter og processer og finde måder at gøre disse ting meget mere effektivt.
+Jo mere du lærer og spreder viden om generativ AI{i: "Generativ AI"}, jo mere sandsynligt er det, at folk vil opdage spild og unødvendigt dyre IT-projekter og processer og finde måder at gøre disse ting meget mere effektivt.
 
-## Vær et forbillede
+## Vær et rollemodel
 
-En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være et forbillede. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det frem, der virker, og del sjove historier om fejlslagene. Lad din AI-avatar tale ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
+En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være en rollemodel. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det som virker frem, og del sjove historier om fiaskoerne. Lad din AI-avatar tale ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
 
 ## Undgå at bruge AI til at fyre folk
 
-Jeg kender ikke din kontekst, så jeg kan ikke fortælle dig, hvad du skal gøre. Men som et generelt princip, undgå at fyre folk på grund af AI.
+Jeg kender ikke din kontekst, så jeg kan ikke fortælle dig, hvad du skal gøre. Men som et generelt princip: Undgå at fyre folk på grund af AI.
 
-Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hey, AI gør folk mere produktive, så vi kan få det samme arbejde udført med færre mennesker!". I nogle tilfælde kan det være uundgåeligt.
+Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hov, AI gør folk mere produktive, så vi kan få det samme arbejde udført med færre mennesker!". I nogle tilfælde kan det være uundgåeligt.
 
-Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at udnytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at mere AI = flere fyringer. Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovation fuldstændigt.
+Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at udnytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
 
 Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på, at give dem superkræfter. I stedet for "vi kan opnå det samme med færre mennesker", så tænk "vi kan opnå mere og bedre med de samme mennesker".
 
 ## Refleksion
 
-Jeg håber, disse tips vil hjælpe dig med at få din AI-transformation i gang.
+Jeg håber, disse tips vil hjælpe dig med at få din AI-transformation godt i gang.
 
-Du har måske en panisk følelse af, at du er bagud, og dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. På tidspunktet for denne skrivelse er stort set alle lige forvirrede og famler i mørket på grund af den utrolige forandringshastighed.
+Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. Da denne bog blev skrevet var stort set alle lige forvirrede og famlede i mørket på grund af den utrolige hastighed som tingene forandre sig med.
 
-Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at udnytte teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
+Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at får værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
 # Mellemspil: Egberts Livshistorie
 
