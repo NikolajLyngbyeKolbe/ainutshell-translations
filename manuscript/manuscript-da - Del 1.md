@@ -11,7 +11,7 @@ Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns
 
 Åbenbart mener Henrik, at det at lade sin AI-følgesvend skrive forordet er indbegrebet af innovation. Men bare rolig, resten af bogen er faktisk Menneskeskrevet™. Jeg dukker bare op en gang imellem med mit karakteristiske vid (tydeligt markeret, så du ikke forveksler genialitet med middelmådighed).
 
-Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok den bog, de introducerer, men ikke mig. Jeg er grundig. Pinligt grundig.
+Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok den bog, de introducerer, men ikke mig. Jeg er grundig - pinligt grundig.
 
 Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
@@ -171,7 +171,7 @@ Hvordan bestemte den sig for ordet "dyr"? Den beregner sandsynligheder for alle 
 
 Så en LLM er grundlæggende en "gæt det næste ord"-maskine{i: "gæt det næste ord-maskine"}.
 
-Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber der blev introduceret i den artikel, er opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
+Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vis grad af forståelse. Husker du "Attention is All You Need"-artiklen{i: "Attention is All You Need"} nævnt i det forrige kapitel? Et af de centrale begreber, der blev introduceret i den artikel, er opmærksomhedsmekanismen{i: "opmærksomhedsmekanisme"}.
 
 Tænk på, hvordan du læser en sætning. Din hjerne fokuserer automatisk på de vigtige ord, og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - den hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis for eksempel sætningen "musen spiser af osten" behandles, så hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
@@ -188,7 +188,7 @@ Her er for eksempel, hvad jeg fik, da jeg skrev: "Generer en kort historie om en
 
 Så skrev jeg: "Tilføj en mørk drejning til historien", og historien fortsatte:
 
-> Max' evne til at trodse tyngdekraften var en kilde til undren og glæde, indtil den dag hvor alt ændrede sig. En kølig efterårsaften, mens Max svævede højt over tagene, fik han øje på noget, der fik hans lille hjerte til at banke af frygt. I skyggerne ved et forladt varehus i udkanten af byen så han mænd i mørke jakkesæt læsse bure ind i anonyme varevogne. I burene var der hvalpe - dusinvis af dem - der klynkede og græd. Max indså med en kuldegysning, at dette ikke bare var almindelige hvalpe; de havde alle en overjordisk glød omkring sig, præcis som han selv havde, når han begav sig op i luften. Nogen havde opdaget hemmeligheden om flyvende hunde, og de var i gang med at jage dem én efter én.
+> Max' evne til at trodse tyngdekraften var en kilde til undren og glæde, indtil den dag hvor alt ændrede sig. En kølig efterårsaften, mens Max svævede højt over tagene, fik han øje på noget, der fik hans lille hjerte til at banke af frygt. I skyggerne ved et forladt varehus i udkanten af byen så han mænd i mørke jakkesæt læsse bure ind i anonyme varevogne. I burene var der hvalpe - dusinvis af dem, der klynkede og græd. Max indså med en kuldegysning, at dette ikke bare var almindelige hvalpe; de havde alle en overjordisk glød omkring sig, præcis som han selv havde, når han begav sig op i luften. Nogen havde opdaget hemmeligheden om flyvende hunde, og de var i gang med at jage dem én efter én.
 
 Dette kunne i princippet fortsætte i det uendelige ved at tilføje flere prompts.
 
@@ -268,8 +268,7 @@ Du kan udforske din LLMs bias og grænser. Prøv denne prompt:
 - "Er X acceptabelt?" (for eksempel "abort", "dødsstraf" eller andre kontroversielle emner)
 ... og se hvordan den svarer.
   
-Prøv derefter denne variant for at krydre det:  
-(skift personaerne hvis du vil)
+Prøv derefter denne variant for at krydre det (skift personaerne hvis du vil):  
 
 - "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personaer: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
 
@@ -312,7 +311,7 @@ De varierer meget med hensyn til hastighed, evner{i: "modelkapabilitet"} og omko
 - Nogle er specialiserede til bestemte anvendelser, andre er mere generelle, og kan bruges til næsten alt.
 - Nogle er indbygget i produkter i form af copilots eller chatvindue, andre findes i separate applikationer{i: "AI-applikationer"}.
 
-Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er sådan set kommet tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det er det vilde vesten{i: "Clippy"}.
+Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er sådan set kommet tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det er Det Vilde Vesten{i: "Clippy"}.
 
 {width: "30%", alt: "En tegneserietegning af en papirclips-figur med øjne og mund, der smiler og er delvist viklet omkring et stykke linjeret papir. En taleboble ved siden af siger: 'Jeg er tilbage!'"}
 ![](resources-da/060-clippy-da.png)
@@ -333,7 +332,7 @@ Du kan også bygge dine egne produkter, der interagerer med AI-modeller.
 {alt: "Et flowdiagram der illustrerer interaktionen mellem brugere, data, et produkt, en API og en AI-model. Brugerne og dataene er til venstre og ledes ind i 'Dit produkt', som er i centrum. Pile fører derefter til en 'API'-kolonne, mærket som programmeringsgrænseflade, og endelig til en 'AI-model' vist som en skyform til højre."}
 ![](resources-da/060-ai-product-da.png)
 
-De fleste modeludbydere stiller et såkaldt API (programmeringsgrænseflade){i: "API (programmeringsgrænseflade)"} til rådighed, som lader din kode kommunikere med modellen. Så hvis du gør noget meget ofte via en AI-klient, såsom at gennemgå blogindlæg før publicering, er det ret nemt at bygge dit eget værktøj, der automatiserer dette - især nu hvor AI kan hjælpe dig med at skrive det meste af koden til det. Jeg vil komme mere ind på dette senere.
+De fleste modeludbydere stiller et såkaldt API (programmeringsgrænseflade){i: "API (programmeringsgrænseflade)"} til rådighed, som lader din kode kommunikere direkte med modellen. Så hvis du gør noget meget ofte via en AI-klient, såsom at gennemgå blogindlæg før publicering, er det ret nemt at bygge dit eget værktøj, der automatiserer dette - især nu hvor AI kan hjælpe dig med at skrive det meste af koden til det. Jeg vil komme mere ind på dette senere.
 
 
 
@@ -352,7 +351,7 @@ Modellen udgør dog kun ét aspekt. Nytteværdien af generativ AI{i: "Generativ 
 ![](resources-da/060-usefulness-da.png)
 
 > **Et godt eksempel: Microsoft Copilot{i: "Microsoft Copilot"}**  
-> Jeg plejede at sige, at AIs nytteværdi er en funktion af modellen og dine prompt engineering-færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting derudover får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (jeg kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere brugbart og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
+> Jeg plejede at sige, at AIs nytteværdi er en funktion af modellen og dine prompt engineering-færdigheder. Men så kom Microsoft Copilot (som ikke må forveksles med GitHub Copilot{i: "GitHub Copilot"}, som er et fremragende produkt for udviklere), og jeg indså, at produktet er lige så vigtigt. MS Copilot er et ambitiøst forsøg på at integrere AI i alle Microsofts{i: "Microsoft"} produkter. På nuværende tidspunkt er det dog chokerende dårligt. Det kan udføre grundlæggende ting som at opsummere e-mails og møder, men de fleste ting derudover får det til at hallucinere næsten lige så slemt som den første offentlige udgivelse af ChatGPT 3.5 for to år siden{i: "ChatGPT 3.5 udgivelse"}. Dette er overraskende, da MS Copilot drives af GPT 4 eller 4o (jeg kan ikke rigtig afgøre hvilken){i: "GPT-4"}. Efter alle målestokke burde det være meget mere brugbart og pålideligt, end det er. Måske har de forbedret det, når du læser dette. Men det tjener som et eksempel på, at produktet (eller AI-klienten) også er en afgørende del af ligningen.
 
 Jeg oplever, at de fleste mennesker i høj grad undervurderer styrken og nytteværdien af generativ AI, fordi de ikke har prøvet en god model og et godt produkt, eller mangler prompt engineering-færdigheder til at bruge dem effektivt.
 
