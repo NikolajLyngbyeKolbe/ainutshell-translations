@@ -513,7 +513,7 @@ Bemærk, at der er forskellige typer af generativ AI-modeller{i: "Generative AI-
 {width: "60%", alt: "Diagram der illustrerer konverteringen mellem lyd, video, billede og tekst. Pile viser tovejs-relationer, med lyd og video forbundet, og begge også forbundne til billede og tekst. Hvert medie er repræsenteret af simple ikoner."}
 ![](resources-da/070-mode-types-da.png)
 
-Vi vil gennemgå disse med mange konkrete eksempler på anvendelse:
+Vi vil gennemgå disse med mange konkrete eksempler på mulige anvendelser:
 
 - Tekst til tekst{i: "Tekst til tekst"}.
 - Tekst til billede{i: "Tekst til billede"}.
