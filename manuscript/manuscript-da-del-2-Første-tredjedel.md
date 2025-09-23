@@ -586,7 +586,7 @@ Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på, at 
 
 Jeg håber, disse tips vil hjælpe dig med at få din AI-transformation godt i gang.
 
-Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. Da denne bog blev skrevet var stort set alle lige forvirrede og famlede i mørket på grund af den utrolige hastighed som tingene forandre sig med.
+Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. Da denne bog blev skrevet var stort set alle lige forvirrede og famlede i mørket på grund af den utrolige hastighed som tingene forandrer sig med.
 
 Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at får værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
