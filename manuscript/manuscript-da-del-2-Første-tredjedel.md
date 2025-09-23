@@ -1176,6 +1176,8 @@ Forestil dig nu et 1500-dimensionelt rum{i: "dimensionelt rum"} med tre punkter{
 
 Det er, hvad en vektordatabase{i: "vektordatabase"} er. En meget kraftfuld og effektiv måde at sammenligne, hvor tæt sætningerne er på hinanden. Det præcise antal dimensioner vil naturligvis variere afhængigt af modellen, men det overordnede koncept er det samme{i: "koncept"}.
 
+Herunder kan du se et yderligere eksempel, hvor de engelske ord for ulv ("Wolf"), hund ("Dog") og kat ("Cat") er tæt på hinanden, mens de engelske ord for banan ("Banana") og æble ("Apple") ligeledes er tæt på hinanden.
+
 {alt: "3D-spredningsdiagram med forskellige størrelser af grønne og gule prikker spredt i et gitter. Akserne er mærket med "Wolf," "Dog," "Cat," "Banana," og "Apple." Prikkerne varierer i størrelse, hvilket antyder forskellige værdier eller intensiteter."}
 ![](resources-da/475-embeddings-graph-3d-da.png)
 
