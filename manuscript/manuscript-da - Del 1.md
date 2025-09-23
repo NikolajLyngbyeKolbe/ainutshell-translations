@@ -905,7 +905,7 @@ Den gav mig en super brugbar trin-for-trin beskrivelse af, hvor jeg skulle klikk
 
 ## Eksempel: At tage AI med på en gåtur
 
-Når jeg har ting at finde ud af, såsom indholdet af denne bog{i: "bog"}, kan jeg godt lide at gå ture og bruge AI som sparringspartner. På tidspunktet hvor denne tekst skrives er det kun ChatGPT, der understøtter tovejslyd, men andre AI-klienter er hurtigt ved at indhente det.
+Når jeg har noget jeg skal udarbejde, såsom indholdet af denne bog{i: "bog"}, kan jeg godt lide at gå ture og bruge AI som sparringspartner. På tidspunktet hvor denne tekst skrives er det kun ChatGPT, der understøtter tovejslyd, men andre AI-klienter er hurtigt ved at indhente det.
 
 {alt: "En simpel stregtegning af en person, der holder en telefon med talebobler. Billedet skitserer tre trin: 1. "Hør mine tanker, 'svar altid med OK'," 2. "Feedback og diskussion," og 3. "Opsummer hovedpunkter," med en pil, der peger på et stykke papir."}
 ![](resources-da/080-walking-1-da.png)
@@ -923,9 +923,9 @@ Husker du, da jeg nævnte prompt imagination{i: "prompt imagination"} og prompt 
 - **Prompt imagination** ("hvad kan jeg gøre?") = at komme på idéen om, at AI kunne være nyttig som sparringspartner, når man går en tur.
 - **Prompt engineering** ("hvordan gør jeg det?") = at instruere den til kun at svare med "OK" i første omgang, så jeg kan færdiggøre mine tanker, før jeg får et svar. Dette er faktisk en midlertidig løsning. I øjeblikket tror AI-klienter, at de altid skal svare; de forstår ikke rigtig konceptet "Svar kun, hvis jeg faktisk beder dig om at svare". Men det kommer nok.
 
-Jeg anbefaler på det kraftigste at prøve dette. Dette er sandsynligvis min foretrukne måde at bruge AI på, jeg gør det næsten hver dag. Der er også en god sundhedsmæssig gevinst med al den gang! Denne bog alene har givet mig mindst 100.000 skridt 🙂.
+Jeg anbefaler på det kraftigste at prøve dette. Dette er nok min foretrukne måde at bruge AI på. Jeg gør det næsten hver dag. Man får jo også noget sundhed ud af at gå så meget! Denne bog alene har givet mig mindst 100.000 skridt 🙂.
 
-Dette er også perfekt, når man kører bil. At køre og læse/skrive er en MEGET dårlig kombination. Men at tale med AI, det er jo som at tale med en person på passagersædet. Jeg bruger det både til underholdning og arbejde. At få lavet nyttigt arbejde mens man kører, det er ret sejt ikke! Nogle gange stiller jeg bare en masse spørgsmål om et tilfældigt emne og lærer en masse. Og nogle gange laver jeg praktiske ting som at diskutere, hvilke dagligvarer jeg skal købe, og beder den derefter om at lave en detaljeret indkøbsliste opdelt efter afdelingerne i butikken.
+Det er også perfekt, når man kører bil. At køre og læse/skrive er en MEGET dårlig kombination, men at tale med AI, det er jo som at tale med en person på passagersædet. Jeg bruger det både til underholdning og arbejde. At få lavet nyttigt arbejde mens man kører, det er ret sejt ikke! Nogle gange stiller jeg bare en masse spørgsmål om et tilfældigt emne og lærer en masse. Andre gange laver jeg praktiske ting som at diskutere, hvilke dagligvarer jeg skal købe, og beder den derefter om at lave en detaljeret indkøbsliste opdelt efter afdelingerne i butikken.
 
 For bare få dage siden planlagde jeg et inspirerende foredrag for en gruppe administrerende direktører{i: "direktører"}. Arrangøren viste mig en slide med alle deltagerne og virksomhederne. På min næste gåtur sendte jeg et screenshot af denne slide til ChatGPT og stillede en masse spørgsmål som:
 
@@ -955,22 +955,22 @@ Men efterhånden som de blev større og blev trænet på mere data, begyndte de 
 {width: "90%", alt: "Illustration af en stor pastelfarvet hjerneagtig form med tekst omkring. Ordene "Stor model" er skrevet øverst. Omkring formen er forskellige etiketter: "Rollespil," "Poesi," "Kode," "Strategi," "Juridisk/medicinsk rådgivning," "Undervise," "Coache," og "osv." Formen har sorte konturer og revner."}
 ![](resources-da/090-large-model-da.png)
 
-Pludselig kunne modellerne rollespille{i: "rollespil"}, skrive poesi{i: "poesi"}, skrive højkvalitetskode{i: "programmere"}, diskutere virksomhedsstrategi{i: "strategi"}, give juridiske råd{i: "juridisk råd"} og medicinsk rådgivning{i: "medicinsk rådgivning"}, coache{i: "coache"}, undervise{i: "undervise"}. Det var ikke altid super godt, men det faktum at de overhovedet kunne gøre det var forbløffende - dette er kreative og intellektuelle opgaver, som det tidligere kun har været mennesker som kunne udføre det. Og efterhånden som modellerne blev større og fik mere træningsdata, begyndte de at matche og endda overgå menneskelig kapacitet på mange af disse områder.
+Pludselig kunne modellerne rollespille{i: "rollespil"}, skrive poesi{i: "poesi"}, skrive højkvalitetskode{i: "programmere"}, diskutere virksomhedsstrategi{i: "strategi"}, give råd om jura{i: "juridisk råd"} og medicin{i: "medicinsk rådgivning"}, coache{i: "coache"} og undervise{i: "undervise"}. Det var ikke altid særligt godt, men det faktum at de overhovedet kunne gøre det var forbløffende - dette er kreative og intellektuelle opgaver, som tidligere kun kunne udføres af mennesker. Og efterhånden som modellerne blev større og fik mere træningsdata, begyndte de at matche og endda overgå menneskelig kapacitet på mange af disse områder.
 
 
 
 Det viser sig, at når en model har set nok tekst og billeder, begynder den at se mønstre{i: "mønstre"} og forstå overordnede koncepter{i: "overordnede koncepter"}.
 
-Hvis man tænker over det, minder det om hvordan en baby lærer at forstå verden. Som baby finder du før eller siden ud af, at der findes noget der hedder mad, noget mad er dårligt og noget er godt, træer vokser, vi er på en planet, de fleste ting falder ned hvis de ikke bliver støttet, det gør ondt at falde hvis det er dig der falder, fugle falder ikke ned fordi de har vinger, osv., osv.
+Hvis man tænker over det, minder det om hvordan en baby lærer at forstå verden. Som baby finder du før eller siden ud af, at der findes noget der hedder mad. Noget mad er dårligt og noget er godt, træer vokser, vi er på en planet, de fleste ting falder ned, hvis de ikke bliver støttet, det gør ondt at falde hvis det er dig der falder, fugle falder ikke ned, fordi de har vinger, osv., osv.
 
 Det meste af dette læres ved at observere og opleve verden, frem for gennem direkte undervisning{i: "undervisning"}.
 
 {alt: "En tegneserietegning viser et stort træ med en tyk stamme og en bred, bladrig krone. En lille stregfigur står ved siden af træet og peger opad mens den siger 'Træ!' i en taleboble."}
 ![](resources-da/090-tree-da.png)
 
-Babyer er naturlige forskere{i: "naturlige forskere"}. De starter næsten fra ingenting, danner hypoteser og tester dem konstant ("Min hypotese er, at denne gule legoklods smager rigtig godt. Lad os teste det!"). Bortset fra at de snyder, fordi de ikke behøver at indsende artikler til peer review.
+Babyer er naturlige forskere{i: "naturlige forskere"}. De starter næsten fra ingenting, danner hypoteser og tester dem konstant ("Min hypotese er, at denne gule legoklods smager rigtig godt. Lad os teste det!"). Altså bortset fra at de snyder. De behøver nemlig ikke at indsende artikler til peer review.
 
-AI-modeller minder om det, bortset fra at de får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
+AI-modeller minder om på den måde om babyer, pånær at AI-modellerne får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
 
 {width: "50%", alt: "En skitse der viser en saks hængende over et æg, som er ophængt over en gryde med et håndtag. Gryden står over røde flammer, hvilket antyder at den står på et komfur."}
 ![](resources-da/090-cut-the-rope-da.png)
@@ -998,7 +998,7 @@ Claude var også i stand til at forstå billedet og konsekvenserne af at bruge s
 
 Da GPT-4{i: "GPT-4"} blev frigivet i marts 2023, begyndte jeg at bruge den som programmeringsassistent{i: "programmeringsassistent"}, og jeg blev blæst bagover. Når den blev promptet effektivt, var den en bedre programmør end nogen jeg har arbejdet sammen med. Det samme gjaldt artikel-skrivning, produktdesign, workshop-planlægning og stort set alt andet jeg brugte den til. Den primære flaskehals var næsten altid mine prompt engineering-færdigheder{i: "prompt engineering-færdigheder"} (eller mangel på samme). Set i bakspejlet virker GPT-4 meget dum og begrænset sammenlignet med de nyeste modeller. Alt er relativt, går jeg ud fra.
 
-Så jeg besluttede at foretage et karriereskift{i: "karriereskift"} og fokusere helt på at lære og undervise i, hvordan man gør denne teknologi nyttig. Det er baggrunden for denne bog{i: "bog"}.
+Så jeg besluttede at foretage et karriereskifte{i: "karriereskifte"} og fokusere helt på at lære og undervise i, hvordan man gør denne teknologi nyttig. Det er baggrunden for denne bog{i: "bog"}.
 
 
 
@@ -1029,7 +1029,7 @@ At håndtere denne forandringshastighed er en kæmpe udfordring for både indivi
 
 ## Hvad med energiforbruget?
 
-På nuværende tidspunkt kræver træning og kørsel af AI-modeller enorme mængder energi{i: "AI-modellers energiforbrug"}. Dette er en begrænsende faktor for den udbredte brug af generativ AI. Men værre endnu omsætter det sig direkte til miljøpåvirkning og accelererede klimaforandringer{i: "klimaforandringer"}.
+På nuværende tidspunkt kræver træning og kørsel af AI-modeller enorme mængder energi{i: "AI-modellers energiforbrug"}. Dette er en begrænsende faktor for den udbredte brug af generativ AI. Men endnu værre er, at det omsættes direkte til miljøpåvirkning og accelererede klimaforandringer{i: "klimaforandringer"}.
 
 Trods dette er jeg forholdsvis optimistisk omkring AIs energiforbrug på længere sigt. Dette er stadig en relativt ny teknologi, og den forbedres hurtigt - vi ser nye modelarkitekturer, specialiserede AI-chips{i: "AI-chips"} og kontinuerlig innovation omkring energieffektivitet{i: "energieffektivitet"}. Der er stærk global enighed omkring dette, hvis ikke andet så fordi alle ønsker at reducere omkostningerne. På den anden side vil flere mennesker og virksomheder bruge AI, jo mere omkostningerne falder. Så det er lidt af et hønen-og-ægget problem - bedre effektivitet fører til mere brug, hvilket kunne udligne den forbedrede energieffektivitet.
 
@@ -1037,13 +1037,13 @@ Trods dette er jeg forholdsvis optimistisk omkring AIs energiforbrug på længer
 
 Men vi ved, at intelligens _kan_ være energieffektiv - vores egen hjerne er bevis på det. Vores hjerne bruger omkring 20 watt energi, hvilket kan sammenlignes med en computerskærm i dvaletilstand.
 
-Ingen kender fremtiden, men mit gæt (og håb) er, at vi vil løse dette.
+Ingen kender fremtiden, men mit gæt (og håb) er, at vi vil løse dette problem.
 
 ## Utopi eller dystopi?
 
 Vil AI ødelægge verden? Eller vil den skabe en utopi{i: "utopi"}? Hvordan kan vi reducere risikoen for det første, mens vi maksimerer chancen for det sidste?
 
-Dette er et enormt emne, som fortjener en separat bog. Faktisk er der allerede blevet skrevet flere bøger om dette emne.
+Det er et enormt emne, som fortjener en separat bog. Faktisk er der allerede blevet skrevet flere bøger om dette emne.
 
 Nogle sammenligner generativ AI med at give atomvåben til teenagere - et utroligt kraftfuldt værktøj{i: "kraftfuldt værktøj"}, som folk kan bruge til at forårsage massiv ødelæggelse. For eksempel ved at manipulere verdensledere til at starte en atomkrig, eller ved at udvikle nye typer biovåben, eller ved at skabe nye typer AI-drevne autonome våben. Listen over potentielle katastrofer er lang - både forsætlige og utilsigtede.
 
@@ -1093,7 +1093,7 @@ Ingen af disse tankesæt er hjælpsomme. Jeg forsøger at guide folk til at find
 
 Jeg ved godt, at det er lettere sagt end gjort. Ændring af tankesæt kan være udfordrende. Men én ting der hjælper meget, uanset hvilken side af skalaen du befinder dig på lige nu, er at eksperimentere meget. Leg løs med generativ AI, prøv alle mulige forskellige måder at bruge det på, se hvad det kan gøre for dig. Jo mere du eksperimenterer{i: "eksperimentering med AI"}, jo mere lærer du. Og jo mere du lærer, jo flere områder vil du opdage, hvor denne teknologi kan hjælpe dig. Det vil føles mere som et værktøj og mindre som en trussel.
 
-Tænk på monstret under din seng, som du var bange for som barn (eller måske var du ikke, men bær over med mig her). Det er uvisheden om hvad der er der, der virkelig er den skræmmende del. Hvis du tænder lyset og kigger under din seng og tydeligt ser, hvad der faktisk er der, vil det sandsynligvis føles mindre skræmmende. Du vil formentlig opdage, at det slet ikke var et monster.
+Tænk på monstret under din seng, som du var bange for som barn (eller måske var du ikke, men bær over med mig her). Det er uvisheden om, hvad der er der, der virkelig er den skræmmende del. Hvis du tænder lyset og kigger under din seng og tydeligt ser, hvad der faktisk er der, vil det sandsynligvis føles mindre skræmmende. Du vil formentlig opdage, at det slet ikke var et monster.
 
 Personligt føler jeg, at jeg har fået superkræfter{i: "AI-superkræfter"}. Jeg kan gå fra idé til resultat på meget kortere tid. Jeg kan fokusere mere på, hvad jeg vil opnå og mindre på det kedelige arbejde med at bygge ting. Og jeg lærer også meget hurtigere, det er som at have en fantastisk mentor med mig hele tiden.
 
@@ -1146,13 +1146,13 @@ Er læger{i: "læger"} for eksempel nødvendige? Udviklere{i: "udviklere"}? Lær
 
 ## Du er mere end dit job
 
-Lad os først træde et skridt tilbage og udfordre hele spørgsmålet om "Er mennesker nødvendige". Det antyder, at menneskers værdi defineres af vores jobs{i: "jobs"}. Men vi mennesker gør mange ting bare fordi vi har lyst! Musik, sport, kunst, spil, at hænge ud med venner og familie osv. Disse aktiviteter er ikke "jobs", de er bare en del af det at være menneske. AI vil ikke gøre det mindre værd. Tværtimod tror jeg, det kan hjælpe med at skabe en verden, hvor vi bruger mindre tid på at arbejde og mere tid på at gøre ting, vi elsker. Hvor mennesker defineres af deres passioner{i: "passioner"} og interesser frem for blot det, de får løn for.
+Lad os først træde et skridt tilbage og udfordre hele spørgsmålet om "Er mennesker nødvendige". Det antyder, at menneskers værdi defineres af vores jobs{i: "jobs"}. Men vi mennesker gør mange ting, bare fordi vi har lyst! Musik, sport, kunst, spil, at hænge ud med venner og familie osv. Disse aktiviteter er ikke "jobs", de er bare en del af det at være menneske. AI vil ikke gøre det mindre værd. Tværtimod tror jeg, det kan hjælpe med at skabe en verden, hvor vi bruger mindre tid på at arbejde og mere tid på at gøre ting, vi elsker. Hvor mennesker defineres af deres passioner{i: "passioner"} og interesser frem for blot det, de får løn for.
 
 Men OK, nok med luftige visioner, lad os tale om elefanten i rummet. Den konkrete risiko for tab af arbejdspladser{i: "tab af arbejdspladser"}.
 
 ## AI som din kollega
 
-Nogle jobs vil uundgåeligt forsvinde - dette sker ved ethvert teknologiskift{i: "teknologiskift"}, og det sker allerede med AI. Men for de fleste roller tror jeg stadig, at vi mennesker er nødvendige. Nogen med domæneviden skal beslutte:
+Nogle jobs vil uundgåeligt forsvinde - dette sker ved ethvert teknologiskift{i: "teknologiskift"}, og det sker allerede med AI. Men for de fleste roller tror jeg stadig, at vi mennesker er nødvendige. Mennesker med domæneviden skal beslutte:
 
 - Hvad man skal spørge AI'en om.
 - Hvordan man formulerer prompten.
@@ -1200,7 +1200,7 @@ Det ændrer dog ikke på det faktum, at nogle mennesker vil miste deres jobs, hv
 
 For det første, lær at bruge AI selv. Dette vil højst sandsynligt gøre dig mere effektiv i dit nuværende job, men vil også gøre dig mere attraktiv i forhold til at få et nyt job, hvis det bliver nødvendigt{i: "AI-færdigheder"}. Bare det faktum, at du læser denne bog, er en god start!
 
-Lad os for eksempel sige, at dit job er at oversætte eller lære korrektur på dokumenter{i: "oversætte eller korrekturlæse dokumenter"}. Det job er i fare for at blive erstattet af AI, da sprogmodeller allerede nu er ret gode til det. Men hvis du selv bruger AI, kan du bruge den som en assistent og lade den tage første gennemgang af oversættelsen eller korrekturlæsningen af dokumenter. Efterhånden som du bliver bedre til at prompte den, vil den blive bedre til at udføre opgaven. I stedet for at stjæle dit job kan AI-assistance gøre dig i stand til at påtage dig flere klienter, få arbejdet udført hurtigere og måske endda forbedre kvaliteten{i: "AI-assistance"}. Med en orkestermetafor skifter din rolle fra at være musiker til at være dirigent.
+Lad os for eksempel sige, at dit job er at oversætte eller læse korrektur på dokumenter{i: "oversætte eller korrekturlæse dokumenter"}. Det job er i fare for at blive erstattet af AI, da sprogmodeller allerede nu er ret gode til det. Men hvis du selv bruger AI, kan du bruge den som en assistent og lade den tage første gennemgang af oversættelsen eller korrekturlæsningen af dokumenter. Efterhånden som du bliver bedre til at prompte den, vil den blive bedre til at udføre opgaven. I stedet for at stjæle dit job kan AI-assistance gøre dig i stand til at påtage dig flere klienter, få arbejdet udført hurtigere og måske endda forbedre kvaliteten{i: "AI-assistance"}. Med en orkestermetafor skifter din rolle fra at være musiker til at være dirigent.
 
 I de fleste tilfælde, i hvert fald for komplekse opgaver, fungerer AI bedst i samarbejde med en menneskelig kollega. Den har brug for dig.
 
@@ -1287,9 +1287,9 @@ I hvert af disse eksempler interagerer dine brugere med dit produkt, og dit prod
 
 ## Bygge eller købe?
 
-Hvis du har en idé til et AI-drevet værktøj eller produkt, har andre formodentligt også ofte haft den samme idé. Så du kan ofte finde tredjepartsværktøjer{i: "tredjepartsværktøjer"}, der gør det, du ønsker, eller noget der lægger tæt nok på. Nogle gange er produkterne gratis, nogle gange koster de penge.
+Hvis du har en idé til et AI-drevet værktøj eller produkt, har andre formodentligt også ofte haft den samme idé. Så du kan ofte finde tredjepartsværktøjer{i: "tredjepartsværktøjer"}, der gør det, du ønsker, eller noget der er tæt nok på dine ønsker. Nogle gange er produkterne gratis, andre gange koster de penge.
 
-Så skal du bygge det selv eller købe det? Som altid afhænger det af produktets kompleksitet vs. din udviklingsviden, samt hvilke typer produkter der er tilgængelige. Hvis det er super simpelt, så byg det bare selv. Ellers, kig dig omkring og test nogle tredjepartsprodukter først, før du bygger dit eget.
+Så skal du bygge det selv eller købe det? Som altid afhænger det af produktets kompleksitet vs. din udviklingsviden, samt hvilke typer produkter der er tilgængelige. Hvis det er meget simpelt, så byg det bare selv. Ellers, kig dig omkring og test nogle tredjepartsprodukter først, før du bygger dit eget.
 
 At bygge små værktøjer selv er også en god måde at lære mere på.
 
@@ -1413,7 +1413,7 @@ Dette er den del, du skal finjustere! Var evalueringen for kort? For lang? For v
 
 Når man udvikler AI-drevne produkter, er koden ofte den nemme del, da den for det meste er AI-genereret{i: "AI, genereret kode"} og har det med at virke fint. Den svære del er promptene i koden. Det er der, du skal lave en masse finjusteringer og iterationer{i: "prompt-optimering"}, da det har en enorm indflydelse på resultaterne. Men når du først har fået promptene rigtige, har du et værktøj, som du kan køre igen og igen{i: "AI-drevne produkter, prompt-optimering"}. Meget praktisk!
 
-Okay, lad os prøve det. Mon jeg kan få et job som cirkusartist? Lad os se, hvad en rekruttør ville sige.
+Okay, lad os prøve det. Mon jeg kan få et job som cirkusartist? Lad os se, hvad en rekrutteringsekspert ville sige.
 
 
 ```
@@ -1531,7 +1531,7 @@ Dette vil ofte give endnu bedre resultater, men kan tage lidt længere tid.
 
 Jeg kombinerer ofte disse teknikker. Jeg stiller et klart spørgsmål, tilføjer lidt kontekst og fortæller den så, at den skal spørge mig, hvis den har brug for mere information.
 
-Accepter ikke bare det første resultat, du får. Iterer! Giv feedback til modellen, og du vil altid få bedre resultater.
+Accepter ikke det første resultat, som du får. Iterer! Giv feedback til modellen. Så vil du altid få bedre resultater.
 
 ## Den største begrænsning er dig selv
 
@@ -1693,7 +1693,7 @@ Dette er et distribueret team, og de har et kort synkroniseringsmøde hver morge
 
 For eksempel:
 
-- Marcus: "Hej Flora, vores loginside er virkelig langsom på det sidste, vi ved ikke hvorfor. Kan du kigge på det?"
+- Marcus: "Hej Flora, vores loginside er blevet virkelig langsom på det sidste og vi ved ikke hvorfor. Kan du kigge på det?"
 - Flora: "Selvfølgelig!" (Der går 12 sekunder...) "OK, jeg fandt det. Det skyldtes en forkert konfiguration i den logging-pakke, vi tilføjede sidste uge. Jeg har lavet en PR med rettelsen."
 
 AI-agenter{i: "AI-agenter"} er normalt meget hurtige sammenlignet med mennesker{i: "mennesker"}. Derfor er det vigtigt at have et menneske med i processen på et tidspunkt, i hvert fald for komplekse opgaver, hvor menneskeligt tilsyn er nødvendigt{i: "menneskeligt tilsyn"}. Det ville være det samme med et menneske. Du ville jo heller ikke ønske et menneskeligt geni, der bare løber af sted og laver en masse arbejde på egen hånd uden at samarbejde med teamet{i: "samarbejde"}, vel?
@@ -1789,7 +1789,7 @@ Så hvordan skaber du en agent til at gøre disse ting? Det er ret meget en klas
 - Byg din egen agent ved hjælp af kode, der interagerer med LLM'er.
 - Eller brug en tredjeparts agent-platform eller -tjeneste (som [vores](https://abundly.ai/agents)), der lader dig bygge og konfigurere agenter uden kode.
 
-Dette er faktisk et bredt spektrum. Der er et voksende antal open source-værktøjer til at hjælpe dig med at kode dine egne agenter uden at starte helt fra bunden, så det fungerer som en mellemvej mellem at udvikl og købe.
+Dette er faktisk et bredt spektrum. Der er et voksende antal open source-værktøjer til at hjælpe dig med at kode dine egne agenter uden at starte helt fra bunden, så det fungerer som en mellemvej mellem at udvikle og købe.
 
 ## Agenter med fysisk form
 
