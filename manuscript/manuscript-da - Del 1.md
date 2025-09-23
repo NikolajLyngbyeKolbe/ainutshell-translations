@@ -955,9 +955,7 @@ Men efterhånden som de blev større og blev trænet på mere data, begyndte de 
 {width: "90%", alt: "Illustration af en stor pastelfarvet hjerneagtig form med tekst omkring. Ordene "Stor model" er skrevet øverst. Omkring formen er forskellige etiketter: "Rollespil," "Poesi," "Kode," "Strategi," "Juridisk/medicinsk rådgivning," "Undervise," "Coache," og "osv." Formen har sorte konturer og revner."}
 ![](resources-da/090-large-model-da.png)
 
-Pludselig kunne modellerne rollespille{i: "rollespil"}, skrive poesi{i: "poesi"}, skrive højkvalitetskode{i: "programmere"}, diskutere virksomhedsstrategi{i: "strategi"}, give råd om jura{i: "juridisk råd"} og medicin{i: "medicinsk rådgivning"}, coache{i: "coache"} og undervise{i: "undervise"}. Det var ikke altid særligt godt, men det faktum at de overhovedet kunne gøre det var forbløffende - dette er kreative og intellektuelle opgaver, som tidligere kun kunne udføres af mennesker. Og efterhånden som modellerne blev større og fik mere træningsdata, begyndte de at matche og endda overgå menneskelig kapacitet på mange af disse områder.
-
-
+Pludselig kunne modellerne rollespille{i: "rollespil"}, skrive poesi{i: "poesi"}, skrive højkvalitetskode{i: "programmere"}, diskutere virksomhedsstrategi{i: "strategi"}, coache{i: "coache"}, undervise{i: "undervise"} og give råd om emner som jura{i: "juridisk råd"} og medicin{i: "medicinsk rådgivning"}. Det var ikke altid særligt godt, men det faktum at de overhovedet kunne gøre det var forbløffende - dette er kreative og intellektuelle opgaver, som tidligere kun kunne udføres af mennesker. Og efterhånden som modellerne blev større og fik mere træningsdata, begyndte de at matche og endda overgå menneskelig kapacitet på mange af disse områder.
 
 Det viser sig, at når en model har set nok tekst og billeder, begynder den at se mønstre{i: "mønstre"} og forstå overordnede koncepter{i: "overordnede koncepter"}.
 
@@ -970,7 +968,7 @@ Det meste af dette læres ved at observere og opleve verden, frem for gennem dir
 
 Babyer er naturlige forskere{i: "naturlige forskere"}. De starter næsten fra ingenting, danner hypoteser og tester dem konstant ("Min hypotese er, at denne gule legoklods smager rigtig godt. Lad os teste det!"). Altså bortset fra at de snyder. De behøver nemlig ikke at indsende artikler til peer review.
 
-AI-modeller minder om på den måde om babyer, pånær at AI-modellerne får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
+AI-modeller minder på den måde om babyer, pånær at AI-modellerne får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
 
 {width: "50%", alt: "En skitse der viser en saks hængende over et æg, som er ophængt over en gryde med et håndtag. Gryden står over røde flammer, hvilket antyder at den står på et komfur."}
 ![](resources-da/090-cut-the-rope-da.png)
@@ -1152,7 +1150,7 @@ Men OK, nok med luftige visioner, lad os tale om elefanten i rummet. Den konkret
 
 ## AI som din kollega
 
-Nogle jobs vil uundgåeligt forsvinde - dette sker ved ethvert teknologiskift{i: "teknologiskift"}, og det sker allerede med AI. Men for de fleste roller tror jeg stadig, at vi mennesker er nødvendige. Mennesker med domæneviden skal beslutte:
+Nogle jobs vil uundgåeligt forsvinde - dette sker ved ethvert teknologiskifte{i: "teknologiskifte"}, og det sker allerede med AI. Men for de fleste roller tror jeg stadig, at vi mennesker er nødvendige. Mennesker med domæneviden skal beslutte:
 
 - Hvad man skal spørge AI'en om.
 - Hvordan man formulerer prompten.
