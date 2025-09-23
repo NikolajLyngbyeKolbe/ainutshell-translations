@@ -929,7 +929,7 @@ Lad os runde dette af.
 
 Jeg har givet dig en masse tips{i: "prompt engineering-tips"} og tricks og teknikker om prompt engineering i dette kapitel. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
 
-# prompt-generering (eller "Den vrede bedstemor")
+# Prompt-generering (eller "Den vrede bedstemor")
 
 Hvad er prompt-generering, og hvad har det med vrede bedstemødre{i: "vrede bedstemødre"} at gøre? Læs videre og find ud af det.
 
