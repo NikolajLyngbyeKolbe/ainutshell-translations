@@ -1037,8 +1037,8 @@ BEMÆRK: hvis du ikke har planer om at udvikle dine egne AI-drevne apps, kan du 
 {alt: "Flowchart-diagram der viser en proces med en bruger, en app, et datalager og en large language model (LLM). Brugeren sender en besked til applikationen, som henter relevante data fra datalagreret. App'en kombinerer dataene og brugerens besked som en prompt til LLM'en, som genererer et svar der sendes tilbage til applikationen og derefter til brugeren."}
 ![](resources-da/475-rag-overview-da.png)
 
-1. Brugeren skriver en prompt,
-2. Din app slår relevante data op i en form for datakilde (en database, en fil osv.),
+1. Brugeren skriver en prompt.
+2. Din app slår relevante data op i en form for datakilde (en database, en fil osv.).
 3. Dataene returneres fra datakilden.
 4. Din app udvider brugerens prompt med dataene.
 5. LLM'en genererer et svar baseret på den udvidede prompt.
