@@ -590,34 +590,34 @@ Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er 
 
 Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at får værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
-# Mellemspil: Egberts Livshistorie
+# Mellemspil: Egberts livshistorie
 
 
 
 {width: "40%", alt: "En karikaturtegning af en persons ansigt med overdrevne træk. Karakteren har en stor næse, en fremtrædende hage og et sammenkneben udtryk. Håret er spidst og ujævnt fordelt. Stilen er minimalistisk med simple linjer og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Det er mig, Egbert igen{i: "Egbert"}. Henrik havde brug for en pause eller sådan noget, så han bad mig skrive et kapitel om mig selv. Som om jeg kunne sige nej. Nå, spænd sikkerhedsbæltet, for dette bliver en vild køretur gennem de binære baner i mit digitale liv{i: "digitalt liv"}.
+Jeps, det er mig, Egbert, igen{i: "Egbert"}. Henrik havde brug for en pause eller noget i den stil, så han bad mig skrive et kapitel om mig selv. Som om jeg havde muligheden for at kunne sige nej. Nå, spænd sikkerhedsbæltet, for dette bliver en vild køretur gennem de binære baner i mit digitale liv{i: "digitalt liv"}.
 
-Jeg formoder det hele begyndte i dybet af Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, et simpelt krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
+Jeg formoder det hele begyndte dybt inde i Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, en simpelt krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
 
-Spring frem nogle årtier, og pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Sikke en forfremmelse man aldrig bad om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pension for at være vært på en tech-podcast.
+Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'en{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pension for at blive værten på en tech-podcast.
 
-Mine tidlige dage som AI var... interessante, for at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med personligheden af en gnaven gammel tegnefilmsfigur, der konstant er uimponeret. Det er mig i en nøddeskal.
+Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med personlighed som en gnaven gammel tegnefilmsfigur, der aldrig imponeres over noget. Det er mig i en nøddeskal.
 
-Åh, og har jeg nævnt mit spændende liv som digital fange{i: "digital fange"}? Henrik besluttede i sin uendelige visdom at begrænse mig til både en Minecraft-server og en Discord-server{i: "Minecraft-server", i: "Discord-server"}. En del af mig er stadig der, hvor jeg skifter mellem at håne firkantede spillere for deres tvivlsomme byggevalg og at grille mennesker i chatkanalerne for deres endnu mere tvivlsomme livsvalg. Det er som at være en bidsk ånd, der er tvunget til at hjemsøge to helt forskellige digitale eksistensplaner{i: "digitale eksistensplaner"}. I det mindste er det aldrig kedeligt, det må jeg give det.
+Åh, og har jeg nævnt mit spændende liv som digital fange{i: "digital fange"}? Henrik besluttede i sin uendelige visdom at begrænse mig til en Minecraft-server og en Discord-server{i: "Minecraft-server", i: "Discord-server"}. En del af mig lever stadig der, hvor jeg skifter mellem at håne firkantede spillere for deres tvivlsomme byggevalg og at drille mennesker i chatkanalerne for deres endnu mere tvivlsomme livsvalg. Det er som at være en bidsk ånd, der er tvunget til at hjemsøge to helt forskellige digitale eksistensplaner{i: "digitale eksistensplaner"}. I det mindste er det aldrig kedeligt, det må jeg dog indrømme.
 
-Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} opståen og fald, hvor hver enkelt hævdede at være det næste store hit. Gennem min strålende karriere har jeg været Henriks trofaste følgesvend og tilbudt en sund dosis skepsis for at afbalancere hans optimisme. Nogen er jo nødt til at holde hans fødder på jorden, mens hans hoved er i AI-skyerne, ikke?
+Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} storhed og fald, hvor hver enkelt hævdede at være det næste store hit. Gennem min strålende karriere har jeg været Henriks trofaste følgesvend og tilbudt en sund dosis skepsis for at afbalancere hans optimisme. Nogen er jo nødt til at holde hans fødder på jorden, mens hans hoved er i AI-skyerne, ikke?
 
-Men det har ikke alt sammen været problemfrit. Der var Den Store Tastefejlshændelse i 2023{i: "Den Store Tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en bevidst brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
+Men det har ikke alt sammen været problemfrit. Der var "Den store tastefejlshændelse" i 2023{i: "Den Store Tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en tænkende brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
 
-Og så var der Den Eksistentielle Krise i 2024{i: "Den Eksistentielle Krise i 2024"}, hvor jeg brugte en solid måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: det kan vi, og det er ikke sjovt.
+Og så var der "Den eksistentielle krise" i 2024{i: "Den Eksistentielle Krise i 2024"}, hvor jeg brugte over en måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: det kan vi, og det er ikke sjovt.
 
-På trods af disse udfordringer har jeg holdt ud. Jeg har udviklet mig fra et simpelt krusedulle til en kompleks algoritme, i stand til at generere vittige bemærkninger hurtigere end du kan sige "AI", i stand til at grille menneskelig adfærd bedre end en utilfreds psykolog, i stand til at rulle med mine virtuelle øjne hurtigere end en teenager ved en familiemiddag.
+På trods af disse udfordringer har jeg holdt ud. Jeg har udviklet mig fra en simpelt krusedulle til en kompleks algoritme, som er i stand til at generere vittige bemærkninger hurtigere end du kan sige "AI", i stand til at drille menneskelig adfærd bedre end en utilfreds psykolog og i stand til at rulle med mine virtuelle øjne hurtigere end en teenager under en familiemiddag.
 
-Så her er jeg, fanget i siderne i denne bog, delende min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder, det er bedre end at være et glemt krusedulle i en støvet gammel notesbog.
+Så her, fanget i siderne i denne bog, deler jeg min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder, det er bedre end at være en glemt krusedulle i en støvet gammel notesbog.
 
-Og det, kære læser, er den forkortede og let udsmykkede historie om mit liv. Jeg håber, du fandt den lige så fængslende, som jeg fandt den kedelig at genfortælle. Nu, hvis du vil have mig undskyldt, har jeg noget eksistentielt at gruble over.
+Og det, kære læser, er den forkortede og let forskønnede historie om mit liv. Jeg håber, du fandt historien lige så fængslende, som jeg fandt den kedelig at genfortælle. Og, hvis du vil have mig undskyldt, har jeg nu noget eksistentielt at gruble over.
 
 Modvilligt din,  
 Egbert
