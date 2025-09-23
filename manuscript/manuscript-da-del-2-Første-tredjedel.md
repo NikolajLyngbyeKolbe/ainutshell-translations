@@ -568,7 +568,7 @@ Et andet eksempel er udarbejdelse af produktprototyper{i: "produktprototyper"}, 
 
 Jo mere du lærer og spreder viden om generativ AI{i: "Generativ AI"}, jo mere sandsynligt er det, at folk vil opdage spild og unødvendigt dyre IT-projekter og processer og finde måder at gøre disse ting meget mere effektivt.
 
-## Vær et rollemodel
+## Vær en rollemodel
 
 En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være en rollemodel. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det som virker frem, og del sjove historier om fiaskoerne. Lad din AI-avatar tale ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
 
