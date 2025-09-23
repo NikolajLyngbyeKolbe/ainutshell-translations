@@ -554,7 +554,7 @@ Når du udnytter AI{i: "udnyttelse af AI"}, skal du ikke hænge dig for meget i 
 
 Som AI-leder skal du hjælpe med at accelerere denne proces gennem videndeling og skabelse af fællesskaber. Når ét team deler deres succes- eller fiaskohistorie, vil det skabe ringe i vandet og inspirere andre teams.
 
-## Undgå unødige IT-projekter
+## Undgå unødvendige IT-projekter
 
 En konsekvens af generativ AI er, at nogle ting, der tidligere var meget dyre og komplicerede at udføre, nu er meget simple.
 For eksempel:
