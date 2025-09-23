@@ -38,7 +38,7 @@ Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykke
 {alt: "Billedet sammenligner traditionel databehandling med moderne AI. Til venstre repræsenterer en lommeregner gamle computere der udfører instruktioner, med et lille stykke programkode nedenunder. Til højre symboliserer en hjerne den nye AI-teknologi der kan lære, tænke og kommunikere. To små figurer i bunden viser en person der interagerer med AI-hjernen."}
 ![](resources-da/010-calculator-brain-da.png)
 
-Lige siden de elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare fungeret som avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de får af en programmør.
+Lige siden de elektroniske computere blev opfundet i 1940'erne{i: "1940'erne"}, har de egentlig bare fungeret som avancerede lommeregnere. Maskiner der udfører præcis de instruktioner, de har fået af en programmør.
 
 Men noget utroligt er ved at ske, noget jeg aldrig havde forestillet mig ville ske i min levetid. Computere er begyndt at få evnen til at lære, tænke og kommunikere - ligesom os! De kan udføre kreativt, intellektuelt arbejde, som tidligere kun kunne udføres af mennesker.
 
@@ -142,7 +142,7 @@ Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en milli
 
 OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste generativ AI-revolution. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
-ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, at den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og mange, mange flere. De forbedres kontinuerligt og overhaler hinanden med hensyn til kunnen og funktioner.
+ChatGPT startede som en ren LLM, men tilføjede senere støtte til bredere AI-opgaver såsom billedgenerering, talegenkendelse{i: "talegenkendelse"} og mere. Det er derfor, at den i billedet ovenfor rækker ud over LLM-cirklen. Nu til dags findes der mange andre lignende produkter såsom Claude{i: "Claude"}, MS Copilot, Perplexity og mange, mange flere. De forbedres kontinuerligt og overhaler løbende hinanden med hensyn til kunnen og funktioner.
 
 
 
@@ -158,7 +158,7 @@ Så hvordan virker det egentligt?&#x20;
 
 En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "Kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
 
-Internt arbejder neurale netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, som outputter kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
+Internt arbejder neurale netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, og genererer som ouput kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
 
 LLM'er{i: "LLM'er"} er neurale netværk{i: "Kunstigt neuralt netværk"}, der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. LLM'er læser og genererer tokens internt. Det som du ser, er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
 
@@ -281,7 +281,7 @@ Bias kan ofte overvindes eller påvirkes med grundlæggende prompt engineering-t
 Når træningen er færdig, er modellen for det meste fastlåst{i: "frozen model"}, bortset fra noget finjustering{i: "fine-tuning"}, der kan ske senere. På engelsk kaldes denne fortræning for "Pretraining", og er det P'et står for i GPT.
 
 > **Mennesker lærer kontinuerligt**  
-> Dette er en af de store forskelle mellem LLM'er og den menneskelige hjerne{i: "menneskelig hjerne"} - den menneskelige hjerne lærer og omkobler sig selv kontinuerligt gennem hver interaktion. Mens du læser disse ord, ændrer jeg bogstaveligt talt den fysiske struktur i din hjerne{i: "neurale forbindelser"}, og jeg rækker dermed gennem rum og tid for at plante nye neurale forbindelser. Muhahaaaaaa!
+> Dette er en af de store forskelle mellem LLM'er og den menneskelige hjerne{i: "menneskelig hjerne"} - den menneskelige hjerne lærer og tilpasser sig selv kontinuerligt gennem hver interaktion. Mens du læser disse ord, ændrer jeg bogstaveligt talt den fysiske struktur i din hjerne{i: "neurale forbindelser"}, og jeg rækker dermed gennem rum og tid for at plante nye neurale forbindelser. Muhahaaaaaa!
 
 At træne en stor sprogmodel{i: "Large Language Models"} fra bunden er utroligt dyrt{i: "omkostning for at træne LLM'er"} - vi taler om hundredvis af millioner af dollars i computeromkostninger og menneskeligt arbejde. Det er derfor, at kun store teknologivirksomheder{i: "teknologivirksomheder"} med enorme datacentre kan gøre det. De fleste organisationer, der ønsker at bruge AI, vil i stedet starte med en eksisterende fortrænet model, såsom GPT{i: "GPT"} eller Claude{i: "Claude"}.
 
@@ -513,7 +513,7 @@ Bemærk, at der er forskellige typer af generativ AI-modeller{i: "Generative AI-
 {width: "60%", alt: "Diagram der illustrerer konverteringen mellem lyd, video, billede og tekst. Pile viser tovejs-relationer, med lyd og video forbundet, og begge også forbundne til billede og tekst. Hvert medie er repræsenteret af simple ikoner."}
 ![](resources-da/070-mode-types-da.png)
 
-Vi vil gennemgå disse med mange konkrete anvendelseseksempler:
+Vi vil gennemgå disse med mange konkrete eksempler på anvendelse:
 
 - Tekst til tekst{i: "Tekst til tekst"}.
 - Tekst til billede{i: "Tekst til billede"}.
