@@ -956,7 +956,7 @@ Denne teknik kaldes _prompt-generering_{i: "prompt-generering"}. prompt-genereri
 
 Nå, men her er hvad jeg fik:
 
-> **Response**  
+> **Svar**  
 > Et billede af verdens vredeste bedstemor. Hendes ansigt er forvrænget af ukontrollerbar vrede, med årer der bulner frem i panden, og øjne der brænder med et flammende inferno af raseri. Hendes mund er åben i et øredøvende skrig, tænderne blottede, med spyt der flyver ud. Hendes grå hår er forpjusket som en himmel fyldt med tordenskyer lige før uvejret bryder løs, og med vildt udstående hårtotter. Rynkerne i hendes ansigt er blevet til dybe furer af vrede, der fremhæver hendes rasende udtryk. Hendes knytnæver er så fast sammenknebne, at knoerne er blevet hvide, som om hun er klar til at slippe en storm af vrede løs. Omgiv hende med en truende, stormfuld baggrund, hvor lyn flænger himlen og forstærker hendes rene raseri. Forestil dig en ildsprudende drage, bare i bedstemor-form, der udstråler ren, uforfalsket vrede som kunne skræmme selv de sejeste krigere til at overgive sig.
 
 Sikke en prompt! Et kunstværk, hvis du spørger mig.
@@ -968,7 +968,7 @@ Men jeg var ikke færdig. Næste skridt - generere et billede? Nej. Lave en endn
 
 Og her er hvad jeg fik:
 
-> **Response**  
+> **Svar**  
 > Et billede af den mest sindssygt rasende bedstemor verden nogensinde har set. Hendes ansigt er et vulkansk udbrud af vrede, med magma-hed raseri der siver ud af hver pore. Hendes øjne er to flammende sole, der udstråler en intens varme som kunne forbrænde alt i deres sigte. Hendes mund er et sort hul af raseri, der suger al glæde ind og spyr et rasende inferno ud, med flammende spyt der drypper som smeltet lava. Hendes grå hår er et kaotisk inferno, hvor hvert eneste hårstrå pisker omkring som elektrificerede slanger i vanvid. Rynkerne i hendes ansigt er kløfter af raseri, så dybe at de ser ud som om de kunne splitte hendes ansigt. Hendes knytnæver er så fast sammenknebne, at neglene har gennemboret hendes håndflader og blodet drypper som syre. Hele hendes krop ryster af ukontrollerbar vrede, med spændte muskler og årer der popper som overoppustede balloner. Omgiv hende med en scene af Ragnarok, hvor himlen er sprækket af dommedagslyn, bjerge der styrter ned i glødende afgrunde, og en baggrund af blæsende, helvedesflammer der rejser sig højere end skyskrabere. Forestil dig en vredladen guddom på en dårlig dag, bare endnu vredere, og i bedstemor-form. Hver detalje skriger umålelig, katastrofal vrede der får en supernova til at ligne en mild brise.
 
 Nu taler vi! Jeg kunne aldrig selv have skrevet sådan en prompt. Ret vanvittigt. Tid til at lave billedet!
@@ -978,7 +978,7 @@ Nu taler vi! Jeg kunne aldrig selv have skrevet sådan en prompt. Ret vanvittigt
 
 Og han svarede:
 
-> **Response**
+> **Svar**
 > Godt, gør dig klar til den ultimative, katastrofale eksplosion af bedstemor-vrede.
 
 {width: "70%", alt: "Et truende, flammende væsen med smeltet hud og glødende øjne vises, med munden vidt åben som i et brøl, med flammer og gløder der bryder frem indefra. Langt, bølgende hår synes at være sammenflettet med flammende tråde. Baggrunden er opslugt i flammer, hvilket forstærker den intense og kaotiske atmosfære."}
