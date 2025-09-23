@@ -1037,10 +1037,10 @@ BEMÆRK: hvis du ikke har planer om at udvikle dine egne AI-drevne apps, kan du 
 {alt: "Flowchart-diagram der viser en proces med en bruger, en app, et datalager og en large language model (LLM). Brugeren sender en besked til applikationen, som henter relevante data fra datalagreret. App'en kombinerer dataene og brugerens besked som en prompt til LLM'en, som genererer et svar der sendes tilbage til applikationen og derefter til brugeren."}
 ![](resources-da/475-rag-overview-da.png)
 
-1. Brugeren skriver en prompt.
+1. Brugeren skriver en besked.
 2. Din app slår relevante data op i en form for datakilde (en database, en fil osv.).
 3. Dataene returneres fra datakilden.
-4. Din app udvider brugerens prompt med dataene.
+4. Din app udvider brugerens besked med dataene.
 5. LLM'en genererer et svar baseret på den udvidede prompt.
 6. Svaret returneres til brugeren.
 
@@ -1068,7 +1068,7 @@ Hvis vores app henter denne information og udvider prompten, så har LLM'en alt,
 Se på LLM-svaret i dette eksempel. Det er kort, men meget præcist.
 
 - "Åh nej, ikke igen". Den var konfigureret til at svare høfligt, men med et strejf af humor. Og den ved, at kunden også en tidligere gang har glemt sit kodeord.
-- "Skal jeg sende linket til nulstilling af dit kodeord". Den kender proceduren for nulstilling af kodeord.
+- "Skal jeg sende linket til nulstilling af kodeord". Den kender proceduren for nulstilling af kodeord.
 - "... til din sædvanlige e-mailadresse?". Den kender kundens e-mailadresse.
 
 ## Forskellige tilgange til at hente data
@@ -1172,7 +1172,7 @@ client.embeddings.create(
 ```
 
 
-Forestil dig nu et 1500-dimensionelt rum{i: "dimensionelt rum"} med tre punkter{i: "punkter"}, der repræsenterer de tre sætninger ovenfor. OK, jeg ved godt, at det ikke rigtig er muligt at forestille sig, men prøv i det mindste. Så i stedet for 2 dimensioner med specifikke navne (Følelses-påvirkningd og Mad-relation), har vi et 1500-dimensionelt rum uden specifikke navne.
+Forestil dig nu et 1500-dimensionelt rum{i: "dimensionelt rum"} med tre punkter{i: "punkter"}, der repræsenterer de tre sætninger ovenfor. OK, jeg ved godt, at det ikke rigtig er muligt at forestille sig, men prøv i det mindste. Så i stedet for 2 dimensioner med specifikke navne (Følelses-påvirkning og Mad-relation), har vi et 1500-dimensionelt rum uden specifikke navne.
 
 Det er, hvad en vektordatabase{i: "vektordatabase"} er. En meget kraftfuld og effektiv måde at sammenligne, hvor tæt sætningerne er på hinanden. Det præcise antal dimensioner vil naturligvis variere afhængigt af modellen, men det overordnede koncept er det samme{i: "koncept"}.
 
@@ -1206,9 +1206,9 @@ Her er et eksempel:
 ![](resources-da/475-rag-combined-da.png)
 
 - Den første del "Du er en kundeservice-chatbot..." er en fast del, der er hardcodet og inkluderet i alle forespørgsler.
-- Den anden del "Her er den information om kunden, som er relevant." kommer fra et funktionskald, der henter relevante data fra en SQL-database{i: "SQL-database"}.
-- Den tredje del "Her er en samling af relevante FAQ-elmenter..." kommer fra en vektorsøgning, der henter relevante data fra vektordatabasen.
-- Den fjerde del "For dælen, jeg har glemt mit kodeord igen!" er den beskeden fra brugeren.
+- Den anden del "Her er relevant information om kunden." kommer fra et funktionskald, der henter relevante data fra en SQL-database{i: "SQL-database"}.
+- Den tredje del "Her er en samling af relevante FAQ-elementer..." kommer fra en vektorsøgning, der henter relevante data fra vektordatabasen.
+- Den fjerde del "For dælen, jeg har glemt mit kodeord igen!" er beskeden fra brugeren.
 
 Tilsammen giver dette LLM'en en fyldig kontekst at arbejde med, så den kan generere et godt svar, der er præcist og målrettet brugeren.
 
