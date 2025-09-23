@@ -168,7 +168,7 @@ Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og foku
 Min grundlæggende følelse var således: Når et enkelt værktøj både kan generere virkelig god kode og næsten skrive min egen artikel for mig, så er det noget, der er værd at tage alvorligt. Enhver, der er dygtig til at bruge dette effektivt, får superkræfter. Det skal jeg være med til!
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
-<B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. Nogen skal jo pudse vores skabe med servere, ikke?
+</B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. Nogen skal jo pudse vores skabe med servere, ikke?
 
 # At lede en AI-transformation
 
