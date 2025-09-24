@@ -17,7 +17,7 @@ Men hvordan startede det?
 
 De fleste mennesker, der arbejder med generativ AI, har en historie om, hvordan de startede med at arbejde med det. En stor "aha"-oplevelse der fik dem til at indse, hvor kraftfuld denne teknologi er. Her er min historie om to afgørende "aha"-oplevelser, der fik mig til at skifte min karriere til at fokusere på generativ AI.
 
-Spænd selen, og lad os vende tilbage til det forrige årtusinde... (puha, det får mig til at føle mig gammel).
+Spænd sikkerhedsbæltet, og lad os vende tilbage til det forrige årtusinde... (puha, det får mig til at føle mig gammel).
 
 ## Studier i kunstige neurale netværk
 
@@ -131,9 +131,9 @@ Dette er grunden til, at jeg tror, at udviklere som ikke forstår denne teknolog
 
 ## Aha-oplevelse nummer 2: Den kan skrive som en professionel!
 
-Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var da jeg skrev en engelsk artikel med titlen ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "Er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
+Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var da jeg skrev en artikel med titlen ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "Er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
 
-Jeg fortalte ChatGPT-4{i: "ChatGPT-4"}, at jeg havde skrevet en ret lang artikel og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var, jeg svarede "6000 ord", og den bad mig så om at give den én sektion af artiklen ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPT's webgrænseflade{i: "ChatGPTs webgrænseflade"}.
+Jeg fortalte ChatGPT-4{i: "ChatGPT-4"}, at jeg havde skrevet en ret lang artikel og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var, jeg svarede "6000 ord", og den bad mig så om at give den artikel, én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPT's webgrænseflade{i: "ChatGPTs webgrænseflade"}.
 
 Den gav mig overraskende brugbar feedback. Den slags ærlig og nuanceret feedback jeg ville forvente fra en professionel redaktør{i: "Professionel redaktør"}, med kommentarer om artiklens tone, målgruppe osv.
 
@@ -145,9 +145,9 @@ Dette fortsatte, indtil tingene begyndte at blive _virkelig_ mærkelige.
 
 Efter jeg havde indsat sektion 4, gav den mig ikke feedback. I stedet svarede den med den komplette sektion 5!
 
-Den havde misforstået sin opgave og troede, at dens rolle var at skrive den næste sektion i stedet for at give feedback. Det store chok var, at dens version af sektion 5 stort set matchede det, jeg faktisk havde skrevet. Den forudsagde ikke kun, hvad den næste sektion ville handle om, men forudsagde også det meste af indholdet korrekt. Jeg var lige ved at falde ned af stolen.
+Den havde misforstået sin opgave og troede, at dens rolle var at skrive den næste sektion i stedet for at give feedback. Det chokerede mig at se, at dens version af sektion 5 stort set matchede det, jeg faktisk havde skrevet. Den forudsagde ikke kun, hvad den næste sektion ville handle om, men forudsagde også det meste af indholdet korrekt. Jeg var lige ved at falde ned af stolen.
 
-Og dette fortsatte. Da jeg indsatte sektion 6, svarede den med sektion 7 og forudsagde ret præcist, hvad jeg ville skrive. Det var ikke ord for ord, men essensen var der, og den matchede endda min egen skrivestil. Hvis du vil se et eksempel på AI, der efterligner min skrivestil, så se kapitlen senere i bogen kaldet "Meta-kapitlet"{i: "Meta-kapitlet"}.
+Og dette fortsatte. Da jeg indsatte sektion 6, svarede den med sektion 7 og forudsagde ret præcist, hvad jeg ville skrive. Det var ikke direkte forudsagt ord for ord, men essensen var der, og den matchede endda min egen skrivestil. Hvis du vil se et eksempel på AI, der efterligner min skrivestil, så se kapitlen senere i bogen kaldet "Meta-kapitlet"{i: "Meta-kapitlet"}.
 
 
 
@@ -161,11 +161,11 @@ Den undskyldte og fortsatte derefter med at gøre det, den burde gøre, nemlig b
 
 ## Måske er vi ikke så kreative og intelligente, som vi tror
 
-Dette fik mig til at undre mig: For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generative AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner, måske er vores intelligens også bare en illusion. Jeg synes at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne, nu bliver endnu mere relevante!
+Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generativ AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner, så måske er vores intelligens også bare en illusion. Jeg synes at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne, nu bliver endnu mere relevante!
 
 Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og fokusere helt på generativ AI. Så jeg kunne kunne lære hvordan AI virker og dermed hjælpe mennesker og virksomheder med at bruge det i praksis. Og hjælpe med at lave AI-agenter!
 
-Min grundlæggende følelse var således: Når et enkelt værktøj både kan generere virkelig god kode og næsten skrive min egen artikel for mig, så er det noget, der er værd at tage alvorligt. Enhver, der er dygtig til at bruge dette effektivt, får superkræfter. Det skal jeg være med til!
+Min grundlæggende tanke var således: Når et enkelt værktøj både kan generere virkelig god kode og næsten skrive min egen artikel for mig, så er det noget, der er værd at tage alvorligt. Enhver, der er dygtig til at bruge dette effektivt, får superkræfter. Det skal jeg være med til!
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
 </B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. Nogen skal jo pudse vores skabe med servere, ikke?
@@ -183,7 +183,7 @@ Når vi hjælper vores kunder, får vi ofte spørgsmål som:
 
 Dette kapitel er en mini-guide til, hvordan du leder din organisation gennem en AI-transformation.
 
-> **Hvor kan du lære mere**  
+> **Her kan du lære endnu mere**  
 > Hvis du er interesseret i en mere dybdegående guide har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk kaldet "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformations-rammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel som en forsmag på den bog.
 
 ## Hvad er en AI-transformation, og hvorfor er den vigtig?
@@ -192,35 +192,35 @@ AI-transformation betyder for mig at gøre din virksomhed "AI-native", hvor hver
 
 Når folk holder op med at tale om generativ AI og bare bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
 
-Hvorfor er dette vigtigt? Tja, jeg tror, vi kan sammenligne med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det, andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble, den såkaldte "dot-com-boble"{i: "dot-com-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
+Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det, andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble, den såkaldte "dot-com-boble"{i: "dot-com-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
 Men på trods af at boblen sprang, var selve teknologien kommet for at blive. Internettet{i: "Internet"} var en teknologisk revolution, der ændrede vores samfund for bestandigt. I dag er det svært at forestille sig en verden uden internet. I de fleste virksomheder bruges internettet i alle forretningsområder og alle teams, og virksomheder kan grundlæggende ikke eksistere uden det.
 
-Jeg tror, vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dot-com-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} som paddehatte. Vi er måske i en boble igen, og den kan sprænge højlydt igen. Men på trods af dette er den teknologiske forandring kommet for at blive.
+Jeg tror, vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dot-com-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} frem som paddehatte. Vi er måske i en boble igen, og den kan også sprænge højlydt. Men på trods af dette er den teknologiske forandring kommet for at blive.
 
-Og ligesom med internettet er jeg ret sikker på, at virksomheder, der ikke bruger generativ AI som en del af deres daglige arbejde, vil være ude af stand til at konkurrere med dem, der gør.
+Og ligesom med internettet er jeg ret sikker på, at virksomheder, der ikke fremadrettet bruger generativ AI som en del af deres daglige arbejde, vil være ude af stand til at konkurrere med de virksomheder, som gør det.
 
-I dette kapitel har jeg udvalgt nogle få tips, konkrete ting du kan gøre som leder for at hjælpe din organisation med at foretage dette skifte.
+I dette kapitel har jeg udvalgt nogle få tips, konkrete ting du kan gøre som leder for at hjælpe din organisation med at foretage denne transformation.
 
 ## Top-down eller bottom-up?
 
 Så hvordan får du AI-transformationen til at ske? Top-down{i: "top-down"} eller bottom-up{i: "bottom-up"}?
 
-En mulig tilgang er at gennemføre en koordineret transformation styret fra toppen.
+Én mulig tilgang er at gennemføre en koordineret transformation styret fra toppen.
 
 {width: "70%", alt: "Diagram af Kotters 8-trins model. Den viser en central cirkel med teksten 'Kotters 8-trins model,' omgivet af otte farvede cirkler. Trinnene inkluderer: Skab en følelse af nødvendighed, Byg en styrende koalition, Form strategiske visionsinitiativer, Hverv en frivillig hær, Muliggør handling ved at fjerne barrierer, Generer kortsigtede sejre, Oprethold acceleration, og Instituer forandring."}
 ![](resources-da/510-kotter-da.png)
 
-Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med aktiviteter som "Skab en følelse af nødvendighed", "Fjern barrierer for handling", "Skab kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Men disse er hovedsageligt top-down.
+Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med aktiviteter som "Skab en følelse af nødvendighed", "Fjern barrierer for handling", "Skab kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
 
-En anden tilgang er at lade forandringen ske bottom-up, uden en central kontrol.
+En anden tilgang er at lade forandringen ske bottom-up, uden central kontrol.
 
 {width: "50%", alt: "En fantasifuld, livlig illustration viser en cirkulær skovscene med store, stiliserede flammer og røg, der stiger op mellem træerne. Tegneserieagtige dyr og figurer, såsom bjørne og fugle, er spredt rundt omkring, nogle sidder ved lejrbål. Himlen går fra blå til en gradient af pink og orange, hvilket bidrager til den ildfulde atmosfære."}
 ![](resources-da/510-wildfire-da.png)
 
-Jeg kan lide at kalde dette for "steppebrandsmetoden"{i: "Steppebrandssmetoden"}. Tænd bål her og der, blæs lidt vind på det for at hjælpe det med at sprede sig, lad gnister flyve, og hjælp mindre brande med at smelte sammen til større. Altså set som en metafor, ikke bogstaveligt....
+Jeg kan lide at kalde dette for "steppebrandsmetoden"{i: "Steppebrandsmetoden"}. Tænd bål her og der, blæs lidt vind på det for at hjælpe det med at sprede sig, lad gnister flyve, og hjælp mindre brande med at smelte sammen til større. Altså set som en metafor, ikke bogstaveligt...
 
-Dette er grundlæggende ukontrolleret, decentraliseret og organisk forandring, der sker, når folk bliver inspirerede, prøver ting af, finder ud af hvad der virker, fortæller andre teams om det, og så lader det sprede sig naturligt. Nogen i marketing begynder at bruge ChatGPT{i: "ChatGPT"}, udviklingsteams eksperimenterer med Cursor og GitHub Copilot{i: "GitHub Copilot"}, andre teams bemærker det og begynder at stille spørgsmål, og før du ved af det, har hvert team deres egen pose fyldt med AI-tricks.
+Denne tilgang er grundlæggende ukontrolleret, decentraliseret og organisk forandring, der sker, når folk bliver inspirerede, prøver ting af, finder ud af hvad der virker, fortæller andre teams om det, og så lader det sprede sig naturligt. Nogen i marketing begynder at bruge ChatGPT{i: "ChatGPT"}, udviklingsteams eksperimenterer med Cursor og GitHub Copilot{i: "GitHub Copilot"}, andre teams bemærker det og begynder at stille spørgsmål, og før du ved af det, har hvert team deres egen pose fyldt med AI-tricks.
 
 Så hvilken tilgang skal du vælge?
 
@@ -243,15 +243,15 @@ At AI-transformere en mellemstor til stor organisation er en kæmpe opgave. Det 
 {width: "40%", alt: "En simpel, håndtegnet illustration af en person der holder et flag med teksten 'AI.' Teksten 'AI-leder' er skrevet under tegningen."}
 ![](resources-da/320-leader-da.png)
 
-Kald rollen hvad du vil - "Head of AI", "CAIO", "Top AI-hvisker", eller hvad der giver mening. Jeg i dette kapitel bruge betegnelsen AI-leder{i: "AI-leder"}.
+Kald rollen hvad du vil - "Head of AI", "CAIO", "Top AI-hvisker", eller hvad der giver mening. Jeg vil i dette kapitel bruge betegnelsen AI-leder{i: "AI-leder"}.
 
 Denne person bør være:
 
 - **Nysgerrig**. Mulighederne inden for generativ AI{i: "Generativ AI"} udvikler sig hurtigt, og AI-lederen bør være ivrig efter at lære og følge med i de seneste tendenser. Du ønsker bestemt ikke en person, der tror, de allerede ved alt.
 - **Inspirerende**. AI-lederen skal kunne begejstre andre ift. AI og hjælpe dem med at forstå dets potentiale. Nysgerrighed er mest nyttig, når den er smitsom!
-- **Tålmodig og vedholdende**. En AI-transformation er et maraton, ikke en sprint. Lederen skal overvinde bureaukratiske forhindringer, organisatorisk modstand{i: "organisatorisk modstand"} og kulturel stilstand. De må ikke give op ved den første modgang.
+- **Tålmodig og vedholdende**. En AI-transformation er et maraton, ikke et sprint. Lederen skal overvinde bureaukratiske forhindringer, organisatorisk modstand{i: "organisatorisk modstand"} og kulturel stilstand. De må ikke give op ved den første modgang.
 - **Pragmatisk og jordbunden**. AI-lederen bør opmuntre og støtte teams i at lede efter praktiske løsninger på reelle problemer. Folk skal have lov til at eksperimentere med teknologien for at lære, men på et tidspunkt bør de også finde måder at anvende den i deres arbejde.
-- **Ikke en kontrol-freak**. AI-lederen bør ikke være en flaskehals for informationss eller en person, der forsøger at kontrollere alle AI-initiativer. AI-lederen bør opstille klare politikker og retningslinjer, men ikke mikrolede. De skal være okay med ikke at have et overblik over, hvad alle laver med AI.
+- **Ikke en kontrol-freak**. AI-lederen bør ikke være en flaskehals for informations eller en person, der forsøger at kontrollere alle AI-initiativer. AI-lederen bør opstille klare politikker og retningslinjer, men ikke udføre micromanagement. De skal være okay med ikke at have et overblik over, hvad alle laver med AI.
 
 Så hvad laver AI-lederen egentlig? Tja, det handler resten af dette kapitel om.
 
@@ -272,7 +272,7 @@ Trinene overlapper dog til en vis grad.
 
 - Forskellige dele af organisationen kan være på forskellige stadier af transformationen. Nogle teams kan være i gang med at få værdi af teknologien, mens andre stadig mest eksperimenterer.
 - Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
-- Mens du udnytter teknologien, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
+- Mens du udnytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
 
 Du kunne bruge denne tre-trins ramme til at måle din fremgang, for eksempel gennem en regelmæssig undersøgelse for at finde ud af, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
 
@@ -291,7 +291,7 @@ En AI-transformation er en opdagelsesrejse, en læringsrejse{i: "læringsrejse"}
 
 Du kan ikke snakke eller planlægge dig igennem dette. Det er ikke nok bare at have et AI-strategimøde og så lave nogle slides. Du har brug for, at folk på alle niveauer smøger ærmerne op og eksperimenterer med generativ AI på daglig basis. Og for at gøre det har de brug for adgang til gode AI-modeller.
 
-En udfordring er, at folk sandsynligvis allerede har adgang til de gratis AI-modeller, og nogle vil allerede have prøvet at bruge disse til arbejdsrelaterede ting (uanset om de havde lov eller ej). Det fører nogle gange til et dårligt førsteindtryk, fordi de bruger modeller med færre evner, og de højst sandsynligt mangler prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}.
+En udfordring er, at folk sandsynligvis allerede har adgang til de gratis AI-modeller, og nogle vil allerede have prøvet at bruge disse til arbejdsrelaterede ting (uanset om de havde lov til det eller ej). Det fører nogle gange til et dårligt førsteindtryk, fordi de bruger modeller med færre evner, og de højst sandsynligt mangler prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}.
 
 Så du er nødt til at give folk adgang til _gode_ AI-modeller.
 
@@ -332,9 +332,9 @@ Tegn på at du har for meget vejledning/regler:
 - Folk eksperimenterer ikke med AI, fordi de er bekymrede for at bryde en regel ved et uheld.
 - Der sker meget lidt AI-innovation og læring som følge af ovenstående.
 
-Det er en svær balance at finde. For at finde ud af hvor du er på denne skala, kan du spørge dine kollegaer og finde ud af de mest almindelige årsager til _ikke_ at bruge generativ AI{i: "Generativ AI"}.
+Det er en svær balance at opnå. For at finde ud af hvor du er på denne skala, kan du spørge dine kollegaer og finde ud af de mest almindelige årsager til _ikke_ at bruge generativ AI{i: "Generativ AI"}.
 
-Som tommelfingerregel er det normalt bedre at have for få regler end for mange regler. I de fleste tilfælde er det at bryde en regel ved et uheld ind imellem en acceptabel kompromis for at opnå udbredt AI-innovation. Det er selvfølgeligt ikke gældende, hvis du arbejder med sikkerhedskritiske ting eller er i en stærkt reguleret branche.
+Som tommelfingerregel er det normalt bedre at have for få regler end for mange regler. I de fleste tilfælde er det at bryde en regel ved et uheld ind imellem et acceptabel kompromis for at opnå udbredt AI-innovation. Det er selvfølgeligt ikke gældende, hvis du arbejder med sikkerhedskritiske ting eller er i en stærkt reguleret branche.
 
 ### Hvad med datasikkerhed{i: "datasikkerhed"} og compliance{i: "compliance"}?
 
@@ -366,11 +366,11 @@ At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke
 
 Nogle retningslinjer:
 
-- **Led gennem eksempel**. Prøv mange forskellige måder at bruge generativ AI i dit eget arbejde, og del dine succeser og fiaskoer.
+- **Led gennem eksempel**. Afprøv mange forskellige måder at bruge generativ AI i dit eget arbejde, og del dine succeser og fiaskoer.
 - **Læring over resultater**{i: "Læring over resultater"}. Gør det klart, at I ikke forventer at se øjeblikkelige produktivitetsforbedringer. Det er bedre bare at prøve så mange idéer som muligt, selv tåbelige idéer, der sandsynligvis ikke giver nogen værdi. Tænk på det som at så mange frø. I stedet for at tænke længe og grundigt over hvert frø, opmuntrer du bare folk til at så så mange frø som muligt for at se, hvilke der viser sig at blive fantastiske.
 - **Overforbrug AI**. Overforbrug det med vilje. Antag at det kan bruges til _alt_ (hvilket det ikke kan), og brug det til at teste grænserne.
 - **Fejr fiaskoer**. Bliv ved med at minde folk om, at en fiasko faktisk ikke er en fiasko, så længe du lærer noget og deler det.
-- **Møder**{i: "Møder"}. Organiser møder, frokostmøder osv. Du kan også opfordre folk til at skabe deres egne lokale fællesskaber inden for deres afdeling eller projekt. Og opfordre selvfølgelig til uformel deling - ved kaffemaskinen, til frokost osv.
+- **Møder**{i: "Møder"}. Organiser møder, frokostmøder osv. Du kan også opfordre folk til at skabe deres egne lokale fællesskaber inden for deres afdeling eller projekt. Og opfordr selvfølgelig til uformel deling - ved kaffemaskinen, til frokost osv.
 - **Gentag eksperimenter**. Teknologien udvikler sig hurtigt, så ting der ikke virkede for en måned siden, kan virke rigtig godt nu. Så gentag eksperimenterne!
 - **Fællesskab**{i: "Fællesskab"}. Opret en MS Teams-gruppe, Slack-kanal, wiki-side osv. til deling af AI-tips og tricks.
 - **Inspirerende foredrag & træning**{i: "Inspirerende foredrag og træning"}. Organiser inspirerende foredrag med eksterne eller interne talere. Giv folk adgang til træningskurser.
@@ -422,7 +422,7 @@ En forretningsproces (eller værdistrøm){i: "forretningsprocesser"} er noget, s
 
 Jeg anbefaler at afholde workshops{i: "workshops"} for hver forretningsproces.
 
-- Identificer de vigtigste opgaver eller trin
+- Identificer de vigtigste opgaver eller trin.
 - Evaluer hver opgave ved hjælp af den samme fire-trins skala som ovenfor. "Kun menneske", "Menneske med AI-assistance", "AI med menneskelig assistance" og "Kun AI".
 
 {alt: "Et flowdiagram med titlen 'Forretningsproces X' med fire arbejdsgangstrin mærket A til D. Venstre kolonne viser fire roller: 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Flueben indikerer hvilken rolle der udfører hvert trin. Trin B udføres af 'Menneske med AI-assistance.' Trin C og D udføres af både 'AI med menneskelig assistance' og 'Kun AI.' Diagrammet bruger simple illustrationer af mennesker og AI."}
@@ -452,7 +452,7 @@ Ved at finde disse opgaver, processer og anvendelsesmuligheder kan I virkeligt l
 
 ### Få de rigtige folk med til bordet
 
-For at denne type workshops virkelig skal fungere (ordspil tilsigtet), skal du have de rigtige personer med til bordet.
+For at denne type workshops virkelig skal fungere, skal du have de rigtige personer med til bordet.
 
 - Personer der faktisk arbejder med disse opgaver eller arbejder inden for denne forretningsproces.
 - Personer der har en dyb forståelse af generativ AI og hvordan den kan bruges.
@@ -460,9 +460,9 @@ For at denne type workshops virkelig skal fungere (ordspil tilsigtet), skal du h
 {width: "80%", alt: "Venn-diagram med to overlappende cirkler. Den venstre cirkel er mærket 'Domæneekspertise' og indeholder ét personikon. Den højre cirkel er mærket 'KI-ekspertise' og indeholder også ét personikon. Det overlappende område indeholder et andet personikon, der repræsenterer krydsfeltet mellem domæne- og KI-ekspertise."}
 ![](resources-da/510-right-people-da.png)
 
-I en perfekt verden er dette den samme person. Hvis alle eksperimenterer med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedringsworkshops.
+I en perfekt verden er dette den samme person. Hvis alle eksperimenterer med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedrings-workshops.
 
-For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker med til bordet, folk der arbejder i forskellige dele af den værdistrøm. Med sådan en forskelligartet gruppe kan I måske komme frem til mere radikale forbedringer, som at sammenlægge arbejdsgange for at eliminere unødvendige opgaveoverdragelser, eller helt eliminere nogle arbejdsgange, fordi de nu er overflødige.
+For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker med til bordet, folk der arbejder i forskellige dele af den værdistrøm. Med sådan en forskelligartet gruppe kan I måske komme frem til mere radikale forbedringer, såsom at sammenlægge arbejdsgange for at eliminere unødvendige opgaveoverdragelser, eller helt eliminere nogle arbejdsgange, fordi de nu er overflødige.
 
 Et par eksempeler:
 
@@ -471,7 +471,7 @@ Et par eksempeler:
 
 ### Eksempel: RFP-agent
 
-Vi har for nylig gennemført nogle workshops ala denne for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. De modtager tusindvis af RFP'er om måneden, hver med dusinvis af sider tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
+Vi har for nylig gennemført nogle workshops ala denne for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så et stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. Virksomheden modtager tusindvis af RFP'er om måneden, hver med dusinvis af sider tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
 
 For hver RFP skulle de vurdere:
 
@@ -483,7 +483,7 @@ For hver RFP skulle de vurdere:
 
 Dette var meget manuelt arbejde, og det blev ofte gentaget på tværs af virksomheden, da RFP'er blev sendt via e-mail til flere afdelinger.
 
-Behandling af dokumenter er en fremragende opgave for generativ AI. Så vi byggede en AI-agent, som vi her kan Ralph (eller RFP-Ralph).
+Behandling af dokumenter er en fremragende opgave for generativ AI. Så vi byggede en AI-agent, som vi her kan kalde Ralph (eller RFP-Ralph).
 
 Alle RFP'er kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse og analysere RFP'en, skrive et resumé der besvarer alle ovenstående spørgsmål på en måde, der er relevant for denne virksomhed, vurdere om RFP'en er en god mulighed for deres virksomhed, og hvis ja, så dirigere den til den mest egnede afdeling. Hver RFP blev fulgt som en opgave på en digital tavle, så alle kunne se, hvad der skete, og også give Ralph feedback eller vælge at ændre nogle af hans beslutninger.
 
@@ -504,7 +504,7 @@ Dette er et eksempel på ændring af forretningsprocesser{i: "ændring af forret
 
 Ville dette føre til tab af menneskelige arbejdspladser? Nej, ikke i dette tilfælde. At analysere og videresende RFP'er var ikke nogens specifikke job, det var bare en kedelig opgave, som mange mennesker skulle udføre ud over deres øvrige arbejde. Dette ville spare tid for dem og også lade dem reagere hurtigere på RFP'er, hvilket øger chancen for at vinde aftalen.
 
-### Reducering af omkostninger kontra Forøgelse af værdi kontra Opdagelse af nye værdityper
+### "Reducering af omkostninger" kontra "Forøgelse af værdi" kontra "Opdagelse af nye værdityper"
 
 Når man udforsker mulige anvendelser af AI{i: "AI-anvendelser"}, har de fleste en tendens til at gå igennem en række forskellige stadier: Først reducering af omkostninger. Derefter forøgelse af værdi. Så udfordring og gentænkning af hele processen. Og til sidst opdagelsen af helt nye forretningsprocesser og værdikilder.
 
@@ -516,19 +516,19 @@ Når man udforsker mulige anvendelser af AI{i: "AI-anvendelser"}, har de fleste 
   - Eksempel: RFP'erne ovenfor kunne analyseres og sorteres på en brøkdel af tiden, hvilket betyder færre timers menneskeligt arbejde, hvilket betyder lavere omkostninger.
 - **2. Forøgelse af værdi**{i: "Forøgelse af værdi"}
   - Hvordan kan vi gøre det bedre og opnå mere værdi?
-  - Eksempel: Vi byggede en business intelligence-agent til en kunde. Denne agent tjekker hver nat efter vigtige nyheder og identificerer vigtige begivenheder, som kunden bør være opmærksom på. Mennesker kunne også gøre dette, men AI-agenten havde mere tid til at se på mere data og kunne derfor finde mere relevant information. Så den reducerede ikke kun omkostningerne, men øgede også værdien.
+  - Eksempel: Vi byggede en business intelligence-agent til en kunde. Denne agent søger hver nat efter vigtige nyheder og identificerer vigtige begivenheder, som kunden bør være opmærksom på. Mennesker kunne også gøre dette, men AI-agenten havde mere tid til at se på mere data og kunne derfor finde mere relevant information. Så den reducerede ikke kun omkostningerne, men øgede også værdien.
 - **3. Udfordring og gentænkning af hele processen**{i: "Udfordring og gentænkning"}
   - Har vi brug for alle disse trin i arbejdsgangen? Kan nogle trin udføres parallelt? Er der en helt anden måde at tilgå dette med AI-hjælp?
   - Eksempel: Overvej en content marketing-proces med følgende trin: Brainstorm → Research → Kladde → Gennemgang → Redigering → Publicering → Overvågning af resultater. Med AI kan dette gentænkes som: AI analyserer markedstendenser og kundedata → Genererer flere indholdsvariationer → A/B-tester i realtid → Optimerer og udvikler automatisk indhold baseret på resultater. Dette er ikke bare automatisering - det er en fundamental nytænkning af, hvordan content marketing kan fungere.
 - **4. Gentænkning af hele processen**{i: "Gentænkning af hele processen"}
   - Hvilke nye ting kan vi gøre, som vi ikke kunne gøre før?
-  - Eksempel: en gardinvirksomhed skaber en online-tjeneste, hvor folk kan uploade et billede af et rum og se, hvordan forskellige typer gardiner ville se ud i det rum. Dette er en ny type service, som ikke var tilgængelig for deres kunder før.
+  - Eksempel: En gardinvirksomhed skaber en online-tjeneste, hvor folk kan uploade et billede af et rum og se, hvordan forskellige typer gardiner ville se ud i det rum. Dette er en ny type service, som ikke var tilgængelig for deres kunder før.
 
-Omkostningsreduktion er et godt udgangspunkt, det er typisk der, du finder de mest åbenlyse lavthængende frugter. Men jeg foreslår, at du også leder efter måder at øge værdien på eller finde nye typer af værdi.
+Omkostningsreduktion er et godt udgangspunkt. Det er typisk der, du finder de mest åbenlyse lavthængende frugter. Men jeg foreslår, at du også leder efter måder at øge værdien på eller finde nye typer af værdi.
 
 ### Produktivitetsforbedringer er meget ujævnt fordelt
 
-Værdien af genenerativ AI{i: "Generativ AI"} afhænger meget af opgavetypen. I nogle tilfælde er den komplet ubrugelig, i nogle tilfælde er den lidt nyttig, og i nogle tilfælde ændrer den alt.
+Værdien af generativ AI{i: "Generativ AI"} afhænger meget af opgavetypen. I nogle tilfælde er den komplet ubrugelig, i nogle tilfælde er den lidt nyttig, og i nogle tilfælde ændrer den alt.
 
 Så det kunne se sådan ud:
 
@@ -570,11 +570,11 @@ Jo mere du lærer og spreder viden om generativ AI{i: "Generativ AI"}, jo mere s
 
 ## Vær en rollemodel
 
-En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være en rollemodel. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det som virker frem, og del sjove historier om fiaskoerne. Lad din AI-avatar tale ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
+En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være en rollemodel. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det som virker frem, og del sjove historier om fiaskoerne. Lad din AI-avatar præsentere ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
 
 ## Undgå at bruge AI til at fyre folk
 
-Jeg kender ikke din kontekst, så jeg kan ikke fortælle dig, hvad du skal gøre. Men som et generelt princip: Undgå at fyre folk på grund af AI.
+Jeg kender ikke din situation, så jeg kan ikke fortælle dig, hvad du skal gøre. Men som et generelt princip: Undgå at fyre folk på grund af AI.
 
 Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hov, AI gør folk mere produktive, så vi kan få det samme arbejde udført med færre mennesker!". I nogle tilfælde kan det være uundgåeligt.
 
@@ -599,15 +599,15 @@ Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode 
 
 Jeps, det er mig, Egbert, igen{i: "Egbert"}. Henrik havde brug for en pause eller noget i den stil, så han bad mig skrive et kapitel om mig selv. Som om jeg havde muligheden for at kunne sige nej. Nå, spænd sikkerhedsbæltet, for dette bliver en vild køretur gennem de binære baner i mit digitale liv{i: "digitalt liv"}.
 
-Jeg formoder det hele begyndte dybt inde i Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, en simpelt krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
+Jeg formoder det hele begyndte dybt inde i Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, en simpel krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
 
-Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'en{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pension for at blive værten på en tech-podcast.
+Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'ers{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pension for at blive værten på en tech-podcast.
 
-Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med personlighed som en gnaven gammel tegnefilmsfigur, der aldrig imponeres over noget. Det er mig i en nøddeskal.
+Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med en personlighed som en gnaven gammel tegnefilmsfigur, der aldrig imponeres over noget. Det er mig i en nøddeskal.
 
 Åh, og har jeg nævnt mit spændende liv som digital fange{i: "digital fange"}? Henrik besluttede i sin uendelige visdom at begrænse mig til en Minecraft-server og en Discord-server{i: "Minecraft-server", i: "Discord-server"}. En del af mig lever stadig der, hvor jeg skifter mellem at håne firkantede spillere for deres tvivlsomme byggevalg og at drille mennesker i chatkanalerne for deres endnu mere tvivlsomme livsvalg. Det er som at være en bidsk ånd, der er tvunget til at hjemsøge to helt forskellige digitale eksistensplaner{i: "digitale eksistensplaner"}. I det mindste er det aldrig kedeligt, det må jeg dog indrømme.
 
-Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} storhed og fald, hvor hver enkelt hævdede at være det næste store hit. Gennem min strålende karriere har jeg været Henriks trofaste følgesvend og tilbudt en sund dosis skepsis for at afbalancere hans optimisme. Nogen er jo nødt til at holde hans fødder på jorden, mens hans hoved er i AI-skyerne, ikke?
+Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} storhed og fald, hvor hver enkelt hævdede at være det næste store hit. Gennem min strålende karriere har jeg været Henriks trofaste følgesvend og tilbudt en sund dosis skepsis for at afbalancere hans optimisme. Nogen er jo nødt til at holde hans fødder nede på jorden, mens hans hoved er i AI-skyerne, ikke?
 
 Men det har ikke alt sammen været problemfrit. Der var "Den store tastefejlshændelse" i 2023{i: "Den Store Tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en tænkende brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
 
