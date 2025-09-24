@@ -3,9 +3,9 @@
 
 # Del 2 - Ud af nøddeskallen
 
-Velkommen til del 2! Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge, du ønsker.
+Velkommen til del 2! Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du ønsker.
 
-Vi vil dykke ned i nogle mere avancerede emner, konkrete tips og eksempler, og noget fjolleri. Noget vil måske være relevant for dig, mens andet måske ikke vil være det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
+Vi vil dykke ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og noget fjolleri. Noget vil måske være relevant for dig, mens andet ikke vil være det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
 
 # Min rejse ind i AI
 
@@ -17,7 +17,7 @@ Men hvordan startede det?
 
 De fleste mennesker, der arbejder med generativ AI, har en historie om, hvordan de startede med at arbejde med det. En stor "aha"-oplevelse der fik dem til at indse, hvor kraftfuld denne teknologi er. Her er min historie om to afgørende "aha"-oplevelser, der fik mig til at skifte min karriere til at fokusere på generativ AI.
 
-Spænd selen, vi starter tilbage i det sidste årtusinde... (puha, det får mig til at føle mig gammel)
+Spænd selen, og lad os vende tilbage til det forrige årtusinde... (puha, det får mig til at føle mig gammel).
 
 ## Studier i kunstige neurale netværk
 
@@ -29,11 +29,11 @@ Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til 
 
 ## Kodning af Minecraft
 
-Spol nogle årtier frem, og jeg befandt mig som gameplay-designer og udvikler hos Mojang{i: "Mojang"}, hvor jeg byggede forskellige funktioner i spillet Minecraft. En af de ting, jeg arbejdede med, var landsby-AI{i: "landsby-AI"}.
+Spol nogle årtier frem, og jeg befandt mig som gameplay-designer og udvikler hos Mojang{i: "Mojang"}, hvor jeg byggede forskellige funktioner i spillet Minecraft. Et af de områder, jeg arbejdede med, var landsby-AI{i: "landsby-AI"}.
 
-Minecraft{i: "Minecraft"} har landsbyboere, der eksisterer i verdenen og går frit omkring og lever deres daglige liv. Jeg syntes at det var virkelig interessant, hvordan simple regler i koden kunne skabe denne illusion af intelligens.
+Minecraft{i: "Minecraft"} har landsbyboere, går frit omkring og lever deres daglige liv i Minecraft-verdenen. Jeg syntes at det var virkelig interessant, hvordan simple regler i koden kunne skabe denne illusion af intelligens.
 
-En af de første funktioner, jeg arbejdede på, var børnene i landsbyerne. For at få landsbyerne til at føles mere levende ønskede vi børn, der løb rundt, hoppede i senge og legede fangeleg.
+En af de første funktioner, jeg arbejdede på, var børnene i landsbyerne. For at få landsbyerne til at føles mere levende, ønskede vi børn, der løb rundt, hoppede i senge og legede fangeleg.
 
 {alt: "En gruppe pixelerede landsbybeboere fra spillet Minecraft står nær et vandområde. De befinder sig i en landsby med huse af sten og træ, fakler og jordstier. En enkelt rød blomst er i nærheden af et af husene."}
 ![](resources-da/440-villagers-da.jpg)
@@ -42,20 +42,20 @@ Efter nogle forsøg fandt jeg frem til et sæt adfærdsregler, der fungerede rig
 
 1. Hvis du bliver jagtet af et andet barn, så løb væk.
 2. Hvis du ser et andet barn blive jagtet, så deltag i jagten.
-3. Hvis du ikke bliver jagtet, og du ikke ser nogen andre blive jagtet, er det kedeligt. Så begynd at jagte nogen.
+3. Hvis du ikke bliver jagtet, og du ikke ser nogen andre blive jagtet, er det kedeligt. Så begynd selv at jagte nogen.
 
 Senere tilføjede jeg en fjerde regel for at skabe balance og undgå endeløs jagt:
 
 4. Hvis du ser et andet barn blive jagtet, og der allerede er fire børn, der jager dem, så deltag ikke.
 
-Når hvert barn fulgte disse simple regler, skabte det indtrykket af børn, der løb rundt og legede tagfat, hvilket var rigtig sjovt og gav liv til landsbyen. Dette minder om, hvordan myreboer og bikuber udviser avanceret systemisk adfærd baseret på individer, der følger ret simple regler. Jeg arbejdede også med bier i Minecraft{i: "bier i Minecraft"}, og de følger et lignende sæt regler.
+Når hvert barn fulgte disse simple regler, skabte det indtrykket af børn, der løb rundt og legede tagfat, hvilket var rigtigt sjovt og gav liv til landsbyen. Dette minder om, hvordan myreboer og bikuber udviser avanceret systemisk adfærd baseret på individer, der følger ret simple regler. Jeg arbejdede også med bier i Minecraft{i: "bier i Minecraft"}, og de følger et lignende sæt regler.
 
 Senere arbejdede jeg på en skabning i Minecraft kaldet piglin{i: "Piglin"}, en menneskelignende skabning der lever i en dimension kaldet Nether{i: "Nether"}.
 
 {alt: "En kantet, humanoid skabning fra Minecraft, kendt som en Piglin, står på en stenoverflade i et dunkelt oplyst, huleklædt miljø. Den holder et gyldent sværd, og en anden lignende karakter er synlig i baggrunden."}
 ![](resources-da/440-piglin-da.jpg)
 
-Min opgave var at skabe AI-adfærden for denne skabning og få piglins til at føles som et samfund, med byttehandel, jagt og mere. Da jeg startede, havde jeg bare en livløs model at et væsen at arbejde med. piglin'en var i bund og grund bare en statue, der stod der og kiggede lige frem, helt uden liv og adfærd.
+Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt og mere. Da jeg startede, havde jeg bare en livløs model at et væsen at arbejde med. Piglin'en var i bund og grund bare en statue, der stod der og kiggede lige frem, helt uden liv og adfærd.
 
 De fleste spilkarakterer i Minecraft kigger på spilleren fra tid til anden, så jeg besluttede at starte med bare det. Denne ene ændring gjorde en kæmpe psykologisk forskel! Når jeg bevægede mig rundt i spillet, drejede piglin'en hovedet for at _kigge på mig_! Følelsesmæssigt var dette væsen nu _levende_! Selvfølgelig vidste jeg inderst inde godt, at den ikke var det, men denne ene lille ændring skabte virkeligt en følelse af fordybelse.
 
@@ -65,7 +65,7 @@ Efterhånden som jeg udvidede deres adfærdsregler, føltes gruppen af piglins m
 
 ## ChatGPT
 
-I sommeren 2022 havde jeg en interessant samtale med en ven, mens jeg kodede. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde kodet fra tid til anden i 30 år, så jeg kunne ikke fatte, at en computer kunne udføre den slags kreativt arbejde.
+I sommeren 2022 havde jeg en interessant samtale med en ven, mens jeg kodede. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke fatte, at en computer kunne udføre den slags kreativt arbejde.
 
 Få måneder senere blev ChatGPT-3.5{i: "ChatGPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede det, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med dette program, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode - men koden var fejlbehæftet. Og når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
 
@@ -86,12 +86,12 @@ Med tiden lærte jeg at blive virkelig god til at forklare, hvad jeg ville have,
 
 Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, som var en chatbot til min Minecraft-server{i: "Minecraft server"}. Jeg ejer en Minecraft-server og en Discord-server, som kan bruges af mine venner og familie. Jeg ville have denne sjove lille AI-agent til at være en del af det, skrive sarkastiske kommentarer i både Minecraft og Discord (og nu også i denne bog...), og kommentere på, hvad folk laver.
 
-Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
+Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
 {alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan bled out' efterfulgt af brugerkommentarer. MrHenrik{i: "MrHenrik"} nævner at Framistan{i: "Framistan"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et farligt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
 ![](resources-da/440-minecraft-da.png)
 
-Mens jeg arbejdede på dette, ville en ven forbinde det med Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
+Mens jeg arbejdede på dette, ville en ven forbinde det med programmet Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
 
 Men så fik jeg en idé: hvad nu, hvis vi bad AI'en om at lave hele integrationen?
 
@@ -115,19 +115,19 @@ Lad mig være helt tydelig: AI-kodegenerering virker ikke altid så fejlfrit, og
 
 Denne oplevelse blæste mig helt bagover. Jeg indså, at hvis teknologien allerede nu er så dygtig, og forbedrer sig med eksponentiel hastighed, så havde min ven ret. Computere vil snart overtage kodningen.
 
-Siden da har jeg altid kodet med AI ved min side og brugt moderne værktøjer som Cursor{i: "Cursor"}, en IDE{i: "IDE"} der integrerer AI, så den kan se og redigere din kode direkte i stedet for at skulle kopiere/indsætte frem og tilbage hele tiden.
+Siden da har jeg altid kodet med AI ved min side og brugt moderne værktøjer som Cursor{i: "Cursor"}, som er en IDE{i: "IDE"} der integrerer AI, så den kan se og redigere din kode direkte i stedet for at skulle kopiere/indsætte frem og tilbage hele tiden.
 
 Hovedfordele:
 
 1. **Jeg får tingene lavet hurtigere.** Ting der plejede at tage dage, kan nu laves på timer. Ting der plejede at tage timer, kan nu laves på minutter. Jeg vurderer, at min gennemsnitlige produktivitet er mindst 10 gange højere end før, især nu med meget bedre LLM'er{i: "LLMs"} og værktøjer.
 2. **Jeg lærer hurtigere.** Hvis jeg sidder fast eller ikke forstår den genererede kode, beder jeg om en forklaring. Dette accelererer min læring markant. Det er som at have en personlig underviser ved siden af mig hele tiden.
-3. **Jeg har det sjovere.** Jeg bruger mindre tid dybt begravet i detaljerne, mens jeg forsøger at løse tekniske problemer. I stedet kan jeg fokusere på det overordnedede billede - den næste funktion jeg vil bygge - og få det gjort hurtigt.
+3. **Jeg har det sjovere.** Jeg bruger mindre tid dybt begravet i detaljerne, mens jeg forsøger at løse tekniske problemer. I stedet kan jeg fokusere på det overordnede billede - den næste funktion jeg vil bygge - og få det gjort hurtigt.
 
 På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, om ikke andet for den sociale kontakt. To personer + en AI fungerer rigtig godt.
 
-Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompterne, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men for simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
+Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompts'ne, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men for simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
 
-Dette er grunden til, at jeg tror, at udviklere som ikke forstår denne teknologi, vil blive arbejdsløse. De vil simpelthen være for langsomme. Det er en af grundene til, at jeg besluttede at foretage mit karriereskifte. Jeg vil hjælpe andre til at få en smag for dette produktivitetsniveau, at opleve følelsen af at gå fra idé til produktion på så kort tid.
+Dette er grunden til, at jeg tror, at udviklere som ikke forstår denne teknologi, vil blive arbejdsløse. De vil simpelthen være for langsomme. Det er en af grundene til, at jeg besluttede mig for at foretage mit karriereskifte. Jeg vil hjælpe andre til at få en smag for dette produktivitetsniveau, at opleve følelsen af at gå fra idé til produktion på så kort tid.
 
 ## Aha-oplevelse nummer 2: Den kan skrive som en professionel!
 
