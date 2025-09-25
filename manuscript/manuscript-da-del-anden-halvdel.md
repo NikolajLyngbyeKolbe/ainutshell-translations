@@ -1,25 +1,23 @@
 
 # AI-lægen
 
-> **Ansvarsfralæggelse-disclaimer**  
-> (Min AI-advokat fik mig til at skrive dette...)  
-> Dette kapitel beskriver personlige erfaringer med AI inden for sundhedsvæsenet. Det er ikke medicinsk rådgivning. Jeg er ikke læge (og det er AI'en heller ikke). Når det er muligt, bør du konsultere kvalificerede sundhedsprofessionelle for medicinske beslutninger. Og sagsøg mig ikke, hvis noget går galt!
+> **Ansvarsfralæggelse**  
+> (Min AI-advokat tilrådede mig at skrive dette...)  
+> Dette kapitel beskriver personlige erfaringer med AI inden for sundhedsvæsenet. Det er ikke medicinsk rådgivning. Jeg er ikke en læge (og det er AI'en heller ikke). Rådfør dig altid med kvalificerede sundhedsprofessionelle ift. medicinske beslutninger, når det er muligt. Og sagsøg mig ikke, hvis noget går galt!
 
-De fleste modeludbydere siger, at du ikke bør bruge deres modeller til at give medicinsk rådgivning. Dette er sandsynligvis fordi:
+De fleste modeludbydere siger, at du ikke bør bruge deres modeller til at få medicinsk rådgivning. Dette er sandsynligvis fordi:
 
 - Modellerne kan hallucinere, især de billigere modeller{i: "hallucination"}.
-- Hvis brugeren ikke er god til prompt engineering, kan de få dårlige råd{i: "prompt engineering"}.
+- Hvis brugeren ikke er god til prompt engineering, kan brugeren få dårlige råd{i: "prompt engineering"}.
 - Modeludbyderne ønsker ikke at risikere at blive sagsøgt, hvis noget går galt.
-
-
 
 På trods af dette er min erfaring, at de bedste AI-modeller er i stand til at producere brugbar og sikker medicinsk rådgivning{i: "medicinsk rådgivning"}.
 
 Dette understøttes af studier som [GPT versus Resident Physicians — A Benchmark Based on Official Board Scores](https://ai.nejm.org/doi/full/10.1056/AIdbp2300192){i: "GPT versus Resident Physicians — A Benchmark Based on Official Board Scores"}.
 
-Med følgende citat fra artiklen (mine fremhævninger):
+Her citater fra artiklen (med mine fremhævninger og oversat til dansk):
 
-> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med en median score på 17,4% (95% CI, 9,55 til 30,9) og en median score på 23,44% (95% CI, 14,84 til 44,5), henholdsvis. GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en median score højere end den officielle beståelsesgrænse på 65%.**
+> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med en medianscore på 17,4% (95% CI, 9,55 til 30,9) og en medianscore på 23,44% (95% CI, 14,84 til 44,5), henholdsvis. GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
 
 Og modellerne er blevet betydeligt bedre siden da.
 
@@ -27,46 +25,44 @@ De mange benchmark-tests og forskningsartikler om dette emne viser en klar tende
 
 ## Personlig historie
 
-Jeg har en personlig historie at dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"} og fik et skræmmende resultat: der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
+Jeg har en personlig historie jeg vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"} og fik et skræmmende resultat: der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
 
 Jeg mødte flere forskellige læger og gennemgik en masse laboratorieprøver i løbet af de næste måneder. Og til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
 
-Under denne proces førte jeg dagbog over alle rådata fra laboratorieprøverne og læssede det hele ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
+Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og læssede det hele ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
 
 > **Prompt**  
 > Evaluer disse medicinske data, forklar hvad der er galt med mig, og forklar hvad jeg bør gøre ved det.
 
-Dette var en ret simpel prompt, men jeg inkluderede MANGE kontekstoplysninger, dusinvis af sider med rå laboratoriedata.
+Dette var en ret simpel prompt, men jeg inkluderede MANGE kontekstoplysninger, dvs. masser af sider med rå laboratoriedata.
 
-Svaret var en meget detaljeret analyse og diagnose samt en foreslået behandlingsplan. Og til min overraskelse matchede det præcis, hvad nyrespecialisten{i: "nyrespecialist"} sagde! Det var et øjeblik, der fik kæben til at ramme gulvet.
+Svaret var en meget detaljeret analyse og diagnose samt en foreslået behandlingsplan. Og til min overraskelse matchede det præcis, hvad nyrespecialisten{i: "nyrespecialist"} havde sagt! Det var et øjeblik, hvor jeg faldt ned af stolen.
 
-Dette fik mig til at stole på modellen omkring dette emne, så jeg følte mig tryg ved at stille den mange opfølgende spørgsmål. Min adgang til nyrespecialisterne var begrænset, men AI-modellen havde uendelig tid og tålmodighed til at tale med mig, så jeg kunne stille alle de dumme spørgsmål, jeg ville. Jeg dobbelttjekkede nogle svar via Google{i: "Google"}, men så aldrig tegn på hallucination. Hallucination har en tendens til at forekomme, når man bruger en billig model og ikke giver nok kontekst. I dette tilfælde brugte jeg en god model og gav massevis af kontekst.
+Dette fik mig til at stole på modellen omkring dette emne, så jeg følte mig tryg ved at stille den mange opfølgende spørgsmål. Min adgang til nyrespecialisterne var begrænset, men AI-modellen havde uendelig tid og tålmodighed til at tale med mig. Så jeg kunne stille alle de dumme spørgsmål, jeg ville. Jeg dobbelttjekkede nogle svar via Google{i: "Google"}, men så aldrig tegn på hallucination. Hallucination har en tendens til at forekomme, når man bruger en billig model og ikke giver nok kontekst. I dette tilfælde brugte jeg en god model og gav massevis af kontekst.
 
 Da jeg mødte nyrespecialisterne igen, var jeg bedre rustet til at diskutere med dem, da jeg havde en dybere forståelse af problemet. AI-lægen og de menneskelige læger var enige om, at den umiddelbare løsning var blodtryksmedicin. Da mit blodtryk kom ned på normale niveauer, blev mine nyreværdier bedre. En del af sygdommen er kronisk, men det værste er overstået, og jeg er ikke længere i umiddelbar fare. Puha.
 
-En anden ting, jeg havde behov for, var at leve en sundere livsstil - mere motion, bedre søvn, mindre stress og en bedre kost. AI hjalp mig også med det. Det mest nyttige var, at jeg byggede en lille AI-ernæringsekspert til at hjælpe mig med at spise rigtigt. Mere om det i kapitlet "AI Nutritionist"{i: "AI Nutritionist"}.
+En anden ting, jeg havde behov for, var at leve en sundere livsstil. Det vil sige mere motion, bedre søvn, mindre stress og en bedre kost. AI hjalp mig også med det. Det mest nyttige var, at jeg byggede en lille AI-ernæringsekspert til at hjælpe mig med at spise rigtigt. Mere om det i kapitlet "AI-ernæringseksperten"{i: "AI-ernæringseksperten"}.
 
 ## Så bør du bruge AI som din læge?
 
+Ja, men som et supplement til den menneskelige læge{i: "AI-læge"}, ikke en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben. Det er nyttige redskaber som AI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan AI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
 
+En AI-læge supplerer en menneskelig læge på flere måder:
 
-Ja, men som et supplement til den menneskelige læge{i: "KI-læge"}, ikke en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben - nyttige redskaber som KI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan KI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
-
-En KI-læge supplerer en menneskelig læge på flere måder:
-
-- Den kan give dig en second opinion og levere mere information.
-- Den kan tilgås på alle tidspunkter af døgnet, uden pauser, weekender, helligdage eller ferier.
-- Den kan måske se mønstre eller opdage sjældne tilstande, som den menneskelige læge ikke kendte til. Eftersom KI-lægen har en meget større vidensbase (gennem sine træningsdata), har den set langt flere tilfælde end nogen menneskelig læge.
-- Den bliver aldrig forhastet, utålmodig, stresset, i dårligt humør eller lider af søvnmangel. Disse ting vil påvirke dømmekraften selv hos den bedste menneskelige læge.
+- Den kan give dig en "second opinion" og levere mere information.
+- Den kan tilgås på alle tidspunkter af døgnet, uden at have behov for pauser, weekender, helligdage eller ferier.
+- Den kan måske se mønstre eller opdage sjældne tilstande, som den menneskelige læge ikke kendte til. Eftersom AI-lægen har en meget større vidensbase (gennem sine træningsdata), har den set langt flere tilfælde end nogen menneskelig læge.
+- Den bliver aldrig forhastet, utålmodig, stresset, i dårligt humør eller påvirket af søvnmangel. Sådanne ting vil påvirke dømmekraften selv hos den bedste menneskelige læge.
 - Den vil ikke diskriminere baseret på synlige kendetegn som køn/etnicitet/alder/påklædning/osv. Ikke fordi den ikke har fordomme (det har den), men fordi den som standard ikke kan se, hvordan du ser ud. Den ved kun det, du vælger at fortælle den.
 
-Nogle gange er en menneskelig læge slet ikke en mulighed. Måske bor du i et fjerntliggende område uden adgang til en læge, eller du har ikke råd til det, eller du har en sjælden tilstand, som din læge ikke forstår. I det tilfælde kan en KI-læge bogstaveligt talt være livreddende!
+Nogle gange er en menneskelig læge slet ikke en mulighed. Måske bor du i et fjerntliggende område uden adgang til en læge, eller du har ikke råd til det, eller du har en sjælden tilstand, som din læge ikke forstår. I det tilfælde kan en AI-læge bogstaveligt talt være livreddende!
 
-Med en god KI-model og ordentlige promptudviklingsfærdigheder vil en KI-læge altid være bedre end ingen læge overhovedet, og højst sandsynligt bedre end meningerne fra dine velmenende (men uinformerede) venner og familie.
+Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end meningerne fra dine velmenende (men uinformerede) venner og familie.
 
-Generelt finder jeg det fascinerende, at det er muligt at praktisk talt fremtrylle en dygtig KI-læge{i: "KI-læge"} eller specialist inden for et hvilket som helst område ved blot at bruge et simpelt prompt og en generel app som Claude eller ChatGPT{i: "ChatGPT"}. Gode promptudviklingsfærdigheder giver dig nærmest superkræfter.
+Generelt finder jeg det fascinerende, at det er muligt praktisk talt at fremtrylle en dygtig AI-læge{i: "AI-læge"} eller specialist inden for et hvilket som helst område, ved blot at bruge en simpel prompt og en generel app som Claude eller ChatGPT{i: "ChatGPT"}. Gode prompt engineering-færdigheder giver dig nærmest superkræfter.
 
-Husk bare: Hvis du gør dette, så sørg for at bruge en god model! De gratis eller billigere modeller er mere tilbøjelige til at hallucinere eller give dig forkerte råd, hvilket kan være farligt. For at citere den artikel, jeg nævnte ovenfor:
+Men husk: Hvis du gør dette, så sørg for at bruge en god model! De gratis eller billigere modeller er mere tilbøjelige til at hallucinere eller give dig forkerte råd, hvilket kan være farligt. For at citere den artikel, jeg nævnte ovenfor:
 
 > GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner
 
