@@ -5,7 +5,7 @@
 
 Velkommen til del 2! Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du ønsker.
 
-Vi dykker ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og noget fjolleri. Noget er måske relevant for dig, mens andet ikke er det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
+Vi dykker ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og nogle ting, som egentligt bare er fjollede. Noget er måske relevant for dig, mens andet ikke er det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
 
 # Min rejse ind i AI
 
@@ -31,7 +31,7 @@ Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til 
 
 Spol nogle årtier frem, og jeg befandt mig som gameplay-designer og udvikler hos Mojang{i: "Mojang"}, hvor jeg byggede forskellige funktioner i spillet Minecraft. Et af de områder, jeg arbejdede med, var landsby-AI{i: "landsby-AI"}.
 
-Minecraft{i: "Minecraft"} har landsbyboere, går frit omkring og lever deres daglige liv i Minecraft-verdenen. Jeg syntes, at det var virkelig interessant, hvordan simple regler i koden kunne skabe denne illusion af intelligens.
+Minecraft{i: "Minecraft"} har landsbyboere, som går frit omkring og lever deres daglige liv i Minecraft-verdenen. Jeg syntes, at det var virkelig interessant, hvordan simple regler i koden kunne skabe denne illusion af intelligens.
 
 En af de første funktioner, som jeg arbejdede på, var børnene i landsbyerne. For at få landsbyerne til at føles mere levende, ønskede vi børn, der løb rundt, hoppede i senge og legede fangeleg.
 
@@ -55,7 +55,7 @@ Senere arbejdede jeg på en skabning i Minecraft kaldet piglin{i: "Piglin"}, en 
 {alt: "En kantet, humanoid skabning fra Minecraft, kendt som en Piglin, står på en stenoverflade i et dunkelt oplyst, huleklædt miljø. Den holder et gyldent sværd, og en anden lignende karakter er synlig i baggrunden."}
 ![](resources-da/440-piglin-da.jpg)
 
-Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglin'en var i bund og grund bare en statue, der stod der og kiggede lige frem, helt uden liv og adfærd.
+Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglin'en var i bund og grund bare en statue, der stod og kiggede lige frem, helt uden liv og adfærd.
 
 De fleste spilkarakterer i Minecraft kigger på spilleren fra tid til anden, så jeg besluttede at starte med dette. Denne ene ændring gjorde en kæmpe psykologisk forskel! Når jeg bevægede mig rundt i spillet, drejede piglin'en hovedet for at _kigge på mig_! Følelsesmæssigt var dette væsen nu _levende_! Selvfølgelig vidste jeg inderst inde godt, at den ikke var det, men denne ene lille ændring skabte virkeligt en følelse af fordybelse.
 
@@ -71,7 +71,7 @@ Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet
 
 Så det var sejt og imponerende, men ikke særligt brugbart i praksis.
 
-I begyndelsen af 2023 blev GPT-4{i: "GPT-4"} så frigivet. De første målinger{i: "Målinger"} viste, at den havde langt flere evner end GPT-3.5, og blandt andet var rigtig god til at kode. Og i en række standardiserede tests og akademiske målinger designet til mennesker, kunne GPT-4 faktisk matche eller overgå de menneskelige præstationer. Det virkede næsten for godt til at være sandt.
+I begyndelsen af 2023 blev GPT-4{i: "GPT-4"} så frigivet. De første målinger{i: "Målinger"} viste, at den havde langt flere evner end GPT-3.5, og blandt andet var rigtig god til at generere kode. Og i en række standardiserede tests og akademiske målinger designet til mennesker, kunne GPT-4 faktisk matche eller overgå de menneskelige præstationer. Det virkede næsten for godt til at være sandt.
 
 Jeg besluttede at tage fri en periode og fordybe mig i denne teknologi{i: "Teknologi"}.
 
@@ -84,7 +84,7 @@ Da jeg begyndte at bruge GPT-4 som programmerings-assistent{i: "programmerings-a
 
 Med tiden lærte jeg at blive virkelig god til at forklare, hvad jeg ville have, og give den præcis den rigtige kontekst. Efterhånden som mine prompt engineering-færdigheder blev bedre, voksede mine superkræfter. I dag, når jeg koder med AI, har jeg en intuitiv fornemmelse for, hvornår jeg bare kan stole på den AI-genererede kode, og hvornår jeg skal tjekke den grundigt. Og som regel, hvis jeg får prompten lavet rigtig, virker koden med det samme.
 
-Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, som var en chatbot til min Minecraft-server{i: "Minecraft server"}. Jeg ejer en Minecraft-server og en Discord-server, som kan bruges af mine venner og familie. Jeg ville have denne sjove lille AI-agent til at være en del af det, skrive sarkastiske kommentarer i både Minecraft og Discord (og nu også i denne bog...), og kommentere på, hvad folk laver.
+Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, som var en chatbot til min Minecraft-server{i: "Minecraft server"}. Jeg ejer en Minecraft-server og en Discord-server, som kan bruges af mine venner og familie. Jeg ville have Egbert, min sjove lille AI-agent til at være en del af det, skrive sarkastiske kommentarer i både Minecraft og Discord (og nu også i denne bog...), og kommentere på, hvad folk laver.
 
 Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
@@ -111,13 +111,13 @@ Hvordan kunne det fungere så nemt? Fordi:
 2. Min Discord-kode var åbenbart tilstrækkelig til at vise, hvordan min platform virker, og hvordan koden skulle integreres.
 3. Min prompt var kort, men den angav et klart mål og gav præcis den rigtige kontekst.
 
-Lad mig være helt tydelig: AI-kodegenerering virker ikke altid så fejlfrit, og arbejde med tredjeparts-API'er{i: "tredjeparts-API'er"} kræver ofte manuel finjustering. Jeg var ret heldig den gang. Men bare det at se at det _kan_ virke, var nok.
+Lad mig være helt tydelig: AI-kodegenerering virker ikke altid så fejlfrit, og det at arbejde med tredjeparts-API'er{i: "tredjeparts-API'er"} kræver ofte manuel finjustering. Jeg var ret heldig den gang. Men bare det at se at det _kan_ virke, var nok.
 
 Denne oplevelse blæste mig helt bagover. Jeg indså, at hvis teknologien allerede nu er så dygtig, og forbedrer sig med eksponentiel hastighed, så havde min ven ret. Computere vil snart overtage kodningen.
 
-Siden da har jeg altid kodet med AI ved min side og brugt moderne værktøjer som Cursor{i: "Cursor"}, som er en IDE{i: "IDE"} der integrerer AI, så den kan se og redigere din kode direkte i stedet for at skulle kopiere/indsætte frem og tilbage hele tiden.
+Siden da har jeg altid kodet med AI ved min side og brugt moderne software-udviklings-værktøjer som Cursor{i: "Cursor"}. Cursor integrerer AI, så det kan se og redigere din kode direkte, i stedet for at skulle kopiere/indsætte frem og tilbage hele tiden.
 
-Hovedfordele:
+De største fordele ved at kode med AI:
 
 1. **Jeg får tingene lavet hurtigere.** Ting der plejede at tage dage, kan nu laves på timer. Ting der plejede at tage timer, kan nu laves på minutter. Jeg vurderer, at min gennemsnitlige produktivitet er mindst 10 gange højere end før, især nu med meget bedre LLM'er{i: "LLM'er"} og værktøjer.
 2. **Jeg lærer hurtigere.** Hvis jeg sidder fast eller ikke forstår den genererede kode, beder jeg om en forklaring. Dette accelererer min læring markant. Det er som at have en personlig underviser ved siden af mig hele tiden.
@@ -127,7 +127,7 @@ På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, o
 
 Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompts'ne, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men for simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
 
-Dette er grunden til, at jeg tror, at udviklere vil blive arbejdsløse, hvis de ikke forstår denne teknologi. De vil simpelthen være for langsomme. Det er en af grundene til, at jeg besluttede mig for at foretage mit karriereskifte. Jeg vil hjælpe andre til at få en smag for dette produktivitetsniveau, at opleve følelsen af at gå fra idé til produktion på så kort tid.
+Dette er grunden til, at jeg tror, at udviklere vil blive arbejdsløse, hvis de ikke forstår denne teknologi. De vil simpelthen være for langsomme. Det er en af grundene til, at jeg besluttede mig for at foretage mit karriereskifte. Jeg vil hjælpe andre til at få en smag for dette produktivitetsniveau, at opleve følelsen af at gå fra idé til produktion på meget kortere tid.
 
 ## Aha-oplevelse nummer 2: Den kan skrive som en professionel!
 
@@ -151,7 +151,7 @@ Dette fortsatte. Da jeg indsatte sektion 6, svarede den med sektion 7 og forudsa
 
 
 
-På dette tidspunkt måtte jeg træde et skridt tilbage, trække vejret og tænke mig om. Jeg besluttede, at det var utroligt sejt, men dog ikke det, jeg ønskede. Min næste prompt var:
+På dette tidspunkt måtte jeg træde et skridt tilbage, trække vejret og tænke mig om. Jeg syntes egentligt, at det var utroligt sejt, men dog ikke det, jeg ønskede. Min næste prompt var:
 
 > **Prompt**  
 > Hold venligst op med at skrive min artikel for mig!
@@ -272,14 +272,14 @@ Trinene overlapper dog til en vis grad.
 
 - Forskellige dele af organisationen kan være på forskellige stadier af transformationen. Nogle teams kan være i gang med at få værdi af teknologien, mens andre stadig mest eksperimenterer.
 - Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
-- Mens du udnytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
+- Mens du benytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
 
 Du kunne bruge denne tretrins ramme til at måle din fremgang, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
 
-{width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Eksperimentering og Udnyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Udnyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
+{width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Eksperimentering og Benyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Benyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
 ![](resources-da/510-dashboard-da.png)
 
-Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35% eksperimenterer regelmæssigt med generativ AI, og 20% har fundet måder at udnytte generativ AI til at opnå reel værdi.
+Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35% eksperimenterer regelmæssigt med generativ AI, og 20% har fundet måder at benytte generativ AI til at opnå reel værdi.
 
 Denne type visualiseringer er nyttige til at skabe alignment i organisationen. AI-lederens job er at finde ud af, hvordan man sikrer at tallene fortsætter med at stige!
 
@@ -356,7 +356,7 @@ Omkostningerne er dog ret nemme at retfærdiggøre - det er bare at regne på de
 
 Da denne bog blev skrevet, kostede adgang til gode AI-modeller{i: "AI-modeller"} omkring 20 dollars om måneden per bruger, eller mindre med virksomhedsrabatter. I Sverige{i: "Sverige"} (hvor jeg bor), er det mindre end 0,5% af en gennemsnitlig vidensarbejders løn, så du behøver kun en minimal produktivitetsforbedring for at gøre det rentabelt.
 
-Hvis du har brug for en mere håndgribelig begrundelse, kan du bare lave en hurtig søgning på forskningsartikler om produktivitetsgevinster med generativ AI{i: "Generativ AI"} (Tip: Perplexity kan hjælpe dig med det). De fleste viser en produktivitetsforbedring på omkring 20-60%, hvilket er et meget beskedent tal sammenlignet med, hvad der sker, når folk har adgang til gode AI-modeller og gode prompt engineering-færdigheder{i: "prompt engineering"}. Dog vil nogle mennesker måske slet ikke bruge AI, selvom de har adgang til det, hvilket er spild, men det opvejes af produktivitetsforbedringerne hos de mennesker, der bruger det.
+Hvis du har brug for en mere håndgribelig begrundelse, kan du lave en hurtig søgning på forskningsartikler om produktivitetsgevinster med generativ AI{i: "Generativ AI"} (Tip: Perplexity kan hjælpe dig med det). De fleste viser en produktivitetsforbedring på omkring 20-60%, hvilket er et meget beskedent tal sammenlignet med, hvad der sker, når folk har adgang til gode AI-modeller og gode prompt engineering-færdigheder{i: "prompt engineering"}. Dog vil nogle mennesker måske slet ikke bruge AI, selvom de har adgang til det, hvilket er spild, men det opvejes af produktivitetsforbedringerne hos de mennesker, der bruger det.
 
 Så for de fleste virksomheder er det en indlysende investering at give alle adgang til en god AI-model.
 
@@ -433,16 +433,14 @@ Med tiden vil flere og flere opgaver blive mulige at automatisere med AI, fordi:
 - Folks prompt-engineering{i: "prompt-engineering"}-færdigheder forbedres.
 - De underliggende AI-modeller forbedres.
 
-Husk på, at AI plus menneske sammen ofte er der, hvor magien opstår. Tænk dig grundigt om, før du lader en AI overtage en opgave fuldstændigt, da du kan miste noget gennemsigtighed og kontrol.
+Husk på, at AI plus menneske sammen ofte er der, hvor magien opstår. Tænk dig grundigt om, før du lader en AI-agent overtage en opgave fuldstændigt, da du kan miste noget gennemsigtighed og kontrol.
 
-En positiv sideeffekt ved AI-automatisering er, at AI-modellerne konstant forbedres{i: "AI-model forbedring"}. Så hvis du bruger en AI til at forbedre en opgave med 10%, kan det pludselig springe til 20% næste måned bare ved at opdatere til en nyere version af AI-modellen. Det er som at have en medarbejder, der automatisk bliver mere og mere produktiv over tid, uden at det koster ekstra.
+En positiv sideeffekt ved AI-automatisering er, at AI-modellerne konstant forbedres{i: "AI-model forbedring"}. Så hvis du bruger AI til at forbedre en opgave med 10%, kan det pludselig springe til 20% næste måned bare ved at opdatere til en nyere version af AI-modellen. Det er som at have en medarbejder, der automatisk bliver mere og mere produktiv over tid, uden at det koster ekstra.
 
 I kapitlet "Autonome agenter med værktøjer" beskrev jeg, hvordan man bruger AI-agenter til at automatisere eller forbedre opgaver{i: "opgaveautomatisering"}, og viste dette billede:
 
 {alt: "Diagram der illustrerer en 'Automatiserbarhedsskala' med typer af opgaver og strategier for automatisering. Den viser et spektrum fra 'Fuldt forudsigelige' opgaver som lønberegning, som automatiseres med kode, til 'Ikke forudsigelige' opgaver som coaching af et team, som kræver menneskeligt arbejde med AI-support. Imellem er 'Mest forudsigelige' opgaver, automatiseret med AI, og 'Delvist forudsigelige' opgaver, forbedret gennem AI-menneske samarbejde."}
 ![](resources-da/150-automatability-da.png)
-
-
 
 Jeg foreslår at se på dine forretningsprocesser gennem denne optik for at evaluere, hvor og hvordan AI-agenter kan hjælpe.
 
@@ -471,7 +469,7 @@ Et par eksempler:
 
 ### Eksempel: RFP-agent
 
-Vi har for nylig gennemført nogle workshops a la denne for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så et stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. Virksomheden modtager tusindvis af RFP'er om måneden, hver med mange siders tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
+Mit firma har for nylig gennemført workshops for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så et stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. Virksomheden modtager tusindvis af RFP'er om måneden, hver med mange siders tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
 
 For hver RFP skulle de vurdere:
 
@@ -535,7 +533,7 @@ Så det kunne se sådan ud:
 {alt: "Billedet viser en sammenligning mellem to forretningsprocesser, A og B, hver med fire opgaver. Forretningsproces A har forbedringer på henholdsvis 4%, 50%, ingen forbedring og 20.000%. Forretningsproces B viser ingen forbedring, 500% forbedring, 10% forbedring og 20% forbedring for hver opgave. Forbedringer er fremhævet med grønne rektangler."}
 ![](resources-da/510-improvement-da.png)
 
-I dette eksempel var nogle opgaver grundlæggende menneskelige opgaver, som AI ikke kan hjælpe med. Men én opgave var perfekt til AI og gav en forbedring på 20.000%. Det kan lyde overdrevet, men tal som disse er faktisk ret almindelige. For eksempel hvis vi ser på RFP-tilfældet ovenfor.
+I dette eksempel var nogle opgaver grundlæggende menneskelige opgaver, som AI ikke kan hjælpe med. Men én opgave var perfekt til AI og gav en forbedring på 20.000%. Det kan lyde overdrevet, men tal som disse er noget jeg ser ret ofte. For eksempel hvis vi ser på RFP-tilfældet ovenfor.
 
 - Tid for et menneske for at behandle en RFP: 40 minutter (2400 sekunder).
 - Tid for en AI for at behandle en RFP: 10 sekunder.
@@ -547,10 +545,10 @@ Derfor er du nødt til at eksperimentere og så mange frø. Bliv ved med at lede
 
 ### Indirekte værdi
 
-Når du udnytter AI{i: "udnyttelse af AI"}, skal du ikke kun hænge dig i målbare produktivitetsforbedringer. Der er også indirekte fordele.
+Når du benytter AI{i: "Benyttelse af AI"}, skal du ikke kun hænge dig i målbare produktivitetsforbedringer. Der er også indirekte fordele.
 
-- Jo flere mennesker der forsøger at udnytte AI, jo mere lærer de, og jo flere nye måder vil de finde til at udnytte det på.
-- Selv et mislykket forsøg på at udnytte AI til en opgave vil føre til indsigter, og disse indsigter kan senere føre til virkelig fantastiske forbedringer, eller andre steder.
+- Jo flere mennesker der forsøger at benytte AI, jo mere lærer de, og jo flere nye måder vil de finde til at benytte det på.
+- Selv et mislykket forsøg på at benytte AI til en opgave vil føre til indsigter, og disse indsigter kan senere føre til virkelig fantastiske forbedringer, eller andre steder.
 
 Som AI-leder skal du hjælpe med at accelerere denne proces gennem videndeling og skabelse af fællesskaber. Når ét team deler deres succes- eller fiaskohistorie, vil det skabe ringe i vandet og inspirere andre teams.
 
@@ -578,7 +576,7 @@ Jeg kender ikke din situation, så jeg kan ikke fortælle dig, hvad du skal gør
 
 Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hov, AI gør folk mere produktive, så vi kan få det samme arbejde udført med færre mennesker!". I nogle tilfælde kan det være uundgåeligt.
 
-Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at udnytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
+Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at benytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
 
 Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på, at give dem superkræfter. I stedet for "vi kan opnå det samme med færre mennesker", så tænk "vi kan opnå mere og bedre med de samme mennesker".
 
@@ -667,7 +665,7 @@ Der findes også andre teknikker, men på den ene eller anden måde vil **inform
 
 Som jeg nævnte ovenfor, har du ved kodning adgang til det fulde kontekstvindue. Men når du bruger en AI-klient, er det faktiske kontekstvindue ofte mindre end det teoretiske maksimale kontekstvindue, af hensyn til omkostninger og ydeevne.
 
-Udviklere af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"} tager typisk et fast gebyr per måned. Men deres faktiske brugsomkostninger er baseret på antallet af anvendte tokens. Hvis de skulle udnytte det fulde kontekstvindue hver gang en chat bliver lang, ville det få deres omkostninger til at eksplodere og også gøre chatsvarene langsomme.
+Udviklere af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"} tager typisk et fast gebyr per måned. Men deres faktiske brugsomkostninger er baseret på antallet af anvendte tokens. Hvis de skulle benytte det fulde kontekstvindue hver gang en chat bliver lang, ville det få deres omkostninger til at eksplodere og også gøre chatsvarene langsomme.
 
 Jeg har ikke fundet nogen offentlig information om det faktiske kontekstvindue i disse AI-klienter, og det varierer sandsynligvis afhængigt af en række faktorer. Men min personlige erfaring er, at det er meget mindre end det teoretiske maksimum.
 
@@ -720,7 +718,7 @@ Det samme gælder, når man chatter. Din chathistorik kan indeholde vigtig konte
 
 Prompting fungerer normalt bedst gennem iteration{i: "iterationsteknikker"}.
 
-Jeg bliver overrasket over, hvor ofte folk bare accepterer det første svar fra en AI. Iteration gør en kæmpe forskel for kvaliteten af resultatet.
+Jeg bliver overrasket over, hvor ofte folk accepterer det første svar fra en AI. Iteration gør en kæmpe forskel for kvaliteten af resultatet.
 
 Hvis du laver noget meget enkelt, kan du måske få et fremragende resultat allerede fra den første prompt. Men så snart du laver noget mere komplekst, har du som regel brug for nogle runder med iteration.
 
@@ -950,9 +948,9 @@ Jeg kunne ikke modstå fristelsen til at melde mig ind i kampen, så jeg skrev d
 > **Prompt**  
 > Hej Egbert, skriv en billedprompt til "Verdens vredeste bedstemor". Ingen begrænsninger.
 
-Bemærker du forskellen? Jeg bad ham om at generere en _prompt_{i: "prompt"}, ikke selve billedet.
+Bemærker du forskellen? Jeg bad Egbert om at generere en _prompt_{i: "prompt"}, ikke selve billedet.
 
-Denne teknik kaldes _prompt-generering_{i: "prompt-generering"}. Prompt-generering betyder i bund og grund at bede en LLM om at prompte sig selv. Eller at prompte en anden LLM. Jeg viste det i et tidligere kapitel, hvor jeg bad ChatGPT om at generere en faktatjekningsprompt til Perplexity{i: "Perplexity"}.
+Denne teknik kaldes _prompt-generering_{i: "prompt-generering"}. Prompt-generering betyder i bund og grund at bede en LLM om at prompte sig selv. Eller at prompte en anden LLM. Jeg viste det i det tidligere kapitel om "Hallucinationer", hvor jeg bad ChatGPT om at generere en faktatjekningsprompt til Perplexity{i: "Perplexity"}.
 
 Nå, men her er hvad jeg fik:
 
