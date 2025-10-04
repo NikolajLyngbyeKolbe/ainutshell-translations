@@ -243,7 +243,7 @@ At AI-transformere en mellemstor til stor organisation er en kæmpe opgave. Det 
 {width: "40%", alt: "En simpel, håndtegnet illustration af en person der holder et flag med teksten 'AI.' Teksten 'AI-leder' er skrevet under tegningen."}
 ![](resources-da/320-leader-da.png)
 
-Kald rollen hvad du vil - "Head of AI", "CAIO", "Top AI-hvisker", eller hvad der giver mening. Jeg vil i dette kapitel bruge betegnelsen AI-leder{i: "AI-leder"}.
+Kald rollen hvad du vil - "AI-chef", "Head of AI", "CAIO", "Top AI-hvisker", eller hvad der giver mening. Jeg vil i dette kapitel bruge betegnelsen AI-leder{i: "AI-leder"}.
 
 Denne person bør være:
 
@@ -274,7 +274,7 @@ Trinene overlapper dog til en vis grad.
 - Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
 - Mens du benytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
 
-Du kunne bruge denne tretrins ramme til at måle din fremgang, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
+Du kunne bruge denne tretrins ramme til at måle fremdriften, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
 
 {width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Eksperimentering og Benyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Benyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
 ![](resources-da/510-dashboard-da.png)
@@ -483,7 +483,7 @@ Dette var meget manuelt arbejde, og det blev ofte gentaget på tværs af virksom
 
 Behandling af dokumenter er en fremragende opgave for generativ AI. Så vi byggede en AI-agent, som vi her kan kalde Ralph (eller RFP-Ralph).
 
-Alle RFP'er kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse og analysere RFP'en, skrive et resumé der besvarer alle ovenstående spørgsmål på en måde, der er relevant for denne virksomhed, vurdere om RFP'en er en god mulighed for deres virksomhed, og hvis ja, så dirigere den til den mest egnede afdeling. Hver RFP blev fulgt som en opgave på en digital tavle, så alle kunne se, hvad der skete, og også give Ralph feedback eller vælge at ændre nogle af hans beslutninger.
+Alle RFP'erne kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse og analysere en RFP, skrive et resumé der besvarer alle ovenstående spørgsmål på en måde, der er relevant for denne virksomhed, vurdere om en RFP er en god mulighed for deres virksomhed, og hvis ja, så dirigere den til den mest egnede afdeling. Hver RFP blev fulgt som en opgave på en digital tavle, så alle kunne se, hvad der skete, og også give Ralph feedback eller vælge at ændre nogle af hans beslutninger.
 
 {alt: "Dette billede er et flowdiagram med titlen 'RFP-arbejdsgang' med fire rækker mærket 'Kun menneske,' 'Menneske med KI-assistance,' 'KI med menneskeassistance,' og 'Kun KI.' Kolonnerne er mærket 'Modtag & analyser RFP,' 'Beslut om vi skal gøre det,' 'Diriger det til det rigtige team,' og '(resten af opgaverne).' Afkrydsninger indikerer hvilke opgaver hver type kan håndtere. 'KI med menneskeassistance' og 'Kun KI' rækkerne har alle opgaver afkrydset undtagen den første, mens 'Menneske med KI-assistance' kun har den sidste opgave afkrydset."}
 ![](resources-da/510-rfp-process-da.png)
@@ -500,7 +500,7 @@ Alle RFP'er kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse 
 
 Dette er et eksempel på ændring af forretningsprocesser{i: "ændring af forretningsprocesser"}. Vi startede med de lavthængende frugter, det mest åbenlyse sted hvor AI kan gøre en stor forskel. Implementér det først, og tænk derefter over resten af processen.
 
-Ville dette føre til tab af menneskelige arbejdspladser? Nej, ikke i dette tilfælde. At analysere og videresende RFP'er var ikke nogens specifikke job, det var bare en kedelig opgave, som mange mennesker skulle udføre ud over deres øvrige arbejde. Dette ville spare tid for dem og også lade dem reagere hurtigere på RFP'er, hvilket øger chancen for at vinde aftalen.
+Ville dette føre til tab af menneskelige arbejdspladser? Nej, ikke i dette tilfælde. At analysere og videresende RFP'erne var ikke nogens specifikke job, det var bare en kedelig opgave, som mange mennesker skulle udføre ud over deres øvrige arbejde. Dette ville spare tid for dem og også lade dem reagere hurtigere på RFP'erne, hvilket øger chancen for at vinde aftalen.
 
 ### "Reducering af omkostninger" kontra "Forøgelse af værdi" kontra "Opdagelse af nye værdityper"
 
@@ -517,7 +517,7 @@ Når man udforsker mulige anvendelser af AI{i: "AI-anvendelser"}, har de fleste 
   - Eksempel: Vi byggede en business intelligence-agent til en kunde. Denne agent søger hver nat efter vigtige nyheder og identificerer vigtige begivenheder, som kunden bør være opmærksom på. Mennesker kunne også gøre dette, men AI-agenten havde mere tid til at se på mere data og kunne derfor finde mere relevant information. Så den reducerede ikke kun omkostningerne, men øgede også værdien.
 - **3. Udfordring og gentænkning af hele processen**{i: "Udfordring og gentænkning"}
   - Har vi brug for alle disse trin i arbejdsgangen? Kan nogle trin udføres parallelt? Er der en helt anden måde at tilgå dette med AI-hjælp?
-  - Eksempel: Overvej en content marketing-proces med følgende trin: Brainstorm → Research → Kladde → Gennemgang → Redigering → Publicering → Overvågning af resultater. Med AI kan dette gentænkes som: AI analyserer markedstendenser og kundedata → Genererer flere indholdsvariationer → A/B-tester i realtid → Optimerer og udvikler automatisk indhold baseret på resultater. Dette er ikke bare automatisering - det er en fundamental nytænkning af, hvordan content marketing kan fungere.
+  - Eksempel: Overvej en content marketing-proces med følgende trin: Brainstorm → Analysér → Kladde → Gennemgang → Redigering → Publicering → Overvågning af resultater. Med AI kan dette gentænkes som: AI analyserer markedstendenser og kundedata → Genererer flere indholdsvariationer → A/B-tester i realtid → Optimerer og udvikler automatisk indhold baseret på resultater. Dette er ikke bare automatisering - det er en fundamental nytænkning af, hvordan content marketing kan fungere.
 - **4. Gentænkning af hele processen**{i: "Gentænkning af hele processen"}
   - Hvilke nye ting kan vi gøre, som vi ikke kunne gøre før?
   - Eksempel: En gardinvirksomhed skaber en online-tjeneste, hvor folk kan uploade et billede af et rum og se, hvordan forskellige typer gardiner ville se ud i det rum. Dette er en ny type service, som ikke var tilgængelig for deres kunder før.
@@ -679,10 +679,10 @@ Hold øje med tegn, der til forveksling ligner menneskelig glemsomhed. Et eksemp
 
 Så hvad kan du gøre ved en lang chathistorik? Her er nogle muligheder:
 
-- **Acceptér det**. Nogle gange er detaljerne fra de ældre dele af samtalen ikke så vigtige.
-- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den skal afholdes, og har besluttet at gå med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B". Brug derefter denne opsummering i åbningsprompten for den nye chat.
-- **Genopfrisk konteksten**. Bed den om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Denne opsummering vil nu være "top of mind" for den fortsatte samtale.
-- **Gentag vigtig information**. Hvis du bemærker, at den glemmer ting fra langt tilbage i samtalen, eller er bekymret for at den vil gøre det, kan du simpelthen gentage vigtig information. "Husk, brylluppet er den 12. oktober". Eller du kan endda scrolle op og kopiere/indsætte den oprindelige kontekst.
+- **Acceptér det**. Nogle gange er detaljerne fra ældre dele af samtalen ikke så vigtige.
+- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den kan afholdes, og har besluttet at gå med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B". Brug derefter denne opsummering i åbningsprompten for den nye chat.
+- **Genopfrisk konteksten**. Bed AI'en om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Denne opsummering vil nu være "top of mind" for den fortsatte samtale.
+- **Gentag vigtig information**. Hvis du bemærker, at den glemmer ting fra langt tilbage i samtalen, eller er bekymret for at den vil gøre det, kan du simpelthen gentage vigtig information. "Husk, brylluppet er den 12. oktober". Eller du kan scrolle op og kopiere/indsætte den oprindelige kontekst.
 - **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at gå med mulighed C. Du kan nu scrolle tilbage op i samtalehistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg valgte mulighed C med det samme". Ved at skære brainstorm-delen fra, forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
 
 ### Stor prompt vs. lang chathistorik
@@ -899,13 +899,13 @@ Dette er et eksempel på at kombinere de forskellige tilgange{i: "tilgange"}, je
 
 Og på ethvert tidspunkt kan du selvfølgelig tilføje en selvreflekterende prompt{i: "selvreflekterende prompt"} for at forbedre resultatet yderligere eller i det mindste give os noget at tænke over.
 
-## Hvor smart en model har du brug for?
+## Hvor klog en model har du brug for?
 
 Et element af prompt engineering{i: "prompt engineering"} er at være bevidst om, hvilken model du bruger.
 
 Som nævnt i kapitlet "Modeller, modeller overalt"{i: "AI-modeller"}, har forskellige modeller forskellige karakteristika, og de fleste modeludbydere tilbyder flere versioner med forskellige intelligensniveauer.
 
-Det ender dermed ofte ud med "dyr og smart" versus "billig og mindre smart".
+Det ender dermed ofte ud med "dyr og klog" versus "billig og mindre klog".
 
 Så hvilken skal du bruge? Det afhænger af flere faktorer:
 
@@ -1102,14 +1102,14 @@ Lad os tage Einstein-eksemplet. Hans viden er omfattende, men han sidder fast i 
 
 
 
-Herunder kan ses, hvordan det kan se ud i praksis, når en bruger interagerer med din app, og din app til gengæld interagerer med LLM'en via funktionskald.
+Herunder kan ses, hvordan det ser ud i praksis, når en bruger interagerer med din app, og din app til gengæld interagerer med LLM'en via funktionskald.
 
 {alt: "Et flowchart der illustrerer en proces hvor en bruger spørger, "Hvad koster en brødrister?" til en applikation (App). Appen henter produktinformation fra en database (DB) ved hjælp af et funktionskald, getProductInfo("toaster"). Applikationen sender derefter informationen til en stor sprogmodel (LLM), som returnerer svaret, "Brødristere koster €12." Svaret sendes tilbage til brugeren."}
 ![](resources-da/475-toaster-da.png)
 
 1. Bruger spørger "Hvad koster en brødrister?"{i: "brødrister-pris"}
 2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}
-3. LLM'en{i: "LLM"} indser, at den har brug for info om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}
+3. LLM'en{i: "LLM"} indser, at den har brug for information om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}
 4. App'en tjekker i databasen og får al information om brødrister-produktet (inklusiv pris).
 5. App'en sender databasens svar (ufiltreret) tilbage til LLM'en{i: "LLM"}.
 6. LLM'en{i: "LLM"} fortolker dataene og genererer svaret: "Brødristeren koster 199 DKK".
