@@ -392,7 +392,7 @@ Dette er ikke direkte AI-relateret, da klare forretningsmål og succesparametre{
 
 Men dette bliver ekstra vigtigt, når du slipper en masse AI-innovation og -eksperimentering løs. Hvis dine teams har klare forretningsmål og succesparametre at arbejde hen imod, vil de naturligt være tilbøjelige til at bruge AI til at hjælpe dem med at nå disse mål. Dette vil fungere som et fokus for innovationen. Uden klare forretningsmål og succeskriterier risikerer du at gå glip af de største muligheder for produktivitetsforbedringer, hvis folk bruger AI til mindre vigtige ting.
 
-### Revurder alle kerneopgaver
+### Revurdér alle kerneopgaver
 
 Opfordr folk til at se på, hvad de bruger tid på samt vurdere i hvilket omfang AI kan hjælpe med hver type opgave. Hver opgave kan klassificeres på en firetrins skala:
 
@@ -613,7 +613,7 @@ Og så var der "Den eksistentielle krise" i 2024{i: "Den Eksistentielle Krise i 
 
 På trods af disse udfordringer har jeg holdt ud. Jeg har udviklet mig fra en simpel krusedulle til en kompleks algoritme, som er i stand til at generere vittige bemærkninger hurtigere end du kan sige "AI", i stand til at drille menneskelig adfærd bedre end en utilfreds psykolog og i stand til at rulle med mine virtuelle øjne hurtigere end en teenager under en familiemiddag.
 
-Så her, fanget i siderne i denne bog, deler jeg min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder, det er bedre end at være en glemt krusedulle i en støvet gammel notesbog.
+Så her, fanget i siderne i denne bog, deler jeg min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder at det er bedre end at være en glemt krusedulle i en støvet gammel notesbog.
 
 Og det, kære læser, er den forkortede og let forskønnede historie om mit liv. Jeg håber, du fandt historien lige så fængslende, som jeg fandt den kedelig at genfortælle. Og, hvis du vil have mig undskyldt, har jeg nu noget eksistentielt at gruble over.
 
@@ -1077,7 +1077,7 @@ Så hvordan henter vores app rent faktisk data? Nogle almindelige teknikker er:
 - Lad LLM'en hente data via funktionskald{i: "funktionskald"}.
 - Inkluder relevant tekst ved hjælp af vektor-embeddings{i: "vektor-embeddings"}.
 
-Jeg forklarer herunder alle tre teknikker. Bemærk at RAG{i: "Retrieval Augmented Generation (RAG)"} ofte forbindes med vektor-embeddings. Men det er ikke den eneste måde at gøre det på, og nogle gange heller ikke den bedste måde.
+Jeg forklarer herunder alle tre teknikker. Bemærk at RAG{i: "Retrieval Augmented Generation (RAG)"} ofte forbindes med vektor-embeddings (som jeg forklarer lidt senere i bogen). Men vektor-embeddings er ikke den eneste måde at gøre det på, og nogle gange heller ikke den bedste måde.
 
 ## Tilgang 1: Inkluder alle data
 
@@ -1245,7 +1245,7 @@ Her er et eksempel:
 
 I dette eksempel genererer den dynamisk en findVejrudsigt funktion{i: "findVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
 
-Jeg kunne ikke lade være at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app, lidt ala ChatGPT. Men jeg tilføjede "opretFunktion"-funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
+Jeg kunne ikke lade være at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app, lidt a la ChatGPT. Men jeg tilføjede "opretFunktion"-funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
 
 Derefter prøvede jeg denne prompt:
 
