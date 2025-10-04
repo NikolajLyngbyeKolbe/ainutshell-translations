@@ -330,7 +330,7 @@ Tegn på at du har for meget vejledning/regler:
 - Folk gider ikke læse strategibogen, fordi den er for lang.
 - Folk gider ikke bruge AI, fordi der er så mange regler og begrænsninger{i: "begrænsninger"}, at det ikke er besværet værd.
 - Folk eksperimenterer ikke med AI, fordi de er bekymrede for at bryde en regel ved et uheld.
-- Der sker meget lidt AI-innovation og læring som følge af ovenstående.
+- Der sker ingen AI-innovation og læring som følge af ovenstående.
 
 Det er en svær balance at opnå. For at finde ud af hvor du er på denne skala, kan du spørge dine kollegaer og finde ud af de mest almindelige årsager til _ikke_ at bruge generativ AI{i: "Generativ AI"}.
 
@@ -343,7 +343,7 @@ En stor udfordring for mange virksomheder er datasikkerhed og compliance. De sig
 Her er nogle forslag til, hvordan man kan håndtere dette:
 
 - **Behandl det som andre cloud-tjenester**. Din virksomhed bruger med stor sandsynlighed allerede andre cloud-tjenester som AWS{i: "AWS"}, Office 365{i: "Office 365"}, GitHub{i: "GitHub"}, Google Calendar{i: "Google Calendar"}, Google-søgninger{i: "Google-søgninger"}, eller bare e-mail. Meget få virksomheder hoster deres egne fysiske servere til den slags ting, så du sender højst sandsynligt allerede data til tredjeparter, for eksempel når du søger på Google eller sender et dokument til nogen via e-mail. Så undersøg, hvad der i første omgang skulle til for at få disse tjenester godkendt, og gør så noget lignende for generativ AI.
-- **Se efter regionsspecifikke compliance-løsninger**. Som et eksempel er mange EU-virksomheder bekymrede for GDPR og ønsker ikke at sende data uden for EU{i: "EU"}. Men mange LLM'er{i: "LLM'er"} kan sagtens hostes inden for EU, og mange er også GDPR-compliant. Så start med at researche hvad der kan virke for dig.
+- **Se efter regionsspecifikke compliance-løsninger**. Som et eksempel er mange EU-virksomheder bekymrede for GDPR og ønsker ikke at sende data uden for EU{i: "EU"}. Men mange LLM'er{i: "LLM'er"} kan sagtens hostes inden for EU, og mange muliggøre også at organisationen kan være GDPR-compliant. Så start med at researche hvad der kan virke for dig.
 - **Udforsk selv-hostede muligheder**. Nogle LLM'er kan downloades og hostes lokalt. Så det kan også være en mulighed.
 
 Der er også andre muligheder. Mit vigtigste budskab er: "Giv ikke op!". Som AI-leder er du nødt til at finde en eller anden måde at give folk adgang til gode AI-modeller. Hvis du ikke gør det, og dine konkurrenter gør, vil din virksomhed være lige så handicappet, som hvis de ikke tillod folk at bruge internettet.
@@ -362,7 +362,7 @@ Så for de fleste virksomheder er det en indlysende investering at give alle adg
 
 ## Trin 2: Eksperimentering
 
-At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **eksperimenteringskultur**{i: "eksperimenteringskultur"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
+At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **kultur med plads til at eksperimentering**{i: "kultur med plads til at eksperimentering"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
 
 Nogle retningslinjer:
 
@@ -572,7 +572,7 @@ Jo mere du lærer og spreder viden om generativ AI{i: "Generativ AI"}, jo mere s
 
 En måde, hvorpå du kan støtte AI-transformationen{i: "AI-transformation"} er ved at være en rollemodel. Brug selv teknologien til dine egne opgaver. Prøv mange idéer af, og del det, du lærer. Vis det som virker frem, og del sjove historier om fiaskoerne. Lad din AI-avatar præsentere ved næste personalemøde. Brug AI til at hjælpe med at skabe dagsordenen for din næste workshop. Brug AI til at tage mødenotater fra workshoppen. Vær ikke bange for at se fjollet ud. Hvis folk ser, at du prøver mange skøre idéer af, vil de være mere tilbøjelige til at gøre det samme. Og det er sådan, store idéer bliver født.
 
-## Undgå at bruge AI til at fyre folk
+## Undgå at fyre folk på grund af AI
 
 Jeg kender ikke din situation, så jeg kan ikke fortælle dig, hvad du skal gøre. Men som et generelt princip: Undgå at fyre folk på grund af AI.
 
