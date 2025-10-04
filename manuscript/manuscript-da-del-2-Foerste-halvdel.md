@@ -67,11 +67,11 @@ Efterhånden som jeg udvidede deres adfærdsregler, føltes gruppen af piglins m
 
 I sommeren 2022 havde jeg en interessant samtale med en ven, mens jeg kodede. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke fatte, at en computer kunne udføre den slags kreativt arbejde.
 
-Få måneder senere blev ChatGPT-3.5{i: "ChatGPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede det, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med dette program, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode - men koden var fejlbehæftet. Og når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
+Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede det, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med dette program, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode - men koden var fejlbehæftet. Og når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
 
 Så det var sejt og imponerende, men ikke særligt brugbart i praksis.
 
-I begyndelsen af 2023 blev GPT-4{i: "GPT-4"} så frigivet. De første målinger{i: "Målinger"} viste, at den havde langt flere evner end GPT-3.5, og blandt andet var rigtig god til at kode. Og i en række standardiserede tests og akademiske målinger designet til mennesker, kunne ChatGPT-4 faktisk matche eller overgå de menneskelige præstationer. Det virkede næsten for godt til at være sandt.
+I begyndelsen af 2023 blev GPT-4{i: "GPT-4"} så frigivet. De første målinger{i: "Målinger"} viste, at den havde langt flere evner end GPT-3.5, og blandt andet var rigtig god til at kode. Og i en række standardiserede tests og akademiske målinger designet til mennesker, kunne GPT-4 faktisk matche eller overgå de menneskelige præstationer. Det virkede næsten for godt til at være sandt.
 
 Jeg besluttede at tage fri en periode og fordybe mig i denne teknologi{i: "Teknologi"}.
 
@@ -103,7 +103,7 @@ Min prompt var meget kort:
 
 ChatSource{i: "ChatSource"} er min abstrakte klasse for alle ting, man kan chatte med, og DiscordChatSource{i: "DiscordChatSource"} er en konkret implementering for Discord{i: "Discord"}. Det eneste jeg gjorde, var at give GPT-4{i: "GPT-4"} denne kode og bede den om at implementere TelegramChatSource{i: "TelegramChatSource"}.
 
-Til min overraskelse genererede den koden for hele klassen. Vi lagde den ud på serveren uden nogle ændringer, og den virkede fejlfrit. Ikke nok med det, men koden passede perfekt ind i min platform og fulgte samme struktur og navngivningskonventioner som mine andre chatudbydere. Den rettede endda nogle fejl undervejs, fejl der hele tiden havde været i min kode. I stedet for at bruge en aften eller to, som vi havde forventet, brugte vi 15 minutter og var færdige.
+Til min overraskelse genererede den koden for hele klassen. Vi lagde den ud på serveren uden nogle ændringer, og den virkede fejlfrit. Ikke nok med det, men koden passede perfekt ind i min platform og fulgte samme struktur og navngivningskonventioner som mine andre chatudbydere. Den rettede endda undervejs nogle fejl, der hele tiden havde været i min kode. I stedet for at bruge en aften eller to, som vi havde forventet, brugte vi 15 minutter og var færdige.
 
 Hvordan kunne det fungere så nemt? Fordi:
 
@@ -123,7 +123,7 @@ Hovedfordele:
 2. **Jeg lærer hurtigere.** Hvis jeg sidder fast eller ikke forstår den genererede kode, beder jeg om en forklaring. Dette accelererer min læring markant. Det er som at have en personlig underviser ved siden af mig hele tiden.
 3. **Jeg har det sjovere.** Jeg bruger mindre tid dybt begravet i detaljerne, mens jeg forsøger at løse tekniske problemer. I stedet kan jeg fokusere på det overordnede billede - den næste funktion jeg vil bygge - og få det gjort hurtigt.
 
-På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, om ikke andet for den sociale kontakt. To personer + en AI fungerer rigtig godt.
+På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, om ikke andet for den sociale kontakt. To personer plus en AI fungerer rigtig godt.
 
 Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompts'ne, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men for simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
 
@@ -133,7 +133,7 @@ Dette er grunden til, at jeg tror, at udviklere som ikke forstår denne teknolog
 
 Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var da jeg skrev en artikel med titlen ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "Er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
 
-Jeg fortalte ChatGPT-4{i: "ChatGPT-4"}, at jeg havde skrevet en ret lang artikel og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var, jeg svarede "6000 ord", og den bad mig så om at give den artikel, én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPT's webgrænseflade{i: "ChatGPTs webgrænseflade"}.
+Jeg fortalte GPT-4{i: "GPT-4"}, at jeg havde skrevet en ret lang artikel og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var, jeg svarede "6000 ord", og den bad mig så om at give den artikel, én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPT's webgrænseflade{i: "ChatGPTs webgrænseflade"}.
 
 Den gav mig overraskende brugbar feedback. Den slags ærlig og nuanceret feedback jeg ville forvente fra en professionel redaktør{i: "Professionel redaktør"}, med kommentarer om artiklens tone, målgruppe osv.
 
@@ -161,7 +161,7 @@ Den undskyldte og fortsatte derefter med at gøre det, den burde gøre, nemlig b
 
 ## Måske er vi ikke så kreative og intelligente, som vi tror
 
-Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generativ AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner, så måske er vores intelligens også bare en illusion. Jeg synes at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne, nu bliver endnu mere relevante!
+Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generative AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner, så måske er vores intelligens også bare en illusion. Jeg synes at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne, nu bliver endnu mere relevante!
 
 Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og fokusere helt på generativ AI. Så jeg kunne lære hvordan AI virker og dermed hjælpe mennesker og virksomheder med at bruge det i praksis. Og hjælpe med at lave AI-agenter!
 
@@ -188,7 +188,7 @@ Dette kapitel er en mini-guide til, hvordan du leder din organisation gennem en 
 
 ## Hvad er en AI-transformation, og hvorfor er den vigtig?
 
-AI-transformation betyder for mig at gøre din virksomhed "AI-native", hvor hver person, team og funktion i virksomheden har adgang til gode generativ AI-modeller, ved hvordan man bruger dem effektivt og integrerer AI i deres arbejdsprocesser og daglige arbejde.
+AI-transformation betyder for mig at gøre din virksomhed "AI-native", hvor hver person, team og funktion i virksomheden har adgang til gode generative AI-modeller, ved hvordan man bruger dem effektivt og integrerer AI i deres arbejdsprocesser og daglige arbejde.
 
 Når folk holder op med at tale om generativ AI og bare bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
 
@@ -274,7 +274,7 @@ Trinene overlapper dog til en vis grad.
 - Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
 - Mens du udnytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
 
-Du kunne bruge denne tre-trins ramme til at måle din fremgang, for eksempel gennem en regelmæssig undersøgelse for at finde ud af, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
+Du kunne bruge denne tretrins ramme til at måle din fremgang, for eksempel gennem en regelmæssig undersøgelse for at finde ud af, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
 
 {width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Eksperimentering og Udnyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Udnyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
 ![](resources-da/510-dashboard-da.png)
@@ -466,12 +466,12 @@ For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker 
 
 Et par eksempler:
 
-- En arbejdsgang som "skriv mødereferat" kunne elimineres, hvis en AI løbende automatisk transskriberer et møde.
-- Et kvalitetskontrolstrin kan elimineres, hvis den foregående produktionsopgave får tilstrækkelig AI-assistance til helt at undgå kvalitetsproblemer.
+- En arbejdsgang som "skriv mødereferat" kan elimineres, hvis en AI løbende automatisk transskriberer et møde.
+- En tidligere nødvendig del af kvalitetskontrollen kan elimineres, hvis den foregående produktionsopgave får tilstrækkelig AI-assistance til helt at undgå kvalitetsproblemer.
 
 ### Eksempel: RFP-agent
 
-Vi har for nylig gennemført nogle workshops ala denne for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så et stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. Virksomheden modtager tusindvis af RFP'er om måneden, hver med masser af siders tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
+Vi har for nylig gennemført nogle workshops a la denne for en stor svensk{i: "Sverige"} virksomhed i byggebranchen. Et område hvor vi så et stort potentiale for generativ AI{i: "generativ AI"} var i deres RFP-proces (Request for Proposal){i: "RFP-proces"}, som bruges af mulige kunder til at få tilbud fra virksomheden. Virksomheden modtager tusindvis af RFP'er om måneden, hver med masser af siders tekst. Vi samlede en række domæneeksperter og diskuterede, hvordan de i dag håndtererede RFP'er.
 
 For hver RFP skulle de vurdere:
 
@@ -559,7 +559,7 @@ Som AI-leder skal du hjælpe med at accelerere denne proces gennem videndeling o
 En konsekvens af generativ AI er, at nogle ting, der tidligere var meget dyre og komplicerede at udføre, nu er meget simple.
 For eksempel:
 
-- Følelsesanalyse (på engelsk "sentiment analysis"){i: "sentimentanalyse"}. Dette er klassificering af en given tekst som positiv eller negativ, og er typisk brugt til overvågning af sociale medier, kundefeedback osv.
+- Sentimentanalyse{i: "sentimentanalyse"}. Dette er klassificering af en given tekst som positiv eller negativ, og er typisk brugt til overvågning af sociale medier, kundefeedback osv.
 - Billedanalyse{i: "billedanalyse"}, såsom genkendelse af objekter eller billedbeskrivelser.
 
 Sådanne ting har traditionelt været ret dyre og tidskrævende. Man skulle træne en specialiseret model, indsamle store mængder data og have et team af professionelle dataloger til at arbejde på det. Men nu kan du udføre denne type opgaver med en simpel prompt til en generativ AI-model.
@@ -933,7 +933,7 @@ Jeg har givet dig en masse tips{i: "prompt engineering-tips"}, tricks og teknikk
 
 Hvad er prompt-generering, og hvad har det med vrede bedstemødre{i: "vrede bedstemødre"} at gøre? Læs videre og find ud af det.
 
-På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham til at generere "Vred bedstemor"-billeder. Spørg mig ikke hvorfor. Det startede med at min fætter bad om et "billede af en sød ældre dame der smiler", og så udviklede det sig gradvist til "gør hende vred", og så "Gør hende endnu vredere. Hun er RASENDE!", og så videre. Det endte med at blive lidt af en konkurrence.
+På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham til at generere "Vred bedstemor"-billeder. Spørg mig ikke hvorfor. Det startede med, at min fætter bad om et "billede af en sød ældre dame der smiler", og så udviklede det sig gradvist til "gør hende vred", og så "Gør hende endnu vredere. Hun er RASENDE!", og så videre. Det endte med at blive lidt af en konkurrence.
 
 {alt: "Billedet viser to ældre kvinder, der udtrykker vrede. Kvinden til venstre har tørklæde på og holder en træske i et køkkenmiljø, mens kvinden til højre har briller på og har hævede næver, siddende i et rum med blomstret tapet. Begge har livlige ansigtsudtryk."}
 ![](resources-da/310-grandma-1-da.jpg)
@@ -1277,7 +1277,7 @@ Jeg kunne slet ikke tro det, og spekulerede på om den mon hallucinerede. Men je
 {alt: "Screenshot of a GitHub repository page for "test-project" by user "hkniberg." The image shows a commit with the message "Changed output to 'Life is interesting'" made on September 3, 2023. The commit ID is 63213fc, and it is displayed under the "Commits" section."}
 ![](resources-da/475-commit-da.png)
 
-Jeg var forbløffet over, at den automatisk kunne skrive og køre al den kode, der var nødvendig for at løse opgaven, uden nogen vejledning fra mig. Og dette var med GPT4-modellen i september 2023{i: "GPT-4"}, som er underlegen i forhold til de modeller, vi har i dag.
+Jeg var forbløffet over, at den automatisk kunne skrive og køre al den kode, der var nødvendig for at løse opgaven, uden nogen vejledning fra mig. Og dette var med GPT-4-modellen i september 2023{i: "GPT-4"}, som er underlegen i forhold til de modeller, vi har i dag.
 
 Selvfølgelig er der alle mulige sikkerhedsrisici forbundet med dette, og man skal være meget forsigtig med at tilføje denne type funktionalitet til et rigtigt produkt{i: "sikkerhedsrisici"}. Men dette lille eksperiment gav mig et glimt af, hvor kraftfuld denne teknologi kan være.
 
