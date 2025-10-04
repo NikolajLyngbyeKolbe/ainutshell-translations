@@ -3,7 +3,7 @@
 
 # Del 2 - Ud af nøddeskallen
 
-Velkommen til del 2! Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du ønsker.
+Velkommen til del 2. Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du ønsker.
 
 Vi dykker ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og nogle ting, som egentligt bare er fjollede. Noget er måske relevant for dig, mens andet ikke er det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
 
@@ -31,7 +31,7 @@ Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til 
 
 Spol nogle årtier frem, og jeg befandt mig som gameplay-designer og udvikler hos Mojang{i: "Mojang"}, hvor jeg byggede forskellige funktioner i spillet Minecraft. Et af de områder, jeg arbejdede med, var landsby-AI{i: "landsby-AI"}.
 
-Minecraft{i: "Minecraft"} har landsbyboere, som går frit omkring og lever deres daglige liv i Minecraft-verdenen. Jeg syntes, at det var virkelig interessant, hvordan simple regler i koden kunne skabe denne illusion af intelligens.
+Minecraft{i: "Minecraft"} har landsbyboere, som går frit omkring og lever deres daglige liv i Minecraft-verdenen. Jeg syntes, at det var virkelig interessant, hvordan simple regler i kode kunne skabe denne illusion af intelligens.
 
 En af de første funktioner, som jeg arbejdede på, var børnene i landsbyerne. For at få landsbyerne til at føles mere levende, ønskede vi børn, der løb rundt, hoppede i senge og legede fangeleg.
 
@@ -55,9 +55,9 @@ Senere arbejdede jeg på en skabning i Minecraft kaldet piglin{i: "Piglin"}, en 
 {alt: "En kantet, humanoid skabning fra Minecraft, kendt som en Piglin, står på en stenoverflade i et dunkelt oplyst, huleklædt miljø. Den holder et gyldent sværd, og en anden lignende karakter er synlig i baggrunden."}
 ![](resources-da/440-piglin-da.jpg)
 
-Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglin'en var i bund og grund bare en statue, der stod og kiggede lige frem, helt uden liv og adfærd.
+Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglinen var i bund og grund bare en statue, der stod og kiggede lige frem, helt uden liv og adfærd.
 
-De fleste spilkarakterer i Minecraft kigger på spilleren fra tid til anden, så jeg besluttede at starte med dette. Denne ene ændring gjorde en kæmpe psykologisk forskel! Når jeg bevægede mig rundt i spillet, drejede piglin'en hovedet for at _kigge på mig_! Følelsesmæssigt var dette væsen nu _levende_! Selvfølgelig vidste jeg inderst inde godt, at den ikke var det, men denne ene lille ændring skabte virkeligt en følelse af fordybelse.
+De fleste spilkarakterer i Minecraft kigger på spilleren fra tid til anden, så jeg besluttede at starte med dette. Denne ene ændring gjorde en kæmpe psykologisk forskel! Når jeg bevægede mig rundt i spillet, drejede piglinen hovedet for at kigge på mig! Følelsesmæssigt var dette væsen nu _levende_! Selvfølgelig vidste jeg inderst inde godt, at den ikke var det, men denne ene lille ændring skabte virkeligt en følelse af fordybelse.
 
 Jeg finder det fascinerende, hvordan vores hjerner fungerer, dvs. hvordan vi tillægger små ting stor betydning{i: "betydning"}. AI kan på den måde få dig til at føle, at du interagerer med et levende, tænkende væsen{i: "AI"}.
 
@@ -65,9 +65,9 @@ Efterhånden som jeg udvidede deres adfærdsregler, føltes gruppen af piglins m
 
 ## ChatGPT
 
-I sommeren 2022 havde jeg, mens jeg kodede, en interessant samtale med en ven. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke fatte, at en computer kunne udføre den slags kreativt arbejde.
+I sommeren 2022 havde jeg, mens jeg kodede, en interessant samtale med en ven. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke tro, at en computer kunne udføre den slags kreativt arbejde.
 
-Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede programmet, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med programmet, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode - men koden var fejlbehæftet. Og når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
+Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede programmet, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med programmet, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode, men koden var fejlbehæftet. Når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
 
 Så det var sejt og imponerende, men ikke særligt brugbart i praksis.
 
@@ -80,7 +80,7 @@ Jeg besluttede at tage fri en periode og fordybe mig i denne teknologi{i: "Tekno
 
 ## Aha-oplevelse nummer 1: Den kan kode som en professionel!
 
-Da jeg begyndte at bruge GPT-4 som programmerings-assistent{i: "programmerings-assistent"}, blev jeg fuldstændig målløs. Jeg er ikke religiøs, men jeg følte, at jeg havde mødt programmørens svar på Gud. Selvfølgelig var den ikke perfekt. Nogle gange gav den mig kode, der ikke fungerede. Men jeg bemærkede efter et stykke tid, at næsten hver gang den gav mig dårlig kode, var det faktisk min egen skyld. Min prompt var uklar, eller jeg havde ikke givet nok kontekst (som f.eks. anden kode, som den AI-genererede kode skulle være afhængig af eller interagere med){i: "prompt engineering"}.
+Da jeg begyndte at bruge GPT-4 som programmeringsassistent{i: "programmeringsassistent"}, blev jeg fuldstændig målløs. Jeg er ikke religiøs, men jeg følte, at jeg havde mødt programmørens svar på Gud. Selvfølgelig var den ikke perfekt. Nogle gange gav den mig kode, der ikke fungerede. Men jeg bemærkede efter et stykke tid, at næsten hver gang den gav mig dårlig kode, var det faktisk min egen skyld. Min prompt var uklar, eller jeg havde ikke givet nok kontekst (som f.eks. anden kode, som den AI-genererede kode skulle være afhængig af eller interagere med){i: "prompt engineering"}.
 
 Med tiden lærte jeg at blive virkelig god til at forklare, hvad jeg ville have, og give den præcis den rigtige kontekst. Efterhånden som mine prompt engineering-færdigheder blev bedre, voksede mine superkræfter. I dag, når jeg koder med AI, har jeg en intuitiv fornemmelse for, hvornår jeg bare kan stole på den AI-genererede kode, og hvornår jeg skal tjekke den grundigt. Og som regel, hvis jeg får prompten lavet rigtig, virker koden med det samme.
 
@@ -107,7 +107,7 @@ Til min overraskelse genererede den koden for hele klassen. Vi lagde den ud på 
 
 Hvordan kunne det fungere så nemt? Fordi:
 
-1. AI'en åbenbart kendte Telegram API'et{i: "Telegram API"} fra sine træningsdata.
+1. AI'en tilsyneladene kendte Telegram API'et{i: "Telegram API"} fra sine træningsdata.
 2. Min Discord-kode var åbenbart tilstrækkelig til at vise, hvordan min platform virker, og hvordan koden skulle integreres.
 3. Min prompt var kort, men den angav et klart mål og gav præcis den rigtige kontekst.
 
@@ -168,7 +168,7 @@ Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og foku
 Min grundlæggende tanke var således: Når et enkelt værktøj både kan generere virkelig god kode og næsten skrive min egen artikel for mig, så er det noget, der er værd at tage alvorligt. Enhver, der er dygtig til at bruge dette effektivt, får superkræfter. Det skal jeg være med til!
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
-</B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. Nogen skal jo rengøre vores skabe med servere, ikke?
+</B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. For nogen skal jo rengøre vores skabe med servere, ikke?
 
 # At lede en AI-transformation
 
@@ -181,22 +181,22 @@ Når vi hjælper vores kunder, får vi ofte spørgsmål som:
 - "Hvordan bliver vi en AI-native virksomhed?"
 - "Hvor skal vi starte?"
 
-Dette kapitel er en mini-guide til, hvordan du leder din organisation gennem en AI-transformation.
+Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en AI-transformation.
 
 > **Her kan du lære endnu mere**  
 > Hvis du er interesseret i en mere dybdegående guide, har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk kaldet "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformations-rammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel, som en forsmag på den bog.
 
 ## Hvad er en AI-transformation, og hvorfor er den vigtig?
 
-AI-transformation betyder for mig at gøre din virksomhed "AI-native", hvor hver person, team og funktion i virksomheden har adgang til gode generative AI-modeller, ved hvordan man bruger dem effektivt og integrerer AI i deres arbejdsprocesser og daglige arbejde.
+AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomehed har hver person, team og funktion i virksomheden  adgang til gode generative AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
 
-Når folk holder op med at tale om generativ AI og bare bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
+Når folk holder op med at tale om generativ AI og bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
 
-Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det, andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble, den såkaldte "dot-com-boble"{i: "dot-com-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
+Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det, andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble, den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
 Men på trods af at boblen sprang, var selve teknologien kommet for at blive. Internettet{i: "Internet"} var en teknologisk revolution, der ændrede vores samfund for bestandigt. I dag er det svært at forestille sig en verden uden internet. I de fleste virksomheder bruges internettet i alle forretningsområder og alle teams, og virksomheder kan grundlæggende ikke eksistere uden det.
 
-Jeg tror, vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dot-com-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} frem som paddehatte. Vi er måske i en boble igen, og den kan også sprænge højlydt. Men på trods af dette er den teknologiske forandring kommet for at blive.
+Jeg tror, vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dotcom-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} frem som paddehatte. Vi er måske i en boble igen, og den kan også sprænge højlydt. Men på trods af dette er den teknologiske forandring kommet for at blive.
 
 Ligesom med internettet er jeg ret sikker på, at virksomheder, der ikke fremadrettet bruger generativ AI i det daglige arbejde, vil være ude af stand til at konkurrere med de virksomheder, som gør det.
 
@@ -224,7 +224,7 @@ Denne tilgang er grundlæggende en ukontrolleret, decentraliseret og organisk fo
 
 Så hvilken tilgang skal du vælge?
 
-Tja, med de udødelige ord, som du måske kender fra "Why Not Both?"-meme-pigen, så "Hvorfor ikke begge"?
+Med de udødelige ord, som du måske kender fra "Why Not Both?"-meme-pigen, kunne svaret være "Hvorfor ikke begge?".
 
 {width: "40%", alt: "Ung pige der smiler med tekstoverlay der siger "WHY NOT BOTH." Baggrunden inkluderer et sløret køkkenmiljø."}
 ![](resources-da/510-why-not-both-da.jpg)
