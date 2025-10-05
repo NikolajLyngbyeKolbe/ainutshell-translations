@@ -211,7 +211,7 @@ Så hvordan får du AI-transformationen til at ske? Top-down{i: "top-down"} elle
 {width: "70%", alt: "Diagram af Kotters 8-trins model. Den viser en central cirkel med teksten 'Kotters 8-trins model,' omgivet af otte farvede cirkler. Trinnene inkluderer: Skab en følelse af nødvendighed, Byg en styrende koalition, Form strategiske visionsinitiativer, Hverv en frivillig hær, Muliggør handling ved at fjerne barrierer, Generer kortsigtede sejre, Oprethold acceleration, og Instituer forandring."}
 ![](resources-da/510-kotter-da.png)
 
-Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med aktiviteter som "Skab en følelse af nødvendighed", "Fjern barrierer for handling", "Skab kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
+Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med trin, som oversat til dansk, for eksempel er "Etabler en følelse af nødvendighed", "Fjern forhindringer der kan stå i vejen", "Skab også kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
 
 En anden tilgang er at lade forandringen ske bottom-up, uden central kontrol.
 
