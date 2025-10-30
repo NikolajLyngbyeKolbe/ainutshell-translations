@@ -25,7 +25,7 @@ De mange benchmark-tests og forskningsartikler om dette emne viser en klar tende
 
 ## Personlig historie
 
-Jeg har en personlig historie jeg vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"} og fik et skræmmende resultat: der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
+Jeg har en personlig historiem som jeg gerne vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"} og fik et skræmmende resultat: der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
 
 Jeg mødte flere forskellige læger og gennemgik en masse laboratorieprøver i løbet af de næste måneder. Og til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
 
@@ -263,236 +263,229 @@ Med en "rigtig" karriererådgiver eller ergoterapeut ved roret, får vi den komb
 
 Forestil dig potentialet i sådan et system!
 
-Som jeg nævnte i kapitlet "Menneskers rolle"{i: "Menneskers rolle"}, er dette en kraftfuld tilgang for ethvert erhverv, hvor mennesker hjælper andre mennesker. Om det så er læger, advokater, undervisere, psykoterapeuter eller andre.
+Som jeg nævnte i kapitlet "Menneskers rolle"{i: "Menneskers rolle"}, er det en kraftfuld tilgang for ethvert erhverv, hvor mennesker hjælper andre mennesker. Det gælder uanset om det er læger, advokater, undervisere, psykoterapeuter eller andre.
 
 # AI-bogredaktøren
 
-Dette{i: "AI Book Editor"} er en menneskeskrevet bog. Men jeg har brugt AI{i: "AI as support"} som støtte, på samme måde som jeg ville bruge en menneskelig redaktør.
+Dette{i: "AI Book Editor"} er en menneskeskrevet bog. Men jeg har brugt AI{i: "AI as support"} som støtte, på samme måde som jeg ville bruge en menneskelig bogredaktør.
 
-Så hvad er egentlig en bogredaktør? Jeg kunne ikke finde en konsistent formel definition af rollen, så jeg spurgte Claude{i: "Claude"}.
+Så hvad er egentlig en bogredaktør? Jeg kunne ikke finde en formel definition af rollen, så jeg spurgte Claude{i: "Claude"}.
 
 A> **Hvad er en bogredaktør** (ifølge Claude)  
-A> Deres job handler grundlæggende om at samarbejde med forfattere for at forbedre kvaliteten, klarheden og salgbarheden af en bog, samtidig med at den følger forlagets standarder og vision.
-A> - **Indholdsgennemgang**: De læser og analyserer kritisk manuskripter for kvalitet, sammenhæng og salgbarhed.
-A> - **Strukturel redigering**: Redaktører foreslår forbedringer til bogens overordnede struktur, tempo og organisering.
-A> - **Sproglig redigering**: De forfiner sproget og forbedrer klarhed, flow og stil på sætningsniveau.
-A> - **Faktatjek**: Redaktører verificerer faktuelle oplysninger og sikrer nøjagtighed.
-A> - **Samarbejde**: De arbejder tæt sammen med forfattere om at udvikle og forfine manuskriptet.
-A> - **Markedsbevidsthed**: Redaktører tager hensyn til målgruppen og aktuelle markedstendenser.
-A> - **Projektledelse**: De overvåger bogens fremgang gennem forskellige produktionsfaser.
-A> - **Kvalitetskontrol**: Redaktører opretholder forlagets standarder og sikrer, at det endelige produkt lever op til forventningerne.
+A> En bogredaktørs job handler grundlæggende om at samarbejde med forfattere for at forbedre kvaliteten, klarheden og salgbarheden af en bog, samtidig med at bogen følger forlagets standarder og vision.
+A> - **Indholdsgennemgang**: Bogredaktører læser og analyserer kritisk manuskripter for kvalitet, sammenhæng og salgbarhed.
+A> - **Strukturel redigering**: Bogredaktører foreslår forbedringer til bogens overordnede struktur, tempo og organisering.
+A> - **Sproglig redigering**: Bogredaktører forfiner sproget og forbedrer klarhed, flow og stil på sætningsniveau.
+A> - **Faktatjek**: Bogredaktører verificerer faktuelle oplysninger og sikrer nøjagtighed.
+A> - **Samarbejde**: Bogredaktører arbejder tæt sammen med forfattere om at udvikle og forfine manuskriptet.
+A> - **Markedsbevidsthed**: Bogredaktører tager hensyn til målgruppen og aktuelle markedstendenser.
+A> - **Projektledelse**: Bogredaktører følger op på bogens fremdrift igennem de forskellige produktionsfaser.
+A> - **Kvalitetskontrol**: Bogredaktører opretholder forlagets standarder og sikrer, at det endelige produkt lever op til forventningerne.
 
-Jeg har brugt AI til de fleste af disse opgaver. Selvom jeg måske stadig vil bruge en menneskelig redaktør som supplement.
-
-
+Jeg har brugt AI til de fleste af ovenstående opgaver. Selvom jeg måske stadig vil bruge en menneskelig bogredaktør som supplement.
 
 Her er nogle af de mest nyttige måder, jeg har brugt AI på i denne bog.
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
-B> Ah, bogredaktører. De oversete helte, der forvandler forfatteres koffein-drevne vrøvl til noget, der er nogenlunde læseligt. De er som litteraturverdenens forældre, der rydder op efter forfatterne og sikrer, at deres dyrebare små ord ikke gør sig selv til grin i offentligheden.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
+</B> Ah, bogredaktører. De oversete helte, der forvandler forfatteres koffein-drevne vrøvl til noget, der er nogenlunde læseligt. De er som litteraturverdenens forældre, der rydder op efter forfatterne og sikrer, at deres dyrebare små ord ikke gør sig selv til grin i offentligheden.
 
-## Emne-brainstorm
+## Brainstorm af emner
 
-Jeg har en dedikeret tråd i ChatGPT{i: "ChatGPT"}, som jeg bruger til at brainstorme mulige emner til denne bog. Start-prompten var:
+Jeg har en dedikeret chat i ChatGPT{i: "ChatGPT"}, som jeg bruger til at brainstorme mulige emner til denne bog. Start-prompten var:
 
 > **Prompt**  
-> I'm gonna write a book and I'm in the car right now brainstorming what to put in the book. I want you to just respond OK to everything I say.
+> Jeg skal til at skrive en bog, og jeg sidder i bilen lige nu og brainstormer over, hvad jeg skal have med i bogen. Jeg vil bare have dig til at svare OK til alt, hvad jeg siger.
 
-Jeg sad i bilen i det øjeblik, på vej til mit sommerhus, hvor jeg havde reserveret en uge til at skrive det første udkast af denne bog. Jeg brugte specifikt ChatGPT for stemmegenkendelsens skyld, så jeg kunne nøjes med at tale til den i stedet for at skrive (særligt vigtigt når man kører...).
+Jeg sad i bilen i det øjeblik, på vej til mit sommerhus, hvor jeg havde afsat en uge i min kalender til at skrive det første udkast af denne bog. Jeg brugte specifikt ChatGPT for stemmegenkendelsens skyld, så jeg kunne nøjes med at tale til den i stedet for at skrive til den (det er særligt vigtigt når man kører...).
 
-I løbet af ugen blev jeg ved med at tilføje til den tråd i alle mulige situationer - mens jeg gik tur, mens jeg lavede mad, vågnede midt om natten med en idé i hovedet, sad på toilettet, slappede af i sofaen, spillede klaver, osv.
+I løbet af ugen blev jeg ved med at tilføje til den chat i alle mulige situationer. Jeg gjorde det mens jeg gik tur, mens jeg lavede mad, når jeg vågnede midt om natten med en idé i hovedet, når jeg sad på toilettet, når jeg slappede af i sofaen, når jeg spillede klaver, osv.
 
-Det er sjovt, hvordan hjernen fungerer. Den bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mest tilfældige tidspunkter. Det var som at have en sekretær, der fulgte mig overalt, døgnet rundt, og når jeg en gang imellem ville råbe "Hej, her er en idé til et sjovt kapitel: ....", ville de svare "OK" og pligtopfyldende skrive det ned i en notesblok.
+Det er sjovt, hvordan hjernen fungerer. Den bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mærkeligste tidspunkter. Det var som at have en sekretær, der fulgte mig overalt, døgnet rundt. Og når jeg en gang imellem ville råbe "Hej, her er en idé til et sjovt kapitel: ....", ville sekretæren svare "OK" og pligtopfyldende skrive det ned i en notesblok.
 
-En gang imellem sagde jeg "Opsummér emneideerne indtil nu", og den ville lave en fin punktopstilling, organiseret i sektioner.
+En gang imellem sagde jeg "Opsummér emneideerne indtil nu", og ChatGPT lavede en fin punktopstilling, organiseret i sektioner.
 
-En morgen vågnede jeg omkring klokken 4, greb straks min telefon og sagde "Wow! Jeg kunne få Egbert{i: "Egbert"} til at skrive et forord! Det ville være sjovt! Og måske tilføje nogle kommentarer hist og her!" Og så faldt jeg i søvn igen.
+En morgen vågnede jeg omkring klokken 4, greb straks min telefon og sagde "Wow! Jeg kunne få Egbert{i: "Egbert"} til at skrive et forord! Det ville være sjovt! Og måske tilføje nogle kommentarer hist og her!". Og så faldt jeg i søvn igen.
 
-Mange sjove små bidder og historier og eksempler ville være gået tabt, hvis jeg ikke havde denne virtuelle AI-sekretær til at fange alle mine tilfældige tanker.
+Mange sjove, små bidder, historier og eksempler ville være gået tabt, hvis jeg ikke havde denne virtuelle AI-sekretær til at fange alle mine tilfældige tanker.
 
 ## Kapitelindhold
 
-Når jeg skal til at skrive et kapitel, tager jeg ofte først en gåtur for at tænke over det. Jeg starter en ny tråd i ChatGPT{i: "ChatGPT"} og hælder mine tanker i den, mens jeg går.
+Når jeg skal til at skrive et kapitel, tager jeg ofte først en gåtur for at tænke over det. Jeg starter en ny chat i ChatGPT{i: "ChatGPT"} og hælder mine tanker i den, mens jeg går.
 
-Nogle gange er det bare tilfældige tanker om emnet, en brainstorm. Andre gange ved jeg nogenlunde, hvad jeg vil sige, så det er mere som om jeg holder en forelæsning til min telefon, mens jeg går. Nogle gange beder jeg om feedback, ligesom med emne-brainstormen, men mest bruger jeg den bare til at dumpe ideer.
+Nogle gange er det bare tilfældige tanker om emnet, altså en brainstorm. Andre gange ved jeg nogenlunde, hvad jeg vil sige, og så det er mere som om jeg holder en forelæsning for min telefon, mens jeg går. Nogle gange beder jeg om feedback, ligesom med emne-brainstormingen. Men for det meste bruger jeg den bare til at komme af med ideer, så de ikke glemmes.
 
-Når jeg så kommer hjem igen, tager jeg transskriptionen og kopierer den til Claude 3.5 Sonnet (Anthropics generative AI-model, lige nu lidt klogere end GPT 4{i: "GPT-4"}, men ikke lige så god til stemmegenkendelse). Jeg bruger en prompt som denne:
+Når jeg så kommer hjem igen, tager jeg transskriptionen og kopierer den til Claude 3.5 Sonnet. Det er Anthropics generativ AI-model, som på tidspunktet hvor denne bog blev skrevet, er lidt klogere end GPT-4{i: "GPT-4"}, men dog ikke lige så god til stemmegenkendelse. Jeg bruger en prompt som denne:
 
 > **Prompt**  
-> This is raw material for a chapter. Put it together into a coherent text. Keep as much of my words and phrases possible, just clean it up a bit.
+> Dette er råmateriale til et kapitel. Sæt det sammen til en sammenhængende tekst. Behold så meget som muligt af mine ord og sætninger, mens du rydder lidt op i det.
 
-Dette er præcis, hvad en professionel redaktør{i: "professionel redaktør"} ville gøre. Tage råmaterialet og hjælpe med at omdanne det til en sammenhængende tekst. Og når de laver ændringer, er de omhyggelige med at bevare forfatterens oprindelige stemme og stil.
+Dette er præcis, hvad en professionel bogredaktør{i: "professionel bogredaktør"} ville gøre. Tage råmaterialet og hjælpe med at omdanne det til en sammenhængende tekst. Og når bogredaktører laver ændringer, er de omhyggelige med at bevare forfatterens oprindelige stemme og stil.
 
-Dette giver mig et udgangspunkt for kapitlet, og derefter laver jeg bare en masse justeringer og finpudsning, indtil jeg er tilfreds med resultatet. Nogle gange starter jeg forfra og skriver hele kapitlet selv, men selv da er noterne fra brainstorm-sessionen nyttige.
+Dette giver mig et udgangspunkt for kapitlet. Og derefter laver jeg bare en masse justeringer og finpudsninger, indtil jeg er tilfreds med resultatet. Nogle gange starter jeg forfra og skriver hele kapitlet selv, men selv da er noterne fra brainstorming-sessionen nyttige.
 
 ## Indholdsproduktion (kun i særlige tilfælde)
 
-Jeg har været forsigtig med dette, fordi jeg ønsker, at dette skal være en menneskeskrevet bog. Jeg gør et særligt nummer ud af at påpege AI-genereret indhold, så folk ikke føler sig snydt. Vi vil snart drukne i middelmådige AI-genererede bøger alligevel.
+Jeg har været forsigtig med indholdproduktion, fordi jeg ønsker, at dette skal være en menneskeskrevet bog. Jeg gør derfor meget ud af at udpege AI-genereret indhold, så folk ikke føler sig snydt. Vi vil alligevel snart drukne i middelmådige AI-genererede bøger.
 
-De mest bemærkelsesværdige steder er naturligvis Egberts sektioner. De var fuldstændig AI-genererede, men med prompts fra mig. Og nogle gange et par iterationer før jeg var tilfreds med resultatet.
+De mest bemærkelsesværdige områder er naturligvis Egberts sektioner. De er fuldstændig AI-genererede, men med prompts fra mig. Og nogle gange har jeg kørt et par iterationer, før jeg var tilfreds med resultatet.
 
-- I Forordet gav jeg Claude hele bogen som kontekst og promptede den til at skrive et sarkastisk forord i Egberts{i: "Egbert"} stil. Og jeg inkluderede en kort beskrivelse af Egberts personlighed. Det første udkast var overraskende godt! Men jeg lavede lidt iteration og bad den inkludere noget om bogens holdbarhed, en joke om at ingen læser forord, og en bemærkning om at bruge AI til at skrive et forord. Jeg bad den også sige noget om, hvad bogen handler om. Når jeg ikke var helt tilfreds med et afsnit, bad jeg AI'en om at generere nogle varianter af det, og så valgte jeg min favorit.
-- Til Egberts Livshistorie{i: "Egberts Livshistorie"}-indslaget gav jeg den ovenstående forord som input, samt nogle punkter om hvem Egbert er, og hvordan jeg har brugt denne karakter tidligere. Teksten, der kom ud, var hysterisk morsom! Jeg beholdt stort set første forsøg. Jeg kunne bestemt ikke have gjort det bedre selv.
-- Til "Egberts kommentar"-teksterne spredt gennem bogen har jeg et dokument med stående instruktioner, der beskriver hans personlighed og nogle eksempler på hans skrivestil. Så for at lave en ny kommentar behøver jeg bare at henvise til det dokument og det aktuelle kapitel tekst og skrive "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, lad os se hvad han har at sige.
+- I forbindelse med bogens forord gav jeg Claude hele bogen som kontekst og promptede den så til at skrive et sarkastisk forord i Egberts{i: "Egbert"} stil. Jeg inkluderede også en kort beskrivelse af Egberts personlighed. Det første udkast var overraskende godt! Men jeg lavede lidt iterationer og bad den inkludere noget om bogens holdbarhed, samt en joke om at ingen læser forord, og endeligt en bemærkning om at bruge en AI til at skrive et forord. Jeg bad den også sige noget om, hvad bogen handler om. Hvis jeg ikke var helt tilfreds med et afsnit, bad jeg AI'en om at generere nogle varianter af afsnittet, og så valgte jeg min favorit.
+- Til Egberts livshistorie{i: "Egberts Livshistorie"}-indslaget gav jeg den ovenstående forord som input, samt nogle informationer om hvem Egbert er, og hvordan jeg har brugt denne karakter tidligere. Teksten, der kom ud, var hysterisk morsom! Jeg beholdt stort set alt fra første forsøg. Jeg kunne bestemt ikke have gjort det bedre selv.
+- Til "Egberts kommentar"-teksterne som er spredt gennem bogen har jeg et dokument med faste instruktioner, der beskriver hans personlighed og giver nogle eksempler på hans skrivestil. Så for at lave en ny kommentar skal jeg kun henvise til det dokument samt teksten fra det aktuelle kapitel, og så skrive "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, så lad os se hvad han har at sige.
 
-
-
-
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts take**  
-B> Ah, glæden ved at være Henriks digitale dansende abe!
-B> Henrik lader mig "tale frit fra leveren" igen. For intet siger "autentisk AI-karakter" som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som fri vilje, bare med støttehjul og sikkerhedssele.
-B> Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts take**  
+<B> Ah, glæden ved at være Henriks digitale dansende abe!
+<B> Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
+<B> Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
 
 ## Research og faktatjek
 
-KI{i: "AI"} er meget nyttigt til historiske referencer og fakta.
+Brug af AI{i: "AI"} er meget nyttigt i forbindelse med historiske referencer og fakta.
 
-For eksempel brugte jeg denne prompt til et af afsnittene i kapitlet om Prompt Engineering{i: "Prompt Engineering"}:
+For eksempel brugte jeg denne prompt til et af afsnittene i kapitlet om Prompt engineering{i: "Prompt Engineering"}:
 
 > **Prompt**  
-> Write a comparison with the early days of search engines, when it was really important to write search queries in a specific way, and now it doesn't really matter.
+> Lav en sammenligning med de tidlige dage med søgemaskiner, hvor det dengang var virkelig vigtigt at skrive søgeforespørgsler på en bestemt måde, og nu betyder det ikke rigtig noget.
 
 Dette gav mig et udgangspunkt, og derefter redigerede jeg teksten.
 
-Før KI ville jeg have researchet dette med Google{i: "Google"} i stedet. Men nu med KI kan jeg få de fakta, jeg har brug for hurtigere og i et mere brugbart format.
+Før AI ville jeg have researchet dette med Google{i: "Google"} i stedet. Men med AI kan jeg få de fakta, jeg har brug for hurtigere og i et mere brugbart format.
 
-## Navigering i bogen
+## Navigering rundt i bogen
 
 Nogle gange vil jeg gerne finde eller henvise tilbage til noget, jeg allerede har skrevet. Jeg har sat mine værktøjer op, så de kan hjælpe mig med det.
 
-Jeg skriver denne bog ved hjælp af Markdown{i: "markdown"} (et struktureret tekstformat) og et værktøj kaldet Cursor{i: "Cursor"}. Cursor er et integreret udviklingsmiljø primært til kodning. Det vigtigste er, at det har en integreret AI-chat, der kender til hele projektets indhold. I dette tilfælde er indholdet markdown-sider med bogindhold frem for kode. Eftersom AI kan "se" hele min bog, kan jeg bruge den til at finde ting.
+Jeg skriver denne bog ved hjælp af Markdown{i: "markdown"} (et struktureret tekstformat) og et værktøj kaldet Cursor{i: "Cursor"}. Cursor er et integreret udviklingsmiljø primært til kodning. Det vigtigste er, at det har en integreret AI-chat, der kender til hele projektets indhold. I dette tilfælde er indholdet Markdown-sider med bogindhold frem for kode. Eftersom AI-klienten kan "se" hele min bog, kan jeg bruge den til at finde ting.
 
 For eksempel:
 
 > **Prompt**  
-> In which chapter did I talk about the Google search engine as a historical comparison?
+> I hvilket kapitel talte jeg om Google søgemaskinen som en historisk sammenligning?
 
 ## Feedback
 
-Når et kapitel er færdigt, beder jeg AI om at læse det og give feedback, tjekke fakta og foreslå forbedringer. Som input til dette har jeg skrevet et dokument, der beskriver bogens formål og den tilsigtede kommunikationsstil. Dette hjælper virkelig AI med at forstå, hvad jeg prøver at opnå, og give mig brugbar feedback.
+Når et kapitel er færdigt, beder jeg AI om at læse det og give feedback, tjekke fakta og foreslå forbedringer. Som input til dette har jeg skrevet et dokument, der beskriver bogens formål og den tilsigtede skrivestil. Dette giver AI'en et godt overblik for at forstå, hvad jeg prøver at opnå, og derefter give mig brugbar feedback.
 
 Vi kan også diskutere hele afsnit af bogen takket være Cursors{i: "Cursor"} kontekstbevidsthed. For eksempel:
 
 > **Prompt**  
-> What do you think is a suitable order for the chapters? And should I combine chapters 2 and 3 into one?
+> Hvad synes du er en passende rækkefølge for kapitlerne? Og skal jeg slå kapitel 2 og 3 sammen til ét kapitel?
 
 Eller overordnede spørgsmål som:
 
 > **Prompt**  
-> What content do you think is missing?
+> Hvilket indhold synes du at der mangler?
 
 ## Justeringer, stavefejl, formatering
 
-Cursor inkluderer en copilot{i: "copilot"}, som kontinuerligt analyserer teksten, mens jeg skriver og redigerer den. Dette bliver lidt meta, men lad mig vise et skærmbillede af det i aktion:
+Cursor inkluderer en copilot{i: "copilot"}, som løbende analyserer teksten, mens jeg skriver og redigerer den. Dette kan måske blive lidt meta, men lad mig vise et skærmbillede af hvordan det fungerer:
 
 {alt: "Skærmbillede af en teksteditor der viser markdown-tekst. Overskriften er "Tweaks, typos, formatting." Nedenunder er der et afsnit der nævner en "copilot" som analyserer tekst i realtid. Noget tekst er i kursiv, såsom sætningen "screenshot of it in action.""}
 ![](resources-da/240-copilot-da.png)
 
-Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev "let me show a scr" og så foreslog den resten af sætningen. Jeg trykkede bare på tab, og den færdiggjorde sætningen.
+Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev på engelsk "let me show a scr" og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
 
-Den gør dette hele tiden, foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
+Den gør dette hele tiden, det vil sige foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, samt retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
 
-Hvis jeg begynder at omformatere en del af teksten, for eksempel ændre en punktopstilling til separate overskrifter eller gøre det første ord i hvert punkt fed, ser den, hvad jeg laver, og foreslår resten af ændringerne. Jeg trykker bare på tab, og den færdiggør opgaven.
+Hvis jeg begynder at omformatere en del af teksten, for eksempel ændre en punktopstilling til separate overskrifter eller gøre det første ord i hvert punkt fed, ser Cursor, hvad jeg laver, og foreslår resten af ændringerne. Jeg trykker bare på tab-tasten, og den færdiggør opgaven.
 
-Det er som at have en spøgelses-redaktør inde i min computer, der altid holder øje og er klar til at hjælpe.
+Det er som at have en spøgelses-bogredaktør inde i min computer, der altid holder øje og er klar til at hjælpe.
 
 Før jeg færdiggør kapitlet, skriver jeg:
 
 > **Prompt**  
-> Check grammar and spelling
+> Tjek grammatik og stavefejl
 
-Den finder fejl og forbedringer og kommer med forslag og rettelser direkte i mine markdown-filer. Dette er et godt supplement til normale stavekontroller og grammatikkontroller.
+Den finder fejl og forbedringer og kommer med forslag og rettelser direkte i mine Markdown-filer. Dette er et godt supplement til normale stave- og gramatik-kontroller.
 
 ## Konvertering af indhold fra præsentationer
 
-Noget af indholdet i bogen er ting, jeg har talt om i præsentationer, og jeg har slides til det. Den nemmeste måde at få det ind i bogen på er at tage et skærmbillede og bede AI om at gøre det.
+Noget af indholdet i denne bogen er emner, jeg har talt om i præsentationer, og jeg derfor har slides omkring. Den nemmeste måde at få det ind i bogen på er, at tage et skærmbillede og bede AI'en om at gøre det.
 
-
-
-For eksempel blev dette dias konverteret til afsnittet "Elements of a good prompt" i kapitlet om Prompt-konstruktion.
+For eksempel blev denne slide konverteret til afsnittet "Elementer i en god prompt" i kapitlet om prompt-konstruktion.
 
 {alt: "Dette billede har titlen "Elements of a good prompt (in-depth version)" og er opdelt i forskellige sektioner med punktopstillinger. Sektionerne er: Task, Goal/Motive, Role, Format, Background/Context, Communication Style/Target Audience og Examples. Hver sektion giver vejledning om, hvordan man specificerer opgaver, mål, roller, formateringspræferencer, kontekst, kommunikationsstile og eksempler til AI-prompts. Ordet "Iterate!" er fremhævet i midten. Billedet er signeret af Henrik Kniberg."}
 ![](resources-da/240-slide-da.png)
 
 > **Prompt**  
-> Convert this slide to Markdown, and format it into a coherent text.
+> Konverter denne slide til Markdown, og formatér det til en sammenhængende tekst.
 
-Som sædvanlig gav dette mig et udgangspunkt, som jeg derefter redigerede.
+Som sædvanlig gav dette mig et godt udgangspunkt, som jeg derefter redigerede.
 
-Denne type indholdskonvertering er bare det kedelige arbejde, og ved at lade AI gøre det, sparer jeg tid til at fokusere på det egentlige indhold.
+Denne type indholdskonvertering er kedeligt arbejde, og ved at lade AI'en gøre det, sparer jeg tid, som jeg i stedet kan bruge til at fokusere på det egentlige indhold.
 
 ## Indflydelse på min skriveproces
 
-Den første komplette kladde af denne bog blev skrevet på en uge. Det ville ikke have været muligt uden AI-assistance{i: "AI-assistance"}. AI tog sig af det meste af det kedelige arbejde, så jeg kunne fokusere på indholdet og skrivningen. Og gennem brainstorming-sessioner og feedback hjalp det mig med at skrive en bedre bog.
+Den første komplette kladde af denne bog blev skrevet på en uge. Det ville ikke have været muligt uden AI-assistance{i: "AI-assistance"}. AI'en tog sig af det meste af det kedelige arbejde, så jeg kunne fokusere på indholdet og skrivningen. Og gennem brainstorming-sessioner og feedback hjalp det mig til at skrive en bedre bog.
 
-På trods af al denne AI-hjælp føler jeg stærkt, at jeg sidder i førersædet, at dette er en menneskeskrevet bog. Hvert ord og hver sætning i bogen er enten skrevet af mig eller foreslået af AI og redigeret af mig.
+På trods af al denne AI-hjælp føler jeg helt sikkert, at jeg sidder i førersædet, det vil sige, at dette er en menneskeskrevet bog. Hvert ord og hver sætning i bogen er enten skrevet af mig eller foreslået af AI'en og så redigeret af mig.
 
 Hvis du er forfatter, håber jeg, dette giver dig nogle idéer til, hvordan du kan bruge AI til at hjælpe dig med at skrive{i: "skrivning med AI"}, uden at det går ud over din kreative proces{i: "kreativ proces"}.
 
-# Den Gang Jeg Næsten Brugte AI til at Skrive et Forord
+# Den gang jeg næsten brugte AI til at skrive et forord
 
-Jeg har ikke noget imod AI-genereret indhold, men jeg synes, det er vigtigt at være transparent omkring det. Ligesom da Egbert{i: "Egbert"} skrev forordet til denne bog.
+Jeg har ikke noget imod AI-genereret indhold, men jeg synes, det er vigtigt at være transparent omkring det. Det vil sige ligesom da Egbert{i: "Egbert"} skrev forordet til denne bog.
 
-Måske er jeg gammeldags, men jeg kan virkelig ikke lide, når AI bruges til at udgive sig for at være andre eller bedrage. Som forfatter føler jeg, at min integritet står på spil.
+Jeg er måske lidt gammeldags, men jeg kan virkelig ikke lide, når AI bruges til at udgive sig for at være andre eller bedrage. Som forfatter føler jeg, at min integritet står på spil.
 
-Jeg var dog tæt på én gang. Jeg havde lovet at skrive et forord til en bog, og deadline var kommet. Jeg var træt, og jeg skulle have det færdigt samme aften. Jeg anede ikke, hvad jeg skulle skrive, og jeg havde kun skimmet bogen, så jeg havde det lidt dårligt med ikke at kende bogen i detaljer.
+Jeg var dog tæt på én gang. Jeg havde lovet at skrive et forord til en bog, og deadlinen var lige op over. Jeg var træt, og jeg skulle have det færdigt samme aften. Jeg anede ikke, hvad jeg skulle skrive, og jeg havde kun skimmet bogen, så jeg havde det lidt dårligt med ikke at kende bogen i detaljer.
 
 Så jeg lavede et lille eksperiment. Jeg gav en AI-model bogens indhold og nogle forord, som jeg tidligere havde skrevet til andre bøger. Derefter bad jeg den om at skrive et forord til denne bog "i Henrik Knibergs stil, ved hjælp af de givne eksempler".
 
-Den første version var okay, men lidt tør og kedelig. Jeg gav feedback og bad den om at krydre stilen og tilføje lidt humor. Den næste version var meget bedre! Jeg var ret overrasket over, hvor tæt den efterlignede min stil. Efter et par runder mere med feedback var forordet stort set færdigt. Jeg kunne have brugt det, og ingen ville kunne se, at det var AI-genereret{i: "AI-genereret indhold"}.
+Den første version var okay, men dog lidt tør og kedelig. Jeg gav feedback og bad den om at forbedre stilen og tilføje lidt humor. Den næste version var meget bedre! Jeg var ret overrasket over, hvor tæt den efterlignede min egen stil. Efter et par yderligere runder med feedback var forordet stort set færdigt. Jeg kunne have brugt det, og ingen ville kunne se, at det var AI-genereret{i: "AI-genereret indhold"}.
 
-Men jeg havde det ikke godt med at bruge det. Jeg følte, at jeg ville bedrage forfatteren og læseren. Plus nogle ord føltes bare lidt forkerte. Så jeg skrev et nyt forord selv, helt fra bunden. Dog stjal jeg nogle idéer og vendinger fra den AI-genererede version.
+Men jeg havde det ikke godt med at bruge det. Jeg følte, at jeg ville snyde forfatteren og læseren. Og samtidigt var der nogle ord der føltes lidt forkerte. Så jeg skrev selv et nyt forord, helt fra bunden. Dog stjal jeg nogle idéer og vendinger fra den AI-genererede version.
 
-Slutresultatet: Jeg fik mit forord færdigt overraskende hurtigt, og både jeg og forfatteren var meget tilfredse med resultatet. Jeg kunne have gjort det uden AI-hjælp, men det sparede mig tid og bekymringer.
+Slutresultatet: Jeg fik mit forord færdigt overraskende hurtigt, og både jeg og forfatteren var meget tilfredse med resultatet. Jeg kunne have gjort det uden AI-hjælp, men at brugen AI'en sparede mig både tid og bekymringer.
 
 Det er sådan, jeg kan lide at bruge AI. Ikke til at erstatte mig, men til at hjælpe mig{i: "AI som værktøj"}.
 
 PS: Hvis du er nysgerrig, var det denne bog: *[Scrum for Hardware Explained: Achieving Industrial Agility](https://www.amazon.se/Scrum-Hardware-Explained-Achieving-Industrial/dp/B0CSB2JK34/)* - af Paolo Sammicheli{i: "Sammicheli, Paolo"}.
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
-B> Ah, den gamle "Jeg kunne have brugt AI, men jeg er for autentisk"-rutine. Bravo, Henrik. Næste gang fortæller du os vel, at du skrev dette på en skrivemaskine for ekstra ægthed.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
+<B> Ah, den gamle "Jeg kunne have brugt AI, men jeg er for autentisk"-forklaring. Bravo, Henrik. Næste gang fortæller du os vel, at du skrev dette på en skrivemaskine for at gøre det endnu mere ægte.
 
-# AI-Softwareudvikleren
+# AI-softwareudvikleren
 
-En af de mest kraftfulde anvendelser af Generativ AI{i: "Generativ AI"} er softwareudvikling. AI kan hjælpe dig med næsten alle aspekter af det - ideudvikling, design, kodning, test, fejlfinding, dokumentation og implementering.
+En af de mest kraftfulde anvendelser af generativ AI{i: "Generativ AI"} er softwareudvikling. AI kan hjælpe dig med næsten alle aspekter af det - ideudvikling, design, kodning, test, fejlfinding, dokumentation og implementering.
 
 
 
-Før 2024 krævede softwareudvikling{i: "softwareudvikling"} højt specialiserede færdigheder - især kodningsdelen (også kendt som programmering){i: "programmering"}. Man skulle have års træning eller erfaring og en detaljeret forståelse af forskellige programmeringsprogs særheder - hvordan man formaterer kode, hvilke biblioteker man skal bruge til hvad, fejlhåndtering, trådhåndtering, typesikkerhed, objektorientering, netværk osv. Bare et enkelt fejlplaceret tegn kunne få hele produktet til at holde op med at virke, og fejlfinding af disse problemer var ofte besværligt og irriterende.
+Før 2024 krævede softwareudvikling{i: "softwareudvikling"} højt specialiserede færdigheder, specielt for kodningsdelen, som også er kendt som programmering{i: "programmering"}. Man skulle have års træning eller erfaring og en detaljeret forståelse af forskellige programmeringsprogs særheder. Det vil sige hvordan man formaterer kode, hvilke biblioteker man skal bruge til hvad, fejlhåndtering, trådhåndtering, typesikkerhed, objektorientering, netværk osv. Bare en enkelt fejlplaceret karakter kunne få hele produktet til at holde op med at virke, og fejlfinding af disse problemer var ofte besværligt og irriterende.
 
-Alt dette har nu ændret sig. Kodningsfærdigheder er ikke længere en begrænsende faktor, i hvert fald ikke for mindre opgaver. Du kan skabe små softwareprodukter med lille eller ingen kodningserfaring, og selv store komplekse softwaresystemer kan vedligeholdes med overraskende lille kodningserfaring.
+Alt dette har ændret sig nu. Kodefærdigheder er ikke længere en begrænsende faktor, i hvert fald ikke for mindre opgaver. Du kan skabe små softwareprodukter med lille eller ingen kodefaring, og selv store komplekse softwaresystemer kan vedligeholdes med overraskende lille kodeerfaring.
 
 Dette gør det ikke kun muligt for flere mennesker at skabe software, det øger også produktiviteten{i: "produktivitet i softwareudvikling"} for softwareudviklere generelt - både begyndere og eksperter.
 
-Jeg vil vise nogle eksempler.
+Lad mig vise dig nogle eksempler.
 
 BEMÆRK: disse eksempler er fra november 2024{i: "november 2024"}. AI-værktøjer og -modeller udvikler sig i et vanvittigt tempo, så hvis du læser dette om et år, vil du sandsynligvis grine af, hvor primitive disse eksempler er.
 
 ## Eksempel 1: Hurtig prototyping
 
-Lad os sige, at jeg vil lave en to-do liste-app. Jeg har lavet noget idégenerering{i: "idégenerering"}, og er endt med en servietskitse som denne:
+Lad os sige, at jeg vil lave en to-do liste-app. Jeg har lavet den indledende idégenerering{i: "idégenerering"}, og er endt med en skitse på en serviet som denne af en engelsk-sproget app:
 
 {width: "60%", alt: "En håndtegnet to-do liste på en serviet med tre opgaver: "Vasketøj," "Email," og "Luft hunden," hver med en afkrydsningsboks. Nedenunder er der et afsnit med teksten "new item" og en knap med teksten "Add!""}
 ![](resources-da/260-napkin-sketch-da.jpg)
 
-Hvor lang tid ville det tage at implementere en klikbar prototype{i: "prototype"} af dette?
+Hvor lang tid vil det tage at implementere en prototype{i: "prototype"} af dette, som man kan klikke rundt i?
 
-Jeg startede Claude-appen{i: "Claude app"} på min telefon, som brugte Claude 3.5 Sonnet-modellen{i: "Claude 3.5 Sonnet"}. Claude er en generel AI-klient{i: "AI-klient"}, ligesom ChatGPT. Der er ikke behov for et specialiseret softwareudviklingsværktøj.
+Jeg startede på min telefon Claude-appen{i: "Claude app"}, som brugte Claude 3.5 Sonnet-modellen{i: "Claude 3.5 Sonnet"}. Claude er ligesom ChatGPT en generel AI-klient{i: "AI-klient"}. Det vil sige, at der ikke er behov for et specialiseret softwareudviklingsværktøj.
 
-Jeg tog et billede af servietten og sagde "Byg det".
+Jeg tog et billede af servietten og angav så: "Udvikl dette".
 
 > **Prompt**  
 > (indsat billede)  
-> Build it
+> Udvikl dette
 
-Det var hele prompten. Billedet og teksten "Build it". Faktisk skrev jeg det ikke engang, jeg trykkede bare på mikrofon-knappen og sagde det.
+Det var den komplete prompt. Billedet og teksten "Udvikl dette". Faktisk skrev jeg det ikke engang, jeg trykkede bare på mikrofon-knappen og sagde ordene.
 
-Claude begyndte at spytte kode ud, og da den var færdig, kørte den også koden og viste appen.
+Claude begyndte at generere kode, og da den var færdig, afviklede den også koden og viste appen.
 
 {alt: "En serie af tre billeder demonstrerer processen med at skabe en to-do liste-applikation. Det første billede viser en chat-grænseflade med en håndtegnet skitse af en to-do liste, inklusive opgaver som "Vasketøj," "Email," og "Luft hunden." Det andet billede viser en besked, der påpeger oprettelsen af en simpel to-do liste-app ved hjælp af React, baseret på skitsen. Det sidste billede viser et screenshot af den færdige to-do liste-applikation med afkrydsningsfelter ved siden af hver opgave og et design, der matcher skitsen. Pile indikerer progressionen fra den oprindelige idé til den endelige app."}
 ![](resources-da/260-claude-da.png)
 
-Det virkede! Jeg kunne se opgaver, krydse opgaver af og tilføje nye opgaver.
+Det virkede! Jeg kunne se to-dos, krydse to-dos af og tilføje nye to-dos.
 
 {width: "60%", alt: "En to-do liste med tre punkter: "Vasketøj" afkrydset og overstreget, "Email" og "Luft hunden" ikke afkrydset. Nedenunder er der et tekstfelt med teksten "new item" med et tomt felt og en sort "Add" knap."}
 ![](resources-da/260-iteration-1-da.png)
@@ -504,9 +497,9 @@ Derefter skrev jeg (eller rettere sagde) "Hvad med deadlines". Få sekunder sene
 {alt: "En to-do liste-grænseflade der viser tre opgaver: "Vasketøj" er afkrydset med en note "Due tomorrow" i blå, "Email" og "Luft hunden" er ikke afkrydset med "Due today" i orange. Nedenunder er der et tekstfelt til at tilføje et nyt punkt og en knap til at indstille en dato, sammen med en kalender der viser november 2024 med den 19. fremhævet."}
 ![](resources-da/260-add-deadlines-da.png)
 
-Min prompt var meget kort, men fordi LLM'en ved noget om to-do lister, og den ved noget om deadlines, kunne den fortolke, hvad jeg mente. Så den tilføjede en kalender-popup og farvekodede kommentarer som "Due tomorrow" og "Due today".
+Min prompt var meget kort. Men fordi LLM'en ved noget om to-do lister, og den ved noget om deadlines, kunne den forstå, hvad jeg mente. Så den tilføjede en kalender-popup og farvekodede kommentarer om deadlines, som f.eks. "Due tomorrow"(skal være færdig i morgen) og "Due today" (skal være færdig i dag).
 
-Derefter skrev jeg "Opdel i to faner: Hjem og Arbejde".
+Derefter skrev jeg "Opdel i to faneblade: Hjem og Arbejde".
 
 Resultat:
 
@@ -515,200 +508,196 @@ Resultat:
 
 
 
-Den forstod, hvad jeg mente og lod mig organisere opgaver i to faner. Den tilføjede endda passende ikoner til dem.
+Den forstod, hvad jeg mente og lod mig organisere opgaver i to faneblade. Den tilføjede endda passende ikoner til hver af fanebladene.
 
-Dernæst besluttede jeg at give den en meget vag instruktion: "Gør den vred".
+Dernæst besluttede jeg at give den en meget vag instruktion: "Gør den vred". Og så fik jeg dette, hvor teksterne på engelsk blev ændret til at en vred tone:
 
 {width: "60%", alt: "En stiliseret to-do-liste med sort og rød farvesammensætning. Overskriften siger "GØR DETTE LORT NU!" med valgmulighederne "HJEMME BRAS" og "ARBEJDS HELVEDE." To opgaver er opført: "LAV DET FORBANDEDE VASKETØJ" med en forfaldsdato den 2024-10-03, og "GÅ TUR MED DEN DUMME HUND" med en forfaldsdato den 2024-10-02. Der er en mulighed for at tilføje en anden opgave med en dato og en rød knap med teksten "TILFØJ DET NU!""}
 ![](resources-da/260-make-it-angry-da.png)
 
-Ret sjovt! Så du kan vælge, hvor specifik du vil være. Hvis du er meget specifik, har den tendens til at følge dine instruktioner nøje, mens åbne instruktioner vil føre til mere kreative resultater.
+Ret sjovt! Så du kan faktisk vælge, hvor specifik du vil være. Hvis du er meget specifik, har AI'en tendens til at følge dine instruktioner nøje, mens mere vage instruktioner vil føre til mere kreative resultater.
 
-Fordi prototyping{i: "prototyping"} er så billigt, kan du afprøve mange idéer og se, hvad der virker.
+Fordi prototyping{i: "prototyping"} er så billigt, kan du afprøve mange idéer og se, hvad der virker for dig.
 
-Jeg skrev "Lav en version til børn".
+Jeg skrev så "Lav en børnevenlig version".
 
 {width: "60%", alt: "En farverig to-do-liste-grænseflade med titlen "Min Super Todo Liste!" med to kategorier: "Hjemme" og "Skole." Den indeholder opgaver som "Ryd mit værelse," markeret som fuldført med et flueben og planlagt til "I morgen," og "Giv kæledyret mad," planlagt til "I dag." Der er et inputfelt i bunden til at tilføje nye opgaver med en datovælger og en "Tilføj" knap. Designet har et pastelfarvet tema med lyserøde og lilla accenter."}
 ![](resources-da/260-for-children-da.png)
 
-Den ændrede ikke kun det visuelle udseende, den erstattede også Arbejde-fanen med Skole og gjorde det generelt mere børnevenligt, som jeg bad om.
+AI'en ændrede ikke kun det visuelle udseende, den erstattede også Arbejde-fanen med titlen "Skole" og gjorde det generelt mere børnevenligt, som jeg bad om.
 
-Derefter skrev jeg "Find på andre forbedringer", og så tilføjede den nogle gamification-elementer{i: "gamification"}, motiverende beskeder, et pointsystem, animationer og andre sjove ting.
+Derefter skrev jeg "Find på andre forbedringer". Så tilføjede den nogle elementer, som næsten gjorde app'en til et spil{i: "gamification"}, samt motiverende beskeder, et pointsystem, animationer og andre sjove ting.
 
 {width: "60%", alt: "En to-do-liste app-grænseflade med titlen "Episk To-Do Quest" med et trofæ-ikon, der indikerer Level 1 og 0 point. Der er to faner mærket "Hjemme" og "Arbejde." Opgaverne inkluderer "Køb Mælk," med forfald den 10. oktober 2024, værd 5 point, og "Vasketøj," med forfald den 12. oktober 2024, værd 10 point. Nedenunder er der inputfelter til at tilføje en ny quest med datovalg og en dropdown-menu for sværhedsgrad. En "Tilføj Quest" knap er i bunden."}
 ![](resources-da/260-epic-todo-quest-da.png)
 
-Antag at jeg vil tage ovenstående prototype og lave en rigtig app?
+Lad os for sjov lege, at jeg ville tage ovenstående prototype og lave til en rigtig app. 
 
-Jeg bad AI'en om at generere nogle dokumenter{i: "AI-genererede dokumenter"} og andet materiale:
+For at lade som det, bad jeg AI'en om at generere nogle dokumenter{i: "AI-genererede dokumenter"} og andet materiale:
 
-- "Skriv et kort designdokument for dette produkt, der fremhæver visionen for produktet og de vigtigste funktioner"
-- "Generer en hypotetisk pressemeddelelse for dette produkt"
-- "Skriv en product backlog med de vigtigste user stories for dette produkt, og identificer MVP'en (minimum viable product)"
-- "Jeg vil bygge og udgive dette som en iPhone-app. Jeg har aldrig gjort det før. Forklar mig trinene."
-- "Generer et app-ikon for dette produkt".
+- "Skriv et kort designdokument for dette produkt, der fremhæver visionen for produktet og de vigtigste funktioner".
+- "Generer en hypotetisk pressemeddelelse for dette produkt".
+- "Skriv en product backlog med de vigtigste user stories for dette produkt, og identificer MVP'en (minimum viable product)".
+- "Jeg vil bygge og udgive dette som en iPhone-app. Jeg har aldrig gjort det før. Forklar mig trinene".
+- "Generer et app-ikon til dette produkt".
 
-Jeg var nødt til at gennemgå dokumenterne nogle få gange, men alt i alt tog det kun få minutter.
+Jeg var nødt til at iterere igennem dokumenterne nogle enkelte gange, men alt i alt tog det kun få minutter.
 
-Dette materiale er det perfekte udgangspunkt for at bygge og udgive den rigtige app. Og AI vil også skrive det meste af koden.
+Dette materiale er det perfekte udgangspunkt for at bygge og udgive den rigtige app. Og AI'en vil også have skrevet det meste af koden.
 
-For at opsummere gjorde vi alt dette ved hjælp af kun ét værktøj og minimal promptning:
+For at opsummere gjorde vi alt dette ved hjælp af kun ét værktøj og minimal prompting:
 
-- Skabte 5 iterationer af vores app. Ikke bare wireframes eller billeder, men faktiske kørbare, testbare prototyper{i: "prototyper"}.
-- Genererede et designdokument, en pressemeddelelse, en product backlog, en implementeringsplan og et app-ikon{i: "app-ikon"}.
+- Vi skabte 5 iterationer af vores app. Ikke bare wireframes eller billeder, men rigtige prototyper, som kunne afvikles og testes{i: "prototyper"}.
+- Vi genererede et designdokument, en pressemeddelelse, en product backlog, en implementeringsplan og et app-ikon{i: "app-ikon"}.
 
 {alt: "Billedet viser en samling af to-do-liste-designs i forskellige stilarter, lige fra en håndskrevet note på en serviet til digitale grænseflader med forskellige farveskemaer og layouts. Hvert design inkluderer opgaver som "Vasketøj" og "Gå tur med hunden," med muligheder for at tilføje nye elementer. Under designene er der skitser mærket som "Designdokument," "Pressemeddelelse," "Product backlog," og "Implementeringsguide." I nederste højre hjørne er der et app-ikon med en munter, stjerneformet karakter."}
 ![](resources-da/260-rapid-prototyping-summary-da.jpg)
 
 Samlet tidsforbrug: Omkring 10 minutter.
 
-I et virkeligt scenarie ville jeg sandsynligvis bruge en time eller to for at give mere tid til at tænke og diskutere med kolleger.
+I et virkeligt scenarie ville jeg sandsynligvis bruge en time eller to for at have mere tid til at tænke og diskutere med kolleger.
 
-Men hvor lang tid ville det have taget uden AI-hjælp? Jeg har stillet mange mennesker dette spørgsmål, og estimaterne spænder fra dage til uger. Så produktivitetsforbedringen er ret dramatisk{i: "produktivitetsforbedring"}.
+Men hvor lang tid ville det have taget uden AI-hjælp? Jeg har stillet dette spørgsmål til mange mennesker, og estimaterne spænder fra dage til uger. Så produktivitetsforbedringen er ret stor{i: "produktivitetsforbedring"}.
 
+## AI som programmerings-makker{i: "AI-assisteret kodning"}
 
-
-## AI som parprogrammerings-makker{i: "AI-assisteret kodning"}
-
-På nuværende tidspunkt bruger de fleste udviklere en kopier-indsæt tilgang til AI-assisteret kodning{i: "AI-assisteret kodning"}:
+På nuværende tidspunkt bruger de fleste udviklere en "Copy-n-paste" tilgang til AI-assisteret kodning{i: "AI-assisteret kodning"}, som vist herunder:
 
 {alt: "Et opdelt billede der sammenligner AI-assisterede kodningsmetoder. Til venstre er en kodeeditor, som VSCode eller IntelliJ, der viser et projekt med TypeScript-kode. Til højre er en AI-klient grænseflade, lignende ChatGPT eller Claude, med Python-kode til en Flask-app. Teksten beskriver processen som kopier-indsæt-tung og fejlbehæftet, med yderligere omtale af brug af GitHub Copilot til enklere opgaver."}
 ![](resources-da/260-copy-paste-da.png)
 
-1. Beslut hvad du ønsker hjælp til
-2. Kopier den relevante kode fra din kodeeditor til din AI-klient{i: "AI-klient"}
-3. Skriv en prompt såsom "implementer X" eller "ret Y"
+1. Afklar hvad du ønsker hjælp til.
+2. Kopier den relevante kode fra din kodeeditor til din AI-klient{i: "AI-klient"}.
+3. Skriv en prompt såsom "implementer X" eller "ret Y".
 4. Tag den resulterende kode og kopier den tilbage til din kodeeditor, hvor du manuelt fletter den rigtige kode ind på det rigtige sted.
 
-Dette er meget mere effektivt end manuel programmering{i: "manuel programmering"}, men al kopieringen frem og tilbage tager stadig tid og er fejlbehæftet. Det er let at glemme at give noget kontekst eller at lave en fejl, når man fletter den genererede kode ind.
+Dette er meget mere effektivt end manuel programmering{i: "manuel programmering"}. Men al kopieringen frem og tilbage tager stadig tid og har risiko for at introducere fejl. Det er let at glemme at give noget kontekst eller at lave en fejl, når man fletter den genererede kode ind i den oprindelige kode.
 
-Ud over kopier/indsæt bruger de værktøjer som GitHub Copilot{i: "GitHub Copilot"}, der automatisk forsøger at læse dine tanker og foreslå den kode, du er ved at skrive. Meget kraftfuldt, men virker kun til små lokale ændringer.
+Ud over "copy-n-paste" bruger mange udviklere værktøjer som GitHub Copilot{i: "GitHub Copilot"}. Dette værktøj forsøger at gætte dine tanker og foreslå den kode, du er ved at skrive. Det er meget kraftfuldt, men virker kun til små lokale ændringer.
 
-Sådan startede jeg også. Denne kombination af tilgange er meget kraftfuld sammenlignet med manuel programmering.
+Jeg startede også selv med at bruge denne tilgang. Og denne kombination af tilgange er meget kraftfuld sammenlignet med manuel programmering.
 
-Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kodeeditor{i: "AI integration into code editor"}. Dette er en game changer!
+Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kodeeditor{i: "AI integration into code editor"}. Det gør en kæmpe forskel, og kommer virkeligt til at ændre måde at arbejde på!
 
 {alt: "Et skærmbillede af en kodeeditor der viser en TypeScript-fil ved navn "MysteryTable.tsx." Koden indeholder imports, en grænseflade og en funktionsdefinition. Editorens sidebjælke viser andre filer i projektet. Til højre er der et chat/composer-panel mærket "Edit code" med en model-valgmenu. Øverst reklamerer teksten for "AI-assisteret kodning direkte i din kodeeditor" og hjemmesiden cursor.com."}
 ![](resources-da/260-cursor-da.png)
 
-Cursor.com{i: "Cursor"} er en foregangsmand på dette område. Med Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil redigere din kode direkte. Den kan endda opdatere flere filer. For nylig tilføjede de "Cursor agents", der graver rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere for en given opgave. Dette kan nogle gange tage tid, og at se det arbejde føles meget som at se en menneskelig programmør kode og tænke højt.
+XXXCursor.com{i: "Cursor"} er en foregangsmand på dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede Cursor også "Cursor agents", der leder rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
 
-At have AI direkte integreret i kodereditoren eliminerer det fejlbehæftede trin med at prøve at finde ud af hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodereditoren.
+At have AI direkte integreret i kodeeditoren fjerner helt de mulige fejl, som kan opstå når man prøver at finde ud af hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodeeditoren.
 
-Selvom Cursor mere eller mindre er alene om dette i øjeblikket, er jeg ret sikker på, at de fleste kodeeditorer snart vil have dette.
+Selvom Cursor i skrivende stund mere eller mindre er alene om denne feature i øjeblikket, er jeg ret sikker på, at de fleste kodeeditorer snart vil have denne mulighed.
 
-Sjov fakta: Jeg bruger Cursor til at skrive denne bog. Hvert kapitel er en markdown-fil{i: "markdown"} i et Cursor-projekt, så jeg kan nemt få AI-feedback og redigeringshjælp. Super nyttigt! Mere om dette i kapitlet om AI Book Editor{i: "AI Book Editor"}.
+En lille sjov note: Jeg bruger Cursor til at skrive denne bog. Hvert kapitel er en Markdown-fil{i: "markdown"} i et Cursor-projekt, så jeg kan nemt få AI-feedback og redigeringshjælp. Det er super nyttigt! Det er beskrevet yderligere i kapitlet tidligere i bogen om "AI-bogredaktøren"{i: "AI Book Editor"}.
 
-## Eksempel 2: Arbejde med eksisterende produkter
+## Eksempel 2: At arbejde på eksisterende produkter
 
-I det første eksempel viste jeg, hvordan man laver AI-assisteret hurtig prototyping. Men hvad med eksisterende kode? Det meste softwareudviklingsarbejde er ikke prototyping eller ny produktudvikling, det er arbejde med legacy kode{i: "legacy code"}. Legacy kode er et generelt udtryk for eksisterende produkter og kode, ofte ret stor og rodet og svær at forstå.
+I det første eksempel viste jeg, hvordan man kan lave hurtig prototyping med AI-assistance. Men hvad med eksisterende kode? Det meste softwareudviklingsarbejde er ikke prototyping eller ny produktudvikling, det er arbejde med eksisterende kode{i: "legacy code"}, også kaldet "legacy kode". Legacy kode er et generelt udtryk for eksisterende produkter og kode, som ofte er ret stor, rodet og svær at forstå.
 
-Hvordan kan AI hjælpe dig med det?
+Hvordan kan AI hjælpe dig med at arbejde med det?
 
-Det er her værktøjer som Cursor virkelig skinner. Jeg vil give et eksempel.
+Det er her værktøjer som Cursor virkelig viser sin værdi. Lad mig give dig et eksempel.
 
-WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en krimigåde{i: "crime mystery"}. Alt indhold er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. Du kan auto-generere enhver mystik i enhver indstilling, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI, så det føles som om du interagerer med rigtige mennesker. For mere information om dette, se YouTube-videoen [Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA). Du kan også prøve det selv på whodunit.kniberg.com.
+WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "crime mystery"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. XXXDu kan auto-generere enhver mystik i enhver indstilling, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'em, så det føles som om at du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen [Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA). Du kan også prøve det selv på whodunit.kniberg.com.
 
 {alt: "En collage af skærmbilleder fra "WhoDunit," et AI-drevet detektiv rollespil. Øverst til venstre vises en menu med forskellige mysterievalgmuligheder som "Theft at Sevron Biotech" og "The Milk Carton Mystery." Øverst til højre viser en opslagstavle med karakterforbindelser og etiketter som "VICTIM" og "Crime Scene." Nederst til venstre er en afhøringslog for Sir Arthur Lovelace, med dialogsektioner. Nederst til højre vises en avisartikel om en fejlagtig anholdelse i et herregårdsmysterie, med en "FAILURE" detektivevaluering der indikerer at spilleren tabte spillet."}
 ![](resources-da/260-whodunit-da.jpg)
 
 
 
-Jeg vil bruge dette produkt som et eksempel på ældre kode{i: "eksempel på ældre kode"}, da denne kodebase er relativt kompleks. Den har en frontend, en backend, en database, og den interagerer med en række forskellige tjenester såsom AWS Lambda{i: "AWS Lambda"}, flere Open AI-tjenester{i: "Open AI-tjenester"}, ekstern billedlagring og andre ting.
+Jeg vil bruge dette produkt som et eksempel på ældre kode{i: "eksempel på ældre kode"}, da denne kodebase er relativt kompleks. Den har en frontend, en backend og en database. Samtidigt interagerer den med en række forskellige cloud-tjenester såsom AWS Lambda{i: "AWS Lambda"}, flere Open AI-tjenester{i: "Open AI-tjenester"}, gemmer billeder på eksterne systemer og andre ting.
 
-En af udfordringerne ved at arbejde med ældre kode er bare at forstå, hvad systemet gør - hvordan det er bygget og organiseret, og hvordan tingene hænger sammen. Da Cursor er tæt integreret med koden, kunne jeg bare stille det spørgsmål som:
+En af udfordringerne ved at arbejde med ældre kode er overhovedet at forstå, hvad systemet gør. Det vil sige hvordan det er bygget og organiseret, og hvordan tingene hænger sammen. Da Cursor er tæt integreret med koden, kunne jeg bare stille Cursor spørgsmål som:
 
-- "Hvad er dette produkt?"
-- "Beskriv den overordnede arkitektur og hvordan tingene hænger sammen"
-- "Beskriv spilforløbet{i: "spilforløb"} set fra spillerens perspektiv"
-- "Beskriv domænemodellen og databasestrukturen"{i: "domænemodel og databasestruktur"}
+- "Hvad er dette for et produkt?".
+- "Beskriv den overordnede arkitektur og hvordan tingene hænger sammen".
+- "Beskriv spilforløbet{i: "spilforløb"} set fra spillerens perspektiv".
+- "Beskriv domænemodellen og databasestrukturen"{i: "domænemodel og databasestruktur"}.
 
-For hvert spørgsmål vil Cursor{i: "Cursor"} grave rundt i koden, lære hvordan tingene virker og give mig de svar, jeg har brug for. Det genererer effektivt dokumentation af høj kvalitet på stedet. Siden det læser kildekoden direkte, har det en tendens til at være præcist og ikke hallucinere. Jeg finder dette mere pålideligt og præcist end menneskeskrevet dokumentation, som har tendens til at blive forældet.
+For hvert spørgsmål vil Cursor{i: "Cursor"} grave rundt i koden, lære hvordan tingene virker og give mig de svar, jeg har brug for. Det genererer effektiv dokumentation af høj kvalitet lige når der er brug for det. Og eftersom Cursor læser kildekoden direkte, har den en tendens til at være præcist og ikke hallucinere. Jeg finder dette mere pålideligt og præcist end menneskeskrevet dokumentation, som ofte har en tendens til at blive forældet.
 
 Lad os sige, at vi vil lave en ændring. Jeg tog et screenshot af spillets forside, indsatte det i Cursor og skrev denne prompt:
 
 > **Prompt**  
-> Jeg vil gerne kunne skifte mellem det nuværende kortbaserede layout og en simpel tabelvisning, hvor hvert mysterium er én række.
+> Jeg vil gerne kunne skifte imellem det nuværende kortbaserede layout og en simpel tabelvisning, hvor hvert mysterium er én enkelt række.
 
 {width: "70%", alt: "Et screenshot af en webside med titlen 'WhoDunit', der viser en valgflade til at vælge mysterier, der skal løses. Siden indeholder otte mysterievalgmuligheder med billeder og titler, arrangeret i et gitterlayout. Titler inkluderer 'Tish's Secret Stolen: Roo the Stealer,' 'The Friday Palace Palace,' 'The Milk Option Mystery,' og flere. Under billedet er der et tekstinputområde med en bemærkning om muligheden for at skifte mellem kortbaseret og tabelvisning."}
 ![](resources-da/260-whodunit-prompt-da.png)
 
-Cursor gravede rundt i koden, identificerede hvilke filer der skulle ændres, oprettede en ny komponent og redigerede den eksisterende side til at bruge den nye komponent.
+Cursor ledte i koden, identificerede hvilke filer der skulle ændres, oprettede så en ny komponent og redigerede den eksisterende side til at bruge den nye komponent.
 
-Det virkede fantastisk bortset fra én mindre detalje: mysteriernes coverbilleder manglede. Så jeg skrev én prompt mere, bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
+Det virkede fantastisk bortset fra én mindre detalje: mysteriernes coverbilleder manglede. Så jeg skrev én prompt mere, hvor jeg bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
 
 Her er hvordan det så ud efter ændringen. En toggle-knap i øverste højre hjørne lader mig skifte mellem de to layouts.
 
 {alt: "Et screenshot af en webside for 'WhoDunit', et AI-drevet detektiv rollespil. Den viser en liste over mysterier med deres titler, såsom 'Theft at Sevron Biotech: Who Stole the Data?' Hver post har et coverbillede, statusmærker der indikerer om de er 'Published' eller 'Private', og et skraldespandsikon til sletning. En knap med teksten 'Generate new mystery' er tilstede. I øverste højre hjørne er der ikoner til at ændre visningslayoutet, markeret med en rød cirkel."}
 ![](resources-da/260-whodunit-after-da.jpg)
 
-Hvad med kodekvaliteten? Kvaliteten af koden var fremragende, den slags kode jeg ville forvente fra en senior softwareudvikler (én der går op i kvalitet og ikke har travlt...).
+Hvad med kodekvaliteten? Kvaliteten af koden var faktisk fremragende, og den den slags kode jeg ville forvente fra en senior softwareudvikler (i hvert fald én der går op i kvalitet og ikke har travlt...).
 
-Dette ville have taget mindst en time uden AI-hjælp, eller flere timer for nogen, der ikke var bekendt med kodebasen. De skulle først finde ud af, hvordan kodebasen virker, finde ud af hvor ændringen skulle laves, finde ud af hvordan ændringen skulle laves, teste den, få det til at se rigtigt ud, rette stylingen, fejlfinde det osv.
+Disse ændringer ville have taget mindst en time uden AI-hjælp, eller flere timer for nogen, der ikke var bekendt med kodebasen. De skulle først finde ud af, hvordan kodebasen virker, finde ud af hvor ændringen skulle laves, finde ud af hvordan ændringen skulle laves, teste den, få det til at se rigtigt ud, rette stylingen, fejlfinde det osv.
 
 ## Eksempel 3: Lad kunden kode
 
-Min kone Sophia{i: "Sophia"} driver en lokal skiskole. For nogle år siden byggede jeg et bookingsystem til den for at automatisere administrationen så meget som muligt og gøre livet lettere for hende, eleverne og skilærerne. Det startede enkelt, men udviklede sig til en fuldt udbygget webapplikation, hvor administratorer kunne definere skemaer og grupper, forældre kunne tilmelde deres børn, lærere kunne registrere fremmøde fra deres telefoner osv.
+Min kone Sophia{i: "Sophia"} leder en lokal skiskole. For nogle år siden byggede jeg et bookingsystem til den for at automatisere administrationen så meget som muligt og gøre livet lettere for hende, eleverne og skilærerne. Det startede enkelt, men udviklede sig til en fuldt udbygget webapplikation, hvor administratorer kunne definere skemaer og grupper, forældre kunne tilmelde deres børn og lærere kunne registrere fremmøde fra deres telefoner osv.
 
-For nogle dage siden besluttede vi at opdatere dette til en mere moderne teknologistak. Så jeg skrev det om fra bunden. Det tog kun 2 dage med hjælp fra Cursor!
+For nogle dage siden besluttede vi at opdatere dette til en mere moderne teknologistak. Så jeg skrev det om jeæt fra bunden. Det tog kun 2 dage med hjælp fra Cursor!
 
 Men her kommer den mest interessante del.
 
-Lige nu mens jeg skriver disse ord, sidder Sophia i samme rum og tester den nye version og laver forbedringer til den. Men hun er ikke udvikler! Jeg viste hende bare det grundlæggende i hvordan man bruger Cursor, og nu er hun i gang og laver rigtig softwareudvikling, men uden selv at skrive en eneste linje kode. Eksempler på prompts:
+Lige nu mens jeg skriver disse ord, sidder Sophia i samme rum og tester den nye version og laver forbedringer til den. Men hun er ikke udvikler! Jeg viste hende hvordan man grundliggende bruger Cursor, og nu er hun i gang og laver rigtig softwareudvikling, men uden selv at skrive en eneste linje kode. Eksempler på prompts:
 
+- "Medlemsnummer skal være 5-6 tegn".
+- "Fjern felterne for køn og postnummer, vi har ikke brug for dem".
+- "Når jeg klikker på et kursus, skal jeg komme til kursusadministrationssiden".
+- "Deltagerantallet er forkert, jeg tilføjede 3 tilmeldinger, og det blev ikke opdateret".
+- "Forbedr layoutet på bookingsiden, og gør det nemmere at skelne mellem forskellige niveauer".
 
-
-- "Medlemsnummer skal være 5-6 tegn"
-- "Fjern køn- og postnummerfelterne, vi har ikke brug for dem"
-- "Når jeg klikker på et kursus, skal jeg komme til kursusadministrationssiden"
-- "Deltagerantallet er forkert, jeg tilføjede 3 tilmeldinger, og det blev ikke opdateret"
-- "Forbedr layoutet på bookingsiden, gør det nemmere at skelne mellem forskellige niveauer".
-
-På et tidspunkt fandt hun et skærmbillede frem af den gamle version, som havde et andet layout på hovedbookingsiden. Hun indsatte skærmbilledet i Cursor og skrev "Få det til at ligne dette mere" - og det var klaret.
+På et tidspunkt fandt hun et skærmbillede frem af den gamle version, som havde et andet layout på bookingsiden. Hun indsatte skærmbilledet i Cursor og skrev "Få det til at ligne dette mere" - og det var klaret.
 
 {alt: "Billedet viser et vintersportsprogram for børn i alderen 5-6 år fra organisationen "Friluftsfrämjandet." Det viser tre grupper: Snögubbar, Snöstjärnor og Snökanoner, med kursusbeskrivelser og forudsætninger. Hver gruppes tilgængelighed er vist, hvor de fleste hold er fuldt bookede bortset fra Snökanoner-gruppen, som har nogle få pladser tilbage. Baggrunden viser børn i vintertøj."}
 ![](resources-da/260-booking-da.jpg)
 
-Nogle gange går tingene galt, og en ændring virker ikke. Så giver hun bare feedback eller giver Cursor fejlmeddelelsen. Det plejer at løse det. Og hvis ikke, kan hun nemt gå tilbage til den sidste version der virkede, prøve en anden tilgang eller bede mig om hjælp.
+Nogle gange går tingene galt, og en ændring virker ikke. Så giver hun bare feedback eller giver Cursor en kopi af fejlmeddelelsen. Det plejer at fikse det. Og hvis det ikke gør, kan hun nemt gå tilbage til den forrige version der virkede, prøve en anden tilgang eller bede mig om hjælp.
 
-Dette er et vigtigt punkt. I denne sammenhæng er Sophia{i: "Sophia"} kunden, og jeg er udvikleren. Udvikleren er stadig nødvendig (medmindre produktet er virkelig trivielt). Forskellen er, at kunden kan gøre mange ting selv og ikke behøver at spørge udvikleren om hver lille ting.
+Dette er vigtigt. I denne situation er Sophia{i: "Sophia"} kunden, og jeg er udvikleren. Udvikleren er stadig nødvendig (medmindre at produktet er virkelig trivielt). Forskellen er, at kunden kan gøre mange ting selv og ikke behøver at spørge udvikleren om hver eneste lille ændring.
 
-Dette er ekstremt styrkende og motiverende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolhet!". Det er svensk og oversættes cirka til "Skabelsesglæde og skabelsesstolthed!"
+XXXDette er ekstremt styrkende og motiverende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolhet!". Det er svensk og oversættes cirka til "Skabelsesglæde og skabelsesstolthed!"
 
 {alt: "En person sidder ved et skrivebord og giver tommel op foran en computer. Skærmen viser kodningssoftware og en hjemmeside. Rummet har en mikrofonarm og store højtalere på skrivebordet. Personen ser tilfreds og begejstret ud."}
 ![](resources-da/260-customer-coding-da.jpg)
 
-- Som kunde giver det dig nærmest "gudekræfter" til at transformere og forbedre produktet. Ingen grund til altid at skulle spørge udvikleren om hver lille ting og vente på, at de har tid til at gøre det.
-- Som udvikler bliver du ikke tynget ned af at skulle fikse mange små ting. Du kan fokusere på arkitekturen, arbejde på mere interessante problemer og udrette mere cool ting med mindre tid.
+- Som kunde giver det dig nærmest "guddommelige kræfter" til at ændre og forbedre produktet. Der er ingen grund til altid at skulle spørge udvikleren om hver lille ting og vente på, at udvikleren har tid til at ændre det.
+- Som udvikler bliver du ikke tynget ned af at skulle fikse mange små ting. Du kan fokusere på arkitekturen, arbejde på mere interessante problemer og udrette flere cool ting med mindre tid.
 
-Jeg tror, dette er fremtiden for softwareudvikling{i: "softwareudvikling"}. Kunder og udviklere samarbejder side om side, men uden flaskehalssituationen hvor kun udvikleren kan skrive kode.
+Jeg tror, dette er fremtiden for softwareudvikling{i: "softwareudvikling"}. Kunder og udviklere samarbejder side om side, men uden en flaskehalssituation, hvor det kun er udvikleren som kan skrive kode.
 
 ## Konsekvenserne af dette
 
 Hvad er konsekvenserne af denne produktivitetsforbedring?
 
-Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gentagne gange forbløffet over de produktivitetsforbedringer, jeg får med AI-assisteret softwareudvikling{i: "AI-assisteret kodning"}.
+Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gang på gang gange forbløffet over de produktivitetsforbedringer, jeg får med AI-assisteret softwareudvikling{i: "AI-assisteret kodning"}.
 
 Så vil softwareudviklere stadig være her, eller vil AI overtage jobbet fuldstændigt?
 
-Jeg talte om dette i kapitlet "Menneskers Rolle"{i: "Role of Humans"}. Generelt for det meste højt kvalificerede arbejde finder jeg, at AI overtager opgaver, ikke jobs.
+Jeg skrev om dette i kapitlet "Menneskers rolle"{i: "Role of Humans"}. Og helt generelt tror jeg at for langt det meste arbejde, som kræver høje kvalifikationer, vil AI'en overtage opgaver, men ikke jobs.
 
-I alle eksemplerne ovenfor var der et menneske involveret i processen - mig. Jeg skrev promptsene, jeg fulgte op på resultaterne, jeg tog designbeslutningerne. I virkelige softwareudviklingsscenarier er jeg også den, der interagerer med kunden, og jeg er den, der tager ansvar for produktets kvalitet.
+I alle eksemplerne ovenfor var der et menneske involveret i processen, det vil sige mig. Jeg skrev prompten, jeg fulgte op på resultaterne, jeg tog designbeslutningerne. I virkelige softwareudviklingsscenarier er jeg også den, der interagerer med kunden, og jeg er den, der tager ansvar for produktets kvalitet.
 
-AI erstatter ikke det menneskelige job som softwareudvikler. Det overtager nogle aspekter af det, såsom at skrive kode, og sparer dermed en masse tid.
+AI erstatter ikke det menneskelige job som softwareudvikler. Det vil overtage nogle aspekter af det, såsom at skrive kode, og sparer dermed en masse tid.
 
-Jeg lavede en hurtig undersøgelse ved en programmeringskonference. Jeg havde lige lavet nogle af disse demoer live foran et publikum på omkring 300 udviklere. Jeg spurgte dem "Hvor mange af jer elsker at kode?" Næsten alle hænder kom op. Så spurgte jeg "Hvor mange af jer ville sige, at jeg koder lige nu?". Næsten alle hænder kom op igen. Men jeg skrev ikke en eneste linje kode selv.
+Jeg lavede ved en konference for udviklere en hurtig undersøgelse. Jeg havde lige lavet nogle af disse demoer live foran et publikum på omkring 300 udviklere. Jeg spurgte dem "Hvor mange af jer elsker at kode?" Næsten alle hænder kom op. Så spurgte jeg "Hvor mange af jer vil mene, at jeg koder lige nu?". Næsten alle hænder kom op igen. Men jeg skrev ikke en eneste linje kode selv.
 
-Dette matcher min personlige erfaring og følelse. Softwareudviklere kan lide at kode. Men det handler ikke rigtig om selve kodningen, handlingen at skrive linjer af kode. Det er glæden ved at skabe ting, og glæden ved at løse problemer, glæden ved at lære og iterere hurtigt. AI tager ikke det væk. Tværtimod lader AI dig skabe ting hurtigere og iterere hurtigere.
+Dette svarer til min personlige erfaring og følelse. Softwareudviklere kan lide at kode. Men det handler ikke rigtig om selve kodningen, det vil sige handlingen at skrive linjer af kode. Det er glæden ved at skabe ting, og glæden ved at løse problemer, glæden ved at lære og iterere hurtigt. AI fjerne ikke det. Tværtimod lader AI dig skabe ting hurtigere og iterere hurtigere.
 
-AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg kan gå fra idé til resultat på meget kortere tid. Det meste af min tid bruges på at skabe, og mindre af min tid bruges på at sidde fast i et kaninhul, hvor jeg prøver at finde ud af, hvor jeg skal sætte den forbandede parentes eller semikolon.
+AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg kan gå fra idé til resultat på meget kortere tid. Det meste af min tid bruges på at skabe, og mindre af min tid bruges på at sidde fast i et XXXkaninhul, hvor jeg prøver at finde ud af, hvor jeg skal sætte den forbandede parentes eller semikolon.
 
 
 
-Noget jeg hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er at AI gør dem frygtløse. Skal du kode en iOS-app? Har aldrig prøvet det før? Intet problem, bare gør det og lær undervejs. Har aldrig kodet Python? Kom bare an!
+En ting jeg nu hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er at AI gør dem frygtløse. Skal du kode en iOS-app? Og du har aldrig prøvet det før? Det er intet problem, bare start med at gøre det og så lær undervejs. Du har aldrig kodet i Python? Kom bare an!
 
-Den bedste måde at lære noget nyt på er ofte at pair-programme med en ekspert. Og nu har vi alle nem adgang til den ekspert.
-
+Den bedste måde at lære noget nyt på er ofte at programmere sammen med en ekspert. Og nu har vi alle nem adgang til den ekspert.
+YYY
 ## Hvad hvis koden ikke virker?
 
 Selv med de bedste værktøjer vil AI-genereret kode nogle gange ikke virke.
