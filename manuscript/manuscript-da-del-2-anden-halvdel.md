@@ -697,120 +697,120 @@ AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg ka
 En ting jeg nu hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er at AI gør dem frygtløse. Skal du kode en iOS-app? Og du har aldrig prøvet det før? Det er intet problem, bare start med at gøre det og så lær undervejs. Du har aldrig kodet i Python? Kom bare an!
 
 Den bedste måde at lære noget nyt på er ofte at programmere sammen med en ekspert. Og nu har vi alle nem adgang til den ekspert.
-YYY
-## Hvad hvis koden ikke virker?
+
+## Hvad nu hvis koden ikke virker?
 
 Selv med de bedste værktøjer vil AI-genereret kode nogle gange ikke virke.
 
-Dette lille flowdiagram illustrerer nogle typiske årsager til dette, og hvad man kan gøre ved det.
+Flowdiagrammet herunder illustrerer nogle typiske årsager til AI-genereret kode der ikke virker, og hvad man kan gøre for at løse det.
 
 {alt: "Flowdiagram med titlen 'Den AI-genererede kode virkede ikke, eller kvaliteten er dårlig. Hvorfor?' Diagrammet starter med fire problemer i lyserøde bokse: brug af en underlegen model, en dårlig prompt, mangel på kontekst, og brug af et ukendt eller nyt API. Løsninger i grønne bokse inkluderer at bruge en bedre model, forbedre prompten, give kontekst, skifte til et velkendt alternativ, give dokumentation, og bruge en ældre version. En overstreget sektion afviser at give AI skylden. Et tip i bunden råder til at tage mindre skridt, hvis tingene ikke virker."}
 ![](resources-da/260-what-if-code-doesnt-work-da.png)
 
 Nogle vigtige pointer:
 
-- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} på tidspunktet for denne skrivning den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}. Men det vil ændre sig over tid, efterhånden som modellerne forbedres.
-- Hvis AI{i: "AI"} virker klodset og laver grundlæggende koderingsfejl, bruger du højst sandsynligt enten en dårlig model, eller du har ikke givet den en god prompt{i: "prompt"}.
-Med gode modeller ser jeg meget sjældent klodsede fejl. Fejlen ligger som regel i min prompt. Enten har jeg ikke beskrevet godt nok, hvad jeg vil opnå, eller også har jeg ikke givet den rette kontekst. Værktøjer som Cursor{i: "Cursor"} bliver bedre til selv at finde den rette kontekst, men nogle gange fejler det, og så skal du manuelt sikre, at den har den rette kontekst.
-- Hvis du bruger et API eller framework, der ikke er særlig kendt, for eksempel et meget nichepræget logging-framework, så vil AI nogle gange lave fejl, simpelthen fordi den ikke kender til det. Overvej at skifte til et mere velkendt framework{i: "framework"} (hvilket måske alligevel er en god idé), eller giv dokumentation eller eksempler, så AI-modellen ved, hvordan det virker.
-- Hvis du bruger en meget ny version af et API eller framework, så vil AI nogle gange lave fejl, fordi den ikke kender til den version. Se kapitlet om begrænsninger{i: "begrænsninger"}. For at løse det kan du enten skifte til en ældre version eller give dokumentation eller eksempler, så AI-modellen ved, hvordan det virker.
+- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} på tidspunktet hvor denne bog blev skrevet den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}. Men det vil ændre sig over tid, efterhånden som modellerne forbedres.
+- Hvis AI'en{i: "AI"} virker klodset og laver grundlæggende kodefejl, bruger du højst sandsynligt enten en dårlig model, eller du har ikke givet den en god prompt{i: "prompt"}.
+Med gode modeller ser jeg meget sjældent klodsede fejl. Fejlen ligger som regel i min prompt. Enten har jeg ikke været god nok til at beskrive, hvad jeg vil opnå, eller også har jeg ikke givet den rette kontekst. Værktøjer som Cursor{i: "Cursor"} bliver bedre til selv at finde den rette kontekst, men nogle gange fejler det, og så skal du manuelt sikre, at AI'en har den rette kontekst.
+- Hvis du bruger et API eller framework, der ikke er særlig udbredt, for eksempel et meget nichepræget logging-framework, så vil AI nogle gange lave fejl, simpelthen fordi den ikke kender til frameworket. Overvej at skifte til et mere velkendt framework{i: "framework"} (hvilket måske alligevel er en god idé), eller sørg for at supplere med dokumentation eller eksempler, så AI-modellen ved, hvordan frameworket virker.
+- Hvis du bruger en meget ny version af et API eller framework, så vil AI nogle gange lave fejl, fordi den ikke kender til den nye version. Se kapitlet om begrænsninger{i: "begrænsninger"}. For at løse dette problem kan du enten skifte til en ældre version eller suppplere med dokumentation eller eksempler, så AI-modellen ved, hvordan frameworket virker.
 
-Ofte kan du, hvis den AI-genererede kode ikke virker, simpelthen sende fejlmeddelelsen tilbage til den, og den vil rette det af sig selv. Dette virker overraskende ofte. Men hvis det bliver ved med at fejle efter flere forsøg, skal du måske gøre nogle af de ting, jeg nævnte ovenfor. Og som en nødløsning kan du altid falde tilbage på god gammeldags manuel kodning.
+Hvis den AI-genererede kode ikke virker, kan du ofte nøjes med at give fejlmeddelelsen tilbage til den, og den vil rette det af sig selv. Dette virker overraskende ofte. Men hvis det bliver ved med at fejle efter flere forsøg, skal du måske gøre nogle af de ting, jeg nævnte ovenfor. Og som en nødløsning kan du altid falde tilbage på god, gammeldags manuel kodning.
 
-Generelt, hvis den AI-genererede kode bliver ved med at fejle, så tag mindre skridt. For eksempel i stedet for "Implementer et kreditkortbetalingssystem" så reducer det til "Skriv kode til at pinge en betalingsservice", og iterer derfra. Dette er det samme som når man koder manuelt - hvis du snubler meget, så tag mindre skridt. Ligesom en tumling der lærer at gå.
+Helt generelt: Hvis den AI-genererede kode bliver ved med at fejle, så løs opgaven i mindre skridt. I stedet for eksempel at prompte: "Implementer et kreditkortbetalingssystem", så reducer prompten til "Skriv kode til at pinge en betalingsservice", og iterer så derfra. Dette er det samme som når man koder manuelt - hvis du snubler meget, så tag mindre skridt. Ligesom et lille barn der lærer at gå.
 
-## Dovenskab er en beslutning
+## At være doven er en beslutning
 
-Dovenskab{i: "dovenskab"} er nært beslægtet med effektivitet. Som softwareingeniør er dovenskab nogle gange en dårlig ting, for eksempel ikke at teste en funktion før den frigives. Men det er oftest en god ting, som at automatisere rutineopgaver{i: "automatisering af opgaver"} for at gøre det hurtigere og mindre fejlbehæftet.
+Dovenskab{i: "dovenskab"} er nært beslægtet med effektivitet. Som software-udvikler er dovenskab nogle gange en dårlig ting, for eksempel hvis man ikke tester en software-funktion før den frigives. Men det kan ofte også være en god ting at være doven, for eksempel ved at automatisere rutineopgaver{i: "automatisering af opgaver"} for at gøre udførelsen af dem hurtigere og med færre fejl.
 
-Det fine ved AI-assisteret kodning{i: "AI-assisteret kodning"} er, at du kan vælge dit niveau af dovenskab fra sag til sag. Skalaen går hele vejen fra "Skriv koden manuelt" til "Lad AI'en skrive koden og kig ikke engang på den".
+Det fine ved AI-assisteret kodning{i: "AI-assisteret kodning"} er, at du selv kan vælge dit ønskede niveau af dovenskab fra gang til gang. Skalaen går hele vejen fra "Skriv koden manuelt" til "Lad AI'en skrive koden uden selv at kigge på den derefter".
 
 {alt: "Illustration med titlen 'Vælg dit niveau af dovenskab' med en vandret linje der indikerer forskellige niveauer af afhængighed af AI til kodeskrivning. Til venstre viser en hamster i et hjul manuel kodning uden AI-hjælp. Mod højre beskriver niveauerne stigende AI-involvering, der ender med en afslappet hamster i en hængekøje ved 100% AI-afhængighed, hvor AI'en skriver koden uden indgriben."}
 ![](resources-da/260-laziness-da.png)
 
 
 
-Som standard lader jeg AI skrive koden og skimmer den derefter, før jeg anvender den.
+Som udgangspunkt lader jeg AI skrive koden og skimmer derefter koden, før jeg anvender den.
 
 Hvornår ville du lade AI skrive koden uden overhovedet at kigge på den?
 
-- Hvis det er **wegwerfbar prototypekode**{i: "throwaway prototype code"}, hvor du bare er interesseret i at se et hurtigt resultat.
-- Hvis det er **ikke-vigtig kode**{i: "non-important code"}, såsom en intern administrationsside eller en lille hjælpefunktion. Så længe det virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan koden ser ud. Og du kan altid kigge nærmere på den senere hvis nødvendigt og rette den, hvis det er påkrævet.
+- Hvis det er **prototype-kode, der kan kasseres**{i: "throwaway prototype code"}, hvor du bare er interesseret i at se et hurtigt resultat.
+- Hvis det er **kode som ikke er vigtig**{i: "non-important code"}, som f.eks. en administrationsside til eget brug eller en lille hjælpefunktion. Så længe koden virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan den ser ud. Og du kan altid kigge nærmere på koden senere hvis det bliver nødvendigt og så rette den, hvis det er påkrævet.
 
-Hvornår ville du skrive koden manuelt? Eller generere den med AI, men studere og finjustere hver eneste kodelinje?
+Hvornår ville du skrive koden manuelt? Eller generere den med AI, men så studere og finjustere hver eneste kodelinje?
 
-- Hvis det er **forretningskritisk kode**{i: "mission-critical code"}, såsom en kernefunktion eller en sikkerhedsrelateret funktion.
-- Hvis du ønsker at **fordybe din læring**{i: "deepen learning"}. At skrive ting manuelt tager længere tid, men du har tendens til at lære mere af det.
-- Hvis **AI bliver ved med at fejle**{i: "AI failure"} af en eller anden grund.
+- Hvis det er **forretningskritisk kode**{i: "mission-critical code"}, såsom en meget vigtig funktion eller en sikkerhedsrelateret funktion.
+- Hvis du ønsker at **styrke din egen læring**{i: "deepen learning"}. At skrive kode manuelt tager længere tid, men du lærer typisk mere af det.
+- Hvis **AI'en konstant fejler**{i: "AI failure"} af en eller anden grund.
 
-Så bare fordi AI _kan_ skrive din kode, betyder det ikke, at du altid bør lade den gøre det.
+Så bare fordi AI'en _kan_ skrive din kode, betyder det ikke, at du altid bør lade den gøre det.
 
-# AI-journalisten der blev TV-stjerne
+# AI-journalisten der blev en TV-stjerne
 
-Her er et eksempel på en autonom AI-agent{i: "autonomous AI agent"} i aktion.
+Her kommer et eksempel på hvordan det kan se ud, når en autonom AI-agent{i: "autonomous AI agent"} får lov til at arbejde.
 
-I begyndelsen af 2024 var vi involveret i en svensk TV{i: "Swedish TV"}-dokumentar kaldet "Generation AI"{i: "Generation AI"}. Produceren af showet havde set nogle af vores tidlige AI-agent prototyper i aktion og ønskede noget lignende til TV-showet. Så det var fokus for [Generation AI - Episode 6](https://www.svtplay.se/video/KMy3AoZ/generation-ai/6-avatar), seriens sidste afsnit.
+I begyndelsen af 2024 var medvirkede vi i en svensk tv{i: "Swedish TV"}-dokumentar kaldet "Generation AI"{i: "Generation AI"}. Produceren af showet havde set nogle af vores tidlige AI-agent prototyper i aktion og ønskede noget lignende til TV-showet. Så det blev fokus for [Generation AI - Episode 6](https://www.svtplay.se/video/KMy3AoZ/generation-ai/6-avatar) som var sidste afsnit af serien.
 
 {alt: "Et promoveringsbillede for "Generation AI - Del 6: Avatar" på SVT Play. Det viser en mand, hvor halvdelen af hans ansigt fremstår menneskeligt og den anden halvdel mekanisk, sat mod en baggrund med digitale og futuristiske elementer. Teksten indeholder showets titel og episodeinformation, med muligheder for at fortsætte med at se."}
 ![](resources-da/480-svt-cover-da.jpg)
 
-Vi arbejdede sammen med Alex{i: "Alex"}, værten på showet, en velkendt svensk journalist{i: "journalists"} og nyhedsvært. Idéen var at bygge en AI-journalist-agent kaldet AI-lex, i bund og grund en AI-version af Alex{i: "AI-lex"}, som ville arbejde sammen med den rigtige Alex{i: "Alex"} om at lave nyhedsvideoer. For sjov konfigurerede vi AI-lex til at tænke om sig selv som en bedre version af Alex, så de kunne drille hinanden lidt med det.
+Vi arbejdede sammen med showets vært Alex{i: "Alex"}, som er en velkendt svensk journalist{i: "journalists"} og nyhedsvært. Idéen var at bygge en AI-journalist-agent kaldet AI-lex, i bund og grund en AI-version af Alex{i: "AI-lex"}. Denne AI-version skulle arbejde sammen med den rigtige Alex{i: "Alex"} om at producere nyhedsvideoer. For sjov konfigurerede vi AI-lex til at den anså sig selv som en forbedret version af Alex, så de kunne drille hinanden lidt med det.
 
 Så hvordan designede vi denne agent?
 
 ## Design af agenten
 
-Vi startede med at arbejde sammen med Alex{i: "Alex"} foran en whiteboard, hvor vi kortlagde hans proces for at lave nyhedsvideoer, og dækkede hvert trin fra research til produktion.
+Vi startede med at arbejde sammen med Alex{i: "Alex"} foran et whiteboard, hvor vi kortlagde hans arbejdsproces for at lave nyhedsvideoer, som dækkede hvert trin fra research til produktion.
 
 {alt: "En person i en ternet skjorte skriver på en whiteboard med sektioner, der beskriver en produktions-arbejdsgang på svensk. Sektionerne er mærket "Potentiella Nyheter," "Valda Nyheter," "Utkast på Synopsis," "Godkänt Synopsis," "Utkast på manus," "Godkänt manus," "Förslag på video," "Godkänd video," og "Publicerad och delad." Gule post-its er synlige på venstre side."}
 ![](resources-da/480-process-map-da.jpg)
 
-Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"} til ham, der researcher nyheder, udvælger de mest relevante nyheder for i dag, genererer passende billeder og endda skaber selve nyhedsvideoen. Agenten brugte en række forskellige værktøjer, såsom:
+Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"} til ham, der researcher nyheder, udvælger dagens mest relevante nyheder, genererer passende billeder og endda skaber selve nyhedsvideoen. Agenten brugte en række forskellige værktøjer, såsom:
 
 - OpenAI{i: "OpenAI"}: til at generere tekst og billeder og chatte med Alex
 - Trello{i: "Trello"}: til at styre arbejdsgangen i samarbejde med Alex
 - HeyGen{i: "HeyGen"}: til at generere avatar-film af AI-lex, der læser nyhederne op
 - Tavily: til at søge efter nyheder
 
-Vores mål var at lade agenten styre hele processen fra idé til produktion for at vise potentialet i AI-agenter i en virkelig situation{i: "real-world scenarios"}.
+Vores mål var at lade agenten styre hele processen fra idé til produktion for på den måde at vise potentialet i AI-agenter i en rigtig arbejdssituation{i: "real-world scenarios"}.
 
 {alt: "Flowdiagram der illustrerer processen med at skabe en nyhedsvideo: 1. "Find seneste nyheder" viser et udvalg fra kilder som SVT, CNN og Reuters, 2. "Vælg" viser en webside om EU's AI-regulering, 3. "Skriv manuskript" indeholder et tekstuddrag med titlen "En ny æra: Den Europæiske Union vedtager første AI-lov af sin art," 4. "Generer billeder" inkluderer et artikellayout med en relevant illustration, 5. "Optag & Publicer" har et videoscreenshot med en vært stående ved siden af en grafik af EU-flaget og digitale elementer."}
 ![](resources-da/480-process-map-2-da.png)
 
 
 
-Lad os kigge bag kulisserne og se, hvordan det faktisk ser ud.
+Lad os kigge om bag kulisserne og se, hvordan det faktisk ser ud.
 
 ## Sådan fungerer agenten
 
-I dokumentaren samarbejder Alex{i: "dokumentarer"} og hans agent-makker på et Trello-board, en digital visualisering af den komplette arbejdsgang fra research til produktion.
+I dokumentaren samarbejder Alex{i: "dokumentarer"} og hans agent-makker på et Trello-board, som er en digital visualisering af den komplette arbejdsproces fra research til produktion.
 
 {alt: "Et Trello-board med en lyserød baggrund med flere kolonner og kort. Kolonnerne er mærket på svensk, fra venstre mod højre: "Nya nyheter," "Valda nyheter (gör manus)," "Manus utkast," "Manus godkänt (bildsätt)," "Bild utkast," "Godkänd för videoproduktion (skapa video)," "Video förslag," "Publiceringskö (ladda upp)," og "Publicerat." Hver kolonne er beregnet til at organisere opgaver og fremskridt. Et kort er synligt i "Valda nyheter (gör manus)" kolonnen."}
 ![](resources-da/480-trello-da.png)
 
-Hver nat mens Alex{i: "Alex"} sover, laver hans pålidelige agent research og tilføjer relevante nyhedsemner som kort til boardet.
+Hver nat imens Alex{i: "Alex"} sover, udfører hans pålidelige agent research og tilføjer relevante nyhedsemner som kort til Trello-boardet.
 
 {alt: "Et digitalt board med titlen "AI Nyheter" med magenta baggrund viser fire kolonner mærket "Nya nyheter," "Valda nyheter (gör manus)," "Manus utkast," og "Manus godkänt." "Nya nyheter" kolonnen indeholder kort med svenske overskrifter om emner som Microsoft's AI-drevne Copilot{i: "Microsoft Copilot"}, Nvidias aktiestigninger, Google Healths fremskridt inden for generativ AI{i: "Google Health"}, og sikkerhedsproblemer i ChatGPT plugins{i: "ChatGPT plugins"}. Hvert kort har ikoner, der indikerer kommentarer eller yderligere noter."}
 ![](resources-da/480-adding-cards-da.png)
 
-AI-agenter er mest nyttige, når de arbejder sammen med dig, i dine værktøjer, og du vælger, hvilke opgaver der skal delegeres.
+AI-agenter giver størst værdi, når de arbejder sammen med dig, direkte i dine værktøjer, og det er dig der vælger, hvilke opgaver der skal videredelegeres.
 
 > **En bemærkning om sprog**  
-> Dette var et svensk TV-program{i: "svenske TV-programmer"} og en svensk journalist, så vi gjorde alt på svensk. Men forhåbentlig vil skærmbillederne nedenfor stadig være interessante, selvom du ikke forstår svensk. Eller du kan bare kopiere billedet og bede en AI-chat om at oversætte det for dig...
+> Dette var et svensk TV-program{i: "svenske TV-programmer"} og en svensk journalist, så vi lavede alle ting på svensk. Men forhåbentlig vil skærmbillederne nedenfor stadig være interessante, selvom du ikke forstår svensk. Eller du kan bare kopiere billedet og bede en AI-chat om at oversætte det for dig...
 
-Hvert kort på boardet indeholder et overordnet resumé af nyhedsemnet og links til kilder. Nogle gange bliver flere relaterede nyhedsemner kombineret til én nyhedsrapport. Her er et eksempel på indholdet af et kort:
+Hvert kort på Trello-boardet indeholder et overordnet resumé af nyhedsemnet og links til kilder. Nogle gange bliver flere relaterede nyhedsemner kombineret til én nyhedsrapport. Her er et eksempel på indholdet af et kort:
 
 {alt: "Screenshot af et Trello-kort med titlen "Nvidias Börsrusning: AI-entusiasm eller Nästa Stora Bubblan?" Kortet indeholder en beskrivelse på svensk om Nvidias aktiestigninger, sammenligner det med Teslas rally i 2020 og henviser til AI-drevne markedsdynamikker. Nedenunder er der kildelinks. Et miniaturebillede viser to personer, der sidder og har en samtale på en scene."}
 ![](resources-da/480-news-item-da.jpg)
 
 Så hvordan ved agenten, hvad den skal søge efter?
 
-Forskningsemnet og nyhedsudvælgelseskriterierne er defineret af Alex{i: "Alex"} på et separat instruktionsboard. Hvert kort på instruktionsboardet er en instruktion for et aspekt af AI-agentens arbejde{i: "autonom AI-agent"}. For eksempel hvordan den skal udvælge nyheder, hvordan den skal skrive et manuskript, osv.
+Research-emnet og nyhedsudvælgelseskriterierne er defineret af Alex{i: "Alex"} på et separat Trello-board med instruktioner. Hvert kort på dette instruktions-board er en instruktion for et trin af AI-agentens arbejde{i: "autonom AI-agent"}. For eksempel hvordan den skal udvælge nyheder, hvordan den skal skrive et manuskript, osv.
 
 {alt: "Billedet viser en brugergrænseflade med instruktioner til venstre og relateret indhold til højre. Til venstre er der menupunkter som "Personlighet i chatt," "Källor och ämnen," "Nyhetsvärdering," "Manus," "Rubrik," og "Bilder." "Källor och ämnen" sektionen er fremhævet med en markør, der peger på den. Til højre beskriver teksten emner relateret til AI-nyheder, med eksempler på gode og dårlige emner, med prioritering af AI-nyheder relevante for Sverige, Europa og kendte personer."}
 ![](resources-da/480-instructions-da.jpg)
 
-I dette tilfælde var nyhedskanalens emne Generativ AI{i: "Generativ AI"}, og Alex{i: "Alex"} ledte efter konkrete nyheder med en klar vinkel. Vi hjalp Alex med disse prompts, og som sædvanligt krævede det nogle iterationer at få det rigtigt.
+I dette tilfælde var emnet for nyhedskanalen Generativ AI{i: "Generativ AI"}, og Alex{i: "Alex"} ledte derfor efter konkrete nyheder med en tydelig vinkel. Vi hjalp Alex med at skabe disse prompts, og som sædvanligt krævede det nogle iterationer at få det rigtigt.
 
 Derefter vælger Alex, hvilket kort der skal blive til en egentlig nyhedsvideo. Lad os sige, han vælger denne her om Nvidias aktiekurs{i: "Nvidias aktiekurs"}.
 
@@ -819,16 +819,16 @@ Derefter vælger Alex, hvilket kort der skal blive til en egentlig nyhedsvideo. 
 
 
 
-Han flytter kortet, og det udløser straks agenten til at skrive et manuskript.
+Han flytter kortet, og det får straks agenten til at skrive et manuskript.
 
-Igen kan Alex guide dette arbejde gennem instruktionstavlen, hvor han beskriver, hvad han leder efter i et godt manuskript. Dette minder om, hvordan han ville arbejde med en menneskelig journalistassistent{i: "journalistassistent"}.
+Igen kan Alex guide dette arbejde gennem boardet med instruktioner, hvor han beskriver, hvad han synes der skal være i et godt manuskript. Dette svarer til, hvordan han ville arbejde med en menneskelig journalist-assistent{i: "journalistassistent"}.
 
 {alt: "Et skærmbillede viser en opdelt skærm. Til venstre er der et navigationspanel med titlen "Instruktioner" med menupunkterne: "Personlighet i chatt," "Källor och ämnen," "Nyhetsvärdering," "Manus," "Rubrik," og "Bilder." En markør peger på "Manus." Til højre vises en tekstblok med titlen "Struktur" der indeholder retningslinjer på svensk for at skrive, med vægt på klarhed, præcision og relevans."}
 ![](resources-da/480-instructions-2-da.jpg)
 
-Så selvom agenten udfører det meste af arbejdet, har Alex stadig kontrollen. Han kan ændre og justere instruktionerne når som helst det er nødvendigt.
+Så selvom agenten udfører det meste af arbejdet, er Alex stadig i kontrol. Han kan, når som helst det er nødvendigt, ændre og justere instruktionerne.
 
-Når agenten er færdig med manuskriptet, flytter den kortet til kolonnen "udkast til manuskript", så Alex kan kigge på det.
+Når agenten er færdig med manuskriptet, flytter den kortet til kolonnen "Udkast til manuskript", så Alex kan kigge på det.
 
 {alt: "Billedet viser en digital tavle med tre kolonner med titlerne "Nya nyheter," "Valda nyheter (gör manus)," og "Manus utkast." Hver kolonne indeholder kort med svensk tekst. Baggrunden er pink. Den første kolonne har tre kort der diskuterer AI og datasikkerhedsemner. Den tredje kolonne har ét kort om Nvidias markedsstigning."}
 ![](resources-da/480-manuscript-done-da.png)
@@ -838,45 +838,45 @@ Når agenten er færdig med manuskriptet, flytter den kortet til kolonnen "udkas
 
 Hvis han ønsker at ændre noget, kan han selv redigere teksten direkte eller give feedback til agenten.
 
-For eksempel ønsker han måske, at det skal være kortere og mere målrettet mod et yngre publikum. Så han skriver det ind. Han chatter faktisk direkte på kortet, og så opdaterer agenten manuskriptet i overensstemmelse hermed.
+Som et eksempel ønsker han måske, at manuskriptet skal være kortere og mere målrettet mod et yngre publikum. Så han skriver dette ved at direkte på kortet, hvorefter agenten opdaterer manuskriptet så det svarer til de nye instruktioner.
 
 {width: "70%", alt: "En tekstredigeringsgrænseflade viser en kommentarboks med teksten "Make it shorter and more targeted towards a younger audience." Under boksen er der en "Save"-knap med en musemarkør, der peger på den."}
 ![](resources-da/480-comment-da.png)
 
-Når Alex{i: "Alex"} er tilfreds med manuskriptet, trækker han kortet til den næste kolonne "Manuskript godkendt". Dette udløser det næste trin i processen - billedgenerering{i: "billedgenerering"}.
+Når Alex{i: "Alex"} er tilfreds med manuskriptet, flytter han kortet over til den næste kolonne kaldet: "Manuskript godkendt". Dette udløser det næste trin i processen, so mer billedgenerering{i: "billedgenerering"}.
 
-Agenten går i gang med arbejdet. Først genererer den passende billedprompter til hver del af manuskriptet{i: "manuskript"}, og derefter genererer den de faktiske billeder fra disse og vedhæfter dem til Trello-kortet{i: "Trello-kort"}.
+Agenten går i gang med arbejdet. Først genererer den passende billedprompter til hver enkelt del af manuskriptet{i: "manuskript"}, og derefter genererer den billederne udfra disse og vedhæfter disse billeder til Trello-kortet{i: "Trello-kort"}.
 
-Efter cirka et minut er agenten færdig, og kortet flyttes til den næste kolonne - "Billeder udkastet".
+Cirka et minut senere er agenten færdig, og kortet flyttes til den næste kolonne: "Billed-forslag genereret".
 
 {alt: "Et skærmbillede der viser et script med punkter til venstre og vedhæftede filer til højre. Scriptet indeholder titler og beskrivelser på svensk for tre billeder mærket BILD 1, BILD 2 og BILD 3. De vedhæftede filer viser tre billeder der svarer til disse beskrivelser: en raketopsendelse, faldende dominobrikker og en figur ved en korsvej i skoven. Muligheder for at redigere, downloade eller slette billederne er synlige ved siden af hver vedhæftet fil."}
 ![](resources-da/480-images-da.jpg)
 
-Igen kunne Alex{i: "Alex"} give feedback på billederne og anmode om ændringer. Når han er tilfreds, trækker han kortet til den næste kolonne: "Godkendt til videoproduktion".
+Igen kunne Alex{i: "Alex"} give feedback til billederne og anmode om ændringer. Når han er tilfreds, trækker han kortet til den næste kolonne: "Godkendt til videoproduktion".
 
 {alt: "En digital tavle med tre kolonner med titlerne "Bild utkast," "Godkänd för videoproduktion (skapa video)," og "Video förslag," alle på pink baggrund. Et kort er delvist synligt og viser en illustration af en raket der letter mellem skyer, med svensk tekst og ikoner der indikerer kommentarer og visninger."}
 ![](resources-da/480-approved-for-video-da.jpg)
 
-Nu går agenten i gang med at lave videoen - i dette tilfælde ved at forbinde til HeyGen{i: "HeyGen"} og generere en avatar-video af agenten, der læser manuskriptet op, mens billederne vises i baggrunden.
+Nu går agenten i gang med at lave videoen. I dette tilfælde sker det ved at forbinde til programmet HeyGen{i: "HeyGen"} og generere en avatar-video af agenten, der læser manuskriptet op, mens billederne vises i baggrunden.
 
-Få minutter senere er dette færdigt, og agenten flytter kortet til den næste kolonne - "Videoforslag". Kortet har nu et link til en forhåndsvisning af videoen, som Alex{i: "Alex"} kan gennemgå.
+Få minutter senere er dette færdigt, og agenten flytter kortet til den næste kolonne - "Video-forslag genereret". Kortet har nu et link til en forhåndsvisning af videoen, som Alex{i: "Alex"} kan gennemgå.
 
 
 
 {alt: "En collage af tre billeder. Billedet til venstre er en illustration af en person, der står ved en korsvej i en skovsti, med skilte der peger i forskellige retninger. Midter- og højre billederne viser en mand i en beige blazer og grøn skjorte, der taler i en mikrofon. Midterbaggrunden er lys turkis med abstrakte designs, mens højre baggrund viser en globus med en blå gradient."}
 ![](resources-da/480-video-da.jpg)
 
-I dokumentaren ønskede Alex{i: "Alex"} at hans agent skulle ligne ham selv og bruge hans stemme, så det du ser ovenfor er en AI-genereret klon af Alex. Men det kunne lige så godt have været en anden avatar eller karakter.
+I tv-dokumentaren ønskede Alex{i: "Alex"} at hans agent skulle ligne ham selv og bruge hans stemme, så det du ser ovenfor er en AI-genereret klon af Alex. Men det kunne lige så godt have været en anden avatar eller karakter.
 
 > **Bør AI-agenter ligne mennesker?**  
-> Set i bakspejlet tror jeg måske, vi skulle have brugt en ikke-menneskelig avatar til dette, i stedet for noget der ligner den rigtige Alex præcis. Selv hvis vi tydeligt markerer det som AI-genereret, kan folk måske føle sig snydt.
+> Set i bakspejlet vurderer jeg, at vi skulle have brugt en ikke-menneskelig avatar til dette, i stedet for noget der ligner den rigtige Alex så godt. Selv hvis vi tydeligt markerer resultatet som AI-genereret, kan folk måske føle sig snydt.
 
-Vi lavede også en app, hvor Alex{i: "Alex"} kan chatte frit med sin agent, uden for Trello-tavlen, ved hjælp af stemme eller tekst.
+Vi lavede også en app, hvor Alex{i: "Alex"} kunne chatte frit med sin agent, uden for Trello-boardet, ved hjælp af hans stemme eller tekst.
 
 {alt: "Et delt billede der viser en digital kommunikationsgrænseflade. Til venstre er der et cirkulært profilbillede af en person med et gyldent, kunstnerisk maskelignende design og en mikrofonknap nedenunder. Til højre er der en tekstsamtale mellem to personer, der diskuterer en demovideo og potentielle nyhedshistorier relateret til teknologiske udviklinger som Nvidias 6G-forskning. Beskederne er både på engelsk og svensk, og opsætningen inkluderer muligheder for chat og stemmekommunikation."}
 ![](resources-da/480-app-da.jpg)
 
-Her spurgte Alex{i: "Alex"} "Har vi nogle fede nye nyhedshistorier til dagens video?". Agenten tjekkede tavlen og skrev nogle forslag, og så begyndte de at diskutere målgruppe{i: "target audience"}.
+Som et eksempel spurgte Alex{i: "Alex"} "Har vi nogle fede nye nyhedshistorier til dagens video?". Agenten tjekkede tavlen og skrev nogle forslag, og så begyndte de at diskutere målgruppen{i: "target audience"}.
 
 Som du kan se, handler det hele om samarbejde{i: "collaboration"} mellem menneske og AI-agent{i: "autonomous AI agent"}.
 
@@ -885,14 +885,14 @@ Som du kan se, handler det hele om samarbejde{i: "collaboration"} mellem mennesk
 
 Teknisk set kunne AI-agenten{i: "autonomous AI agent"} have udført hvert trin i arbejdsgangen autonomt, uden nogen menneskelig feedback. Dog er resultaterne altid bedre med menneskeligt opsyn og involvering.
 
-Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have besluttet, at medarbejderen er færdig efter manuskripttrinet, og derefter optage videoen på den traditionelle måde med en menneskelig nyhedsvært.
+Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have besluttet, at AI-assistenten var færdig efter trinnet med oprettelse af manuskript, og derefter optage videoen på normal vis med en menneskelig nyhedsvært.
 
 
 ## Refleksion
 
-Dette eksempel er lidt ekstremt, med en agent der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"} der læser nyhederne. Men de tidligere dele af arbejdsgangen - at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, den slags ting er perfekte for en AI-agent{i: "autonomous AI agent"}.
+Dette eksempel er lidt ekstremt med en agent der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"} der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomous AI agent"}.
 
-Hos Ymnig{i: "Ymnig.ai"} ser vi en klar tendens mod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsrum (som Trello{i: "Trello"} i dette tilfælde), har alle den samme information og kan arbejde sammen.
+Hos Abundly{i: "abundly.ai"} ser vi en klar tendens til at vi er på mod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
 
 # AI-butleren med sin egen vilje
 
