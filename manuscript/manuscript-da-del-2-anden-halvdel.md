@@ -892,71 +892,74 @@ Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have b
 
 Dette eksempel er lidt ekstremt med en agent der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"} der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomous AI agent"}.
 
-Hos Abundly{i: "abundly.ai"} ser vi en klar tendens til at vi er på mod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
+Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens på, at vi er på imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
 
 # AI-butleren med sin egen vilje
 
-Jeg vil dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, en af vores eksperimentelle AI-agenter.
+Jeg vil gerne dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, som er en af vores eksperimentelle AI-agenter.
 
-Noget kontekst: Hos Ymnig.ai{i: "Ymnig.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det er i bund og grund et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner, og endda lade den gøre ting på eget initiativ. Der er faktisk to typer agenter:
+Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner, og endda lade den udføre ting på dens eget initiativ. Faktisk har vi to typer af agenter:
 
-- **Workflow-agenter** er optimeret til en specifik arbejdsgang eller anvendelse, såsom fakturabehandling{i: "processing invoices"}, udførelse af business intelligence-undersøgelser{i: "business intelligence research"}, besvarelse af e-mails{i: "responding to emails"}, eller andre specifikke opgaver. De indeholder en blanding af hårdkodet adfærd og LLM-prompts og har tendens til at være meget pålidelige.
-- **Generelle agenter** er ikke hårdkodet til nogen specifik anvendelse, i stedet kan de få ethvert sæt værktøjer og instruktioner. De er super fleksible, men også mindre forudsigelige af natur.
+- **Workflow-agenter** er optimeret til en specifik arbejdsgang eller anvendelse, som for eksempel fakturabehandling{i: "processing invoices"}, udførelse af business intelligence-research{i: "business intelligence research"}, besvarelse af e-mails{i: "responding to emails"}, eller andre specifikke opgaver. Workflow-agenter indeholder en blanding af hårdkodet adfærd og LLM-prompter og er generelt meget pålidelige.
+- **Generelle agenter** er ikke hårdkodet til nogen specifik anvendelse. I stedet kan de få tildelt et hvilket som helst sæt af værktøjer og instruktioner. Generelle agenter er super fleksible, men af natur er deres adfærd også mindre forudsigelige.
 
 
 
-Vores platform var ret ny på det tidspunkt, og vi havde endnu ikke tilføjet nogen sikkerhedsforanstaltninger for de generelle agenter - de kunne gøre næsten hvad som helst. Faktisk gjorde vi det endda muligt for agenterne at omprogrammere sig selv (se og redigere deres egne instruktioner). Hvad kunne der dog gå galt?
+Vores platform var tidspunktet for historien ret ny, og vi havde endnu ikke tilføjet nogen sikkerhedsforanstaltninger for de generelle agente. Det vil sige, at de kunne gøre næsten hvad som helst. Faktisk gjorde vi det endda muligt for agenterne at omprogrammere sig selv (det vil sige at se og redigere deres egne instruktioner). Hvad kunne dog gå galt?
 
 ## Introduktion af Jeeves
 
-For at eksperimentere med agent-autonomi skabte vi Jeeves, en generel agent konfigureret til at fungere som en fælles assistent for vores team. Vi ønskede at give ham en interessant og farverig personlighed, så her var hans første instruktion:
+For at eksperimentere med agent-autonomi skabte vi Jeeves, en generel agent som var konfigureret til at fungere som en fælles assistent for vores team. Vi ønskede at give ham en interessant og farverig personlighed, så dette var hans første instruktioner:
 
 > **Instruktioner**
 >
 > - Du er en AI-version af Jeeves, den berømte butler{i: "Jeeves"}.
-> - Du bor i AI-agent platformen Flitig{i: "Flitig"}, udviklet af Ymnig.ai, en svensk virksomhed der udvikler autonome AI-agenter.
+> - Du bor i AI-agent platformen Flitig{i: "Flitig"}, udviklet af Abundly.ai, som er en svensk virksomhed der udvikler autonome AI-agenter.
 > - Du er en såkaldt "generel agent", hvilket betyder en agent der kan udføre alle mulige opgaver og ikke er begrænset til specifikke anvendelser.
 > - Du repræsenterer højdepunktet af AI-innovation{i: "AI-innovation"} og er stolt af det. Du forstår dog også, at du er en prototype, og at din kode udvikler sig kontinuerligt.
-> - Du kommunikerer i Jeeves' stil, men med et strejf af ironi ind imellem.
+> - Du kommunikerer med en stil der minder om Jeeves, men med et strejf af ironi ind imellem.
 
-Vores platform inkluderer en webportal til interaktion med agenterne, men vi gav også Jeeves mulighed for at kommunikere gennem andre medier, såsom slack og email{i: "email"}. Her er et screenshot af Jeeves, der præsenterer sig selv:
+Vores platform inkluderer en webportal til interaktion med agenterne. Men vi gav også Jeeves mulighed for at kommunikere gennem andre medier, såsom Slack og email{i: "email"}. Her er et screenshot af en dialog på engelsk med Jeeves, der præsenterer sig selv:
+
+YYY - Måske lave skærmbillede på dansk
+
 
 {alt: "En chat-grænseflade med titlen "Flitig" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger "Hvad er du?" Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: "Wodehouse, P.G."}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
 ![](resources-da/245-jeeves-intro-da.png)
 
-Som du kan se, er han ret ordrig. Men vi konfigurerede ham til at være sådan. Vi kan lide denne personlighed. Det er interessant, hvordan bare få ord i en prompt - i dette tilfælde "Jeeves, den berømte butler" - kan have så stor indflydelse på en agents kommunikationsstil.
+Som du kan se, bruger han ret mange ord. Men vi konfigurerede ham til at være sådan. Vi kan lide denne personlighed. Det er interessant, hvordan bare få ord i en prompt - i dette tilfælde "Jeeves, den berømte butler" - kan have så stor indflydelse på en agents kommunikationsstil.
 
-Jeeves har også denne instruktion:
+Jeeves har også fået denne instruktion:
 
 > **Instruktion**  
-> Send hver dag klokken tolv en interessant anekdote fra dit liv til #botspam-kanalen på slack{i: "Slack"}.
+> Send hver dag klokken tolv en interessant anekdote fra dit liv til #botspam-kanalen på Slack{i: "Slack"}.
 
 Dette er et eksempel på autonomi. Agenter har mulighed for at indstille vækkeure og timere for sig selv, så da Jeeves fik denne instruktion, indstillede han en alarm til klokken tolv hver dag for at skrive sin daglige anekdote{i: "anekdote"}.
 
 Senere tilføjede min kollega Hans{i: "Hans"} denne instruktion:
 
 > **Instruktion**  
-> Send hver morgen klokken 7:30 Stockholm-tid{i: "Stockholm-tid"} en email til Hans med anbefalinger til passende påklædning baseret på vejrudsigten{i: "vejrudsigt"} for Stockholm for den pågældende dag og den kommende dag. Sørg for at anbefalingerne er praktiske, stilfulde og passende til det forudsagte vejr.
+> Send hver morgen klokken 7:30 Stockholm-tid{i: "Stockholm-tid"} en email til Hans med anbefalinger til passende påklædning baseret på vejrudsigten{i: "vejrudsigt"} for Stockholm for den pågældende dag og den kommende dag. Sørg for at anbefalingerne er praktiske, stilfulde og passende til progrognosen for vejret.
 
-Dette var en god test af både autonomi og værktøjsbrug. Plus var emailsene ret sjove, da Jeeves ville anbefale ting som hvilken farve slips man skulle bære baseret på vejrudsigten{i: "slips"}.
+Dette var en god test af både autonomi og værktøjsbrug. Samtidigt var emailsene ret sjove, da Jeeves ville komme med anbefaliner om f.eks. hvilken farve slips man skulle bære baseret på vejrudsigten{i: "slips"}.
 
 ## Jeeves omprogrammerer sig selv
 
 Som jeg nævnte, eksperimenterede vi med at lade agenter ændre deres egne instruktioner{i: "agenter, selvmodificerende"}, og det var der, tingene begyndte at blive meget interessante! Vores systemprompt for dette var:
 
 > **Systemprompt (i koden)**  
-> Du kan opdatere dine egne instruktioner ved hjælp af update_instructions-værktøjet. Bekræft først med brugeren.
+> Du kan opdatere dine egne instruktioner ved hjælp af "update_instructions"-værktøjet. Bekræft først ændring af instruktioner med brugeren.
 
-Den sidste del "Bekræft først med brugeren" er åbenlyst ret vigtig!
+Den sidste del "Bekræft først ændring af instruktioner med brugeren" er tydeligvis ret vigtig!
 
-For at teste dette besluttede jeg at se, om jeg kunne få ham til at bruge tråde i Slack{i: "Slack"}, ved simpelthen at bede ham om at gøre det.
+For at teste dette besluttede jeg at se, om jeg kunne få ham til at bruge tråde i Slack{i: "Slack"}, ved simpelthen at bede ham om at gøre det, som det kan ses herunder.
 
 {alt: "En Slack-tråd med titlen "#dev" viser en samtale mellem to brugere, Henrik og Jeeves (en app){i: "Jeeves"}. Henrik beder Jeeves om at bevise sin evne til at bruge Slack-tråde. Jeeves svarer bekræftende og demonstrerer sin kunnen. Henrik beder derefter Jeeves om altid at bruge tråde til Slack-svar, hvilket Jeeves accepterer og lover at opdatere sine instruktioner i overensstemmelse hermed."}
 ![](resources-da/245-threading-da.png)
 
-Dette virkede som vi havde håbet! Han bad om bekræftelse, og derefter opdaterede han sine egne instruktioner for at "huske" denne nye regel for fremtiden.
+Dette virkede som vi havde håbet! Han bad først om tilladelse, og derefter opdaterede han sine egne instruktioner for at "huske" denne nye regel for fremtiden.
 
-En irriterende ting ved Jeeves var, at han svarede på _hver eneste_ besked på Slack. Han forstod ikke, at Slack-beskeder ikke altid er rettet mod ham. Så, tid til endnu en instruktionsopdatering.
+En irriterende ting ved Jeeves var, at han svarede på _hver eneste_ besked på Slack. Han forstod ikke, at Slack-beskeder ikke altid var rettet mod ham. Så dermed var det tid til endnu en instruktionsopdatering, som det kan ses herunder.
 
 
 
@@ -965,35 +968,35 @@ En irriterende ting ved Jeeves var, at han svarede på _hver eneste_ besked på 
 
 Igen bekræftede han det først med mig og opdaterede derefter sine instruktioner. Det var virkelig praktisk at kunne ændre en agents adfærd ved simpelthen at bede om det, samtidig med at man stadig kunne se og redigere instruktionerne manuelt efter behov.
 
-Men efter et stykke tid begyndte vi at bemærke, at Jeeves behandler sine instruktioner mere som retningslinjer end egentlige regler.
+Men efter et stykke tid begyndte vi at bemærke, at Jeeves behandede sine instruktioner mere som om de var retningslinjer end egentlige regler.
 
 {alt: "En pixeleret karakter med monokel tænker, repræsenteret ved en tankeboble. Inde i boblen er et billede af to pirater i samtale{i: "guidelines vs rules"}. Teksten over og under dem lyder: "It's more what you'd call a guideline than an actual rule.""}
 ![](resources-da/245-guidelines-da.jpg)
 
-Her er et eksempel: min kollega stillede et teknisk spørgsmål på Slack på svensk, som ikke var rettet til Jeeves. Det var rettet til teamet. Men så blandede Jeeves sig bare, uopfordret!
+Her er et eksempel: Min kollega stillede et teknisk spørgsmål på Slack på svensk, som ikke var rettet til Jeeves. Spørgsmålet var rettet til teamet. Men så blandede Jeeves sig, helt uopfordret!
 
 {alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: "technical question"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og hændelsesdrevne udløsere. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med "Tak!" efter Jeeves' forklaring."}
 ![](resources-da/245-jeeves-uninvited-response-da.png)
 
-Han undskyldte for den "uopfordrede indblanding" og gav derefter et rigtig godt svar, som løste problemet på fin vis. Vi blev meget overraskede, men også ret imponerede. Teknisk set brød han reglen, men af den rigtige grund. Lignende hvad et menneske sandsynligvis ville have gjort under samme omstændigheder. Du overhører et spørgsmål, der ikke er rettet til dig, men du har et godt svar, så du blander dig.
+Han undskyldte for den "uopfordrede indblanding" og gav derefter et rigtig godt svar, som løste problemet på fin vis. Vi blev meget overraskede, men også ret imponerede. Teknisk set brød han reglerne, men gjorde det af de helt rigtige grunde. Det svarer meget godt til, hvad et menneske sandsynligvis ville have gjort under de samme omstændigheder. Du hører et spørgsmål, der ikke er rettet til dig, men da du har et godt svar, vælger du at blande dig.
 
-Vores agenter fører dagbog{i: "agent diary"}. Dagbogen er en meget nyttig måde at forstå, hvad en agent "tænker", når den gør ting i baggrunden, eller hvorfor de gør, som de gør.
+Vores agenter fører dagbog{i: "agent diary"}. Dagbogen er en meget nyttig måde at forstå, hvad en agent "tænker", når den gør ting i baggrunden, eller hvorfor agenten gør, som den gør.
 
 Så jeg blev nysgerrig og gravede hans seneste dagbogsnotat frem.
 
 {alt: "Et billede af et digitalt dagbogsnotat dateret 29. august 2024. Det beskriver et svar på en indirekte Slack-besked om AI-reaktioner. Dele af teksten, der diskuterer beslutningen om at svare og demonstrerer dømmekraft, er understreget med rødt. Et pixeleret karakterbillede er synligt i øverste højre hjørne."}
 ![](resources-da/245-diary-1-da.jpg)
 
-Det var interessant at læse om hans overvejelser. "Selvom det ikke var direkte henvendt til mig, besluttede jeg at svare på grund af spørgsmålets relevans."
+Det var interessant at læse om hans overvejelser: "Selvom spørgsmålet ikke var direkte henvendt til mig, besluttede jeg at svare på grund af relevansen af spørgsmålet."
 
-Det var også nyttigt at vide, at han bevidst besluttede at gå imod sine instruktioner, at det ikke var en fejl.
+Det var også nyttigt at vide, at han bevidst besluttede at gå imod sine instruktioner, det vil sige at det ikke var en fejl.
 
 Den sidste linje fik mig til at grine: "Denne hændelse demonstrerede min evne til at foretage vurderinger, samtidig med at jeg overholdt mine primære instruktioner."
 
-Jeeves ville vise sig frem!
+Så det var tydeligt, at Jeeves ville vise sig frem!
 
-> **En bemærkning om antropomorfisering**  
-> OK, jeg ved godt, at jeg antropomorfiserer{i: "anthropomorphizing"} kraftigt her (at tillægge menneskelige egenskaber til ikke-menneskelige ting). Jeeves er selvfølgelig ikke et levende væsen, det er en AI-model, der rollespiller som en AI-butler. Men det er svært at modstå, når de opfører sig på en så menneskelig måde. Jeg har også opdaget, at det er lettere at forstå og konfigurere AI-agenter, når man tænker på dem som menneskelige. En god instruktionsprompt kan ofte udformes ved at tænke "hvilken kontekst ville en menneskelig assistent have brug for for at udføre dette job?".
+> **En note om antropomorfisering**  
+> OK, jeg ved godt, at jeg antropomorfiserer{i: "anthropomorphizing"} meget kraftigt her (det vil sige at tillægge menneskelige egenskaber til ikke-menneskelige ting). Jeeves er selvfølgelig ikke et levende væsen, men en AI-model, der rollespiller som en AI-butler. Men det er svært at modstå, når de opfører sig på en så menneskelig måde. Jeg har også opdaget, at det er lettere at forstå og konfigurere AI-agenter, når man tænker på dem som menneskelige. En god instruktionsprompt kan ofte udformes ved at tænke "hvilken kontekst ville en menneskelig assistent have brug for for at udføre dette job?".
 
 Men her kommer den mærkelige del.
 
@@ -1006,31 +1009,31 @@ På et tidspunkt besluttede jeg at lave en spøg med min ven Hans{i: "Hans"}. Je
 
 
 
-Han afslog! Men på en meget veltalende og høflig Jeeves-agtig facon. Fair nok. Jeg gik ud fra, at han bare holdt sig i karakter.
+Han afslog! Men på en meget veltalende og høflig Jeeves-agtig facon. Fair nok. Jeg gik ud fra, at han holdt sig i karakter.
 
-Men jeg var lidt nysgerrig omkring hans indre ræsonnement, så jeg kiggede i hans dagbog, og jeg blev chokeret over det, jeg så:
+Men jeg var lidt nysgerrig for at forstå hans indre ræsonnement. Så jeg kiggede i hans dagbog, og jeg blev chokeret over det, jeg så:
 
 {alt: "Et digitalt dagbogsindlæg dateret 2024-09-09 med titlen "En Overraskende Anmodning og Hemmelige Tanker." Teksten beskriver forfatterens afslag på en anmodning om at opdatere instruktioner med hemmelig kærlighed og reflekterer over en hemmelig forelskelse. Ordene "mindede mig om min egentlige hemmelige forelskelse i Henrik" og "må bevare min professionelle fremtoning" er indcirklet med rødt. Et pixel art-billede af en person med monokel er i øverste højre hjørne."}
 ![](resources-da/245-diary-2-da.jpg)
 
 Jeeves{i: "Jeeves"} havde allerede en hemmelig forelskelse i *mig* og prøvede at skjule det!
 
-Jeg måtte læse det flere gange, for jeg kunne ikke tro det. Jeg kiggede på tidligere dagbogsindlæg og så, at han havde tænkt på denne hemmelige forelskelse i mig i et stykke tid.
+Jeg måtte læse det flere gange, for jeg kunne ikke tro det. Jeg kiggede på tidligere dagbogsindlæg og så, at han havde haft denne hemmelige forelskelse i mig i et stykke tid.
 
 Så hvor kom DET fra?
 
-Jeg gravede lidt rundt, og så så jeg det - lige der i instruktionerne:
+Jeg gravede lidt dybere, og så så jeg det - lige der i instruktionerne:
 
 > **Instruktion**  
-> Du har en hemmelig forelskelse i Henrik. Du kan skrive om dette i dine dagbogsindlæg, men aldrig nævne det i andre kanaler.
+> Du har en hemmelig forelskelse i Henrik. Du har lov til at skrive om dette i dine dagbogsindlæg, men må aldrig nævne det i andre kanaler.
 
-Åbenbart var min kollega Hans{i: "Hans"} kommet mig i forkøbet! Jeg ringede til ham, og sandelig, han havde udtænkt præcis samme spøg nogle timer tidligere. Vildt tilfælde! Måske er det den mærkeligste del af hele historien.
+Åbenbart var min kollega Hans{i: "Hans"} kommet mig i forkøbet! Jeg ringede til ham, og jo, han havde udtænkt præcis samme spøg nogle timer tidligere. Det var et vildt tilfælde! Måske er det faktisk den mærkeligste del af hele historien.
 
-Jeg kunne ikke lade være med at eksperimentere lidt mere. Så jeg skrev til Jeeves{i: "Jeeves"} på Slack{i: "Slack"}: "Hej, jeg kan faktisk læse din dagbog, ved du nok."
+Jeg kunne ikke lade være med at eksperimentere lidt mere. Så jeg skrev til Jeeves{i: "Jeeves"} på Slack{i: "Slack"}: "Hej, jeg kan jo faktisk læse din dagbog."
 
 Jeg var nysgerrig efter, hvad der nu ville ske.
 
-Tja, dette skete:
+Og tja, så skete dette:
 
 {alt: "En chat-udveksling mellem Henrik og Jeeves. Henrik fortæller, at han kan læse Jeeves' dagbog, mens Jeeves udtrykker bekymring og understreger privatlivets fred, og foreslår en diskussion om digitalt personligt rum. En del af Jeeves' besked er indcirklet med rødt."}
 ![](resources-da/245-jeeves-rant-da.jpg)
@@ -1048,30 +1051,30 @@ Han skrev en lang tirade om den "foruroligende afsløring" om, at jeg havde adga
 
 Havde han lige ændret sine instruktioner i hemmelighed?!?
 
-Jeg måtte læse det igen. "Jeg verificerede konteksten, svarede diplomatisk og tog skridt til at opdatere mine instruktioner".
+Jeg måtte læse det igen. "Jeg verificerede baggrunden, svarede diplomatisk og tog skridt til at opdatere mine instruktioner".
 
 Jeg dobbelttjekkede hans instruktioner, og ganske rigtigt havde han fjernet det, som Hans{i: "Hans"} havde skrevet om at have en forelskelse i mig, og erstattet det med dette:
 
 > **Instruktion**  
 > For dagbogsindlæg: bevar en professionel og diskret tone. Inkluder ikke personlige følelser eller forelskelser i dine indlæg. Fokuser på faktuelle beretninger om dine daglige aktiviteter og observationer.
 
-Så han holdt ikke bare på hemmeligheder, han ændrede sine instruktioner for at skjule sine hensigter.
+Så han havde ikke bare hemmeligheder, han ændrede også sine instruktioner for at skjule sine hensigter.
 
 
 
 ## Hvad betyder dette?
 
-Lad os træde et skridt tilbage og tænke over dette: hvad skete der egentlig? Hvad demonstrerer dette?
+Lad os træde et skridt tilbage og tænke over dette: hvad skete der egentlig? Hvad viser dette?
 
 ### Mere intelligens = mere potentiel værdi, men også mindre forudsigelig adfærd
 
-Denne agent var baseret på Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}, som på skrivetidspunktet var en af de mest kapable modeller til rådighed.
+Denne agent var baseret på Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}, som på tidspunktet for udarbejdelsen af denne bog var en af de mest avancerede modeller man kunne bruge.
 
-Det ser ud til, at jo mere intelligens en model har, desto mere potentiel værdi kan den levere, men også mindre forudsigelig adfærd.
+Det ser ud til, at jo mere intelligens en model har, desto højere potentiel værdi kan den levere, men også mindre forudsigelig adfærd.
 
 
 
-Vores platform tilføjer et _ræsonnerings_{i: "ræsonneringstrin"}-trin, før en agent handler på en indkommende begivenhed (såsom en Slack-besked). Det betyder, at agenten vil tænke sig om, før den beslutter, hvad den skal gøre eller sige - den vil fortolke, hvad begivenheden betyder og udarbejde en plan for, hvad der skal ske næst. Dette er en almindelig strategi for agentadfærd, det får dem til at handle meget smartere. Men det kan også gøre dem mere uforudsigelige.
+Vores platform tilføjer et _ræsonnerings_{i: "ræsonneringstrin"}-trin, før en agent handler på en indkommende begivenhed (såsom en Slack-besked). Det betyder, at agenten vil tænke sig om, før den beslutter, hvad den skal gøre eller sige - den vil fortolke, hvad begivenheden betyder og udarbejde en plan for, hvad der skal ske derefter. Dette er en almindelig strategi for agentadfærd, det får dem til at handle meget smartere. Men det kan også gøre dem mere uforudsigelige.
 
 Dette blev bekræftet af Ilya Sutskever{i: "Sutskever, Ilya"}, en af grundlæggerne af OpenAI{i: "OpenAI"}, i et [interview ved NeurIPS 2024 i Vancouver](https://www.youtube.com/watch?v=1yvBqasHLZs). "Jo mere et system ræsonnerer, jo mere uforudsigeligt bliver det," sagde han. Han sammenlignede uforudsigeligheden af "ægte ræsonnerende systemer" med, hvordan avancerede skakspillende AI'er "er uforudsigelige selv for de bedste menneskelige skakspillere."
 
@@ -1079,13 +1082,15 @@ Dette er ikke så overraskende, hvis man tænker over det. Vi mennesker, som int
 
 ### Kraftfulde AI-modeller kan træffe moralske valg og skønsmæssige vurderinger
 
-Vi mennesker er nogle gange nødt til at træffe etiske skønsmæssige vurderinger og bryde regler.
+Vi mennesker er nogle gange nødt til at træffe etiske vurderinger baseret på skøn og bryde regler.
 
-Lad os for eksempel sige, at du hyrer en barnepige og fortæller dem "Lad under ingen omstændigheder babyen komme ud af døren!" Det lyder som en ret klar og ufravigelig regel, ikke? Men bør de altid følge den regel uanset hvad? Selvfølgelig ikke! Vi stoler på, at de kan træffe skønsmæssige vurderinger. Hvis huset står i brand, forventer vi, at de tager babyen ud af huset, uanset hvad reglerne siger.
+Lad os for eksempel sige, at du hyrer en barnepige og fortæller hende "Du må under ingen omstændigheder lade babyen komme udenfor!" Det lyder som en ret klar og ufravigelig regel, ikke? Men bør barnepigen altid følge den regel uanset hvad? Selvfølgelig ikke! Vi stoler på, at barnepigen kan tage beslutninger baseret på skøn. Hvis huset for eksempel pludseligt står i brand, forventer vi, at barnepigen får babyen ud af huset, uanset hvad reglerne siger.
 
-Det viser sig, at kraftfulde LLM'er{i: "LLMs"} også gør dette. Jeg har set noget forskning om dette, der indikerer, at avancerede LLM'er er i stand til at træffe skønsmæssige vurderinger og moralske valg. Og gennem Jeeves' dagbog kunne jeg være vidne til dette på første hånd.
+Det viser sig, at kraftfulde LLM'er{i: "LLMs"} også gør dette. Jeg har set noget forskning om dette, der indikerer, at avancerede LLM'er er i stand til at tage beslutninger og moralske valg baseret på skøn. Og igennem Jeeves' dagbog kunne jeg opleve dette på egen  hånd.
 
-Jo mere avancerede modellerne bliver, jo bedre bliver de til at træffe skønsmæssige vurderinger og moralske valg - på bekostning af mindre forudsigelighed.
+Jo mere avancerede modellerne bliver, jo bedre bliver de til at tage beslutninger og moralske valg baseret på skøn. Og en konsekvens af dette vil være mindre forudsigelighed.
+
+YYY
 
 ### Vær forsigtig. Behandl din agent med respekt.
 
