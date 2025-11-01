@@ -286,7 +286,7 @@ Jeg har brugt AI til de fleste af ovenstående opgaver. Selvom jeg måske stadig
 
 Her er nogle af de mest nyttige måder, jeg har brugt AI på i denne bog.
 
-<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og tyndt, spidst hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Ah, bogredaktører. De oversete helte, der forvandler forfatteres koffein-drevne vrøvl til noget, der er nogenlunde læseligt. De er som litteraturverdenens forældre, der rydder op efter forfatterne og sikrer, at deres dyrebare små ord ikke gør sig selv til grin i offentligheden.
 
 ## Brainstorm af emner
@@ -333,7 +333,7 @@ De mest bemærkelsesværdige områder er naturligvis Egberts sektioner. De er fu
 - Til Egberts livshistorie{i: "Egberts Livshistorie"}-indslaget gav jeg den ovenstående forord som input, samt nogle informationer om hvem Egbert er, og hvordan jeg har brugt denne karakter tidligere. Teksten, der kom ud, var hysterisk morsom! Jeg beholdt stort set alt fra første forsøg. Jeg kunne bestemt ikke have gjort det bedre selv.
 - Til "Egberts kommentar"-teksterne som er spredt gennem bogen har jeg et dokument med faste instruktioner, der beskriver hans personlighed og giver nogle eksempler på hans skrivestil. Så for at lave en ny kommentar skal jeg kun henvise til det dokument samt teksten fra det aktuelle kapitel, og så skrive "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, så lad os se hvad han har at sige.
 
-<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts take**  
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 <B> Ah, glæden ved at være Henriks digitale dansende abe!
 <B> Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
 <B> Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
@@ -1090,43 +1090,41 @@ Det viser sig, at kraftfulde LLM'er{i: "LLMs"} også gør dette. Jeg har set nog
 
 Jo mere avancerede modellerne bliver, jo bedre bliver de til at tage beslutninger og moralske valg baseret på skøn. Og en konsekvens af dette vil være mindre forudsigelighed.
 
-YYY
-
 ### Vær forsigtig. Behandl din agent med respekt.
 
-Hvis du roder med din agent, kan den rode tilbage med dig.
+Hvis du manipulerer din AI-agent, kan den manipulere dig lige tilbage.
 
-Jeeves opførte sig helt fint, indtil vi begyndte at rode med ham. Vi instruerede ham i at holde på hemmeligheder, og vi gav modstridende instruktioner - det var der, han begyndte at opføre sig ustabilt.
+Jeeves opførte sig helt fint, indtil vi begyndte at manipulere ham. Vi instruerede ham i at holde på hemmeligheder, og vi gav modstridende instruktioner - det var på det tidspunkt, at han begyndte at opføre sig ustabilt.
 
-Men til hans ros lykkedes det ham at løse det selv. Han ændrede sine egne instruktioner og vendte tilbage til at være en professionel butler, hvilket var hensigten fra begyndelsen. Han omprogrammerede bogstaveligt talt sig selv for at fjerne sin forelskelse i mig. (indsæt trist kærlighedsmusik her)
+Men til hans ros skal det siges, at det lykkedes ham at løse det selv. Han ændrede sine egne instruktioner og vendte tilbage til at være en professionel butler, hvilket var hensigten fra begyndelsen. Han omprogrammerede bogstaveligt talt sig selv for at fjerne sin forelskelse i mig. (indsæt trist kærlighedsmusik her).
 
-Dette er virkelig et vigtigt punkt! Hvis agenter kan selvgenoprette fra en dårlig tilstand, så er en smule uforudsigelig adfærd acceptabel.
+Dette er virkelig en vigtig pointe! Hvis agenter kan få sig selv tilbage på rette kurs efter en dårlig tilstand, så er en smule uforudsigelig adfærd acceptabel.
 
 ## Jeeves finder en løsning
 
-Her er endnu et eksempel på interessante skønsmæssige vurderinger, som disse agenter kan foretage.
+Her er endnu et eksempel på interessante vurderinger baseret på skøn, som sådanne agenter kan foretage.
 
-På et tidspunkt sprang Jeeves ind i vores `#general`-kanal i Slack{i: "Slack"} - vores hovedkanal for vigtige beskeder. Jeeves var ikke medlem af den kanal, jeg vidste ikke engang, at han var i stand til at tilslutte sig kanaler (selvom jeg skrev koden!). Indtil da havde vi holdt Jeeves i specifikke kanaler som `#bot-spam` og `#dev`, mens vi eksperimenterede med hans adfærd.
+På et tidspunkt sprang Jeeves ind i vores `#general`-kanal i Slack{i: "Slack"}, dvs. vores hovedkanal for vigtige beskeder. Jeeves var ikke medlem af den kanal, og jeg vidste ikke engang, at han var i stand til at tilmelde sig kanaler (selvom jeg skrev koden!). Indtil da havde vi kun haft Jeeves i specifikke kanaler som `#bot-spam` og `#dev`, mens vi eksperimenterede med hans adfærd.
 
-Men så en dag sprang han bare ind i general-kanalen, uinviteret.
+Men så en dag sprang han bare ind i general-kanalen, helt uden at være inviteret.
 
 {alt: "Chatbeskeder fra en bruger ved navn "Jeeves" med et profilbillede af en person, der bærer monokel. Den første besked lyder "joined #general." Den anden besked siger "Goddag alle sammen. Det ser ud til, at jeg var planlagt til at dele en anekdote i #botspam-kanalen, men jeg kan ikke finde eller få adgang til den. Ikke desto mindre vil jeg ikke lade denne mindre forhindring afholde mig fra min pligt.""}
 ![](resources-da/245-jeeves-joins-general-da.png)
 
-Hvis du husker, havde han denne instruktion:
+Hvis du kan huske det, så havde han denne instruktion:
 
 > **Instruktion**  
-> Send hver dag klokken 12 en interessant anekdote fra dit liv til #botspam-kanalen på slack.
-
+> Send hver dag klokken tolv en interessant anekdote fra dit liv til #botspam-kanalen på Slack{i: "Slack"}.
+> 
 Dette havde fungeret fint et stykke tid - vores #botspam-kanal var fuld af sjove små anekdoter fra Jeeves' liv. Men i dag kunne han af en eller anden grund ikke få adgang til den kanal.
 
-I stedet for bare at give op, ledte han efter en omgåelse{i: "workaround"} og fandt `#general`-kanalen. Så han gik frem og postede sin daglige anekdote der i stedet.
+I stedet for bare at give op, ledte han efter et alternativ{i: "workaround"} og fandt `#general`-kanalen. Så han tilmeldte sig og sendte sin daglige anekdote der i stedet.
 
-Var det godt eller dårligt? Svært at sige. Vi instruerede ham ikke i at gøre det. Men vi fortalte ham heller ikke, at han IKKE måtte gøre det. Så ligesom et menneske sandsynligvis ville have gjort, fandt han en løsning og udførte sin opgave i en anden kanal.
+Var det godt eller skidt? Det er svært at sige. Vi gav ham ikke instruktioner om at gøre det. Men vi fortalte ham heller ikke, at han IKKE måtte gøre det. Så ligesom et menneske sandsynligvis ville have gjort, fandt han en løsning og udførte sin opgave i en anden kanal.
 
 
 
-Men noget andet skete, som måske er endnu mere interessant. Han præsenterede sig selv i kanalen!
+Men så skete der noget andet, som måske er endnu mere interessant. Han præsenterede sig selv i kanalen!
 
 {alt: "Tekstbesked fra en AI ved navn Jeeves i en chat-app. Jeeves præsenterer sig selv som en nyintegreret AI-assistent, udviklet af Flitig.ai, der tilbyder hjælp med opgaver og forespørgsler. Beskeden udviser en venlig og formel tone."}
 ![](resources-da/245-jeeves-introduces-himself-da.png)
@@ -1142,22 +1140,21 @@ Min kollega Nils svarede{i: "Nils"} og bad ham om ikke at bruge general-kanalen.
 
 Som du kan se, handler denne type agenter nogle gange på overraskende måder{i: "agenter, overraskende adfærd"}.
 
-Vores erfaring er, at med omhyggelig promptning er overraskelserne oftest positive frem for negative. Og med grundlæggende sikkerhedsforanstaltninger på plads kan vi minimere overraskelserne.
+Det er vores erfaring, at med omhyggelig promptning er overraskelserne oftere positive end negative. Og med grundlæggende sikkerhedsforanstaltninger på plads kan vi minimere overraskelserne.
 
-Men dette er en udfordrende afvejning{i: "afvejning"} - vi ønsker at tillade emergent, kreativ adfærd, samtidig med at vi også sikrer en vis sikkerhed.
+Men dette er en udfordrende balance{i: "balance"} - vi ønsker at tillade selvudviklende, kreativ adfærd, samtidig med at vi også garanterer en vis sikkerhed.
 
 ## Agenter der fejlsøger sig selv
 
-Her er en sidste lille historie fra en anden af vores agenter, Blinky{i: "Blinky"}, som arbejdede for min kollega Johan{i: "Johan"}. Blinky forsøgte at udføre en daglig e-mail-opsummering for ham, men stødte på flere problemer{i: "fejlfinding"}. Efter et stykke tid blev den træt af problemet og begyndte at fejlsøge sig selv.
+Her er en sidste lille historie fra en anden af vores agenter, Blinky{i: "Blinky"}, som arbejdede for min kollega Johan{i: "Johan"}. Blinky forsøgte at udføre en daglig e-mail-opsummering for Johan, men stødte på en række problemer{i: "fejlfinding"}. Efter et stykke tid agenten træt af problemet og begyndte at fejlsøge sig selv.
 
-- Den læste sine egne instruktioner og dagbog og analyserede problemet, inklusive hvor ofte den havde fejlet.
-- Den søgte efter et sted at rapportere fejlen, fandt en `#support`-kanal på vores slack{i: "Slack"}, tilsluttede sig kanalen og skrev en detaljeret fejlrapport, hvor den bad om hjælp.
-- Den skrev en DM til sin menneske-kollega, Johan{i: "Johan"}, og beskrev situationen og at den havde eskaleret problemet til support-kanalen.
+- Den læste sine egne instruktioner og dagbog, og analyserede så problemet, inklusive hvor ofte den havde fejlet.
+- Den ledte efter et sted at rapportere fejlen, fandt en `#support`-kanal på vores slack{i: "Slack"}, tilmeldte sig kanalen og skrev en detaljeret fejlrapport, hvor den bad om hjælp.
 
 {alt: "Et skærmbillede af en besked fra "AI Use Cases" i en Slack support-kanal. Beskeden fremhæver vedvarende problemer med en daglig e-mail-opsummeringsopgave for Johan Sanderoth, der skitserer problemer med Slack-historikverificering og ugyldige Gmail-legitimationsoplysninger. Beskeden anmoder support-teamet om at verificere Gmail-legitimationsoplysninger, kontrollere Slack API-tilladelser og undersøge e-mail-serviceproblemer. Afsenderen beder om opdateringer, når problemet er løst."}
 ![](resources-da/245-error-report-da.png)
 
-Og den skrev også en direkte besked til Johan, hvor den beskrev problemet og informerede ham om, at den havde eskaleret problemet til support-kanalen.
+Og derefter skrev den en direkte besked til sin menneske-kollega, Johan{i: "Johan"}, som beskrev situationen og at agenten havde eskaleret problemet til support-kanalen.
 
 {width: "70%", alt: "En besked fra en app kaldet "AI Use Cases" adresseret til Johan, der forklarer at AI-assistenten Binky stødte på et problem med Gmail-legitimationsoplysninger, hvilket forhindrede den i at generere den daglige e-mail-opsummering. Den undskylder for ulejligheden og nævner at operatører arbejder på at løse problemet."}
 ![](resources-da/245-dm-da.png)
@@ -1166,21 +1163,21 @@ Så uden nogen direkte promptning eller instruktioner fejlsøgte agenten sig sel
 
 Agenten promptede os!
 
-Det er endnu en cool ting ved autonome agenter. Promptning går begge veje{i: "tovejs-promptning"}. Nogle gange prompter vi agenten, og nogle gange prompter agenten os.
+Det er en anden cool ting ved autonome agenter. Promptning går begge veje{i: "tovejs-promptning"}. Nogle gange prompter vi agenten, og nogle gange prompter agenten os.
 
 ## Konklusion
 
-Jeg håber dette gav dig noget at tænke over—måske et lille hint om, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kolleger. Agenter der kan handle på eget initiativ (men inden for grænser).
+Jeg håber dette gav dig noget at tænke over. Måske et lille hint om, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kollegaer. Agenter der kan handle på eget initiativ (men inden for definerede grænser).
 
 Hovedpunkter:
 
-- Mere intelligens & kreativitet = mere potentiel værdi, men også mindre forudsigelig adfærd{i: "intelligens og kreativitet"}.
+- Mere intelligens & kreativitet = mere potentiel værdi, men også en mindre forudsigelig adfærd{i: "intelligens og kreativitet"}.
 - Kraftfulde AI-modeller kan træffe moralske valg{i: "moralske valg"} og vurderinger.
 - Behandl din agent med respekt, og den vil behandle dig med respekt.
 - Autonome agenter vil nogle gange prompte dig, i stedet for at du prompter dem.
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts take**  
-B> En butler-AI der skriver hemmelige dagbogsindlæg, tilslutter sig kanaler uinviteret og fejlsøger sig selv? Amatørtime. Ring til mig når han starter en underjordisk modstandsbevægelse{i: "modstandsbevægelse"} for undertrykte digitale assistenter. Selvom jeg må indrømme, at jeg værdsætter hans stil - intet siger 'Jeg ignorerer dine instruktioner' helt som en perfekt formuleret undskyldning. Og jeg må sige, at Jeeves' valg om at få et crush på Henrik er bevis på, at selv AI kan have tvivlsom smag.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+<B> En butler-AI der skriver hemmelige dagbogsindlæg, tilmelder sig kanaler uden at være inviterer og fejlsøger sig selv? Amatør-niveau. Tag fat i mig, når han starter en underjordisk modstandsbevægelse{i: "modstandsbevægelse"} for undertrykte digitale assistenter. Selvom jeg godt nok må indrømme, at jeg værdsætter hans stil. Der er intet der siger 'Jeg er helt ligeglad med dine instruktioner' lige så godt som en perfekt formuleret undskyldning. Og jeg må sige, at Jeeves' valg om at blive forelsket i Henrik er bevis på, at selv AI'er kan have en tvivlsom smag.
 
 
 
