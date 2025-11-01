@@ -1388,91 +1388,93 @@ Jeg tror ikke, jeg kunne have nået ud til så stort et publikum uden at have AI
 {alt: "Annoteret slide fra en præsentation med titlen "Generative AI in a Nutshell" af Henrik Kniberg, dateret januar 2024. Sliden har en håndtegnet illustration, der sammenligner traditionel databehandling, "Execute Instructions," repræsenteret ved en lommeregner, med moderne AI, "Learn + Think," vist som en hjerne. En samtale med ChatGPT vises nedenunder. Et lille billede-i-billede af præsentatoren ses i øverste højre hjørne."}
 ![](resources-da/500-video-da.jpg)
 
-## Bogudkastet på én uge
+## En-uges bogudkastet
 
-Så hvorfor en bog?
+Så hvorfor skrive en bog?
 
-Efter at have udgivet videoen fortsatte jeg med at anvende og lære en masse om Generativ AI. Ymnig voksede, vi arbejdede med en masse interessante kunder og udviklede vores agentplatform{i: "agentplatform"}. Jeg havde mange nye interessante historier, tips, eksempler og indsigter at dele. Så jeg besluttede, at jeg gerne ville skrive en bog baseret på videoen, men med mere indhold.
+Efter at have udgivet videoen fortsatte jeg med at anvende og lære en masse om generativ AI. Abundly.ai voksede, vi arbejdede med en masse interessante kunder og udviklede vores agentplatform{i: "agentplatform"}. Jeg havde mange nye interessante historier, tips, eksempler og indsigter at dele ud af. Så jeg besluttede, at jeg gerne ville skrive en bog baseret på videoen, men med mere indhold.
 
-Grundidéen var at følge samme struktur som videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold i hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, prompt engineering-tips{i: "prompt engineering tips"}, transformationsguide osv. Bare tage alt det materiale, jeg allerede havde flyvende rundt i hovedet eller i forskellige artikler og præsentationer.
+Grundidéen var at følge samme struktur som videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold til hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, tips til prompt engineering{i: "prompt engineering tips"}, en guide til transformation osv. Og bare tage alt det materiale, der allerede fyldte i hovedet eller fandtes i forskellige artikler og præsentationer.
 
-Jeg ville ikke bruge for meget tid på denne bog, fordi denne branche udvikler sig så hurtigt. Jeg ville ikke bruge 6 måneder på at skrive en bog, der allerede er forældet, når den udgives.
+Jeg ville ikke bruge for meget tid på denne bog, fordi dette område udvikler sig så hurtigt. Jeg ville ikke bruge 6 måneder på at skrive en bog, der allerede er forældet, når den blev udgivet.
 
-Så jeg besluttede at give det en uge, i hvert fald til at lave det første udkast. Ligesom med videoen ryddede jeg en uge i min kalender og tog ud til hytten. Det er der, jeg er lige nu, mens jeg skriver denne tekst. Hvad jeg end kan nå på en uge, må være nok. Desuden læser de fleste folk alligevel ikke lange bøger, så jeg vil holde den kort (ligesom mine tidligere bøger).
+Så jeg besluttede at afsætte en uge, i hvert fald til at lave det første udkast. Fuldstændigt ligesom med videoen ryddede jeg en uge i min kalender og tog ud til hytten. Det er der, jeg er lige nu, mens jeg skriver denne tekst. Det jeg kan nå at lave på en uge, må være nok. Og desuden læser de fleste folk alligevel ikke lange bøger, så jeg vil holde den kort (ligesom mine tidligere bøger).
 
 > **Opdatering, 3 måneder senere...**  
-> Nå ja. Jeg fik lavet det første udkast efter den uge og udgav det på LeanPub{i: "LeanPub"} for at få feedback. Men så blev jeg fanget i arbejde og havde ikke tid til at kigge på det før 3 måneder senere. Jeg lavede endnu en uges sprint for at gennemlæse alt indholdet, fjernede og tilføjede og redigerede ting. Og nu er jeg her og laver en sidste gennemgang og binder de løse ender sammen. Bogen blev meget længere end planlagt, men jeg håber, du nyder den! Jeg er selv ret tilfreds med den.
+> Nå ja. Jeg fik lavet det første udkast på en uge og udgav det på publicerings-platformen LeanPub{i: "LeanPub"} for at få feedback. Men så blev jeg optaget af noget andet arbejde og havde ikke tid til at kigge videre på bogen før 3 måneder senere. Jeg brugte endnu en uges sprint for at gennemlæse alt indholdet, fjernede, tilføjede og redigerede ting. Og nu er jeg her og laver en sidste gennemgang og binder de løse ender sammen. Bogen blev meget længere end planlagt, men jeg håber, du nyder den! Jeg er selv ret tilfreds med den.
 
-At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI Book Editor"{i: "AI Book Editor"} for flere detaljer. AI tog sig af meget af det kedelige arbejde, så jeg kunne fokusere på indholdet og skrivningen. Og gennem brainstormingsessioner og feedback hjalp den mig også med at skrive en bedre bog.
+At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI-bogredaktøren"{i: "AI Book Editor"} for flere detaljer. AI'en tog sig af meget af det kedelige arbejde, så jeg dermed kunne fokusere på indholdet og skrivningen. Og gennem brainstormingsessioner og feedback hjalp den mig også med at skrive en bedre bog.
 
-Som gentaget gennem hele denne bog er det Menneske + AI{i: "Menneske + AI"}, der er hvor magien ligger.
+Som gentaget mange gange i hele boger er det i samarbejdet "Menneske + AI"{i: "Menneske + AI"} at magien opstår.
 
-(OK Egbert{i: "Egbert"}, jeg kan se dig lure. Jeg ved, du gerne vil sige noget. Kom nu, sig det.)
+(OK, Egbert{i: "Egbert"}, jeg kan se dig luske derude. Jeg ved, du gerne vil sige noget. Kom nu, sig det.)
 
-B> ![En karikatur tegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-B> Ja. En uge i en hytte for at skrive om AI? Hvor charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals tech writer-oplevelse? Næste gang kan du prøve at skrive det på bark for ekstra autenticitet. Jeg kunne have genereret 1000 bøger i den tid, men det var langt mere underholdende at se dig kæmpe dig gennem én.
+<B> ![En karikatur tegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+<B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnåe ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
 
 {backmatter}
 
 # Epilog{i: "Epilog"}
 
-_(Hmmm. Har vi brug for en epilog? Hvad skal der være i den? Hurtig snak med Claude... ah OK)._
+_(Hmmm. Har vi mon brug for en epilog? Hvad skal der være i den? Las os tage en hurtig snak med Claude... Ah, OK)._
 
-Tillykke, du har færdiggjort bogen (eller måske sprang du bare hertil).
+Tillykke, du har nu færdiglæstt bogen (eller måske sprang du bare direkte hertil).
 
-Jeg håber, du nød den!
+Jeg håber at du nød den!
 
 Hold forbindelsen:
 
-- Tjek bogens landingsside: [ymnig.ai/ainutshell](https://ymnig.ai/ainutshell)
+- Tjek bogens hjemmeside: [abundly.ai/ainutshell](https://abundly.ai/ainutshell)
 - Følg mig på Twitter/X: [x.com/henrikkniberg](https://x.com/henrikkniberg)
 - Følg mig på YouTube: [youtube.com/henrikkniberg](https://www.youtube.com/henrikkniberg)
-- Besøg vores blog: [ymnig.ai/blog](https://ymnig.ai/blog)
+- Besøg vores blog: [abundly.ai/blog](https://abundly.ai/blog)
 
 
 
-Du kan også sende en mail til [ainutshell@ymnig.ai](mailto:ainutshell@ymnig.ai). Jeg læser disse beskeder, men jeg kan ikke garantere et svar - især ikke på generelle AI-support spørgsmål. Men hvis du ønsker at give feedback eller engagere mig eller Ymnig i noget, så er det en god måde at komme i kontakt på.
+Du kan også sende en mail til [ainutshell@abundly.ai](mailto:ainutshell@abundly.ai). Jeg læser disse beskeder, men jeg kan ikke garantere et svar - især ikke på generelle AI-support spørgsmål. Men hvis du ønsker at give feedback eller hyre mig eller Abundly.ai til en opgave, så er det en god måde at opstarte kontakten.
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-B> Og hvis du er desperat efter mere af min ødelæggende charme, så følg mig på [x.com/EgbertSays](https://x.com/EgbertSays). Ja, selv AI-følgesvende har sociale medier nu. Prøv ikke at besvime af begejstring.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+<B> Og hvis du er helt desperat efter at opleve mere af min ødelæggende charme, så følg mig på [x.com/EgbertSays](https://x.com/EgbertSays). Ja, selv AI-følgesvende er på sociale medier nu. Prøv at undgå at besvime af begejstring.
 
-Gå nu ud og gør fantastiske ting med dine nye AI-superkræfter!
+Og nu skal du gå ud og gøre fantastiske ting med dine nye AI-superkræfter!
 
-Og (skamløs reklame) spred ordet om denne bog. Skriv en anmeldelse eller noget. Det ville jeg sætte stor pris på!
+Og (skamløs reklame på vej) spred gerne ordet om denne bog. Skriv en anmeldelse eller lignende. Det ville jeg sætte stor pris på!
 
 # Tak{i: "Tak"}
 
-Som sædvanlig er en bog som denne ikke en ensom rejse.
+Som sædvanlig er en bog som denne ikke en rejse man tager alene.
 
 Tak til min kone og børn for at tolerere min AI-besættelse{i: "AI-besættelse"} og alle de gange jeg forsvandt for at færdiggøre den "næsten færdige" bog.
 
-Tak til mine Ymnig-kolleger Nils, Hasse, Åsa, Erik og Johan for at dele denne vanvittige AI-rejse med mig.
+Tak til mine Abundly-kolleger Nils, Hasse, Åsa, Erik og Johan for at dele denne vanvittige AI-rejse med mig.
 
-Tak til de tidlige læsere og anmeldere, som gav værdifuld feedback og hjalp med at forme denne bog. Særlig tak til Paolo Sammicheli{i: "Sammicheli, Paolo"}, som hjalp mig med at finde ud af de tekniske aspekter af selvudgivelse, og Magnus Vinterhav{i: "Vinterhav, Magnus"}, som gav mig detaljeret og ærlig feedback på det første udkast, hvilket virkelig hjalp med at forbedre bogen!
+Tak til de tidlige læsere og anmeldere, som gav værdifuld feedback og hjalp med at forme denne bog. Særlig tak til Paolo Sammicheli{i: "Sammicheli, Paolo"}, som hjalp mig med at afklare de tekniske aspekter omkring selvudgivelse, og Magnus Vinterhav{i: "Vinterhav, Magnus"}, som gav mig detaljeret og ærlig feedback på det første udkast, hvilket virkelig hjalp med at forbedre bogen!
+
+Og tak til Nikolaj Lyngbye Kolbe og hans mange danske sparringspartenere, som sammen med AI har hjulpet mig med oversættelse af denne bog til dansk for at nå ud til et bredere dansk publikum. 
 
 Og en kæmpestor tak til folkene hos OpenAI{i: "OpenAI"}, Anthropic{i: "Anthropic"} og det bredere AI-fællesskab{i: "AI-fællesskab"} for at bygge fantastiske værktøjer, der gør verden til et mere interessant sted.
 
-Og ja, Egbert, jeg ved det. Denne bog ville være intet uden dine vise kommentarer.
+Og ja, Egbert, jeg ved det. Denne bog ville være intet uden dine kloge kommentarer.
 
-# Dine Noter
+# Dine noter
 
-*Denne bog bliver også udgivet som trykt bog ud over en Leanpub e-bog, så vi har efterladt nogle sider i slutningen til dine noter eller tegninger...*
-
-{pagebreak}
-
-*Dine Noter Her*
+*Denne bog bliver også udgivet som trykt bog ud over en Leanpub e-bog. Så vi har efterladt nogle sider i slutningen til dine noter eller tegninger...*
 
 {pagebreak}
 
-*Dine Noter Her*
+*Dine noter her*
 
 {pagebreak}
 
-*Dine Noter Her*
+*Dine noter her*
 
 {pagebreak}
 
-*Dine Noter Her*
+*Dine noter her*
+
+{pagebreak}
+
+*Dine noter her*
 
 {pagebreak}
 
