@@ -15,7 +15,7 @@ På trods af dette er min erfaring, at de bedste AI-modeller er i stand til at p
 
 Dette understøttes af studier som [GPT versus Resident Physicians — A Benchmark Based on Official Board Scores](https://ai.nejm.org/doi/full/10.1056/AIdbp2300192){i: "GPT versus Resident Physicians — A Benchmark Based on Official Board Scores"}.
 
-Her citater fra artiklen (med mine fremhævninger og oversat til dansk):
+Her er citater fra artiklen (med mine fremhævninger og oversat til dansk):
 
 > GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med en medianscore på 17,4% (95% CI, 9,55 til 30,9) og en medianscore på 23,44% (95% CI, 14,84 til 44,5), henholdsvis. GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
 
@@ -1316,74 +1316,74 @@ Husk dog: ikke alle LLM'er er ens. Der vil være LLM'er, som har færre sikkerhe
 
 Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Claude{i: "Claude"} generelt er ret sikre. Som ethvert værktøj kan og vil de blive misbrugt af ondsindede aktører. Men for flinke personer som dig og mig (du er en flink person, ikke?) er det usandsynligt, at du ved et uheld kommer til at skade dig selv eller andre.
 
-# Meta-Kapitlet (eller Bookception)
+# Meta-kapitlet (eller "Bogception")
 
-OK, dette kapitel kommer til at rode med dit hoved. Det gjorde det i hvert fald med mit. Jeg gav denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}, bare for sjov.
+OK, dette kapitel kommer til at få dit hoved til at snurre. Det gjorde det i hvert fald for mig. Jeg gav for sjov denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}:
 
 > **Prompt**  
-> Skriv et meta-kapitel, i min skrivestil, om hvordan jeg kunne have brugt KI til at generere det meste af denne bog. Jeg lavede nogle eksperimenter med at træne den til min stil, og det var meget tæt på. Men det føltes ikke som mig, og det føltes ikke rigtigt, så jeg besluttede at skrive det selv.
+> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Jeg lavede nogle eksperimenter med at træne AI'en til min stil, og det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
 
-Her er resultatet, uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Føles både spændende og uhyggeligt på samme tid.
+Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Det føles både spændende og uhyggeligt på samme tid.
 
-## Et meta-øjeblik (KI-skrevet)
+## Et meta-øjeblik (AI-skrevet)
 
-Her er en sjov ting. Jeg kunne have brugt KI til at generere det meste af denne bog!
+Her er en tankevækkende ting. Jeg kunne have brugt AI til at generere det meste af denne bog!
 
-Jeg lavede nogle eksperimenter med at træne den til at efterligne min skrivestil, og resultaterne var overraskende tæt på. Jeg fodrede den med eksempler på min tidligere skrivning, forklarede mine stilpræferencer og bad den generere kapitler om forskellige KI-emner. Outputtet var sammenhængende, informativt og lød ofte meget som mig.
+Jeg lavede nogle eksperimenter med at træne den til at efterligne min skrivestil, og resultaterne var overraskende tæt på. Jeg fodrede den med eksempler på hvad jeg havde skrevet tidligere, forklarede mine stilpræferencer og bad den generere kapitler om forskellige AI-relaterede emner. Outputtet var sammenhængende, informativt og lød ofte meget som mig.
 
-Men noget føltes forkert.
+Men der var noget der føltes forkert.
 
-Det fangede ikke helt nuancerne i min tankegang eller de specifikke eksempler, jeg ville vælge. Analogierne var gode, men ikke helt så skøre eller personlige som mine. Tonen var tæt på, men ikke helt rigtig.
+Det fangede ikke helt nuancerne i min tankegang eller de specifikke eksempler, jeg ville vælge. Analogierne var gode, men ikke helt så skøre eller personlige som mine egne. Tonen var tæt på, men ikke helt rigtig.
 
-Vigtigst af alt føltes det ikke som _mig_. Det føltes som en meget god efterligning, men ikke som den ægte vare. Og det føltes ikke rigtigt for mig.
+Og vigtigst af alt føltes det ikke som _mig_. Det føltes som en meget god efterligning, men ikke som den ægte vare. Og det føltes ikke rigtigt for mig at gøre det.
 
-At skrive denne bog selv, selv med KI{i: "AI"}-assistance, giver mig mulighed for at fylde den med mine ægte oplevelser, mine seneste tanker og min autentiske stemme. Det sikrer, at hver analogi, hver joke og hver indsigt kommer fra et sted med ægte forståelse og passion for emnet.
+Det at skrive denne bog selv,  med AI{i: "AI"}-assistance, giver mig mulighed for at fylde den med mine ægte oplevelser, mine nyeste tanker og min autentiske stemme. Det sikrer, at hver analogi, hver joke og hver indsigt stammer fra et sted med ægte forståelse og passion for emnet.
 
-Så selvom KI kunne have gjort et ordentligt stykke arbejde, valgte jeg at skrive dette selv. Jeg brugte KI som et værktøj - til research, til at bounce ideer, til korrekturlæsning - men kerneindholdet, strukturen og stemmen er alt sammen min.
+Så selvom AI kunne have gjort et godt stykke arbejde, valgte jeg at skrive bogen selv. Jeg brugte AI som et værktøj - til research, til at sparre om ideer og til korrekturlæsning - men kerneindholdet, strukturen og stemmen i bogen er alt sammen fra mig.
 
-Dette meta-øjeblik tjener som et perfekt eksempel på både mulighederne og begrænsningerne ved nuværende KI. Den kan efterligne og assistere, men den kan (endnu) ikke fuldt ud erstatte det unikke perspektiv og kreativiteten hos en menneskelig forfatter.
+Dette meta-øjeblik virker som et perfekt eksempel på både mulighederne og begrænsningerne ved nuværende AI. AI'en kan efterligne og assistere, men den kan (endnu) ikke fuldt ud erstatte det unikke perspektiv og kreativiteten fra en menneskelig forfatter.
 
-Og hey, hvis jeg havde ladet KI skrive det hele, ville vi ikke have dette dejligt selvrefererende kapitel, vel?
+Og hey, hvis jeg havde ladet AI skrive det hele, ville vi ikke have dette dejligt selvrefererende kapitel, vel?
 
-B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts take**  
-B> Fantastisk. Vi har nået ironiens højdepunkt: et KI-skrevet kapitel om ikke at bruge KI til at skrive bogen. Jeg er sikker på, at dette ikke vil forvirre nogen som helst. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved KI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
+<B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
+<B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
 
 
 
 # Hvordan denne bog (og videoen) blev til
 
-Det var i starten af 2024, jeg havde brugt omkring et år på at arbejde med Generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Ymnig.ai{i: "Ymnig.ai"}, og jeg var fascineret af alt det, jeg havde lært, og jeg ønskede at dele det.
+Vi er tilbage i starten af 2024, hvor jeg havde brugt omkring et år på at arbejde med generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Abundly.ai{i: "Abundly.ai"}, og jeg var så fascineret af alt det, jeg havde lært at jeg ønskede at dele det med andre.
 
-Så jeg tænkte "Hmmmm måske skulle jeg lave en video om det".
+Så jeg tænkte "Hmmmm, måske skulle jeg lave en video om det".
 
-Jeg tøvede i første omgang, eftersom Generativ AI var superhypet, og internettet eksploderede med videoer og artikler om det. Hvad kunne jeg tilføje, som ikke allerede var blevet sagt?
+Eftersom generativ AI var superhypet og internettet var fyldt til randen med videoer og artikler om AI, tøvede jeg i første omgang, . Hvad kunne jeg dog tilføje, som ikke allerede var blevet sagt?
 
-Så besluttede jeg "pyt med det, jeg gør det alligevel". Mit hoved var fyldt, og jeg havde brug for at få tingene ud. Jeg havde lavet nogle animerede videoer tidligere, og nogle af dem blev virale - for eksempel "Agile Product Ownership in a Nutshell"{i: "Agile Product Ownership in a Nutshell"} og "Spotify Engineering Culture"{i: "Spotify Engineering Culture"} (også kendt som Spotify-modellen). I disse videoer taler og tegner jeg i et hæsblæsende tempo, og folk kunne lide det format, så jeg tænkte, hvorfor ikke bare gøre det igen. Jeg havde allerede et fængende navn i tankerne: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"{i: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"}.
+Så tænkte jeg: "Pyt med det, jeg gør det alligevel". Mit hoved var fyldt helt op, og jeg havde brug for at få tingene ud. Jeg havde tidligere lavet nogle animerede videoer, hvoraf nogle af dem gik virale. Det var for eksempel videoerne "Agile Product Ownership in a Nutshell"{i: "Agile Product Ownership in a Nutshell"} og "Spotify Engineering Culture"{i: "Spotify Engineering Culture"} (også kendt som Spotify-modellen). I disse videoer talte og tegnede jeg i et hæsblæsende tempo, og da folk kunne lide det format, tænkte jeg: "Hhvorfor ikke bare gøre det igen?". Jeg havde allerede et fængende engelsk navn og titel i tankerne: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"{i: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"}, dvs. på dansk "Generativ AI - Hvordan man trives og overlever i AI-alderen".
 
-Jeg er heldig at have en feriehytte i den svenske skærgård{i: "Swedish archipelago"}, et dejligt stille og smukt sted omgivet af natur. Og også heldig at have en familie, der forstår mit behov for at gå i fuld eremit-tilstand til den slags ting. Jeg foretrækker at arbejde i "burst-tilstand"{i: "burst mode"} med videoer og bøger og lave det hele i én omgang frem for at sprede det ud over måneder.
+Jeg er heldig at have en feriehytte i den svenske skærgård{i: "Swedish archipelago"}, et dejligt stille og smukt sted omgivet af natur. Og jeg er også heldig at have en familie, der forstår mit behov for isolere mig helt, når jeg laver den slags ting. Jeg foretrækker at arbejde i "burst mode"{i: "burst mode"} med videoer og bøger og lave det hele på i én gang frem for at sprede det ud over måneder.
 
 {alt: "Et todelt billede, der viser en hyggelig hytte og en indendørs arbejdsplads. Den første del viser en hytte i et skovområde med store glasvinduer, en hængekøje og udendørs siddepladser på terrassen. Den anden del viser hyttens indre med et skrivebord med computer og udsigt til træer og vand gennem store vinduer. En guitar hviler mod væggen, og hylder indeholder forskellige genstande."}
 ![](resources-da/500-cabin-da.jpg)
 
 ## En-uges videoen
 
-Så jeg ryddede en uge i min kalender og tog til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs, jeg ville lave en video, der giver et overblik over Generativ AI{i: "Generative AI"} på højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum - både begyndere og eksperter. AI var meget hjælpsom, den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
+Så jeg ryddede en uge i min kalender og tog afsted til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs. Jeg ville lave en video, der giver et overblik over generativ AI{i: "Generative AI"} på et højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum, dvs. både begyndere og eksperter. AI var meget hjælpsom i forbindelse med dette, den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
 
-Folk bliver ved med at spørge, hvordan jeg lavede den video, så her kommer forklaringen.
+Og da folk bliver ved med at spørge, hvordan jeg lavede videoen, kommer forklaringen her.
 
-1. Først brugte jeg et par dage på at arbejde med manuskriptet, hvor jeg obsessivt optimerede hvert ord for at holde manuskriptet så kort som muligt, ideelt set 15 minutter (det endte med at blive 18 minutter, hvilket stadig er OK).
-2. Så brugte jeg en dag på at lave udkast til skitser ved hjælp af ArtRage{i: "ArtRage"} og en tegneplade{i: "drawing tablet"} for at finde ud af det visuelle. Jeg havde et forspring her, fordi jeg allerede havde en masse visuelle elementer fra forskellige keynotes, kurser og artikler - materiale som allerede var blevet afprøvet med rigtige publikummer.
-3. Derefter startede jeg ScreenFlow{i: "ScreenFlow"} og optog mig selv live-tegne det hele. Det tog lang tid, fordi jeg ikke er så god til at tegne, så jeg måtte lave mange omtagninger.
-4. Næste dag optog jeg mig selv læse manuskriptet op ved hjælp af ScreenFlow og mikrofon & webcam. Det gik ret hurtigt.
-5. Til sidst brugte jeg et par dage på at redigere videoen og få det hele til at passe sammen, primært ved at sætte tegningen op i tempo, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Meget tidskrævende og pillearbejde. På en eller anden måde både tilfredsstillende og frustrerende på samme tid.
+1. Først brugte jeg et par dage på at arbejde med manuskriptet, hvor jeg meget fokuset optimerede hvert eneste ord for at bevare manuskriptet så kort som muligt, ideelt set på 15 minutter (det endte med at blive 18 minutter, hvilket også var OK).
+2. Så brugte jeg en dag på at lave udkast til skitser ved hjælp af programmet ArtRage{i: "ArtRage"} og en tegneplade{i: "drawing tablet"} for at afklare den visuelle del. Jeg havde et fordel her, fordi jeg allerede havde en masse visuelle elementer fra forskellige keynotes, kurser og artikler, dvs. materiale som allerede var blevet afprøvet hos rigtige publikummer.
+3. Derefter startede jeg programmet ScreenFlow{i: "ScreenFlow"} og optog mig selv, mens jeg live-tegnede det hele. Det tog lang tid, fordi jeg ikke er så god til at tegne, så jeg måtte tage mange optagelser.
+4. Næste dag optog ved hjælp af ScreenFlow, mikrofon og webcam mig selv læse manuskriptet op. Det gik ret hurtigt.
+5. Til sidst brugte jeg et par dage på at redigere videoen og få det hele til at passe sammen, primært ved at øge tempoet af video med tegning, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Det var meget tidskrævende og pillearbejde. På en eller anden måde var det dermed både tilfredsstillende og frustrerende på samme tid.
 
-Det hele tog omkring 60 timers intensivt fokuseret arbejde.
+Hele processen tog omkring 60 timers intensivt fokuseret arbejde.
 
-Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gik fuldstændig viral, den fik omkring 100.000 visninger i den første uge, og nu et halvt år senere er den oppe på over 2,5 millioner visninger. Men det, der gør mig gladest, er kommentarerne, over 2.500 kommentarer, hvor langt størstedelen er overvældende positive. Kommentarerne bekræfter, at videoen appellerer til et meget bredt publikum - gymnasielærere, pensionister, universitetsprofessorer, børn og endda AI-forskere.
+Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gik fuldstændig viral, den fik omkring 100.000 visninger i løbet af den første uge, og i skrivende stund et halvt år senere er den oppe på over 2,5 million visninger. Men det, der gør mig gladest, er kommentarerne. Der er i skrivende stund over 2.500 kommentarer, hvor langt størstedelen er overvældende positive. Kommentarerne bekræfter, at videoen appellerer til et meget bredt publikum - gymnasielærere, pensionister, universitetsprofessorer, børn og endda AI-forskere.
 
 
 
-Jeg tror ikke, jeg kunne have nået ud til så stort et publikum uden AI-hjælp, da jeg arbejdede med manuskriptet.
+Jeg tror ikke, jeg kunne have nået ud til så stort et publikum uden at have AI-hjælp, mens jeg arbejdede med manuskriptet.
 
 {alt: "Annoteret slide fra en præsentation med titlen "Generative AI in a Nutshell" af Henrik Kniberg, dateret januar 2024. Sliden har en håndtegnet illustration, der sammenligner traditionel databehandling, "Execute Instructions," repræsenteret ved en lommeregner, med moderne AI, "Learn + Think," vist som en hjerne. En samtale med ChatGPT vises nedenunder. Et lille billede-i-billede af præsentatoren ses i øverste højre hjørne."}
 ![](resources-da/500-video-da.jpg)
