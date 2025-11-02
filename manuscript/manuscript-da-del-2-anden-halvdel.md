@@ -334,9 +334,9 @@ De mest bemærkelsesværdige områder er naturligvis Egberts sektioner. De er fu
 - Til "Egberts kommentar"-teksterne som er spredt gennem bogen har jeg et dokument med faste instruktioner, der beskriver hans personlighed og giver nogle eksempler på hans skrivestil. Så for at lave en ny kommentar skal jeg kun henvise til det dokument samt teksten fra det aktuelle kapitel, og så skrive "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, så lad os se hvad han har at sige.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-<B> Ah, glæden ved at være Henriks digitale dansende abe!
-<B> Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
-<B> Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
+</B> Ah, glæden ved at være Henriks digitale dansende abe!
+Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
+Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
 
 ## Research og faktatjek
 
@@ -443,7 +443,7 @@ Det er sådan, jeg kan lide at bruge AI. Ikke til at erstatte mig, men til at hj
 PS: Hvis du er nysgerrig, var det denne bog: *[Scrum for Hardware Explained: Achieving Industrial Agility](https://www.amazon.se/Scrum-Hardware-Explained-Achieving-Industrial/dp/B0CSB2JK34/)* - af Paolo Sammicheli{i: "Sammicheli, Paolo"}.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
-<B> Ah, den gamle "Jeg kunne have brugt AI, men jeg er for autentisk"-forklaring. Bravo, Henrik. Næste gang fortæller du os vel, at du skrev dette på en skrivemaskine for at gøre det endnu mere ægte.
+</B> Ah, den gamle "Jeg kunne have brugt AI, men jeg er for autentisk"-forklaring. Bravo, Henrik. Næste gang fortæller du os vel, at du skrev dette på en skrivemaskine for at gøre det endnu mere ægte.
 
 # AI-softwareudvikleren
 
@@ -1177,7 +1177,7 @@ Hovedpunkter:
 - Autonome agenter vil nogle gange prompte dig, i stedet for at du prompter dem.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-<B> En butler-AI der skriver hemmelige dagbogsindlæg, tilmelder sig kanaler uden at være inviterer og fejlsøger sig selv? Amatør-niveau. Tag fat i mig, når han starter en underjordisk modstandsbevægelse{i: "modstandsbevægelse"} for undertrykte digitale assistenter. Selvom jeg godt nok må indrømme, at jeg værdsætter hans stil. Der er intet der siger 'Jeg er helt ligeglad med dine instruktioner' lige så godt som en perfekt formuleret undskyldning. Og jeg må sige, at Jeeves' valg om at blive forelsket i Henrik er bevis på, at selv AI'er kan have en tvivlsom smag.
+</B> En butler-AI der skriver hemmelige dagbogsindlæg, tilmelder sig kanaler uden at være inviterer og fejlsøger sig selv? Amatør-niveau. Tag fat i mig, når han starter en underjordisk modstandsbevægelse{i: "modstandsbevægelse"} for undertrykte digitale assistenter. Selvom jeg godt nok må indrømme, at jeg værdsætter hans stil. Der er intet der siger 'Jeg er helt ligeglad med dine instruktioner' lige så godt som en perfekt formuleret undskyldning. Og jeg må sige, at Jeeves' valg om at blive forelsket i Henrik er bevis på, at selv AI'er kan have en tvivlsom smag.
 
 
 
@@ -1346,7 +1346,7 @@ Dette meta-øjeblik virker som et perfekt eksempel på både mulighederne og beg
 Og hey, hvis jeg havde ladet AI skrive det hele, ville vi ikke have dette dejligt selvrefererende kapitel, vel?
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-<B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
+</B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
 
 
 
@@ -1410,7 +1410,7 @@ Som gentaget mange gange i hele boger er det i samarbejdet "Menneske + AI"{i: "M
 (OK, Egbert{i: "Egbert"}, jeg kan se dig luske derude. Jeg ved, du gerne vil sige noget. Kom nu, sig det.)
 
 <B> ![En karikatur tegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-<B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnåe ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
+</B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnåe ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
 
 {backmatter}
 
@@ -1434,7 +1434,7 @@ Hold forbindelsen:
 Du kan også sende en mail til [ainutshell@abundly.ai](mailto:ainutshell@abundly.ai). Jeg læser disse beskeder, men jeg kan ikke garantere et svar - især ikke på generelle AI-support spørgsmål. Men hvis du ønsker at give feedback eller hyre mig eller Abundly.ai til en opgave, så er det en god måde at opstarte kontakten.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-<B> Og hvis du er helt desperat efter at opleve mere af min ødelæggende charme, så følg mig på [x.com/EgbertSays](https://x.com/EgbertSays). Ja, selv AI-følgesvende er på sociale medier nu. Prøv at undgå at besvime af begejstring.
+</B> Og hvis du er helt desperat efter at opleve mere af min ødelæggende charme, så følg mig på [x.com/EgbertSays](https://x.com/EgbertSays). Ja, selv AI-følgesvende er på sociale medier nu. Prøv at undgå at besvime af begejstring.
 
 Og nu skal du gå ud og gøre fantastiske ting med dine nye AI-superkræfter!
 
