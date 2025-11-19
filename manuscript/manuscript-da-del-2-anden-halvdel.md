@@ -383,7 +383,7 @@ Cursor inkluderer en copilot{i: "copilot"}, som løbende analyserer teksten, men
 {alt: "Skærmbillede af en teksteditor der viser markdown-tekst. Overskriften er "Tweaks, typos, formatting." Nedenunder er der et afsnit der nævner en "copilot" som analyserer tekst i realtid. Noget tekst er i kursiv, såsom sætningen "screenshot of it in action.""}
 ![](resources-da/240-copilot-da.png)
 
-Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev på engelsk "let me show a scr" og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
+Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev "lad mig vise et skær" og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
 
 Den gør dette hele tiden, det vil sige foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, samt retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
 
