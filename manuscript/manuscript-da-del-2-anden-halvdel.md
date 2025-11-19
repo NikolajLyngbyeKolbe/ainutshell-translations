@@ -582,7 +582,7 @@ Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kod
 {alt: "Et skærmbillede af en kodeeditor der viser en TypeScript-fil ved navn "MysteryTable.tsx." Koden indeholder imports, en grænseflade og en funktionsdefinition. Editorens sidebjælke viser andre filer i projektet. Til højre er der et chat/composer-panel mærket "Edit code" med en model-valgmenu. Øverst reklamerer teksten for "AI-assisteret kodning direkte i din kodeeditor" og hjemmesiden cursor.com."}
 ![](resources-da/260-cursor-da.png)
 
-XXXCursor.com{i: "Cursor"} er en foregangsmand på dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede Cursor også "Cursor agents", der leder rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
+IDE'en Cursor{i: "Cursor"} er en pioner indenfor dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede Cursor også "Cursor agents", der leder rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
 
 At have AI direkte integreret i kodeeditoren fjerner helt de mulige fejl, som kan opstå når man prøver at finde ud af hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodeeditoren.
 
@@ -598,7 +598,7 @@ Hvordan kan AI hjælpe dig med at arbejde med det?
 
 Det er her værktøjer som Cursor virkelig viser sin værdi. Lad mig give dig et eksempel.
 
-WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "crime mystery"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. XXXDu kan auto-generere enhver mystik i enhver indstilling, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'em, så det føles som om at du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen [Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA). Du kan også prøve det selv på whodunit.kniberg.com.
+WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "crime mystery"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. Du kan automatisk generere et hav af gåde i et hav af forskellige miljøer, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'em, så det føles som om at du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen [Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA). Du kan også prøve det selv på whodunit.kniberg.com.
 
 {alt: "En collage af skærmbilleder fra "WhoDunit," et AI-drevet detektiv rollespil. Øverst til venstre vises en menu med forskellige mysterievalgmuligheder som "Theft at Sevron Biotech" og "The Milk Carton Mystery." Øverst til højre viser en opslagstavle med karakterforbindelser og etiketter som "VICTIM" og "Crime Scene." Nederst til venstre er en afhøringslog for Sir Arthur Lovelace, med dialogsektioner. Nederst til højre vises en avisartikel om en fejlagtig anholdelse i et herregårdsmysterie, med en "FAILURE" detektivevaluering der indikerer at spilleren tabte spillet."}
 ![](resources-da/260-whodunit-da.jpg)
@@ -662,7 +662,7 @@ Nogle gange går tingene galt, og en ændring virker ikke. Så giver hun bare fe
 
 Dette er vigtigt. I denne situation er Sophia{i: "Sophia"} kunden, og jeg er udvikleren. Udvikleren er stadig nødvendig (medmindre at produktet er virkelig trivielt). Forskellen er, at kunden kan gøre mange ting selv og ikke behøver at spørge udvikleren om hver eneste lille ændring.
 
-XXXDette er ekstremt styrkende og motiverende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolhet!". Det er svensk og oversættes cirka til "Skabelsesglæde og skabelsesstolthed!"
+Dette er virkeligt motiverende og frigørende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolthet!". Det er svensk og oversættes cirka til "Skabelsesglæde og skabelsesstolthed!"
 
 {alt: "En person sidder ved et skrivebord og giver tommel op foran en computer. Skærmen viser kodningssoftware og en hjemmeside. Rummet har en mikrofonarm og store højtalere på skrivebordet. Personen ser tilfreds og begejstret ud."}
 ![](resources-da/260-customer-coding-da.jpg)
@@ -690,7 +690,7 @@ Jeg lavede ved en konference for udviklere en hurtig undersøgelse. Jeg havde li
 
 Dette svarer til min personlige erfaring og følelse. Softwareudviklere kan lide at kode. Men det handler ikke rigtig om selve kodningen, det vil sige handlingen at skrive linjer af kode. Det er glæden ved at skabe ting, og glæden ved at løse problemer, glæden ved at lære og iterere hurtigt. AI fjerne ikke det. Tværtimod lader AI dig skabe ting hurtigere og iterere hurtigere.
 
-AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg kan gå fra idé til resultat på meget kortere tid. Det meste af min tid bruges på at skabe, og mindre af min tid bruges på at sidde fast i et XXXkaninhul, hvor jeg prøver at finde ud af, hvor jeg skal sætte den forbandede parentes eller semikolon.
+AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg kan gå fra idé til resultat på meget kortere tid. Det meste af min tid bruges på at skabe, og mindre af min tid bruges på at sidde fast i et eller andet kaninhul, og forsøge at finde ud af, hvor den forbandede parentes eller semikolon skal placeres.
 
 
 
