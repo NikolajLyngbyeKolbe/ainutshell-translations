@@ -1195,7 +1195,7 @@ Man kan gøre næsten alt via terminal-kommandoer, men de er svære at lære og 
 {alt: "En tegneseriefigur med en tankeboble der indeholder symboler som "?!#$@" er til venstre. Til højre er der et computerterminalvindue, der viser en kommandoprompt med tekst, der angiver seneste login-dato og -tidspunkt."}
 ![](resources-da/478-shell-1-da.png)
 
-Så tænkte jeg, hvorfor ikke lave en lille app{i: "app"} til det? En wrapper der gør, at jeg kan tale til min computer via almindelig tale, og så bruges AI til at oversætte det til terminal-kommandoer og fortolke outputtet.
+Så tænkte jeg, hvorfor ikke lave en lille app{i: "app"} til det? En wrapper lader mig tale med min computer i almindeligt sprog, og så bruges AI til at oversætte det til terminal-kommandoer og fortolke outputtet.
 
 Her er processen vist:
 
