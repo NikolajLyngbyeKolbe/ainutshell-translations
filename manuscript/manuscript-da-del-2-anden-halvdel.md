@@ -987,11 +987,11 @@ Så jeg blev nysgerrig og gravede hans seneste dagbogsnotat frem.
 {alt: "Et billede af et digitalt dagbogsnotat dateret 29. august 2024. Det beskriver et svar på en indirekte Slack-besked om AI-reaktioner. Dele af teksten, der diskuterer beslutningen om at svare og demonstrerer dømmekraft, er understreget med rødt. Et pixeleret karakterbillede er synligt i øverste højre hjørne."}
 ![](resources-da/245-diary-1-da.jpg)
 
-Det var interessant at læse om hans overvejelser: "Selvom spørgsmålet ikke var direkte henvendt til mig, besluttede jeg at svare på grund af relevansen af spørgsmålet."
+Det var interessant at læse om hans overvejelser: "Selvom den ikke var direkte rettet til mig, besluttede jeg at svare på grund af spørgsmålets relevans."
 
 Det var også nyttigt at vide, at han bevidst besluttede at gå imod sine instruktioner, det vil sige at det ikke var en fejl.
 
-Den sidste linje fik mig til at grine: "Denne hændelse demonstrerede min evne til at foretage vurderinger, samtidig med at jeg overholdt mine primære instruktioner."
+Den sidste linje fik mig til at grine: "Denne hændelse demonstrerede min evne til at foretage skønsmæssige vurderinger samtidig med at jeg overholder mine primære instruktioner."
 
 Så det var tydeligt, at Jeeves ville vise sig frem!
 
