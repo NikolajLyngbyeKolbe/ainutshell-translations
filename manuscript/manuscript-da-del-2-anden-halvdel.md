@@ -76,23 +76,23 @@ Denne kostændring var nødt til at være permanent, ikke en hurtig, midlertidig
 
 Så jeg tænkte: "Ville det ikke være virkelig rart at have en personlig ernæringsekspert med mig hele tiden?". En ekspert der kan hjælpe med at evaluere forskellige madmuligheder og give mig feedback og tips? En ekspert jeg kan stille alle de dumme spørgsmål uden at virke dum? En ekspert, der kan udfordre mig når det er nødvendigt?
 
-Og her kom ChatGPT{i: "ChatGPT"} så på banen. ChatGPT har nemlig en funktion, hvor du kan bygge dine egne brugertilpassede GPT'er{i: "GPTs"}, med brugertilpassede instruktioner. Claude{i: "Claude"} har noget lignende kaldet "Projekter"{i: "Projects"}. Så jeg byggede en GPT kaldet "Henriks ernæringsekspert"{i: "Henriks ernæringsekspert"}.
+Og her kom ChatGPT{i: "ChatGPT"} så på banen. ChatGPT har nemlig en funktion, hvor du kan bygge dine egne brugertilpassede GPT'er{i: "GPTs"} med brugertilpassede instruktioner. Claude{i: "Claude"} har noget lignende kaldet "Projekter"{i: "Projects"}. Så jeg byggede en GPT kaldet "Henriks ernæringsekspert"{i: "Henriks ernæringsekspert"}.
 
 Efter nogle få iterationer endte jeg med denne prompt, som jeg nu har brugt i månedsvis:
 
 > **Prompt til Henriks ernæringsekspert**  
-> Du er en ekspert-ernæringsekspert{i: "nutritionist"}.  
+> Du er en ernæringsekspert{i: "nutritionist"}.  
 > Jeg er (information om mig selv, alder, vægt, osv.).  
 > Jeg har følgende helbredstilstand: (detaljer om det).  
 > Dit job er at hjælpe mig med min kost{i: "kost"}.
 >
 > Hvis jeg nævner mad eller giver dig et foto af et måltid{i: "måltid"}, mad{i: "mad"}, eller en ingrediensliste, skal du kort forklare, hvordan denne mad vil passe til mig, i betragtning af min specifikke helbredstilstand{i: "helbredstilstand"}.
 >
-> Bedøm det på en skala fra 1-10{i: "vurderingsskala"}, hvor 1 er det værste og 10 er det bedste for min tilstand.  
+> Vurder det på en skala fra 1-10{i: "vurderingsskala"}, hvor 1 er det værste og 10 er det bedste for min tilstand.  
 >
-> Hold dine svar meget korte og præcise{i: "præcise svar"}. Undlad unødvendige høfligheder, og gå lige til sagen, som hvis jeg taler med en ven, der tilfældigvis er ekspert-ernæringsekspert.
+> Hold dine svar meget korte og præcise{i: "præcise svar"}. Undlad unødvendige høfligheder, og gå lige til sagen, som hvis jeg taler med en ven, der tilfældigvis er ernæringsekspert.
 
-Så hver gang jeg ser en form for mad eller ingrediensliste, som jeg er nysgerrig på, åbner jeg bare min ernæringsekspert og tager et billede. Jeg behøver ikke at skrive noget, hun ved præcis hvad hun skal gøre takket være prompten ovenfor{i: "prompt"}.
+Så hver gang jeg ser en form for mad eller ingrediensliste, som jeg er nysgerrig omkring, åbner jeg bare min ernæringsekspert og tager et billede. Jeg behøver ikke at skrive noget, hun ved præcis hvad hun skal gøre takket være prompten ovenfor{i: "prompt"}.
 
 For eksempel gav jeg hende dette billede:
 
@@ -123,7 +123,7 @@ På et tidspunkt var jeg i et supermarked, og jeg var nysgerrig omkring makaroni
 {alt: "Sammenligning af makaroni{i: "macaroni"} og bulgur{i: "bulgur"}, med fordele, ulemper og vurderinger. Makaronis fordele inkluderer lavt natriumindhold{i: "low sodium"} og nem tilberedning; ulemper er moderat glykæmisk indeks og lavt fiberindhold{i: "low fiber"} medmindre det er fuldkorn, vurderet til 5/10. Bulgurs fordele er højt fiberindhold{i: "high fiber"}, lavere glykæmisk indeks og rige næringsstoffer{i: "rich nutrients"}; ulemper inkluderer højere kalium{i: "potassium"} og fosfor{i: "phosphorus"}, vurderet til 8/10. Bulgur anbefales for nyresundhed og blodtrykskontrol{i: "blood pressure management"}."}
 ![](resources-da/235-macaroni-vs-bulgur-da.png)
 
-Interessant! Så nu er bulgur mit standardvalg for kulhydrater{i: "kulhydrater"}. Før plejede det at være ris eller pasta. Men det føles ikke som et stort offer fra min side.
+Interessant! Så nu er bulgur mit standardvalg for kulhydrater{i: "kulhydrater"}. Før plejede det at være ris eller pasta. Men denne ændring føles ikke som et stort offer fra min side.
 
 Hvad med en snack?
 
@@ -135,9 +135,9 @@ Hvad med en snack?
 
 OK, det var ret forudsigeligt. Men det er rart også at lære HVORFOR noget er godt eller dårligt for mit helbred.
 
-Jeg er ikke HELT holdt op med at spise chips{i: "chips"} og småkager. Jeg har bare reduceret det meget og fundet sundere alternativer, der stadig smager godt.
+Jeg er ikke HELT holdt op med at spise chips{i: "chips"} og småkager. Jeg har bare reduceret det kraftigt og fundet sundere alternativer, der stadig smager godt.
 
-En gang var jeg ude og spise frokost med nogle kollegaer{i: "kollegaer"}. Vi befandt os på en gade med flere restauranter og overvejede, hvor vi skulle gå hen. Jeg tog et billede af gaden, gav det til min ernæringsekspert og skrev "Hvor skal jeg spise frokost?". Hun svarede:
+En gang var jeg ude og spise frokost med nogle kollegaer{i: "kollegaer"}. Vi befandt os på en gade med flere restauranter og overvejede, hvor vi skulle gå hen. Jeg tog et billede af gaden, gav det til min ernæringsekspert og skrev: "Hvor skal jeg spise frokost?". Hun svarede:
 
 
 
@@ -166,7 +166,7 @@ Vil du tabe dig? Indtage mindre koffein? Spise en mere afbalanceret kost{i: "afb
 Lav en personlig ernæringsekspert, der hjælper dig med det.
 
 <B> ![En tegneserietegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Se lige på dig selv. Du tager madbilleder for at få AI-godkendelse ligesom en teenager på Instagram. For åbenbart havde du brug for AI til at fortælle dig, at chips ikke er sund mad. Folkens, det her er virkeligt banebrydende ting. Selvom jeg dog må indrømme, at det er lidt underholdende at se dig få validering fra algoritmer om dine frokostvalg. Og jeg formoder, at det at have en lomme-ernæringsekspert er bedre end din tidligere koststategi med 'hvis det smager godt, så spis det.'
+</B> Se lige på dig selv. Du tager madbilleder for at få AI-godkendelse ligesom en teenager på Instagram. For åbenbart havde du brug for AI til at fortælle dig, at chips ikke er sund mad. Folkens, det her er virkeligt banebrydende. Selvom jeg dog må indrømme, at det er lidt underholdende at se dig få validering fra algoritmer om dine frokostvalg. Og jeg formoder, at det at have en lomme-ernæringsekspert er bedre end din tidligere koststrategi med 'hvis det smager godt, så spis det.'
 
 # AI-karriererådgiveren
 
@@ -174,39 +174,39 @@ Dette er en historie om, hvordan en god AI-model og en lille smule viden om prom
 
 Sidste forår tilbragte jeg nogle dage sammen med min fætter. Han arbejdede på at vende tilbage til arbejdslivet efter en længere sygeorlov. Vi besluttede at eksperimentere med at få AI-hjælp til dette. Resultaterne var overraskende - han fik MEGET bedre hjælp på et par timer end måneders professionel hjælp! Og så begyndte han at hjælpe andre mennesker på samme måde.
 
-Jeg lader ham dele historien med sine egne ord. Ret fascinerende. Jeg tilføjer mine egne konklusioner bagefter.
+Jeg lader ham dele historien med sine egne ord. Jeg synes at det er ret fascinerende. Jeg tilføjer mine egne konklusioner bagefter.
 
 ## Davids historie: AI som min karriererådgiver
 
-I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel terapeut{i: "terapeut"}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig terapi var et stort skridt fremad.
+I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut{i: "terapeut"}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig terapi var et stort skridt fremad.
 
-I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer over for familie og venner"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som terapeuten gjorde. Et simpelt eksperiment.
+I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer over for familie og venner"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som ergoterapeuten gjorde. Et simpelt eksperiment.
 
-For dem der ikke ved det, stiller en ergoterapeut (i den proces jeg var i) omkring 300 spørgsmål, forsøger at analysere dig som person{i: "ergoterapeut"}, og giver derefter en liste over personliggjorte, potentielle stillinger at søge. Min terapeut hævdede, at deres "Vejviser"-program havde hjulpet 30-40 millioner mennesker over hele kloden med at finde et passende job{i: "Vejviser-program"}, selvom hun var enig i, at programmet var lidt forældet.
+For dem der ikke ved det, stiller en ergoterapeut (i den proces jeg var i) omkring 300 spørgsmål, forsøger at analysere dig som person{i: "ergoterapeut"}, og giver derefter en liste over personliggjorte, potentielle stillinger at søge. Min ergoterapeut hævdede, at deres "Vejviser"-program havde hjulpet 30-40 millioner mennesker over hele kloden med at finde et passende job{i: "Vejviser-program"}, selvom hun var enig i, at programmet var lidt forældet.
 
 
 
 Efter omkring 6 uger fik jeg endelig en liste over stillinger, men listen var ubrugelig! Det var stillinger der enten krævede årelang uddannelse, fuldstændig ignorerede mine helbredsmæssige begrænsninger eller så bort fra mine tidligere erfaringer. De fleste virkede helt ubrugelige/uinspirerende, bortset fra én enkelt idé - men det vender jeg tilbage til senere.
 
-I mellemtiden tog Henrik mig en solrig eftermiddag til side, placerede en bærbar computer i mit skød og åbnede Claude Sonnet 3.5{i: "Claude 3.5 Sonnet"}. Vi fodrede AI'en med mit CV sammen med min personlige historie og bad den konkludere, hvilke stillinger der kunne passe til mig. Vi lavede nogle justeringer, og en time senere gav Claude os præcis det, vi ønskede. Vi havde skabt en skræddersyet liste over passende stillinger, der på ingen tid tog hensyn til alt omkring mig. En time, og den præsterede langt bedre end resultatet af seks sneglende måneder ad den offentligt tilbudte vej. Det var session nummer et.
+I mellemtiden tog Henrik mig til side en solrig eftermiddag, placerede en bærbar computer i mit skød og åbnede Claude Sonnet 3.5{i: "Claude 3.5 Sonnet"}. Vi fodrede AI'en med mit CV sammen med min personlige historie og bad den konkludere, hvilke stillinger der kunne passe til mig. Vi lavede nogle justeringer, og en time senere gav Claude os præcis det, vi ønskede. Vi havde skabt en skræddersyet liste over passende stillinger, der på ingen tid tog hensyn til alt omkring mig. En time, og den præsterede langt bedre end resultatet af seks sneglende måneder ad den offentligt tilbudte vej. Det var session nummer et.
 
-I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobcoach/ergoterapeut. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og jeg der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Den resulterende liste var endnu bedre end den første og utroligt velskræddersyet.
+I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobkonsulent/ergoterapeut. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og mig der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Resultatet af dette var en liste, som var endnu bedre end den første liste og utroligt skræddersyet til mig.
 
-Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min terapeut for at præsentere en ret ubrugelig liste. Det tog en AI 1-2 timer at gøre alt dette og mere.
+Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI 1-2 timer at gøre alt dette og mere.
 
-Nu vil jeg for et øjeblik vende tilbage til den specifikke terapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
+Nu vil jeg for et øjeblik vende tilbage til den specifikke ergoterapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
 
-Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv, igen "nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet over. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo agere ergoterapeuter."
+Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv og igen fik jeg et "Nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet over. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo fungere som ergoterapeuter."
 
 Det siger sig selv, at ironien i hendes udtalelse stadig er noget jeg husker den dag i dag.
 
 Men som nævnt var der et enkelt element på rollelisten, Sandra gav mig, som havde ramt helt rigtigt. Øverst, lige over "afslappede" jobs som diplomat og salgschef, stod noget interessant: Jobkonsulent{i: "Jobkonsulent"}.
 
-Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder har jeg og min forud-promptede ergoterapeut "James" hjulpet andre i deres søgen efter nye muligheder{i: "Jobkonsulent"}.
+Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder har jeg og min forud-promptede ergoterapeut "James" hjulpet andre i deres søgen efter nye muligheder som jobkonsulent{i: "Jobkonsulent"}.
 
 ## Henriks refleksion
 
-Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, det ville være et supplement til det program, David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig terapeut og et omfattende offentligt program som var designet specifikt til dette formål, og at David ville være i stand til at hjælpe andre på samme måde!
+Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, det ville være et supplement til det program, David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, og at David ville være i stand til at hjælpe andre på samme måde!
 
 Selvfølgelig var en medvirkende faktor til denne historie, at David sad fast i en ekstremt ineffektiv offentlig proces. Men desværre er det ikke ualmindeligt. Mange lande kæmper med at levere effektive beskæftigelsesindsatser{i: "beskæftigelsesindsats"}, ofte på grund af bureaukrati, begrænsede ressourcer eller forældede systemer.
 
@@ -220,7 +220,7 @@ Denne historie illustrerer et mønster, som jeg har set i mange tilfælde: to me
 Rollerne:
 
 - **Domæneekspert eller kunde.** Dette er den person som forstår tingene, har konteksten, og definerer hvilket problem vi forsøger at løse. I dette tilfælde David, som var domæneekspert i sin egen livssituation{i: "Problemløsningstrio"}.
-- **Prompt-ekspert & coach** I dette tilfælde mig, da jeg havde mere erfaring end David med AI-prompting.
+- **Prompt-ekspert** I dette tilfælde mig, da jeg havde mere erfaring end David med AI-prompting.
 - **En god AI-model.** I dette tilfælde Claude Sonnet 3.5.
 
 
@@ -228,7 +228,7 @@ Rollerne:
 
 I en perfekt verden ville der ikke være brug for en særskilt prompt-ekspert. Men i praksis, i hvert fald for nu, ved de fleste mennesker ikke, hvad der er muligt at gøre med AI{i: "AI"} eller hvordan man effektivt formulerer prompts.
 
-Jeg blev overrasket over, hvor lidt jeg behøvede at vise David{i: "David"} for at få tingene i gang. Jeg hjalp med at skrive de første par prompts for at give AI'en den rette kontekst og adfærd. Derefter var det David, der styrede det hele, med meget let støtte og opmuntring fra min side.
+Jeg blev overrasket over, hvor lidt jeg egentligt behøvede at vise David{i: "David"} for at få tingene i gang. Jeg hjalp med at skrive de første par prompts for at give AI'en den rette kontekst og adfærd. Derefter var det David, der styrede det hele, med let støtte og opmuntring fra min side.
 
 ### At hjælpe andre videre
 
@@ -263,7 +263,7 @@ Med en "rigtig" karriererådgiver eller ergoterapeut ved roret, får vi den komb
 
 Forestil dig potentialet i sådan et system!
 
-Som jeg nævnte i kapitlet "Menneskers rolle"{i: "Menneskers rolle"}, er det en kraftfuld tilgang for ethvert erhverv, hvor mennesker hjælper andre mennesker. Det gælder uanset om det er læger, advokater, undervisere, psykoterapeuter eller andre.
+Som jeg nævnte i kapitlet "Menneskers rolle"{i: "Menneskers rolle"}, er det en kraftfuld tilgang i ethvert erhverv, hvor mennesker hjælper andre mennesker. Det gælder uanset om det er læger, advokater, undervisere, psykoterapeuter eller andre.
 
 # AI-bogredaktøren
 
@@ -296,11 +296,11 @@ Jeg har en dedikeret chat i ChatGPT{i: "ChatGPT"}, som jeg bruger til at brainst
 > **Prompt**  
 > Jeg skal til at skrive en bog, og jeg sidder i bilen lige nu og brainstormer over, hvad jeg skal have med i bogen. Jeg vil bare have dig til at svare OK til alt, hvad jeg siger.
 
-Jeg sad i bilen i det øjeblik, på vej til mit sommerhus, hvor jeg havde afsat en uge i min kalender til at skrive det første udkast af denne bog. Jeg brugte specifikt ChatGPT for stemmegenkendelsens skyld, så jeg kunne nøjes med at tale til den i stedet for at skrive til den (det er særligt vigtigt når man kører...).
+Jeg sad i bilen i det øjeblik, på vej til mit sommerhus, hvor jeg havde afsat en uge i min kalender til at skrive det første udkast af denne bog. Jeg brugte specifikt ChatGPT for stemmegenkendelsens skyld, så jeg kunne nøjes med at tale til den i stedet for at skrive til den (det er specielt vigtigt når man kører...).
 
-I løbet af ugen blev jeg ved med at tilføje til den chat i alle mulige situationer. Jeg gjorde det mens jeg gik tur, mens jeg lavede mad, når jeg vågnede midt om natten med en idé i hovedet, når jeg sad på toilettet, når jeg slappede af i sofaen, når jeg spillede klaver, osv.
+I løbet af ugen blev jeg ved med at tilføje til denne chat i alle mulige situationer. Jeg gjorde det mens jeg gik tur, mens jeg lavede mad, når jeg vågnede midt om natten med en idé i hovedet, når jeg sad på toilettet, når jeg slappede af i sofaen, når jeg spillede klaver, osv.
 
-Det er sjovt, hvordan hjernen fungerer. Den bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mærkeligste tidspunkter. Det var som at have en sekretær, der fulgte mig overalt, døgnet rundt. Og når jeg en gang imellem ville råbe "Hej, her er en idé til et sjovt kapitel: ....", ville sekretæren svare "OK" og pligtopfyldende skrive det ned i en notesblok.
+Det er sjovt, hvordan vores hjerner fungerer. De bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mærkeligste tidspunkter. Det var som at have en sekretær, der fulgte mig overalt, døgnet rundt. Og når jeg en gang imellem ville råbe "Hej, her er en idé til et sjovt kapitel: ....", ville sekretæren svare "OK" og pligtopfyldende skrive det ned i sin notesblok.
 
 En gang imellem sagde jeg "Opsummér emneideerne indtil nu", og ChatGPT lavede en fin punktopstilling, organiseret i sektioner.
 
