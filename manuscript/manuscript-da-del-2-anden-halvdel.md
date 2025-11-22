@@ -1318,7 +1318,7 @@ Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Clau
 OK, dette kapitel kommer til at få dit hoved til at snurre. Det gjorde det i hvert fald for mig. Jeg gav for sjov denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}:
 
 > **Prompt**  
-> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Jeg lavede nogle eksperimenter med at træne AI'en til min stil, og det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
+> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
 
 Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Det føles både spændende og uhyggeligt på samme tid.
 
@@ -1343,38 +1343,38 @@ Dette meta-øjeblik virker som et perfekt eksempel på både mulighederne og beg
 Og hey, hvis jeg havde ladet AI skrive det hele, ville vi ikke have dette dejligt selvrefererende kapitel, vel?
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
+</B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farene ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
 
 
 
 # Hvordan denne bog (og videoen) blev til
 
-Vi er tilbage i starten af 2024, hvor jeg havde brugt omkring et år på at arbejde med generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Abundly.ai{i: "Abundly.ai"}, og jeg var så fascineret af alt det, jeg havde lært at jeg ønskede at dele det med andre.
+Vi skal nu tilbage i starten af 2024, hvor jeg havde brugt omkring et år på at arbejde med generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Abundly.ai{i: "Abundly.ai"}, og jeg var så fascineret af alt det, jeg havde lært at jeg ønskede at dele det med andre.
 
 Så jeg tænkte "Hmmmm, måske skulle jeg lave en video om det".
 
-Eftersom generativ AI var superhypet og internettet var fyldt til randen med videoer og artikler om AI, tøvede jeg i første omgang, . Hvad kunne jeg dog tilføje, som ikke allerede var blevet sagt?
+Eftersom generativ AI var superhypet og internettet var fyldt til randen med videoer og artikler om AI, tøvede jeg i første omgang. Hvad kunne jeg dog tilføje, som ikke allerede var blevet sagt og skrevet?
 
-Så tænkte jeg: "Pyt med det, jeg gør det alligevel". Mit hoved var fyldt helt op, og jeg havde brug for at få tingene ud. Jeg havde tidligere lavet nogle animerede videoer, hvoraf nogle af dem gik virale. Det var for eksempel videoerne "Agile Product Ownership in a Nutshell"{i: "Agile Product Ownership in a Nutshell"} og "Spotify Engineering Culture"{i: "Spotify Engineering Culture"} (også kendt som Spotify-modellen). I disse videoer talte og tegnede jeg i et hæsblæsende tempo, og da folk kunne lide det format, tænkte jeg: "Hhvorfor ikke bare gøre det igen?". Jeg havde allerede et fængende engelsk navn og titel i tankerne: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"{i: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"}, dvs. på dansk "Generativ AI - Hvordan man trives og overlever i AI-alderen".
+Men så tænkte jeg: "Pyt med det, jeg gør det alligevel". Mit hoved var fyldt helt op, og jeg havde brug for at få tingene ud. Jeg havde tidligere lavet nogle animerede videoer, hvoraf nogle af dem gik virale. Det var for eksempel videoerne "Agile Product Ownership in a Nutshell"{i: "Agile Product Ownership in a Nutshell"} og "Spotify Engineering Culture"{i: "Spotify Engineering Culture"} (også kendt som Spotify-modellen). I disse videoer talte og tegnede jeg i et hæsblæsende tempo, og da folk kunne lide det format, tænkte jeg: "Hvorfor ikke bare gøre det igen?". Jeg havde allerede en fængende engelsk titel i tankerne: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"{i: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"}, dvs. på dansk "Generativ AI - Hvordan man trives og overlever i AI-alderen".
 
-Jeg er heldig at have en feriehytte i den svenske skærgård{i: "Swedish archipelago"}, et dejligt stille og smukt sted omgivet af natur. Og jeg er også heldig at have en familie, der forstår mit behov for isolere mig helt, når jeg laver den slags ting. Jeg foretrækker at arbejde i "burst mode"{i: "burst mode"} med videoer og bøger og lave det hele på i én gang frem for at sprede det ud over måneder.
+Jeg er heldig at have en feriehytte i den svenske skærgård{i: "Swedish archipelago"}, et dejligt stille og smukt sted omgivet af natur. Og jeg er også heldig at have en familie, der forstår mit behov for at isolere mig helt, når jeg laver den slags ting. Jeg foretrækker at arbejde i "burst mode"{i: "burst mode"} med videoer og bøger og lave det hele på én gang frem for at sprede det ud over mange måneder.
 
 {alt: "Et todelt billede, der viser en hyggelig hytte og en indendørs arbejdsplads. Den første del viser en hytte i et skovområde med store glasvinduer, en hængekøje og udendørs siddepladser på terrassen. Den anden del viser hyttens indre med et skrivebord med computer og udsigt til træer og vand gennem store vinduer. En guitar hviler mod væggen, og hylder indeholder forskellige genstande."}
 ![](resources-da/500-cabin-da.jpg)
 
 ## En-uges videoen
 
-Så jeg ryddede en uge i min kalender og tog afsted til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs. Jeg ville lave en video, der giver et overblik over generativ AI{i: "Generative AI"} på et højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum, dvs. både begyndere og eksperter. AI var meget hjælpsom i forbindelse med dette, den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
+Så jeg blokerede en uge i min kalender og tog afsted til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs. Jeg ville lave en video, der giver et overblik over generativ AI{i: "Generative AI"} på et højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum, dvs. både begyndere og eksperter. AI var meget hjælpsom i forbindelse med dette, den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
 
 Og da folk bliver ved med at spørge, hvordan jeg lavede videoen, kommer forklaringen her.
 
 1. Først brugte jeg et par dage på at arbejde med manuskriptet, hvor jeg meget fokuset optimerede hvert eneste ord for at bevare manuskriptet så kort som muligt, ideelt set på 15 minutter (det endte med at blive 18 minutter, hvilket også var OK).
-2. Så brugte jeg en dag på at lave udkast til skitser ved hjælp af programmet ArtRage{i: "ArtRage"} og en tegneplade{i: "drawing tablet"} for at afklare den visuelle del. Jeg havde et fordel her, fordi jeg allerede havde en masse visuelle elementer fra forskellige keynotes, kurser og artikler, dvs. materiale som allerede var blevet afprøvet hos rigtige publikummer.
-3. Derefter startede jeg programmet ScreenFlow{i: "ScreenFlow"} og optog mig selv, mens jeg live-tegnede det hele. Det tog lang tid, fordi jeg ikke er så god til at tegne, så jeg måtte tage mange optagelser.
-4. Næste dag optog ved hjælp af ScreenFlow, mikrofon og webcam mig selv læse manuskriptet op. Det gik ret hurtigt.
-5. Til sidst brugte jeg et par dage på at redigere videoen og få det hele til at passe sammen, primært ved at øge tempoet af video med tegning, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Det var meget tidskrævende og pillearbejde. På en eller anden måde var det dermed både tilfredsstillende og frustrerende på samme tid.
+2. Så brugte jeg en dag på at lave udkast til skitser ved hjælp af programmet ArtRage{i: "ArtRage"} og en tegneplade{i: "drawing tablet"} for at afklare den visuelle del. Jeg havde en fordel her, fordi jeg allerede havde en masse visuelle elementer fra forskellige keynotes, kurser og artikler, dvs. materiale som allerede var blevet afprøvet hos et rigtite publikum.
+3. Derefter startede jeg programmet ScreenFlow{i: "ScreenFlow"} og optog mig selv, mens jeg live-tegnede det hele. Det tog lang tid, fordi jeg ikke er så god til at tegne, så jeg måtte lave mange optagelser.
+4. Næste dag optog jeg ved hjælp af ScreenFlow, mikrofon og webcam mig selv læse manuskriptet op. Det gik ret hurtigt.
+5. Til sidst brugte jeg et par dage på at redigere videoen og få det hele til at passe sammen, primært ved at øge tempoet af videon med tegningen, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Det var meget tidskrævende og virkeligt et pillearbejde. På en eller anden måde var det dermed både tilfredsstillende og frustrerende på samme tid.
 
-Hele processen tog omkring 60 timers intensivt fokuseret arbejde.
+Hele processen tog omkring 60 timers intensivt, fokuseret arbejde.
 
 Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gik fuldstændig viral, den fik omkring 100.000 visninger i løbet af den første uge, og i skrivende stund et halvt år senere er den oppe på over 2,5 million visninger. Men det, der gør mig gladest, er kommentarerne. Der er i skrivende stund over 2.500 kommentarer, hvor langt størstedelen er overvældende positive. Kommentarerne bekræfter, at videoen appellerer til et meget bredt publikum - gymnasielærere, pensionister, universitetsprofessorer, børn og endda AI-forskere.
 
@@ -1391,9 +1391,9 @@ Så hvorfor skrive en bog?
 
 Efter at have udgivet videoen fortsatte jeg med at anvende og lære en masse om generativ AI. Abundly.ai voksede, vi arbejdede med en masse interessante kunder og udviklede vores agentplatform{i: "agentplatform"}. Jeg havde mange nye interessante historier, tips, eksempler og indsigter at dele ud af. Så jeg besluttede, at jeg gerne ville skrive en bog baseret på videoen, men med mere indhold.
 
-Grundidéen var at følge samme struktur som videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold til hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, tips til prompt engineering{i: "prompt engineering tips"}, en guide til transformation osv. Og bare tage alt det materiale, der allerede fyldte i hovedet eller fandtes i forskellige artikler og præsentationer.
+Grundidéen var at følge samme struktur som i videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold til hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, tips til prompt engineering{i: "prompt engineering tips"}, en guide til transformation osv. Og bare tage alt det materiale, der allerede fyldte i hovedet eller fandtes i forskellige artikler og præsentationer.
 
-Jeg ville ikke bruge for meget tid på denne bog, fordi dette område udvikler sig så hurtigt. Jeg ville ikke bruge 6 måneder på at skrive en bog, der allerede er forældet, når den blev udgivet.
+Fordi dette område udvikler sig så hurtigt, ville jeg ikke bruge for meget tid på denne bog. Jeg ville ikke bruge 6 måneder på at skrive en bog, der allerede ville være forældet, når den blev udgivet.
 
 Så jeg besluttede at afsætte en uge, i hvert fald til at lave det første udkast. Fuldstændigt ligesom med videoen ryddede jeg en uge i min kalender og tog ud til hytten. Det er der, jeg er lige nu, mens jeg skriver denne tekst. Det jeg kan nå at lave på en uge, må være nok. Og desuden læser de fleste folk alligevel ikke lange bøger, så jeg vil holde den kort (ligesom mine tidligere bøger).
 
@@ -1402,12 +1402,12 @@ Så jeg besluttede at afsætte en uge, i hvert fald til at lave det første udka
 
 At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI-bogredaktøren"{i: "AI Book Editor"} for flere detaljer. AI'en tog sig af meget af det kedelige arbejde, så jeg dermed kunne fokusere på indholdet og skrivningen. Og gennem brainstormingsessioner og feedback hjalp den mig også med at skrive en bedre bog.
 
-Som gentaget mange gange i hele boger er det i samarbejdet "Menneske + AI"{i: "Menneske + AI"} at magien opstår.
+Som gentaget mange gange i hele bogen er det i samarbejdet "Menneske + AI"{i: "Menneske + AI"} at magien opstår.
 
 (OK, Egbert{i: "Egbert"}, jeg kan se dig luske derude. Jeg ved, du gerne vil sige noget. Kom nu, sig det.)
 
 <B> ![En karikatur tegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnåe ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
+</B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnå ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
 
 {backmatter}
 
@@ -1415,7 +1415,7 @@ Som gentaget mange gange i hele boger er det i samarbejdet "Menneske + AI"{i: "M
 
 _(Hmmm. Har vi mon brug for en epilog? Hvad skal der være i den? Las os tage en hurtig snak med Claude... Ah, OK)._
 
-Tillykke, du har nu færdiglæstt bogen (eller måske sprang du bare direkte hertil).
+Tillykke, du har nu færdiglæst bogen (eller måske sprang du bare direkte hertil).
 
 Jeg håber at du nød den!
 
@@ -1428,7 +1428,7 @@ Hold forbindelsen:
 
 
 
-Du kan også sende en mail til [ainutshell@abundly.ai](mailto:ainutshell@abundly.ai). Jeg læser disse beskeder, men jeg kan ikke garantere et svar - især ikke på generelle AI-support spørgsmål. Men hvis du ønsker at give feedback eller hyre mig eller Abundly.ai til en opgave, så er det en god måde at opstarte kontakten.
+Du kan også sende en mail til [ainutshell@abundly.ai](mailto:ainutshell@abundly.ai). Jeg læser disse beskeder, men jeg kan ikke garantere et svar - især ikke på generelle AI-support spørgsmål. Men hvis du ønsker at give feedback eller hyre mig eller Abundly.ai til en opgave, så er det en god måde at indlede kontakten.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B> Og hvis du er helt desperat efter at opleve mere af min ødelæggende charme, så følg mig på [x.com/EgbertSays](https://x.com/EgbertSays). Ja, selv AI-følgesvende er på sociale medier nu. Prøv at undgå at besvime af begejstring.
@@ -1439,7 +1439,7 @@ Og (skamløs reklame på vej) spred gerne ordet om denne bog. Skriv en anmeldels
 
 # Tak{i: "Tak"}
 
-Som sædvanlig er en bog som denne ikke en rejse man tager alene.
+Som sædvanlig er en bog som denne ikke en rejse man tager på alene.
 
 Tak til min kone og børn for at tolerere min AI-besættelse{i: "AI-besættelse"} og alle de gange jeg forsvandt for at færdiggøre den "næsten færdige" bog.
 
@@ -1451,7 +1451,7 @@ Og tak til Nikolaj Lyngbye Kolbe og hans mange danske sparringspartnere, som sam
 
 Og en kæmpestor tak til folkene hos OpenAI{i: "OpenAI"}, Anthropic{i: "Anthropic"} og det bredere AI-fællesskab{i: "AI-fællesskab"} for at bygge fantastiske værktøjer, der gør verden til et mere interessant sted.
 
-Og ja, Egbert, jeg ved det. Denne bog ville være intet uden dine kloge kommentarer.
+Og ja, Egbert, jeg ved det. Denne bog ville intet være uden dine kloge kommentarer.
 
 # Dine noter
 
@@ -1475,5 +1475,5 @@ Og ja, Egbert, jeg ved det. Denne bog ville være intet uden dine kloge kommenta
 
 {pagebreak}
 
-*Dine Noter Her*
+*Dine noter Her*
 
