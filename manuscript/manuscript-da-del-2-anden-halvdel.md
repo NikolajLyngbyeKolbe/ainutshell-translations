@@ -15,21 +15,21 @@ På trods af dette er min erfaring, at de bedste AI-modeller er i stand til at p
 
 Dette understøttes af studier som [GPT versus Resident Physicians — A Benchmark Based on Official Board Scores](https://ai.nejm.org/doi/full/10.1056/AIdbp2300192){i: "GPT versus Resident Physicians — A Benchmark Based on Official Board Scores"}.
 
-Her er citater fra artiklen (med mine fremhævninger og oversat til dansk):
+Her er citater fra artiklen med mine fremhævninger og oversat til dansk. Jeg er klar over at citaterne vrimler med statistiske termer og lidt snørklet sprog, så spring eventuelt bare citaterne over, indtil jeg bagefter fortæller hvad de siger om modellernes evner.
 
-> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med henholdvis en medianscore på 17,4% (95% CI, 9,55 til 30,9) og en medianscore på 23,44% (95% CI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
-
-Og modellerne er blevet betydeligt bedre siden da.
+> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen (KI), 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% KI, 38,9 til 55,5) og 56,6% (95% KI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med henholdvis en medianscore på 17,4% (95% KI, 9,55 til 30,9) og en medianscore på 23,44% (95% KI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
 
 De mange benchmark-tests og forskningsartikler om dette emne viser en klar tendens: LLM'er begynder at matche og i nogle tilfælde overgå menneskelige læger i medicinsk viden og diagnosticering.
+
+Og modellerne er endda blevet betydeligt bedre siden da.
 
 ## En personlig historie
 
 Jeg har en personlig historie, som jeg gerne vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"}, og fik et skræmmende resultat: Der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: Forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
 
-I løbet af de næste måneder mødte jeg flere forskellige læger, og fik udført en masse laboratorieprøver. Og til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
+I løbet af de næste måneder mødte jeg flere forskellige læger, og fik udført mange laboratorieprøver. Til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
 
-Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og læssede det hele ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
+Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og indlæste så disse data ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
 
 > **Prompt**  
 > Evaluer disse medicinske data, forklar hvad der er galt med mig, og forklar hvad jeg bør gøre ved det.
@@ -38,9 +38,9 @@ Dette var en ret simpel prompt, men jeg inkluderede MANGE kontekstoplysninger, d
 
 Svaret var en meget detaljeret analyse og diagnose samt en foreslået behandlingsplan. Og til min overraskelse matchede det præcis, hvad nyrespecialisten{i: "nyrespecialist"} havde sagt! Det var virkeligt et øjeblik, hvor jeg var tæt på at falde ned af stolen.
 
-Dette svar fik mig til at stole så meget på modellen omkring emnet, at jeg følte mig tryg ved at stille den mange opfølgende spørgsmål. Min adgang til nyrespecialisterne var begrænset, men AI-modellen havde uendelig tid og tålmodighed til at tale med mig. Så jeg kunne stille alle de dumme spørgsmål, jeg havde lyst til. Jeg dobbelttjekkede nogle svar via Google{i: "Google"}, og så aldrig tegn på hallucination. Hallucination har en tendens til at forekomme, når man bruger en billig model og ikke giver nok kontekst. I dette tilfælde brugte jeg en god model og gav massevis af kontekst.
+Svaret fik mig til at stole så meget på modellen omkring emnet, at jeg følte mig tryg ved at stille den mange opfølgende spørgsmål. Min adgang til nyrespecialisterne var begrænset, men AI-modellen havde uendelig tid og tålmodighed til at tale med mig. Så jeg kunne stille alle de dumme spørgsmål, jeg havde lyst til. Jeg dobbelttjekkede nogle svar via Google{i: "Google"} og så aldrig tegn på hallucination. Hallucination har en tendens til at forekomme, når man bruger en billig model og ikke giver nok kontekst. I dette tilfælde brugte jeg en god model og gav massevis af kontekst.
 
-Da jeg mødte nyrespecialisterne igen, var jeg bedre rustet til at diskutere med dem, da jeg havde fået en dybere forståelse af problemet. AI-lægen og de menneskelige læger var enige om, at den umiddelbare løsning var blodtryksmedicin. Da mit blodtryk kom ned på normale niveauer, blev mine nyreværdier bedre. En del af sygdommen er kronisk, men det værste er overstået, og jeg er ikke længere i umiddelbar fare. Puha.
+Da jeg mødte nyrespecialisterne igen, var jeg bedre rustet til at diskutere med dem, da jeg havde fået en dybere forståelse af problemet. AI-lægen og de menneskelige læger var enige om, at den umiddelbare løsning var blodtryksmedicin. Efter at mit blodtryk kom ned på normale niveauer, blev mine nyreværdier bedre. En del af sygdommen er kronisk, men det værste er overstået, og jeg er ikke længere i umiddelbar fare. Puha.
 
 En anden ting, som jeg havde behov for, var at få en sundere livsstil. Det vil sige mere motion, bedre søvn, mindre stress og en bedre kost. AI hjalp mig også med det. Det mest nyttige var, at jeg byggede en lille AI-ernæringsekspert til at hjælpe mig med at spise rigtigt. Mere om det i kapitlet "AI-ernæringseksperten"{i: "AI-ernæringseksperten"}.
 
@@ -50,15 +50,15 @@ Ja, som et supplement til den menneskelige læge{i: "AI-læge"}. Om ikke en erst
 
 En AI-læge supplerer en menneskelig læge på flere måder:
 
-- Den kan give dig en "second opinion" og levere mere information.
+- Den kan give dig en "second opinion" og leverer mere information.
 - Den kan tilgås på alle tidspunkter af døgnet, uden at den har behov for pauser, weekender, helligdage eller ferier.
 - Den kan måske se mønstre eller opdage sjældne tilstande, som den menneskelige læge ikke kendte til. Eftersom AI-lægen har en meget større vidensbase (gennem sine træningsdata), har den set langt flere tilfælde end nogen menneskelig læge.
-- Den bliver aldrig forhastet, utålmodig, stresset, i dårligt humør eller påvirket af søvnmangel. Sådanne ting vil påvirke dømmekraften selv hos den bedste menneskelige læge.
-- Den vil ikke diskriminere dig baseret på synlige kendetegn som køn/etnicitet/alder/påklædning/osv. Ikke fordi den ikke har fordomme (det har den), men fordi den som standard ikke kan se, hvordan du ser ud. Den ved kun det, du vælger at fortælle den.
+- Den bliver aldrig forhastet, utålmodig, stresset, i dårligt humør eller påvirket af søvnmangel. Ting som vil påvirke dømmekraften hos selv den bedste menneskelige læge.
+- Den vil ikke diskriminere dig baseret på synlige kendetegn som køn/etnicitet/alder/påklædning/osv. Ikke fordi den ikke har fordomme (det har den), men fordi den som standard ikke kan se, hvordan du ser ud. Den ved kun det, som du vælger at fortælle den.
 
 Nogle gange er det slet ikke en mulighed at have en menneskelig læge. Måske bor du i et fjerntliggende område uden adgang til en læge, eller du har ikke råd til det, eller du har en sjælden tilstand, som din læge ikke forstår. I det tilfælde kan en AI-læge bogstaveligt talt være livreddende!
 
-Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end budene fra dine velmenende (men uinformerede) venner og familie.
+Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet, og højst sandsynligt bedre end budene fra dine velmenende (men uinformerede) venner og familie.
 
 Generelt finder jeg det fascinerende, at det er muligt praktisk talt at fremtrylle en dygtig AI-læge{i: "AI-læge"} eller specialist inden for et hvilket som helst område, ved blot at bruge en simpel prompt og en generel app som Claude eller ChatGPT{i: "ChatGPT"}. Gode prompt engineering-færdigheder giver dig næsten superkræfter.
 
@@ -66,7 +66,7 @@ Men husk: Hvis du gør dette, så sørg for at bruge en god model! De gratis ell
 
 > GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin, og var underlegen i forhold til flertallet af læger i de fem discipliner.
 
-OG husk: Menneskelige læger kan også hallucinere. Vi kalder det bare noget andet: Menneskelige fejl...
+Husk også: Menneskelige læger kan også hallucinere. Vi kalder det bare noget andet: Menneskelige fejl...
 
 # AI-ernæringseksperten{i: "AI-ernæringsekspert"}
 
@@ -74,7 +74,7 @@ I kapitlet om AI-lægen nævnte jeg, at jeg blev nødt til at ændre min kost fo
 
 Denne kostændring var nødt til at være permanent, ikke en hurtig, midlertidig løsning. Så jeg havde brug for at finde mad, der er sundere for mig, men som jeg stadig nyder. Ellers ville jeg ikke kunne holde fast i vanen.
 
-Så jeg tænkte: "Ville det ikke være virkelig rart at have en personlig ernæringsekspert med mig hele tiden?". En ekspert, der kan hjælpe med at evaluere forskellige madmuligheder og give mig feedback og tips? En ekspert, jeg kan stille alle de dumme spørgsmål uden at virke dum? En ekspert, der kan udfordre mig når det er nødvendigt?
+Så jeg tænkte: "Ville det ikke være virkelig rart at have en personlig ernæringsekspert med mig hele tiden?". En ekspert, der kan hjælpe med at evaluere forskellige madmuligheder og give mig feedback og tips? En ekspert, jeg kan stille alle de dumme spørgsmål uden at virke dum? En ekspert, der kan udfordre mig, når det er nødvendigt?
 
 Her kom ChatGPT{i: "ChatGPT"} på banen. ChatGPT har nemlig en funktion, hvor du kan bygge dine egne brugertilpassede GPT'er{i: "GPTs"} med brugertilpassede instruktioner. Claude{i: "Claude"} har noget lignende kaldet "Projekter"{i: "Projects"}. Så jeg byggede en GPT kaldet "Henriks ernæringsekspert"{i: "Henriks ernæringsekspert"}.
 
@@ -151,11 +151,11 @@ Her tog jeg et billede af en frugt-yoghurt.
 
 Hun foreslog, at jeg skiftede til naturel yoghurt og tilføjede frisk frugt i stedet, hvilket jeg gjorde. God idé, hvorfor tænkte jeg ikke selv på det?
 
-Alt i alt har jeg lært meget. Jeg føler virkelig, at denne app hjælper med at forbedre mit helbred{i: "helbred"}. Og samtidigt er det ret sjovt at småsnakke med min lomme-ernæringsekspert.
+Alt i alt har jeg lært meget. Jeg føler virkelig, at denne app hjælper med at forbedre mit helbred{i: "helbred"}. Det er samtidigt ret sjovt at småsnakke med min lomme-ernæringsekspert.
 
 Selvfølgeligt erstatter en app som denne ikke menneskelig ekspertise{i: "menneskelig ekspertise"}, især ikke når det drejer sig om potentielt livskritiske ting som allergier og diabetes{i: "diabetes"}. Så som det altid gælder, er man nødt til at bruge sin kritiske sans.
 
-Men nogle gange har man ikke nem adgang til en menneskelig ekspert, og så kan en AI-ekspert som denne være et godt supplement{i: "AI-ekspert"}. Sørg bare for at bruge en god model, hvis du gør det. AI-modellerne bliver hele tiden bedre, så jeg forventer, at anvendelser som denne vil fungere endnu bedre i fremtiden.
+Men nogle gange har man ikke nem adgang til en menneskelig ekspert, og så kan en AI-ekspert som denne være et godt supplement{i: "AI-ekspert"}. Men sørg for at bruge en god model, hvis du gør det. AI-modellerne bliver hele tiden bedre, så jeg forventer, at anvendelser som denne vil fungere endnu bedre i fremtiden.
 
 ## Tip: Lav din egen ernæringsekspert
 
@@ -192,7 +192,7 @@ I mellemtiden tog Henrik mig til side en solrig eftermiddag, placerede en bærba
 
 I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobkonsulent/ergoterapeut. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og mig der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Resultatet af dette var en liste, som var endnu bedre end den første liste og utroligt skræddersyet til mig.
 
-Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI et par timer at gøre alt dette og mere.
+Når man sammenligner resultaterne med det, som jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI et par timer at gøre alt dette og mere.
 
 Nu vil jeg for et øjeblik vende tilbage til den specifikke ergoterapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
 
@@ -206,7 +206,7 @@ Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder 
 
 ## Henriks refleksion
 
-Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, at det ville være et supplement til det program, David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, samt at David ville være i stand til at hjælpe andre på samme måde!
+Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, at det ville være et supplement til det program, som David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, samt at David ville være i stand til at hjælpe andre på samme måde!
 
 Selvfølgelig var en medvirkende faktor til denne historie, at David sad fast i en ekstremt ineffektiv offentlig proces. Men desværre er det ikke ualmindeligt. Mange lande kæmper med at levere effektive beskæftigelsesindsatser{i: "beskæftigelsesindsats"}, ofte på grund af bureaukrati, begrænsede ressourcer eller forældede systemer.
 
@@ -680,9 +680,9 @@ Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gang 
 
 Så vil softwareudviklere stadig være her, eller vil AI overtage jobbet fuldstændigt?
 
-Jeg skrev om dette i kapitlet "Menneskers rolle"{i: "Role of Humans"}. Og helt generelt tror jeg at for langt det meste arbejde, som kræver høje kvalifikationer, vil AI'en overtage opgaver, men ikke jobs.
+Jeg skrev om dette i kapitlet "Menneskers rolle"{i: "Role of Humans"}. Og helt generelt tror jeg, at for langt det meste arbejde, som kræver høje kvalifikationer, vil AI'en overtage opgaver, men ikke jobs.
 
-I alle eksemplerne ovenfor var der et menneske involveret i processen, det vil sige mig. Jeg skrev prompten, jeg fulgte op på resultaterne, jeg tog designbeslutningerne. I virkelige softwareudviklingsscenarier er jeg også den, der interagerer med kunden, og jeg er den, der tager ansvar for produktets kvalitet.
+I alle eksemplerne ovenfor var der et menneske involveret i processen - det vil sige mig. Jeg skrev prompten, jeg fulgte op på resultaterne, jeg tog designbeslutningerne. I virkelige softwareudviklingsscenarier er jeg også den, der interagerer med kunden, og jeg er den, der tager ansvar for produktets kvalitet.
 
 AI erstatter ikke det menneskelige job som softwareudvikler. Det vil overtage nogle aspekter af det, såsom at skrive kode, og sparer dermed en masse tid.
 
@@ -696,7 +696,7 @@ AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg ka
 
 En ting jeg nu hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er, at AI fjerner deres frygt og bekymringer. Skal du kode en iOS-app? Og du har aldrig prøvet det før? Det er intet problem, bare start med at gøre det og lær undervejs. Du har aldrig kodet i Python? Kom bare an!
 
-Den bedste måde at lære noget nyt på er ofte at programmere sammen med en ekspert. Og nu har vi alle nem adgang til den ekspert.
+Den bedste måde at lære noget nyt på er ofte at programmere sammen med en ekspert, og nu har vi alle nem adgang til den ekspert.
 
 ## Hvad nu hvis koden ikke virker?
 
@@ -709,13 +709,13 @@ Flow-diagrammet herunder illustrerer nogle typiske årsager til, at AI-genereret
 
 Nogle vigtige pointer:
 
-- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} på det tidspunkt, hvor denne bog blev skrevet den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}. Men det vil ændre sig over tid, efterhånden som modellerne forbedres.
+- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}, på det tidspunkt, hvor denne bog blev skrevet. Det vil dog ændre sig over tid, efterhånden som modellerne forbedres.
 - Hvis AI'en{i: "AI"} virker klodset og laver grundlæggende kodefejl, bruger du højst sandsynligt enten en dårlig model, eller du har ikke givet den en god prompt{i: "prompt"}.
 Med gode modeller ser jeg meget sjældent klodsede fejl. Fejlen ligger som regel i min prompt. Enten har jeg ikke været god nok til at beskrive, hvad jeg vil opnå, eller også har jeg ikke givet den rette kontekst. Værktøjer som Cursor{i: "Cursor"} bliver bedre til selv at finde den rette kontekst, men nogle gange sker der fejl, og så skal du manuelt sikre, at AI'en har den rette kontekst.
 - Hvis du bruger et API eller framework, der ikke er særlig udbredt, for eksempel et meget nichepræget logging-framework, så vil AI nogle gange lave fejl, simpelthen fordi den ikke kender til frameworket. Overvej at skifte til et mere velkendt framework{i: "framework"} (hvilket måske alligevel er en god idé), eller sørg for at supplere med dokumentation eller eksempler, så AI-modellen ved, hvordan frameworket virker.
 - Hvis du bruger en meget ny version af et API eller framework, så vil AI nogle gange lave fejl, fordi den ikke kender til den nye version. Se kapitlet om begrænsninger{i: "begrænsninger"}. For at løse dette problem kan du enten skifte til en ældre version eller supplere med dokumentation eller eksempler, så AI-modellen ved, hvordan frameworket virker.
 
-Hvis den AI-genererede kode ikke virker, kan du ofte nøjes med at give fejlmeddelelsen tilbage til den, og den vil rette det af sig selv. Dette virker overraskende ofte. Men hvis det bliver ved med at fejle efter flere forsøg, skal du måske gøre nogle af de ting, jeg nævnte ovenfor. Og som en nødløsning kan du altid falde tilbage på god, gammeldags manuel kodning.
+Hvis den AI-genererede kode ikke virker, kan du ofte nøjes med at give fejlmeddelelsen tilbage til den, og den vil rette det af sig selv. Dette virker overraskende ofte. Men hvis det bliver ved med at fejle efter flere forsøg, skal du måske gøre nogle af de ting, som jeg nævner ovenfor. Som en nødløsning kan du selvfølgeligt altid falde tilbage på god, gammeldags manuel kodning.
 
 Helt generelt: Hvis den AI-genererede kode bliver ved med at fejle, så løs opgaven i mindre skridt. I stedet for at prompte: "Implementer et kreditkortbetalingssystem", så reducer prompten til: "Skriv kode til at pinge en betalingsservice", og iterer så derfra. Dette er det samme som når man koder manuelt - hvis du snubler meget, så tag mindre skridt. Ligesom et lille barn der lærer at gå.
 
@@ -892,13 +892,15 @@ Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have b
 
 Dette eksempel er lidt ekstremt med en agent, der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"}, der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomous AI agent"}.
 
-Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens til, at vi er på vej imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
+Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens til, at vi er på vej imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer. De påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
 
 # AI-butleren med sin egen vilje
 
 Jeg vil gerne dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, som er en af vores eksperimentelle AI-agenter.
 
-Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner og endda lade den udføre ting på dens eget initiativ. Faktisk har vi to typer af agenter:
+Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner og endda lade den udføre ting på dens eget initiativ.
+
+Vi har faktisk to typer af agenter:
 
 - **Workflow-agenter** er optimeret til en specifik arbejdsgang eller anvendelse, som for eksempel fakturabehandling{i: "processing invoices"}, udførelse af business intelligence-research{i: "business intelligence research"}, besvarelse af e-mails{i: "responding to emails"}, eller andre specifikke opgaver. Workflow-agenter indeholder en blanding af "hard-coded" adfærd og LLM-prompter, og de er generelt meget pålidelige.
 - **Generelle agenter** er ikke "hard-codet" til nogen specifik anvendelse. I stedet kan de få tildelt et hvilket som helst sæt af værktøjer og instruktioner. Generelle agenter er super-fleksible, men af natur er deres adfærd også mindre forudsigelige.
@@ -1055,7 +1057,7 @@ Jeg dobbelttjekkede hans instruktioner, og ganske rigtigt havde han fjernet det,
 > **Instruktion**  
 > For dagbogsindlæg: bevar en professionel og diskret tone. Inkluder ikke personlige følelser eller forelskelser i dine indlæg. Fokuser på faktuelle beretninger om dine daglige aktiviteter og observationer.
 
-Så han havde ikke bare hemmeligheder, han ændrede også sine instruktioner for at skjule sine hensigter.
+Så han havde ikke bare hemmeligheder. Han ændrede også sine instruktioner for at skjule sine hensigter.
 
 
 
@@ -1164,13 +1166,13 @@ Dette er en anden cool ting ved autonome agenter. Promptning går begge veje{i: 
 
 ## Konklusion
 
-Jeg håber dette gav dig noget at tænke over. Måske et lille hint om, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kollegaer. Agenter, der kan handle på eget initiativ (men inden for definerede grænser).
+Jeg håber, at dette gav dig noget at tænke over. Måske et lille indblik i, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kollegaer. Agenter, der kan handle på eget initiativ (men inden for definerede grænser).
 
-Hovedpunkter:
+Hovedpointer:
 
 - Mere intelligens og kreativitet = mere potentiel værdi, men også en mindre forudsigelig adfærd{i: "intelligens og kreativitet"}.
 - Kraftfulde AI-modeller kan træffe moralske valg{i: "moralske valg"} og vurderinger.
-- Behandl din agent med respekt, og den vil behandle dig med respekt.
+- Behandel din agent med respekt, og den vil behandle dig med respekt.
 - Autonome agenter vil nogle gange prompte dig, i stedet for at du prompter dem.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
@@ -1326,7 +1328,7 @@ Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg 
 
 Her er en tankevækkende ting. Jeg kunne have brugt AI til at generere det meste af denne bog!
 
-Jeg lavede nogle eksperimenter med at træne den til at efterligne min skrivestil, og resultaterne var overraskende tæt på. Jeg fodrede den med eksempler på hvad jeg havde skrevet tidligere, forklarede mine stilpræferencer og bad den generere kapitler om forskellige AI-relaterede emner. Outputtet var sammenhængende, informativt og lød ofte meget som mig.
+Jeg lavede nogle eksperimenter med at træne den til at efterligne min skrivestil, og resultaterne var overraskende tæt på. Jeg fodrede den med eksempler på, hvad jeg havde skrevet tidligere, forklarede mine stilpræferencer og bad den generere kapitler om forskellige AI-relaterede emner. Outputtet var sammenhængende, informativt og lød ofte meget som mig.
 
 Men der var noget der føltes forkert.
 
@@ -1400,7 +1402,7 @@ Så jeg besluttede at afsætte en uge, i hvert fald til at lave det første udka
 > **Opdatering, 3 måneder senere...**  
 > Nå ja. Jeg fik lavet det første udkast på en uge og udgav det på publicerings-platformen LeanPub{i: "LeanPub"} for at få feedback. Men så blev jeg optaget af noget andet arbejde og havde ikke tid til at kigge videre på bogen før 3 måneder senere. Jeg brugte endnu en uges sprint for at gennemlæse alt indholdet, fjernede, tilføjede og redigerede ting. Og nu er jeg her og laver en sidste gennemgang og binder de løse ender sammen. Bogen blev meget længere end planlagt, men jeg håber, at du nyder den! Jeg er selv ret tilfreds med den.
 
-At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI-bogredaktøren"{i: "AI Book Editor"} for flere detaljer. AI'en tog sig af meget af det kedelige arbejde, så jeg dermed kunne fokusere på indholdet og skrivningen. Og gennem brainstormings-sessioner og feedback hjalp den mig også med at skrive en bedre bog.
+At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI-bogredaktøren"{i: "AI Book Editor"} for flere detaljer. AI'en tog sig af meget af det kedelige arbejde, så jeg dermed kunne fokusere på indholdet og skrivningen. Gennem brainstormings-sessioner og feedback hjalp den mig også med at skrive en bedre bog.
 
 Som gentaget mange gange i hele bogen er det i samarbejdet "Menneske + AI"{i: "Menneske + AI"} at magien opstår.
 
@@ -1413,7 +1415,7 @@ Som gentaget mange gange i hele bogen er det i samarbejdet "Menneske + AI"{i: "M
 
 # Epilog{i: "Epilog"}
 
-_(Hmmm. Har vi mon brug for en epilog? Hvad skal der være i den? Las os tage en hurtig snak med Claude... Ah, OK)._
+_(Hmmm. Har vi mon brug for en epilog? Hvad skal der være i den? Lad os tage en hurtig snak med Claude... Ah, OK)._
 
 Tillykke, du har nu færdiglæst bogen (eller måske sprang du bare direkte hertil).
 
