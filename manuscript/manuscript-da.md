@@ -2104,7 +2104,7 @@ Denne person bør være:
 
 Så hvad laver AI-lederen egentlig? Tja, det handler resten af dette kapitel om.
 
-## Adgange, eksperimentering, værdiskabelse
+## Adgange, udforskning, værdiskabelse
 
 Det er vores erfaring, at AI-transformationer typisk gennemgår tre faser eller trin:
 
@@ -2112,23 +2112,23 @@ Det er vores erfaring, at AI-transformationer typisk gennemgår tre faser eller 
 ![](resources-da/510-steps-da.png)
 
 1. **Adgange**. Sørg for at alle har nem adgang til gode AI-modeller{i: "AI-modeller"}.
-2. **Eksperimentering**. Skab en kultur med bottom-up-eksperimentering, så alle lærer, hvad værktøjerne og modellerne kan gøre.
+2. **Udforskning**. Skab en kultur med udforskning af muligheder, så alle lærer, hvad værktøjerne og modellerne kan gøre.
 3. **Værdiskabelse**. Begynd at opnå reel værdi fra AI gennem strukturerede workshops og opfølgning.
 
-Disse trin sker nogenlunde i den beskrevne rækkefølge. Du kan ikke eksperimentere uden at have adgang, og du vil ikke opnå værdiskabelse, før du har haft mulighed for at eksperimentere og lære.
+Disse trin sker nogenlunde i den beskrevne rækkefølge. Du kan ikke udforske uden at have adgang, og du vil ikke opnå værdiskabelse, før du har haft mulighed for at udforske og lære.
 
 Trinene overlapper dog til en vis grad:
 
-- Forskellige dele af organisationen kan være på forskellige stadier af transformationen. Nogle teams kan være i gang med at få værdi af teknologien, mens andre stadig mest eksperimenterer.
-- Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
-- Mens du benytter teknologien til at få værdiskabelse, bør du fortsætte med at eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
+- Forskellige dele af organisationen kan være på forskellige stadier af transformationen. Nogle teams kan være i gang med at få værdi af teknologien, mens andre stadig mest udforsker mulighederne.
+- Under udforskning kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
+- Mens du benytter teknologien til at få værdiskabelse, bør du fortsætte med at udforske og eksperimentere, da teknologien stadig udvikler sig hurtigt, og du kan opdage helt nye måder at bruge den på.
 
-Du kunne bruge denne tretrins ramme til at måle fremdriften, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der eksperimenterer, og hvor mange mennesker der får værdi af teknologien.
+Du kunne bruge denne tretrins ramme til at måle fremdriften, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der udforsker, og hvor mange mennesker der får værdi af teknologien.
 
-{width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Eksperimentering og Benyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Benyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
+{width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Udforskning og Benyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Benyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
 ![](resources-da/510-dashboard-da.png)
 
-Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35% eksperimenterer regelmæssigt med generativ AI, og 20% har fundet måder at benytte generativ AI til at opnå reel værdi.
+Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35% udforsker regelmæssigt mulighederne med generativ AI, og 20% har fundet måder at benytte generativ AI til at opnå reel værdi.
 
 Denne type visualiseringer er nyttige til at skabe alignment i organisationen. AI-lederens job er at finde ud af, hvordan man sikrer at tallene fortsætter med at stige!
 
@@ -2138,7 +2138,7 @@ Det vigtigste trin er det første - adgang. Det kan være overraskende svært i 
 
 En AI-transformation er en opdagelsesrejse, en læringsrejse{i: "læringsrejse"}. Du er ikke færdig, når du har implementeret et specifikt AI-værktøj eller tilføjet AI-support til nogle specifikke processer. Du er ved at opbygge en selvbærende AI-baseret kultur i din virksomhed.
 
-Du kan ikke snakke eller planlægge dig igennem dette. Det er ikke nok bare at have et AI-strategimøde og så lave nogle slides. Du har brug for, at folk på alle niveauer smøger ærmerne op og eksperimenterer med generativ AI på daglig basis. Og for at gøre det har de brug for adgang til gode AI-modeller.
+Du kan ikke snakke eller planlægge dig igennem dette. Det er ikke nok bare at have et AI-strategimøde og så lave nogle slides. Du har brug for, at folk på alle niveauer smøger ærmerne op og udforsker mulighederne med generativ AI på daglig basis. Og for at gøre det har de brug for adgang til gode AI-modeller.
 
 En udfordring er, at folk sandsynligvis allerede har adgang til de gratis AI-modeller, og nogle vil allerede have prøvet at bruge disse til arbejdsrelaterede ting (uanset om de havde lov til det eller ej). Det fører nogle gange til et dårligt førsteindtryk, fordi de bruger modeller med færre evner, og de højst sandsynligt mangler prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}.
 
@@ -2178,7 +2178,7 @@ Tegn på at du har for meget vejledning/regler:
 
 - Folk gider ikke læse strategibogen, fordi den er for lang.
 - Folk gider ikke bruge AI, fordi der er så mange regler og begrænsninger{i: "begrænsninger"}, at det ikke er besværet værd.
-- Folk eksperimenterer ikke med AI, fordi de er bekymrede for at bryde en regel ved et uheld.
+- Folk udforsker ikke mulighederne med AI, fordi de er bekymrede for at bryde en regel ved et uheld.
 - Der sker ingen AI-innovation og læring som følge af ovenstående.
 
 Det er en svær balance at opnå. For at finde ud af hvor du er på denne skala, kan du spørge dine kollegaer og finde ud af de mest almindelige årsager til _ikke_ at bruge generativ AI{i: "Generativ AI"}.
@@ -2209,9 +2209,9 @@ Hvis du har brug for en mere håndgribelig begrundelse, kan du lave en hurtig s�
 
 Så for de fleste virksomheder er det en indlysende investering at give alle adgang til en god AI-model.
 
-## Trin 2: Eksperimentering
+## Trin 2: Udforskning
 
-At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **kultur med plads til eksperimentering**{i: "kultur med plads til at eksperimentering"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
+At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **kultur med plads til udforskning af muligheder**{i: "kultur med plads til udforskning af muligheder"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
 
 Nogle retningslinjer:
 
@@ -2223,15 +2223,15 @@ Nogle retningslinjer:
 - **Gentag eksperimenter**. Teknologien udvikler sig hurtigt, så ting der ikke virkede for en måned siden, kan virke rigtig godt nu. Så gentag eksperimenterne!
 - **Fællesskab**{i: "Fællesskab"}. Opret en MS Teams-gruppe, Slack-kanal, wiki-side osv. til deling af AI-tips og tricks.
 - **Inspirerende foredrag & træning**{i: "Inspirerende foredrag og træning"}. Organiser inspirerende foredrag med eksterne eller interne talere. Giv folk adgang til træningskurser.
-- **Hackathons**{i: "Hackathons"}. Organiser hackathons, hvor folk kan arbejde sammen i grupper om at eksperimentere med AI og dele viden, mens de har det sjovt.
+- **Hackathons**{i: "Hackathons"}. Organiser hackathons, hvor folk kan arbejde sammen i grupper om at udforske mulighederne med AI og dele viden, mens de har det sjovt.
 
-Eksperimenteringtrinnet er normalt ikke så svært. Så længe folk har nem adgang til teknologien og noget support, vil de som regel _gerne_ eksperimentere med den. Alt hvad du behøver at gøre, er at puste til flammerne.
+Udforsknings-trinnet er normalt ikke så svært. Så længe folk har nem adgang til teknologien og noget support, vil de som regel _gerne_ udforske mulighederne. Alt hvad du behøver at gøre, er at puste til flammerne.
 
-Når du har eksperimenter i gang i stor skala, klarer du dig allerede godt! Du har taget det vigtigste skridt i din AI-transformation{i: "AI-transformation"}, du har nemlig sluppet læringen løs!
+Når du har folk i gang med at udforske muligheder og eksperimentere i gang i stor skala, klarer du dig allerede godt! Du har taget det vigtigste skridt i din AI-transformation{i: "AI-transformation"}, du har nemlig sluppet læringen løs!
 
 ## Trin 3: Værdiskabelse
 
-Selvom eksperimentering og læring er supervigtigt, er det ikke endemålet - det er bare et middel. Det egentlige mål er at bruge AI til at forbedre din produktivitet{i: "produktivitet"} og hjælpe din virksomhed med at overleve og trives i AI-alderen.
+Selvom udforskning og læring er supervigtigt, er det ikke endemålet - det er bare et middel. Det egentlige mål er at bruge AI til at forbedre din produktivitet{i: "produktivitet"} og hjælpe din virksomhed med at overleve og trives i AI-alderen.
 
 Så hvad kan du gøre for at få reel værdi af denne teknologi?
 
@@ -2257,7 +2257,7 @@ De fleste opgaver bør falde ind under anden eller tredje kategori.
 
 For eksempel kan en en-til-en samtale med din chef virke som en opgave kun for mennesker. Men du kunne bruge AI-assistance til at forberede samtalen.
 
-For overhovedet at kunne foretage denne vurdering har folk brug for en grundlæggende forståelse af, hvad generativ AI{i: "Generativ AI"} kan gøre. Det er derfor, at eksperimenteringsfasen er så vigtig. Uden den vil folk have svært ved at udtænke de bedste anvendelsesmuligheder for AI.
+For overhovedet at kunne foretage denne vurdering har folk brug for en grundlæggende forståelse af, hvad generativ AI{i: "Generativ AI"} kan gøre. Det er derfor, at udforsknings-fasen er så vigtig. Uden den vil folk have svært ved at udtænke de bedste anvendelsesmuligheder for AI.
 
 ### Revurder alle forretningsprocesser
 
@@ -2307,7 +2307,7 @@ For at denne type workshops virkelig skal fungere, skal du have de rigtige perso
 {width: "80%", alt: "Venn-diagram med to overlappende cirkler. Den venstre cirkel er mærket 'Domæneekspertise' og indeholder ét personikon. Den højre cirkel er mærket 'KI-ekspertise' og indeholder også ét personikon. Det overlappende område indeholder et andet personikon, der repræsenterer krydsfeltet mellem domæne- og KI-ekspertise."}
 ![](resources-da/510-right-people-da.png)
 
-I en perfekt verden er dette den samme person. Hvis alle eksperimenterer med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedrings-workshops.
+I en perfekt verden er dette den samme person. Hvis alle udforsker mulighederne med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedrings-workshops.
 
 For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker med til bordet. Folk, der arbejder i forskellige dele af den værdistrøm. Med sådan en forskelligartet gruppe kan I måske komme frem til mere radikale forbedringer, såsom at sammenlægge arbejdsgange for at eliminere unødvendige opgaveoverdragelser, eller helt eliminere nogle arbejdsgange, fordi de nu er overflødige.
 
@@ -2390,7 +2390,7 @@ I dette eksempel viste nogle af opgaverne sig at være grundlæggende menneskeli
 
 Du kan ikke forvente radikale forbedringer overalt. Men for de opgaver, hvor du finder radikale forbedringer, dækker det let omkostningerne for alle de steder, hvor du ser en lille eller slet ingen forbedring.
 
-Derfor er du nødt til at eksperimentere og så mange frø. Bliv ved med at lede efter de gyldne anvendelsesmuligheder, hvor AI kan gøre en fantastisk forskel med en relativt lille indsats. Men undervurder heller ikke fra de små, daglige gevinster, som over tid bliver til noget stort.
+Derfor er du nødt til at udforske, eksperimentere og så mange frø. Bliv ved med at lede efter de gyldne anvendelsesmuligheder, hvor AI kan gøre en fantastisk forskel med en relativt lille indsats. Men undervurder heller ikke fra de små, daglige gevinster, som over tid bliver til noget stort.
 
 ### Indirekte værdi
 
@@ -2425,7 +2425,7 @@ Jeg kender ikke din situation, så jeg kan ikke fortælle dig, hvad du skal gør
 
 Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hov, AI gør folk mere produktive, så vi kan få det samme arbejde udført med færre mennesker!". I nogle tilfælde kan det være uundgåeligt.
 
-Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at benytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
+Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt udforsker og leder efter måder at benytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
 
 Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på - at give dem superkræfter. I stedet for "vi kan opnå det samme med færre mennesker", så tænk "vi kan opnå mere og bedre med de samme mennesker".
 
@@ -2435,7 +2435,7 @@ Jeg håber, at disse tips vil hjælpe dig med at få din AI-transformation godt 
 
 Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. Da denne bog blev skrevet, var stort set alle lige forvirrede og famlede i mørket på grund af den utrolige hastighed som tingene forandrer sig med.
 
-Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at få værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
+Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en kultur med fokus på udforskning og begynder at få værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
 # Mellemspil: Egberts livshistorie
 
