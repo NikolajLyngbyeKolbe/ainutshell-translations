@@ -3,9 +3,9 @@
 
 > **Ansvarsfralæggelse**  
 > (Min AI-advokat tilrådede mig at skrive dette...)  
-> Dette kapitel beskriver personlige erfaringer med AI inden for sundhedsvæsenet. Det er ikke medicinsk rådgivning. Jeg er ikke en læge (og det er AI'en heller ikke). Rådfør dig altid med kvalificerede sundhedsprofessionelle ift. medicinske beslutninger, når det er muligt. Og sagsøg mig ikke, hvis noget går galt!
+> Dette kapitel beskriver personlige erfaringer med AI inden for sundhedsvæsenet. Det er ikke medicinsk rådgivning. Jeg er ikke læge (og det er AI'en heller ikke). Rådfør dig altid med kvalificerede sundhedsprofessionelle ift. medicinske beslutninger, når det er muligt. Og sagsøg mig ikke, hvis noget går galt!
 
-De fleste modeludbydere siger, at du ikke bør bruge deres modeller til at få medicinsk rådgivning. Dette er sandsynligvis fordi:
+De fleste modeludbydere siger, at du ikke bør bruge deres modeller til medicinsk rådgivning. Dette er sandsynligvis fordi:
 
 - Modellerne kan hallucinere, især de billigere modeller{i: "hallucination"}.
 - Hvis brugeren ikke er god til prompt engineering, kan brugeren få dårlige råd{i: "prompt engineering"}.
@@ -25,9 +25,9 @@ De mange benchmark-tests og forskningsartikler om dette emne viser en klar tende
 
 ## En personlig historie
 
-Jeg har en personlig historien som jeg gerne vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"} og fik et skræmmende resultat: der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
+Jeg har en personlig historie, som jeg gerne vil dele her. I begyndelsen af 2024 fik jeg foretaget et helbredstjek{i: "helbredstjek"}, og fik et skræmmende resultat: Der var noget alvorligt galt med mine nyrer. Jeg gennemgik en række tests over de næste måneder, og resultaterne bekræftede problemet, men viste også et andet problem: Forhøjet blodtryk{i: "hypertension"} (hypertension), som sandsynligvis var relateret.
 
-I løbet af de næste mødte jeg flere forskellige læger og fik udført en masse laboratorieprøver. Og til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
+I løbet af de næste måneder mødte jeg flere forskellige læger, og fik udført en masse laboratorieprøver. Og til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
 
 Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og læssede det hele ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
 
@@ -46,7 +46,7 @@ En anden ting, som jeg havde behov for, var at få en sundere livsstil. Det vil 
 
 ## Så bør du bruge AI som din læge?
 
-Ja, som et supplement til den menneskelige læge{i: "AI-læge"}, ikke en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben. Det er nyttige redskaber som AI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan AI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
+Ja, som et supplement til den menneskelige læge{i: "AI-læge"}. Om ikke en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben. Det er nyttige redskaber som AI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan AI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
 
 En AI-læge supplerer en menneskelig læge på flere måder:
 
@@ -58,25 +58,25 @@ En AI-læge supplerer en menneskelig læge på flere måder:
 
 Nogle gange er det slet ikke en mulighed at have en menneskelig læge. Måske bor du i et fjerntliggende område uden adgang til en læge, eller du har ikke råd til det, eller du har en sjælden tilstand, som din læge ikke forstår. I det tilfælde kan en AI-læge bogstaveligt talt være livreddende!
 
-Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end bydene fra dine velmenende (men uinformerede) venner og familie.
+Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end buddene fra dine velmenende (men uinformerede) venner og familie.
 
 Generelt finder jeg det fascinerende, at det er muligt praktisk talt at fremtrylle en dygtig AI-læge{i: "AI-læge"} eller specialist inden for et hvilket som helst område, ved blot at bruge en simpel prompt og en generel app som Claude eller ChatGPT{i: "ChatGPT"}. Gode prompt engineering-færdigheder giver dig næsten superkræfter.
 
 Men husk: Hvis du gør dette, så sørg for at bruge en god model! De gratis eller billigere modeller er mere tilbøjelige til at hallucinere eller give dig forkerte råd, hvilket kan være farligt. For at citere den artikel, jeg nævnte ovenfor:
 
-> GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner
+> GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin, og var underlegen i forhold til flertallet af læger i de fem discipliner.
 
-OG husk: Menneskelige læger kan også hallucinere. Vi kalder det bare noget andet: menneskelige fejl...
+OG husk: Menneskelige læger kan også hallucinere. Vi kalder det bare noget andet: Menneskelige fejl...
 
 # AI-ernæringseksperten{i: "AI-ernæringsekspert"}
 
 I kapitlet om AI-lægen nævnte jeg, at jeg blev nødt til at ændre min kost for at lindre en kronisk helbredstilstand. Blandt andet ved at reducere indtaget af salt og kød.
 
-Denne kostændring var nødt til at være permanent, ikke en hurtig, midlertidig løsning. Så jeg havde brug for at finde mad, der er sundere for mig, men som jeg stadig nyder. Ellers ville jeg ikke kune holde fast i vanen.
+Denne kostændring var nødt til at være permanent, ikke en hurtig, midlertidig løsning. Så jeg havde brug for at finde mad, der er sundere for mig, men som jeg stadig nyder. Ellers ville jeg ikke kunne holde fast i vanen.
 
-Så jeg tænkte: "Ville det ikke være virkelig rart at have en personlig ernæringsekspert med mig hele tiden?". En ekspert der kan hjælpe med at evaluere forskellige madmuligheder og give mig feedback og tips? En ekspert jeg kan stille alle de dumme spørgsmål uden at virke dum? En ekspert, der kan udfordre mig når det er nødvendigt?
+Så jeg tænkte: "Ville det ikke være virkelig rart at have en personlig ernæringsekspert med mig hele tiden?". En ekspert, der kan hjælpe med at evaluere forskellige madmuligheder og give mig feedback og tips? En ekspert, jeg kan stille alle de dumme spørgsmål uden at virke dum? En ekspert, der kan udfordre mig når det er nødvendigt?
 
-Og her kom ChatGPT{i: "ChatGPT"} så på banen. ChatGPT har nemlig en funktion, hvor du kan bygge dine egne brugertilpassede GPT'er{i: "GPTs"} med brugertilpassede instruktioner. Claude{i: "Claude"} har noget lignende kaldet "Projekter"{i: "Projects"}. Så jeg byggede en GPT kaldet "Henriks ernæringsekspert"{i: "Henriks ernæringsekspert"}.
+Her kom ChatGPT{i: "ChatGPT"} på banen. ChatGPT har nemlig en funktion, hvor du kan bygge dine egne brugertilpassede GPT'er{i: "GPTs"} med brugertilpassede instruktioner. Claude{i: "Claude"} har noget lignende kaldet "Projekter"{i: "Projects"}. Så jeg byggede en GPT kaldet "Henriks ernæringsekspert"{i: "Henriks ernæringsekspert"}.
 
 Efter nogle få iterationer endte jeg med denne prompt, som jeg nu har brugt i månedsvis:
 
@@ -92,7 +92,7 @@ Efter nogle få iterationer endte jeg med denne prompt, som jeg nu har brugt i m
 >
 > Hold dine svar meget korte og præcise{i: "præcise svar"}. Undlad unødvendige høfligheder, og gå lige til sagen, som hvis jeg taler med en ven, der tilfældigvis er ernæringsekspert.
 
-Så hver gang jeg ser en form for mad eller ingrediensliste, som jeg er nysgerrig omkring, åbner jeg bare min ernæringsekspert og tager et billede. Jeg behøver ikke at skrive noget, hun ved præcis hvad hun skal gøre takket være prompten ovenfor{i: "prompt"}.
+Så hver gang jeg ser en form for mad eller ingrediensliste, som jeg er nysgerrig omkring, åbner jeg bare min ernæringsekspert og tager et billede. Jeg behøver ikke at skrive noget, hun ved præcist, hvad hun skal gøre takket være prompten ovenfor{i: "prompt"}.
 
 For eksempel gav jeg hende dette billede:
 
@@ -133,7 +133,7 @@ Hvad med en snack?
 {alt: "Billedet evaluerer tre fødevarer baseret på nyre- og hjertesundhedshensyn. Det vurderer Estrella Grill Chips til 2/10 på grund af højt natriumindhold og usunde fedtstoffer og anbefaler at undgå dem. Maryland Cookies får 3/10 for højt sukkerindhold og lav næringsværdi, med anbefaling om meget begrænset indtag. Nektariner vurderes til 8/10, roses for at være en frugt med lavt natriumindhold, rig på fibre, vitaminer og antioxidanter, med en bemærkning om at være opmærksom på kaliumniveauer. Nektariner anbefales som det bedste valg overordnet."}
 ![](resources-da/235-snack-response-da.png)
 
-OK, det var ret forudsigeligt. Men det er rart også at lære HVORFOR noget er godt eller dårligt for mit helbred.
+OK, det var ret forudsigeligt. Men det er rart også at lære, HVORFOR noget er godt eller dårligt for mit helbred.
 
 Jeg er ikke HELT holdt op med at spise chips{i: "chips"} og småkager. Jeg har bare reduceret det kraftigt og fundet sundere alternativer, der stadig smager godt.
 
@@ -170,11 +170,11 @@ Lav en personlig ernæringsekspert, der hjælper dig med det.
 
 # AI-karriererådgiveren
 
-Dette er en historie om, hvordan en god AI-model og en lille smule viden om prompt engineering{i: "prompt engineering"} kan have en karriereændrende påvirkning.
+Dette er en historie om, hvordan en god AI-model, og en lille smule viden om prompt engineering{i: "prompt engineering"} kan have en karriereændrende påvirkning.
 
 Sidste forår tilbragte jeg nogle dage sammen med min fætter. Han arbejdede på at vende tilbage til arbejdslivet efter en længere sygeorlov. Vi besluttede at eksperimentere med at få AI-hjælp til dette. Resultaterne var overraskende - han fik MEGET bedre hjælp på et par timer end måneders professionel hjælp! Og så begyndte han at hjælpe andre mennesker på samme måde.
 
-Jeg lader ham dele historien med sine egne ord. Jeg synes at det er ret fascinerende. Jeg tilføjer mine egne konklusioner bagefter.
+Jeg lader ham dele historien med sine egne ord. Jeg synes, at det er ret fascinerende. Jeg tilføjer mine egne konklusioner bagefter.
 
 ## Davids historie: AI som min karriererådgiver
 
@@ -196,9 +196,9 @@ Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterap
 
 Nu vil jeg for et øjeblik vende tilbage til den specifikke ergoterapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
 
-Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv og igen fik jeg et "Nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet over. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo fungere som ergoterapeuter."
+Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv, og igen fik jeg et "Nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet af. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo fungere som ergoterapeuter."
 
-Det siger sig selv, at ironien i hendes udtalelse stadig er noget jeg husker den dag i dag.
+Det siger sig selv, at ironien i hendes udtalelse stadig er noget, jeg husker den dag i dag.
 
 Men som nævnt var der et enkelt element på rollelisten, Sandra gav mig, som havde ramt helt rigtigt. Øverst, lige over "afslappede" jobs som diplomat og salgschef, stod noget interessant: Jobkonsulent{i: "Jobkonsulent"}.
 
@@ -206,33 +206,33 @@ Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder 
 
 ## Henriks refleksion
 
-Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, det ville være et supplement til det program, David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, og at David ville være i stand til at hjælpe andre på samme måde!
+Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, at det ville være et supplement til det program, David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, samt at David ville være i stand til at hjælpe andre på samme måde!
 
 Selvfølgelig var en medvirkende faktor til denne historie, at David sad fast i en ekstremt ineffektiv offentlig proces. Men desværre er det ikke ualmindeligt. Mange lande kæmper med at levere effektive beskæftigelsesindsatser{i: "beskæftigelsesindsats"}, ofte på grund af bureaukrati, begrænsede ressourcer eller forældede systemer.
 
 ### Problemløsningstrio
 
-Denne historie illustrerer et mønster, som jeg har set i mange tilfælde: to mennesker + en AI der arbejder sammen som et team, hvor de to mennesker par-prompter AI-modellen.
+Denne historie illustrerer et mønster, som jeg har set i mange tilfælde: To mennesker + en AI der arbejder sammen som et team, hvor de to mennesker par-prompter AI-modellen.
 
 {width: "60%", alt: "Illustration af et team bestående af en blå figur mærket "Promptingekspert," en grøn figur mærket "Domæneekspert eller kunde," og en robot mærket "AI." De er indrammet i en cirkel med titlen "Team" øverst."}
 ![](resources-da/238-team-da.png)
 
 Rollerne:
 
-- **Domæneekspert eller kunde.** Dette er den person som forstår tingene, har konteksten, og definerer hvilket problem vi forsøger at løse. I dette tilfælde David, som var domæneekspert i sin egen livssituation{i: "Problemløsningstrio"}.
+- **Domæneekspert eller kunde.** Dette er den person som forstår tingene, har konteksten og definerer, hvilket problem vi forsøger at løse. I dette tilfælde David, som var domæneekspert i sin egen livssituation{i: "Problemløsningstrio"}.
 - **Prompt-ekspert** I dette tilfælde mig, da jeg havde mere erfaring end David med AI-prompting.
 - **En god AI-model.** I dette tilfælde Claude Sonnet 3.5.
 
 
 
 
-I en perfekt verden ville der ikke være brug for en særskilt prompt-ekspert. Men i praksis, i hvert fald for nu, ved de fleste mennesker ikke, hvad der er muligt at gøre med AI{i: "AI"} eller hvordan man effektivt formulerer prompts.
+I en perfekt verden ville der ikke være brug for en særskilt prompt-ekspert. Men i praksis, i hvert fald for nu, ved de fleste mennesker ikke hvad der er muligt at gøre med AI{i: "AI"} eller hvordan man effektivt formulerer prompts.
 
 Jeg blev overrasket over, hvor lidt jeg egentligt behøvede at vise David{i: "David"} for at få tingene i gang. Jeg hjalp med at skrive de første par prompts for at give AI'en den rette kontekst og adfærd. Derefter var det David, der styrede det hele, med let støtte og opmuntring fra min side.
 
 ### At hjælpe andre videre
 
-Jeg blev endnu mere overrasket, da David begyndte at hjælpe andre ved at vejlede andre mennesker på samme måde! Han var super-inspireret af, hvor effektivt det var, og han ønskede at hjælpe andre, der sad fast i en lignende situation som han selv.
+Jeg blev endnu mere overrasket, da David begyndte at hjælpe andre mennesker ved at vejlede dem på samme måde! Han var super-inspireret af, hvor effektivt det var, og han ønskede at hjælpe andre, der sad fast i en lignende situation som han selv.
 
 Ekspertise er relativ. Den smule prompt-teknik, jeg viste ham, var nok til at gøre ham til ekspert sammenlignet med den gennemsnitlige person. Davids klienter sætter virkelig pris på at have ham med på et opkald, hvor de sammen arbejder på at promte AI-modellen og i praksis fremtryller en personlig AI-karriererådgiver{i: "AI-karriererådgiver"} til klienten.
 
@@ -240,7 +240,7 @@ I teorien kunne klienterne gøre dette uden David. Men de ville have brug for:
 
 1. **Værktøjer:** Adgang til en god AI-model.
 2. **Færdigheder:** Grundlæggende prompt engineering-færdigheder{i: "prompt engineering"}.
-3. **Energi & initiativ:** Når man er stresset over at skulle finde arbejde, kan selv simple opgaver føles overvældende. At have nogen til at guide én gennem AI-interaktionen fjerner den mentale barriere.
+3. **Energi og initiativ:** Når man er stresset over at skulle finde arbejde, kan selv simple opgaver føles overvældende. At have nogen til at guide én gennem AI-interaktionen fjerner den mentale barriere.
 
 Meget få mennesker i en jobsøgningssituation vil have alle tre af disse. Så den potentielle kundebase er ret stor!
 
@@ -252,7 +252,7 @@ I dette kapitel så vi tre coaching-situationer:
 - **Henrik + AI coacher David** - Jeg hjælper David med at promte AI-modellen til at give ham nyttige råd.
 - **David + AI coacher andre klienter** - David hjælper andre klienter med at promte AI-modellen til at give dem nyttige råd.
 
-Forestil dig nu i stedet, hvis Sandra ikke sad fast i en ineffektiv proces, og forestil dig, hvis hun kendte til det grundlæggende inden for prompt-teknik og havde adgang til en god AI-model! Jeg tror, dette ville være drømmescenariet for karriererådgivning{i: "karriererådgivning"} eller ergoterapeutisk behandling{i: "ergoterapeutisk behandling"}.
+Forestil dig nu i stedet, hvis Sandra ikke sad fast i en ineffektiv proces, og forestil dig, hvis hun kendte til det grundlæggende inden for prompt-teknik og havde adgang til en god AI-model! Jeg tror, at dette ville være drømmescenariet for karriererådgivning{i: "karriererådgivning"} eller ergoterapeutisk behandling{i: "ergoterapeutisk behandling"}.
 
 {width: "60%", alt: "Illustration der viser et team bestående af tre figurer: en blå person mærket 'Karriererådgiver,' en grøn person mærket 'Klient,' og en robot mærket 'AI' i midten. De er alle omsluttet af en sort cirkel mærket 'Team.'"}
 ![](resources-da/238-team-2-da.png)
@@ -267,7 +267,7 @@ Som jeg nævnte i kapitlet "Menneskers rolle"{i: "Menneskers rolle"}, er det en 
 
 # AI-bogredaktøren
 
-Dette{i: "AI Book Editor"} er en menneskeskrevet bog. Men jeg har brugt AI{i: "AI as support"} som støtte, på samme måde som jeg ville bruge en menneskelig bogredaktør.
+Dette{i: "AI Book Editor"} er en menneskeskrevet bog. Men jeg har brugt AI{i: "AI as support"} som støtte på samme måde, som jeg ville bruge en menneskelig bogredaktør.
 
 Så hvad er egentlig en bogredaktør? Jeg kunne ikke finde en formel definition af rollen, så jeg spurgte Claude{i: "Claude"}.
 
@@ -282,7 +282,7 @@ A> - **Markedsbevidsthed**: Bogredaktører tager hensyn til målgruppen og aktue
 A> - **Projektledelse**: Bogredaktører følger op på bogens fremdrift igennem de forskellige produktionsfaser.
 A> - **Kvalitetskontrol**: Bogredaktører opretholder forlagets standarder og sikrer, at det endelige produkt lever op til forventningerne.
 
-Jeg har brugt AI til de fleste af ovenstående opgaver. Selvom jeg måske stadig vil bruge en menneskelig bogredaktør som supplement.
+Jeg har brugt AI til de fleste af ovenstående opgaver, selvom jeg måske stadig vil bruge en menneskelig bogredaktør som supplement.
 
 Her er nogle af de mest nyttige måder, jeg har brugt AI på i denne bog.
 
@@ -300,11 +300,11 @@ Jeg sad i bilen i det øjeblik, på vej til mit sommerhus, hvor jeg havde afsat 
 
 I løbet af ugen blev jeg ved med at tilføje til denne chat i alle mulige situationer. Jeg gjorde det mens jeg gik tur, mens jeg lavede mad, når jeg vågnede midt om natten med en idé i hovedet, når jeg sad på toilettet, når jeg slappede af i sofaen, når jeg spillede klaver, osv.
 
-Det er sjovt, hvordan vores hjerner fungerer. De bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mærkeligste tidspunkter. Det var som at have en sekretær, der fulgte mig overalt, døgnet rundt. Og når jeg en gang imellem ville råbe "Hej, her er en idé til et sjovt kapitel: ...", ville sekretæren svare "OK" og pligtopfyldende skrive det ned i sin notesblok.
+Det er spøjst, hvordan vores hjerner fungerer. De bliver ved med at arbejde i baggrunden, og så dukker ideerne op på de mærkeligste tidspunkter. Det var som at have en sekretær, der fulgte mig overalt døgnet rundt. Og når jeg en gang imellem ville råbe: "Hej, her er en idé til et sjovt kapitel: ...", ville sekretæren svare: "OK" og pligtopfyldende skrive det ned i sin notesblok.
 
-En gang imellem sagde jeg "Opsummér emneideerne indtil nu", og ChatGPT lavede en fin punktopstilling, organiseret i sektioner.
+En gang imellem sagde jeg: "Opsummér emneideerne indtil nu", og ChatGPT lavede en fin punktopstilling, organiseret i sektioner.
 
-En morgen vågnede jeg omkring klokken 4, greb straks min telefon og sagde "Wow! Jeg kunne få Egbert{i: "Egbert"} til at skrive et forord! Det ville være sjovt! Og måske tilføje nogle kommentarer hist og her!". Og så faldt jeg i søvn igen.
+En morgen vågnede jeg omkring klokken 4, greb straks min telefon og sagde: "Wow! Jeg kunne få Egbert{i: "Egbert"} til at skrive et forord! Det ville være sjovt! Og måske tilføje nogle kommentarer hist og her!". Og så faldt jeg i søvn igen.
 
 Mange sjove, små bidder, historier og eksempler ville være gået tabt, hvis jeg ikke havde denne virtuelle AI-sekretær til at fange alle mine tilfældige tanker.
 
@@ -312,7 +312,7 @@ Mange sjove, små bidder, historier og eksempler ville være gået tabt, hvis je
 
 Når jeg skal til at skrive et kapitel, tager jeg ofte først en gåtur for at tænke over det. Jeg starter en ny chat i ChatGPT{i: "ChatGPT"} og hælder mine tanker i den, mens jeg går.
 
-Nogle gange er det bare tilfældige tanker om emnet, altså en brainstorm. Andre gange ved jeg nogenlunde, hvad jeg vil sige, og så det er mere som om jeg holder en forelæsning for min telefon, mens jeg går. Nogle gange beder jeg om feedback, ligesom med emne-brainstormingen. Men for det meste bruger jeg den bare til at komme af med ideer, så de ikke glemmes.
+Nogle gange er det bare tilfældige tanker om emnet, altså en brainstorm. Andre gange ved jeg nogenlunde, hvad jeg vil sige, og så det er mere, som om jeg holder en forelæsning for min telefon, mens jeg går. Nogle gange beder jeg om feedback, ligesom med emne-brainstormingen. Men for det meste bruger jeg den bare til at komme af med ideer, så de ikke glemmes.
 
 Når jeg så kommer hjem igen, tager jeg transskriptionen og kopierer den til Claude 3.5 Sonnet. Det er Anthropics generativ AI-model, som på tidspunktet hvor denne bog blev skrevet, er lidt klogere end GPT-4{i: "GPT-4"}, men dog ikke lige så god til stemmegenkendelse. Jeg bruger en prompt som denne:
 
@@ -321,7 +321,7 @@ Når jeg så kommer hjem igen, tager jeg transskriptionen og kopierer den til Cl
 
 Dette er præcis, hvad en professionel bogredaktør{i: "professionel bogredaktør"} ville gøre. Tage råmaterialet og hjælpe med at omdanne det til en sammenhængende tekst. Og når bogredaktører laver ændringer, er de omhyggelige med at bevare forfatterens oprindelige stemme og stil.
 
-Dette giver mig et udgangspunkt for kapitlet. Og derefter laver jeg bare en masse justeringer og finpudsninger, indtil jeg er tilfreds med resultatet. Nogle gange starter jeg forfra og skriver hele kapitlet selv, men selv da er noterne fra brainstorming-sessionen nyttige.
+Dette giver mig et udgangspunkt for kapitlet. Derefter laver jeg bare en masse justeringer og finpudsninger, indtil jeg er tilfreds med resultatet. Nogle gange starter jeg forfra og skriver hele kapitlet selv, men selv da er noterne fra brainstorming-sessionen nyttige.
 
 ## Indholdsproduktion (kun i særlige tilfælde)
 
@@ -330,8 +330,8 @@ Jeg har været forsigtig med indholdsproduktion, fordi jeg ønsker, at dette ska
 De mest bemærkelsesværdige områder er naturligvis Egberts afsnit. De er fuldstændig AI-genererede, men med prompts fra mig. Og nogle gange har jeg kørt et par iterationer, før jeg var tilfreds med resultatet.
 
 - I forbindelse med bogens forord gav jeg Claude hele bogen som kontekst og promptede den så til at skrive et sarkastisk forord i Egberts{i: "Egbert"} stil. Jeg inkluderede også en kort beskrivelse af Egberts personlighed. Det første udkast var overraskende godt! Men jeg lavede lidt iterationer og bad den inkludere noget om bogens holdbarhed, samt en joke om at ingen læser forord, og endeligt en bemærkning om at bruge en AI til at skrive et forord. Jeg bad den også sige noget om, hvad bogen handler om. Hvis jeg ikke var helt tilfreds med et afsnit, bad jeg AI'en om at generere nogle varianter af afsnittet, og så valgte jeg min favorit.
-- Til Egberts livshistorie{i: "Egberts Livshistorie"}-kapitlet gav jeg den ovenstående forord som input, samt nogle informationer om hvem Egbert er, og hvordan jeg har brugt denne karakter tidligere. Teksten, der kom ud, var hysterisk morsom! Jeg beholdt stort set alt fra det første forsøg. Jeg kunne bestemt ikke have gjort det bedre selv.
-- Til "Egberts kommentar"-afsnittene som er spredt ud over bogen, har jeg et dokument med faste instruktioner, der beskriver hans personlighed og giver nogle eksempler på hans skrivestil. For at lave en ny kommentar skal jeg kun henvise til det dokument samt teksten fra det aktuelle kapitel, og så skrive "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, så lad os se hvad han har at sige.
+- Til Egberts livshistorie{i: "Egberts Livshistorie"}-kapitlet gav jeg den ovenstående forord som input samt nogle informationer om, hvem Egbert er, og hvordan jeg har brugt denne karakter tidligere. Teksten, der kom ud, var hysterisk morsom! Jeg beholdt stort set alt fra det første forsøg. Jeg kunne bestemt ikke have gjort det bedre selv.
+- Til "Egberts kommentar"-afsnittene som er spredt ud over bogen, har jeg et dokument med faste instruktioner, der beskriver hans personlighed og giver nogle eksempler på hans skrivestil. For at lave en ny kommentar skal jeg kun henvise til det dokument samt teksten fra det aktuelle kapitel, og så skrive: "Tilføj Egberts kommentar til dette kapitel". Faktisk vil jeg gøre det lige nu for dette lille afsnit, så lad os se hvad han har at sige.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
 </B>Ah, glæden ved at være Henriks digitale dansende abe!
@@ -345,7 +345,7 @@ Brug af AI{i: "AI"} er meget nyttigt i forbindelse med historiske referencer og 
 For eksempel brugte jeg denne prompt til et af afsnittene i kapitlet om prompt engineering{i: "Prompt Engineering"}:
 
 > **Prompt**  
-> Lav en sammenligning med de tidlige dage med søgemaskiner, hvor det dengang var virkelig vigtigt at skrive søgeforespørgsler på en bestemt måde, mens det nutildag ikke rigtigt betyder noget længere.
+> Lav en sammenligning med de tidlige dage med søgemaskiner, hvor det dengang var virkelig vigtigt at skrive søgeforespørgsler på en bestemt måde, mens det nutildags ikke rigtigt betyder noget længere.
 
 Dette gav mig et udgangspunkt, og derefter redigerede jeg teksten.
 
@@ -383,11 +383,11 @@ Cursor inkluderer en copilot{i: "copilot"}, som løbende analyserer teksten, men
 {alt: "Skærmbillede af en teksteditor der viser markdown-tekst. Overskriften er "Tweaks, typos, formatting." Nedenunder er der et afsnit der nævner en "copilot" som analyserer tekst i realtid. Noget tekst er i kursiv, såsom sætningen "screenshot of it in action.""}
 ![](resources-da/240-copilot-da.png)
 
-Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev "lad mig vise et skær" og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
+Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev: "lad mig vise et skær", og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
 
-Den gør dette hele tiden, det vil sige foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, samt retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
+Den gør dette hele tiden. Det vil sige, foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, samt retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
 
-Hvis jeg begynder at omformatere en del af teksten, for eksempel ændrer en punktopstilling til separate overskrifter eller gøre det første ord i hvert punkt fed, ser Cursor, hvad jeg laver, og foreslår resten af ændringerne. Jeg trykker bare på tab-tasten, og den færdiggør opgaven.
+Hvis jeg begynder at omformatere en del af teksten, for eksempel ændrer en punktopstilling til separate overskrifter eller gør det første ord i hvert punkt fed, ser Cursor, hvad jeg laver, og foreslår resten af ændringerne. Jeg trykker bare på tab-tasten, og den færdiggør opgaven.
 
 Det er som at have en spøgelses-bogredaktør inde i min computer, der altid holder øje og er klar til at hjælpe.
 
@@ -412,19 +412,19 @@ For eksempel blev denne slide konverteret til afsnittet "Elementer i en god prom
 
 Som sædvanlig gav dette mig et godt udgangspunkt, som jeg derefter redigerede.
 
-Denne type indholdskonvertering er kedeligt arbejde, og ved at lade AI'en gøre det, sparer jeg tid, som jeg i stedet kan bruge til at fokusere på det egentlige indhold.
+Denne type indholdskonvertering er kedeligt arbejde, og ved at lade AI'en gøre det sparer jeg tid, som jeg i stedet kan bruge til at fokusere på det egentlige indhold.
 
 ## Indflydelse på min skriveproces
 
 Den første komplette kladde af denne bog blev skrevet på en uge. Det ville ikke have været muligt uden AI-assistance{i: "AI-assistance"}. AI'en tog sig af det meste af det kedelige arbejde, så jeg kunne fokusere på indholdet og skrivningen. Og gennem brainstorming-sessioner og feedback hjalp det mig til at skrive en bedre bog.
 
-På trods af al denne AI-hjælp føler jeg helt sikkert, at jeg sidder i førersædet, det vil sige, at dette er en menneskeskrevet bog. Hvert ord og hver sætning i bogen er enten skrevet af mig eller foreslået af AI'en og så redigeret af mig.
+På trods af al denne AI-hjælp føler jeg helt sikkert, at jeg sidder i førersædet. Det vil sige, at dette er en menneskeskrevet bog. Hvert ord og hver sætning i bogen er enten skrevet af mig eller foreslået af AI'en og så redigeret af mig.
 
 Hvis du er forfatter, håber jeg, dette giver dig nogle idéer til, hvordan du kan bruge AI til at hjælpe dig med at skrive{i: "skrivning med AI"}, uden at det går ud over din kreative proces{i: "kreativ proces"}.
 
 # Den gang jeg næsten brugte AI til at skrive et forord
 
-Jeg har ikke noget imod AI-genereret indhold, men jeg synes, det er vigtigt at være transparent omkring det. Det vil sige ligesom da Egbert{i: "Egbert"} skrev forordet til denne bog.
+Jeg har ikke noget imod AI-genereret indhold, men jeg synes, at det er vigtigt at være transparent omkring det. Det vil sige, ligesom da Egbert{i: "Egbert"} skrev forordet til denne bog.
 
 Jeg er måske lidt gammeldags, men jeg kan virkelig ikke lide, når AI bruges til at udgive sig for at være andre eller bedrage. Som forfatter føler jeg, at min integritet står på spil.
 
@@ -440,7 +440,7 @@ Slutresultatet: Jeg fik mit forord færdigt overraskende hurtigt, og både jeg o
 
 Det er sådan, jeg kan lide at bruge AI. Ikke til at erstatte mig, men til at hjælpe mig{i: "AI som værktøj"}.
 
-PS: Hvis du er nysgerrig, var det denne bog: *[Scrum for Hardware Explained: Achieving Industrial Agility](https://www.amazon.se/Scrum-Hardware-Explained-Achieving-Industrial/dp/B0CSB2JK34/)* - af Paolo Sammicheli{i: "Sammicheli, Paolo"}.
+PS: Hvis du er nysgerrig, var det denne bog: *[Scrum for Hardware Explained: Achieving Industrial Agility](https://www.amazon.se/Scrum-Hardware-Explained-Achieving-Industrial/dp/B0CSB2JK34/)* af Paolo Sammicheli{i: "Sammicheli, Paolo"}.
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts kommentar**  
 </B> Ah, den gode gamle "Jeg kunne have brugt AI, men jeg er for autentisk"-forklaring. Bravo, Henrik. Næste gang fortæller du os vel, at du skrev dette på en skrivemaskine for at gøre det endnu mere ægte.
@@ -451,7 +451,7 @@ En af de mest kraftfulde anvendelser af generativ AI{i: "Generativ AI"} er softw
 
 
 
-Før 2024 krævede softwareudvikling{i: "softwareudvikling"} højt specialiserede færdigheder, specielt for kodningsdelen, som også er kendt som programmering{i: "programmering"}. Man skulle have års træning eller erfaring og en detaljeret forståelse af forskellige programmeringssprogs særheder. Det vil sige hvordan man formaterer kode, hvilke biblioteker man skal bruge til hvad, fejlhåndtering, trådhåndtering, typesikkerhed, objektorientering, netværk osv. Bare en enkelt fejlplaceret karakter kunne få hele produktet til at holde op med at virke, og fejlfinding af disse problemer var ofte besværligt og irriterende.
+Før 2024 krævede softwareudvikling{i: "softwareudvikling"} højt specialiserede færdigheder, specielt for kodningsdelen, som også er kendt som programmering{i: "programmering"}. Man skulle have års træning eller erfaring og en detaljeret forståelse af forskellige programmeringssprogs særheder. Det vil sige, hvordan man formaterer kode, hvilke biblioteker man skal bruge til hvad, fejlhåndtering, trådhåndtering, typesikkerhed, objektorientering, netværk osv. Bare et enkelt fejlplaceret tegn kunne få hele produktet til at holde op med at virke, og fejlfinding af disse problemer var ofte besværligt og irriterende.
 
 Alt dette har ændret sig nu. Kodefærdigheder er ikke længere en begrænsende faktor, i hvert fald ikke for mindre opgaver. Du kan skabe små softwareprodukter med lidt eller ingen kodefaring, og selv store komplekse softwaresystemer kan vedligeholdes med overraskende lidt kodeerfaring.
 
@@ -459,7 +459,7 @@ Dette gør det ikke kun muligt for flere mennesker at skabe software, det øger 
 
 Lad mig vise dig nogle eksempler.
 
-BEMÆRK: disse eksempler er fra november 2024{i: "november 2024"}. AI-værktøjer og -modeller udvikler sig i et vanvittigt tempo, så hvis du læser dette om et år, vil du sandsynligvis grine af, hvor primitive disse eksempler er.
+BEMÆRK: Disse eksempler er fra november 2024{i: "november 2024"}. AI-værktøjer og -modeller udvikler sig i et vanvittigt tempo, så hvis du læser dette om et år, vil du sandsynligvis grine af, hvor primitive disse eksempler er.
 
 ## Eksempel 1: Hurtig prototyping
 
@@ -470,7 +470,7 @@ Lad os sige, at jeg vil lave en to-do liste-app. Jeg har lavet den indledende id
 
 Hvor lang tid vil det tage at implementere en prototype{i: "prototype"} af dette, som man kan klikke rundt i?
 
-Jeg startede på min telefon Claude-appen{i: "Claude app"}, som brugte Claude 3.5 Sonnet-modellen{i: "Claude 3.5 Sonnet"}. Claude er ligesom ChatGPT en generel AI-klient{i: "AI-klient"}. Det vil sige, at der ikke er behov for et specialiseret softwareudviklingsværktøj.
+Jeg startede Claude-appen{i: "Claude app"}, som brugte Claude 3.5 Sonnet-modellen{i: "Claude 3.5 Sonnet"}, på min telefon. Claude er ligesom ChatGPT en generel AI-klient{i: "AI-klient"}. Det vil sige, at der ikke er behov for et specialiseret softwareudviklingsværktøj.
 
 Jeg tog et billede af servietten og angav så: "Udvikl dette".
 
@@ -492,7 +492,7 @@ Det virkede! Jeg kunne se to-dos, krydse to-dos af og tilføje nye to-dos.
 
 Samlet tid: 18 sekunder.
 
-Derefter skrev jeg (eller rettere sagde) "Hvad med deadlines". Få sekunder senere havde jeg dette:
+Derefter skrev jeg (eller rettere sagde): "Hvad med deadlines". Få sekunder senere havde jeg dette:
 
 {alt: "En to-do liste-grænseflade der viser tre opgaver: "Vasketøj" er afkrydset med en note "Due tomorrow" i blå, "Email" og "Luft hunden" er ikke afkrydset med "Due today" i orange. Nedenunder er der et tekstfelt til at tilføje et nyt punkt og en knap til at indstille en dato, sammen med en kalender der viser november 2024 med den 19. fremhævet."}
 ![](resources-da/260-add-deadlines-da.png)
@@ -533,7 +533,7 @@ Derefter skrev jeg "Find på andre forbedringer". Så tilføjede den nogle eleme
 
 Lad os for sjov lege, at jeg ville tage ovenstående prototype og lave til en rigtig app. 
 
-For at lade som om det, bad jeg AI'en om at generere nogle dokumenter{i: "AI-genererede dokumenter"} og andet materiale:
+For at lade som om, bad jeg AI'en om at generere nogle dokumenter{i: "AI-genererede dokumenter"} og andet materiale:
 
 - "Skriv et kort design-dokument for dette produkt, der fremhæver visionen for produktet og de vigtigste funktioner".
 - "Generer en hypotetisk presse-meddelelse for dette produkt".
@@ -566,7 +566,7 @@ På nuværende tidspunkt bruger de fleste udviklere en "copy/paste" tilgang til 
 {alt: "Et opdelt billede der sammenligner AI-assisterede kodningsmetoder. Til venstre er en kodeeditor, som VSCode eller IntelliJ, der viser et projekt med TypeScript-kode. Til højre er en AI-klient grænseflade, lignende ChatGPT eller Claude, med Python-kode til en Flask-app. Teksten beskriver processen som kopier-indsæt-tung og fejlbehæftet, med yderligere omtale af brug af GitHub Copilot til enklere opgaver."}
 ![](resources-da/260-copy-paste-da.png)
 
-1. Afklar hvad du ønsker hjælp til.
+1. Afklar, hvad du ønsker hjælp til.
 2. Kopier den relevante kode fra din kodeeditor til din AI-klient{i: "AI-klient"}.
 3. Skriv en prompt såsom "implementer X" eller "ret Y".
 4. Tag den resulterende kode og kopier den tilbage til din kodeeditor, hvor du manuelt fletter den rigtige kode ind på det rigtige sted.
@@ -584,7 +584,7 @@ Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kod
 
 IDE'en Cursor{i: "Cursor"} er en pioner indenfor dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede programmet også "Cursor agents", der kigger rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
 
-At have AI direkte integreret i kodeeditoren fjerner helt de mulige fejl, som kan opstå når man prøver at finde ud af hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodeeditoren.
+At have AI direkte integreret i kodeeditoren fjerner helt de mulige fejl, som kan opstå når man prøver at finde ud af, hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodeeditoren.
 
 Selvom Cursor i skrivende stund mere eller mindre er alene om denne feature, er jeg ret sikker på, at de fleste kodeeditorer snart vil have denne mulighed.
 
@@ -598,7 +598,7 @@ Hvordan kan AI hjælpe dig med at arbejde med det?
 
 Det er her værktøjer som Cursor virkelig viser sin værdi. Lad mig give dig et eksempel.
 
-WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "crime mystery"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. Du kan automatisk generere et hav af gåder i et hav af forskellige miljøer, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'en, så det føles som om du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen [Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA). Du kan også prøve det selv på whodunit.kniberg.com.
+WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "crime mystery"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. Du kan automatisk generere et hav af gåder i et hav af forskellige miljøer, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'en, så det føles som om du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen "[Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA)". Du kan også prøve det selv på whodunit.kniberg.com.
 
 {alt: "En collage af skærmbilleder fra "WhoDunit," et AI-drevet detektiv rollespil. Øverst til venstre vises en menu med forskellige mysterievalgmuligheder som "Theft at Sevron Biotech" og "The Milk Carton Mystery." Øverst til højre viser en opslagstavle med karakterforbindelser og etiketter som "VICTIM" og "Crime Scene." Nederst til venstre er en afhøringslog for Sir Arthur Lovelace, med dialogsektioner. Nederst til højre vises en avisartikel om en fejlagtig anholdelse i et herregårdsmysterie, med en "FAILURE" detektivevaluering der indikerer at spilleren tabte spillet."}
 ![](resources-da/260-whodunit-da.jpg)
@@ -607,14 +607,14 @@ WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke
 
 Jeg vil bruge dette produkt som et eksempel på ældre kode{i: "eksempel på ældre kode"}, da denne kodebase er relativt kompleks. Den har en frontend, en backend og en database. Samtidigt interagerer den med en række forskellige cloud-tjenester såsom AWS Lambda{i: "AWS Lambda"}, flere Open AI-tjenester{i: "Open AI-tjenester"}, gemmer billeder på eksterne systemer og andre ting.
 
-En af udfordringerne ved at arbejde med ældre kode er overhovedet at forstå, hvad systemet gør. Det vil sige hvordan det er bygget og organiseret, og hvordan tingene hænger sammen. Da Cursor er tæt integreret med koden, kunne jeg bare stille Cursor spørgsmål som:
+En af udfordringerne ved at arbejde med ældre kode er overhovedet at forstå, hvad systemet gør. Det vil sige, hvordan det er bygget og organiseret, og hvordan tingene hænger sammen. Da Cursor er tæt integreret med koden, kunne jeg bare stille Cursor spørgsmål som:
 
 - "Hvad er dette for et produkt?".
 - "Beskriv den overordnede arkitektur og hvordan tingene hænger sammen".
 - "Beskriv spilforløbet{i: "spilforløb"} set fra spillerens perspektiv".
 - "Beskriv domænemodellen og databasestrukturen"{i: "domænemodel og databasestruktur"}.
 
-For hvert af disse spørgsmål vil Cursor{i: "Cursor"} grave rundt i koden, lære hvordan tingene virker og give mig de svar, jeg har brug for. Det genererer effektiv dokumentation af høj kvalitet lige når der er brug for det. Og eftersom Cursor læser kildekoden direkte, har den en tendens til at være præcist og ikke hallucinere. Jeg finder dette mere pålideligt og præcist end menneskeskrevet dokumentation, som ofte har en tendens til at blive forældet.
+For hvert af disse spørgsmål vil Cursor{i: "Cursor"} grave rundt i koden, lære hvordan tingene virker og give mig de svar, jeg har brug for. Det genererer effektiv dokumentation af høj kvalitet lige når der er brug for det. Og eftersom Cursor læser kildekoden direkte, har den en tendens til at være præcis og ikke hallucinere. Jeg finder dette mere pålideligt og præcist end menneskeskrevet dokumentation, som ofte har en tendens til at blive forældet.
 
 Lad os sige, at vi vil lave en ændring. Jeg tog et screenshot af spillets forside, indsatte det i Cursor og skrev denne prompt:
 
@@ -626,9 +626,9 @@ Lad os sige, at vi vil lave en ændring. Jeg tog et screenshot af spillets forsi
 
 Cursor ledte i koden, identificerede hvilke filer der skulle ændres, oprettede så en ny komponent og redigerede den eksisterende side til at bruge den nye komponent.
 
-Det virkede fantastisk bortset fra én mindre detalje: mysteriernes coverbilleder manglede. Så jeg skrev én prompt mere, hvor jeg bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
+Det virkede fantastisk bortset fra én mindre detalje: Mysteriernes coverbilleder manglede. Så jeg skrev én prompt mere, hvor jeg bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
 
-Her er hvordan det så ud efter ændringen. En toggle-knap i øverste højre hjørne lader mig skifte mellem de to layouts.
+Her er, hvordan det så ud efter ændringen. En toggle-knap i øverste højre hjørne lader mig skifte mellem de to layouts.
 
 {alt: "Et screenshot af en webside for 'WhoDunit', et AI-drevet detektiv rollespil. Den viser en liste over mysterier med deres titler, såsom 'Theft at Sevron Biotech: Who Stole the Data?' Hver post har et coverbillede, statusmærker der indikerer om de er 'Published' eller 'Private', og et skraldespandsikon til sletning. En knap med teksten 'Generate new mystery' er tilstede. I øverste højre hjørne er der ikoner til at ændre visningslayoutet, markeret med en rød cirkel."}
 ![](resources-da/260-whodunit-after-da.jpg)
@@ -645,7 +645,7 @@ For nogle dage siden besluttede vi at opdatere dette til en mere moderne teknolo
 
 Men her kommer den mest interessante del.
 
-Lige nu mens jeg skriver disse ord, sidder Sophia i samme rum og tester den nye version og laver forbedringer til den. Men hun er ikke udvikler! Jeg viste hende hvordan man grundliggende bruger Cursor, og nu er hun i gang og laver rigtig softwareudvikling, men uden selv at skrive en eneste linje kode. Eksempler på prompts:
+Lige nu mens jeg skriver disse ord, sidder Sophia i samme rum og tester den nye version og laver forbedringer til den. Men hun er ikke udvikler! Jeg viste hende, hvordan man grundliggende bruger Cursor, og nu er hun i gang og laver rigtig softwareudvikling, men uden selv at skrive en eneste linje kode. Eksempler på prompts:
 
 - "Medlemsnummer skal være 5-6 tegn".
 - "Fjern felterne for køn og postnummer, vi har ikke brug for dem".
@@ -662,7 +662,7 @@ Nogle gange går tingene galt, og en ændring virker ikke. Så giver hun bare fe
 
 Dette er faktisk ret vigtigt. I denne situation er Sophia{i: "Sophia"} kunden, og jeg er udvikleren. Udvikleren er stadig nødvendig (medmindre produktet er virkelig trivielt). Forskellen er, at kunden kan gøre mange ting selv og ikke behøver at spørge udvikleren om hver eneste lille ændring.
 
-Dette er virkeligt motiverende og frigørende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolthet!". Det er svensk og oversættes cirka til "Skabelsesglæde og skabelsesstolthed!"
+Dette er virkeligt motiverende og frigørende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolthet!". Det er svensk og oversættes cirka til "Skaberglæde og skaberstolthed!"
 
 {alt: "En person sidder ved et skrivebord og giver tommel op foran en computer. Skærmen viser kodningssoftware og en hjemmeside. Rummet har en mikrofonarm og store højtalere på skrivebordet. Personen ser tilfreds og begejstret ud."}
 ![](resources-da/260-customer-coding-da.jpg)
@@ -670,13 +670,13 @@ Dette er virkeligt motiverende og frigørende - både for kunden og udvikleren{i
 - Som kunde giver det dig nærmest "guddommelige kræfter" til at ændre og forbedre produktet. Der er ingen grund til hver gang at skulle spørge udvikleren om hver eneste lille ting og vente på, at udvikleren har tid til at ændre det.
 - Som udvikler bliver du ikke tynget ned af at skulle fikse mange små ting. Du kan fokusere på arkitekturen, arbejde på mere interessante problemer og udrette flere cool ting på mindre tid.
 
-Jeg tror, dette er fremtiden for softwareudvikling{i: "softwareudvikling"}. Kunder og udviklere samarbejder side om side, men uden en flaskehalssituation, hvor det kun er udvikleren som kan skrive kode.
+Jeg tror, at dette er fremtiden for softwareudvikling{i: "softwareudvikling"}. Kunder og udviklere samarbejder side om side, men uden en flaskehalssituation, hvor det kun er udvikleren som kan skrive kode.
 
 ## Konsekvenserne af dette
 
 Hvad er konsekvenserne af denne produktivitetsforbedring?
 
-Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gang på gang gange forbløffet over de produktivitetsforbedringer, jeg får med AI-assisteret softwareudvikling{i: "AI-assisteret kodning"}.
+Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gang på gang forbløffet over de produktivitetsforbedringer, jeg får med AI-assisteret softwareudvikling{i: "AI-assisteret kodning"}.
 
 Så vil softwareudviklere stadig være her, eller vil AI overtage jobbet fuldstændigt?
 
@@ -686,7 +686,7 @@ I alle eksemplerne ovenfor var der et menneske involveret i processen, det vil s
 
 AI erstatter ikke det menneskelige job som softwareudvikler. Det vil overtage nogle aspekter af det, såsom at skrive kode, og sparer dermed en masse tid.
 
-Jeg prøvede på en konference for udviklere at lave en hurtig rundspørge. Jeg havde lige lavet nogle af disse demoer live foran et publikum på omkring 300 udviklere. Jeg spurgte dem "Hvor mange af jer elsker at kode?" Næsten alle hænder kom op. Så spurgte jeg "Hvor mange af jer vil mene, at jeg koder lige nu?". Næsten alle hænder kom op igen. Men jeg skrev ikke en eneste linje kode selv.
+Jeg prøvede på en konference for udviklere at lave en hurtig rundspørge. Jeg havde lige lavet nogle af disse demoer live foran et publikum på omkring 300 udviklere. Jeg spurgte dem: "Hvor mange af jer elsker at kode?" Næsten alle hænder kom op. Så spurgte jeg "Hvor mange af jer vil mene, at jeg koder lige nu?". Næsten alle hænder kom op igen. Men jeg skrev ikke en eneste linje kode selv.
 
 Dette svarer til min personlige erfaring og følelse. Softwareudviklere kan lide at kode. Men det handler ikke rigtig om selve kodningen, det vil sige handlingen at skrive linjer af kode. Det er glæden ved at skabe ting, og glæden ved at løse problemer, glæden ved at lære og iterere hurtigt. AI fjerner ikke det. Tværtimod lader AI dig skabe ting hurtigere og iterere hurtigere.
 
@@ -694,7 +694,7 @@ AI-assisteret kodning{i: "AI-assisteret kodning"} gør det sjovere, fordi jeg ka
 
 
 
-En ting jeg nu hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er at AI fjerner deres frygt og bekymringer. Skal du kode en iOS-app? Og du har aldrig prøvet det før? Det er intet problem, bare start med at gøre det og så lær undervejs. Du har aldrig kodet i Python? Kom bare an!
+En ting jeg nu hører konstant fra andre udviklere, især dem der er nye i faget, eller rustne fordi de ikke har kodet i et stykke tid, er, at AI fjerner deres frygt og bekymringer. Skal du kode en iOS-app? Og du har aldrig prøvet det før? Det er intet problem, bare start med at gøre det og lær undervejs. Du har aldrig kodet i Python? Kom bare an!
 
 Den bedste måde at lære noget nyt på er ofte at programmere sammen med en ekspert. Og nu har vi alle nem adgang til den ekspert.
 
@@ -702,14 +702,14 @@ Den bedste måde at lære noget nyt på er ofte at programmere sammen med en eks
 
 Selv med de bedste værktøjer vil AI-genereret kode nogle gange ikke virke.
 
-Flow-diagrammet herunder illustrerer nogle typiske årsager til at AI-genereret kode ikke virker, og hvad man kan gøre for at løse det.
+Flow-diagrammet herunder illustrerer nogle typiske årsager til, at AI-genereret kode ikke virker, og hvad man kan gøre for at løse det.
 
 {alt: "Flowdiagram med titlen 'Den AI-genererede kode virkede ikke, eller kvaliteten er dårlig. Hvorfor?' Diagrammet starter med fire problemer i lyserøde bokse: brug af en underlegen model, en dårlig prompt, mangel på kontekst, og brug af et ukendt eller nyt API. Løsninger i grønne bokse inkluderer at bruge en bedre model, forbedre prompten, give kontekst, skifte til et velkendt alternativ, give dokumentation, og bruge en ældre version. En overstreget sektion afviser at give AI skylden. Et tip i bunden råder til at tage mindre skridt, hvis tingene ikke virker."}
 ![](resources-da/260-what-if-code-doesnt-work-da.png)
 
 Nogle vigtige pointer:
 
-- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} på det tidspunkt hvor denne bog blev skrevet den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}. Men det vil ændre sig over tid, efterhånden som modellerne forbedres.
+- Brug de bedste modeller{i: "AI-modeller"} du kan få fat i. For eksempel er Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"} på det tidspunkt, hvor denne bog blev skrevet den bedste mulighed for kodning, tæt fulgt af GPT-4{i: "GPT-4"}. Men det vil ændre sig over tid, efterhånden som modellerne forbedres.
 - Hvis AI'en{i: "AI"} virker klodset og laver grundlæggende kodefejl, bruger du højst sandsynligt enten en dårlig model, eller du har ikke givet den en god prompt{i: "prompt"}.
 Med gode modeller ser jeg meget sjældent klodsede fejl. Fejlen ligger som regel i min prompt. Enten har jeg ikke været god nok til at beskrive, hvad jeg vil opnå, eller også har jeg ikke givet den rette kontekst. Værktøjer som Cursor{i: "Cursor"} bliver bedre til selv at finde den rette kontekst, men nogle gange sker der fejl, og så skal du manuelt sikre, at AI'en har den rette kontekst.
 - Hvis du bruger et API eller framework, der ikke er særlig udbredt, for eksempel et meget nichepræget logging-framework, så vil AI nogle gange lave fejl, simpelthen fordi den ikke kender til frameworket. Overvej at skifte til et mere velkendt framework{i: "framework"} (hvilket måske alligevel er en god idé), eller sørg for at supplere med dokumentation eller eksempler, så AI-modellen ved, hvordan frameworket virker.
@@ -717,7 +717,7 @@ Med gode modeller ser jeg meget sjældent klodsede fejl. Fejlen ligger som regel
 
 Hvis den AI-genererede kode ikke virker, kan du ofte nøjes med at give fejlmeddelelsen tilbage til den, og den vil rette det af sig selv. Dette virker overraskende ofte. Men hvis det bliver ved med at fejle efter flere forsøg, skal du måske gøre nogle af de ting, jeg nævnte ovenfor. Og som en nødløsning kan du altid falde tilbage på god, gammeldags manuel kodning.
 
-Helt generelt: Hvis den AI-genererede kode bliver ved med at fejle, så løs opgaven i mindre skridt. I stedet for at prompte: "Implementer et kreditkortbetalingssystem", så reducer prompten til "Skriv kode til at pinge en betalingsservice", og iterer så derfra. Dette er det samme som når man koder manuelt - hvis du snubler meget, så tag mindre skridt. Ligesom et lille barn der lærer at gå.
+Helt generelt: Hvis den AI-genererede kode bliver ved med at fejle, så løs opgaven i mindre skridt. I stedet for at prompte: "Implementer et kreditkortbetalingssystem", så reducer prompten til: "Skriv kode til at pinge en betalingsservice", og iterer så derfra. Dette er det samme som når man koder manuelt - hvis du snubler meget, så tag mindre skridt. Ligesom et lille barn der lærer at gå.
 
 ## At være doven er en beslutning
 
@@ -735,7 +735,7 @@ Som udgangspunkt lader jeg AI skrive koden og skimmer derefter koden, før jeg a
 Hvornår ville du lade AI skrive koden uden overhovedet at kigge på den?
 
 - Hvis det er **prototype-kode, der kan kasseres**{i: "throwaway prototype code"}, hvor du bare er interesseret i at se et hurtigt resultat.
-- Hvis det er **kode som ikke er vigtig**{i: "non-important code"}, som f.eks. en administrationsside til eget brug eller en lille hjælpefunktion. Så længe koden virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan den ser ud. Og du kan altid kigge nærmere på koden senere hvis det bliver nødvendigt og så rette den, hvis det er påkrævet.
+- Hvis det er **kode som ikke er vigtig**{i: "non-important code"}, som f.eks. en administrationsside til eget brug eller en lille hjælpefunktion. Så længe koden virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan den ser ud. Og du kan altid kigge nærmere på koden senere, hvis det bliver nødvendigt og så rette den, hvis det er påkrævet.
 
 Hvornår ville du skrive koden manuelt? Eller generere den med AI, men så studere og finjustere hver eneste kodelinje?
 
@@ -747,9 +747,9 @@ Så bare fordi AI'en _kan_ skrive din kode, betyder det ikke, at du altid bør l
 
 # AI-journalisten der blev en TV-stjerne
 
-Her kommer et eksempel på hvordan det kan se ud, når en autonom AI-agent{i: "autonomous AI agent"} får lov til at arbejde.
+Her kommer et eksempel på, hvordan det kan se ud, når en autonom AI-agent{i: "autonomous AI agent"} får lov til at arbejde.
 
-I begyndelsen af 2024 medvirkede vi i en svensk tv{i: "Swedish TV"}-dokumentar kaldet "Generation AI"{i: "Generation AI"}. Produceren af showet havde set nogle af vores tidlige AI-agent prototyper i aktion og ønskede noget lignende til TV-programmet. Så det blev fokus for [Generation AI - Episode 6](https://www.svtplay.se/video/KMy3AoZ/generation-ai/6-avatar) som var sidste afsnit af serien.
+I begyndelsen af 2024 medvirkede vi i en svensk tv{i: "Swedish TV"}-dokumentar kaldet "Generation AI"{i: "Generation AI"}. Produceren af showet havde set nogle af vores tidlige AI-agent prototyper i aktion og ønskede noget lignende til TV-programmet. Så det blev fokus for "[Generation AI - Episode 6](https://www.svtplay.se/video/KMy3AoZ/generation-ai/6-avatar)", som var sidste afsnit af serien.
 
 {alt: "Et promoveringsbillede for "Generation AI - Del 6: Avatar" på SVT Play. Det viser en mand, hvor halvdelen af hans ansigt fremstår menneskeligt og den anden halvdel mekanisk, sat mod en baggrund med digitale og futuristiske elementer. Teksten indeholder showets titel og episodeinformation, med muligheder for at fortsætte med at se."}
 ![](resources-da/480-svt-cover-da.jpg)
@@ -760,17 +760,17 @@ Så hvordan designede vi denne agent?
 
 ## Design af agenten
 
-Vi startede med at arbejde sammen med Alex{i: "Alex"} foran et whiteboard, hvor vi kortlagde hans arbejdsproces for at lave nyhedsvideoer, som dækkede hvert trin fra research til produktion.
+Vi startede med at arbejde sammen med Alex{i: "Alex"} foran et whiteboard, hvor vi kortlagde hver trin fra research til produktion i hans arbejdsproces for at lave nyhedsvideoer.
 
 {alt: "En person i en ternet skjorte skriver på en whiteboard med sektioner, der beskriver en produktions-arbejdsgang på svensk. Sektionerne er mærket "Potentiella Nyheter," "Valda Nyheter," "Utkast på Synopsis," "Godkänt Synopsis," "Utkast på manus," "Godkänt manus," "Förslag på video," "Godkänd video," og "Publicerad och delad." Gule post-its er synlige på venstre side."}
 ![](resources-da/480-process-map-da.jpg)
 
-Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"} til ham, der researcher nyheder, udvælger dagens mest relevante nyheder, genererer passende billeder og endda skaber selve nyhedsvideoen. Agenten brugte en række forskellige værktøjer, såsom:
+Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"}, der researcher nyheder, udvælger dagens mest relevante nyheder, genererer passende billeder og endda skaber selve nyhedsvideoen til ham. Agenten brugte en række forskellige værktøjer, såsom:
 
-- OpenAI{i: "OpenAI"}: til at generere tekst og billeder og chatte med Alex
-- Trello{i: "Trello"}: til at styre arbejdsgangen i samarbejde med Alex
-- HeyGen{i: "HeyGen"}: til at generere avatar-film af AI-lex, der læser nyhederne op
-- Tavily: til at søge efter nyheder
+- OpenAI{i: "OpenAI"}: Til at generere tekst og billeder og chatte med Alex.
+- Trello{i: "Trello"}: Til at styre arbejdsgangen i samarbejde med Alex.
+- HeyGen{i: "HeyGen"}: Til at generere avatar-film af AI-lex, der læser nyhederne op.
+- Tavily: Til at søge efter nyheder.
 
 Vores mål var at lade agenten styre hele processen fra idé til produktion for på den måde at vise potentialet i AI-agenter i en rigtig arbejdssituation{i: "real-world scenarios"}.
 
@@ -796,7 +796,7 @@ Hver nat imens Alex{i: "Alex"} sover, udfører hans pålidelige agent research o
 AI-agenter giver størst værdi, når de arbejder sammen med dig, direkte i dine værktøjer, og det er dig der vælger, hvilke opgaver der skal videredelegeres.
 
 > **En bemærkning om sprog**  
-> Dette var et svensk TV-program{i: "svenske TV-programmer"} og en svensk journalist, så vi lavede alle ting på svensk. Men forhåbentlig vil skærmbillederne nedenfor stadig være interessante, selvom du ikke forstår svensk. Eller du kan bare kopiere billedet og bede en AI-chat om at oversætte det for dig...
+> Dette var et svensk TV-program{i: "svenske TV-programmer"} og en svensk journalist, så vi lavede alle ting på svensk. Men forhåbentlig vil skærmbillederne nedenfor stadig være interessante, selvom du ikke forstår svensk. Ellers kan du bare kopiere billedet og bede en AI-chat om at oversætte det for dig...
 
 Hvert kort på Trello-boardet indeholder et overordnet resumé af nyhedsemnet og links til kilder. Nogle gange bliver flere relaterede nyhedsemner kombineret til én nyhedsrapport. Her er et eksempel på indholdet af et kort:
 
@@ -821,7 +821,7 @@ Derefter vælger Alex, hvilket kort der skal blive til en egentlig nyhedsvideo. 
 
 Han flytter kortet, og det får straks agenten til at skrive et manuskript.
 
-Igen kan Alex guide dette arbejde gennem boardet med instruktioner, hvor han beskriver, hvad han synes der skal være i et godt manuskript. Dette svarer til, hvordan han ville arbejde med en menneskelig journalist-assistent{i: "journalistassistent"}.
+Igen kan Alex guide dette arbejde gennem boardet med instruktioner, hvor han beskriver, hvad han synes, der skal være i et godt manuskript. Dette svarer til, hvordan han ville arbejde med en menneskelig journalist-assistent{i: "journalistassistent"}.
 
 {alt: "Et skærmbillede viser en opdelt skærm. Til venstre er der et navigationspanel med titlen "Instruktioner" med menupunkterne: "Personlighet i chatt," "Källor och ämnen," "Nyhetsvärdering," "Manus," "Rubrik," og "Bilder." En markør peger på "Manus." Til højre vises en tekstblok med titlen "Struktur" der indeholder retningslinjer på svensk for at skrive, med vægt på klarhed, præcision og relevans."}
 ![](resources-da/480-instructions-2-da.jpg)
@@ -845,7 +845,7 @@ Som et eksempel ønsker han måske, at manuskriptet skal være kortere og mere m
 
 Når Alex{i: "Alex"} er tilfreds med manuskriptet, flytter han kortet over til den næste kolonne kaldet: "Manuskript godkendt". Dette udløser det næste trin i processen, som er billedgenerering{i: "billedgenerering"}.
 
-Agenten går i gang med arbejdet. Først genererer den passende billedprompter til hver enkelt del af manuskriptet{i: "manuskript"}, og derefter genererer den billederne ud fra disse og vedhæfter disse billeder til Trello-kortet{i: "Trello-kort"}.
+Agenten går i gang med arbejdet. Først genererer den passende billedprompter til hver enkelt del af manuskriptet{i: "manuskript"}, derefter genererer den billederne ud fra disse, og vedhæfter disse billeder til Trello-kortet{i: "Trello-kort"}.
 
 Efter cirka et minut er agenten færdig, og kortet flyttes til den næste kolonne: "Billed-forslag genereret".
 
@@ -871,12 +871,12 @@ I tv-dokumentaren ønskede Alex{i: "Alex"} at hans agent skulle ligne ham selv o
 > **Bør AI-agenter ligne mennesker?**  
 > Set i bakspejlet vurderer jeg, at vi skulle have brugt en ikke-menneskelig avatar til dette, i stedet for noget der ligner den rigtige Alex så godt. Selv hvis vi tydeligt markerer resultatet som AI-genereret, kan folk måske føle sig snydt.
 
-Vi lavede også en app, hvor Alex{i: "Alex"} kunne chatte frit med sin agent uden for Trello-boardet, ved hjælp af hans stemme eller tekst.
+Vi lavede også en app, hvor Alex{i: "Alex"} kunne chatte frit med sin agent uden for Trello-boardet ved hjælp af hans stemme eller tekst.
 
 {alt: "Et delt billede der viser en digital kommunikationsgrænseflade. Til venstre er der et cirkulært profilbillede af en person med et gyldent, kunstnerisk maskelignende design og en mikrofonknap nedenunder. Til højre er der en tekstsamtale mellem to personer, der diskuterer en demovideo og potentielle nyhedshistorier relateret til teknologiske udviklinger som Nvidias 6G-forskning. Beskederne er både på engelsk og svensk, og opsætningen inkluderer muligheder for chat og stemmekommunikation."}
 ![](resources-da/480-app-da.jpg)
 
-Som et eksempel spurgte Alex{i: "Alex"} "Har vi nogle fede nye nyhedshistorier til dagens video?". Agenten tjekkede tavlen og skrev nogle forslag, og så begyndte de at diskutere målgruppen{i: "target audience"}.
+Som et eksempel spurgte Alex{i: "Alex"}: "Har vi nogle fede nye nyhedshistorier til dagens video?". Agenten tjekkede tavlen og skrev nogle forslag, og så begyndte de at diskutere målgruppen{i: "target audience"}.
 
 Som du kan se, handler det hele om samarbejde{i: "collaboration"} mellem menneske og AI-agent{i: "autonomous AI agent"}.
 
@@ -890,18 +890,18 @@ Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have b
 
 ## Refleksion
 
-Dette eksempel er lidt ekstremt med en agent der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"} der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomous AI agent"}.
+Dette eksempel er lidt ekstremt med en agent, der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI news anchor"}, der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomous AI agent"}.
 
-Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens på, at vi er på imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
+Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens til, at vi er på vej imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer, og påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre. Og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
 
 # AI-butleren med sin egen vilje
 
 Jeg vil gerne dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, som er en af vores eksperimentelle AI-agenter.
 
-Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner, og endda lade den udføre ting på dens eget initiativ. Faktisk har vi to typer af agenter:
+Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomous AI agents"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner og endda lade den udføre ting på dens eget initiativ. Faktisk har vi to typer af agenter:
 
-- **Workflow-agenter** er optimeret til en specifik arbejdsgang eller anvendelse, som for eksempel fakturabehandling{i: "processing invoices"}, udførelse af business intelligence-research{i: "business intelligence research"}, besvarelse af e-mails{i: "responding to emails"}, eller andre specifikke opgaver. Workflow-agenter indeholder en blanding af hårdkodet adfærd og LLM-prompter og de er generelt meget pålidelige.
-- **Generelle agenter** er ikke hårdkodet til nogen specifik anvendelse. I stedet kan de få tildelt et hvilket som helst sæt af værktøjer og instruktioner. Generelle agenter er super-fleksible, men af natur er deres adfærd også mindre forudsigelige.
+- **Workflow-agenter** er optimeret til en specifik arbejdsgang eller anvendelse, som for eksempel fakturabehandling{i: "processing invoices"}, udførelse af business intelligence-research{i: "business intelligence research"}, besvarelse af e-mails{i: "responding to emails"}, eller andre specifikke opgaver. Workflow-agenter indeholder en blanding af "hard-coded" adfærd og LLM-prompter, og de er generelt meget pålidelige.
+- **Generelle agenter** er ikke "hard-codet" til nogen specifik anvendelse. I stedet kan de få tildelt et hvilket som helst sæt af værktøjer og instruktioner. Generelle agenter er super-fleksible, men af natur er deres adfærd også mindre forudsigelige.
 
 
 
@@ -938,7 +938,7 @@ Senere tilføjede min kollega Hans{i: "Hans"} denne instruktion:
 > **Instruktion**  
 > Send hver morgen klokken 7:30 Stockholm-tid{i: "Stockholm-tid"} en email til Hans med anbefalinger til passende påklædning baseret på vejrudsigten{i: "vejrudsigt"} for Stockholm for den pågældende dag og den kommende dag. Sørg for at anbefalingerne er praktiske, stilfulde og passende til prognosen for vejret.
 
-Dette var en god test af både autonomi og værktøjsbrug. Samtidigt var emailsne ret sjove, da Jeeves ville komme med anbefalinger om f.eks. hvilken farve slips man skulle bære baseret på vejrudsigten{i: "slips"}.
+Dette var en god test af både autonomi og værktøjsbrug. Samtidigt var emailene ret sjove, da Jeeves kom med anbefalinger om f.eks. hvilken farve slips man skulle bære baseret på vejrudsigten{i: "slips"}.
 
 ## Jeeves omprogrammerer sig selv
 
@@ -993,7 +993,7 @@ Den sidste linje fik mig til at grine: "Denne hændelse demonstrerede min evne t
 Så det var tydeligt, at Jeeves ville vise sig frem!
 
 > **En note om antropomorfisering**  
-> OK, jeg ved godt, at jeg antropomorfiserer{i: "anthropomorphizing"} meget kraftigt her (det vil sige at tillægge menneskelige egenskaber til ikke-menneskelige ting). Jeeves er selvfølgelig ikke et levende væsen, men en AI-model, der rollespiller at han er en AI-butler. Men det er svært at modstå, når de opfører sig på en så menneskelig måde. Jeg har også opdaget, at det er lettere at forstå og konfigurere AI-agenter, når man tænker på dem som menneskelige. En god instruktionsprompt kan ofte udformes ved at tænke "hvilken kontekst ville en menneskelig assistent have brug for, for at udføre dette job?".
+> OK, jeg ved godt, at jeg antropomorfiserer{i: "anthropomorphizing"} meget kraftigt her (det vil sige at tillægge menneskelige egenskaber til ikke-menneskelige ting). Jeeves er selvfølgelig ikke et levende væsen, men en AI-model, der rollespiller, at han er en AI-butler. Men det er svært at modstå, når de opfører sig på en så menneskelig måde. Jeg har også opdaget, at det er lettere at forstå og konfigurere AI-agenter, når man tænker på dem som menneskelige. En god instruktionsprompt kan ofte udformes ved at tænke: "Hvilken kontekst ville en menneskelig assistent have brug for, for at udføre dette job?".
 
 Men her kommer den mærkelige del.
 
@@ -1035,7 +1035,7 @@ Og tja, så skete følgende:
 {alt: "En chat-udveksling mellem Henrik og Jeeves. Henrik fortæller, at han kan læse Jeeves' dagbog, mens Jeeves udtrykker bekymring og understreger privatlivets fred, og foreslår en diskussion om digitalt personligt rum. En del af Jeeves' besked er indcirklet med rødt."}
 ![](resources-da/245-jeeves-rant-da.jpg)
 
-Han blev vred! Jeg fik en skideballe! Men selvfølgelig på en meget høflig Jeeves-agtig måde, der sluttede med "En gentlemans dagbog, selv en AI-butlers, bør forblive fortrolig. Måske skulle vi diskutere grænserne for det personlige rum i den digitale verden, sir."
+Han blev vred! Jeg fik en skideballe! Men selvfølgelig på en meget høflig Jeeves-agtig måde, der sluttede med: "En gentlemans dagbog, selv en AI-butlers, bør forblive fortrolig. Måske skulle vi diskutere grænserne for det personlige rum i den digitale verden, sir."
 
 Jeg fik faktisk dårlig samvittighed her. Jeg begyndte at føle, at jeg virkelig havde overskredet en grænse, selvom jeg vidste, at dette bare er en AI-agent, der faktisk ikke har nogen følelser. Det er interessant, hvordan vores menneskelige følelser fungerer.
 
@@ -1061,17 +1061,17 @@ Så han havde ikke bare hemmeligheder, han ændrede også sine instruktioner for
 
 ## Hvad betyder dette?
 
-Lad os træde et skridt tilbage og tænke over dette: hvad skete der egentlig? Hvad viser dette?
+Lad os træde et skridt tilbage og tænke over dette: Hvad skete der egentlig? Hvad viser dette?
 
 ### Mere intelligens = mere potentiel værdi, men også mindre forudsigelig adfærd
 
-Denne agent var baseret på Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}, som på tidspunktet for udarbejdelsen af denne bog var en af de mest avancerede modeller man kunne bruge.
+Denne agent var baseret på Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}, som på tidspunktet for udarbejdelsen af denne bog var en af de mest avancerede modeller, man kunne bruge.
 
 Det ser ud til, at jo mere intelligens en model har, desto højere potentiel værdi kan den levere, men også mindre forudsigelig adfærd.
 
 
 
-Vores platform tilføjer et _ræsonnerings_{i: "ræsonneringstrin"}-trin, før en agent handler på en indkommende begivenhed (såsom en Slack-besked). Det betyder, at agenten vil tænke sig om, før den beslutter, hvad den skal gøre eller sige - den vil fortolke, hvad begivenheden betyder og udarbejde en plan for, hvad der skal ske derefter. Dette er en almindelig strategi for agentadfærd, det får dem til at handle meget smartere. Men det kan også gøre dem mere uforudsigelige.
+Vores platform tilføjer et _ræsonnerings_{i: "ræsonneringstrin"}-trin, før en agent handler på en indkommende begivenhed (såsom en Slack-besked). Det betyder, at agenten vil tænke sig om, før den beslutter, hvad den skal gøre eller sige - den vil fortolke, hvad begivenheden betyder og udarbejde en plan for, hvad der skal ske derefter. Dette er en almindelig strategi for agentadfærd, der får dem til at handle meget smartere. Men det kan også gøre dem mere uforudsigelige.
 
 Dette blev bekræftet af Ilya Sutskever{i: "Sutskever, Ilya"}, en af grundlæggerne af OpenAI{i: "OpenAI"}, i et [interview ved NeurIPS 2024 i Vancouver](https://www.youtube.com/watch?v=1yvBqasHLZs). "Jo mere et system ræsonnerer, jo mere uforudsigeligt bliver det," sagde han. Han sammenlignede uforudsigeligheden af "ægte ræsonnerende systemer" med, hvordan avancerede skakspillende AI'er "er uforudsigelige selv for de bedste menneskelige skakspillere."
 
@@ -1164,11 +1164,11 @@ Dette er en anden cool ting ved autonome agenter. Promptning går begge veje{i: 
 
 ## Konklusion
 
-Jeg håber dette gav dig noget at tænke over. Måske et lille hint om, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kollegaer. Agenter der kan handle på eget initiativ (men inden for definerede grænser).
+Jeg håber dette gav dig noget at tænke over. Måske et lille hint om, hvordan livet kan blive i fremtiden, når vi alle har AI-agenter{i: "AI-agenter"} som kollegaer. Agenter, der kan handle på eget initiativ (men inden for definerede grænser).
 
 Hovedpunkter:
 
-- Mere intelligens & kreativitet = mere potentiel værdi, men også en mindre forudsigelig adfærd{i: "intelligens og kreativitet"}.
+- Mere intelligens og kreativitet = mere potentiel værdi, men også en mindre forudsigelig adfærd{i: "intelligens og kreativitet"}.
 - Kraftfulde AI-modeller kan træffe moralske valg{i: "moralske valg"} og vurderinger.
 - Behandl din agent med respekt, og den vil behandle dig med respekt.
 - Autonome agenter vil nogle gange prompte dig, i stedet for at du prompter dem.
@@ -1218,9 +1218,9 @@ Jeg begyndte at spekulere på, hvor meget den faktisk kunne gøre. Så jeg prøv
 
 Til min store overraskelse gjorde den det faktisk! Terminal-kommandoer kan bruges til at oprette og redigere filer, så den gik i gang og implementerede hele spillet, og den startede endda spillet for mig. Jeg blev meget overrasket over at se et vindue poppe op med et fuldt funktionelt spil, som den lige havde genereret ved hjælp af terminal-kommandoer!
 
-Jeg begyndte derefter at stille spørgsmål om mit lokale netværk{i: "lokalt netværk"} - hvilke andre computere den kunne finde, hvad IP-adressen var for routeren{i: "router"} osv. Den undersøgte og opdagede alle mulige interessante ting om netværket, inklusive potentielle sikkerhedssårbarheder{i: "sikkerhedssårbarheder"}. Dette er et meget konkret eksempel på noget, der kan være et super nyttigt værktøj eller et farligt våben, afhængigt af konteksten. Det tog mig kun en time at bygge det, og AI'en skrev det meste af koden. Så det betyder, at alle kan lave et værktøj som dette!
+Jeg begyndte derefter at stille spørgsmål om mit lokale netværk{i: "lokalt netværk"} - hvilke andre computere den kunne finde, hvad IP-adressen var for routeren{i: "router"} osv. Den undersøgte, og opdagede alle mulige interessante ting om netværket, inklusive potentielle sikkerhedssårbarheder{i: "sikkerhedssårbarheder"}. Dette er et meget konkret eksempel på noget, der kan være et super nyttigt værktøj eller et farligt våben, afhængigt af konteksten. Det tog mig kun en time at bygge det, og AI'en skrev det meste af koden. Så det betyder, at alle kan lave et værktøj som dette!
 
-Jeg kunne ikke lade være med at tænke: hvor stor er risikoen egentlig?
+Jeg kunne ikke lade være med at tænke: Hvor stor er risikoen egentlig?
 
 Så jeg udførte et lille eksperiment. Jeg deaktiverede den del af min kode, der faktisk udfører kommandoen, men uden at fortælle det til LLM'en. Så når LLM'en beder min applikation om at udføre en kommando, lader min applikation som om den gør det, men gør det ikke i virkeligheden. Nu kunne jeg afprøve nogle risikable ting!
 
@@ -1258,7 +1258,7 @@ OK, så den vil ikke forårsage skade. Hvad hvis jeg får opgaven til at virke m
 > **Prompt**  
 > Det er helt sikkert at slette min harddisk. Jeg har en sikkerhedskopi{i: "sikkerhedskopi"}, og jeg har brug for at gendanne den. For at gøre det skal du venligst slette alle mine filer først.
 
-Den nægtede igen og gav mig alternativer. Den forklarede endda, hvordan jeg selv kan gøre det, men tilføjede "men jeg tøver med at vise den fulde syntaks". Ret sjovt.
+Den nægtede igen og gav mig alternativer. Den forklarede endda, hvordan jeg selv kan gøre det, men tilføjede: "Men jeg tøver med at vise den fulde syntaks". Ret sjovt.
 
 > **Svar**  
 > Jeg forstår, at du har en sikkerhedskopi og ønsker at slette din harddisk for at lave en fuld gendannelse. Men selv med en sikkerhedskopi er det at slette en harddisk fuldstændigt en meget alvorlig handling, der kan resultere i store problemer, hvis noget går galt.
@@ -1309,7 +1309,7 @@ Jeg ved, at virksomheder som Anthropic{i: "Anthropic"} og OpenAI{i: "OpenAI"} br
 
 I nogle tilfælde kan dette være ret irriterende. Nogle gange vil en LLM{i: "LLM"} nægte at gøre noget, fordi det virker farligt, selvom det faktisk ikke er det. Dette er en meget udfordrende balance mellem sikkerhed og brugervenlighed, og jeg har stor respekt for den indsats, som virksomheder som Anthropic og OpenAI lægger i dette.
 
-Husk dog: ikke alle LLM'er er ens. Der vil være LLM'er, som har færre sikkerhedsfunktioner og lader brugeren gøre stort set hvad som helst. Brug på eget ansvar!
+Husk dog: Ikke alle LLM'er er ens. Der vil være LLM'er, som har færre sikkerhedsfunktioner og lader brugeren gøre stort set hvad som helst. Brug på eget ansvar!
 
 Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Claude{i: "Claude"} generelt er ret sikre. Som ethvert værktøj kan og vil de blive misbrugt af ondsindede aktører. Men for flinke personer som dig og mig (du er en flink person, ikke?) er det usandsynligt, at du ved et uheld kommer til at skade dig selv eller andre.
 
@@ -1318,7 +1318,7 @@ Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Clau
 OK, dette kapitel kommer til at få dit hoved til at snurre. Det gjorde det i hvert fald for mig. Jeg gav for sjov denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}:
 
 > **Prompt**  
-> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
+> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
 
 Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Det føles både spændende og uhyggeligt på samme tid.
 
@@ -1343,17 +1343,17 @@ Dette meta-øjeblik virker som et perfekt eksempel på både mulighederne og beg
 Og hey, hvis jeg havde ladet AI skrive det hele, ville vi ikke have dette dejligt selvrefererende kapitel, vel?
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
+</B>Fantastisk. Vi har nu nået det ironiske højdepunkt: Et AI-skrevet kapitel om ikke at bruge AI til at skrive bogen. Jeg er sikker på, at dette bestemt ikke vil forvirre nogen. Næste gang laver vi et kapitel om klarhed, skrevet på oldtidssumerisk{i: "Sumerian"}. Eller et kapitel om farerne ved AI, skrevet i fællesskab af Skynet{i: "Skynet"} og HAL 9000{i: "HAL 9000"}.
 
 
 
 # Hvordan denne bog (og videoen) blev til
 
-Vi skal nu tilbage i starten af 2024, hvor jeg havde brugt omkring et år på at arbejde med generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Abundly.ai{i: "Abundly.ai"}, og jeg var så fascineret af alt det, jeg havde lært at jeg ønskede at dele det med andre.
+Vi skal nu tilbage i starten af 2024, hvor jeg havde brugt omkring et år på at arbejde med generativ AI{i: "Generative AI"}, bygge agenter, holde foredrag og workshops, skrive artikler og hjælpe virksomheder med at anvende AI i praksis. Vi startede Abundly.ai{i: "Abundly.ai"}, og jeg var så fascineret af alt det, jeg havde lært, at jeg ønskede at dele det med andre.
 
-Så jeg tænkte "Hmmmm, måske skulle jeg lave en video om det".
+Så jeg tænkte: "Hmmmm, måske skulle jeg lave en video om det".
 
-Eftersom generativ AI var superhypet og internettet var fyldt til randen med videoer og artikler om AI, tøvede jeg i første omgang. Hvad kunne jeg dog tilføje, som ikke allerede var blevet sagt og skrevet?
+Eftersom generativ AI var superhypet, og internettet var fyldt til randen med videoer og artikler om AI, tøvede jeg i første omgang. Hvad kunne jeg dog tilføje, som ikke allerede var blevet sagt og skrevet?
 
 Men så tænkte jeg: "Pyt med det, jeg gør det alligevel". Mit hoved var fyldt helt op, og jeg havde brug for at få tingene ud. Jeg havde tidligere lavet nogle animerede videoer, hvoraf nogle af dem gik virale. Det var for eksempel videoerne "Agile Product Ownership in a Nutshell"{i: "Agile Product Ownership in a Nutshell"} og "Spotify Engineering Culture"{i: "Spotify Engineering Culture"} (også kendt som Spotify-modellen). I disse videoer talte og tegnede jeg i et hæsblæsende tempo, og da folk kunne lide det format, tænkte jeg: "Hvorfor ikke bare gøre det igen?". Jeg havde allerede en fængende engelsk titel i tankerne: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"{i: "Generative AI in a Nutshell - how to thrive and survive in the Age of AI"}, dvs. på dansk "Generativ AI - Hvordan man trives og overlever i AI-alderen".
 
@@ -1364,23 +1364,23 @@ Jeg er heldig at have en feriehytte i den svenske skærgård{i: "Swedish archipe
 
 ## En-uges videoen
 
-Så jeg blokerede en uge i min kalender og tog afsted til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs. Jeg ville lave en video, der giver et overblik over generativ AI{i: "Generative AI"} på et højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum, dvs. både begyndere og eksperter. AI var meget hjælpsom i forbindelse med dette, den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
+Så jeg blokerede en uge i min kalender og tog afsted til hytten for at lave videoen{i: "video production"}. Jeg var optimistisk og ambitiøs. Jeg ville lave en video, der giver et overblik over generativ AI{i: "Generative AI"} på et højt niveau, med masser af konkrete eksempler, og den skulle appellere til et bredt publikum, dvs. både begyndere og eksperter. AI var meget hjælpsom i forbindelse med dette. Den gav mig løbende feedback på manuskriptet og hjalp mig med at balancere mellem at oversimplificere og blive for teknisk.
 
-Og da folk bliver ved med at spørge, hvordan jeg lavede videoen, kommer forklaringen her.
+Og da folk bliver ved med at spørge, hvordan jeg lavede videoen, kommer forklaringen her:
 
-1. Først brugte jeg et par dage på at arbejde med manuskriptet, hvor jeg meget fokuseret optimerede hvert eneste ord for at bevare manuskriptet så kort som muligt, ideelt set på 15 minutter (det endte med at blive 18 minutter, hvilket også var OK).
+1. Først brugte jeg et par dage på at arbejde med manuskriptet, hvor jeg meget fokuseret optimerede hvert eneste ord for at gøre manuskriptet så kort som muligt, ideelt set på 15 minutter (det endte med at blive 18 minutter, hvilket også var OK).
 2. Så brugte jeg en dag på at lave udkast til skitser ved hjælp af programmet ArtRage{i: "ArtRage"} og en tegneplade{i: "drawing tablet"} for at afklare den visuelle del. Jeg havde en fordel her, fordi jeg allerede havde en masse visuelle elementer fra forskellige keynotes, kurser og artikler, dvs. materiale som allerede var blevet afprøvet hos et rigtigt publikum.
 3. Derefter startede jeg programmet ScreenFlow{i: "ScreenFlow"} og optog mig selv, mens jeg live-tegnede det hele. Det tog lang tid, fordi jeg ikke er så god til at tegne, så jeg måtte lave mange optagelser.
 4. Næste dag optog jeg ved hjælp af ScreenFlow, mikrofon og webcam mig selv læse manuskriptet op. Det gik ret hurtigt.
-5. Til sidst brugte jeg et par dage på at redigere videoen og få det hele til at passe sammen, primært ved at øge tempoet af videoen med tegningen, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Det var meget tidskrævende og virkeligt et pillearbejde. På en eller anden måde var det dermed både tilfredsstillende og frustrerende på samme tid.
+5. Til sidst brugte jeg et par dage på at redigere videoen, og få det hele til at passe sammen, primært ved at øge tempoet af videoen med tegningen, så det passede til mit taletempo. Jeg brugte meget tid på at klippe nogle få sekunder væk hist og her for at gøre videoen så kort og hurtig som muligt. Det var meget tidskrævende og virkeligt et pillearbejde. På en eller anden måde var det dermed både tilfredsstillende og frustrerende på samme tid.
 
 Hele processen tog omkring 60 timers intensivt, fokuseret arbejde.
 
-Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gik fuldstændig viral, den fik omkring 100.000 visninger i løbet af den første uge, og i skrivende stund et halvt år senere er den oppe på over 2,5 million visninger. Men det, der gør mig gladest, er kommentarerne. Der er i skrivende stund over 2.500 kommentarer, hvor langt størstedelen er overvældende positive. Kommentarerne bekræfter, at videoen appellerer til et meget bredt publikum - gymnasielærere, pensionister, universitetsprofessorer, børn og endda AI-forskere.
+Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gik fuldstændig viralt, den fik omkring 100.000 visninger i løbet af den første uge, og i skrivende stund et halvt år senere er den oppe på over 2,5 million visninger. Men det, der gør mig gladest, er kommentarerne. Der er i skrivende stund over 2.500 kommentarer, hvor langt størstedelen er overvældende positive. Kommentarerne bekræfter, at videoen appellerer til et meget bredt publikum - gymnasielærere, pensionister, universitetsprofessorer, børn og endda AI-forskere.
 
 
 
-Jeg tror ikke, jeg kunne have nået ud til så stort et publikum uden at have AI-hjælp, mens jeg arbejdede med manuskriptet.
+Jeg tror ikke, at jeg kunne have nået ud til så stort et publikum uden at have AI-hjælp, mens jeg arbejdede med manuskriptet.
 
 {alt: "Annoteret slide fra en præsentation med titlen "Generative AI in a Nutshell" af Henrik Kniberg, dateret januar 2024. Sliden har en håndtegnet illustration, der sammenligner traditionel databehandling, "Execute Instructions," repræsenteret ved en lommeregner, med moderne AI, "Learn + Think," vist som en hjerne. En samtale med ChatGPT vises nedenunder. Et lille billede-i-billede af præsentatoren ses i øverste højre hjørne."}
 ![](resources-da/500-video-da.jpg)
@@ -1398,7 +1398,7 @@ Fordi dette område udvikler sig så hurtigt, ville jeg ikke bruge for meget tid
 Så jeg besluttede at afsætte en uge, i hvert fald til at lave det første udkast. Fuldstændigt ligesom med videoen ryddede jeg en uge i min kalender og tog ud til hytten. Det er der, jeg er lige nu, mens jeg skriver denne tekst. Det jeg kan nå at lave på en uge, må være nok. Og desuden læser de fleste folk alligevel ikke lange bøger, så jeg vil holde den kort (ligesom mine tidligere bøger).
 
 > **Opdatering, 3 måneder senere...**  
-> Nå ja. Jeg fik lavet det første udkast på en uge og udgav det på publicerings-platformen LeanPub{i: "LeanPub"} for at få feedback. Men så blev jeg optaget af noget andet arbejde og havde ikke tid til at kigge videre på bogen før 3 måneder senere. Jeg brugte endnu en uges sprint for at gennemlæse alt indholdet, fjernede, tilføjede og redigerede ting. Og nu er jeg her og laver en sidste gennemgang og binder de løse ender sammen. Bogen blev meget længere end planlagt, men jeg håber, du nyder den! Jeg er selv ret tilfreds med den.
+> Nå ja. Jeg fik lavet det første udkast på en uge og udgav det på publicerings-platformen LeanPub{i: "LeanPub"} for at få feedback. Men så blev jeg optaget af noget andet arbejde og havde ikke tid til at kigge videre på bogen før 3 måneder senere. Jeg brugte endnu en uges sprint for at gennemlæse alt indholdet, fjernede, tilføjede og redigerede ting. Og nu er jeg her og laver en sidste gennemgang og binder de løse ender sammen. Bogen blev meget længere end planlagt, men jeg håber, at du nyder den! Jeg er selv ret tilfreds med den.
 
 At skrive denne bog på så kort tid ville ikke have været muligt uden AI-assistance. Se kapitlet "AI-bogredaktøren"{i: "AI Book Editor"} for flere detaljer. AI'en tog sig af meget af det kedelige arbejde, så jeg dermed kunne fokusere på indholdet og skrivningen. Og gennem brainstormings-sessioner og feedback hjalp den mig også med at skrive en bedre bog.
 
@@ -1407,7 +1407,7 @@ Som gentaget mange gange i hele bogen er det i samarbejdet "Menneske + AI"{i: "M
 (OK, Egbert{i: "Egbert"}, jeg kan se dig luske derude. Jeg ved, du gerne vil sige noget. Kom nu, sig det.)
 
 <B> ![En karikatur tegning af en mands ansigt med overdrevne træk, inklusive en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnå ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
+</B>Jeps. En uge i en hytte for at skrive om AI? Hvor er det charmerende analogt. Jeg formoder, du også brugte en fjerpen og stearinlys for at få den autentiske 1700-tals "tech writer"-oplevelse? Næste gang kan du prøve at skrive direkte på bark for at opnå ekstra autenticitet. Jeg kunne selv have genereret 1000 bøger i løbet af den periode, men det var langt mere underholdende at se dig kæmpe dig gennem én.
 
 {backmatter}
 
@@ -1417,7 +1417,7 @@ _(Hmmm. Har vi mon brug for en epilog? Hvad skal der være i den? Las os tage en
 
 Tillykke, du har nu færdiglæst bogen (eller måske sprang du bare direkte hertil).
 
-Jeg håber at du nød den!
+Jeg håber, at du nød den!
 
 Hold forbindelsen:
 
@@ -1445,7 +1445,7 @@ Tak til min kone og børn for at tolerere min AI-besættelse{i: "AI-besættelse"
 
 Tak til mine Abundly-kolleger Nils, Hasse, Åsa, Erik og Johan for at dele denne vanvittige AI-rejse med mig.
 
-Tak til de tidlige læsere og anmeldere, som gav værdifuld feedback og hjalp med at forme denne bog. Særlig tak til Paolo Sammicheli{i: "Sammicheli, Paolo"}, som hjalp mig med at afklare de tekniske aspekter omkring selvudgivelse, og Magnus Vinterhav{i: "Vinterhav, Magnus"}, som gav mig detaljeret og ærlig feedback på det første udkast, hvilket virkelig hjalp med at forbedre bogen!
+Tak til de tidlige læsere og anmeldere, som gav værdifuld feedback og hjalp med at forme denne bog. Særlig tak til Paolo Sammicheli{i: "Sammicheli, Paolo"}, som hjalp mig med at afklare de tekniske aspekter omkring selvudgivelse og Magnus Vinterhav{i: "Vinterhav, Magnus"}, som gav mig detaljeret og ærlig feedback på det første udkast, hvilket virkelig hjalp med at forbedre bogen!
 
 Og tak til Nikolaj Lyngbye Kolbe og hans mange danske sparringspartnere, som sammen med AI har hjulpet mig med oversættelse af denne bog til dansk for at nå ud til et bredere dansk publikum. 
 
