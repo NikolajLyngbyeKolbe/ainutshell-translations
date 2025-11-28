@@ -3134,7 +3134,7 @@ Det første AI-drevne produkt, jeg udviklede, var en chatbot-platform{i: "chatbo
 
 For at gøre det ekstra sjovt ville jeg give Egbert hukommelse{i: "Egbert hukommelse"}, så han ville huske ting, der sker på serveren. Et perfekt tilfælde for RAG{i: "Retrieval Augmented Generation (RAG)"}. Jeg endte med at bruge embeddings{i: "embeddings"} og en vektordatabase{i: "vektordatabase"}, som beskrevet i tilgang 3{i: "tilgang 3"} ovenover. Men i stedet for at gemme FAQ-elementer til en kundeservice-bot, gemmer vi Egberts minder. Platformen giver mulighed for flere chatbots, og hver chatbot har sine egne minder.
 
-{width: "70%", alt: "En tegneseriefigur med en stor næse og rødt hår er tegnet ved siden af en liste med titlen "Memories." Listen indeholder tre punkter: "Peter built the castle across the lake," "Framistan goes on long journeys and dies a lot," og "Build large contraptions near each other causes lag." Der er yderligere pladsholderbokse med ellipser."}
+{width: "70%", alt: "En tegneseriefigur med en stor næse og rødt hår er tegnet ved siden af en liste med titlen "Memories." Listen indeholder tre punkter: "Helle built the castle across the lake," "Framistan goes on long journeys and dies a lot," og "Build large contraptions near each other causes lag." Der er yderligere pladsholderbokse med ellipser."}
 ![](resources-da/475-egbert-memories-da.png)
 
 Der er to nøgleprocesser her:
@@ -3146,7 +3146,7 @@ Der er to nøgleprocesser her:
 
 At gemme nye minder gøres via funktionskald. Når en bruger skriver en besked til Egbert i Minecraft{i: "Minecraft"} eller Discord{i: "Discord"}, bruger platformen en LLM{i: "LLM"} til at generere et svar med Egberts karakteristiske sarkastiske stil. Platformen tilføjer dog også en skjult systembesked, der cirka siger: "Hvis brugeren beder dig om at huske noget, så brug tilføjMinde-funktionen".
 
-Så hvis brugeren skriver: "Hej Egbert, husk at Peter byggede slottet på den anden side af søen{i: "Peter byggede slottet"}", vil LLM'en bemærke, at den skal huske dette, og vil bruge tilføjMinde-funktionen. Platformen vil derefter bruge OpenAI embeddings{i: "OpenAI embeddings"} til at konvertere brugerens besked til en vektor-embedding og gemme den i vektordatabasen. Derefter vil Egbert bekræfte, at han har husket det. I Discord viser vi også et lille diskette-ikon for at indikere, at beskeden er blevet gemt som et minde.
+Så hvis brugeren skriver: "Hej Egbert, husk at Helle byggede slottet på den anden side af søen{i: "Helle byggede slottet"}", vil LLM'en bemærke, at den skal huske dette, og vil bruge tilføjMinde-funktionen. Platformen vil derefter bruge OpenAI embeddings{i: "OpenAI embeddings"} til at konvertere brugerens besked til en vektor-embedding og gemme den i vektordatabasen. Derefter vil Egbert bekræfte, at han har husket det. I Discord viser vi også et lille diskette-ikon for at indikere, at beskeden er blevet gemt som et minde.
 
 Ret enkelt, men overraskende effektivt.
 
@@ -3163,7 +3163,7 @@ Så den samlede prompt ser cirka sådan ud:
 - Brugeren har skrevet følgende besked: "Hej Egbert, hvor er der nogle fede steder at besøge på denne server?"
 - Her er de foregående 10 beskeder i samme chat-tråd: ....
 - Du husker følgende minder:
-  - "Peter byggede slottet på den anden side af søen"
+  - "Helle byggede slottet på den anden side af søen"
   - "...."
   - "...."
 
@@ -3173,7 +3173,7 @@ Gennem magien med embeddings kan Egbert have en masse minder og stadig generere 
 
 Dette billede opsummerer processen:
 
-{alt: "Diagram der illustrerer en proces med seks trin. Trin 1: Bruger spørger Egbert om fede steder at besøge på en server. Trin 2: Appen beregner en indlejring for brugerens besked. Trin 3: Den slår relaterede minder op i en Vector DB. Trin 4: Appen henter og viser relevante minder, såsom 'Peter byggede slottet på den anden side af søen.' Trin 5: Appen sender forespørgsel til LLM'en (stort sprogmodel). Trin 6: Brugeren modtager forslaget, 'Hvad med Peters slot på den anden side af søen?'"}
+{alt: "Diagram der illustrerer en proces med seks trin. Trin 1: Bruger spørger Egbert om fede steder at besøge på en server. Trin 2: Appen beregner en indlejring for brugerens besked. Trin 3: Den slår relaterede minder op i en Vector DB. Trin 4: Appen henter og viser relevante minder, såsom 'Helle byggede slottet på den anden side af søen.' Trin 5: Appen sender forespørgsel til LLM'en (stort sprogmodel). Trin 6: Brugeren modtager forslaget, 'Hvad med Helles slot på den anden side af søen?'"}
 ![](resources-da/475-memory-recall-da.png)
 
 Dette er en ret simpel tilgang set fra et programmeringsperspektiv{i: "programmeringsperspektiv"}. Det tunge arbejde udføres af LLM'en og vektordatabasen, og applikationen skal bare videreformidle beskederne frem og tilbage.
