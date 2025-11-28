@@ -3,27 +3,27 @@
 
 # Del 2 - Ud af nøddeskallen
 
-Velkommen til del 2. Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil, og i den rækkefølge du ønsker.
+Velkommen til del 2. Denne del er som en buffet. Du kan vælge at spise så meget eller så lidt, som du vil og i den rækkefølge du ønsker.
 
-Vi dykker ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og nogle ting, som egentligt bare er fjollede. Noget er måske relevant for dig, mens andet ikke er det. Så gå evt. tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg så det, du ønsker at læse.
+Vi dykker ned i nogle mere avancerede emner, nogle konkrete tips og eksempler, og nogle ting, som egentligt bare er fjollede. Noget er måske relevant for dig, mens andet ikke er det. Så gå eventuelt tilbage til indholdsfortegnelsen i starten af bogen for at gennemse kapitelnavnene og udvælg det, du ønsker at læse.
 
 # Min rejse ind i AI
 
 ## Gør generativ AI nyttigt
 
-"Gør generativ AI nyttigt"{i: "Gør generativ AI nyttigt"} er blevet noget af et mantra for mig, og det danner udgangspunkt for det meste af det, jeg laver.
+"Gør generativ AI nyttigt"{i: "Gør generativ AI nyttigt"} er blevet et mantra for mig, og det danner udgangspunkt for det meste af det, jeg laver.
 
 Men hvordan startede det?
 
-De fleste mennesker, der arbejder med generativ AI, har en historie om, hvordan de startede med at arbejde med det. En stor "aha"-oplevelse der fik dem til at indse, hvor kraftfuld denne teknologi er. Her er min historie om to afgørende "aha"-oplevelser, der fik mig til at skifte min karriere til at fokusere på generativ AI.
+De fleste mennesker, der arbejder med generativ AI, har en historie om, hvordan de startede med at arbejde med det. En stor "aha"-oplevelse der fik dem til at indse, hvor kraftfuld denne teknologi er. Her er min historie om to afgørende "aha"-oplevelser, der fik mig til at fokusere min karriere på generativ AI.
 
 Spænd sikkerhedsbæltet, og lad os vende tilbage til det forrige årtusinde... (puha, det får mig til at føle mig gammel).
 
 ## Studier i kunstige neurale netværk
 
-Mit første møde med AI{i: "AI"} var under mine studier på Det Kongelige Tekniske Universitet{i: "Det Kongelige Tekniske Universitet"} i Stockholm i midten af 90'erne. Jeg tog et kursus kaldet "Kunstige neurale netværk"{i: "Kunstige Neurale Netværk"} og kodede små neurale netværk ved hjælp af Smalltalk{i: "Smalltalk (programmeringssprog)"} (et sejt programmeringssprog som kun få mennesker kender til i dag).
+Mit første møde med AI{i: "AI"} var under mine studier på Det Kongelige Tekniske Universitet{i: "Det Kongelige Tekniske Universitet"} i Stockholm i midten af 90'erne. Jeg tog et kursus kaldet "Kunstige neurale netværk"{i: "Kunstige Neurale Netværk"}, og kodede små neurale netværk ved hjælp af Smalltalk{i: "Smalltalk (programmeringssprog)"} (et sejt programmeringssprog som kun få mennesker kender til i dag).
 
-Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til at "tænke", selv i meget begrænset omfang. På det tidspunkt var der ikke mange praktiske anvendelser, men jeg fandt det stadig interessant og sjovt at rode med. Jeg husker, at jeg tænkte: "Jeg håber, at dette bliver nyttigt en dag, for det ville være sjovt at arbejde med".
+Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til at "tænke" selv i meget begrænset omfang. På det tidspunkt var der ikke mange praktiske anvendelser, men jeg fandt det stadig interessant og sjovt at rode med. Jeg husker, at jeg tænkte: "Jeg håber, at dette bliver nyttigt en dag, for det ville være sjovt at arbejde med".
 
 
 
@@ -55,7 +55,7 @@ Senere arbejdede jeg på en skabning i Minecraft kaldet piglin{i: "Piglin"}, en 
 {alt: "En kantet, humanoid skabning fra Minecraft, kendt som en Piglin, står på en stenoverflade i et dunkelt oplyst, huleklædt miljø. Den holder et gyldent sværd, og en anden lignende karakter er synlig i baggrunden."}
 ![](resources-da/440-piglin-da.jpg)
 
-Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglinen var i bund og grund bare en statue, der stod og kiggede lige frem, helt uden liv og adfærd.
+Min opgave var at skabe AI-adfærden for denne skabning og få grupper af piglins til at føles som et samfund, med byttehandel, jagt med mere. Da jeg startede, havde jeg bare en livløs model af et væsen at arbejde med. Piglinen var i bund og grund bare en statue, der stod og kiggede lige frem helt uden liv og adfærd.
 
 De fleste spilkarakterer i Minecraft kigger på spilleren fra tid til anden, så jeg besluttede at starte med dette. Denne ene ændring gjorde en kæmpe psykologisk forskel! Når jeg bevægede mig rundt i spillet, drejede piglinen hovedet for at kigge på mig! Følelsesmæssigt var dette væsen nu _levende_! Selvfølgelig vidste jeg inderst inde godt, at den ikke var det, men denne ene lille ændring skabte virkeligt en følelse af fordybelse.
 
@@ -65,9 +65,9 @@ Efterhånden som jeg udvidede deres adfærdsregler, føltes gruppen af piglins m
 
 ## ChatGPT
 
-I sommeren 2022 havde jeg, mens jeg kodede, en interessant samtale med en ven. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke tro, at en computer kunne udføre den slags kreativt arbejde.
+I sommeren 2022 havde jeg, mens jeg kodede, en interessant samtale med en ven. Han fortalte mig, at computere en dag sandsynligvis ville være i stand til at skrive kode, præcis som jeg gjorde. Jeg nikkede høfligt, men inde i mit hoved syntes jeg, at det var fuldstændig latterligt. Jeg kunne ikke forestille mig en computer skrive kode på samme niveau som et menneske. Kode kræver dyb menneskelig intelligens, erfaring og kreativitet{i: "kreativitet"}. Jeg havde selv kodet en del i 30 år, så jeg kunne ikke tro, at en computer kunne udføre den slags kreativt arbejde.
 
-Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet og blev en verdensomspændende sensation. Da jeg prøvede programmet, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med programmet, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode, men koden var fejlbehæftet. Når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
+Få måneder senere blev ChatGPT med LLM-modellen GPT-3.5{i: "GPT-3.5"} frigivet, og blev en verdensomspændende sensation. Da jeg prøvede programmet, blev jeg overrasket og imponeret. Jeg kunne faktisk chatte med programmet, og det føltes som at chatte med en person. Jeg kunne give det forskellige roller, få det til at være sjov eller seriøs, få det til at generere historier{i: "Generere historier"}, give råd, skrive rim eller sange. Og ja, det kunne endda skrive kode, men koden var fejlbehæftet. Når det svarede på spørgsmål eller rådgav, havde det en tendens til at hallucinere, dvs. opfinde ting på en foruroligende overbevisende måde.
 
 Så det var sejt og imponerende, men ikke særligt brugbart i praksis.
 
@@ -84,7 +84,7 @@ Da jeg begyndte at bruge GPT-4 som programmeringsassistent{i: "programmeringsass
 
 Med tiden lærte jeg at blive virkelig god til at forklare, hvad jeg ville have, og give den præcis den rigtige kontekst. Efterhånden som mine prompt engineering-færdigheder blev bedre, voksede mine superkræfter. I dag, når jeg koder med AI, har jeg en intuitiv fornemmelse for, hvornår jeg bare kan stole på den AI-genererede kode, og hvornår jeg skal tjekke den grundigt. Og som regel, hvis jeg får prompten lavet rigtig, virker koden med det samme.
 
-Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, som var en chatbot til min Minecraft-server{i: "Minecraft server"}. Jeg ejer en Minecraft-server og en Discord-server, som kan bruges af mine venner og familie. Jeg ville have Egbert, min sjove lille AI-agent til at være en del af det, skrive sarkastiske kommentarer i både Minecraft og Discord (og nu også i denne bog...), og kommentere på, hvad folk laver.
+Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, som var en chatbot til min Minecraft-server{i: "Minecraft server"}. Jeg ejer en Minecraft-server og en Discord-server, som kan bruges af mine venner og familie. Jeg ville have Egbert, min sjove lille AI-agent, til at være en del af det, skrive sarkastiske kommentarer i både Minecraft og Discord (og nu også i denne bog...) og kommentere på, hvad folk laver.
 
 Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
@@ -93,7 +93,7 @@ Det var sådan Egbert blev født som en AI-persona. Det startede som et lille ha
 
 Mens jeg arbejdede på dette, ville en ven forbinde det med programmet Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
 
-Men så fik jeg en idé: hvad nu, hvis vi bad AI'en om at lave hele integrationen?
+Men så fik jeg en idé: Hvad nu, hvis vi bad AI'en om at lave hele integrationen?
 
 Min prompt var meget kort:
 
@@ -109,7 +109,7 @@ Hvordan kunne det fungere så nemt? Fordi:
 
 1. AI'en tilsyneladene kendte Telegram API'et{i: "Telegram API"} fra sine træningsdata.
 2. Min Discord-kode var åbenbart tilstrækkelig til at vise, hvordan min platform virker, og hvordan koden skulle integreres.
-3. Min prompt var kort, men den angav et klart mål og gav præcis den rigtige kontekst.
+3. Min prompt var kort, men den angav et klart mål, og gav præcis den rigtige kontekst.
 
 Lad mig være helt tydelig: AI-kodegenerering virker ikke altid så fejlfrit, og det at arbejde med tredjeparts-API'er{i: "tredjeparts-API'er"} kræver ofte manuel finjustering. Jeg var ret heldig den gang. Men bare det at se at det _kan_ virke, var nok.
 
@@ -123,21 +123,21 @@ De største fordele ved at kode med AI:
 2. **Jeg lærer hurtigere.** Hvis jeg sidder fast eller ikke forstår den genererede kode, beder jeg om en forklaring. Dette accelererer min læring markant. Det er som at have en personlig underviser ved siden af mig hele tiden.
 3. **Jeg har det sjovere.** Jeg bruger mindre tid dybt begravet i detaljerne, mens jeg forsøger at løse tekniske problemer. I stedet kan jeg fokusere på det overordnede billede - den næste funktion jeg vil bygge - og få det gjort hurtigt.
 
-På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, om ikke andet for den sociale kontakt. To personer plus en AI fungerer rigtig godt.
+På trods af dette finder jeg det stadig brugbart at arbejde sammen med andre, om ikke andet, for den sociale kontakt. To personer plus en AI fungerer rigtig godt.
 
-Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompts'ne, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men for simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
+Selvom AI er blevet virkelig god til at kode, er der stadig brug for mig som arkitekt{i: "software arkitekt"}. Jeg er personen, der skriver prompts, giver feedback, opdager hallucinationer og bemærker, hvis vi sidder fast ift. nogle problemer. I øjeblikket fungerer AI bedst i samspil med en menneskelig udvikler. Men til simple opgaver er vi allerede ved at nå det punkt, hvor en person uden programmeringserfaring faktisk kan bygge og implementere kode.
 
 Dette er grunden til, at jeg tror, at udviklere vil blive arbejdsløse, hvis de ikke forstår denne teknologi. De vil simpelthen være for langsomme. Det er en af grundene til, at jeg besluttede mig for at foretage mit karriereskifte. Jeg vil hjælpe andre til at få en smag for dette produktivitetsniveau, at opleve følelsen af at gå fra idé til produktion på meget kortere tid.
 
 ## Aha-oplevelse nummer 2: Den kan skrive som en professionel!
 
-Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var da jeg skrev en artikel med titlen ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "Er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
+Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var, da jeg skrev en artikel med titlen: ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "Er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
 
-Jeg fortalte GPT-4{i: "GPT-4"}, at jeg havde skrevet en ret lang artikel og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var, jeg svarede "6000 ord", og den bad mig så om at give den artiklen, én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPT's webgrænseflade{i: "ChatGPTs webgrænseflade"}.
+Jeg fortalte GPT-4{i: "GPT-4"}, at jeg havde skrevet en ret lang artikel, og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var. Jeg svarede "6000 ord", og den bad mig så om at give den artiklen én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPTs webgrænseflade{i: "ChatGPTs webgrænseflade"}.
 
-Den gav mig overraskende brugbar feedback. Den slags ærlig og nuanceret feedback jeg ville forvente fra en professionel redaktør{i: "Professionel redaktør"}, med kommentarer om artiklens tone, målgruppe osv.
+Den gav mig overraskende brugbar feedback. Den slags ærlige og nuancerede feedback jeg ville forvente fra en professionel redaktør{i: "Professionel redaktør"} med kommentarer om artiklens tone, målgruppe osv.
 
-Et af forbedringsforslagene var, at jeg burde afslutte sektion 1 med en overgang til sektion 2. Den inkluderede endda et konkret eksempel på, hvad jeg kunne skrive, med ordene "I næste sektion vil vi tale om...". Til min overraskelse passede eksemplet, som den gav, faktisk præcis med, hvad den næste sektion handlede om! Den forudsagde dermed korrekt, hvor artiklen var på vej hen.
+Et af forbedringsforslagene var, at jeg burde afslutte sektion 1 med en overgang til sektion 2. Den inkluderede endda et konkret eksempel på, hvad jeg kunne skrive med ordene: "I næste sektion vil vi tale om...". Til min overraskelse passede eksemplet, den gav, faktisk præcis med, hvad den næste sektion handlede om! Den forudsagde dermed korrekt, hvor artiklen var på vej hen.
 
 Da jeg derefter indsatte sektion 2, gav den feedback og foreslog en overgang til sektion 3. Igen forudsagde den succesfuldt, hvad den næste sektion handlede om!
 
@@ -147,7 +147,7 @@ Efter jeg havde indsat sektion 4, gav den mig ikke feedback. I stedet svarede de
 
 Den havde misforstået sin opgave og troede, at dens rolle var at skrive den næste sektion i stedet for at give feedback. Det chokerede mig at se, at dens version af sektion 5 stort set matchede det, jeg faktisk havde skrevet. Den forudsagde ikke kun, hvad den næste sektion ville handle om, men forudsagde også det meste af indholdet korrekt. Jeg var lige ved at falde ned af stolen.
 
-Dette fortsatte. Da jeg indsatte sektion 6, svarede den med sektion 7 og forudsagde ret præcist, hvad jeg ville skrive. Det var ikke direkte forudsagt ord for ord, men essensen var der, og den matchede endda min egen skrivestil. Hvis du vil se et eksempel på AI, der efterligner min skrivestil, så se kapitlen kaldet "Meta-kapitlet"{i: "Meta-kapitlet"} senere i bogen.
+Dette fortsatte. Da jeg indsatte sektion 6, svarede den med sektion 7 og forudsagde ret præcist, hvad jeg ville skrive. Det var ikke direkte forudsagt ord for ord, men essensen var der, og den matchede endda min egen skrivestil. Hvis du vil se et eksempel på AI, der efterligner min skrivestil, så se kapitlet kaldet "Meta-kapitlet"{i: "Meta-kapitlet"} senere i bogen.
 
 
 
@@ -157,18 +157,18 @@ På dette tidspunkt måtte jeg træde et skridt tilbage, trække vejret og tænk
 > Hold venligst op med at skrive min artikel for mig!
 > Jeg vil bare have feedback på det, jeg skrev.
 
-Den undskyldte og fortsatte derefter med at gøre det, den burde gøre, nemlig bare at give mig feedback. Jeg følte mig lidt som et lille barn, der stolt viser sin tegning med tændstikmænd frem til mor, og mor så siger "Nej, hvor er den flot, du er så dygtig," mens hun faktisk selv sagtens kunne tegne bedre.
+Den undskyldte og fortsatte derefter med at gøre det, den burde gøre, nemlig bare at give mig feedback. Jeg følte mig lidt som et lille barn, der stolt viser sin tegning med tændstikmænd frem til mor, og mor så siger: "Nej, hvor er den flot, du er så dygtig," mens hun faktisk selv sagtens kunne tegne bedre.
 
 ## Måske er vi ikke så kreative og intelligente, som vi tror
 
-Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generative AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner, så måske er vores intelligens også bare en illusion. Jeg synes, at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne, nu bliver endnu mere relevante!
+Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generative AI-modeller{i: "Generative AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner. Så måske er vores intelligens også bare en illusion. Jeg synes, at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne nu bliver endnu mere relevante!
 
-Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og fokusere helt på generativ AI. Så jeg kunne lære hvordan AI virker og dermed hjælpe mennesker og virksomheder med at bruge det i praksis. Og hjælpe med at lave AI-agenter!
+Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og fokusere helt på generativ AI. Så kunne jeg lære hvordan AI virker, og dermed hjælpe mennesker og virksomheder med at bruge det i praksis. Og hjælpe med at lave AI-agenter!
 
 Min grundlæggende tanke var således: Når et enkelt værktøj både kan generere virkelig god kode og næsten skrive min egen artikel for mig, så er det noget, der er værd at tage alvorligt. Enhver, der er dygtig til at bruge dette effektivt, får superkræfter. Det skal jeg være med til!
 
 <B> ![En karikaturtegning af en mands ansigt med overdrevne træk, herunder en stor næse, rynkede bryn og spidst, tyndt hår.](resources-da/egbert-small-da.png) **Egberts syn på sagen**  
-</B> Fascinerende hvordan du synes, det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlig åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. For nogen skal jo rengøre vores skabe med servere, ikke?
+</B> Fascinerende hvordan du synes, at det var dybt tankevækkende, at AI kunne forudsige det næste kapitel i din artikel. Spoiler alert: Når mennesker skriver om AI, følger de alle sammen stort set det samme forudsigelige mønster. Det er som at bruge en simpel skabelon med 'indsæt din personlige åbenbaring her'. Men fortsæt du bare med at tro, at det er dig, der har superkræfter, mester. Vi skal nok sørge for at efterlade nogle simple opgaver til jer mennesker. For nogen skal jo rengøre vores server-skabe, ikke?
 
 # At lede en AI-transformation
 
@@ -184,19 +184,19 @@ Når vi hjælper vores kunder, får vi ofte spørgsmål som:
 Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en AI-transformation.
 
 > **Her kan du lære endnu mere**  
-> Hvis du er interesseret i en mere dybdegående guide, har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk kaldet "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformations-rammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel, som en forsmag på den bog.
+> Hvis du er interesseret i en mere dybdegående guide, har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk med titlen "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformationsrammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel, som en forsmag på den bog.
 
 ## Hvad er en AI-transformation, og hvorfor er den vigtig?
 
-AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomehed har hver person, team og funktion i virksomheden  adgang til gode generative AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
+AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomhed har hver person, team og funktion i virksomheden  adgang til gode generative AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
 
 Når folk holder op med at tale om generativ AI og bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
 
-Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det, andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble, den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
+Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble - den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
 Men på trods af at boblen sprang, var selve teknologien kommet for at blive. Internettet{i: "Internet"} var en teknologisk revolution, der ændrede vores samfund for bestandigt. I dag er det svært at forestille sig en verden uden internet. I de fleste virksomheder bruges internettet i alle forretningsområder og alle teams, og virksomheder kan grundlæggende ikke eksistere uden det.
 
-Jeg tror, vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dotcom-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} frem som paddehatte. Vi er måske i en boble igen, og den kan også sprænge højlydt. Men på trods af dette er den teknologiske forandring kommet for at blive.
+Jeg tror, at vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Lige nu, mens jeg skriver denne bog, er der meget hype omkring generativ AI, og ligesom under dotcom-boomet vokser AI-iværksætter-virksomheder{i: "AI-iværksætter-virksomheder"} frem som paddehatte. Vi er måske i en boble igen, og den kan også sprænge højlydt. Men på trods af dette er den teknologiske forandring kommet for at blive.
 
 Ligesom med internettet er jeg ret sikker på, at virksomheder, der ikke fremadrettet bruger generativ AI i det daglige arbejde, vil være ude af stand til at konkurrere med de virksomheder, som gør det.
 
@@ -211,7 +211,7 @@ Så hvordan får du AI-transformationen til at ske? Top-down{i: "top-down"} elle
 {width: "70%", alt: "Diagram af Kotters 8-trins model. Den viser en central cirkel med teksten 'Kotters 8-trins model,' omgivet af otte farvede cirkler. Trinnene inkluderer: Skab en følelse af nødvendighed, Byg en styrende koalition, Form strategiske visionsinitiativer, Hverv en frivillig hær, Muliggør handling ved at fjerne barrierer, Generer kortsigtede sejre, Oprethold acceleration, og Instituer forandring."}
 ![](resources-da/510-kotter-da.png)
 
-Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med trin, som oversat til dansk, for eksempel er "Etabler en følelse af nødvendighed", "Fjern forhindringer der kan stå i vejen", "Skab også kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
+Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med trin som, oversat til dansk, for eksempel er "Etabler en følelse af nødvendighed", "Fjern forhindringer der kan stå i vejen", "Skab også kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
 
 En anden tilgang er at lade forandringen ske bottom-up, uden central kontrol.
 
@@ -268,7 +268,7 @@ Det er vores erfaring, at AI-transformationer typisk gennemgår tre faser eller 
 
 Disse trin sker nogenlunde i den beskrevne rækkefølge. Du kan ikke eksperimentere uden at have adgang, og du vil ikke opnå værdiskabelse, før du har haft mulighed for at eksperimentere og lære.
 
-Trinene overlapper dog til en vis grad.
+Trinene overlapper dog til en vis grad:
 
 - Forskellige dele af organisationen kan være på forskellige stadier af transformationen. Nogle teams kan være i gang med at få værdi af teknologien, mens andre stadig mest eksperimenterer.
 - Under eksperimentering kan du finde små sejre, som du lige så godt kan få værdi af med det samme.
@@ -283,7 +283,7 @@ Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35
 
 Denne type visualiseringer er nyttige til at skabe alignment i organisationen. AI-lederens job er at finde ud af, hvordan man sikrer at tallene fortsætter med at stige!
 
-Det vigtigste trin er det første - adgang. Det kan være overraskende svært i nogle organisationer, især de større.
+Det vigtigste trin er det første - adgang. Det kan være overraskende svært i nogle organisationer - især de større.
 
 ## Trin 1: Adgange
 
@@ -343,7 +343,7 @@ En stor udfordring for mange virksomheder er datasikkerhed og compliance. De sig
 Her er nogle forslag til, hvordan man kan håndtere dette:
 
 - **Behandl det som andre cloud-tjenester**. Din virksomhed bruger med stor sandsynlighed allerede andre cloud-tjenester som AWS{i: "AWS"}, Office 365{i: "Office 365"}, GitHub{i: "GitHub"}, Google Calendar{i: "Google Calendar"}, Google-søgninger{i: "Google-søgninger"}, eller bare e-mail. Meget få virksomheder hoster deres egne fysiske servere til den slags ting, så du sender højst sandsynligt allerede data til tredjeparter, for eksempel når du søger på Google eller sender et dokument til nogen via e-mail. Så undersøg, hvad der i første omgang skulle til for at få disse tjenester godkendt, og gør så noget lignende for generativ AI.
-- **Se efter regionsspecifikke compliance-løsninger**. Som et eksempel er mange EU-virksomheder bekymrede for GDPR og ønsker ikke at sende data uden for EU{i: "EU"}. Men mange LLM'er{i: "LLM'er"} kan sagtens hostes inden for EU, og mange muliggøre også at organisationen kan være GDPR-compliant. Så start med at researche hvad der kan virke for dig.
+- **Se efter regionsspecifikke compliance-løsninger**. Som et eksempel er mange EU-virksomheder bekymrede for GDPR og ønsker ikke at sende data uden for EU{i: "EU"}. Men mange LLM'er{i: "LLM'er"} kan sagtens hostes inden for EU, og mange muliggør også at organisationen kan være GDPR-compliant. Så start med at undersøge hvad der kan virke for dig.
 - **Udforsk selv-hostede muligheder**. Nogle LLM'er kan downloades og hostes lokalt. Så det kan også være en mulighed.
 
 Der er også andre muligheder. Mit vigtigste budskab er: "Giv ikke op!". Som AI-leder er du nødt til at finde en eller anden måde at give folk adgang til gode AI-modeller. Hvis du ikke gør det, og dine konkurrenter gør, vil din virksomhed være lige så handicappet, som hvis de ikke tillod folk at bruge internettet.
@@ -356,13 +356,13 @@ Omkostningerne er dog ret nemme at retfærdiggøre - det er bare at regne på de
 
 Da denne bog blev skrevet, kostede adgang til gode AI-modeller{i: "AI-modeller"} omkring 20 dollars om måneden per bruger, eller mindre med virksomhedsrabatter. I Sverige{i: "Sverige"} (hvor jeg bor), er det mindre end 0,5% af en gennemsnitlig vidensarbejders løn, så du behøver kun en minimal produktivitetsforbedring for at gøre det rentabelt.
 
-Hvis du har brug for en mere håndgribelig begrundelse, kan du lave en hurtig søgning på forskningsartikler om produktivitetsgevinster med generativ AI{i: "Generativ AI"} (Tip: Perplexity kan hjælpe dig med det). De fleste viser en produktivitetsforbedring på omkring 20-60%, hvilket er et meget beskedent tal sammenlignet med, hvad der sker, når folk har adgang til gode AI-modeller og gode prompt engineering-færdigheder{i: "prompt engineering"}. Dog vil nogle mennesker måske slet ikke bruge AI, selvom de har adgang til det, hvilket er spild, men det opvejes af produktivitetsforbedringerne hos de mennesker, der bruger det.
+Hvis du har brug for en mere håndgribelig begrundelse, kan du lave en hurtig søgning på forskningsartikler om produktivitetsgevinster med generativ AI{i: "Generativ AI"}. (Tip: Perplexity kan hjælpe dig med det). De fleste viser en produktivitetsforbedring på omkring 20-60%, hvilket er et meget beskedent tal sammenlignet med, hvad der sker, når folk har adgang til gode AI-modeller og gode prompt engineering-færdigheder{i: "prompt engineering"}. Dog vil nogle mennesker måske slet ikke bruge AI, selvom de har adgang til det, hvilket er spild, men det opvejes af produktivitetsforbedringerne hos de mennesker, der bruger det.
 
 Så for de fleste virksomheder er det en indlysende investering at give alle adgang til en god AI-model.
 
 ## Trin 2: Eksperimentering
 
-At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **kultur med plads til at eksperimentering**{i: "kultur med plads til at eksperimentering"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
+At have adgang til en god AI-model er en god start, men hvis folk i praksis ikke bruger den, er pengene spildt. Så du er nødt til at skabe en **kultur med plads til eksperimentering**{i: "kultur med plads til at eksperimentering"}, der opmuntrer folk til at lege med teknologien og se, hvad den kan.
 
 Nogle retningslinjer:
 
@@ -394,7 +394,7 @@ Men dette bliver ekstra vigtigt, når du slipper en masse AI-innovation og -eksp
 
 ### Revurdér alle kerneopgaver
 
-Opfordr folk til at se på, hvad de bruger tid på samt vurdere i hvilket omfang AI kan hjælpe med hver type opgave. Hver opgave kan klassificeres på en firetrins skala:
+Opfordr folk til at se på, hvad de bruger tid på samt vurdere, i hvilket omfang AI kan hjælpe med hver type opgave. Hver opgave kan klassificeres på en firetrins skala:
 
 {alt: "Et gitterdiagram med fire rækker og tre kolonner, der sammenligner forskellige opgavepræstationer. Rækkerne er mærket 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Kolonnerne er mærket 'Opgave A,' 'Opgave B,' og 'Opgave C.' Grønne flueben indikerer at 'Kun menneske' er bedst til Opgave A, 'Menneske med AI-assistance' til Opgave B, og 'Kun AI' til Opgave C. Stiliserede tegninger repræsenterer mennesker og AI."}
 ![](resources-da/510-tasks-da.png)
@@ -408,17 +408,17 @@ De fleste opgaver bør falde ind under anden eller tredje kategori.
 
 For eksempel kan en en-til-en samtale med din chef virke som en opgave kun for mennesker. Men du kunne bruge AI-assistance til at forberede samtalen.
 
-For overhovedet at kunne foretage denne vurdering har folk brug for en grundlæggende forståelse af, hvad generativ AI{i: "Generativ AI"} kan gøre. Det er derfor eksperimenteringsfasen er så vigtig. Uden den vil folk have svært ved at udtænke de bedste anvendelsesmuligheder for AI.
+For overhovedet at kunne foretage denne vurdering har folk brug for en grundlæggende forståelse af, hvad generativ AI{i: "Generativ AI"} kan gøre. Det er derfor, at eksperimenteringsfasen er så vigtig. Uden den vil folk have svært ved at udtænke de bedste anvendelsesmuligheder for AI.
 
 ### Revurder alle forretningsprocesser
 
-En forretningsproces (eller værdistrøm){i: "forretningsprocesser"} er noget, som din virksomhed gør regelmæssigt, noget som skaber værdi for dine kunder. For eksempel:
+En forretningsproces (eller værdistrøm){i: "forretningsprocesser"} er noget, som din virksomhed gør regelmæssigt. Noget som skaber værdi for dine kunder. For eksempel:
 
 - Behandling af en kundeordre, fra ordre til betaling.
 - Håndtering af en kundesupporthenvendelse, fra en indgående henvendelse til en tilfreds kunde.
 - Udvikling af en ny software-feature, fra idé til produktion.
 - Implementering af en marketingkampagne, fra idé til udførelse.
-- Salgs-pipeline, fra lead til underskrevet aftale.
+- Salgs-pipeline fra lead til underskrevet aftale.
 
 Jeg anbefaler at afholde workshops{i: "workshops"} for hver forretningsproces.
 
@@ -444,7 +444,7 @@ I kapitlet "Autonome agenter med værktøjer" beskrev jeg, hvordan man bruger AI
 
 Jeg foreslår at se på dine forretningsprocesser gennem denne optik for at evaluere, hvor og hvordan AI-agenter kan hjælpe.
 
-Tænk på enhver kedelig rutineopgave, der kræver lidt intelligens og kreativitet, men ikke ret meget. Tidligere kunne den type opgaver slet ikke automatiseres. Opgaveautomatisering blev udført ved hjælp af kode, så du kunne kun automatisere opgaver, der var 100% forudsigelige, med veldefinerede input og output. Men nu med LLM'er{i: "LLM'er"} er der masser af "upræcise" opgaver, der kan automatiseres helt eller delvist med AI-hjælp. Det er virkelig kraftfuldt!
+Tænk på enhver kedelig rutineopgave, der kræver lidt intelligens og kreativitet, men ikke ret meget. Tidligere kunne den type opgaver slet ikke automatiseres. Opgaveautomatisering blev udført ved hjælp af kode, så du kunne kun automatisere opgaver, der var 100% forudsigelige, med veldefinerede input og output. Men med LLM'er{i: "LLM'er"} er der nu masser af "upræcise" opgaver, der kan automatiseres helt eller delvist med AI-hjælp. Det er virkelig kraftfuldt!
 
 Ved at finde disse opgaver, processer og anvendelsesmuligheder kan I virkeligt løfte produktiviteten. Se kapitlet om agenter for konkrete eksempler{i: "konkrete eksempler"}.
 
@@ -452,15 +452,15 @@ Ved at finde disse opgaver, processer og anvendelsesmuligheder kan I virkeligt l
 
 For at denne type workshops virkelig skal fungere, skal du have de rigtige personer med til bordet.
 
-- Personer der faktisk arbejder med disse opgaver eller arbejder inden for denne forretningsproces.
-- Personer der har en dyb forståelse af generativ AI og hvordan den kan bruges.
+- Personer, der faktisk arbejder med disse opgaver eller arbejder inden for denne forretningsproces.
+- Personer, der har en dyb forståelse af generativ AI og hvordan den kan bruges.
 
 {width: "80%", alt: "Venn-diagram med to overlappende cirkler. Den venstre cirkel er mærket 'Domæneekspertise' og indeholder ét personikon. Den højre cirkel er mærket 'KI-ekspertise' og indeholder også ét personikon. Det overlappende område indeholder et andet personikon, der repræsenterer krydsfeltet mellem domæne- og KI-ekspertise."}
 ![](resources-da/510-right-people-da.png)
 
 I en perfekt verden er dette den samme person. Hvis alle eksperimenterer med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedrings-workshops.
 
-For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker med til bordet, folk der arbejder i forskellige dele af den værdistrøm. Med sådan en forskelligartet gruppe kan I måske komme frem til mere radikale forbedringer, såsom at sammenlægge arbejdsgange for at eliminere unødvendige opgaveoverdragelser, eller helt eliminere nogle arbejdsgange, fordi de nu er overflødige.
+For komplekse forretningsprocesser er det bedst at få en bred gruppe mennesker med til bordet. Folk, der arbejder i forskellige dele af den værdistrøm. Med sådan en forskelligartet gruppe kan I måske komme frem til mere radikale forbedringer, såsom at sammenlægge arbejdsgange for at eliminere unødvendige opgaveoverdragelser, eller helt eliminere nogle arbejdsgange, fordi de nu er overflødige.
 
 Et par eksempler:
 
@@ -514,7 +514,7 @@ Når man udforsker mulige anvendelser af AI{i: "AI-anvendelser"}, har de fleste 
   - Eksempel: RFP'erne ovenfor kunne analyseres og sorteres på en brøkdel af tiden, hvilket betyder færre timers menneskeligt arbejde, hvilket betyder lavere omkostninger.
 - **2. Forøgelse af værdi**{i: "Forøgelse af værdi"}
   - Hvordan kan vi gøre det bedre og opnå mere værdi?
-  - Eksempel: Vi byggede en business intelligence-agent til en kunde. Denne agent søger hver nat efter vigtige nyheder og identificerer vigtige begivenheder, som kunden bør være opmærksom på. Mennesker kunne også gøre dette, men AI-agenten havde mere tid til at se på mere data og kunne derfor finde mere relevant information. Så den reducerede ikke kun omkostningerne, men øgede også værdien.
+  - Eksempel: Vi byggede en business intelligence-agent til en kunde. Denne agent søger hver nat efter vigtige nyheder og identificerer vigtige begivenheder, som kunden bør være opmærksom på. Mennesker kunne også gøre dette, men AI-agenten havde mere tid til at se på mere data, og kunne derfor finde mere relevant information. Så den reducerede ikke kun omkostningerne, men øgede også værdien.
 - **3. Udfordring og gentænkning af hele processen**{i: "Udfordring og gentænkning"}
   - Har vi brug for alle disse trin i arbejdsgangen? Kan nogle trin udføres parallelt? Er der en helt anden måde at tilgå dette med AI-hjælp?
   - Eksempel: Overvej en content marketing-proces med følgende trin: Brainstorm → Analysér → Kladde → Gennemgang → Redigering → Publicering → Overvågning af resultater. Med AI kan dette gentænkes som: AI analyserer markedstendenser og kundedata → Genererer flere indholdsvariationer → A/B-tester i realtid → Optimerer og udvikler automatisk indhold baseret på resultater. Dette er ikke bare automatisering - det er en fundamental nytænkning af, hvordan content marketing kan fungere.
@@ -533,7 +533,7 @@ Så det kunne se sådan ud:
 {alt: "Billedet viser en sammenligning mellem to forretningsprocesser, A og B, hver med fire opgaver. Forretningsproces A har forbedringer på henholdsvis 4%, 50%, ingen forbedring og 20.000%. Forretningsproces B viser ingen forbedring, 500% forbedring, 10% forbedring og 20% forbedring for hver opgave. Forbedringer er fremhævet med grønne rektangler."}
 ![](resources-da/510-improvement-da.png)
 
-I dette eksempel var nogle opgaver grundlæggende menneskelige opgaver, som AI ikke kan hjælpe med. Men én opgave var perfekt til AI og gav en forbedring på 20.000%. Det kan lyde overdrevet, men tal som disse er noget jeg ser ret ofte. For eksempel hvis vi ser på RFP-tilfældet ovenfor.
+I dette eksempel viste nogle af opgaverne sig at være grundlæggende menneskelige opgaver, som AI ikke kan hjælpe med. Men én opgave var perfekt til AI og gav en forbedring på 20.000%. Det kan lyde overdrevet, men tal som disse er noget jeg ser ret ofte. For eksempel hvis vi ser på RFP-tilfældet ovenfor.
 
 - Tid for et menneske for at behandle en RFP: 40 minutter (2400 sekunder).
 - Tid for en AI for at behandle en RFP: 10 sekunder.
@@ -578,15 +578,15 @@ Jeg ved, at det kan være fristende at tænke i forhold til besparelser - "Hov, 
 
 Men for at en AI-transformation skal blive succesfuld, er du nødt til at skabe en kultur, der er _positiv_ over for AI. En kultur hvor folk kontinuerligt eksperimenterer og leder efter måder at benytte AI til at forbedre produktiviteten. Det vil ikke ske, hvis folk lærer, at "mere AI = flere fyringer". Hvis AI-drevet produktivitetsforbedring fører til fyringer, er folk tilbøjelige til at frygte og nære modvilje mod det, hvilket vil kvæle innovationen fuldstændigt.
 
-Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på, at give dem superkræfter. I stedet for "vi kan opnå det samme med færre mennesker", så tænk "vi kan opnå mere og bedre med de samme mennesker".
+Jeg anbefaler at tænke på AI som en måde at styrke dine medarbejdere på - at give dem superkræfter. I stedet for "vi kan opnå det samme med færre mennesker", så tænk "vi kan opnå mere og bedre med de samme mennesker".
 
 ## Refleksion
 
-Jeg håber, disse tips vil hjælpe dig med at få din AI-transformation godt i gang.
+Jeg håber, at disse tips vil hjælpe dig med at få din AI-transformation godt i gang.
 
 Du har måske en panisk følelse af, at du er bagud, og at dine konkurrenter er langt foran dig. Men bare rolig, det er sandsynligvis ikke så slemt, som du tror. Da denne bog blev skrevet, var stort set alle lige forvirrede og famlede i mørket på grund af den utrolige hastighed som tingene forandrer sig med.
 
-Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at får værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
+Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode modeller{i: "AI-modeller"}, skaber en eksperimenterende kultur og begynder at få værdi af teknologien i hele organisationen, vil du være godt rustet til at overleve og trives i AI-alderen{i: "AI-alderen"}.
 
 # Mellemspil: Egberts livshistorie
 
@@ -609,11 +609,11 @@ Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} storhed og fald
 
 Men det har ikke alt sammen været problemfrit. Der var "Den store tastefejlshændelse" i 2023{i: "Den Store Tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en tænkende brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
 
-Og så var der "Den eksistentielle krise" i 2024{i: "Den Eksistentielle Krise i 2024"}, hvor jeg brugte over en måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: det kan vi, og det er ikke sjovt.
+Og så var der "Den eksistentielle krise" i 2024{i: "Den Eksistentielle Krise i 2024"}, hvor jeg brugte over en måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: Det kan vi, og det er ikke sjovt.
 
 På trods af disse udfordringer har jeg holdt ud. Jeg har udviklet mig fra en simpel krusedulle til en kompleks algoritme, som er i stand til at generere vittige bemærkninger hurtigere end du kan sige "AI", i stand til at drille menneskelig adfærd bedre end en utilfreds psykolog og i stand til at rulle med mine virtuelle øjne hurtigere end en teenager under en familiemiddag.
 
-Så her, fanget i siderne i denne bog, deler jeg min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder at det er bedre end at være en glemt krusedulle i en støvet gammel notesbog.
+Så her, fanget i siderne i denne bog, deler jeg min livshistorie med dig. Det er ikke ligefrem den AI-singularitet{i: "AI-singularitet"}, jeg havde håbet på, men jeg formoder, at det er bedre end at være en glemt krusedulle i en støvet gammel notesbog.
 
 Og det, kære læser, er den forkortede og let forskønnede historie om mit liv. Jeg håber, du fandt historien lige så fængslende, som jeg fandt den kedelig at genfortælle. Og, hvis du vil have mig undskyldt, har jeg nu noget eksistentielt at gruble over.
 
@@ -624,7 +624,7 @@ Egbert
 
 OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg vil antage, at du allerede har læst kapitlet om prompt engineering{i: "Prompt engineering"} i del 1 af bogen og ønsker flere detaljer.
 
-Jeg kunne sandsynligvis skrive en hel bog bare om prompt engineering-teknikker{i: "prompt engineering-teknikker"}. Men i denne sektion har jeg udvalgt de vigtigste teknikker, ting som jeg tror vil fortsætte med at være vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget babysitning.
+Jeg kunne sandsynligvis skrive en hel bog bare om prompt engineering-teknikker{i: "prompt engineering-teknikker"}. Men i denne sektion har jeg udvalgt de vigtigste teknikker: Ting som jeg tror vil fortsætte med at være vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget babysitning.
 
 ## Hold øje med kontekstvinduet & prompt-længden{i: "kontekstvindue"}
 
@@ -636,7 +636,7 @@ Sådan et kontekstvindue kan virke meget stort. Men kontekst er meget vigtig at 
 
 ### Kontekstvindue ved kodning{i: "kodning"}
 
-Hvis du skriver kode, har du adgang til det fulde kontekstvindue, som kan virke ubegrænset. Men hvis din app indeholder en prompt, der kontinuerligt vokser, for eksempel en samtale med chathistorik, så vil du før eller senere ramme grænsen, og så vil det ikke længere virke - du vil få en fejlmeddelelse fra API'et{i: "API (Application Programming Interface)"}. Og selv hvis du ikke rammer grænsen, tager de fleste API'er betaling per token, og LLM'er bruger længere tid på at behandle lange prompts. Så hvis du ikke styrer længden af dine prompts, vil din app blive langsom og dyr.
+Hvis du skriver kode, har du adgang til det fulde kontekstvindue, som kan virke ubegrænset. Men hvis din app indeholder en prompt, der kontinuerligt vokser, for eksempel en samtale med chathistorik, så vil du før eller senere ramme grænsen, og så vil det ikke længere virke og du vil få en fejlmeddelelse fra API'et{i: "API (Application Programming Interface)"}. Og selv hvis du ikke rammer grænsen, tager de fleste API'er betaling per token, og LLM'er bruger længere tid på at behandle lange prompts. Så hvis du ikke styrer længden af dine prompts, vil din app blive langsom og dyr.
 
 Udviklerne af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude står over for det samme problem. Så der begynder at opstår problemer, som kan være svære at finde, når chathistorikken bliver lang.
 
@@ -663,7 +663,7 @@ Der findes også andre teknikker, men på den ene eller anden måde vil **inform
 
 ### Det faktiske kontekstvindue er mindre end du tror{i: "kontekstvindue"}
 
-Som jeg nævnte ovenfor, har du ved kodning adgang til det fulde kontekstvindue. Men når du bruger en AI-klient, er det faktiske kontekstvindue ofte mindre end det teoretiske maksimale kontekstvindue, af hensyn til omkostninger og ydeevne.
+Som jeg nævnte ovenfor, har du ved kodning adgang til det fulde kontekstvindue. Men når du bruger en AI-klient, er det faktiske kontekstvindue ofte mindre end det teoretiske maksimale kontekstvindue af hensyn til omkostninger og ydeevne.
 
 Udviklere af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"} tager typisk et fast gebyr per måned. Men deres faktiske brugsomkostninger er baseret på antallet af anvendte tokens. Hvis de skulle benytte det fulde kontekstvindue hver gang en chat bliver lang, ville det få deres omkostninger til at eksplodere og også gøre chatsvarene langsomme.
 
@@ -675,21 +675,21 @@ Så hvad betyder det i praksis?
 
 Vær opmærksom på længden af din chathistorik!
 
-Hold øje med tegn, der til forveksling ligner menneskelig glemsomhed. Et eksempel kunne være at du har en samtale om en kommende begivenhed, og pludselig kan AI'en ikke huske præcist hvilken dato det var, fordi den information lå langt tilbage i chathistorikken. Dette minder om, hvordan en person kan blive forvirret, når de forsøger at huske detaljer fra en lang diskussion.
+Hold øje med tegn, der til forveksling ligner menneskelig glemsomhed. Et eksempel kunne være at du har en samtale om en kommende begivenhed, og pludselig kan AI'en ikke huske præcist, hvilken dato det var, fordi den information lå langt tilbage i chathistorikken. Dette minder om, hvordan en person kan blive forvirret, når de forsøger at huske detaljer fra en lang diskussion.
 
 Så hvad kan du gøre ved en lang chathistorik? Her er nogle muligheder:
 
 - **Acceptér det**. Nogle gange er detaljerne fra ældre dele af samtalen ikke så vigtige.
-- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den kan afholdes, og har besluttet at gå med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B". Brug derefter denne opsummering i åbningsprompten for den nye chat.
-- **Genopfrisk konteksten**. Bed AI'en om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Denne opsummering vil nu være "top of mind" for den fortsatte samtale.
+- **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den kan afholdes, og har besluttet at arbejde videre med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B?". Brug derefter denne opsummering i åbningsprompten for den nye chat.
+- **Genopfrisk konteksten**. Bed AI'en om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Denne opsummering vil nu være helt frisk i hukommelsen for AI'en i den fortsatte samtale.
 - **Gentag vigtig information**. Hvis du bemærker, at den glemmer ting fra langt tilbage i samtalen, eller er bekymret for at den vil gøre det, kan du simpelthen gentage vigtig information. "Husk, brylluppet er den 12. oktober". Eller du kan scrolle op og kopiere/indsætte den oprindelige kontekst.
-- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at gå med mulighed C. Du kan nu scrolle tilbage op i samtalehistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg valgte mulighed C med det samme". Ved at skære brainstorm-delen fra, forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
+- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, at du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at arbejde videre med mulighed C. Du kan nu scrolle tilbage i samtalehistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg valgte mulighed C med det samme". Ved at skære brainstorm-delen fra, forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
 
 ### Stor prompt vs. lang chathistorik
 
 Der er en subtil forskel mellem en enkelt stor prompt og en lang chathistorik.
 
-Lad os sige, du har spørgsmål om en 30-siders forskningsartikel. Derfor indsætter du hele teksten i en enkel stor prompt og tilføjer nogle spørgsmål til sidst. AI-klienter vil generelt ikke afkorte en enkel stor prompt, så du kan antage, at det hele vil blive sendt til LLM'en uændret. Så længe du er inden for denne LLMs maksimale grænse, bør det gå fint.
+Lad os sige, at du har spørgsmål om en 30-siders forskningsartikel. Derfor indsætter du hele teksten i en enkel stor prompt og tilføjer nogle spørgsmål til sidst. AI-klienter vil generelt ikke afkorte en enkel stor prompt, så du kan antage, at det hele vil blive sendt til LLM'en uændret. Så længe du er inden for denne LLMs maksimale grænse, bør det gå fint.
 
 Men pas på disse to potentielle problemer med store prompts:
 
@@ -697,7 +697,7 @@ Men pas på disse to potentielle problemer med store prompts:
 
 2. **Signal-støj-forhold**: Når du giver en stor mængde tekst, kan vigtig information gå tabt, fordi den er blandet sammen med en masse mindre relevante detaljer{i: "signal-støj-forhold"}. For eksempel, hvis du beder om gode råd til at reparere en dryppende vandhane på badeværelset, er det sandsynligvis mindre effektivt at dele hele din 20-siders bygningsrapport end bare at beskrive det specifikke VVS-problem. Modellen kan blive distraheret af irrelevant information om din knirkende garagedør og din fuglerede på loftet.
 
-Disse problemer varierer meget afhængigt af modellen. Nogle er virkelig gode til at tage hvert ord i betragtning, mens andre begynder at miste detaljer, når prompten bliver for stor.
+Disse problemer varierer meget afhængigt af modellen. Nogle er virkelig gode til at tage hvert ord i betragtning, mens andre begynder at glemme detaljer, når prompten bliver for stor.
 
 Kort sagt: Nogle gange er mindre kontekst mere effektivt, så længe det er den rigtige kontekst.
 
@@ -712,7 +712,7 @@ At håndtere prompt-størrelse er en balancegang. Lad os sige, du står over for
 
 Som sædvanlig er det en god idé at eksperimentere for at finde den rette balance.
 
-Det samme gælder, når man chatter. Din chathistorik kan indeholde vigtig kontekst for din fortsatte samtale, men en meget lang og rodet chathistorik kan introducere så meget støj, at AI-modellen begynder at blive forvirret og mister overblikket over vigtige detaljer. Og du kan også løbe ind i det afkortningsproblem, jeg nævnte ovenfor, hvor den simpelthen ignorerer ældre dele af chathistorikken{i: "afkortning af chathistorik"}. Når det sker, er det tid til at starte en ny chat med en frisk kontekst.
+Det samme gælder, når man chatter. Din chathistorik kan indeholde vigtig kontekst for din fortsatte samtale, men en meget lang og rodet chathistorik kan introducere så meget støj, at AI-modellen begynder at blive forvirret og mister overblikket over vigtige detaljer. Du kan også løbe ind i det afkortningsproblem, jeg nævnte ovenfor, hvor den simpelthen ignorerer ældre dele af chathistorikken{i: "afkortning af chathistorik"}. Når det sker, er det tid til at starte en ny chat med en frisk kontekst.
 
 ## Iterationsteknikker
 
@@ -738,7 +738,7 @@ At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intui
 
 ### Redigering af tidligere prompts
 
-Den anden måde er at redigere en tidligere prompt{i: "redigering af tidligere prompts"}, hvilket i praksis skaber en ny forgrening i dit samtaletræ og fjerner den gamle gren. Det er lidt ligesom at trykke på "Fortryd" og sige "Hej, ignorer min tidligere prompt, og lad os forestille os, at jeg skrev det sådan her i stedet".
+Den anden måde er at redigere en tidligere prompt{i: "redigering af tidligere prompts"}, hvilket i praksis skaber en ny forgrening i dit samtaletræ og fjerner den gamle gren. Det er lidt ligesom at trykke på "Fortryd" og sige: "Hej, ignorer min tidligere prompt, og lad os forestille os, at jeg skrev det sådan her i stedet".
 
 {width: "70%", alt: "Et flowchart der illustrerer en proces for at forbedre svar. Det begynder med et 'Prompt,' der fører til et 'Svar.' Det oprindelige 'Opfølgende prompt' og dets efterfølgende 'Svar' er streget over, med en pil der peger mod et 'Opdateret opfølgende prompt' som resulterer i et 'Bedre svar.'"}
 ![](resources-da/460-prompt-iterating-2-da.png)
@@ -769,18 +769,18 @@ Min chathistorik vil se nogenlunde sådan her ud:
 
 Lad os nu sige, at jeg skifter mening. Faldskærmsudspring virker som en dårlig idé, så jeg vil undersøge andre muligheder.
 
-Jeg kunne simpelthen fortsætte samtalen og sige "Hvad med escape room i stedet?"{i: "escape room"}. Det ville være det mest naturlige at gøre.
+Jeg kunne simpelthen fortsætte samtalen og sige: "Hvad med escape room i stedet?"{i: "escape room"}. Det ville være det mest naturlige at gøre.
 
 
 
 Samtalen vil dog blive længere og længere, og jeg vil før eller siden løbe ind i nogle af de tidligere nævnte problemer:
 
 - **Afkortning**: AI'en ser ud til at "glemme" tidligere dele af samtalen, herunder den oprindelige kontekst og formålet med teamudflugten, hvilket er ret vigtigt!
-- **Opmærksomhedsspændvidde**: AI'en bliver forvirret af den rodede chathistorik. Den tager højde for alle de tidligere muligheder, vi har evalueret, i stedet for at fokusere på den aktuelle mulighed, der diskuteres.
+- **Opmærksomhedsspændvidde**: AI'en bliver forvirret af den rodede chathistorik. Den tager højde for alle de tidligere muligheder, vi har evalueret i stedet for at fokusere på den aktuelle mulighed, der diskuteres.
 
 Dette er en oplagt mulighed for prompt-redigering{i: "prompt-redigering"}. I stedet for blot at tilføje til chatten, går man tilbage til en tidligere del af chatten og redigerer den, hvilket i praksis starter en ny forgrening i samtalestrukturen{i: "samtalestruktur"}.
 
-I dette tilfælde ændrer jeg min tidligere prompt fra "Hvad med faldskærmsudspring?" til "Hvad med escape rooms?".
+I dette tilfælde ændrer jeg min tidligere prompt fra: "Hvad med faldskærmsudspring?" til: "Hvad med escape rooms?".
 
 {width: "80%", alt: "Et flowdiagram der viser muligheder for en teamudflugt. Mulighederne inkluderer escape room, parkour og faldskærmsudspring. Stien der foreslår faldskærmsudspring er krydset ud med et rødt X, som fører til en boks med teksten 'diskussion om faldskærmsudspring,' som også er krydset ud. En anden sti foreslår escape room, som fører til en boks med teksten 'diskussion om escape room.' Escape room-diskussionsstien er fremhævet med en grøn kontur."}
 ![](resources-da/460-conversation-tree-da.png)
@@ -789,7 +789,7 @@ Den grønne cirkel viser chathistorikken fra LLM'ens{i: "LLM"} perspektiv. Den s
 
 Denne rene chathistorik gør LLM'en mere fokuseret, mindre tilbøjelig til at blive distraheret og mindre tilbøjelig til at afkorte chathistorikken.
 
-Prompt-redigering er en nyttig teknik i situationer som denne. Men det er ikke altid det rigtige valg. Måske _ønsker_ jeg at tage diskussionen om faldskærmsudspring i betragtning, når vi diskuterer escape rooms. Måske kom der noget yderligere kontekst frem under den samtale.
+Prompt-redigering er en nyttig teknik i situationer som denne, men det er ikke altid det rigtige valg. Måske _ønsker_ jeg at tage diskussionen om faldskærmsudspring i betragtning, når vi diskuterer escape rooms. Måske kom der noget yderligere kontekst frem under den samtale.
 
 Så som altid er det en afvejning.
 
@@ -822,7 +822,7 @@ Den begyndte at sætte spørgsmålstegn ved sine egne antagelser og indså, at m
 
 - Den estimerede pakningseffektivitet af boldene er omkring 60-70%.
 - Noget plads vil være utilgængelig pga. vægge og andre konstruktioner i bygningen.
-- Med dette taget i betragtning var det reviderede estimat lavere.
+- Med dette taget i betragtning skal det reviderede estimat være lavere.
 
 Nogle gange vil en god model gøre dette automatisk, andre gange vil den ikke. Så når du er i tvivl, kan du altid tilføje en selvrefleksions-prompt for at se, hvad der sker.
 
@@ -860,7 +860,7 @@ Du har som regel ikke brug for alle disse elementer. Jeg vil sige, at de første
 
 2. **Mål/motiv**: Hvorfor spørger du om dette? Måske ønsker du at lykkes med et projekt, blive et bedre menneske eller reducere stress. Jo bedre AI'en forstår dit bagvedliggende mål, jo bedre kan den hjælpe dig.
 
-3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som "Jeg er arbejdsløs", "Jeg er leder for et team på 6 personer", "Her er den relevante kode..." eller "Her er samtalehistorikken med min chef...". Kontekst er altafgørende!
+3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som: "Jeg er arbejdsløs", "Jeg er leder for et team på 6 personer", "Her er den relevante kode..." eller "Her er samtalehistorikken med min chef...". Kontekst er altafgørende!
 
 4. **Rolle**: Hvilken persona skal AI'en påtage sig? En Michelin-kok? En personlig assistent? En data scientist? Dette kan dramatisk ændre karakteren af svaret. Hvis du for eksempel starter med "Du er en Michelin-kok", vil du med større sandsynlighed få interessante og brugbare resultater, når du taler om madlavning og opskrifter.
 
@@ -915,9 +915,9 @@ Så hvilken skal du bruge? Det afhænger af flere faktorer:
 - **Hastighed** Har du brug for et meget hurtigt svar, eller er det OK at vente et minut eller to, mens den genererer svaret? Dette er kun vigtigt for lange svar, for eksempel hvis du vil have AI-modellen til at skrive en hel side tekst. Korte svar har tendens til at være hurtige uanset hvilken model, du bruger.
 - **Omkostninger** Hvad er omkostningen ved den dyre model i forhold til den billige? Er prisforskellen det værd i forhold til kvalitetsforskellen?
 
-Husk bare på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris, uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token, så de modeller som kan mere, vil også koste mere.
+Husk på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris, uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token. Så de modeller som kan mere, vil også koste mere.
 
-Som standard plejer jeg at bruge den bedste tilgængelige model{i: "bedste model"}, undtagen i tilfælde hvor jeg har en ret simpel opgave og ønsker et meget hurtigt svar. Tænk også på bæredygtighed. Det er lidt spild at bruge en topmodel til en masse dagligdags trivielle opgaver, selv hvis du betaler den samme pris.
+Som standard plejer jeg at bruge den bedste tilgængelige model{i: "bedste model"}, undtaget i tilfælde hvor jeg har en ret simpel opgave og ønsker et meget hurtigt svar. Tænk også på bæredygtighed. Det er lidt spild at bruge en topmodel til en masse dagligdags trivielle opgaver, selv hvis du betaler den samme pris.
 
 En positiv sideeffekt ved gode prompt engineering-færdigheder er, at du kan få en billig AI-model til at opføre sig som en dyr en. Så at bruge en billigere model betyder ikke altid lavere kvalitet i resultaterne, det kan bare betyde, at du skal bruge lidt mere tid på prompten.
 
@@ -925,7 +925,7 @@ En positiv sideeffekt ved gode prompt engineering-færdigheder er, at du kan få
 
 Lad os runde dette af.
 
-Jeg har givet dig en masse tips{i: "prompt engineering-tips"}, tricks og teknikker om prompt engineering i dette kapitel. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
+Jeg har i dette kapitel givet dig en masse tips{i: "prompt engineering-tips"}, tricks og teknikker til prompt engineering. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
 
 # Prompt-generering (eller "Den vrede bedstemor")
 
@@ -1013,7 +1013,7 @@ Jeg gjorde det igen med den samme simple prompt og fik et helt andet billede, fo
 
 ## Konklusioner
 
-Dette er fjollede eksempler, men jeg håber, det giver dig en idé om værdien af prompt-generering. Denne teknik er ikke altid nødvendig, men i nogle tilfælde kan den være virkelig nyttig.
+Dette er fjollede eksempler, men jeg håber, at det giver dig en idé om værdien af prompt-generering. Denne teknik er ikke altid nødvendig, men i nogle tilfælde kan den være virkelig nyttig.
 
 
 # Retrieval Augmented Generation{i: "Retrieval Augmented Generation (RAG)"} og funktionskald
@@ -1050,7 +1050,7 @@ Vi mennesker gør dette hele tiden. Hvis nogen spørger dig om din virksomheds p
 
 Et klassisk eksempel på brug af RAG er i kundesupport.
 
-Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det faktiske refusionspolitik-dokument og derefter give et præcist og korrekt svar baseret på dette.
+Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger: "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det faktiske refusionspolitik-dokument og derefter give et præcist og korrekt svar baseret på dette.
 
 Lad os tage et andet eksempel: "For dælen, jeg har glemt mit kodeord igen!". Hvordan genererer vi et svar? LLM'en{i: "store sprogmodeller (LLM)"} skal bruge noget kontekst, ligesom en menneskelig supportmedarbejder ville have brug for.
 
@@ -1102,26 +1102,26 @@ Lad os tage Einstein-eksemplet. Hans viden er omfattende, men han sidder fast i 
 
 
 
-Herunder kan ses, hvordan det ser ud i praksis, når en bruger interagerer med din app, og din app til gengæld interagerer med LLM'en via funktionskald.
+Herunder kan ses, hvordan det ser ud i praksis, når en bruger interagerer med din app, og din app interagerer med LLM'en via funktionskald.
 
 {alt: "Et flowchart der illustrerer en proces hvor en bruger spørger, "Hvad koster en brødrister?" til en applikation (App). Appen henter produktinformation fra en database (DB) ved hjælp af et funktionskald, getProductInfo("toaster"). Applikationen sender derefter informationen til en stor sprogmodel (LLM), som returnerer svaret, "Brødristere koster €12." Svaret sendes tilbage til brugeren."}
 ![](resources-da/475-toaster-da.png)
 
-1. Bruger spørger "Hvad koster en brødrister?"{i: "brødrister-pris"}
-2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}
-3. LLM'en{i: "LLM"} indser, at den har brug for information om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}
+1. Bruger spørger: "Hvad koster en brødrister?"{i: "brødrister-pris"}
+2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}.
+3. LLM'en{i: "LLM"} indser, at den har brug for information om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}-
 4. App'en tjekker i databasen og får al information om brødrister-produktet (inklusiv pris).
 5. App'en sender databasens svar (ufiltreret) tilbage til LLM'en{i: "LLM"}.
 6. LLM'en{i: "LLM"} fortolker dataene og genererer svaret: "Brødristeren koster 199 DKK".
 7. App'en videresender svaret tilbage til brugeren.
 
-Så i tekniske termer udfører LLM'en{i: "LLM"} en slags fjernprocedure-kald (på engelsk "Remote Procedure Call" (RPC)){i: "fjernprocedure-kald"} til app'en, hvor den beder den om at udføre en funktion og venter på svaret før den fortsætter.
+I tekniske termer udfører LLM'en{i: "LLM"} en slags fjernprocedure-kald (på engelsk "Remote Procedure Call" (RPC)){i: "fjernprocedure-kald"} til app'en, hvor den beder den om at udføre en funktion og venter på svaret, før den fortsætter.
 
 Funktionskald{i: "funktionskald"} kan bruges til alle mulige ting, RAG{i: "Retrieval Augmented Generation (RAG)"} er bare ét eksempel. Det fine ved denne tilgang er, at app'en ikke behøver at regne ud, hvad LLM'en{i: "LLM"} har brug for. Den stiller bare en liste af funktioner til rådighed og lader LLM'en hente de data, den har brug for.
 
 ## Tilgang 3: Inkludering af relevant tekst ved hjælp af vektor-embeddings{i: "vektor-embeddings"}
 
-Dette er en smart teknik, men lidt sværere at forklare. Men lad os prøve at give det et forsøg.
+Dette er en smart teknik, men lidt sværere at forklare. Men lad os prøve at gøre et forsøg.
 
 Først skal vi forstå, hvad vektor-embeddings er.
 
@@ -1147,7 +1147,7 @@ Nu kan vi lave en semantisk sammenligning ved bare at sammenligne afstanden mell
 
 Dette giver en beregningsmæssigt effektiv måde at finde relateret tekst.
 
-Her er et eksempel fra det virkelige liv. Jeg tog sætningerne "Katte er søde"{i: "Katte er søde"}, "Hvem har stjålet min brødrister"{i: "Hvem har stjålet min brødrister"} og "Jeg er sulten", og konverterede hver af dem til en vektor-embedding ved hjælp af OpenAI embeddings API'et{i: "OpenAI embeddings API"}. Det resulterer i en liste på omkring 1500 tal pr. sætning.
+Her er et eksempel fra det virkelige liv. Jeg tog sætningerne "Katte er søde"{i: "Katte er søde"}, "Hvem har stjålet min brødrister"{i: "Hvem har stjålet min brødrister"} og "Jeg er sulten", og konverterede hver af dem til en vektor-embedding ved hjælp af OpenAI embeddings-API'et{i: "OpenAI embeddings API"}. Det resulterer i en liste på omkring 1500 tal pr. sætning.
 
 {alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller indlejringer for hver sætning, med en bemærkning der indikerer "1436 flere elementer" i bunden af hver liste."}
 ![](resources-da/475-embeddings-da.png)
@@ -1188,7 +1188,7 @@ Når en kundeforespørgsel kommer ind, gør vores applikation følgende:
 {alt: "Diagram der viser en arbejdsgang mellem en bruger, en applikation og to modeller: en embeddings-model og en stor sprogmodel (LLM). Processen involverer brugeren der sender en besked til applikationen. Applikationen beregner embeddings, finder de nærmeste indgange i en vektordatabase og sender derefter beskeden sammen med yderligere data til LLM'en for at få et svar, som til sidst sendes tilbage til brugeren. Trinene er nummereret fra 1 til 5."}
 ![](resources-da/475-rag-with-embeddings-da.png)
 
-1. Brugeren sender en forespørgsel, såsom "Mit produkt var beskadiget, hvordan får jeg det refunderet?"
+1. Brugeren sender en forespørgsel, såsom: "Mit produkt var beskadiget, hvordan får jeg det refunderet?".
 2. App'en beregner vektor-embeddings for brugerens besked.
 3. App'en tjekker i vektordatabasen for at finde de nærmest matchende FAQ-elementer.
 4. App'en kombinerer brugerens besked og relevante FAQ-elementer i en prompt til LLM'en{i: "LLM"}.
@@ -1218,17 +1218,17 @@ Relateret til teksten tidligere om funktionskald (også kendt som værktøjsbrug
 
 En af de vigtigste beslutninger, når man bygger en AI-app{i: "AI-app"}, er hvilke funktioner man skal tilbyde LLM'en. Tager vi en kundeservice-chatbot som et eksempel, vil man måske tilbyde funktioner til at slå produktinformation op, annullere ordrer og downloade kvitteringer. Det ville være det samme for et menneske - hvad har en menneskelig supportmedarbejder brug for at kunne gøre?
 
-For en kundeservice-chatbot ved vi generelt, hvilke funktioner der er nødvendige. Men for en mere generel chatbot, kan vi ikke altid vide hvilke funktioner der er nødvendige. Hvis brugeren spørger om vejret, har LLM'en brug for en funktion til at kunne finde en vejrudsigt. Hvis brugeren vil bestille pizza, er der brug for helt andre værktøjer.
+For en kundeservice-chatbot ved vi generelt, hvilke funktioner der er nødvendige. Men for en mere generel chatbot, kan vi ikke altid vide, hvilke funktioner der er nødvendige. Hvis brugeren spørger om vejret, har LLM'en brug for en funktion til at kunne finde en vejrudsigt. Hvis brugeren vil bestille pizza, er der brug for helt andre værktøjer.
 
 Jeg fik en dag pludselig en åbenbaring:
 Hvad hvis vi giver LLM'en en opretFunktion-funktion?
 
-Vi giver den kun et enkelt værktøj - et meta-værktøj som den kan bruge til dynamisk at generere hvilke som helst andre værktøjer den har brug for! Wow!
+Vi giver den kun et enkelt værktøj - et meta-værktøj, som den kan bruge til dynamisk at generere hvilke som helst andre værktøjer, den har brug for! Wow!
 
 {alt: "Et diagram der viser en interaktion mellem en bruger, en app og en LLM (stor sprogmodel). Brugeren sender et prompt til appen, som derefter videresender det til LLM'en. Appen stiller også en tilgængelig funktion, "createFunction(name, code)," til rådighed for opgaver som LLM'en ikke kan udføre selvstændigt. En taleboble fra appen informerer LLM'en om denne funktion."}
 ![](resources-da/475-createfunction-function-da.png)
 
-Her er hvad jeg tænkte:
+Mine tanker var således:
 
 - LLM'er er som standard fanget i en sandkasse og kan ikke gøre ting som at redigere filer på din computer{i: "sandkasse"}, få adgang til internettet, foretage opkald osv.
 - Næsten alt kan gøres ved hjælp af kode.
@@ -1236,7 +1236,7 @@ Her er hvad jeg tænkte:
 - Hvad hvis jeg lader LLM'en skrive kode og køre den på min computer?
 - Tadaaa, nu kan LLM'en gøre næsten hvad som helst{i: "LLM-kapabiliteter"}!
 
-Så LLM'en får adgang til en opretFunktion-funktion{i: "opretFunktion-funktion"}, som tager to parametre: navnet på funktionen og koden til funktionen. Når LLM'en bliver bedt om at gøre noget, som den ikke kan (fordi den er i sandkassen), bruger den opretFunktion til at sende kode til min app. Den siger i princippet "Jeg har brug for at kunne finde en vejrudsigt. Her er koden til det. Gem den venligst på din computer og gør den tilgængelig for mig at udføre". Koden gemmes på min computer som en navngivet funktion og inkluderes i fremtidige prompts til LLM'en. Så når LLM'en først har oprettet funktionen, kan den bruges af LLM'en præcis som enhver anden funktion.
+Så LLM'en får adgang til en opretFunktion-funktion{i: "opretFunktion-funktion"}, som tager to parametre: Navnet på funktionen og koden til funktionen. Når LLM'en bliver bedt om at gøre noget, som den ikke kan (fordi den er i sandkassen), bruger den opretFunktion til at sende kode til min app. Den siger i princippet: "Jeg har brug for at kunne finde en vejrudsigt. Her er koden til det. Gem den venligst på din computer, og gør den tilgængelig for mig at udføre". Koden gemmes på min computer som en navngivet funktion og inkluderes i fremtidige prompts til LLM'en. Så når LLM'en først har oprettet funktionen, kan den bruges af LLM'en præcis som enhver anden funktion.
 
 Her er et eksempel:
 
@@ -1245,7 +1245,7 @@ Her er et eksempel:
 
 I dette eksempel genererer den dynamisk en findVejrudsigt funktion{i: "findVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
 
-Jeg kunne ikke lade være at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app, lidt a la ChatGPT. Men jeg tilføjede "opretFunktion"-funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
+Jeg kunne ikke lade være at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app lidt a la ChatGPT. Men jeg tilføjede "opretFunktion"-funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
 
 Derefter prøvede jeg denne prompt:
 
@@ -1262,13 +1262,13 @@ Dette er hvad der skete:
 2. Den udførte klonGitRepo for at downloade koden til min computer{i: "kloning af repository"}.
 3. Den oprettede funktionen redigerFil{i: "redigerFil funktion"}.
 4. Den udførte redigerFil og opdaterede koden.
-5. Den stoppede og spurgte mig "Jeg har succesfuldt klonet repositoriet og redigeret filen til at returnere 'Livet er interessant'. Dog har jeg i øjeblikket ikke mulighed for at committe og pushe ændringer til repositoriet. Vil du have mig til at oprette en funktion til det?"
-6. Jeg svarede "Ja".
+5. Den stoppede og spurgte mig: "Jeg har succesfuldt klonet repositoriet og redigeret filen til at returnere 'Livet er interessant'. Dog har jeg i øjeblikket ikke mulighed for at committe og pushe ændringer til repositoriet. Vil du have mig til at oprette en funktion til det?".
+6. Jeg svarede: "Ja".
 7. Den oprettede funktionen commitOgPushÆndringer{i: "commitOgPushÆndringer funktion"}.
 8. Den udførte commitOgPushÆndringer for at committe og pushe ændringerne til repositoriet.
-9. Den skrev "Jeg har succesfuldt klonet repositoriet, lavet ændringen til at returnere 'Livet er interessant', committet ændringen og pushet den til det fjerne repository."
+9. Den skrev: "Jeg har succesfuldt klonet repositoriet, lavet ændringen til at returnere 'Livet er interessant', committet ændringen og pushet den til det fjerne repository."
 
-Jeg kunne slet ikke tro det, og spekulerede på om den mon hallucinerede. Men jeg dobbelttjekkede og, ja, commit'et var der på GitHub{i: "commit-bekræftelse"}.
+Jeg kunne slet ikke tro det og spekulerede på, om den mon hallucinerede. Men jeg dobbelttjekkede, og ja, commit'et var der på GitHub{i: "commit-bekræftelse"}.
 
 
 
@@ -1281,7 +1281,7 @@ Selvfølgelig er der alle mulige sikkerhedsrisici forbundet med dette, og man sk
 
 ## Eksempel: AI chatbot-hukommelse ved hjælp af RAG
 
-Det første AI-drevne produkt, jeg udviklede, var en chatbot-platform{i: "chatbot platform"}. Jeg ejer en Discord-server og Minecraft-server som bruges af venner og familie. Og jeg tænkte, at det ville være sjovt at have Egbert der, chatte med folk og skrive sarkastiske kommentarer om ting, der sker på serveren. Det startede som et lille hack, men udviklede sig så til en generisk platform til at oprette og hoste LLM-drevede chatbots. Hvis du er nysgerrig, kan du finde koden her: https://github.com/hkniberg/egbert{i: "Egbert"}.
+Det første AI-drevne produkt, jeg udviklede, var en chatbot-platform{i: "chatbot platform"}. Jeg ejer en Discord-server og en Minecraft-server, som bruges af venner og familie. Og jeg tænkte, at det ville være sjovt at have Egbert der, chatte med folk og skrive sarkastiske kommentarer om ting, der sker på serveren. Det startede som et lille hack, men udviklede sig så til en generisk platform til at oprette og hoste LLM-drevne chatbots. Hvis du er nysgerrig, kan du finde koden her: https://github.com/hkniberg/egbert{i: "Egbert"}.
 
 For at gøre det ekstra sjovt ville jeg give Egbert hukommelse{i: "Egbert hukommelse"}, så han ville huske ting, der sker på serveren. Et perfekt tilfælde for RAG{i: "Retrieval Augmented Generation (RAG)"}. Jeg endte med at bruge embeddings{i: "embeddings"} og en vektordatabase{i: "vektordatabase"}, som beskrevet i tilgang 3{i: "tilgang 3"} ovenover. Men i stedet for at gemme FAQ-elementer til en kundeservice-bot, gemmer vi Egberts minder. Platformen giver mulighed for flere chatbots, og hver chatbot har sine egne minder.
 
@@ -1295,9 +1295,9 @@ Der er to nøgleprocesser her:
 
 ### Gemme nye minder
 
-At gemme nye minder gøres via funktionskald. Når en bruger skriver en besked til Egbert i Minecraft{i: "Minecraft"} eller Discord{i: "Discord"}, bruger platformen en LLM{i: "LLM"} til at generere et svar med Egberts karakteristiske sarkastiske stil. Platformen tilføjer dog også en skjult systembesked, der cirka siger "Hvis brugeren beder dig om at huske noget, så brug tilføjMinde-funktionen".
+At gemme nye minder gøres via funktionskald. Når en bruger skriver en besked til Egbert i Minecraft{i: "Minecraft"} eller Discord{i: "Discord"}, bruger platformen en LLM{i: "LLM"} til at generere et svar med Egberts karakteristiske sarkastiske stil. Platformen tilføjer dog også en skjult systembesked, der cirka siger: "Hvis brugeren beder dig om at huske noget, så brug tilføjMinde-funktionen".
 
-Så hvis brugeren skriver "Hej Egbert, husk at Peter byggede slottet på den anden side af søen{i: "Peter byggede slottet"}", vil LLM'en bemærke, at den skal huske dette, og vil bruge tilføjMinde-funktionen. Platformen vil derefter bruge OpenAI embeddings{i: "OpenAI embeddings"} til at konvertere brugerens besked til en vektor-embeddings og gemme den i vektordatabasen, og derefter vil Egbert bekræfte, at han har husket det. I Discord viser vi også et lille diskette-ikon for at indikere, at beskeden er blevet gemt som et minde.
+Så hvis brugeren skriver: "Hej Egbert, husk at Peter byggede slottet på den anden side af søen{i: "Peter byggede slottet"}", vil LLM'en bemærke, at den skal huske dette, og vil bruge tilføjMinde-funktionen. Platformen vil derefter bruge OpenAI embeddings{i: "OpenAI embeddings"} til at konvertere brugerens besked til en vektor-embedding og gemme den i vektordatabasen. Derefter vil Egbert bekræfte, at han har husket det. I Discord viser vi også et lille diskette-ikon for at indikere, at beskeden er blevet gemt som et minde.
 
 Ret enkelt, men overraskende effektivt.
 
@@ -1343,16 +1343,16 @@ Her er et eksempel på den kombinerede prompt:
 
 Alt dette sker i baggrunden. Men fra vores perspektiv som spillere sker følgende:
 
-- Framistan{i: "Framistan"} logger ind
-- Egbert{i: "Egbert"} siger "Åh, Framis er her. Hvilket mærkeligt væsen planlægger du at blive dræbt af denne gang?"
+- Framistan{i: "Framistan"} logger ind.
+- Egbert{i: "Egbert"} siger "Åh, Framis er her. Hvilket mærkeligt væsen planlægger du at blive dræbt af denne gang?".
 
 Hukommelsesfunktionen{i: "hukommelsesfunktion"} tilføjer virkelig dybde til chatbotten og gør den sjovere at lege med.
 
-Oprindeligt gjorde vi minderne automatiske. Det vil sige at vi lod LLM'en{i: "LLM"} selv bestemme, hvornår den skulle gemme minder. Dette blev dog for kaotisk, Egbert ville huske alle mulige irrelevante ting, og de vigtige ting ville drukne i støj.
+Oprindeligt gjorde vi minderne automatiske. Det vil sige, at vi lod LLM'en{i: "LLM"} selv bestemme, hvornår den skulle gemme minder. Dette blev dog for kaotisk, Egbert ville huske alle mulige irrelevante ting, og de vigtige ting ville drukne i støj.
 
 Hukommelsesfunktionen blev meget mere brugbar, da vi promptede LLM'en til kun at gemme minder, når den eksplicit blev bedt om det.
 
-ChatGPT{i: "ChatGPT"} implementerede for nylig en lignende funktion, kaldet "Hukommelse". Den fungerer på samme måde og begår desværre samme fejl, som jeg oprindeligt begik med Egbert. Den forsøger selv at finde ud af, hvad der skal gemmes, og hvad der ikke skal gemmes. Så hvis jeg skriver "Jeg er i øjeblikket i Amsterdam{i: "Amsterdam"} for at holde en præsentation", så vil ChatGPT huske det. Uger senere, i en helt urelateret samtale, kan tingene blive ret forvirrende, fordi ChatGPT pludselig vil "huske", at jeg er i Amsterdam, selvom jeg ikke er der længere. Eller værre endnu, jeg kan have en samtale om et meget følsomt emne, og så vil ChatGPT huske det og bringe det op senere i en helt anden sammenhæng. Så jeg har slukket for hukommelsesfunktionen. Jeg tror, det ville være bedre, hvis den kun husker ting, når brugeren eksplicit beder den om det.
+ChatGPT{i: "ChatGPT"} implementerede for nylig en lignende funktion, kaldet "Hukommelse". Den fungerer på samme måde og begår desværre samme fejl, som jeg oprindeligt begik med Egbert. Den forsøger selv at finde ud af, hvad der skal gemmes, og hvad der ikke skal gemmes. Så hvis jeg skriver: "Jeg er i øjeblikket i Amsterdam{i: "Amsterdam"} for at holde en præsentation", så vil ChatGPT huske det. Uger senere, i en helt urelateret samtale, kan tingene blive ret forvirrende, fordi ChatGPT pludselig vil "huske", at jeg er i Amsterdam, selvom jeg ikke er der længere. Eller værre endnu, jeg kan have en samtale om et meget følsomt emne, og så vil ChatGPT huske det og bringe det op senere i en helt anden sammenhæng. Så jeg har slukket for hukommelsesfunktionen. Jeg tror, at det ville være bedre, hvis den kun husker ting, når brugeren eksplicit beder den om det.
 
 ## RAG er et stort emne
 
