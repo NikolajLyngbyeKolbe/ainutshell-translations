@@ -200,7 +200,7 @@ Jeg tror, at vi er på en lignende rejse med generativ AI{i: "Generativ AI"}. Li
 
 Ligesom med internettet er jeg ret sikker på, at virksomheder, der ikke fremadrettet bruger generativ AI i det daglige arbejde, vil være ude af stand til at konkurrere med de virksomheder, som gør det.
 
-I dette kapitel har jeg udvalgt nogle få tips, konkrete ting du kan gøre som leder for at hjælpe din organisation med at foretage denne transformation.
+I dette kapitel har jeg udvalgt nogle tips og tricks, du som leder kan gøre for at hjælpe din organisation med at foretage denne transformation.
 
 ## Top-down eller bottom-up?
 
