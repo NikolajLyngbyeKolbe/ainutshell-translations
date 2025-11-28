@@ -826,7 +826,7 @@ ChatGPT{i: "ChatGPT"} var en af de første AI-klienter, der blev multimodal. Du 
 
 ## Eksempel: Er min bacon færdig?
 
-Her er et simpelt eksempel på multimodalitet i aktion ved hjælp af min engelsk-sprogede ChatGPT-app. Jeg tog et billede af min stegepande, mens jeg stegte bacon, og spurgte om den var færdig.
+Her er et simpelt eksempel på multimodalitet i aktion ved hjælp af min ChatGPT-app. Jeg tog et billede af min stegepande, mens jeg stegte bacon, og spurgte om den var færdig.
 
 {alt: "To skærmbilleder side om side af en madlavningssamtale. Til venstre er der et billede af delvist stegt bacon i en pande, der ser lyserød og rå ud i nogle områder. Nedenunder bemærker en besked fra ChatGPT, at baconen ikke er helt færdigstegt endnu. Til højre er der et billede af bacon, der er mere stegt med mørkere sprøde områder. Den medfølgende besked fra ChatGPT antyder, at dette niveau af stegning er passende for mange mennesker og indikerer en sprødere tekstur."}
 ![](resources-da/080-bacon-da.png)
