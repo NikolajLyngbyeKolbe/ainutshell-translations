@@ -3388,11 +3388,11 @@ Jeg lader ham dele historien med sine egne ord. Jeg synes, at det er ret fascine
 
 ## Davids historie: AI som min karriererådgiver
 
-I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut{i: "terapeut"}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig terapi var et stort skridt fremad.
+I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg et forløb med en ergoterapeut, som var professionel jobkonsulent{i: "jobkonsulent"}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig terapi var et stort skridt fremad.
 
-I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer over for familie og venner"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som ergoterapeuten gjorde. Et simpelt eksperiment.
+I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer over for familie og venner"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som jobkonsulenten gjorde. Et simpelt eksperiment.
 
-For dem der ikke ved det, stiller en ergoterapeut (i den proces jeg var i) omkring 300 spørgsmål, forsøger at analysere dig som person{i: "ergoterapeut"}, og giver derefter en liste over personliggjorte, potentielle stillinger at søge. Min ergoterapeut hævdede, at deres "Vejviser"-program havde hjulpet 30-40 millioner mennesker over hele kloden med at finde et passende job{i: "Vejviser-program"}, selvom hun var enig i, at programmet var lidt forældet.
+For dem der ikke ved det, stiller en jobkonsulent (i den proces jeg var i) omkring 300 spørgsmål, forsøger at analysere dig som person{i: "jobkonsulent"}, og giver derefter en liste over personliggjorte, potentielle stillinger at søge. Min jobkonsulent hævdede, at deres "Vejviser"-program havde hjulpet 30-40 millioner mennesker over hele kloden med at finde et passende job{i: "Vejviser-program"}, selvom hun var enig i, at programmet var lidt forældet.
 
 
 
@@ -3400,23 +3400,23 @@ Efter omkring 6 uger fik jeg endelig en liste over stillinger, men listen var ub
 
 I mellemtiden tog Henrik mig til side en solrig eftermiddag, placerede en bærbar computer i mit skød og åbnede Claude Sonnet 3.5{i: "Claude 3.5 Sonnet"}. Vi fodrede AI'en med mit CV sammen med min personlige historie og bad den konkludere, hvilke stillinger der kunne passe til mig. Vi lavede nogle justeringer, og en time senere gav Claude os præcis det, vi ønskede. Vi havde skabt en skræddersyet liste over passende stillinger, der på ingen tid tog hensyn til alt omkring mig. En time, og den præsterede langt bedre end resultatet af seks sneglende måneder ad den offentligt tilbudte vej. Det var session nummer et.
 
-I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobkonsulent/ergoterapeut. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og mig der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Resultatet af dette var en liste, som var endnu bedre end den første liste og utroligt skræddersyet til mig.
+I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobkonsulent. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og mig der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Resultatet af dette var en liste, som var endnu bedre end den første liste og utroligt skræddersyet til mig.
 
-Når man sammenligner resultaterne med det, som jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI et par timer at gøre alt dette og mere.
+Når man sammenligner resultaterne med det, som jeg fik ud af dialogerne med jobkonsulenten{i: "jobkonsulenten"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min jobkonsulent for at præsentere en ret ubrugelig liste. Det tog en AI et par timer at gøre alt dette og mere.
 
-Nu vil jeg for et øjeblik vende tilbage til den specifikke ergoterapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
+Nu vil jeg for et øjeblik vende tilbage til den specifikke jobkonsulent. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
 
-Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv, og igen fik jeg et "Nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet af. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo fungere som ergoterapeuter."
+Da hun havde afsluttet sin analyse af mig, resulterede Vejfinder-spørgsmålene i en kode, der forbandt mig til en udskrevet liste over erhverv. Da jeg havde taget nogle noter, bad jeg om en kopi. "Nej", var svaret. Tilsyneladende var listen og mappen, den lå i, fortrolig til en vis grad. Jeg spurgte Sandra, om jeg kunne google min 'kode' for at finde ud af mere og grave dybere i listen over erhverv, og igen fik jeg et "Nej". Hendes næste udtalelse kunne jeg kun ryste på hovedet af. "Vejfinder-processen er fortrolig. Hvis den ikke var det, kunne alle jo fungere som jobkonsulenter."
 
 Det siger sig selv, at ironien i hendes udtalelse stadig er noget, jeg husker den dag i dag.
 
 Men som nævnt var der et enkelt element på rollelisten, Sandra gav mig, som havde ramt helt rigtigt. Øverst, lige over "afslappede" jobs som diplomat og salgschef, stod noget interessant: Jobkonsulent{i: "Jobkonsulent"}.
 
-Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder har jeg og min forud-promptede ergoterapeut "James" hjulpet andre i deres søgen efter nye muligheder som jobkonsulent{i: "Jobkonsulent"}.
+Baseret på denne oplevelse udarbejdede jeg en proces, og i de seneste måneder har jeg og min forud-promptede jobkonsulent "James" hjulpet andre i deres søgen efter nye muligheder som jobkonsulent{i: "Jobkonsulent"}.
 
 ## Henriks refleksion
 
-Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, at det ville være et supplement til det program, som David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig ergoterapeut og et omfattende offentligt program, som var designet specifikt til dette formål, samt at David ville være i stand til at hjælpe andre på samme måde!
+Jeg var ret sikker på, at AI ville være nyttig i en karriererådgivningssituation{i: "karriererådgivning"}. Men jeg troede, at det ville være et supplement til det program, som David allerede var i. Jeg havde ikke forventet, at to timers afslappet prompting ville vise sig fuldstændigt at overgå en menneskelig jobkonsulent og et omfattende offentligt program, som var designet specifikt til dette formål, samt at David ville være i stand til at hjælpe andre på samme måde!
 
 Selvfølgelig var en medvirkende faktor til denne historie, at David sad fast i en ekstremt ineffektiv offentlig proces. Men desværre er det ikke ualmindeligt. Mange lande kæmper med at levere effektive beskæftigelsesindsatser{i: "beskæftigelsesindsats"}, ofte på grund af bureaukrati, begrænsede ressourcer eller forældede systemer.
 
@@ -3458,18 +3458,18 @@ Meget få mennesker i en jobsøgningssituation vil have alle tre af disse. Så d
 
 I dette kapitel så vi tre coaching-situationer:
 
-- **Sandra coacher David** - En professionel ergoterapeut, der coacher David, men som bliver hæmmet af ineffektive værktøjer og processer.
+- **Sandra coacher David** - En professionel jobkonsulent, der coacher David, men som bliver hæmmet af ineffektive værktøjer og processer.
 - **Henrik + AI coacher David** - Jeg hjælper David med at prompte AI-modellen til at give ham nyttige råd.
 - **David + AI coacher andre klienter** - David hjælper andre klienter med at prompte AI-modellen til at give dem nyttige råd.
 
-Forestil dig nu i stedet, hvis Sandra ikke sad fast i en ineffektiv proces, og forestil dig, hvis hun kendte til det grundlæggende inden for prompt-teknik og havde adgang til en god AI-model! Jeg tror, at dette ville være drømmescenariet for karriererådgivning{i: "karriererådgivning"} eller ergoterapeutisk behandling{i: "ergoterapeutisk behandling"}.
+Forestil dig nu i stedet, hvis Sandra ikke sad fast i en ineffektiv proces, og forestil dig, hvis hun kendte til det grundlæggende inden for prompt-teknik og havde adgang til en god AI-model! Jeg tror, at dette ville være drømmescenariet for karriererådgivning{i: "karriererådgivning"} via en jobkonsulent{i: "jobkonsulent"}.
 
 {width: "60%", alt: "Illustration der viser et team bestående af tre figurer: en blå person mærket 'Karriererådgiver,' en grøn person mærket 'Klient,' og en robot mærket 'AI' i midten. De er alle omsluttet af en sort cirkel mærket 'Team.'"}
 ![](resources-da/238-team-2-da.png)
 
 Husk, hverken David eller jeg er professionelle karriererådgivere. Men AI-modellen har ekspertviden om karriererådgivning, og vi var i stand til at udnytte denne viden gennem god prompting.
 
-Med en "rigtig" karriererådgiver eller ergoterapeut ved roret, får vi den kombinerede effekt af menneskelig professionel ekspertise og AI-modellens omfattende træningsdata.
+Med en "rigtig" karriererådgiver eller jobkonsulent ved roret, får vi den kombinerede effekt af menneskelig professionel ekspertise og AI-modellens omfattende træningsdata.
 
 Forestil dig potentialet i sådan et system!
 
