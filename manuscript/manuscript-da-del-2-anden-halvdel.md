@@ -17,7 +17,7 @@ Dette understøttes af studier som [GPT versus Resident Physicians — A Benchma
 
 Her er citater fra artiklen (med mine fremhævninger og oversat til dansk):
 
-> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med en henholdvis en medianscore på 17,4% (95% CI, 9,55 til 30,9) og en medianscore på 23,44% (95% CI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
+> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen, 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% CI, 38,9 til 55,5) og 56,6% (95% CI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med henholdvis en medianscore på 17,4% (95% CI, 9,55 til 30,9) og en medianscore på 23,44% (95% CI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
 
 Og modellerne er blevet betydeligt bedre siden da.
 
@@ -58,7 +58,7 @@ En AI-læge supplerer en menneskelig læge på flere måder:
 
 Nogle gange er det slet ikke en mulighed at have en menneskelig læge. Måske bor du i et fjerntliggende område uden adgang til en læge, eller du har ikke råd til det, eller du har en sjælden tilstand, som din læge ikke forstår. I det tilfælde kan en AI-læge bogstaveligt talt være livreddende!
 
-Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end buddene fra dine velmenende (men uinformerede) venner og familie.
+Med en god AI-model og gode prompt engineering-færdigheder vil en AI-læge altid være bedre end ingen læge overhovedet. Og højst sandsynligt bedre end budene fra dine velmenende (men uinformerede) venner og familie.
 
 Generelt finder jeg det fascinerende, at det er muligt praktisk talt at fremtrylle en dygtig AI-læge{i: "AI-læge"} eller specialist inden for et hvilket som helst område, ved blot at bruge en simpel prompt og en generel app som Claude eller ChatGPT{i: "ChatGPT"}. Gode prompt engineering-færdigheder giver dig næsten superkræfter.
 
@@ -192,7 +192,7 @@ I mellemtiden tog Henrik mig til side en solrig eftermiddag, placerede en bærba
 
 I vores anden session lavede vi nogle indledende prompts, hvor vi bad Claude påtage sig rollen som jobkonsulent/ergoterapeut. Denne gang stillede AI'en mig spørgsmål på en mere flydende måde. Og selvom vi af og til måtte skubbe lidt til den for at få den til at spørge mere, var det den, der stillede spørgsmålene, og mig der leverede data. Mine præferencer, begrænsninger, håb{i: "AI-karriererådgiver"}, drømme og hobbyer. Resultatet af dette var en liste, som var endnu bedre end den første liste og utroligt skræddersyet til mig.
 
-Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI 1-2 timer at gøre alt dette og mere.
+Når man sammenligner resultaterne med det, jeg fik ud af den faktiske ergoterapeutiske behandling{i: "ergoterapeutisk behandling"}, er kvaliteten og tidsforbruget forbløffende forskellig. Det tog seks måneder at få mig igennem det offentlige system og seks uger med min ergoterapeut for at præsentere en ret ubrugelig liste. Det tog en AI et par timer at gøre alt dette og mere.
 
 Nu vil jeg for et øjeblik vende tilbage til den specifikke ergoterapeut. For anonymitetens skyld kalder vi hende "Sandra". Sandra var rolig, fattet, meget venlig og tydeligvis ude på at være støttende og hjælpsom.
 
@@ -234,7 +234,7 @@ Jeg blev overrasket over, hvor lidt jeg egentligt behøvede at vise David{i: "Da
 
 Jeg blev endnu mere overrasket, da David begyndte at hjælpe andre mennesker ved at vejlede dem på samme måde! Han var super-inspireret af, hvor effektivt det var, og han ønskede at hjælpe andre, der sad fast i en lignende situation som han selv.
 
-Ekspertise er relativ. Den smule prompt-teknik, jeg viste ham, var nok til at gøre ham til ekspert sammenlignet med den gennemsnitlige person. Davids klienter sætter virkelig pris på at have ham med på et opkald, hvor de sammen arbejder på at promte AI-modellen og i praksis fremtryller en personlig AI-karriererådgiver{i: "AI-karriererådgiver"} til klienten.
+Ekspertise er relativ. Den smule prompt-teknik, jeg viste ham, var nok til at gøre ham til ekspert sammenlignet med den gennemsnitlige person. Davids klienter sætter virkelig pris på at have ham med på et opkald, hvor de sammen arbejder på at prompte AI-modellen og i praksis fremtryller en personlig AI-karriererådgiver{i: "AI-karriererådgiver"} til klienten.
 
 I teorien kunne klienterne gøre dette uden David. Men de ville have brug for:
 
@@ -249,8 +249,8 @@ Meget få mennesker i en jobsøgningssituation vil have alle tre af disse. Så d
 I dette kapitel så vi tre coaching-situationer:
 
 - **Sandra coacher David** - En professionel ergoterapeut, der coacher David, men som bliver hæmmet af ineffektive værktøjer og processer.
-- **Henrik + AI coacher David** - Jeg hjælper David med at promte AI-modellen til at give ham nyttige råd.
-- **David + AI coacher andre klienter** - David hjælper andre klienter med at promte AI-modellen til at give dem nyttige råd.
+- **Henrik + AI coacher David** - Jeg hjælper David med at prompte AI-modellen til at give ham nyttige råd.
+- **David + AI coacher andre klienter** - David hjælper andre klienter med at prompte AI-modellen til at give dem nyttige råd.
 
 Forestil dig nu i stedet, hvis Sandra ikke sad fast i en ineffektiv proces, og forestil dig, hvis hun kendte til det grundlæggende inden for prompt-teknik og havde adgang til en god AI-model! Jeg tror, at dette ville være drømmescenariet for karriererådgivning{i: "karriererådgivning"} eller ergoterapeutisk behandling{i: "ergoterapeutisk behandling"}.
 
@@ -345,7 +345,7 @@ Brug af AI{i: "AI"} er meget nyttigt i forbindelse med historiske referencer og 
 For eksempel brugte jeg denne prompt til et af afsnittene i kapitlet om prompt engineering{i: "Prompt Engineering"}:
 
 > **Prompt**  
-> Lav en sammenligning med de tidlige dage med søgemaskiner, hvor det dengang var virkelig vigtigt at skrive søgeforespørgsler på en bestemt måde, mens det nutildags ikke rigtigt betyder noget længere.
+> Lav en sammenligning med de tidlige dage med søgemaskiner, hvor det dengang var virkelig vigtigt at skrive søgeforespørgsler på en bestemt måde, mens det nu til dags ikke rigtigt betyder noget længere.
 
 Dette gav mig et udgangspunkt, og derefter redigerede jeg teksten.
 
@@ -582,7 +582,7 @@ Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kod
 {alt: "Et skærmbillede af en kodeeditor der viser en TypeScript-fil ved navn "MysteryTable.tsx." Koden indeholder imports, en grænseflade og en funktionsdefinition. Editorens sidebjælke viser andre filer i projektet. Til højre er der et chat/composer-panel mærket "Edit code" med en model-valgmenu. Øverst reklamerer teksten for "AI-assisteret kodning direkte i din kodeeditor" og hjemmesiden cursor.com."}
 ![](resources-da/260-cursor-da.png)
 
-IDE'en Cursor{i: "Cursor"} er en pioner indenfor dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede programmet også "Cursor agents", der kigger rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
+IDE'en Cursor{i: "Cursor"} er en pioner inden for dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede programmet også "Cursor agents", der kigger rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
 
 At have AI direkte integreret i kodeeditoren fjerner helt de mulige fejl, som kan opstå når man prøver at finde ud af, hvilken kode der skal kopieres ind i AI-klienten, og hvordan man fletter den resulterende kode tilbage i kodeeditoren.
 
