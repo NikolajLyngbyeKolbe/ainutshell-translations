@@ -1451,7 +1451,7 @@ Hvis noget går galt efter en prompt, så giv fejlmeddelelsen til AI'en og bed d
 
 Her er den app jeg endte ud med.
 
-{alt: "Screenshot af en AI Rekrutteringsassistent-grænseflade der viser en jobbeskrivelse for en cirkusartist. Beskrivelsen viser kvalifikationer som akrobatiske færdigheder og teamkommunikation. Nedenunder er der et område til at uploade CV'er, med to PDF'er der allerede er uploadet ved navn "GordonRamsey.pdf" og "HenrikKniberg.pdf". Der er en knap med teksten "Evaluer kandidater.""}
+{alt: "Screenshot af en AI Rekrutteringsassistent-grænseflade der viser en jobbeskrivelse for en cirkusartist. Beskrivelsen viser kvalifikationer som akrobatiske færdigheder og teamkommunikation. Nedenunder er der et område til at uploade CV'er, med to PDF'er der allerede er uploadet ved navn "NikolajLyngbyeKolbe.pdf" og "HenrikKniberg.pdf". Der er en knap med teksten "Evaluer kandidater.""}
 ![](resources-da/130-screenshot-da.png)
 
 Ret cool for nogle få minutters arbejde uden at skrive en eneste linje kode. Og hvis du er nysgerrig omkring hvordan koden virker, så bed bare AI'en om at forklare det!
@@ -1554,7 +1554,7 @@ Men det vigtigste, er at øve sig og lære mens man gør det. Prøv at bruge AI 
 
 En god sidegevinst er, at du bliver bedre til at kommunikere generelt, siden prompt engineering{i: "Prompt Engineering"} i virkeligheden handler om klarhed og effektiv kommunikation.
 
-{width: "40%", alt: "To simple, tegneserieagtige figurer har en samtale. Hver har en taleboble med ulæselige kruseduller, der indikerer dialog. Figurerne har runde hoveder og ovale kroppe uden særlige kendetegn."}
+{width: "40%", alt: "To simple, tegneserieagtige figurer har en samtale. Hver har en taleboble med ulæselige kruseduller, der indikerer dialog."}
 ![](resources-da/140-people-talking-da.png)
 
 ## Vil prompt engineering stadig være vigtig, når modellerne bliver bedre?
@@ -1580,7 +1580,7 @@ Denne fleksibilitet er meget nyttig. For eksempel, når man bruger AI til at skr
 
 En af egenskaberne ved en god AI-model er, at den ved, hvornår den skal lave antagelser, og hvornår den skal stille opfølgende spørgsmål. Dette er en kompleks afvejning mellem at stille for mange spørgsmål og lave for mange antagelser{i: "afvejning mellem spørgsmål og antagelser"}.
 
-{alt: "En simpel tegning af en vippe der balancerer en robot i midten. Den venstre side er mærket 'AI laver for mange antagelser' i rød, og den højre side siger 'AI stiller for mange spørgsmål' i rød. Midten, mærket 'Balance!' i grøn, noterer at AI'en 'Stiller lige præcis nok spørgsmål' og 'Laver lige præcis nok antagelser.'"}
+{alt: "En simpel tegning af en vippe der balancerer en robot i midten. Den venstre side er mærket 'AI laver for mange antagelser' i rød, og den højre side siger 'AI stiller for mange spørgsmål' i rød. Midten, mærket 'Balance!' i grøn, noterer at AI'en 'Stiller lige tilpas nok spørgsmål' og 'Laver lige tilpas nok antagelser.'"}
 ![](resources-da/140-questions-vs-assumptions-da.png)
 
 Dette er også hvad menneskelige eksperter{i: "menneskelige eksperter"} gør, ikke? Hvis du konsulterer en advokat om et juridisk problem, vil de bede om detaljer om din situation, før de giver råd. Men de vil også lave nogle antagelser baseret på deres erfaring. Du behøver normalt ikke at fortælle en menneskelig ekspert "Du må gerne stille opfølgende spørgsmål"{i: "Du må gerne stille opfølgende spørgsmål"}, det gør de alligevel.
@@ -1653,16 +1653,16 @@ Denne kombination - LLM + værktøjer + autonomi - er utroligt kraftfuld.
 
 Med autonome AI-agenter bliver prompt engineering{i: "prompt engineering"} endnu vigtigere. For din autonome værktøjshåndterende agent kan gøre meget godt eller meget skade afhængigt af, hvordan du udformer din missionserklæring og prompts.
 
-{width: "30%", alt: "En gul advarselstrekant med et udråbstegn over teksten "Pas godt på her" skrevet med en stiliseret skrifttype."}
+{width: "30%", alt: "En gul advarselstrekant med et udråbstegn over teksten "Pas godt på her"."}
 ![](resources-da/150-dragons-da.png)
 
 ## Eksempel 1: en fejlretningsagent
 
-Her er et eksempel. Forestil dig, at vi har en agent kaldet Flora Fejlfixer{i: "Flora Fejlfixer"}. Hun arbejder sammen med et softwareudviklingsteam, og hendes job er at rette fejl.
+Her er et eksempel. Forestil dig, at vi har en agent kaldet Fie Fejlfixer{i: "Fie Fejlfixer"}. Hun arbejder sammen med et softwareudviklingsteam, og hendes job er at rette fejl.
 
-> Floras mission: Ret fejl
+> Fies mission: Ret fejl
 >
-> Floras værktøjer:
+> Fies værktøjer:
 >
 > - Adgang til et fejlsporingssystem.
 > - Adgang til koden (via GitHub).
@@ -1670,7 +1670,7 @@ Her er et eksempel. Forestil dig, at vi har en agent kaldet Flora Fejlfixer{i: "
 
 
 
-Eftersom Flora{i: "Flora"} er en autonom agent, venter hun ikke på, at nogen beder hende om at rette en fejl; i stedet overvåger hun kodebasen, fejlsporingssystemet og Slack, og handler proaktivt. Hendes mission er at holde øje med fejl, der er forholdsvis enkle at rette - ting, hun kan løse på egen hånd. Ved mere avancerede fejl er det den menneskelige udvikler, der leder arbejdet (men med Floras støtte).
+Eftersom Fie Fejlfixer{i: "Fie Fejlfixer"} er en autonom agent, venter hun ikke på, at nogen beder hende om at rette en fejl; i stedet overvåger hun kodebasen, fejlsporingssystemet og Slack, og handler proaktivt. Hendes mission er at holde øje med fejl, der er forholdsvis enkle at rette - ting, hun kan løse på egen hånd. Ved mere avancerede fejl er det den menneskelige udvikler, der leder arbejdet (men med Fies støtte).
 
 Når hun finder en passende fejl, tildeler hun den til sig selv i fejlsporingssystemet, retter den og opretter en PR (Pull Request, en måde at foreslå ændringer til kodebasen på). På den måde er der altid et menneskeligt godkendelsestrin, før ting kommer i produktion, hvilket altid er godt for kvalitetskontrol og videndeling.
 
@@ -1678,19 +1678,19 @@ Hun følger også med i samtaler på Slack og deltager nogle gange.
 
 Og hun sender en daglig rapport:
 
-{width: "70%", alt: "En Slack-besked fra en person ved navn "Flora Fejlfixer" klokken 07:30. Beskeden lyder: "Godmorgen team! Jeg har rettet fejl #235 og #296, de var relaterede og ret ligetil. Har tilføjet en PR til det. Jeg kiggede også på det sikkerhedsproblem, I snakkede om i går. Fandt to mulige løsninger og tilføjede en PR for begge. Hvad synes I?""}
+{width: "70%", alt: "En Slack-besked fra en person ved navn "Fie Fejlfixer" klokken 07:30. Beskeden lyder: "Godmorgen team! Jeg har fikset fejl #235 og #296, som var relaterede og ligetil at fikse. Jeg har tilføjet en PR for det. Jeg har også kigget ind i sikkerheds-fejlen I snakkede om i går. Jeg har fundet to mulige løsninger og tilføjet en PR for hver af dem. Hvad tænker I om dem?""}
 ![](resources-da/150-betty-the-bug-basher-da.png)
 
-Dette er et distribueret team, og de har et kort synkroniseringsmøde hver morgen. Flora deltager i det opkald, mest i stilhed. Men der kan folk stille hende spørgsmål eller bede hende om at gøre ting.
+Dette er et distribueret team, og de har et kort synkroniseringsmøde hver morgen. Fie Fejlfixer deltager i det opkald, mest i stilhed. Men der kan folk stille hende spørgsmål eller bede hende om at gøre ting.
 
 For eksempel:
 
-- Marcus: "Hej Flora, vores loginside er blevet virkelig langsom på det sidste og vi ved ikke hvorfor. Kan du kigge på det?"
-- Flora: "Selvfølgelig!" (Der går 12 sekunder...) "OK, jeg fandt det. Det skyldtes en forkert konfiguration i den logging-pakke, vi tilføjede sidste uge. Jeg har lavet en PR med rettelsen."
+- Marcus: "Hej Fie, vores loginside er blevet virkelig langsom på det sidste og vi ved ikke hvorfor. Kan du kigge på det?"
+- Fie: "Selvfølgelig!" (Der går 12 sekunder...) "OK, jeg fandt det. Det skyldtes en forkert konfiguration i den logging-pakke, vi tilføjede sidste uge. Jeg har lavet en PR med rettelsen."
 
 AI-agenter{i: "AI-agenter"} er normalt meget hurtige sammenlignet med mennesker{i: "mennesker"}. Derfor er det vigtigt at have et menneske med i processen på et tidspunkt, i hvert fald for komplekse opgaver, hvor menneskeligt tilsyn er nødvendigt{i: "menneskeligt tilsyn"}. Det ville være det samme med et menneske. Du ville jo heller ikke ønske et menneskeligt geni, der bare løber af sted og laver en masse arbejde på egen hånd uden at samarbejde med teamet{i: "samarbejde"}, vel?
 
-Så findes Flora? På nuværende tidspunkt, sent i 2024, ikke helt. Men der bliver bygget mange produkter, som kommer tæt på. Så jeg tror, dette vil blive normen i den nærmeste fremtid. Hvert team (og ikke kun udviklingsteams{i: "udviklingsteams"}) vil have en AI-kollega, der deler teamets mål, og har sine egne specifikke ansvarsområder{i: "ansvarsområder"}. Ligesom med en ny praktikant{i: "praktikant"}, starter man med at give dem en meget specifik og begrænset opgave, og øger så gradvist deres mandat, efterhånden som de beviser deres værd.
+Så findes Fie Fejlfixer? På nuværende tidspunkt, sent i 2024, ikke helt. Men der bliver bygget mange produkter, som kommer tæt på. Så jeg tror, dette vil blive normen i den nærmeste fremtid. Hvert team (og ikke kun udviklingsteams{i: "udviklingsteams"}) vil have en AI-kollega, der deler teamets mål, og har sine egne specifikke ansvarsområder{i: "ansvarsområder"}. Ligesom med en ny praktikant{i: "praktikant"}, starter man med at give dem en meget specifik og begrænset opgave, og øger så gradvist deres mandat, efterhånden som de beviser deres værd.
 
 ## Eksempel 2: Hændelseshåndteringsagent{i: "hændelseshåndteringsagent"}
 
@@ -1708,7 +1708,7 @@ Det kan være udfordrende fordi:
 
 En AI-agent kan være meget nyttig i en situation som denne.
 
-{alt: "Billedet viser et flowdiagram over en hændelsesrapport og analyse. En besked fra "Kundesupport" indikerer problemer med langsom betalingsbehandling, hvilket fører til mange opkald. Beskeden sendes til en "Hændelsesanalyseagent", som diagnosticerer problemet som "Ikke muligt at skaffe forbindelse til databasen" med 85% sikkerhed. Analysen bemærker en 40% stigning i betalingsvolumen. Problemet tildeles "DB-platformteamet" med foreslåede handlinger, herunder at tjekke målinger af databaseforbindelse, lede efter forbindelses-problemer og overveje en forøgelse af antallet af mulige databaseforbindelser."}
+{alt: "Billedet viser et flowdiagram over en hændelsesrapport og analyse. En besked fra "Kundesupport" indikerer problemer med langsom betalingsbehandling, hvilket fører til mange opkald. Beskeden sendes til en "Fejl-analyseagent", som diagnosticerer problemet som "Database-forbindelses-pool udtømt" med 85% sikkerhed. Analysen bemærker en 40% stigning i betalingsvolumen. Problemet tildeles "Database platform-teamet" med foreslåede handlinger, herunder at tjekke metrikker af forbindelses-poolen, lede efter forbindelses-problemer og overveje en forøgelse af antallet af mulige databaseforbindelser."}
 ![](resources-da/150-support-da.png)
 
 Den tager automatisk imod supporthenvendelsen, analyserer den, graver information frem fra en vidensbase{i: "vidensbase"}, og bruger en LLM til at hjælpe med at finde ud af:
@@ -1734,7 +1734,7 @@ Tænk over alle de typer opgaver, som du eller din virksomhed udfører.
 
 Baseret på dette kan vi skabe en automatiseringsgrad-skala{i: "Automatiseringsgrad-skala"}.
 
-{alt: "Diagram der illustrerer en "Automatiseringsgrad-skala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Ikke forudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Mest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
+{alt: "Diagram der illustrerer en "Automatiseringsgrad-skala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Uforudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Oftest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
 ![](resources-da/150-automatability-da.png)
 
 Der er meget information i billedet, hvilket jeg undskylder, men jeg kunne ikke finde en måde at forenkle det på. Billedet er en skala fra venstre til højre, hvor venstre side repræsenterer forudsigelige opgaver, der ikke kræver nogen kreativitet eller intelligens, mens højre side repræsenterer uforudsigelige opgaver, der kræver meget kreativitet og intelligens. For hver type opgave beskriver jeg opgavens karakter, og nedenunder beskriver jeg en tilgang til, hvordan man kan automatisere eller understøtte opgaven med AI.
@@ -1807,7 +1807,7 @@ Sikkerhed{i: "Sikkerhed"} er en topprioritet for mange LLM-udbydere (som OpenAI 
 Her er nogle overordnede strategier:
 
 - **Brug gode LLM'er** - Agenter drives af LLM'er{i: "LLM'er"}. De bør bruge de bedste tilgængelige LLM'er, i det mindste, når de laver planer og vigtige beslutninger. På den måde vil agenten drage fordel af LLM'ens indbyggede sikkerhedsforanstaltninger.
-- **Minimale rettigheder** - Giv kun agenter de værktøjer og tilladelser, de faktisk har brug for til deres mission, og ikke mere end det. Flora Fejlfixer har ikke brug for adgang til kundedata eller muligheden for at implementere kode direkte til produktion. En agent, der planlægger møder, har ikke brug for adgang til finansielle systemer.
+- **Minimale rettigheder** - Giv kun agenter de værktøjer og tilladelser, de faktisk har brug for til deres mission, og ikke mere end det. Fie Fejlfixer har ikke brug for adgang til kundedata eller muligheden for at implementere kode direkte til produktion. En agent, der planlægger møder, har ikke brug for adgang til finansielle systemer.
 - **Gennemsigtighed** - Der skal være en måde at se, hvad agenten har lavet, hvad den laver nu, og nogle gange også hvad den planlægger at gøre næste gang. På vores platform har hver agent en dagbog af denne årsag, en måde at se ikke kun hvad agenten gør, men også hvorfor den gør det - dens interne ræsonnement.
 - **Tilsyn** - Brug "supervisoragenter" der overvåger andre agenter for mistænkelig adfærd{i: "mistænkelig adfærd"}. For eksempel hvis en agent kan kontaktes via chat eller e-mail, kan den potentielt manipuleres til at udføre upassende handlinger eller afsløre upassende information. En supervisoragent kan opdage og stoppe den slags ting.
 - **Kontrolleret autonomi** - Start med begrænset autonomi og øg den gradvist efterhånden som agenten viser sig pålidelig. Nogle trin eller vigtige beslutningspunkter kunne kræve menneskelig godkendelse.
