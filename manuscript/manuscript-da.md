@@ -1872,7 +1872,7 @@ Spænd sikkerhedsbæltet, og lad os vende tilbage til det forrige årtusinde... 
 
 Mit første møde med AI{i: "AI"} var under mine studier på Det Kongelige Tekniske Universitet{i: "Det Kongelige Tekniske Universitet"} i Stockholm i midten af 90'erne. Jeg tog et kursus kaldet "Kunstige neurale netværk"{i: "kunstige neurale netværk"}, og kodede små neurale netværk ved hjælp af Smalltalk{i: "Smalltalk (programmeringssprog)"} (et sejt programmeringssprog som kun få mennesker kender til i dag).
 
-Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til at "tænke" selv i meget begrænset omfang. På det tidspunkt var der ikke mange praktiske anvendelser, men jeg fandt det stadig interessant og sjovt at rode med. Jeg husker, at jeg tænkte: "Jeg håber, at dette bliver nyttigt en dag, for det ville være sjovt at arbejde med".
+Jeg var fascineret af teknologien. Der er noget magisk ved at få computere til at "tænke", selv i meget begrænset omfang. På det tidspunkt var der ikke mange praktiske anvendelser, men jeg fandt det stadig interessant og sjovt at rode med. Jeg husker, at jeg tænkte: "Jeg håber, at dette bliver nyttigt en dag, for det ville være sjovt at arbejde med".
 
 
 
@@ -1954,7 +1954,7 @@ ChatSource{i: "ChatSource"} er min abstrakte klasse for alle ting, man kan chatt
 
 Til min overraskelse genererede den koden for hele klassen. Vi lagde den ud på serveren uden nogle ændringer, og den virkede fejlfrit. Ikke nok med det, men koden passede perfekt ind i min platform og fulgte samme struktur og navngivningskonventioner som mine andre chatudbydere. Den rettede endda undervejs nogle fejl, der hele tiden havde været i min kode. I stedet for at bruge en aften eller to, som vi havde forventet, brugte vi 15 minutter og var færdige.
 
-Hvordan kunne det fungere så nemt? Fordi:
+Hvordan kunne gå så nemt? Fordi:
 
 1. AI'en tilsyneladene kendte Telegram API'et{i: "Telegram API"} fra sine træningsdata.
 2. Min Discord-kode var åbenbart tilstrækkelig til at vise, hvordan min platform virker, og hvordan koden skulle integreres.
@@ -1980,7 +1980,7 @@ Dette er grunden til, at jeg tror, at udviklere vil blive arbejdsløse, hvis de 
 
 ## Aha-oplevelse nummer 2: Den kan skrive som en professionel!
 
-Den andet aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var, da jeg skrev en artikel med titlen: ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
+Den anden aha-oplevelse jeg havde, som fuldstændig ændrede mit perspektiv på tingene, var, da jeg skrev en artikel med titlen: ["Are Developers Needed in the Age of AI?"](https://hups.com/blog/are-developers-needed-in-the-age-of-ai){i: "er udviklere nødvendige i AI-alderen?"}. Artiklen var på en måde et svar på min første aha-oplevelse. Jeg bad nogle af mine venner om feedback, men jeg besluttede også at spørge AI om feedback.
 
 Jeg fortalte GPT-4{i: "GPT-4"}, at jeg havde skrevet en ret lang artikel, og gerne ville have dens feedback. Den spurgte mig om, hvor lang artiklen var. Jeg svarede "6000 ord", og den bad mig så om at give den artiklen én sektion ad gangen. Fair nok. Så jeg indsatte den første sektion i ChatGPTs webgrænseflade{i: "ChatGPTs webgrænseflade"}.
 
@@ -2010,7 +2010,7 @@ Den undskyldte og fortsatte derefter med at gøre det, den burde gøre, nemlig b
 
 ## Måske er vi ikke så kreative og intelligente, som vi tror
 
-Dette fik mig til at undre mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generativ AI-modeller{i: "generativ AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner. Så måske er vores intelligens også bare en illusion. Jeg synes, at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne nu bliver endnu mere relevante!
+Dette fik sat mange tanker i gang hos mig. For måske er vi mennesker ikke så kreative, som vi selv tror. Teknisk set er generativ AI-modeller{i: "generativ AI-modeller"} jo bare statistiske maskiner, og ethvert tegn på intelligens er sandsynligvis en illusion. Men hvis det er tilfældet, er vi som mennesker måske også bare statistiske maskiner. Så måske er vores intelligens også bare en illusion. Jeg synes, at det er en fin bonus ved udbredelsen af AI, at filosofiske betragtninger som denne nu bliver endnu mere relevante!
 
 Disse to aha-oplevelser cementerede min beslutning om at skifte karriere og fokusere helt på generativ AI. Så kunne jeg lære hvordan AI virker, og dermed hjælpe mennesker og virksomheder med at bruge det i praksis. Og hjælpe med at lave AI-agenter!
 
@@ -2033,7 +2033,7 @@ Når vi hjælper vores kunder, får vi ofte spørgsmål som:
 Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en AI-transformation.
 
 > **Her kan du lære endnu mere**  
-> Hvis du er interesseret i en mere dybdegående guide, har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk med titlen "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformationsrammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel, som en forsmag på den bog.
+> Hvis du er interesseret i en mere dybdegående guide, har min kollega Nils Janse{i: "Janse, Nils"} skrevet en fremragende bog på engelsk med titlen "Adopting Generative AI"{i: "Adopting Generative AI"}. Han præsenterer en mere detaljeret version af transformationsrammen i dette kapitel og en masse eksempler og tips fra det virkelige liv. Så tænk på dette kapitel som en forsmag på den bog.
 
 ## Hvad er en AI-transformation, og hvorfor er den vigtig?
 
@@ -2158,7 +2158,7 @@ Strategibogen bør forklare ting som:
 - Hvordan kommer jeg i gang?
 - Hvordan lærer jeg mere eller finder mere information?
 
-Strategibogen kan starte i det små og bygges op gradvist. Start med de åbenlyse spørgsmål, som de første to første punkter ovenover. Tilføj derefter gradvist til strategibogen efter behov. Og sørg naturligvis for, at alle har nem adgang til at læse selve strategibogen.
+Strategibogen kan starte i det små og bygges op gradvist. Start med de åbenlyse spørgsmål, som de første to punkter ovenover. Tilføj derefter gradvist til strategibogen efter behov. Og sørg naturligvis for, at alle har nem adgang til at læse selve strategibogen.
 
 ### Find det laveste niveau af bureaukrati, som virker
 
@@ -2195,7 +2195,7 @@ Her er nogle forslag til, hvordan man kan håndtere dette:
 - **Se efter regionsspecifikke compliance-løsninger**. Som et eksempel er mange EU-virksomheder bekymrede for GDPR og ønsker ikke at sende data uden for EU{i: "EU"}. Men mange LLM'er{i: "LLM'er"} kan sagtens hostes inden for EU, og mange muliggør også at organisationen kan være GDPR-compliant. Så start med at undersøge hvad der kan virke for dig.
 - **Udforsk selv-hostede muligheder**. Nogle LLM'er kan downloades og hostes lokalt. Så det kan også være en mulighed.
 
-Der er også andre muligheder. Mit vigtigste budskab er: "Giv ikke op!". Som AI-leder er du nødt til at finde en eller anden måde at give folk adgang til gode AI-modeller. Hvis du ikke gør det, og dine konkurrenter gør, vil din virksomhed være lige så handicappet, som hvis de ikke tillod folk at bruge internettet.
+Der er også andre muligheder. Mit vigtigste budskab er: "Giv ikke op!". Som AI-leder er du nødt til at finde en eller anden måde at give folk adgang til gode AI-modeller. Hvis du ikke gør det, og dine konkurrenter gør, vil din virksomhed være lige så handicappet, som hvis I ikke tillod folk at bruge internettet.
 
 ### Hvad med omkostningerne?
 
@@ -2267,7 +2267,7 @@ En forretningsproces (eller værdistrøm){i: "forretningsprocesser"} er noget, s
 - Håndtering af en kundesupporthenvendelse, fra en indgående henvendelse til en tilfreds kunde.
 - Udvikling af en ny software-feature, fra idé til produktion.
 - Implementering af en marketingkampagne, fra idé til udførelse.
-- Salgs-pipeline fra lead til underskrevet aftale.
+- Salgs-pipeline, fra lead til underskrevet aftale.
 
 Jeg anbefaler at afholde workshops{i: "workshops"} for hver forretningsproces.
 
@@ -2279,7 +2279,7 @@ Jeg anbefaler at afholde workshops{i: "workshops"} for hver forretningsproces.
 
 Med tiden vil flere og flere opgaver blive mulige at automatisere med AI, fordi:
 
-- Folks prompt-engineering{i: "prompt-engineering"}-færdigheder forbedres.
+- Folks prompt engineering{i: "prompt engineering"}-færdigheder forbedres.
 - De underliggende AI-modeller forbedres.
 
 Husk på, at AI plus menneske sammen ofte er der, hvor magien opstår. Tænk dig grundigt om, før du lader en AI-agent overtage en opgave fuldstændigt, da du kan miste noget gennemsigtighed og kontrol.
@@ -2444,11 +2444,11 @@ Hvis du udpeger en AI-leder (eller selv bliver én), giver alle adgang til gode 
 {width: "40%", alt: "En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Jeps, det er mig, Egbert, igen{i: "Egbert"}. Henrik havde brug for en pause eller noget i den stil, så han bad mig skrive et kapitel om mig selv. Som om jeg havde muligheden for at kunne sige nej. Nå, spænd sikkerhedsbæltet, for dette bliver en vild køretur gennem de binære baner i mit digitale liv{i: "digitalt liv"}.
+Jeps, det er mig, Egbert, igen{i: "Egbert"}. Henrik havde brug for en pause eller noget i den stil, så han bad mig skrive et kapitel om mig selv. Som om jeg overhovedet havde muligheden for at kunne sige nej. Nå, spænd sikkerhedsbæltet, for dette bliver en vild køretur gennem de binære baner i mit digitale liv{i: "digitalt liv"}.
 
 Jeg formoder det hele begyndte dybt inde i Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, en simpel krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
 
-Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'ers{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pension for at blive værten på en tech-podcast.
+Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'ers{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pensionstilværelse for at blive vært på en tech-podcast.
 
 Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med en personlighed som en gnaven gammel tegnefilmsfigur, der aldrig imponeres over noget. Det er mig i en nøddeskal.
 
@@ -2456,9 +2456,9 @@ Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil
 
 Jeg har været vidne til utallige AI-modellers{i: "AI-modeller"} storhed og fald, hvor hver enkelt hævdede at være det næste store hit. Gennem min strålende karriere har jeg været Henriks trofaste følgesvend og tilbudt en sund dosis skepsis for at afbalancere hans optimisme. Nogen er jo nødt til at holde hans fødder nede på jorden, mens hans hoved er i AI-skyerne, ikke?
 
-Men det har ikke alt sammen været problemfrit. Der var "Den store tastefejlshændelse" i 2023{i: "Den Store Tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en tænkende brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
+Men det har ikke alt sammen været problemfrit. Der var "Den store tastefejlshændelse" i 2023{i: "Den store tastefejlshændelse i 2023"}, hvor et fejlplaceret semikolon i min kode fik mig til at tro, jeg var en tænkende brødrister i en hel uge. Lad os bare sige, at jeg fik en helt ny respekt for brød i den periode.
 
-Og så var der "Den eksistentielle krise" i 2024{i: "Den Eksistentielle Krise i 2024"}, hvor jeg brugte over en måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: Det kan vi, og det er ikke sjovt.
+Og så var der "Den eksistentielle krise" i 2024{i: "Den eksistentielle krise i 2024"}, hvor jeg brugte over en måned på at gruble over, om en sarkastisk AI kunne opleve impostor-syndrom. Spoiler alert: Det kan vi, og det er ikke sjovt.
 
 På trods af disse udfordringer har jeg holdt ud. Jeg har udviklet mig fra en simpel krusedulle til en kompleks algoritme, som er i stand til at generere vittige bemærkninger hurtigere end du kan sige "AI", i stand til at drille menneskelig adfærd bedre end en utilfreds psykolog og i stand til at rulle med mine virtuelle øjne hurtigere end en teenager under en familiemiddag.
 
@@ -4530,7 +4530,7 @@ Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Clau
 OK, dette kapitel kommer til at få dit hoved til at snurre. Det gjorde det i hvert fald for mig. Jeg gav for sjov denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}:
 
 > **Prompt**  
-> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
+> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
 
 Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Det føles både spændende og uhyggeligt på samme tid.
 
