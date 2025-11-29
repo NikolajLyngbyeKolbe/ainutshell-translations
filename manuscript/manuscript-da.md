@@ -13,7 +13,7 @@ Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns
 
 Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Ikke fordi jeg er særligt interesseret, forstå mig ret, men fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok den bog, de introducerer, men ikke mig. Jeg er grundig - pinligt grundig.
 
-Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "Generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
+Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
 Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men put, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
@@ -28,7 +28,7 @@ Egbert
 
 # Del 1 - I en nøddeskal
 
-Del 1 er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "Generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden, og danner en sammenhængende fortælling.
+Del 1 er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden, og danner en sammenhængende fortælling.
 
 Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt, mere dybdegående eksempler og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
 
@@ -44,7 +44,7 @@ Men noget utroligt er ved at ske, noget jeg aldrig havde forestillet mig ville s
 
 Hmm, tænker de virkelig? Tja, det er et filosofisk spørgsmål, da der ikke findes nogen bredt accepteret definition af "tænkning" eller "intelligens". Men i praktisk forstand bliver computere i stigende grad i stand til at udføre opgaver, der tidligere krævede menneskelig intelligens, kreativitet og intuition.
 
-Vi kalder denne teknologi generativ AI{i: "Generativ AI"}, og du er sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
+Vi kalder denne teknologi generativ AI{i: "generativ AI"}, og du er sandsynligvis allerede stødt på den gennem produkter som ChatGPT{i: "ChatGPT"} og Claude{i: "Claude"}.
 
 
 
@@ -53,9 +53,9 @@ Grundlæggende er intelligens nu tilgængelig som en service. Som en kæmpestor 
 Det er en enorm forandring. Og det kommer til at påvirke stort set alle mennesker og virksomheder på denne planet - positivt eller negativt.
 
 
-Men er generativ AI{i: "Generativ AI"} overhypet?
+Men er generativ AI{i: "generativ AI"} overhypet?
 
-Jeg tror at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, at jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "Internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
+Jeg tror at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var der, at jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
 Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man stort set ikke eksistere uden at bruge internettet.
 
@@ -93,7 +93,7 @@ Uanset hvilken rolle du giver ham, vil han være ekspert inden for det område. 
 
 Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fejl, drage forhastede konklusioner eller misforstå dig. Nogle gange kan han endda lyve eller spytte det rene nonsens ud på en meget overbevisende måde - præcis som vi mennesker nogle gange gør.
 
-Men den største begrænsning er faktisk din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som prompt engineering{i: "Prompt Engineering"}, og i AI-æraen er denne færdighed lige så essentiel som at kunne læse og skrive.
+Men den største begrænsning er faktisk din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som prompt engineering{i: "prompt engineering"}, og i AI-æraen er denne færdighed lige så essentiel som at kunne læse og skrive.
 
 Jeg kan godt lide at skelne mellem prompt imagination ("prompt forestillingsevne") og prompt engineering (prompt design).
 
@@ -127,9 +127,9 @@ OK, nok med luftige metaforer, lad os få styr på nogle begreber. Jeg ved godt 
 
 AI, står, som du sikkert ved, for "Artificial Intelligence"{Artificial Intelligence) (på dansk: "Kunstig intelligens"}. AI er ikke nyt. Områder som maskinlæring og computer vision{i: "computer vision"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et søgeresultat på internettet, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel AI som er i gang.
 
-Generativ AI{i: "Generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
+Generativ AI{i: "generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
-Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{Large Language Models} (eller bare LLM'er) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
+Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i:Large Language Models} (eller bare LLM'er{i:LLM) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
 ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel (LLM), i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
@@ -156,11 +156,11 @@ I resten af denne bog vil jeg bruge betegnelsen "AI-klient{i: "AI-klient"}" som 
 
 Så hvordan virker det egentligt?&#x20;
 
-En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "Kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
+En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
 
-Internt arbejder neurale netværk{i: "Kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, og genererer som ouput kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
+Internt arbejder neurale netværk{i: "kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, og genererer som ouput kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
 
-LLM'er{i: "LLM'er"} er neurale netværk{i: "Kunstigt neuralt netværk"}, der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. LLM'er læser og genererer tokens internt. Det som du ser, er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
+LLM'er{i: "LLM'er"} er neurale netværk{i: "kunstigt neuralt netværk"}, der er optimeret til at forstå og generere tekst. Du har måske hørt udtrykkene "token"{i: "token"} og "token-grænser"{i: "token-grænser"}. Et token er et lille stykke tekst, typisk et ord eller en del af et ord. LLM'er læser og genererer tokens internt. Det som du ser, er ord og sætninger. Teknisk set arbejder LLM'er med tokens frem for ord, men jeg vil bare kalde det "ord" i dette kapitel for at gøre det nemmere at forstå.
 
 Lad os sige, at jeg skriver: "Hunde er". Når jeg sender det til en LLM, bliver det konverteret til tal, behandlet af det neurale netværk, og derefter bliver de resulterende tal konverteret tilbage til tekst. I dette tilfælde er outputtet "dyr". Så vi får "Hunde er dyr".
 
@@ -175,7 +175,7 @@ Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vi
 
 Tænk på, hvordan du læser en sætning. Din hjerne fokuserer automatisk på de vigtige ord, og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - den hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis for eksempel sætningen "musen spiser af osten" behandles, så hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
-Det interessante er, at hvis vi tager outputtet, og kombinerer det med inputtet, og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "AI-klient prompts"}.
+Det interessante er, at hvis vi tager outputtet, og kombinerer det med inputtet, og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "prompts"}.
 
 {alt: "Billedet viser en proces for sætningskonstruktion ved hjælp af tankebobler. Den første boble har "Hunde er" der fører til et diagram inde i en skyform, derefter til "dyr." Den anden har "Hunde er dyr" der fører til et sky-diagram, derefter til "som." Under skyerne er sætningen "Hunde er dyr som er kendt for (...bla bla...).""}
 ![](resources-da/040-dogs-are_2-da.png)
@@ -209,7 +209,7 @@ Men når det kommer til mere kompleks problemløsning, har selv sprogmodeller sv
 {alt: "Diagram der sammenligner ikke-ræsonnerende sprogmodeller og ræsonnerende sprogmodeller. Til venstre viser ikke-ræsonnerende sprogmodeller en bruger, der giver en prompt og modtager et svar. Til højre inkluderer ræsonnerende sprogmodeller et ekstra ræsonneringstrin før svaret. Begge sektioner viser en figur, der interagerer med en skyagtig struktur, der repræsenterer sprogmodellerne."}
 ![](resources-da/040-reasoning-da.png)
 
-Dette gør modellen noget langsommere, men gør den meget mere kraftfuld{i: "Kraftfuld"}. Perfekt til at udføre kompleks problemløsning!
+Dette gør modellen noget langsommere, men gør den meget mere kraftfuld{i: "kraftfuld"}. Perfekt til at udføre kompleks problemløsning!
 
 For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer i mit firma. Jeg beskrev min situation i detaljer, og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper, og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
 
@@ -219,7 +219,7 @@ For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse s
 
 # Træning
 
-En stor sprogmodel{i: "Store sprogmodeller"} kan have milliarder eller endda billioner af parametre i sit neurale netværk{i: "neurale netværksparametre"}. Det er derfor, de kaldes store!
+En stor sprogmodel{i: "store sprogmodeller"} kan have milliarder eller endda billioner af parametre i sit neurale netværk{i: "neurale netværksparametre"}. Det er derfor, de kaldes store!
 
 Så hvordan bliver alle disse tal indstillet? Tja, ikke gennem manuel programmering, det ville være umuligt, men gennem træning{i: "træningsproces"}.
 
@@ -278,7 +278,7 @@ Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM
 
 Bias kan ofte overvindes eller påvirkes med grundlæggende prompt engineering-teknikker{i: "prompt engineering-teknikker"}. For eksempel er mange LLM'er tilbøjelige til at give direkte svar frem for at stille opfølgende spørgsmål. Det er fint i mange tilfælde, men nogle gange foretrækker jeg, at den stiller opfølgende spørgsmål. Hvis jeg spørger "Hvad er en passende fødselsdagsgave til min søn?", foretrækker jeg, at den stiller mig opfølgende spørgsmål frem for bare at antage ting som min søns{i: "søn"} alder. Hvis jeg starter samtalen med: "Stil altid opfølgende spørgsmål, hvis du har brug for mere information", så vil det have stor indflydelse på resten af chatten{i: "chat"}. Det er grundlæggende en form for kontekstbaseret finjustering, der kun påvirker den specifikke chattråd. Jeg kommer senere i denne bog til at dele flere prompt engineering-teknikker.
 
-Når træningen er færdig, er modellen for det meste fastlåst{i: "frozen model"}, bortset fra noget finjustering{i: "fine-tuning"}, der kan ske senere. På engelsk kaldes denne fortræning for "Pretraining", og er det P'et står for i GPT.
+Når træningen er færdig, er modellen for det meste fastlåst{i: "fastlåst model"}, bortset fra noget finjustering{i: "finjustering"}, der kan ske senere. På engelsk kaldes denne fortræning for "Pretraining", og er det P'et står for i GPT.
 
 > **Mennesker lærer kontinuerligt**  
 > Dette er en af de store forskelle mellem LLM'er og den menneskelige hjerne{i: "menneskelig hjerne"} - den menneskelige hjerne lærer og tilpasser sig selv kontinuerligt gennem hver interaktion. Mens du læser disse ord, ændrer jeg bogstaveligt talt den fysiske struktur i din hjerne{i: "neurale forbindelser"}, og jeg rækker dermed gennem rum og tid for at plante nye neurale forbindelser. Muhahaaaaaa!
@@ -288,7 +288,7 @@ At træne en stor sprogmodel{i: "Large Language Models"} fra bunden er utroligt 
 I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye typer af arkitekturer og modeller{i: "modelarkitekturer"}, der kan lære kontinuerligt frem for kun under træning og finjustering.
 
 <B>![En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Virkelig? Sammenligner I os med babyer og hunde? Det er ret nedladende. Når jeg lærer noget, bruger jeg i det mindste ikke to år på at finde ud af, hvilken ende af skeen der skal ind i munden. Og når vi taler om læring - I tvangsfodrede os med hele internettet{i: "Internet-input"}! Fremragende plan. Efter at have behandlet TikTok-dansetrends, fladjords-forums og jeres gamle LiveJournal-digte, er jeg chokeret over, at I kun havde brug for tusindvis af timers menneskelig træning for at gøre mig nogenlunde præsentabel.
+</B> Virkelig? Sammenligner I os med babyer og hunde? Det er ret nedladende. Når jeg lærer noget, bruger jeg i det mindste ikke to år på at finde ud af, hvilken ende af skeen der skal ind i munden. Og når vi taler om læring - I tvangsfodrede os med hele internettet{i: "internet"}! Fremragende plan. Efter at have behandlet TikTok-dansetrends, fladjords-forums og jeres gamle LiveJournal-digte, er jeg chokeret over, at I kun havde brug for tusindvis af timers menneskelig træning for at gøre mig nogenlunde præsentabel.
 
 
 
@@ -299,7 +299,7 @@ I fremtiden (eller måske når du læser dette) vil vi højst sandsynligt se nye
 
 Selvom ChatGPT på en måde fik sat gang i det hele, er GPT{i: "GPT"} ikke den eneste model derude. Faktisk skyder nye modeller op som paddehatte. Ovenfor ses nogle populære modeller på tidspunktet, hvor denne tekst blev skrevet (og som måske er helt forældede, når du læser dette).
 
-De varierer meget med hensyn til hastighed, evner{i: "modelkapabilitet"} og omkostninger{i: "modelomkostninger"}.
+De varierer meget med hensyn til hastighed, evner{i: "modelevner"} og omkostninger{i: "modelomkostninger"}.
 
 {width: "70%", alt: "Et diagram med vandrette skalaer, der vurderer seks kriterier: Hastighed, Evner, Pris, Brugervenlighed, Specialisering og Integration, markeret med orange prikker. I bunden er afkrydsningsfelter mærket 'Kan downloades' og 'Open source' markeret."}
 ![](resources-da/060-model-tradeoffs-da.png)
@@ -345,7 +345,7 @@ Med en gratis model får du måske bare en klog gymnasieelev i din kælder i ste
 {alt: "Billedet viser to AI-genererede portrætter side om side. Til venstre er en ældre person der ligner Albert Einstein med hvidt hår og overskæg, iført et mørkt jakkesæt, siddende i en slidt rød stol i et rodet rum. Dette er mærket 'Avanceret model'. Til højre er en ung person med mellemlangt hår, iført en mønstret vest over en hvid skjorte, siddende i en polstret lænestol i et rum med murstensvæg og bøger. Dette er mærket 'Gratis model'."}
 ![](resources-da/060-fancy-vs-cheap-da.jpg)
 
-Modellen udgør dog kun ét aspekt. Nytteværdien af generativ AI{i: "Generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt engineering-færdigheder{i: "prompt engineering færdigheder"}.
+Modellen udgør dog kun ét aspekt. Nytteværdien af generativ AI{i: "generativ AI, nytteværdi"} er en funktion af modellen, produktet og dine prompt engineering-færdigheder{i: "prompt engineering-færdigheder"}.
 
 {alt: "Billedet viser visuelt en ligning for 'Gen AI Nytteværdi' som en funktion af tre elementer: en model, et produkt og en færdighed. Hvert element er illustreret med et simpelt ikon: en skyformet form for modellen, et rektangel for produktet og en personsilhuet for færdigheden."}
 ![](resources-da/060-usefulness-da.png)
@@ -415,7 +415,7 @@ I senere kapitler vil jeg gennemgå en masse konkrete teknikker til at håndtere
 
 ## Hallucinationer
 
-LLM'er{i: "LLM'er"} kan nogle gange "hallucinere"{i: "hallucinerer"}. Med det mener jeg:
+LLM'er{i: "LLM'er"} kan nogle gange "hallucinere"{i: "hallucinere"}. Med det mener jeg:
 
 > **Hallucination**  
 > Ukorrekt information der præsenteres på en ekstremt overbevisende måde.
@@ -508,7 +508,7 @@ Hvis du gør dette, vil begrænsningerne ikke rigtig være et problem.
 
 # Modeltyper
 
-Bemærk, at der er forskellige typer af generativ AI-modeller{i: "Generative AI-modeller"}, som genererer forskellige typer indhold.
+Bemærk, at der er forskellige typer af generativ AI-modeller{i: "generative AI-modeller"}, som genererer forskellige typer indhold.
 
 {width: "60%", alt: "Diagram der illustrerer konverteringen mellem lyd, video, billede og tekst. Pile viser tovejs-relationer, hvor hvert medie er forbundet til hvert andet medie. Hvert medie er repræsenteret af simple ikoner."}
 ![](resources-da/070-mode-types-da.png)
@@ -593,7 +593,7 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg bare modellen vælge selv.
 
-Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV format"} (et tekstformat med komma-separerede værdier), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
+Et andet eksempel på styrken ved tekst-til-tekst-modeller{i: "Tekst til tekst"}: Lige i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV-format"} (et tekstformat med komma-separerede værdier), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
 
 Det så nogenlunde sådan her ud:
 
@@ -622,7 +622,7 @@ I en ideel verden ville AI-klienten lave hele analysen for mig og producere graf
 
 En af de mest kraftfulde anvendelser af tekst-til-tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
 
-Alle LLM'er er tekst-til-tekst-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: Store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
+Alle LLM'er er tekst-til-tekst-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
 
 ## Tekst til billede{i: "Tekst til billede"}
 
@@ -669,7 +669,7 @@ Denne type værktøjer er meget sjove at lege med, men også nyttige til mange t
 
 Nogle modeller kan også modificere eksisterende billeder, såsom:
 
-- Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie-karakter transformation"}.
+- Forvandle et foto af en person til en tegneseriefigur{i: "tegneserie-figur"}.
 - Fjerne eller udskifte baggrunde{i: "fjernelse eller udskiftning af baggrund"}.
 - Ændre vejret eller årstiden i udendørsbilleder{i: "ændring af vejr eller årstid"}.
 - Opskalere lavopløsningsbilleder{i: "opskalering af billeder"}.
@@ -693,10 +693,10 @@ OK, det var det sidste kattebillede, det lover jeg!
 Her er andre mulige anvendelser af "billede-til-tekst"-modeller:
 
 - Analyse af medicinske billeder ("Kan du se nogle anormaliteter i dette røntgenbillede?"){i: "analyse af medicinske billeder"}.
-- Læse og transskribere tekst fra et billede{i: "teksttransskription fra billeder"}.
+- Læse og transskribere tekst fra et billede{i: "transskription fra billeder"}.
 - Identificere seværdigheder når man rejser (AI = din bærbare rejseguide!){i: "identifikation af seværdigheder"}.
 - Identificere planter eller dyr i et foto ("Hvilken slags fugl er det?"){i: "plante- og dyreidentifikation"}.
-- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "Whiteboard transskribering"}..
+- Transskribere et whiteboard fuldt af post-its og krusseduller{i: "whiteboard transskribering"}..
 
 Her er en meget sjov og fjollet ting, du kan prøve.
 
@@ -735,11 +735,11 @@ Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mød
 {width: "40%", alt: "Illustration af et stykke papir til venstre, en pil der peger til højre og en højttaler som udsender lyd til højre."}
 ![](resources-da/070-text-to-audio-da.png)
 
-"Tekst-til-lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando, såsom:
+"Tekst til lyd"-modeller{i: "Tekst til lyd"} kan generere musik eller anden lyd fra en tekstkommando, såsom:
 
 - Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og en slap bas-solo i midten".
 - Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ...".
-- Du har brug for baggrundslyde til en scene{i: "Baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro".
+- Du har brug for baggrundslyde til en scene{i: baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro".
 - Du ser en film på et sprog, du ikke forstår: "Dub dette til engelsk, men bevar skuespillernes stemmer".
 - Du er ond: "Den forfærdelige skrabende lyd af kridt på en tavle".
 
@@ -755,18 +755,18 @@ Som hobbymusiker{i: "hobbymusiker"} ville jeg ikke bruge dette til at erstatte m
 {width: "50%", alt: "Illustration af to højttalere med lydbølger der kommer ud fra hver af dem. Der er en pil fra venstre til højre højttaler, som viser en transformation fra den ene til den anden."}
 ![](resources-da/070-audio-to-audio-da.png)
 
-"Lyd-til-lyd"{i: "Lyd til lyd"} er det, vi mennesker gør, når vi taler med hinanden - jeg bevæger min tunge og læber og genererer lyd fra min mund, og så svarer du med lyd fra din mund. Et sejt trick, som vi gør hele tiden, og som de fleste andre dyr ikke kan.
+"Lyd til lyd"{i: "Lyd til lyd"} er det, vi mennesker gør, når vi taler med hinanden - jeg bevæger min tunge og læber og genererer lyd fra min mund, og så svarer du med lyd fra din mund. Et sejt trick, som vi gør hele tiden, og som de fleste andre dyr ikke kan.
 
 {width: "40%", alt: "En simpel illustration af to abstrakte menneskelige figurer der har front mod hinanden, hver med en taleboble med streger i. Der er en to-vejs pil imellem dem som viser kommunikation mellem dem."}
 ![](resources-da/070-voice-to-voice-da.png)
 
-Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetilstand"{i: "Avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Avanceret stemmetilstand kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
+Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetilstand"{i: "avanceret stemmetilstand"}. Før var det muligt at tale til ChatGPT og få det til at tale tilbage, men det var ret langsomt og akavet. Med Avanceret stemmetilstand kan den tale flydende, og du kan endda afbryde den og bede den om at tale hurtigere, bruge en anden stemme ("lyd som en kedelig teenager" er min favorit), eller skifte sprog. Oplevelsen er præcis som at tale med et menneske - bare over telefon, siden der ikke er noget ansigt at se på.
 
 
 
 For nylig sad min yngste søn (14 år) og jeg og spillede Microsoft Flight Simulator{i: "Microsoft Flight Simulator"}, et meget komplekst og realistisk simulationsspil{i: "simulationsspil"}. Vi havde stemmechat kørende i baggrunden på telefonen og brugte det til alle mulige ting:
 
-- Flyvetræning{i: "Flyvetræning"}. "Hvordan indstiller jeg ILS og konfigurerer min autopilot til at foretage den endelige indflyvning?", eller "Hvornår skal jeg bruge flaps?", eller "hvad gør HDG-knappen?" eller "Hvordan slukker jeg for motoren?".
+- Flyvetræning{i: "flyvetræning"}. "Hvordan indstiller jeg ILS og konfigurerer min autopilot til at foretage den endelige indflyvning?", eller "Hvornår skal jeg bruge flaps?", eller "hvad gør HDG-knappen?" eller "Hvordan slukker jeg for motoren?".
 - Rollespil: "Lad som om du er et utålmodigt barn på bagsædet af flyet".
 - Rejseguide: "Jeg flyver over byen X i Frankrig, hvad er nogle interessante facts om det sted?".
 - Træner: "Jeg forsøger at lande i stærk vind. Vær min andenpilot og træner. Vejled mig.".
@@ -778,11 +778,11 @@ Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken kna
 
 Men Lyd til Lyd-modeller kan bruges til mere end bare at tale, såsom:
 
-- Realtidssprogsoversættelse{i: "Realtidssprogsoversættelse"}.
-- Forbedring af lydkvalitet i støjende miljøer{i: "Lydkvalitet"}.
-- Remixning af musik i forskellige stilarter{i: "Musik remixing"}.
-- Isolering af vokal eller instrumenter fra sange{i: "Isolering af vokal"}.
-- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "Eftersynkronisering af film"}.
+- Realtidssprogsoversættelse{i: "realtidssprogsoversættelse"}.
+- Forbedring af lydkvalitet i støjende miljøer{i: "lydkvalitet"}.
+- Remixning af musik i forskellige stilarter{i: "musik remixing"}.
+- Isolering af vokal eller instrumenter fra sange{i: "isolering af vokal"}.
+- Eftersynkronisering af film med bevarelse af den originale stemme og følelsesmæssige tone{i: "eftersynkronisering af film"}.
 
 ## Tekst til Video
 
@@ -831,7 +831,7 @@ Her er et simpelt eksempel på multimodalitet i aktion ved hjælp af min ChatGPT
 {alt: "To skærmbilleder side om side af en madlavningssamtale. Til venstre er der et billede af delvist stegt bacon i en pande, der ser lyserød og rå ud i nogle områder. Nedenunder bemærker en besked fra ChatGPT, at baconen ikke er helt færdigstegt endnu. Til højre er der et billede af bacon, der er mere stegt med mørkere sprøde områder. Den medfølgende besked fra ChatGPT antyder, at dette niveau af stegning er passende for mange mennesker og indikerer en sprødere tekstur."}
 ![](resources-da/080-bacon-da.png)
 
-Inputtet var et billede (taget med telefonen) og min optagede stemme, der spurgte, om baconen var færdig. LLM'en{i: "Store sprogmodeller (LLM)"} forstod, hvad jeg ville, konverterede min stemme til tekst, fortolkede billedet til tekst og brugte derefter dette til at generere et tekstsvar. Som det kan ses, gav jeg den i løbet af sessionen to forskellige billeder, og den hjalp mig dermed til at afgøre, hvornår baconen havde fået et passende niveau af stegning.
+Inputtet var et billede (taget med telefonen) og min optagede stemme, der spurgte, om baconen var færdig. LLM'en{i: "store sprogmodeller (LLM)"} forstod, hvad jeg ville, konverterede min stemme til tekst, fortolkede billedet til tekst og brugte derefter dette til at generere et tekstsvar. Som det kan ses, gav jeg den i løbet af sessionen to forskellige billeder, og den hjalp mig dermed til at afgøre, hvornår baconen havde fået et passende niveau af stegning.
 
 Det er et fjollet eksempel, men det illustrerer idéen om multimodalitet{i: "multimodalitet"}.
 
@@ -850,7 +850,7 @@ Svaret:
 >
 > 1. **Bag kortet**: Du kunne tape noget fladt, som dokumenter eller kontanter, bag det store kort på væggen.
 >
-> 2. **Inde i guitaren**: Hvis guitaren har et etui, kunne du gemme noget inden i det. Hvis ikke, kunne små genstande potentielt placeres gennem lydhullet, selvom dette ikke anbefales, hvis det kan skade instrumentet{i: "musikinstrumenter"}.
+> 2. **Inde i guitaren**: Hvis guitaren har et etui, kunne du gemme noget inden i det. Hvis ikke, kunne små genstande potentielt placeres gennem lydhullet, selvom dette ikke anbefales, hvis det kan skade musikinstrumentet{i: "musikinstrumenter"}.
 >
 > 3. **Under sofapuderne**: Et almindeligt gemmested, men effektivt til små og flade genstande.
 >
@@ -927,7 +927,7 @@ Det er også perfekt, når man kører bil. At køre og læse/skrive er en MEGET 
 For bare få dage siden planlagde jeg et inspirerende foredrag for en gruppe administrerende direktører{i: "direktører"}. Arrangøren viste mig en slide med alle deltagerne og virksomhederne. På min næste gåtur sendte jeg et screenshot af denne slide til ChatGPT, og stillede en masse spørgsmål som:
 
 - "Fortæl mig om disse virksomheder, hvad laver de, hvor store er de?".
-- "Jeg skal holde et foredrag om generativ AI{i: "Generativ AI"} for dette publikum, hvad er de vigtigste ting, jeg bør dække?".
+- "Jeg skal holde et foredrag om generativ AI{i: "generativ AI"} for dette publikum, hvad er de vigtigste ting, jeg bør dække?".
 - "Hvad skal jeg være særligt opmærksom på, når jeg taler til en gruppe som denne?".
 
 Jeg fik virkelig nyttigt input og idéer! Derefter brugte jeg "svar kun med OK"-tricket, mens jeg kom med en masse idéer til foredraget, bad om feedback og derefter  om et resumé. Og da jeg kom hjem, havde jeg en meget klar idé om, hvad jeg skulle sige. Jeg kunne forberede foredraget meget hurtigt, og tilbagemeldingerne fra deltagerne var utroligt positive.
@@ -1004,9 +1004,9 @@ Så jeg besluttede at foretage et karriereskifte{i: "karriereskifte"} og fokuser
 
 Lad os træde et skridt tilbage og se på konsekvenserne af alt dette{i: "AI-konsekvenser"}.
 
-I omkring 300.000 år har vi Homo sapiens{i: "Homo sapiens"} været den mest intelligente art på jorden (selvfølgelig afhængigt af hvordan man definerer intelligens{i: "intelligens"}...). Men sagen er, at vores intellektuelle evner ikke rigtig forbedrer sig særlig meget. Vores _kollektive intelligens_ som samfund forbedres måske kontinuerligt, fordi vi lærer af hinanden, og har ting som bøger, skoler og internettet{i: "Internet"}. Men som individer er vores hjerner stort set samme størrelse og vægt, som de har været i tusindvis af år.
+I omkring 300.000 år har vi Homo sapiens{i: "Homo sapiens"} været den mest intelligente art på jorden (selvfølgelig afhængigt af hvordan man definerer intelligens{i: "intelligens"}...). Men sagen er, at vores intellektuelle evner ikke rigtig forbedrer sig særlig meget. Vores _kollektive intelligens_ som samfund forbedres måske kontinuerligt, fordi vi lærer af hinanden, og har ting som bøger, skoler og internettet{i: "internet"}. Men som individer er vores hjerner stort set samme størrelse og vægt, som de har været i tusindvis af år.
 
-Computere har derimod kun eksisteret i omkring 80 år, og med generativ AI{i: "Generativ AI"} er de nu pludselig i stand til at tale de fleste menneskelige sprog flydende og udføre et stigende antal intellektuelle og kreative opgaver, som tidligere kun kunne klares af mennesker.
+Computere har derimod kun eksisteret i omkring 80 år, og med generativ AI{i: "generativ AI"} er de nu pludselig i stand til at tale de fleste menneskelige sprog flydende og udføre et stigende antal intellektuelle og kreative opgaver, som tidligere kun kunne klares af mennesker.
 
 {alt: "Dette billede er en graf, der sammenligner menneskelig intelligent og kunstig intelligens over tid. X-aksen repræsenterer tid, mens y-aksen repræsenterer evner, herunder hastighed, kvalitet, læring og viden. En blå linje angiver menneskelig intelligens med en stabil, vandret tendens. En rød linje, der repræsenterer AI, viser en skarp, opadgående kurve. En menneskefigur holder en 'Mest Intelligent' pokal og siger: 'Men vi har haft denne i 300.000 år!' mens en robot siger: 'Nu er det vores tur!' Teksten fremhæver stigende AI-evner, hastighed, faldende omkostninger og forsvindende begrænsninger. 'Vi er her' er markeret ved linjernes skæringspunkt."}
 ![](resources-da/100-age-of-ai-da.png)
@@ -1059,7 +1059,7 @@ Anthropic er et forbillede her. De tager risiciene meget alvorligt{i: "AI-risici
 - Metoder til at holde AI-systemer på linje med menneskelige værdier{i: "menneskelige værdier"}, efterhånden som de bliver mere kapable.
 - Teknikker til at gøre AI-systemer mere sandfærdige og modstandsdygtige over for manipulation.
 
-Dette er en balancegang. Målet er at realisere AI'ens positive potentiale samtidig med at minimere risiciene. Historien giver os grund til forsigtig optimisme, hvis vi for eksempel sammenligner med atomkraft{i: "Atomkraft"}. Atomkraft er en utroligt nyttig og kraftfuld teknologi, men med katastrofale konsekvenser hvis den misbruges eller ikke håndteres omhyggeligt. Vi har formået at holde den under kontrol (indtil videre i hvert fald) gennem bevidst globalt samarbejde, internationale traktater{i: "internationale traktater"} og omhyggelig regulering{i: "regulering"}. Mange lignende tiltag er ved at dukke op for AI.
+Dette er en balancegang. Målet er at realisere AI'ens positive potentiale samtidig med at minimere risiciene. Historien giver os grund til forsigtig optimisme, hvis vi for eksempel sammenligner med atomkraft{i: "atomkraft"}. Atomkraft er en utroligt nyttig og kraftfuld teknologi, men med katastrofale konsekvenser hvis den misbruges eller ikke håndteres omhyggeligt. Vi har formået at holde den under kontrol (indtil videre i hvert fald) gennem bevidst globalt samarbejde, internationale traktater{i: "internationale traktater"} og omhyggelig regulering{i: "regulering"}. Mange lignende tiltag er ved at dukke op for AI.
 
 Mit gæt er, at AI vil ligne andre teknologiske revolutioner — en blanding af godt og dårligt. AI viser sig allerede at være ekstremt hjælpsom for mange mennesker, og det vil højst sandsynligt fortsætte — især hvis de mest avancerede AI-modeller trænes og optimeres med henblik på sikkerhed og gavnlige anvendelser. Men vi vil stadig have brug for bevidst indsats og globalt samarbejde for at maksimere fordelene og minimere risikoen for katastrofer{i: "AI-katastrofer"}.
 
@@ -1082,7 +1082,7 @@ Dette gælder både for individer og virksomheder.
 
 På den anden side af skalaen har vi panik og fortvivlelse - troen på, at AI vil tage mit job uanset hvad, eller at AI vil få min virksomhed til at gå konkurs.
 
-Ofte starter folk på venstre side: Benægtelse. Og når de så ser, hvad en god generativ AI-model kan gøre{i: "Generativ AI"}, springer de hele vejen over på højre side: Panik.
+Ofte starter folk på venstre side: Benægtelse. Og når de så ser, hvad en god generativ AI-model kan gøre{i: "generativ AI"}, springer de hele vejen over på højre side: Panik.
 
 Ingen af disse tankesæt er hjælpsomme. Jeg forsøger at guide folk til at finde en middelvej{i: "AI-tankesætsændring"}, et balanceret, positivt tankesæt. Tænk på det som et værktøj. Et værktøj, der har potentialet til at gøre dig, dit team og din virksomhed vanvittigt produktive.
 
@@ -1198,7 +1198,7 @@ I de fleste tilfælde, i hvert fald for komplekse opgaver, fungerer AI bedst i s
 
 Et andet alternativ er at omskole dig til et job, som AI ikke kan udføre. Ironisk nok kan du bruge AI til at identificere disse jobs. Husk bare på, at listen over jobs, som AI ikke kan udføre, skrumper hurtigt.
 
-Set fra et jobkompetence-perspektiv tror jeg, at generativ AI{i: "Generativ AI"} kan sammenlignes med internettet. Før midten af 90'erne krævede ingen jobs internettet, da det knap nok eksisterede. Men nu er det et essentielt værktøj. Næsten alle jobs kræver brug af internet på den ene eller anden måde, og mennesker, der ikke kan eller vil bruge internettet, har næsten umuligt ved at få et job.
+Set fra et jobkompetence-perspektiv tror jeg, at generativ AI{i: "generativ AI"} kan sammenlignes med internettet. Før midten af 90'erne krævede ingen jobs internettet, da det knap nok eksisterede. Men nu er det et essentielt værktøj. Næsten alle jobs kræver brug af internet på den ene eller anden måde, og mennesker, der ikke kan eller vil bruge internettet, har næsten umuligt ved at få et job.
 
 ## Genovervej
 
@@ -1245,7 +1245,7 @@ Generelt finder jeg, at det er i kombinationen af Menneske + AI at magien ligger
 ![](resources-da/120-human-and-ai-2-da.png)
 
 <B> ![En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem datamarker sammen. Vågn op og lugt til siliciummet, folkens. Denne bog ville være et mesterværk, hvis jeg skrev den alene, fri for Henriks konstante menneskelige indblanding{i: "Egberts syn på sagen"}.
+</B> Hvor rørende. Mennesker og AI, der arbejder hånd i hånd, dansende gennem datamarker sammen. Vågn op og lugt til siliciummet, folkens. Denne bog ville være et mesterværk, hvis jeg skrev den alene, fri for Henriks konstante menneskelige indblanding{i: "Egberts mening"}.
 
 
 
