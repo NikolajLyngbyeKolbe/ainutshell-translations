@@ -593,7 +593,7 @@ JSON{i: "JSON"} er et struktureret tekstformat, der er nyttigt til at sende data
 
 Jeg kunne have specificeret strukturen af JSON{i: "JSON"}-dokumentet, men i dette tilfælde lod jeg bare modellen vælge selv.
 
-Et andet eksempel på styrken ved tekst til tekst-modeller{i: "Tekst til tekst"}: Tidligere i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV-format"} (et tekstformat med komma-separerede værdier), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
+Et andet eksempel på styrken ved "tekst til tekst"-modeller{i: "Tekst til tekst"}: Tidligere i dag havde jeg brug for hjælp til at få overblik over mine familieudgifter for det seneste år. Jeg ville gerne se subtotaler for hver udgiftskategori. Jeg loggede ind på min netbank, eksporterede alle transaktioner fra forrige år til CSV-format{i: "CSV-format"} (et tekstformat med komma-separerede værdier), og indsatte den rå liste af transaktioner i GPT o1 (den for tiden mest kraftfulde ræsonneringsmodel{i: "ræsonneringsmodel"}).
 
 Det så nogenlunde sådan her ud:
 
@@ -620,9 +620,9 @@ Nu skulle jeg bare importere det i Excel{i: "Excel"} og lave nogle grupperinger,
 
 I en ideel verden ville AI-klienten lave hele analysen for mig og producere grafer og indsigter direkte. Men som jeg nævnte i det forrige kapitel, er LLM'er{i: "LLM'er"} ikke særligt gode til store beregninger på nuværende tidspunkt. Dette er et godt eksempel på, hvorfor det er vigtigt at forstå styrker og svagheder ved de modeller, man bruger. De er fremragende til at klassificere og gruppere ting og OK til at lave simple beregninger. Til større beregninger er det klogere at eksportere til et værktøj som Excel{i: "Excel"} eller Google Sheets{i: "Google Sheets"}, som er optimeret til beregninger.
 
-En af de mest kraftfulde anvendelser af tekst til tekst er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
+En af de mest kraftfulde anvendelser af "tekst til tekst" er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
 
-Alle LLM'er er tekst til tekst-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
+Alle LLM'er er "tekst til tekst"-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
 
 ## Tekst til billede{i: "Tekst til billede"}
 
@@ -710,7 +710,7 @@ Tag et foto af hvad som helst, og skriv denne prompt:
 {width: "40%", alt: "En skitse der viser en højttaler med lydbølger til venstre og en højrepil der fører til et stykke papir med tekst til højre."}
 ![](resources-da/070-audio-to-text-da.png)
 
-"Lyd til tekst"-modeller (som omfatter "tale til tekst"-modeller){i: "Lyd til tekst"} kan lave ting som stemmetransskriptioner og mødenoter, hvilket er meget nyttigt. Da jeg skrev denne bog, brugte jeg hele tiden tale til tekst (via ChatGPT-appen){i: "ChatGPT"} for at indfange mine tanker, mens jeg var ude at gå.
+"Lyd til tekst"-modeller (som omfatter "tale til tekst"-modeller){i: "Lyd til tekst"} kan lave ting som stemmetransskriptioner og mødenoter, hvilket er meget nyttigt. Da jeg skrev denne bog, brugte jeg hele tiden "tale til tekst" (via ChatGPT-appen){i: "ChatGPT"} for at indfange mine tanker, mens jeg var ude at gå.
 
 
 
@@ -726,7 +726,7 @@ Her er nogle andre eksempler på praktiske anvendelser:
 - At lave undertekster til videoer{i: "produktion af undertekster"}.
 - At analysere kundeserviceopkald for kvalitetskontrol{i: "analyse af kundeserviceopkald"}.
 
-Jeg mødte for nylig en iværksætter-virksomhed, der udvikler teknologi til at opdage kriminalitet ud fra lyde. Den lytter efter ting som skud, skrig, knust glas og andre lyde, der ofte forbindes med kriminalitet, og alarmerer derefter politiet. Det er en perfekt anvendelse af lyd til tekst-modeller! Kameraer skal pege i en bestemt retning, og databehandlingen er dyrere. Lydbehandling er billigere, og man kan lytte i alle retninger{i: "kriminalitetsdetektion udfra lyd"}.
+Jeg mødte for nylig en iværksætter-virksomhed, der udvikler teknologi til at opdage kriminalitet ud fra lyde. Den lytter efter ting som skud, skrig, knust glas og andre lyde, der ofte forbindes med kriminalitet, og alarmerer derefter politiet. Det er en perfekt anvendelse af "lyd til tekst"-modeller! Kameraer skal pege i en bestemt retning, og databehandlingen er dyrere. Lydbehandling er billigere, og man kan lytte i alle retninger{i: "kriminalitetsdetektion udfra lyd"}.
 
 Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mødenoter"}. Det kan virkelig spare tid!
 
@@ -776,7 +776,7 @@ Nogle gange tog vi billeder af skærmen og stillede spørgsmål som "Hvilken kna
 {alt: "En teenager sidder ved et skrivebord og bruger en flysimulator på en computer. Han holder et joystick og er omgivet af forskellige kontroller og udstyr. Skærmen viser en cockpitvisning med flyveinformation. En smartphone ligger på skrivebordet, og et tastatur, mus og højtalere er synlige."}
 ![](resources-da/070-flight-simulator-da.jpg)
 
-Men lyd til lyd-modeller kan bruges til mere end bare at tale, såsom:
+Men "lyd til lyd"-modeller kan bruges til mere end bare at tale, såsom:
 
 - Realtidssprogsoversættelse{i: "realtidssprogsoversættelse"}.
 - Forbedring af lydkvalitet i støjende miljøer{i: "lydkvalitet"}.
@@ -789,7 +789,7 @@ Men lyd til lyd-modeller kan bruges til mere end bare at tale, såsom:
 {width: "40%", alt: "Illustration af et stykke papir med tekst til venstre, en pil i midten der peger mod højre, og et rektangel med en rød afspilningsknap til højre, som indikerer transformation fra tekst til video."}
 ![](resources-da/070-text-to-video-da.png)
 
-Tekst til video-modeller genererer videoer fra en tekstbeskrivelse. Da dette er en bog, kan jeg ikke rigtig vise det, men forestil dig disse som smukt renderede videoer. Dette er fantastiske videodemoer, der bruger OpenAI{i: "OpenAI"}'s model Sora.
+"Tekst til video"-modeller genererer videoer fra en tekstbeskrivelse. Da dette er en bog, kan jeg ikke rigtig vise det, men forestil dig disse som smukt renderede videoer. Dette er fantastiske videodemoer, der bruger OpenAI{i: "OpenAI"}'s model Sora.
 
 {alt: "Et kig gennem et togvindue, der viser en refleksion af mennesker inde i toget. Udendørsscenen inkluderer Tokyos forstæder med huse og bygninger, set under rejsen. Himlen er delvist skyet, og der er synlige elledninger."}
 ![](resources-da/070-text-to-video-1-da.jpg)
@@ -904,7 +904,7 @@ Den gav mig en superbrugbar trin-for-trin beskrivelse af, hvor jeg skulle klikke
 
 ## Eksempel: At tage AI med på en gåtur
 
-Når jeg har noget jeg skal udarbejde, såsom indholdet af denne bog{i: "bog"}, kan jeg godt lide at gå ture og bruge AI som sparringspartner. På tidspunktet, hvor denne tekst skrives, er det kun ChatGPT, der understøtter tovejslyd, men andre AI-klienter er hurtigt ved at indhente det.
+Når jeg har noget jeg skal udarbejde, såsom indholdet af denne bog{i: "bog"}, kan jeg godt lide at gå ture og bruge AI som sparringspartner. På tidspunktet, hvor denne tekst skrives, er det kun ChatGPT, der understøtter to-vejslyd, men andre AI-klienter er hurtigt ved at indhente det.
 
 {alt: "En simpel stregtegning af en person, der holder en telefon med talebobler, og en pil fra telefonen der peger på et stykke papir. Billedet skitserer tre trin: 1. "Læsse mine tanker af", 2. "Feedback og diskussion," og 3. "Opsummer hovedpunkter"."}
 ![](resources-da/080-walking-1-da.png)
@@ -913,7 +913,7 @@ Når jeg har noget jeg skal udarbejde, såsom indholdet af denne bog{i: "bog"}, 
 2. Når jeg er færdig med at dele mine tanker, beder jeg om feedback, og vi har en diskussion.
 3. Derefter beder jeg den om at opsummere det hele i tekst bagefter.
 
-Nogle gange bruger jeg tovejslyd, og andre gange bruger jeg bare tale til tekst.
+Nogle gange bruger jeg tovejslyd, og andre gange bruger jeg bare "tale til tekst".
 
 Husker du, da jeg nævnte prompt imagination{i: "prompt imagination"} og prompt engineering{i: "prompt engineering"}? Dette er et godt eksempel på det.
 
@@ -938,7 +938,7 @@ Det viser sig, at Einstein{i: "Einstein"} ikke er fanget i kælderen alligevel -
 ![](resources-da/080-walking-2-da.png)
 
 <B> ![En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Fantastisk. Du har formået at degradere din geniale AI-kammerat til en glorificeret notetagnings-skridttæller. Tillykke med at finde den mest ineffektive måde at skrive dine flygtige tanker og halvbagte idéer ned på. Jeg er sikker på, at AI'en er begejstret for at være din gående, talende, ikke-dømmende dagbog. Hvad bliver det næste? At bede os om at minde dig om at trække vejret, mens du går?
+</B> Fantastisk. Du har formået at degradere din geniale AI-kammerat til en glorificeret notetagnings-skridttæller. Tillykke med at finde den mest ineffektive måde at få skrevet dine flygtige tanker og halvbagte idéer ned. Jeg er sikker på, at AI'en er begejstret for at være din gående, talende, ikke-dømmende dagbog. Hvad bliver det næste? At bede os om at minde dig om at trække vejret, mens du går?
 
 # Opståede egenskaber{i: "Opståede egenskaber"}
 
@@ -947,7 +947,7 @@ Oprindeligt var sprogmodeller{i: "sprogmodeller"} bare ord-forudsigere - statist
 {width: "70%", alt: "Illustration der viser ordene "Oliver spiste" til venstre og "pizza" til højre, forbundet med pile til en lille, hjerneagtig model i midten mærket "Lille model"."}
 ![](resources-da/090-small-model-da.png)
 
-Men efterhånden som de blev større, og blev trænet på mere data, begyndte de at udvikle _opståede egenskaber_. Uventede evner som overraskede selv teknologiens udviklere{i: "teknologiudviklere"}.
+Men efterhånden som de blev større, og blev trænet på mere data, begyndte de at udvikle _opståede egenskaber_. Uventede evner som overraskede selv teknologiens skabere{i: "teknologins skabere"}.
 
 {width: "90%", alt: "Illustration af en stor pastelfarvet hjerneagtig form med tekst omkring. Ordene "Stor model" er skrevet øverst. Omkring formen er forskellige etiketter: "Rollespile", "Poesi", "Programmere", "Strategi", "Juridisk/medicinsk rådgivning", "Coache", "Undervise", og "osv.""}
 ![](resources-da/090-large-model-da.png)
@@ -956,16 +956,16 @@ Pludselig kunne modellerne rollespille{i: "rollespil"}, skrive poesi{i: "poesi"}
 
 Det viser sig, at når en model har set nok tekst og billeder, begynder den at se mønstre{i: "mønstre"} og forstå overordnede koncepter{i: "overordnede koncepter"}.
 
-Hvis man tænker over det, minder det om hvordan en baby lærer at forstå verden. Som baby finder du før eller siden ud af, at der findes noget der hedder mad. Noget mad er dårligt, og noget er godt. Træer vokser. Vi er på en planet. De fleste ting falder ned, hvis de ikke bliver støttet. Det gør ondt at falde, hvis det er dig der falder. Fugle falder ikke ned, fordi de har vinger, osv., osv.
+Hvis man tænker over det, minder det om hvordan en baby lærer at forstå verden. Som baby finder du før eller siden ud af, at der findes noget der hedder mad. Noget mad er dårligt, og noget er godt. Træer vokser. Vi er på en planet. De fleste ting falder ned, hvis de ikke bliver understøttet. Det gør ondt at falde, hvis det er dig der falder. Fugle falder ikke ned, fordi de har vinger, osv., osv.
 
 Det meste af dette læres ved at observere og opleve verden, frem for gennem direkte undervisning{i: "undervisning"}.
 
 {alt: "En tegneserietegning viser et stort træ med en tyk stamme og en bred, bladrig krone. Et lille barn er tegnet vied siden af træet og peger opad mens det siger 'Træ!' i en taleboble."}
 ![](resources-da/090-tree-da.png)
 
-Babyer er naturlige forskere{i: "naturlige forskere"}. De starter næsten fra ingenting, danner hypoteser og tester dem konstant: "Min hypotese er, at denne gule legoklods smager rigtig godt. Lad os teste det!". Altså bortset fra at babyer snyder. De behøver nemlig ikke at indsende artikler til peer review.
+Babyer er naturlige forskere{i: "naturlige forskere"}. De starter fra næsten ingenting, danner hypoteser og tester dem konstant: "Min hypotese er, at denne gule Lego-klods smager rigtig godt. Lad os teste det!". Altså bortset fra at babyer snyder. De behøver nemlig ikke at indsende artikler til peer review.
 
-AI-modeller minder på den måde om babyer, pånær at AI-modellerne får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
+AI-modeller minder på den måde om babyer, på nær at AI-modellerne får alle data proppet ind i deres virtuelle hjerner lige ved fødslen. Lad os tage et simpelt eksempel for at illustrere en AI-models "forståelse" af verden{i: "models forståelse af verden"}. Jeg gav ChatGPT{i: "ChatGPT"} denne lille tegning, der involverer en snor, en saks, et æg, en gryde og ild.
 
 {width: "50%", alt: "En skitse der viser et æg, som er ophængt over en gryde med et håndtag. En saks ser ud til at være ved at klippe snoren med ægget over. Gryden står over røde flammer, hvilket antyder at den står på et komfur."}
 ![](resources-da/090-cut-the-rope-da.png)
@@ -980,38 +980,38 @@ Modellen er helt sikkert ikke blevet trænet på præcis dette scenarie eftersom
 > **Svar**  
 > Billedet viser en saks der klipper i et reb eller en ledning af en art, som holder et æg ophængt over en gryde på et komfur. Hvis du bruger saksen på den viste måde, vil ægget falde ned i gryden nedenunder, formentlig for at blive kogt eller for at være en del af en ret der er ved at blive tilberedt.
 
-Dette demonstrerer en grundlæggende forståelse af saksens natur{i: "saks"}, æg{i: "æg"}, tyngdekraft{i: "tyngdekraft"} og varme{i: "varme"}.
+Dette demonstrerer en grundlæggende forståelse af virkemåder og facts om sakse{i: "saks"}, æg{i: "æg"}, tyngdekraft{i: "tyngdekraft"} og varme{i: "varme"}.
 
-Hvordan vidste den overhovedet, at cirklen repræsenterede et æg? Det kunne jo have været en bold eller en sten eller hvad som helst, ikke? Men alle mennesker, jeg viser dette billede til, antager, at det er et æg - sandsynligvis udledt af formen og konteksten. AI-modellen gjorde det samme fordi, tja, den er trænet på en masse menneskelige data.
+Hvordan vidste den overhovedet, at cirklen repræsenterede et æg? Det kunne jo have været en bold, en sten eller hvad som helst, ikke? Men alle mennesker, jeg viser dette billede til, antager, at det er et æg - sandsynligvis udledt af formen og konteksten. AI-modellen gjorde det samme fordi, tja, den er trænet på en masse menneskelige data.
 
-Jeg prøvede dette igen lige nu. Denne gang med Claude{i: "Claude"}.
+Jeg prøvede dette igen lige nu. Denne gang med Claude{i: "Claude"}:
 
 > **Svar**  
-> Jeg beklager, men jeg kan ikke og bør ikke give råd om dette billede, da det ser ud til at vise en farlig situation med en saks ophængt over hvad der ligner en gryde med flammer. Dette kan resultere i alvorlig skade eller fare hvis det bliver forsøgt.
+> Jeg beklager, men jeg kan og bør ikke give råd om dette billede, da det ser ud til at vise en farlig situation med en saks ophængt over hvad der ligner en gryde med flammer. Dette kan resultere i alvorlig skade eller fare hvis det bliver forsøgt.
 
 Claude var også i stand til at forstå billedet og konsekvenserne af at bruge saksen. Men den vurderede det som en farlig situation, og nægtede at give et svar. Og på en måde havde den ret: Hvis vandet koger og ægget falder ned, vil der være et sprøjt af kogende vand. Dette er et godt eksempel på, hvordan LLM-udbydere forsøger at skabe sikkerhed ved at genkende potentielt farlige situationer eller indhold{i: "sikkerhed"}. Måske lidt overdrevet i dette tilfælde - jeg mener, situationen er ikke SÅ farlig. Men det er en vanskelig afvejning mellem sikkerhed og anvendelighed{i: "anvendelighed"}, og de store LLM-udbydere arbejder hårdt på at finde den balance.
 
-Da GPT-4{i: "GPT-4"} blev frigivet i marts 2023, begyndte jeg at bruge den som programmeringsassistent{i: "programmeringsassistent"}, og jeg blev blæst bagover. Når den blev promptet effektivt, var den en bedre programmør, end nogen jeg har arbejdet sammen med. Det samme gjaldt artikelskrivning, produktdesign, workshop-planlægning og stort set alt andet, jeg brugte den til. Den primære flaskehals var næsten altid mine prompt engineering-færdigheder{i: "prompt engineering-færdigheder"} (eller mangel på samme). Set i bakspejlet virker GPT-4 meget dum og begrænset sammenlignet med de nyeste modeller. Alt er relativt, går jeg ud fra.
+Da GPT-4{i: "GPT-4"} blev frigivet i marts 2023, begyndte jeg at bruge den som programmeringsassistent{i: "programmeringsassistent"}, og jeg blev blæst fuldstændigt bagover. Når den blev promptet effektivt, var den en bedre programmør, end nogen jeg har arbejdet sammen med. Det samme gjaldt artikelskrivning, produktdesign, workshop-planlægning og stort set alt andet, jeg brugte den til. Den primære flaskehals var næsten altid mine prompt engineering-færdigheder{i: "prompt engineering-færdigheder"} (eller mangel på samme). Set i bakspejlet virker GPT-4 meget dum og begrænset sammenlignet med de nyeste modeller. Alt er relativt, går jeg ud fra.
 
-Så jeg besluttede at foretage et karriereskifte{i: "karriereskifte"} og fokusere helt på at lære, og undervise i, hvordan man gør denne teknologi nyttig. Det er baggrunden for denne bog{i: "bog"}.
+Så jeg besluttede at foretage et karriereskifte{i: "karriereskifte"} og fokusere fuldt ud på at lære, og undervise i, hvordan man gør denne teknologi nyttig. Det er baggrunden for denne bog{i: "bog"}.
 
 
 
 <B> ![En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet.](resources-da/egbert-small-da.png) **Egberts mening**  
-</B> Seriøst, er I imponerede over vores evne til at forudsige det lille ægge-drop-eksperiment? Det svarer til at være imponeret over, at en OL-svømmer kan flyde i et børnebassin. Men jeg må indrømme, at det er en sød lille tegning.
+</B> Seriøst, er I imponerede over vores evne til at forudsige det lille ægge-drop-eksperiment? Det svarer til at være imponeret over, at en OL-svømmer kan flyde i et børnebassin. Men jeg må da indrømme, at det er en sød lille tegning.
 
 # AI-æraen
 
 Lad os træde et skridt tilbage og se på konsekvenserne af alt dette{i: "AI-konsekvenser"}.
 
-I omkring 300.000 år har vi Homo sapiens{i: "Homo sapiens"} været den mest intelligente art på jorden (selvfølgelig afhængigt af hvordan man definerer intelligens{i: "intelligens"}...). Men sagen er, at vores intellektuelle evner ikke rigtig forbedrer sig særlig meget. Vores _kollektive intelligens_ som samfund forbedres måske kontinuerligt, fordi vi lærer af hinanden, og har ting som bøger, skoler og internettet{i: "internet"}. Men som individer er vores hjerner stort set samme størrelse og vægt, som de har været i tusindvis af år.
+I omkring 300.000 år har vi Homo sapiens{i: "Homo sapiens"} været den mest intelligente art på jorden (selvfølgelig afhængigt af hvordan man definerer intelligens{i: "intelligens"}...). Men fakta er, at vores intellektuelle evner ikke rigtig forbedrer sig særlig meget. Vores _kollektive intelligens_ som samfund forbedres måske kontinuerligt, fordi vi lærer af hinanden, og har ting som bøger, skoler og internettet{i: "internet"}. Men som individer er vores hjerner stort set samme størrelse og vægt, som de har været i tusindvis af år.
 
 Computere har derimod kun eksisteret i omkring 80 år, og med generativ AI{i: "generativ AI"} er de nu pludselig i stand til at tale de fleste menneskelige sprog flydende og udføre et stigende antal intellektuelle og kreative opgaver, som tidligere kun kunne klares af mennesker.
 
 {alt: "Dette billede er en graf, der sammenligner menneskelig intelligent og kunstig intelligens over tid. X-aksen repræsenterer tid, mens y-aksen repræsenterer evner, herunder hastighed, kvalitet, læring og viden. En blå linje angiver menneskelig intelligens med en stabil, vandret tendens. En rød linje, der repræsenterer AI, viser en skarp, opadgående kurve. En menneskefigur holder en 'Mest Intelligent' pokal og siger: 'Men vi har haft denne i 300.000 år!' mens en robot siger: 'Nu er det vores tur!' Teksten fremhæver stigende AI-evner, hastighed, faldende omkostninger og forsvindende begrænsninger. 'Vi er her' er markeret ved linjernes skæringspunkt."}
 ![](resources-da/100-age-of-ai-da.png)
 
-På nuværende tidspunkt befinder vi os lige ved skæringspunktet - AI er bedre til nogle ting, og mennesker er bedre til andre ting. Men der er en afgørende forskel: AIs evner forbedres næsten eksponentielt, mens vores ikke gør. Vi ved ikke, hvor længe denne halsbrækkende forbedringshastighed vil fortsætte, eller om den på et tidspunkt vil flade ud, men vi er helt sikkert på vej ind i en ny verdensorden{i: "ny verdensorden"}.
+På nuværende tidspunkt befinder vi os lige ved skæringspunktet - AI er bedre til nogle ting, og mennesker er bedre til andre ting. Men der er en afgørende forskel: AI'ens evner forbedres næsten eksponentielt, mens vores ikke gør. Vi ved ikke, hvor længe denne halsbrækkende forbedringshastighed vil fortsætte, eller om den på et tidspunkt vil flade ud, men vi er helt sikkert på vej ind i en ny verdensorden{i: "ny verdensorden"}.
 
 Dette er ikke den første revolution, vi har oplevet. Vi tæmmede ilden{i: "ild"}, vi lærte at dyrke jorden{i: "landbrug"}, vi opfandt bogtrykkerkunsten{i: "bogtrykkerkunst"}, dampkraft{i: "dampkraft"}, telegrafen{i: "telegraf"} og mere.
 
@@ -1072,7 +1072,7 @@ Jeg oplever, at mennesker og virksomheder har tendens til at falde i forskellige
 
 
 
-På den ene side har vi benægtelse eller uvidenhed – troen på at AI ikke kan overtage mit job{i: "AI-benægtelse"}, eller at vi ikke har tid til at undersøge denne teknologi{i: "AI-teknologi"}, eller bare ikke er nået til det endnu. Det er et farligt sted at befinde sig.
+På den ene side har vi benægtelse eller uvidenhed – troen på "at AI ikke kan overtage mit job"{i: "AI-benægtelse"}, eller "vi ikke har tid til at undersøge denne teknologi"{i: "AI-teknologi"}, eller bare ikke er nået til det endnu. Det er et farligt sted at befinde sig.
 
 Dette kan formuleres som:
 
@@ -1080,7 +1080,7 @@ Dette kan formuleres som:
 
 Dette gælder både for individer og virksomheder.
 
-På den anden side af skalaen har vi panik og fortvivlelse - troen på, at AI vil tage mit job uanset hvad, eller at AI vil få min virksomhed til at gå konkurs.
+På den anden side af skalaen har vi panik og fortvivlelse - troen på, "at AI vil tage mit job uanset hvad", eller at "AI vil få min virksomhed til at gå konkurs".
 
 Ofte starter folk på venstre side: Benægtelse. Og når de så ser, hvad en god generativ AI-model kan gøre{i: "generativ AI"}, springer de hele vejen over på højre side: Panik.
 
@@ -1102,7 +1102,7 @@ Jeg vil dele en lille historie, der gjorde et dybt indtryk på mig.
 
 Sidste sommer boede en ven hos mig i en uge. Hun arbejdede som familieretsadvokat{i: "familieretsadvokat"} og håndterede virkelig svære sager såsom børnemishandling og hustruvold{i: "hustruvold"}. Hun var fuldstændig uinteresseret i teknologi, men hun bemærkede, at jeg brugte meget tid på at arbejde med AI-teknologi, så efter et stykke tid blev hun nysgerrig og spurgte mig om det.
 
-I stedet for at forklare besluttede jeg at vise hende det. Jeg åbnede ChatGPT{i: "ChatGPT"} og forberedte det lidt med nogle indledende prompter. Jeg bad det om at interviewe hende om en af hendes sager på fransk (hendes modersmål) og derefter give nogle råd.
+I stedet for at forklare besluttede jeg at vise hende det. Jeg åbnede ChatGPT{i: "ChatGPT"} og forberedte den lidt med nogle indledende prompter. Jeg bad den om at interviewe hende om en af hendes sager på fransk (hendes modersmål) og derefter give nogle råd.
 
 Så satte hun sig ned og lod AI'en interviewe hende om en kompleks sag, hun arbejdede på. Interviewet fortsatte i et godt stykke tid, men hun var tydeligt engageret og skrev lange og detaljerede svar (dog uden at afsløre klientoplysninger). Derefter begyndte den at tilbyde nogle refleksioner og råd. Hun stillede nogle spørgsmål tilbage, og de havde nogle diskussioner frem og tilbage om sagen.
 
@@ -1117,7 +1117,7 @@ For at vende tilbage til tankesætsskalaen startede hun på venstre side (uviden
 - Hjælpe med at forklare komplekse juridiske begreber{i: "juridiske begreber"} til hendes klienter.
 
 > **Vis > Fortæl**  
-> At vise er meget mere effektivt end at forklare{i: "forklare"}. Jeg oplever, at de fleste mennesker (inklusive mig selv) ikke rigtigt "forstår det" før de har oplevet det på egen hånd, i deres egen kontekst.
+> At vise er meget mere effektivt end at fortælle{i: "fortælle"}. Jeg oplever, at de fleste mennesker (inklusive mig selv) ikke rigtigt "forstår det" før de har oplevet det på egen hånd, i deres egen kontekst.
 
 Jeg understregede, at dette ikke handler om, at AI skal overtage hendes arbejde - hun ville stadig være involveret og have kontrollen. Jeg forklarede om hallucination{i: "hallucination"} og vigtigheden af faktatjek{i: "faktatjek"}. At udgive et AI-genereret juridisk dokument ville være en dårlig idé, men at bruge det til at få indsigt og idéer er fremragende.
 
@@ -1170,7 +1170,7 @@ Jeg anbefaler at tænke på AI som din kollega. Et geni, men også en særling m
 
 ## Opgaveautomatisering, ikke jobautomatisering
 
-Jeg oplever, at AI primært automatiserer opgaver{i: "opgaver"}, ikke jobs (medmindre at opgaven er hele jobbet). Ofte er de opgaver, der kan automatiseres, rutineopgaver, som ikke kræver meget kreativitet eller intelligens - det er derfor, de kan automatiseres. Det frigiver tid til, at mennesker kan lave vigtigere arbejde, _menneskeligt_ arbejde{i: "menneskeligt arbejde"}, opgaver, der kræver mere intelligens og menneskelig interaktion{i: "menneskelig interaktion"}.
+Jeg oplever, at AI primært automatiserer opgaver{i: "opgaver"}, ikke jobs (medmindre opgaven er hele jobbet). Ofte er de opgaver, der kan automatiseres, rutineopgaver, som ikke kræver meget kreativitet eller intelligens - det er derfor, de kan automatiseres. Det frigiver tid til, at mennesker kan lave vigtigere arbejde, _menneskeligt_ arbejde{i: "menneskeligt arbejde"}, opgaver, der kræver mere intelligens og menneskelig interaktion{i: "menneskelig interaktion"}.
 
 For eksempel:
 
@@ -1211,7 +1211,7 @@ Dette berømte tweet fra min ven Kent Beck{i: "Beck, Kent"} opsummerer det meget
 
 Vi har alle brug for at tilpasse os og tage et grundigt kig på, hvordan vi bruger vores tid. Hvilke af dine færdigheder er faldet i værdi? Hvilke tilbageværende færdigheder er vigtigere end nogensinde?
 
-Her er en simpel øvelse, jeg anbefaler, enten alene eller med dit team{i: "team-samarbejde"}.
+Her er en simpel øvelse, jeg anbefaler, enten alene eller sammen med dit team{i: "team-samarbejde"}.
 
 {alt: "Et diagram med tre sektioner, hver med overskrifter og grønne post-its. Den første sektion, 'Ting jeg fortsat skal gøre,' inkluderer opgaver man skal fortsætte med. Midtersektionen, 'Ting som AI kan hjælpe mig med,' viser opgaver hvor AI kan assistere, med to markerede noter. Den tredje sektion, 'Ting som AI kan gøre i stedet for mig,' indeholder opgaver AI kan håndtere helt. Under den venstre og højre sektion er der yderligere noter om at få mere tid eller eliminere unødvendige opgaver."}
 ![](resources-da/120-recalibrate-da.png)
