@@ -1884,7 +1884,7 @@ Minecraft{i: "Minecraft"} har landsbyboere, som går frit omkring og lever deres
 
 En af de første funktioner, som jeg arbejdede på, var børnene i landsbyerne. For at få landsbyerne til at føles mere levende, ønskede vi børn, der løb rundt, hoppede i senge og legede fangeleg.
 
-{alt: "En gruppe pixelerede landsbybeboere fra spillet Minecraft står nær et vandområde. De befinder sig i en landsby med huse af sten og træ, fakler og jordstier. En enkelt rød blomst er i nærheden af et af husene."}
+{alt: "En gruppe pixelerede landsbybeboere fra spillet Minecraft står nær et vandområde. De befinder sig i en landsby med huse af sten og træ, fakler og jordstier."}
 ![](resources-da/440-villagers-da.jpg)
 
 Efter nogle forsøg fandt jeg frem til et sæt adfærdsregler, der fungerede rigtig godt. Hvert barn i landsbyen fulgte disse regler i prioriteret rækkefølge:
@@ -1937,7 +1937,7 @@ Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, so
 
 Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
-{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan bled out' efterfulgt af brugerkommentarer. MrHenrik{i: "MrHenrik"} nævner at Framistan{i: "Framistan"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et farligt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
+{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan blev udslettet' efterfulgt af brugerkommentarer. MrHenrik{i: "MrHenrik"} nævner at Framistan{i: "Framistan"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et risikabelt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
 ![](resources-da/440-minecraft-da.png)
 
 Mens jeg arbejdede på dette, ville en ven forbinde det med programmet Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
@@ -2057,7 +2057,7 @@ Så hvordan får du AI-transformationen til at ske? Top-down{i: "top-down"} elle
 
 Én mulig tilgang er at gennemføre en koordineret transformation styret fra toppen.
 
-{width: "70%", alt: "Diagram af Kotters 8-trins model. Den viser en central cirkel med teksten 'Kotters 8-trins model,' omgivet af otte farvede cirkler. Trinnene inkluderer: Skab en følelse af nødvendighed, Byg en styrende koalition, Form strategiske visionsinitiativer, Hverv en frivillig hær, Muliggør handling ved at fjerne barrierer, Generer kortsigtede sejre, Oprethold acceleration, og Instituer forandring."}
+{width: "70%", alt: "Diagram af Kotters 8-trins model. Den viser en central cirkel med teksten 'Kotters 8-trins model,' omgivet af otte farvede cirkler. Trinnene inkluderer: Etabler en følelse af nødvendighed, Opbyg en stærk forandringsgruppe, Fastlæg en klar vision og strategy, Kommunikér visionen, Fjern forhindringer der kan stå i vejen, Skab også kortsigtede gevinster, Fasthold løbende forandring og Forankre forandringen i kulturen."}
 ![](resources-da/510-kotter-da.png)
 
 Kotters 8-trins model{i: "Kotters 8-trins model"} er en klassisk ramme for implementering af organisationsændringer{i: "organisationsændringer"}, med trin som, oversat til dansk, for eksempel er "Etabler en følelse af nødvendighed", "Fjern forhindringer der kan stå i vejen", "Skab også kortsigtede gevinster" osv. Der findes mange andre rammer for organisationsændring med lignende elementer. Disse er hovedsageligt med en top-down tilgang.
@@ -2075,12 +2075,12 @@ Så hvilken tilgang skal du vælge?
 
 Med de udødelige ord, som du måske kender fra "Why Not Both?"-meme-pigen, kunne svaret være "Hvorfor ikke begge?".
 
-{width: "40%", alt: "Ung pige der smiler med tekstoverlay der siger "WHY NOT BOTH." Baggrunden inkluderer et sløret køkkenmiljø."}
+{width: "40%", alt: "Ung pige der smiler med tekstoverlay der siger "WHY NOT BOTH.""}
 ![](resources-da/510-why-not-both-da.jpg)
 
 Min erfaring er, at den bedste tilgang er en kombination af top-down og bottom-up. Sørg for vejledning og ledelse fra toppen, men lad derefter steppebranden sprede sig.
 
-{alt: "En illustration af Kotters 8-trins model vist som en cirkel med trin som 'Skab følelse af nødvendighed' og 'Byg styrende koalition' fremhævet med flammeikoner. Pile indikerer en 'Top-down' tilgang mærket 'Koordineret forandring' og en 'Bottom-up' tilgang mærket 'Steppebrandsmetoden,' med en farverig steppebrandsillustration. Sætningen 'Combo! Tag det bedste fra begge' antyder integration af disse tilgange."}
+{alt: "En illustration af Kotters 8-trins model vist som en cirkel med forskellige af trinnene fremhævet med flammeikoner. Pile indikerer en 'Top-down' tilgang mærket 'Koordineret forandring' og en 'Bottom-up' tilgang mærket 'Steppebrandsmetoden,' med en farverig steppebrandsillustration. Sætningen 'Kombination! Tag det bedste fra hver af disse' viser vigtigheden af at bruge begge tilgange."}
 ![](resources-da/510-combo-da.png)
 
 Så hvordan kan du gøre det i praksis?
@@ -2108,7 +2108,7 @@ Så hvad laver AI-lederen egentlig? Tja, det handler resten af dette kapitel om.
 
 Det er vores erfaring, at AI-transformationer typisk gennemgår tre faser eller trin:
 
-{alt: "Et billede med tre lyserøde ovaler nummereret i rækkefølge. Den første oval viser '1. Adgang' med teksten 'Adgang til gode AI-modeller og værktøjer.' Den anden oval viser '2. Eksperimentér' efterfulgt af 'Eksperimenteringskultur.' Den tredje oval er mærket '3. Udnyt' med teksten 'Find hvor Gen AI kan tilføje mest værdi' nedenunder."}
+{alt: "Et billede med tre lyserøde ovaler nummereret i rækkefølge. Den første oval viser '1. Adgange' med teksten 'Adgang til gode AI-modeller og værktøjer.' Den anden oval viser '2. Udforskning' med teksten 'Kultur hvor mulighederne med AI udforskes.' Den tredje oval er mærket '3. Værdiskabelse' med teksten 'Afklar hvor generativ AI kan give størst værdi' nedenunder."}
 ![](resources-da/510-steps-da.png)
 
 1. **Adgange**. Sørg for at alle har nem adgang til gode AI-modeller{i: "AI-modeller"}.
@@ -2125,7 +2125,7 @@ Trinene overlapper dog til en vis grad:
 
 Du kunne bruge denne tretrins ramme til at måle fremdriften, for eksempel gennem en regelmæssig undersøgelse der giver indsigt i, hvor mange der har adgang, hvor mange der udforsker, og hvor mange mennesker der får værdi af teknologien.
 
-{width: "60%", alt: "Søjlediagram med titlen 'AI-transformations dashboard' der viser tre lodrette søjler for Adgang, Udforskning og Benyttelse. Adgang er på 60% i blå, Eksperimentering på 35% i lilla, og Benyttelse på 20% i grøn. Hver søjle er forbundet med stiplede linjer fra toppen til 100%."}
+{width: "60%", alt: "Søjlediagram med titlen 'AI-transformation visualisering' der viser tre lodrette søjler for Adgange, Udforskning og Værdiskabelse. Adgange er på 60% i blå, Udforskning på 35% i lilla, og Værdiskabelse på 20% i grøn."}
 ![](resources-da/510-dashboard-da.png)
 
 Denne graf viser, at 60% af medarbejderne har nem adgang til en god AI-model, 35% udforsker regelmæssigt mulighederne med generativ AI, og 20% har fundet måder at benytte generativ AI til at opnå reel værdi.
@@ -2164,7 +2164,7 @@ Strategibogen kan starte i det små og bygges op gradvist. Start med de åbenlys
 
 Gå ikke over gevind med strategibogen. Du skal finde det "laveste niveau af bureaukrati, som virker" - en balance{i: "balance"} mellem for lidt vejledning/regler og for meget vejledning/regler.
 
-{alt: "Billedet er et diagram, der viser en balance mellem 'Ingen politikker eller retningslinjer' til venstre og 'For mange politikker og retningslinjer' til højre. I midten står der 'Lige tilpas med politikker og retningslinjer - Minimum Levedygtigt Bureaukrati.' Nedenunder fungerer en bog mærket 'Gen AI køreplan' som omdrejningspunkt. Til venstre fremhæver rød tekst ulemperne ved ingen politikker: folk tør ikke prøve, ved ikke hvor de skal starte, bruger modeller uhensigtsmæssigt og har omkostningsineffektiv brug. Til højre skitseres ulemperne ved for mange politikker: folk prøver ikke, kan ikke bruge AI effektivt, og der er ingen innovation."}
+{alt: "Billedet er et diagram, der viser en balance mellem 'Ingen procedurer eller vejledninger' til venstre og 'For mange procedurer og vejledninger' til højre. I midten står der 'Passende mængde procedurer og vejledninger - Tilpas niveau af bureaukrati.' Nedenunder fungerer en bog mærket 'Gen AI Strategi-bog' som omdrejningspunkt. Til venstre fremhæver rød tekst ulemperne ved ingen procedurer og vejledninger, mens der til højre med grøn tekst fremhæved ulemplerne ved for mange procedurer og vejledninger."}
 ![](resources-da/510-playbook-da.png)
 
 Tegn på at du har for lidt vejledning/regler:
@@ -2274,7 +2274,7 @@ Jeg anbefaler at afholde workshops{i: "workshops"} for hver forretningsproces.
 - Identificer de vigtigste opgaver eller trin.
 - Evaluer hver opgave ved hjælp af den samme fire-trins skala som ovenfor. "Kun menneske", "Menneske med AI-assistance", "AI med menneskelig assistance" og "Kun AI".
 
-{alt: "Et flowdiagram med titlen 'Forretningsproces X' med fire arbejdsgangstrin mærket A til D. Venstre kolonne viser fire roller: 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Flueben indikerer hvilken rolle der udfører hvert trin. Trin B udføres af 'Menneske med AI-assistance.' Trin C og D udføres af både 'AI med menneskelig assistance' og 'Kun AI.' Diagrammet bruger simple illustrationer af mennesker og AI."}
+{alt: "Et flowdiagram med titlen 'Forretningsproces X' med fire arbejdsgang-trin mærket A til D. Venstre kolonne viser fire roller: 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Flueben indikerer hvilken rolle der udfører hvert trin. Trin B udføres af 'Menneske med AI-assistance.' Trin C og D udføres af både 'AI med menneskelig assistance' og 'Kun AI.' Diagrammet bruger simple illustrationer af mennesker og AI."}
 ![](resources-da/510-processes-da.png)
 
 Med tiden vil flere og flere opgaver blive mulige at automatisere med AI, fordi:
@@ -2288,7 +2288,7 @@ En positiv sideeffekt ved AI-automatisering er, at AI-modellerne konstant forbed
 
 I kapitlet "Autonome agenter med værktøjer" beskrev jeg, hvordan man bruger AI-agenter til at automatisere eller forbedre opgaver{i: "opgaveautomatisering"}, og viste dette billede:
 
-{alt: "Diagram der illustrerer en 'Automatiserbarhedsskala' med typer af opgaver og strategier for automatisering. Den viser et spektrum fra 'Fuldt forudsigelige' opgaver som lønberegning, som automatiseres med kode, til 'Ikke forudsigelige' opgaver som coaching af et team, som kræver menneskeligt arbejde med AI-support. Imellem er 'Mest forudsigelige' opgaver, automatiseret med AI, og 'Delvist forudsigelige' opgaver, forbedret gennem AI-menneske samarbejde."}
+{alt: "Diagram der illustrerer en "Automatiseringsgrad-skala" med forskellige typer opgaver og strategier for automatisering. Den viser et spektrum fra "Fuldt forudsigelige" opgaver som lønberegning, der automatiseres med kode, til "Uforudsigelige" opgaver som coaching af et team, der kræver menneskeligt arbejde med AI-support. I midten er "Oftest forudsigelige" opgaver, automatiseret med AI, og "Delvist forudsigelige" opgaver, understøttet af AI-menneske-samarbejde."}
 ![](resources-da/150-automatability-da.png)
 
 Jeg foreslår at se på dine forretningsprocesser gennem denne optik for at evaluere, hvor og hvordan AI-agenter kan hjælpe.
@@ -2304,7 +2304,7 @@ For at denne type workshops virkelig skal fungere, skal du have de rigtige perso
 - Personer, der faktisk arbejder med disse opgaver eller arbejder inden for denne forretningsproces.
 - Personer, der har en dyb forståelse af generativ AI og hvordan den kan bruges.
 
-{width: "80%", alt: "Venn-diagram med to overlappende cirkler. Den venstre cirkel er mærket 'Domæneekspertise' og indeholder ét personikon. Den højre cirkel er mærket 'KI-ekspertise' og indeholder også ét personikon. Det overlappende område indeholder et andet personikon, der repræsenterer krydsfeltet mellem domæne- og KI-ekspertise."}
+{width: "80%", alt: "Venn-diagram med to overlappende cirkler. Den venstre cirkel er mærket 'Domæne-ekspertise' og indeholder ét personikon. Den højre cirkel er mærket 'AI-ekspertise' og indeholder også ét personikon. Det overlappende område indeholder et andet personikon, der repræsenterer krydsfeltet mellem domæne- og AI-ekspertise."}
 ![](resources-da/510-right-people-da.png)
 
 I en perfekt verden er dette den samme person. Hvis alle udforsker mulighederne med AI{i: "AI"}, vil I gradvist nå til det punkt, hvor hver domæneekspert også har AI-ekspertise. Det er fantastisk. Men indtil I når dertil, skal du sandsynligvis selv deltage i nogle af disse workshops eller opbygge et fællesskab af interne AI-ambassadører{i: "AI-ambassadører"} og opfordre dem til at lede eller deltage i denne type procesforbedrings-workshops.
@@ -2334,7 +2334,7 @@ Behandling af dokumenter er en fremragende opgave for generativ AI. Så vi bygge
 
 Alle RFP'erne kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse og analysere en RFP, skrive et resumé der besvarer alle ovenstående spørgsmål på en måde, der er relevant for denne virksomhed, vurdere om en RFP er en god mulighed for deres virksomhed, og hvis ja, så dirigere den til den mest egnede afdeling. Hver RFP blev fulgt som en opgave på en digital tavle, så alle kunne se, hvad der skete, og også give Ralph feedback eller vælge at ændre nogle af hans beslutninger.
 
-{alt: "Dette billede er et flowdiagram med titlen 'RFP-arbejdsgang' med fire rækker mærket 'Kun menneske,' 'Menneske med KI-assistance,' 'KI med menneskeassistance,' og 'Kun KI.' Kolonnerne er mærket 'Modtag & analyser RFP,' 'Beslut om vi skal gøre det,' 'Diriger det til det rigtige team,' og '(resten af opgaverne).' Afkrydsninger indikerer hvilke opgaver hver type kan håndtere. 'KI med menneskeassistance' og 'Kun KI' rækkerne har alle opgaver afkrydset undtagen den første, mens 'Menneske med KI-assistance' kun har den sidste opgave afkrydset."}
+{alt: "Dette billede er et flowdiagram med titlen 'RFP-arbejdsgang' med fire rækker mærket 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Kolonnerne er mærket 'Modtag & analyser RFP,' 'Beslut om vi skal gøre det,' 'Videresend det til det rigtige team,' og '(resten af opgaverne).' Afkrydsninger indikerer hvilke opgaver hver type kan håndtere."}
 ![](resources-da/510-rfp-process-da.png)
 
 - **Modtag & analyser RFP: AI med menneskeassistance.**
@@ -2355,7 +2355,7 @@ Ville dette føre til tab af menneskelige arbejdspladser? Nej, ikke i dette tilf
 
 Når man udforsker mulige anvendelser af AI{i: "AI-anvendelser"}, har de fleste en tendens til at gå igennem en række forskellige stadier: Først reducering af omkostninger. Derefter forøgelse af værdi. Så udfordring og gentænkning af hele processen. Og til sidst opdagelsen af helt nye forretningsprocesser og værdikilder.
 
-{alt: "Et diagram der illustrerer en forretningsproces med tre hovedstrategier: reducering af omkostninger, tilføjelse af mere værdi, og gentænkning af hele processen. Processen består af sekventielle opgaver vist som pile. Røde bokse indikerer muligheder for omkostningsreduktion, grønne bokse viser måder at tilføje værdi på, og den overordnede kontekst antyder en bred revurdering af processen."}
+{alt: "Et diagram der illustrerer en forretningsproces med tre hovedstrategier: Reducering af omkostninger, Forøgelse af værdi, og Udfordring og gentænking af hele processen. Processen består af sekventielle opgaver vist som pile. Røde bokse indikerer muligheder for omkostningsreduktion, grønne bokse viser måder at forøge værdi, og den overordnede kontekst antyder en bred revurdering af processen."}
 ![](resources-da/510-leverage-da.png)
 
 - **1. Reducering af omkostninger**{i: "Reducering af omkostninger"}
