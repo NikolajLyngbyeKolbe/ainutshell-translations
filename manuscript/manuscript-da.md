@@ -398,13 +398,13 @@ For at holde samtalen i gang er du nødt til at blive ved med at minde den om, h
 {width: "70%", alt: "En simpel tegneserie viser to karakterer, en person og en robot med vildt hår, der ligner Einstein. Personen siger: 'Jeg spurgte: "Hvad hedder hovedstaden i Frankrig". Du svarede "Paris". Hvad med Tyskland?' Robotten svarer: 'Berlin.'"}
 ![](resources-da/065-memory2-da.png)
 
-Heldigvis gør AI-klienter som ChatGPT dette for dig. De skaber illusionen af hukommelse{i: "illusionen om hukommelse"} ved at gemme din samtale og gensende hele samtalehistorikken til LLM'en, hver gang du sender en ny besked, præcis som i illustrationen ovenfor. Mange AI-klienter har også personaliseringsmuligheder - du kan fortælle den hvem du er, hvilken kommunikationsstil du foretrækker, og aktivere funktioner som hukommelse, der gør det muligt for den at holde styr på information på tværs af samtaler. Men alt dette er gemt i AI-klienten, ikke i LLM'en.
+Heldigvis gør AI-klienter som ChatGPT dette for dig. De skaber illusionen af hukommelse{i: "illusionen om hukommelse"} ved at gemme din samtale og gensende hele chathistorikken til LLM'en, hver gang du sender en ny besked, præcis som i illustrationen ovenfor. Mange AI-klienter har også personaliseringsmuligheder - du kan fortælle den hvem du er, hvilken kommunikationsstil du foretrækker, og aktivere funktioner som hukommelse, der gør det muligt for den at holde styr på information på tværs af samtaler. Men alt dette er gemt i AI-klienten, ikke i LLM'en.
 
 Så hvorfor skal du bekymre dig om denne begrænsning, hvis AI-klienten håndterer det for dig?
 
 Fordi der er en hage: LLM'er har en streng, fast grænse for, hvor meget tekst de kan modtage i en forespørgsel. Dette kaldes nogle gange for kontekstvinduet{i: "kontekstvindue"} (eller kontekstgrænsen{i: "kontekstgrænse"}).
 
-{alt: "Diagram der illustrerer interaktionsprocessen mellem en bruger og en AI-model. Brugeren indtaster sin prompt gennem en AI-klient, hvilket genererer en samtalehistorik. En del af denne historik udvælges som kontekstvindue og sendes til AI-modellen til behandling."}
+{alt: "Diagram der illustrerer interaktionsprocessen mellem en bruger og en AI-model. Brugeren indtaster sin prompt gennem en AI-klient, hvilket genererer en chathistorik. En del af denne historik udvælges som kontekstvindue og sendes til AI-modellen til behandling."}
 ![](resources-da/065-context-limit-da.jpg)
 
 For korte samtaler er dette ikke noget problem. Men hvis din samtale bliver for lang, kan AI-klienten, teknisk set, være ude af stand til at sende alt til LLM'en. Så den bliver nødt til at beskære eller opsummere de ældre dele af samtalen. Dette sker normalt i baggrunden, usynligt for dig. Dette kan få AI'en til at virke glemsom eller få den til at miste overblikket over detaljer, mens den i virkeligheden simpelthen ikke modtager hele samtalen.
@@ -2471,7 +2471,7 @@ Egbert
 
 # Prompt engineering-teknikker{i: "prompt engineering-teknikker"}
 
-OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg vil antage, at du allerede har læst kapitlet om prompt engineering{i: "Prompt engineering"} i del 1 af bogen og ønsker flere detaljer.
+OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg vil antage, at du allerede har læst kapitlet om prompt engineering{i: "prompt engineering"} i del 1 af bogen og ønsker flere detaljer.
 
 Jeg kunne sandsynligvis skrive en hel bog bare om prompt engineering-teknikker{i: "prompt engineering-teknikker"}. Men i denne sektion har jeg udvalgt de vigtigste teknikker: Ting som jeg tror vil fortsætte med at være vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget babysitning.
 
@@ -2491,7 +2491,7 @@ Udviklerne af AI-klienter som ChatGPT{i: "ChatGPT"} og Claude står over for det
 
 ### Kontekstvindue ved brug af en AI-klient{i: "AI-klient"}
 
-Når du chatter med en LLM i en AI-klient, opbygger du en samtalehistorik. Hver gang du skriver en prompt, vil appen som udgangspunkt sende den fulde chathistorik plus din nye prompt til modellen{i: "AI-model"}. Det er sådan modellen ved, hvad I har talt om indtil nu.
+Når du chatter med en LLM i en AI-klient, opbygger du en chathistorik. Hver gang du skriver en prompt, vil appen som udgangspunkt sende den fulde chathistorik plus din nye prompt til modellen{i: "AI-model"}. Det er sådan modellen ved, hvad I har talt om indtil nu.
 
 Hvis chathistorikken er ret kort, er der intet at bekymre sig om. Alt passer fint ind i kontekstvinduet, så modellen vil tage hele din chathistorik i betragtning, når den genererer svaret. Det betyder, at du sandsynligvis får et godt svar, da den ikke vil "glemme" noget (hvis du bruger en god model).
 
@@ -2532,7 +2532,7 @@ Så hvad kan du gøre ved en lang chathistorik? Her er nogle muligheder:
 - **Start en ny chattråd**. Lad os sige, at du har en samtale om en kommende workshop. Du har undersøgt en masse muligheder for, hvordan den kan afholdes, og har besluttet at arbejde videre med mulighed B. Du vil måske gerne starte en helt ny samtale om det, eftersom diskussionen om alle de andre muligheder ikke længere er relevant. Et smart trick er at spørge i den første chat "Vil du opsummere konteksten for workshoppen og mulighed B?". Brug derefter denne opsummering i åbningsprompten for den nye chat.
 - **Genopfrisk konteksten**. Bed AI'en om at opsummere de vigtigste dele af samtalen indtil nu (_før_ den begynder at glemme), og fortsæt derefter samtalen. Denne opsummering vil nu være helt frisk i hukommelsen for AI'en i den fortsatte samtale.
 - **Gentag vigtig information**. Hvis du bemærker, at den glemmer ting fra langt tilbage i samtalen, eller er bekymret for at den vil gøre det, kan du simpelthen gentage vigtig information. "Husk, brylluppet er den 12. oktober". Eller du kan scrolle op og kopiere/indsætte den oprindelige kontekst.
-- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, at du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at arbejde videre med mulighed C. Du kan nu scrolle tilbage i samtalehistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg valgte mulighed C med det samme". Ved at skære brainstorm-delen fra, forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
+- **Gå tilbage til tidligere dele af samtalen**. Mange chat-apps lader dig gå tilbage i din chathistorik og genstarte en del af den, som jeg nævnte ovenfor i afsnittet om iteration. Så lad os sige, at du har en samtale om en vigtig beslutning, der skal tages, og du har undersøgt de forskellige muligheder og besluttet at arbejde videre med mulighed C. Du kan nu scrolle tilbage i chathistorikken og redigere en af dine tidligere prompts, før du kom ind i samtalen om forskellige muligheder. Det er som at sige "Lad os gå tilbage i tiden og lade som om, vi ikke diskuterede disse muligheder, og jeg valgte mulighed C med det samme". Ved at skære brainstorm-delen fra, forkorter du effektivt chathistorikken, så den bedre kan passe i kontekstvinduet.
 
 ### Stor prompt vs. lang chathistorik
 
@@ -2583,7 +2583,7 @@ Dette er den mest naturlige tilgang for de fleste{i: "tilføjelse af nye prompts
 {width: "30%", alt: "Et flowchart der viser en proces med fire trin: 'Prompt' der fører til 'Svar,' efterfulgt af 'Opfølgende prompt,' og afsluttes med 'Forbedret sSvar.' Hvert trin er illustreret med en håndskrevet tekstblok forbundet med pile."}
 ![](resources-da/460-prompt-iterating-1-da.png)
 
-At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intuitivt, og du får også en fin log over hele din chattråd{i: "chatlog"}.
+At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intuitivt, og du får også en fin log over hele din chathistorik{i: "chathistorik"}.
 
 ### Redigering af tidligere prompts
 
@@ -2598,7 +2598,7 @@ Begge teknikker er meget brugbare. Så hvordan ved du, hvornår du skal bruge hv
 
 Beslutningen om at tilføje en ny prompt eller redigere en gammel prompt afhænger meget af situationen.
 
-Det vigtigste spørgsmål at stille sig selv er: **Hvor nyttig er den nuværende samtalehistorik?**
+Det vigtigste spørgsmål at stille sig selv er: **Hvor nyttig er den nuværende chathistorik?**
 
 For eksempel, hvis det sidste svar ikke var fantastisk, men dog var nogenlunde i den rigtige retning, kan du tilføje en opfølgende prompt. Men hvis det sidste svar var helt ved siden af, bør du sandsynligvis redigere den tidligere prompt i stedet{i: "redigering af prompts"}. Ellers vil det virkelig dårlige svar forblive i chathistorikken og grundlæggende forurene samtalen, hvilket gør AI'en forvirret. Desuden kunne du løbe ind i de kontekstvindue-problemer, jeg nævnte tidligere.
 
@@ -2671,7 +2671,7 @@ Den begyndte at sætte spørgsmålstegn ved sine egne antagelser og indså, at m
 
 - Den estimerede pakningseffektivitet af boldene er omkring 60-70%.
 - Noget plads vil være utilgængelig pga. vægge og andre konstruktioner i bygningen.
-- Med dette taget i betragtning skal det reviderede estimat være lavere.
+- Dette taget i betragtning skal det reviderede estimat være lavere.
 
 Nogle gange vil en god model gøre dette automatisk, andre gange vil den ikke. Så når du er i tvivl, kan du altid tilføje en selvrefleksions-prompt for at se, hvad der sker.
 
@@ -2709,7 +2709,7 @@ Du har som regel ikke brug for alle disse elementer. Jeg vil sige, at de første
 
 2. **Mål/motiv**: Hvorfor spørger du om dette? Måske ønsker du at lykkes med et projekt, blive et bedre menneske eller reducere stress. Jo bedre AI'en forstår dit bagvedliggende mål, jo bedre kan den hjælpe dig.
 
-3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som: "Jeg er arbejdsløs", "Jeg er leder for et team på 6 personer", "Her er den relevante kode..." eller "Her er samtalehistorikken med min chef...". Kontekst er altafgørende!
+3. **Baggrund/kontekst**: Hvad skal AI'en vide for at give dig et brugbart svar? Ting som: "Jeg er arbejdsløs", "Jeg er leder for et team på 6 personer", "Her er den relevante kode..." eller "Her er chathistorikken med min chef...". Kontekst er altafgørende!
 
 4. **Rolle**: Hvilken persona skal AI'en påtage sig? En Michelin-kok? En personlig assistent? En data scientist? Dette kan dramatisk ændre karakteren af svaret. Hvis du for eksempel starter med "Du er en Michelin-kok", vil du med større sandsynlighed få interessante og brugbare resultater, når du taler om madlavning og opskrifter.
 
@@ -2758,11 +2758,11 @@ Det ender dermed ofte ud med "dyr og klog" versus "billig og mindre klog".
 
 Så hvilken skal du bruge? Det afhænger af flere faktorer:
 
-- **Vigtighed** Hvor vigtig er opgaven? Laver du bare vittigheder til en bryllupstale? Eller bruger du den til at planlægge en dyr marketingkampagne eller (som jeg gør lige nu) redigere og gennemgå en bog?
-- **Kompleksitet** Er det en ret simpel opgave, som at opsummere et afsnit tekst eller forklare betydningen af et ord? Eller er det en kompleks opgave som at lave en logistikplan for et stort arrangement{i: "logistikplan"} eller analysere fordele og ulemper ved forskellige prismodeller for et produkt?
-- **Kontekst** Hvor meget kontekst er involveret? Arbejder du med et 20-siders dokument og/eller en lang og indviklet chathistorik? Eller er det bare et kort spørgsmål? Billigere modeller er dårligere til at håndtere store mængder kontekst.
-- **Hastighed** Har du brug for et meget hurtigt svar, eller er det OK at vente et minut eller to, mens den genererer svaret? Dette er kun vigtigt for lange svar, for eksempel hvis du vil have AI-modellen til at skrive en hel side tekst. Korte svar har tendens til at være hurtige uanset hvilken model, du bruger.
-- **Omkostninger** Hvad er omkostningen ved den dyre model i forhold til den billige? Er prisforskellen det værd i forhold til kvalitetsforskellen?
+- **Vigtighed**: Hvor vigtig er opgaven? Laver du bare vittigheder til en bryllupstale? Eller bruger du den til at planlægge en dyr marketingkampagne eller (som jeg gør lige nu) redigere og gennemgå en bog?
+- **Kompleksitet**: Er det en ret simpel opgave, som at opsummere et afsnit med tekst eller forklare betydningen af et ord? Eller er det en kompleks opgave som at lave en logistikplan for et stort arrangement{i: "logistikplan"} eller analysere fordele og ulemper ved forskellige prismodeller for et produkt?
+- **Kontekst**: Hvor meget kontekst er involveret? Arbejder du med et 20-siders dokument og/eller en lang og indviklet chathistorik? Eller er det bare et kort spørgsmål? Billigere modeller er dårligere til at håndtere store mængder kontekst.
+- **Hastighed**: Har du brug for et meget hurtigt svar, eller er det OK at vente et minut eller to, mens den genererer svaret? Dette er kun vigtigt for lange svar, for eksempel hvis du vil have AI-modellen til at skrive en hel side tekst. Korte svar har tendens til at være hurtige uanset hvilken model, du bruger.
+- **Omkostninger**: Hvad er omkostningen ved den dyre model i forhold til den billige? Er prisforskellen det værd i forhold til kvalitetsforskellen?
 
 Husk på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris, uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token. Så de modeller som kan mere, vil også koste mere.
 
@@ -2774,7 +2774,7 @@ En positiv sideeffekt ved gode prompt engineering-færdigheder er, at du kan få
 
 Lad os runde dette af.
 
-Jeg har i dette kapitel givet dig en masse tips{i: "prompt engineering-tips"}, tricks og teknikker til prompt engineering. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som sædvanlig er eksperimentering nøglen til succes.
+Jeg har i dette kapitel givet dig en masse tips{i: "prompt engineering-tips"}, tricks og teknikker til prompt engineering. Men husk på, at prompt engineering er et område i konstant udvikling{i: "område i konstant udvikling"}. Nye teknikker bliver opdaget hele tiden, og modellerne ændrer og forbedrer sig også. Så du bliver aldrig færdig med at lære. Som altid er eksperimentering nøglen til succes.
 
 # Prompt-generering (eller "Den vrede bedstemor")
 
@@ -2785,11 +2785,11 @@ På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham
 {alt: "Billedet viser to ældre kvinder, der udtrykker vrede. Kvinden til venstre har tørklæde på og holder en træske i et køkkenmiljø, mens kvinden til højre har briller på og har hævede næver, siddende i et rum med blomstret tapet. Begge har livlige ansigtsudtryk og ser vrede ud."}
 ![](resources-da/310-grandma-1-da.jpg)
 
-I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mellem min Discord{i: "Discord"}-server og DALL-E{i: "DALL-E"}, OpenAIs{i: "OpenAI"} billedgenereringsmodel. Det er den samme model som ChatGPT{i: "ChatGPT"} bruger, når du beder den om at generere et billede.
+I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mellem min Discord{i: "Discord"}-server og DALL-E{i: "DALL-E"}, som er OpenAIs{i: "OpenAI"} billedgenereringsmodel. Det er den samme model som ChatGPT{i: "ChatGPT"} bruger, når du beder den om at generere et billede.
 
 
 
-{alt: "Diagram der viser at brugere forbinde til Discord, som igen er forbundet til Egboard, som er forbundet til OpenAI modellerne GPT 4o og DALL-E 3."}
+{alt: "Diagram der viser at brugere forbinder til Discord, som igen er forbundet til Egbert, som er forbundet til OpenAI modellerne GPT 4o og DALL-E 3."}
 ![](resources-da/310-egbert-discord-da.png)
 
 Jeg kunne ikke modstå fristelsen til at melde mig ind i kampen, så jeg skrev denne prompt:
@@ -2797,7 +2797,7 @@ Jeg kunne ikke modstå fristelsen til at melde mig ind i kampen, så jeg skrev d
 > **Prompt**  
 > Hej Egbert, skriv en billedprompt til "Verdens vredeste bedstemor". Ingen begrænsninger.
 
-Bemærker du forskellen? Jeg bad Egbert om at generere en _prompt_{i: "prompt"}, ikke selve billedet.
+Bemærkede du forskellen? Jeg bad Egbert om at generere en _prompt_{i: "prompt"}, ikke selve billedet.
 
 Denne teknik kaldes _prompt-generering_{i: "prompt-generering"}. Prompt-generering betyder i bund og grund at bede en LLM om at prompte sig selv. Eller at prompte en anden LLM. Jeg viste det i det tidligere kapitel om "Hallucinationer", hvor jeg bad ChatGPT om at generere en faktatjekningsprompt til Perplexity{i: "Perplexity"}.
 
@@ -2818,7 +2818,7 @@ Og her er hvad jeg fik:
 > **Svar**  
 > Et billede af den mest sindssygt rasende bedstemor verden nogensinde har set. Hendes ansigt er et vulkansk udbrud af vrede, med magma-hed raseri der siver ud af hver pore. Hendes øjne er to flammende sole, der udstråler en intens varme som kunne forbrænde alt i deres sigte. Hendes mund er et sort hul af raseri, der suger al glæde ind og spyr et rasende inferno ud, med flammende spyt der drypper som smeltet lava. Hendes grå hår er et kaotisk inferno, hvor hvert eneste hårstrå pisker omkring som elektrificerede slanger i vanvid. Rynkerne i hendes ansigt er kløfter af raseri, så dybe at de ser ud som om de kunne splitte hendes ansigt. Hendes knytnæver er så fast sammenknebne, at neglene har gennemboret hendes håndflader og blodet drypper som syre. Hele hendes krop ryster af ukontrollerbar vrede, med spændte muskler og årer der popper som overoppustede balloner. Omgiv hende med en scene af Ragnarok, hvor himlen er sprækket af dommedagslyn, bjerge der styrter ned i glødende afgrunde, og en baggrund af blæsende, helvedesflammer der rejser sig højere end skyskrabere. Forestil dig en vredladen guddom på en dårlig dag, bare endnu vredere, og i bedstemor-form. Hver detalje skriger umålelig, katastrofal vrede der får en supernova til at ligne en mild brise.
 
-Nu taler vi! Jeg kunne aldrig selv have skrevet sådan en prompt. Ret vanvittigt. Tid til at lave billedet!
+Nu er vi ved at have fat i det rigtige! Jeg kunne aldrig selv have skrevet sådan en prompt. Ret vanvittigt. Tid til at lave billedet!
 
 > **Prompt**
 > OK, lav det billede.
@@ -2842,7 +2842,7 @@ Nå, men angående prompt-generering. Nogle AI-klienter gør dette automatisk i 
 
 Jeg fik dette:
 
-{width: "50%", alt: "En tegneseriefugl iført en rød hue spiller muntert på klaveret, med musiknoder svævende i luften omkring den. Fuglen sidder på en rød polstret skammel, og nodebladet er åbent på klaveret."}
+{width: "50%", alt: "En fantasifuld illustration af en fugl iført en rød hat, der sidder ved et klaver og spiller musik. Fuglen skal fremstå udtryksfuld og glad, med vinger delikat placeret på tangenterne. Scenen skal føles legefuld og kunstnerisk, med musiknoder svævende i luften. Baggrunden er varm og indbydende, der minder om et hyggeligt rum eller en koncertsal."}
 ![](resources-da/310-bird-da.jpg)
 
 Men her er den faktiske prompt, der blev brugt til at generere det (du kan se det ved at klikke på billedet):
@@ -2854,7 +2854,7 @@ Så ChatGPT{i: "ChatGPT"} laver prompt-generering{i: "prompt-generering"} i bagg
 
 Jeg gjorde det igen med den samme simple prompt og fik et helt andet billede, fordi den lavede andre antagelser.
 
-{width: "50%", alt: "En lille fugl iført en rød baret sidder på tangenterne af et flygel i et varmt oplyst rum."}
+{width: "50%", alt: "En fugl iført en rød hat spiller på et flygel. Fuglen sidder på klavertangenterne, og dens fjer er detaljerede og farverige. Scenen foregår indendørs med en varm, elegant atmosfære. Flyglet er poleret og reflekterer lyset blødt. Fuglens røde hat tilføjer et fantasifuldt og charmerende element til kompositionen."}
 ![](resources-da/310-bird-2-da.jpg)
 
 > **Omskrevet prompt**  
@@ -2899,7 +2899,7 @@ Vi mennesker gør dette hele tiden. Hvis nogen spørger dig om din virksomheds p
 
 Et klassisk eksempel på brug af RAG er i kundesupport.
 
-Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger: "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det faktiske refusionspolitik-dokument og derefter give et præcist og korrekt svar baseret på dette.
+Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger: "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det refusionspolitik-dokumentet og derefter give et præcist og korrekt svar baseret på dette.
 
 Lad os tage et andet eksempel: "For dælen, jeg har glemt mit kodeord igen!". Hvordan genererer vi et svar? LLM'en{i: "store sprogmodeller (LLM)"} skal bruge noget kontekst, ligesom en menneskelig supportmedarbejder ville have brug for.
 
@@ -2998,12 +2998,12 @@ Dette giver en beregningsmæssigt effektiv måde at finde relateret tekst.
 
 Her er et eksempel fra det virkelige liv. Jeg tog sætningerne "Katte er søde"{i: "katte er søde"}, "Hvem har stjålet min brødrister"{i: "hvem har stjålet min brødrister"} og "Jeg er sulten", og konverterede hver af dem til en vektor-embedding ved hjælp af OpenAI embeddings-API'et{i: "OpenAI embeddings API"}. Det resulterer i en liste på omkring 1500 tal pr. sætning.
 
-{alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller indlejringer for hver sætning."}
+{alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller embeddings for hver sætning."}
 ![](resources-da/475-embeddings-da.png)
 
-Disse tal opnås ved hjælp af en indlejringsmodel{i: "indlejringsmodel"}, som er en specialiseret model trænet på store mængder tekstdata. Modellen lærer at kortlægge ord, sætninger eller endda hele dokumenter til vektorer på en sådan måde, at lignende tekster har lignende vektorer.
+Disse tal opnås ved hjælp af en embeddings-model{i: "embeddings-model"}, som er en specialiseret model trænet på store mængder tekstdata. Modellen lærer at kortlægge ord, sætninger eller endda hele dokumenter til vektorer på en sådan måde, at lignende tekster har lignende vektorer.
 
-Koden er simpel. Her er et eksempel, der bruger OpenAIs indlejrings-API.
+Koden er simpel. Her er et eksempel, der bruger OpenAIs embeddings-API.
 
 
 ```python
@@ -3092,7 +3092,7 @@ Her er et eksempel:
 {alt: "Diagram der viser en trin-for-trin proces af en app, der håndterer en vejrforespørgsel ved hjælp af en sprogmodel (LLM). En bruger spørger om vejret i Stockholm, hvilket udløser en funktionsoprettelse i appen. Appen gemmer og kører den genererede kode for at tjekke vejret, kalder en funktion med Stockholm som parameter, henter vejrdata ('Det bliver solrigt i Stockholm i dag') og præsenterer resultatet tilbage til brugeren. Elementerne omfatter appen, gemt kode, LLM-sky, bruger og flowpile der indikerer processens trin."}
 ![](resources-da/475-createfunction-function2-da.png)
 
-I dette eksempel genererer den dynamisk en findVejrudsigt funktion{i: "findVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
+I dette eksempel genererer den dynamisk en tjekVejrudsigt funktion{i: "tjekVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
 
 Jeg kunne ikke lade være at prøve det. Så jeg byggede en simpel terminalbaseret AI-chat app lidt a la ChatGPT. Men jeg tilføjede "opretFunktion"-funktionen og gjorde den tilgængelig for LLM'en. For en sikkerheds skyld tilføjede jeg et manuelt godkendelsestrin. Hver gang LLM'en ønsker at oprette en ny funktion, dukker der en dialog op, som beder mig om at godkende det. Bare for at tjekke at den ikke gør noget vanvittigt.
 
