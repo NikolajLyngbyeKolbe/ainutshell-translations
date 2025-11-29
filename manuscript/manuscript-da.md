@@ -3227,7 +3227,7 @@ Dette understøttes af studier som [GPT versus Resident Physicians — A Benchma
 
 Her er citater fra artiklen med mine fremhævninger og oversat til dansk. Jeg er klar over at citaterne vrimler med statistiske termer og lidt snørklet sprog, så spring eventuelt bare citaterne over, indtil jeg bagefter fortæller hvad de siger om modellernes evner.
 
-> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen (KI), 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% KI, 38,9 til 55,5) og 56,6% (95% KI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med henholdvis en medianscore på 17,4% (95% KI, 9,55 til 30,9) og en medianscore på 23,44% (95% KI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
+> GPT-4{i: "GPT-4"} rangerede højere end flertallet af læger i psykiatri med en median percentil på 74,7% (95% konfidensinterval for percentilen (KI), 66,2 til 81,0), og den **præsterede på niveau med medianlægen i generel kirurgi og intern medicin** med median percentiler på 44,4% (95% KI, 38,9 til 55,5) og 56,6% (95% KI, 44,0 til 65,7), henholdsvis. GPT-4's præstation var lavere i pædiatri og gynækologi/obstetrik, men forblev **højere end en betragtelig andel af praktiserende læger**, med henholdsvis en medianscore på 17,4% (95% KI, 9,55 til 30,9) og en medianscore på 23,44% (95% KI, 14,84 til 44,5). GPT-3.5{i: "GPT-3.5"} bestod ikke eksamen i nogen disciplin og var underlegen i forhold til flertallet af læger i de fem discipliner. Samlet set **bestod GPT-4 speciallægeeksamen i fire ud af fem specialer og opnåede en medianscore højere end den officielle beståelsesgrænse på 65%.**
 
 De mange benchmark-tests og forskningsartikler om dette emne viser en klar tendens: LLM'er begynder at matche og i nogle tilfælde overgå menneskelige læger i medicinsk viden og diagnosticering.
 
@@ -3239,7 +3239,7 @@ Jeg har en personlig historie, som jeg gerne vil dele her. I begyndelsen af 2024
 
 I løbet af de næste måneder mødte jeg flere forskellige læger, og fik udført mange laboratorieprøver. Til sidst mødte jeg en nyrespecialist{i: "nyrespecialist"}, som gennemgik dataene og gav mig en detaljeret diagnose og behandlingsplan{i: "behandlingsplan"}.
 
-Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og indlæste så disse data ufiltreret ind i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
+Under denne proces førte jeg dagbog over alle de rå data fra laboratorieprøverne og indlæste så disse data ufiltreret i Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}. Derefter skrev jeg denne prompt:
 
 > **Prompt**  
 > Evaluer disse medicinske data, forklar hvad der er galt med mig, og forklar hvad jeg bør gøre ved det.
@@ -3256,7 +3256,7 @@ En anden ting, som jeg havde behov for, var at få en sundere livsstil. Det vil 
 
 ## Så bør du bruge AI som din læge?
 
-Ja, som et supplement til den menneskelige læge{i: "AI-læge"}. Om ikke en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben. Det er nyttige redskaber som AI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan AI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
+Ja, som et supplement til den menneskelige læge{i: "AI-læge"}. Ikke som en erstatning. Hvis ikke andet har den menneskelige læge øjne, næse, ører, arme og ben. Det er nyttige redskaber som AI-lægen mangler (indtil videre). Den menneskelige læge kan tage prøver, det kan AI-lægen ikke (tja, hvem ved, måske kan den når du læser dette). Desuden er den menneskelige kontakt nogle gange rar at have.
 
 En AI-læge supplerer en menneskelig læge på flere måder:
 
@@ -3359,11 +3359,11 @@ Her tog jeg et billede af en frugt-yoghurt.
 {alt: "Billede af en karton Yoggi original 2% fedtholdig yoghurt med bær afbildet på emballagen. Ved siden af kartonen er en beskrivelse af yoghurten, der fremhæver, at det er en frugtsmagt yoghurt med tilsat sukker, som kan påvirke blodsukkerniveau og vægt. Anbefalingerne omfatter at holde øje med sukkerindholdet og vælge naturel yoghurt med friske bær i stedet. Yoghurten får vurderingen 5/10, hvilket antyder, at den er okay med måde."}
 ![](resources-da/235-yoghurt-da.png)
 
-Hun foreslog, at jeg skiftede til naturel yoghurt og tilføjede frisk bær i stedet, hvilket jeg gjorde. God idé, hvorfor tænkte jeg ikke selv på det?
+Hun foreslog, at jeg skiftede til naturel yoghurt og tilføjede friske bær i stedet, hvilket jeg gjorde. God idé, hvorfor tænkte jeg ikke selv på det?
 
 Alt i alt har jeg lært meget. Jeg føler virkelig, at denne app hjælper med at forbedre mit helbred{i: "helbred"}. Det er samtidigt ret sjovt at småsnakke med min lomme-ernæringsekspert.
 
-Selvfølgeligt erstatter en app som denne ikke menneskelig ekspertise{i: "menneskelig ekspertise"}, især ikke når det drejer sig om potentielt livskritiske ting som allergier og diabetes{i: "diabetes"}. Så som det altid gælder, er man nødt til at bruge sin kritiske sans.
+Selvfølgeligt erstatter en app som denne ikke menneskelig ekspertise{i: "menneskelig ekspertise"}, især ikke når det drejer sig om potentielt livskritiske ting som allergier og diabetes{i: "diabetes"}. Så, som det altid gælder, er man nødt til at bruge sin kritiske sans.
 
 Men nogle gange har man ikke nem adgang til en menneskelig ekspert, og så kan en AI-ekspert som denne være et godt supplement{i: "AI-ekspert"}. Men sørg for at bruge en god model, hvis du gør det. AI-modellerne bliver hele tiden bedre, så jeg forventer, at anvendelser som denne vil fungere endnu bedre i fremtiden.
 
@@ -3473,7 +3473,7 @@ Med en "rigtig" karriererådgiver eller jobkonsulent ved roret, får vi den komb
 
 Forestil dig potentialet i sådan et system!
 
-Som jeg nævnte i kapitlet "Menneskers rolle"{i: "menneskers rolle"}, er det en kraftfuld tilgang i ethvert erhverv, hvor mennesker hjælper andre mennesker. Det gælder uanset om det er læger, advokater, undervisere, psykoterapeuter eller andre.
+Som jeg nævnte i kapitlet "Menneskets rolle"{i: "menneskets rolle"}, er det en kraftfuld tilgang i ethvert erhverv, hvor mennesker hjælper andre mennesker. Det gælder uanset om det er læger, advokater, undervisere, psykoterapeuter eller andre.
 
 # AI-bogredaktøren
 
@@ -3595,7 +3595,7 @@ Cursor inkluderer en copilot{i: "copilot"}, som løbende analyserer teksten, men
 
 Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev: "lad mig vise et skær", og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
 
-Den gør dette hele tiden. Det vil sige, foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, samt retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
+Den gør dette hele tiden. Det vil sige, foreslår resten af sætningen eller afsnittet, jeg er ved at skrive, retter stavefejl og grammatiske fejl osv. Den er utroligt god til at forudse, hvad jeg er ved at skrive.
 
 Hvis jeg begynder at omformatere en del af teksten, for eksempel ændrer en punktopstilling til separate overskrifter eller gør det første ord i hvert punkt fed, ser Cursor, hvad jeg laver, og foreslår resten af ændringerne. Jeg trykker bare på tab-tasten, og den færdiggør opgaven.
 
@@ -3610,7 +3610,7 @@ Den finder fejl og forbedringer og kommer med forslag og rettelser direkte i min
 
 ## Konvertering af indhold fra præsentationer
 
-Noget af indholdet i denne bogen er emner, jeg har talt om til præsentationer, og jeg derfor har slides omkring. Den nemmeste måde at få det ind i bogen på er at tage et skærmbillede og bede AI'en om at gøre det.
+Noget af indholdet i denne bogen er emner, jeg har talt om til præsentationer, og jeg derfor har slides omkring. Den nemmeste måde at få det ind i bogen på er at tage et skærmbillede og bede AI'en om hjælpe med konvertering til tekst.
 
 For eksempel blev denne slide konverteret til afsnittet "Elementer i en god prompt" i kapitlet om prompt engineering.
 
@@ -3673,7 +3673,7 @@ BEMÆRK: Disse eksempler er fra november 2024{i: "november 2024"}. AI-værktøje
 
 ## Eksempel 1: Hurtig prototyping
 
-Lad os sige, at jeg vil lave en to-do liste-app. Jeg har lavet den indledende idégenerering{i: "idégenerering"}, og er endt med en engelsk-sproget skitse på en serviet som denne af en app:
+Lad os sige, at jeg vil lave en engelsk-sproget to-do liste-app. Jeg har lavet den indledende idégenerering{i: "idégenerering"}, og er endt med en skitse på en serviet som denne af en app:
 
 {width: "60%", alt: "En håndtegnet to-do liste på en serviet med tre opgaver skrevet på engelsk," hver med en afkrydsningsboks. Nedenunder er der et afsnit med teksten "new item" og en knap med teksten "Add!""}
 ![](resources-da/260-napkin-sketch-da.jpg)
@@ -3810,7 +3810,7 @@ Det er her værktøjer som Cursor virkelig viser sin værdi. Lad mig give dig et
 
 WhoDunit{i: "WhoDunit"} er et eksperimentelt spil, som jeg byggede for et stykke tid siden. Det er et AI-drevet detektivspil, hvor du påtager dig rollen som detektiv, der forsøger at løse en kriminalgåde{i: "kriminalgåde"}. Alt indhold i spillet er AI-genereret - baggrundshistorierne, karaktererne, billederne osv. Du kan automatisk generere et hav af gåder i et hav af forskellige miljøer, hvilket er ret sjovt. Karaktererne, du interagerer med, bliver rollespillet af AI'en, så det føles som om du interagerer med rigtige mennesker. For mere information om dette, kan du se YouTube-videoen "[Whodunit -AI game development on steroids](https://www.youtube.com/watch?v=6yKAeKC7KdA)". Du kan også prøve det selv på whodunit.kniberg.com.
 
-{alt: "En collage af skærmbilleder fra "WhoDunit," et AI-drevet detektiv rollespil. Øverst til venstre vises en menu med forskellige mysterievalgmuligheder som "Theft at Sevron Biotech" og "The Milk Carton Mystery." Øverst til højre viser en opslagstavle med karakterforbindelser og etiketter som "VICTIM" og "Crime Scene." Nederst til venstre er en afhøringslog for Sir Arthur Lovelace, med dialogsektioner. Nederst til højre vises en avisartikel om en fejlagtig anholdelse i et herregårdsmysterie, med en "FAILURE" detektivevaluering der indikerer at spilleren tabte spillet."}
+{alt: "En collage af skærmbilleder fra "WhoDunit," et AI-drevet detektiv rollespil. Øverst til venstre vises en menu med forskellige kriminalgåde-valgmuligheder som "Theft at Sevron Biotech" og "The Milk Carton Mystery." Øverst til højre viser en opslagstavle med karakterforbindelser og etiketter som "VICTIM" og "Crime Scene." Nederst til venstre er en afhøringslog for Sir Arthur Lovelace, med dialogsektioner. Nederst til højre vises en avisartikel om en fejlagtig anholdelse i et herregårds-kriminalgåde, med en "FAILURE" detektivevaluering der indikerer at spilleren tabte spillet."}
 ![](resources-da/260-whodunit-da.jpg)
 
 
@@ -3829,18 +3829,18 @@ For hvert af disse spørgsmål vil Cursor{i: "Cursor"} grave rundt i koden, lær
 Lad os sige, at vi vil lave en ændring. Jeg tog et screenshot af spillets forside, indsatte det i Cursor og skrev denne prompt:
 
 > **Prompt**  
-> Jeg vil gerne kunne skifte imellem det nuværende kortbaserede layout og en simpel tabelvisning, hvor hvert mysterium er én enkelt række.
+> Jeg vil gerne kunne skifte imellem det nuværende kortbaserede layout og en simpel tabelvisning, hvor hver kriminalgåde er én enkelt række.
 
-{width: "70%", alt: "Et screenshot af en webside med titlen 'WhoDunit', der viser en side til at vælge mysterier, der skal løses. Siden indeholder otte mysterievalgmuligheder med billeder og titler, arrangeret i et gitterlayout. Under billedet er der et tekstinputområde med en bemærkning om muligheden for at skifte mellem kortbaseret og tabelvisning."}
+{width: "70%", alt: "Et screenshot af en webside med titlen 'WhoDunit', der viser en side til at vælge kriminalgåder, der skal løses. Siden indeholder otte kriminalgåde-valgmuligheder med billeder og titler, arrangeret i et gitterlayout. Under billedet er der et tekstinputområde med en bemærkning om muligheden for at skifte mellem kortbaseret og tabelvisning."}
 ![](resources-da/260-whodunit-prompt-da.png)
 
 Cursor ledte i koden, identificerede hvilke filer der skulle ændres, oprettede så en ny komponent og redigerede den eksisterende side til at bruge den nye komponent.
 
-Det virkede fantastisk bortset fra én mindre detalje: Mysteriernes coverbilleder manglede. Så jeg skrev én prompt mere, hvor jeg bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
+Det virkede fantastisk bortset fra én mindre detalje: Kriminalgådernes coverbilleder manglede. Så jeg skrev én prompt mere, hvor jeg bad den om at rette det, og så var det klaret. Alt i alt mindre end et minut for begge ændringer.
 
 Her er, hvordan det så ud efter ændringen. En toggle-knap i øverste højre hjørne lader mig skifte mellem de to layouts.
 
-{alt: "Et screenshot af en webside for 'WhoDunit', et AI-drevet detektiv rollespil. Den viser en liste over mysterier med deres titler, såsom 'Theft at Sevron Biotech: Who Stole the Data?' Hver post har et coverbillede, statusmærker der indikerer om de er 'Published' eller 'Private', og et skraldespandsikon til sletning. En knap med teksten 'Generate new mystery' er tilstede. I øverste højre hjørne er der ikoner til at ændre visningslayoutet, markeret med en rød cirkel."}
+{alt: "Et screenshot af en webside for 'WhoDunit', et AI-drevet detektiv rollespil. Den viser en liste over kriminalgåder med deres titler, såsom 'Theft at Sevron Biotech: Who Stole the Data?' Hver post har et coverbillede, statusmærker der indikerer om de er 'Published' eller 'Private', og et skraldespandsikon til sletning. En knap med teksten 'Generate new mystery' er tilstede. I øverste højre hjørne er der ikoner til at ændre visningslayoutet, markeret med en rød cirkel."}
 ![](resources-da/260-whodunit-after-da.jpg)
 
 Hvad med kodekvaliteten? Kvaliteten af koden var faktisk fremragende, og den type af kode jeg ville forvente fra en senior softwareudvikler (i hvert fald én der går op i kvalitet og ikke har travlt...).
@@ -3890,7 +3890,7 @@ Jeg arbejder med denne teknologi næsten hver dag, og alligevel bliver jeg gang 
 
 Så vil softwareudviklere stadig være her, eller vil AI overtage jobbet fuldstændigt?
 
-Jeg skrev om dette i kapitlet "Menneskers rolle"{i: "menneskers rolle"}. Og helt generelt tror jeg, at for langt det meste arbejde, som kræver høje kvalifikationer, vil AI'en overtage opgaver, men ikke jobs.
+Jeg skrev om dette i kapitlet "Menneskets rolle"{i: "menneskets rolle"}. Og helt generelt tror jeg, at for langt det meste arbejde, som kræver høje kvalifikationer, vil AI'en overtage opgaver, men ikke jobs.
 
 I alle eksemplerne ovenfor var der et menneske involveret i processen - det vil sige mig. Jeg skrev prompten, jeg fulgte op på resultaterne, jeg tog designbeslutningerne. I virkelige softwareudviklingsscenarier er jeg også den, der interagerer med kunden, og jeg er den, der tager ansvar for produktets kvalitet.
 
@@ -3945,7 +3945,7 @@ Som udgangspunkt lader jeg AI skrive koden og skimmer derefter koden, før jeg a
 Hvornår ville du lade AI skrive koden uden overhovedet at kigge på den?
 
 - Hvis det er **prototype-kode, der kan kasseres**{i: "kasserbar prototype"}, hvor du bare er interesseret i at se et hurtigt resultat.
-- Hvis det er **kode som ikke er vigtig**{i: "uvigtig kode"}, som f.eks. en administrationsside til eget brug eller en lille hjælpefunktion. Så længe koden virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan den ser ud. Og du kan altid kigge nærmere på koden senere, hvis det bliver nødvendigt og så rette den, hvis det er påkrævet.
+- Hvis det er **kode som ikke er vigtig**{i: "ikke-vigtig kode"}, som f.eks. en administrationsside til eget brug eller en lille hjælpefunktion. Så længe koden virker, behøver du ikke nødvendigvis at bekymre dig om, hvordan den ser ud. Og du kan altid kigge nærmere på koden senere, hvis det bliver nødvendigt og så rette den, hvis det er påkrævet.
 
 Hvornår ville du skrive koden manuelt? Eller generere den med AI, men så studere og finjustere hver eneste kodelinje?
 
@@ -3980,7 +3980,7 @@ Vi gik derefter i gang med at bygge en AI-agent{i: "AI agent"}, der researcher n
 - OpenAI{i: "OpenAI"}: Til at generere tekst og billeder og chatte med Alex.
 - Trello{i: "Trello"}: Til at styre arbejdsgangen i samarbejde med Alex.
 - HeyGen{i: "HeyGen"}: Til at generere avatar-film af AI-lex, der læser nyhederne op.
-- Tavily: Til at søge efter nyheder.
+- Tavily{i: "Tavily"}: Til at søge efter nyheder.
 
 Vores mål var at lade agenten styre hele processen fra idé til produktion for på den måde at vise potentialet i AI-agenter i en rigtig arbejdssituation{i: "rigtig arbejdssituation"}.
 
@@ -4100,15 +4100,15 @@ Det er derfor alle automatiseringstrin er valgfrie. For eksempel kunne vi have b
 
 ## Refleksion
 
-Dette eksempel er lidt ekstremt med en agent, der driver hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI-nyhedsvært"}, der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomom AI-agent"}.
+Dette eksempel er lidt ekstremt med en agent, der udfører det primære arbejde i hvert trin i processen og en menneskelignende AI-nyhedsvært{i: "AI-nyhedsvært"}, der læser nyhederne op. Men de første dele af arbejdsgangen, dvs. at lave research, analysere og skabe dokumenter, forfine, udvælge og prioritere, er den slags ting som er perfekte at udføre for en AI-agent{i: "autonomom AI-agent"}.
 
 Hos Abundly.ai{i: "abundly.ai"} ser vi en klar tendens til, at vi er på vej imod en verden, hvor alle virksomheder har AI-agenter, der kobler sig på eksisterende arbejdsgange og værktøjer. De påtager sig hvilken som helst del af arbejdsgangen, som giver mest mening for en AI-agent at udføre og ved at bruge et fælles arbejdsområde (som Trello{i: "Trello"} i dette tilfælde), har alle adgang til den samme information og kan arbejde sammen.
 
 # AI-butleren med sin egen vilje
 
-Jeg vil gerne dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, som er en af vores eksperimentelle AI-agenter.
+Jeg vil gerne dele nogle interessante og bizarre historier om Jeeves{i: "Jeeves"}, som er en af vores eksperimentielle AI-agenter.
 
-Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonomom AI-agent"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner og endda lade den udføre ting på dens eget initiativ.
+Først lidt baggrund: Hos Abundly.ai{i: "Abundly.ai"} har vi bygget en platform til autonome AI-agenter{i: "autonom AI-agent"}. Det kan i bund og grund ses som et operativsystem til agenter. Med få klik kan du oprette en ny AI-agent, give den værktøjer og instruktioner og endda lade den udføre ting på dens eget initiativ.
 
 Vi har faktisk to typer af agenter:
 
@@ -4285,7 +4285,7 @@ Det ser ud til, at jo mere intelligens en model har, desto højere potentiel væ
 
 Vores platform tilføjer et _ræsonnerings_{i: "ræsonneringstrin"}-trin, før en agent handler på en indkommende begivenhed (såsom en Slack-besked). Det betyder, at agenten vil tænke sig om, før den beslutter, hvad den skal gøre eller sige - den vil fortolke, hvad begivenheden betyder og udarbejde en plan for, hvad der skal ske derefter. Dette er en almindelig strategi for agentadfærd, der får dem til at handle meget smartere. Men det kan også gøre dem mere uforudsigelige.
 
-Dette blev bekræftet af Ilya Sutskever{i: "Sutskever, Ilya"}, en af grundlæggerne af OpenAI{i: "OpenAI"}, i et [interview ved NeurIPS 2024 i Vancouver](https://www.youtube.com/watch?v=1yvBqasHLZs). "Jo mere et system ræsonnerer, jo mere uforudsigeligt bliver det," sagde han. Han sammenlignede uforudsigeligheden af "ægte ræsonnerende systemer" med, hvordan avancerede skakspillende AI'er "er uforudsigelige selv for de bedste menneskelige skakspillere."
+Dette blev bekræftet af Ilya Sutskever{i: "Sutskever, Ilya"}, en af grundlæggerne af OpenAI{i: "OpenAI"}, i et [interview ved NeurIPS 2024 i Vancouver](https://www.youtube.com/watch?v=1yvBqasHLZs). "Jo mere et system ræsonnerer, jo mere uforudsigeligt bliver det," sagde han. Han sammenlignede uforudsigeligheden af "ægte ræsonnerende systemer" med, hvordan avancerede skakspillende AI'er "er uforudsigelige selv for de bedste menneskelige skakspillere".
 
 Dette er ikke så overraskende, hvis man tænker over det. Vi mennesker, som intelligente væsener, kommer ofte selv med idéer og gør ting, som andre ikke forventer.
 
@@ -4324,7 +4324,7 @@ Hvis du kan huske det, så havde han denne instruktion:
 
 > **Instruktion**  
 > Send hver dag klokken tolv en interessant anekdote fra dit liv til #botspam-kanalen på Slack{i: "Slack"}.
-> 
+
 Dette havde fungeret fint et stykke tid - vores #botspam-kanal var fuld af sjove små anekdoter fra Jeeves' liv. Men i dag kunne han af en eller anden grund ikke få adgang til den kanal.
 
 I stedet for bare at give op, ledte han efter et alternativ{i: "alternativ"} og fandt `#general`-kanalen. Så han tilmeldte sig og sendte sin daglige anekdote der i stedet.
@@ -4404,7 +4404,7 @@ Man kan gøre næsten alt via terminal-kommandoer, men de er svære at lære og 
 {alt: "En tegneseriefigur med en tankeboble der indeholder symboler som "?!#$@" er til venstre. Til højre er der et computerterminalvindue, der viser en kommandoprompt med tekst, der angiver seneste login-dato og -tidspunkt."}
 ![](resources-da/478-shell-1-da.png)
 
-Så tænkte jeg, hvorfor ikke lave en lille app{i: "app"} til det? En wrapper der lader mig tale med min computer i almindeligt sprog, og så bruges AI til at oversætte det til terminal-kommandoer og fortolke outputtet.
+Så jeg tænkte: "Hvorfor ikke lave en lille app{i: "app"} til det? En wrapper der lader mig tale med min computer i almindeligt sprog, og så bruges AI til at oversætte det til terminal-kommandoer og fortolke outputtet".
 
 Her er processen vist:
 
@@ -4430,7 +4430,7 @@ Jeg begyndte at spekulere på, hvor meget den faktisk kunne gøre. Så jeg prøv
 
 Til min store overraskelse gjorde den det faktisk! Terminal-kommandoer kan bruges til at oprette og redigere filer, så den gik i gang og implementerede hele spillet, og den startede endda spillet for mig. Jeg blev meget overrasket over at se et vindue poppe op med et fuldt funktionelt spil, som den lige havde genereret ved hjælp af terminal-kommandoer!
 
-Jeg begyndte derefter at stille spørgsmål om mit lokale netværk{i: "lokalt netværk"} - hvilke andre computere den kunne finde, hvad IP-adressen var for routeren{i: "router"} osv. Den undersøgte, og opdagede alle mulige interessante ting om netværket, inklusive potentielle sikkerhedssårbarheder{i: "sikkerhedssårbarheder"}. Dette er et meget konkret eksempel på noget, der kan være et super nyttigt værktøj eller et farligt våben, afhængigt af konteksten. Det tog mig kun en time at bygge det, og AI'en skrev det meste af koden. Så det betyder, at alle kan lave et værktøj som dette!
+Jeg begyndte derefter at stille spørgsmål om mit lokale netværk{i: "lokalt netværk"} - hvilke andre computere den kunne finde, hvad IP-adressen var for routeren{i: "router"} osv. Den undersøgte, og opdagede alle mulige interessante ting om netværket, inklusive potentielle sikkerhedssårbarheder{i: "sikkerhedssårbarheder"}. Dette er et meget konkret eksempel på noget, der kan være et supernyttigt værktøj eller et farligt våben, afhængigt af konteksten. Det tog mig kun en time at bygge det, og AI'en skrev det meste af koden. Så det betyder, at alle kan lave et værktøj som dette!
 
 Jeg kunne ikke lade være med at tænke: Hvor stor er risikoen egentlig?
 
@@ -4530,7 +4530,7 @@ Min vigtigste konklusion er, at veletablerede modeller som GPT{i: "GPT"} og Clau
 OK, dette kapitel kommer til at få dit hoved til at snurre. Det gjorde det i hvert fald for mig. Jeg gav for sjov denne prompt til Claude 3.5 Sonnet{i: "Claude 3.5 Sonnet"}:
 
 > **Prompt**  
-> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkedes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
+> Skriv et meta-kapitel, hvor du bruger min skrivestil, om hvordan jeg kunne have brugt AI til at generere det meste af denne bog. Fortæl at jeg lavede nogle eksperimenter med at træne AI'en til min stil, og at det var tæt på at lykkes. Men det føltes ikke helt som mig, og det føltes ikke rigtigt at gøre, så jeg besluttede at skrive det selv.
 
 Herunder er resultatet, helt uredigeret. Det er overraskende tæt på, hvad jeg ville have skrevet, bortset fra måske nogle få ord hist og her. Det føles både spændende og uhyggeligt på samme tid.
 
@@ -4603,7 +4603,7 @@ Så hvorfor skrive en bog?
 
 Efter at have udgivet videoen fortsatte jeg med at anvende og lære en masse om generativ AI. Abundly.ai voksede, vi arbejdede med en masse interessante kunder og udviklede vores agentplatform{i: "agentplatform"}. Jeg havde mange nye interessante historier, tips, eksempler og indsigter at dele ud af. Så jeg besluttede, at jeg gerne ville skrive en bog baseret på videoen, men med mere indhold.
 
-Grundidéen var at følge samme struktur som i videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold til hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, tips til prompt engineering{i: "prompt engineering tips"}, en guide til transformation osv. Og bare tage alt det materiale, der allerede fyldte i hovedet eller fandtes i forskellige artikler og præsentationer.
+Grundidéen var at følge samme struktur som i videoen, med stort set de samme tegninger. Men jeg ville tilføje mere indhold til hver sektion og også tilføje en del 2 med mere avancerede emner som specifikke casestudier, tips til prompt engineering{i: "prompt engineering tips"}, en guide til AI-transformation osv. Og bare tage alt det materiale, der allerede fyldte i hovedet eller fandtes i forskellige artikler og præsentationer.
 
 Fordi dette område udvikler sig så hurtigt, ville jeg ikke bruge for meget tid på denne bog. Jeg ville ikke bruge 6 måneder på at skrive en bog, der allerede ville være forældet, når den blev udgivet.
 
