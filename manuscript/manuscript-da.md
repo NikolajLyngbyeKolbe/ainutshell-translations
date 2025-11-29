@@ -2497,7 +2497,7 @@ Hvis chathistorikken er ret kort, er der intet at bekymre sig om. Alt passer fin
 
 Men hvad nu hvis din chathistorik bliver så lang, at den ikke kan passe ind i kontekstvinduet?
 
-{width: "50%", alt: "Et diagram der illustrerer en lang chathistorik med flere beskeder stablet vertikalt. Den øverste sektion, markeret med pink, indikerer 'Ældre beskeder kan ikke være der!' da de strækker sig ud over en stiplet rød kontur mærket 'Kontekstvindue.' Resten af beskederne passer inden for dette kontekstvindue, hvilket fremhæver en begrænsning i at gemme ældre beskeder."}
+{width: "50%", alt: "Et diagram der illustrerer en lang chathistorik med flere beskeder stablet vertikalt. Den øverste sektion, markeret med rød, indikerer 'Ikke nok plads til ældre beskeder!' da de strækker sig ud over en stiplet rød kontur mærket 'Kontekstvindue.' Resten af beskederne passer inden for dette kontekstvindue, hvilket fremhæver en begrænsning i at gemme ældre beskeder."}
 ![](resources-da/460-long-chat-history-da.png)
 
 Noget må vige pladsen! Appen vil gøre noget finurligt for at komme uden om problemet, og det vil ofte ske i det skjulte. Præcis hvad der sker, afhænger af hvilken app du bruger, men nogle almindelige tilgange er:
@@ -2505,7 +2505,7 @@ Noget må vige pladsen! Appen vil gøre noget finurligt for at komme uden om pro
 - **Afkortning** - de ældre beskeder bliver simpelthen ignoreret. Det betyder, at den fuldstændig glemmer dem. Av!
 - **Opsummering** - appen opsummerer ældre beskeder i baggrunden. Det betyder, at den vil huske nogenlunde, hvad I talte om, men miste nogle detaljer. Dette virker ofte lidt bedre. Det minder også om det, vi mennesker gør, når samtaler bliver lange.
 
-{alt: "Et diagram der sammenligner to metoder, med titlen 'Metode 1: Afkortning' og 'Metode 2: Opsummering.' Til venstre er tekstblokke krydset ud, hvilket indikerer afkortning. Til højre fører tekstblokke til en sky mærket 'Opsummering,' med en pil og noten 'Auto-opsummerer i baggrunden.' Begge metoder er fremhævet med stiplede røde linjer."}
+{alt: "Et diagram der sammenligner to metoder, med titlen 'Metode 1: Afkortning' og 'Metode 2: Opsummering.' Til venstre er tekstblokke krydset ud, hvilket indikerer afkortning. Til højre fører tekstblokke til en sky mærket 'Opsummering,' med en pil og noten 'Automatisk opsummering i baggrunden.' Begge metoder er fremhævet med stiplede røde linjer for at vise størrelsen på kontekstvinduet."}
 ![](resources-da/460-truncation-summarization-da.png)
 
 Der findes også andre teknikker, men på den ene eller anden måde vil **information gå tabt**.
@@ -2555,7 +2555,7 @@ At håndtere prompt-størrelse er en balancegang. Lad os sige, du står over for
 - Hvis du inkluderer for lidt kontekst, har LLM'en måske ikke nok information til at give dig et godt svar, eller den kan lave fejlagtige antagelser{i: "fejlagtige antagelser"}.
 - Hvis du inkluderer for meget kontekst, kan LLM'en have svært ved at skelne mellem de vigtige dele og de mindre vigtige dele.
 
-![En tegning af en balancevægt med en robot i centrum mærket "Balance! Lige tilpas information" i grønt. På venstre side står der med rød tekst "For lidt information = AI laver antagelser." På højre side står der også med rødt "For meget information = AI bliver forvirret = AI overser vigtige detaljer."](resources-da/460-information-balance-da.png)
+![En tegning af en balancevægt med en robot i centrum mærket "Balance! Passende mængde information" i grønt. På venstre side står der med rød tekst "For lidt information = AI'en laver antagelser." På højre side står der også med rødt "For meget information = AI'en bliver forvirret = AI overser vigtige detaljer."](resources-da/460-information-balance-da.png)
 
 
 
@@ -2580,7 +2580,7 @@ Der er to grundlæggende tilgange til iteration:
 
 Dette er den mest naturlige tilgang for de fleste{i: "tilføjelse af nye prompts"}. Grundlæggende set, tilføjer du en ny prompt til chattråden, hvis du ikke er tilfreds med dit første resultat. Her giver du mere kontekst, beskriver hvad du ønsker, eller hvorfor du ikke var tilfreds med det første resultat. Derefter fortsætter du med dette, indtil du får det, du ønsker. Det bliver således som en samtale, hvor du giver feedback for at forbedre resultatet.
 
-{width: "30%", alt: "Et flowchart der viser en proces med fire trin: 'Prompt' der fører til 'Svar,' efterfulgt af 'Opfølgende prompt,' og afsluttes med 'Bedre Svar.' Hvert trin er illustreret med en håndskrevet tekstblok forbundet med pile."}
+{width: "30%", alt: "Et flowchart der viser en proces med fire trin: 'Prompt' der fører til 'Svar,' efterfulgt af 'Opfølgende prompt,' og afsluttes med 'Forbedret sSvar.' Hvert trin er illustreret med en håndskrevet tekstblok forbundet med pile."}
 ![](resources-da/460-prompt-iterating-1-da.png)
 
 At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intuitivt, og du får også en fin log over hele din chattråd{i: "chatlog"}.
@@ -2589,7 +2589,7 @@ At tilføje nye prompts er en god standardtilgang, da det er ret enkelt og intui
 
 Den anden måde er at redigere en tidligere prompt{i: "redigering af tidligere prompts"}, hvilket i praksis skaber en ny forgrening i dit samtaletræ og fjerner den gamle gren. Det er lidt ligesom at trykke på "Fortryd" og sige: "Hej, ignorer min tidligere prompt, og lad os forestille os, at jeg skrev det sådan her i stedet".
 
-{width: "70%", alt: "Et flowchart der illustrerer en proces for at forbedre svar. Det begynder med et 'Prompt,' der fører til et 'Svar.' Det oprindelige 'Opfølgende prompt' og dets efterfølgende 'Svar' er streget over, med en pil der peger mod et 'Opdateret opfølgende prompt' som resulterer i et 'Bedre svar.'"}
+{width: "70%", alt: "Et flowchart der illustrerer en proces for at forbedre svar. Det begynder med et 'Prompt,' der fører til et 'Svar.' Det oprindelige 'Opfølgende prompt' og dets efterfølgende 'Forbedret svar' er streget over, med en pil der peger mod et 'Opdateret opfølgende prompt' som resulterer i et 'Forbedret svar.'"}
 ![](resources-da/460-prompt-iterating-2-da.png)
 
 Begge teknikker er meget brugbare. Så hvordan ved du, hvornår du skal bruge hvilken teknik?
@@ -2613,7 +2613,7 @@ Så foreslår den nogle muligheder, og lad os sige, at jeg er mest interesseret 
 
 Min chathistorik vil se nogenlunde sådan her ud:
 
-{width: "30%", alt: "Et simpelt flowchart bestående af fire rektangulære bokse med pile der forbinder dem vertikalt. Den første boks indeholder 'Giv mig muligheder for en teamudflugt...' Den anden boks oplister muligheder: 'Escape room, Parkour, Faldskærmsudspring, ...' Den tredje boks foreslår 'Hvad med faldskærmsudspring?' Den sidste boks indeholder teksten '(diskussion om faldskærmsudspring).'"}
+{width: "30%", alt: "Et simpelt flowchart bestående af fire rektangulære bokse med pile der forbinder dem vertikalt. Den første boks indeholder 'Giv mig muligheder for en teamudflugt...' Den anden boks oplister muligheder: 'Escape room, Faldskærmsudspring, ...' Den tredje boks foreslår 'Hvad med faldskærmsudspring?' Den sidste boks indeholder teksten '(diskussion om faldskærmsudspring).'"}
 ![](resources-da/460-offsite-1-da.png)
 
 Lad os nu sige, at jeg skifter mening. Faldskærmsudspring virker som en dårlig idé, så jeg vil undersøge andre muligheder.
@@ -2631,7 +2631,7 @@ Dette er en oplagt mulighed for prompt-redigering{i: "prompt-redigering"}. I ste
 
 I dette tilfælde ændrer jeg min tidligere prompt fra: "Hvad med faldskærmsudspring?" til: "Hvad med escape rooms?".
 
-{width: "80%", alt: "Et flowdiagram der viser muligheder for en teamudflugt. Mulighederne inkluderer escape room, parkour og faldskærmsudspring. Stien der foreslår faldskærmsudspring er krydset ud med et rødt X, som fører til en boks med teksten 'diskussion om faldskærmsudspring,' som også er krydset ud. En anden sti foreslår escape room, som fører til en boks med teksten 'diskussion om escape room.' Escape room-diskussionsstien er fremhævet med en grøn kontur."}
+{width: "80%", alt: "Et flowdiagram der viser muligheder for en teamudflugt. Mulighederne inkluderer escape room og faldskærmsudspring. Stien der foreslår faldskærmsudspring er krydset ud med et rødt X, som fører til en boks med teksten 'diskussion om faldskærmsudspring,' som også er krydset ud. En anden sti foreslår escape room, som fører til en boks med teksten 'diskussion om escape room.' Escape room-diskussionsstien er fremhævet med en grøn kontur."}
 ![](resources-da/460-conversation-tree-da.png)
 
 Den grønne cirkel viser chathistorikken fra LLM'ens{i: "LLM"} perspektiv. Den ser en kort, fokuseret samtale, hvor vi oplistede nogle muligheder og derefter fokuserede på escape rooms. Den ser ikke den første forgrening, hvor vi diskuterede faldskærmsudspring.
@@ -2729,14 +2729,14 @@ Som jeg har nævnt, kan LLM'er godt lide at give hurtige svar. Men nogle gange e
 
 Her er et eksempel, der bruger teamudflugten fra tidligere:
 
-{width: "70%", alt: "Flowdiagram der viser en planlægningsproces for et team offsite. Det begynder med en anmodning om overordnede idéer, efterfulgt af diskussion og iteration. Dernæst er der præference for et eventyr og udendørs retreat, hvilket fører til en anmodning om flere forslag. Efter yderligere diskussion og iteration vælges det tredje forslag, og der anmodes om en detaljeret dagsorden. Endelig, efter mere diskussion, opsummeres hele planen, inklusive den oprindelige kontekst."}
+{width: "70%", alt: "Flowdiagram der viser en planlægningsproces for en teamudflugt. Det begynder med en anmodning om overordnede idéer, efterfulgt af diskussion og iteration. Dernæst er der præference for et forslag om en tur ud i naturen, hvilket fører til en anmodning om flere forslag. Efter yderligere diskussion og iteration vælges det tredje forslag, og der anmodes om en detaljeret agenda. Endelig, efter mere diskussion, opsummeres hele planen, inklusive den oprindelige kontekst."}
 ![](resources-da/460-start-high-level-da.png)
 
 Så vi starter med at diskutere overordnede muligheder{i: "overordnede muligheder"}, og begynder derefter at bore ned i detaljerne. Og til sidst beder vi den om at opsummere planen.
 
 Denne opsummering kan derefter bruges som udgangspunkt for flere afledte samtaler{i: "afledte samtaler"}, hver med forskelligt fokus. For eksempel en logistikplan, et invitationsbrev til deltagerne og en præsentation til chefen.
 
-{alt: "Flowdiagram der viser planlægningsprocessen for et team offsite. Hovedidéen er øverst: 'Vi planlægger et team offsite. Her er konteksten & planen: <opsummering>.' Nedenunder forgrener tre opgaver sig: 'Lav en logistikplan for det,' 'Skriv invitationsbrevet til deltagerne,' og 'Skriv en præsentation til min chef.'"}
+{alt: "Flowdiagram der viser planlægningsprocessen for et team offsite. Hovedidéen er øverst: 'Vi planlægger en team udflugt. Her er konteksten & planen: <opsummering>.' Nedenunder forgrener tre opgaver sig: 'Lav en logistik-plan for det,' 'Skriv en invitation til deltagerne,' og 'Lav en præsentation til min chef.'"}
 ![](resources-da/460-drilldown-da.png)
 
 
@@ -2782,14 +2782,14 @@ Hvad er prompt-generering, og hvad har det med vrede bedstemødre{i: "vrede beds
 
 På min Discord-server{i: "Discord"} legede mine venner med Egbert og brugte ham til at generere "Vred bedstemor"-billeder. Spørg mig ikke hvorfor. Det startede med, at min fætter bad om et "billede af en sød ældre dame der smiler", og så udviklede det sig gradvist til "gør hende vred", og så "Gør hende endnu vredere. Hun er RASENDE!", og så videre. Det endte med at blive lidt af en konkurrence.
 
-{alt: "Billedet viser to ældre kvinder, der udtrykker vrede. Kvinden til venstre har tørklæde på og holder en træske i et køkkenmiljø, mens kvinden til højre har briller på og har hævede næver, siddende i et rum med blomstret tapet. Begge har livlige ansigtsudtryk."}
+{alt: "Billedet viser to ældre kvinder, der udtrykker vrede. Kvinden til venstre har tørklæde på og holder en træske i et køkkenmiljø, mens kvinden til højre har briller på og har hævede næver, siddende i et rum med blomstret tapet. Begge har livlige ansigtsudtryk og ser vrede ud."}
 ![](resources-da/310-grandma-1-da.jpg)
 
 I dette tilfælde var Egbert{i: "Egbert"} virkelig bare en tynd grænseflade mellem min Discord{i: "Discord"}-server og DALL-E{i: "DALL-E"}, OpenAIs{i: "OpenAI"} billedgenereringsmodel. Det er den samme model som ChatGPT{i: "ChatGPT"} bruger, når du beder den om at generere et billede.
 
 
 
-{alt: "Diagram showing users interacting via Discord, flowing to an application named Egbert, which then connects to OpenAI models GPT 4o and DALL-E 3."}
+{alt: "Diagram der viser at brugere forbinde til Discord, som igen er forbundet til Egboard, som er forbundet til OpenAI modellerne GPT 4o og DALL-E 3."}
 ![](resources-da/310-egbert-discord-da.png)
 
 Jeg kunne ikke modstå fristelsen til at melde mig ind i kampen, så jeg skrev denne prompt:
@@ -2842,7 +2842,7 @@ Nå, men angående prompt-generering. Nogle AI-klienter gør dette automatisk i 
 
 Jeg fik dette:
 
-{width: "50%", alt: "En tegneseriefugl iført en rød hue spiller muntert på klaveret, med musiknoder svævende i luften omkring den. Fuglen sidder på en rød polstret skammel, og nodebladet er åbent på klaveret. Baggrunden har subtile vertikale linjer."}
+{width: "50%", alt: "En tegneseriefugl iført en rød hue spiller muntert på klaveret, med musiknoder svævende i luften omkring den. Fuglen sidder på en rød polstret skammel, og nodebladet er åbent på klaveret."}
 ![](resources-da/310-bird-da.jpg)
 
 Men her er den faktiske prompt, der blev brugt til at generere det (du kan se det ved at klikke på billedet):
@@ -2881,7 +2881,7 @@ BEMÆRK: Hvis du ikke har planer om at udvikle dine egne AI-drevne apps, kan du 
 
 ## RAG i en nøddeskal
 
-{alt: "Flowchart-diagram der viser en proces med en bruger, en app, et datalager og en large language model (LLM). Brugeren sender en besked til applikationen, som henter relevante data fra datalagreret. App'en kombinerer dataene og brugerens besked som en prompt til LLM'en, som genererer et svar der sendes tilbage til applikationen og derefter til brugeren."}
+{alt: "Flowchart-diagram der viser en proces med en bruger, en app, en data-kilde og en large language model (LLM). Brugeren sender en besked til applikationen, som henter relevante data fra data-kilden. App'en kombinerer dataene og brugerens besked som en prompt til LLM'en, som genererer et svar der sendes tilbage til app'en og derefter til brugeren."}
 ![](resources-da/475-rag-overview-da.png)
 
 1. Brugeren skriver en besked.
@@ -2909,7 +2909,7 @@ Lad os tage et andet eksempel: "For dælen, jeg har glemt mit kodeord igen!". Hv
 
 Hvis vores app henter denne information og udvider prompten, så har LLM'en alt, hvad den behøver for at generere et nyttigt svar, målrettet specifikt til denne kunde.
 
-{alt: "Billedet viser et flowdiagram over en kundesupportinteraktion. Til venstre, under 'Brugerbesked,' er der en gul boks med teksten 'For pokker, jeg har glemt mit kodeord igen!' I midten, under 'Retrieval-augmenteret brugerbesked,' er der en rød-omrandet boks med detaljer til en chatbot: den er fra XYZ corp, svarer høfligt men humoristisk, og inkluderer pladsholdertekst for kundedata og FAQ-opslag. Til højre, under 'LLM-svar,' er der en orange boks med teksten 'Åh nej, ikke igen! Skal jeg sende password-reset linket til din sædvanlige e-mailadresse?'"}
+{alt: "Billedet viser et flowdiagram over en kundesupport-interaktion. Til venstre, under 'Brugerbesked,' er der en gul boks med teksten 'For pokker, jeg har glemt mit kodeord igen!' I midten, under 'Retrieval-augmenteret brugerbesked,' er der en boks med detaljer til en chatbot: den er fra firmaet XYZ, svarer høfligt men humoristisk, og inkluderer plads til at indsætte kundedata og FAQ-opslag. Til højre, under 'LLM svar,' er der en boks med teksten 'Åh nej, ikke igen! Skal jeg sende linket til nulstilling af kodeord til din sædvanlige emailadresse?'"}
 ![](resources-da/475-rag-example-da.png)
 
 Se på LLM-svaret i dette eksempel. Det er kort, men meget præcist.
@@ -2946,14 +2946,14 @@ Funktionskald{i: "funktionskald"} er en teknik, hvor LLM'en kan bede din app om 
 
 Lad os tage Einstein-eksemplet. Hans viden er omfattende, men han sidder fast i kælderen uden direkte adgang til internet eller andre værktøjer. Så hvad nu, hvis du giver ham en forskningsopgave, og den kræver adgang til nettet? Tja, du kan tilbyde at lave websøgninger for ham. Du kan være hans assistent, og han kan prompte dig, når han har brug for at slå noget op. Så du prompter ham til at løse et problem, og han prompter dig, når han har brug for at slå ting op. Et fint samarbejde!
 
-{width: "70%", alt: "En tegneseriefigur med vildt hvidt hår sidder på en pink stol under en lampe. En anden simpel figur står i nærheden med en taleboble, hvor der står: 'Hey Einstein, løs venligst X. Hvis du har brug for at google noget som en del af dette, så sig til, og jeg vil gøre det for dig.'"}
+{width: "70%", alt: "En tegneseriefigur med vildt hvidt hår sidder på en pink stol under en lampe. En anden simpel figur står i nærheden med en taleboble, hvor der står: 'Hej Einstein, jeg vil gerne have dig til at løse problem X. Hvis du har brug for at google noget for at løse det, så bare sig til, og så googler jeg det for dig.'"}
 ![](resources-da/475-einstein-function-calling-da.png)
 
 
 
 Herunder kan ses, hvordan det ser ud i praksis, når en bruger interagerer med din app, og din app interagerer med LLM'en via funktionskald.
 
-{alt: "Et flowchart der illustrerer en proces hvor en bruger spørger, "Hvad koster en brødrister?" til en applikation (App). Appen henter produktinformation fra en database (DB) ved hjælp af et funktionskald, getProductInfo("toaster"). Applikationen sender derefter informationen til en stor sprogmodel (LLM), som returnerer svaret, "Brødristere koster €12." Svaret sendes tilbage til brugeren."}
+{alt: "Et flowchart der illustrerer en proces hvor en bruger spørger, "Hvad koster en brødrister?" til en applikation (App). Appen henter produktinformation fra en database (DB) ved hjælp af et funktionskald, henkProduktInfo("toaster"). Applikationen sender derefter informationen til en stor sprogmodel (LLM), som returnerer svaret, "Brødristeren koster 199 DKK." Svaret sendes tilbage til brugeren."}
 ![](resources-da/475-toaster-da.png)
 
 1. Bruger spørger: "Hvad koster en brødrister?"{i: "brødrister-pris"}
@@ -2989,7 +2989,7 @@ Lad os lave et simpelt eksempel med kun to dimensioner: Følelses-påvirkning og
 
 Hvis vi behandler disse som koordinater (eller en vektor) i et todimensionelt rum, kan vi plotte dem sådan her:
 
-{alt: "Et diagram med to akser: "Madsværhedsgrad" på den vertikale og "Følelsesmæssighed" på den horisontale, begge rangerende fra -1.0 til 1.0. Diagrammet indeholder seks udsagn placeret på forskellige positioner. "En ny restaurant har åbnet," "Jeg er sulten," og "Jeg ELSKER is!" er placeret i topområdet, hvilket indikerer høj madsværhedsgrad. "Jeg har brug for en sundere livsstil" og "Dette eksempel er dårligt" er i midterområdet, som viser moderat følelsesmæssighed. "Bilen er blå" er i bunden til venstre, hvilket indikerer lav følelsesmæssighed og madsværhedsgrad."}
+{alt: "Et diagram med to akser: "Mad-relation" på den vertikale og "Følelses-påvirkning" på den horisontale, begge rangerende fra -1.0 til 1.0. Diagrammet indeholder seks udsagn placeret på forskellige positioner. "En ny restaurant er åbnet," "Jeg er sulten," og "Jeg ELSKER is!" er placeret i topområdet, hvilket indikerer høj mad-relation. "Jeg har brug for en sundere livsstil" og "Dette eksempel er et dumt eksempel" er i midterområdet, som viser moderat følelses-påvirkning. "Bilen er blå" er i bunden til venstre, hvilket indikerer lav følelses-påvirkning og mad-relation."}
 ![](resources-da/475-embeddings-graph-da.png)
 
 Nu kan vi lave en semantisk sammenligning ved bare at sammenligne afstanden mellem vektorerne. For eksempel er sætningen "Jeg er sulten" tæt på "Jeg ELSKER is!", men langt fra "Bilen er blå".
@@ -2998,7 +2998,7 @@ Dette giver en beregningsmæssigt effektiv måde at finde relateret tekst.
 
 Her er et eksempel fra det virkelige liv. Jeg tog sætningerne "Katte er søde"{i: "Katte er søde"}, "Hvem har stjålet min brødrister"{i: "Hvem har stjålet min brødrister"} og "Jeg er sulten", og konverterede hver af dem til en vektor-embedding ved hjælp af OpenAI embeddings-API'et{i: "OpenAI embeddings API"}. Det resulterer i en liste på omkring 1500 tal pr. sætning.
 
-{alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller indlejringer for hver sætning, med en bemærkning der indikerer "1436 flere elementer" i bunden af hver liste."}
+{alt: "Billedet består af tre paneler, hver med sorte baggrunde og lister af tal i orange tekst. Over hvert panel er der en forskellig sætning skrevet med en afslappet sort skrifttype. Sætningerne er: "Katte er søde," "Hvem har stjålet min brødrister?" og "Jeg er sulten." Hvert panel viser forskellige numeriske arrays, der antyder forskellige data eller indlejringer for hver sætning."}
 ![](resources-da/475-embeddings-da.png)
 
 Disse tal opnås ved hjælp af en indlejringsmodel{i: "indlejringsmodel"}, som er en specialiseret model trænet på store mængder tekstdata. Modellen lærer at kortlægge ord, sætninger eller endda hele dokumenter til vektorer på en sådan måde, at lignende tekster har lignende vektorer.
@@ -3034,7 +3034,7 @@ Lad os sige, vi har hundredvis af FAQ-elementer{i: "FAQ-elementer"}, som vi øns
 
 Når en kundeforespørgsel kommer ind, gør vores applikation følgende:
 
-{alt: "Diagram der viser en arbejdsgang mellem en bruger, en applikation og to modeller: en embeddings-model og en stor sprogmodel (LLM). Processen involverer brugeren der sender en besked til applikationen. Applikationen beregner embeddings, finder de nærmeste indgange i en vektordatabase og sender derefter beskeden sammen med yderligere data til LLM'en for at få et svar, som til sidst sendes tilbage til brugeren. Trinene er nummereret fra 1 til 5."}
+{alt: "Diagram der viser en arbejdsgang mellem en bruger, en app og to modeller: en embeddings-model og en stor sprogmodel (LLM). Processen involverer brugeren der sender en besked til app'en. App'en beregner embeddings, finder de nærmeste indgange i en vektordatabase og sender derefter beskeden sammen med yderligere data til LLM'en for at få et svar, som til sidst sendes tilbage til brugeren."}
 ![](resources-da/475-rag-with-embeddings-da.png)
 
 1. Brugeren sender en forespørgsel, såsom: "Mit produkt var beskadiget, hvordan får jeg det refunderet?".
@@ -3049,7 +3049,7 @@ De tre tilgange kombineres ofte{i: "kombinerede tilgange"} på tværs, da hver a
 
 Her er et eksempel:
 
-{alt: "Diagram der viser en brugerbesked: "Dammit I lost my password again!" efterfulgt af et retrieval-augmented svar. Svaret inkluderer: en fast prompt til en kundeservice-chatbot der arbejder for en online boghandel, SQL-søgeresultater med relevante kundedata, en vektorsøgning med relevante FAQ-indgange og den oprindelige brugerinput. Etiketter indikerer hver del af svaret."}
+{alt: "Diagram der viser en brugerbesked: "For dælen, jeg har glemt mit kodeord igen!" efterfulgt af et RAG-udvidet svar. Svaret inkluderer: en fast prompt til en kundeservice-chatbot, SQL-søgeresultater med relevante kundedata, en vektorsøgning med relevante FAQ-elementer og det oprindelige brugerinput. Etiketter indikerer hver del af svaret."}
 ![](resources-da/475-rag-combined-da.png)
 
 - Den første del "Du er en kundeservice-chatbot..." er en fast del, der er hardcodet og inkluderet i alle forespørgsler.
@@ -3074,7 +3074,7 @@ Hvad hvis vi giver LLM'en en opretFunktion-funktion?
 
 Vi giver den kun et enkelt værktøj - et meta-værktøj, som den kan bruge til dynamisk at generere hvilke som helst andre værktøjer, den har brug for! Wow!
 
-{alt: "Et diagram der viser en interaktion mellem en bruger, en app og en LLM (stor sprogmodel). Brugeren sender et prompt til appen, som derefter videresender det til LLM'en. Appen stiller også en tilgængelig funktion, "createFunction(name, code)," til rådighed for opgaver som LLM'en ikke kan udføre selvstændigt. En taleboble fra appen informerer LLM'en om denne funktion."}
+{alt: "Et diagram der viser en interaktion mellem en bruger, en app og en LLM (stor sprogmodel). Brugeren sender et prompt til appen, som derefter videresender det til LLM'en. Appen stiller også en tilgængelig funktion, "opretFunktion(navn, kode)," til rådighed for opgaver som LLM'en ikke kan udføre selvstændigt. En taleboble fra appen informerer LLM'en om denne funktion."}
 ![](resources-da/475-createfunction-function-da.png)
 
 Mine tanker var således:
@@ -3089,7 +3089,7 @@ Så LLM'en får adgang til en opretFunktion-funktion{i: "opretFunktion-funktion"
 
 Her er et eksempel:
 
-{alt: "Diagram der viser en trin-for-trin proces af en app, der håndterer en vejrforespørgsel ved hjælp af en sprogmodel (LLM). En bruger spørger om vejret i Stockholm, hvilket udløser en funktionsoprettelse i appen. Appen gemmer og kører den genererede kode for at tjekke vejret, kalder en funktion med Stockholm som parameter, henter vejrdata ('Det er solskin i Stockholm') og præsenterer resultatet tilbage til brugeren. Elementerne omfatter appen, gemt kode, LLM-sky, bruger og flowpile der indikerer processens trin."}
+{alt: "Diagram der viser en trin-for-trin proces af en app, der håndterer en vejrforespørgsel ved hjælp af en sprogmodel (LLM). En bruger spørger om vejret i Stockholm, hvilket udløser en funktionsoprettelse i appen. Appen gemmer og kører den genererede kode for at tjekke vejret, kalder en funktion med Stockholm som parameter, henter vejrdata ('Det bliver solrigt i Stockholm i dag') og præsenterer resultatet tilbage til brugeren. Elementerne omfatter appen, gemt kode, LLM-sky, bruger og flowpile der indikerer processens trin."}
 ![](resources-da/475-createfunction-function2-da.png)
 
 I dette eksempel genererer den dynamisk en findVejrudsigt funktion{i: "findVejrudsigt funktion"}, som søger på internettet for at tjekke vejrudsigten.
@@ -3121,7 +3121,7 @@ Jeg kunne slet ikke tro det og spekulerede på, om den mon hallucinerede. Men je
 
 
 
-{alt: "Screenshot of a GitHub repository page for "test-project" by user "hkniberg." The image shows a commit with the message "Changed output to 'Life is interesting'" made on September 3, 2023. The commit ID is 63213fc, and it is displayed under the "Commits" section."}
+{alt: "Skærmbillede af en GitHub repository side for "test-project" fra brugeren "hkniberg." Billedet viser et commit med beskeden "Changed output to 'Livet er interessant'"."}
 ![](resources-da/475-commit-da.png)
 
 Jeg var forbløffet over, at den automatisk kunne skrive og køre al den kode, der var nødvendig for at løse opgaven, uden nogen vejledning fra mig. Og dette var med GPT-4-modellen i september 2023{i: "GPT-4"}, som er underlegen i forhold til de modeller, vi har i dag.
@@ -3134,7 +3134,7 @@ Det første AI-drevne produkt, jeg udviklede, var en chatbot-platform{i: "chatbo
 
 For at gøre det ekstra sjovt ville jeg give Egbert hukommelse{i: "Egbert hukommelse"}, så han ville huske ting, der sker på serveren. Et perfekt tilfælde for RAG{i: "Retrieval Augmented Generation (RAG)"}. Jeg endte med at bruge embeddings{i: "embeddings"} og en vektordatabase{i: "vektordatabase"}, som beskrevet i tilgang 3{i: "tilgang 3"} ovenover. Men i stedet for at gemme FAQ-elementer til en kundeservice-bot, gemmer vi Egberts minder. Platformen giver mulighed for flere chatbots, og hver chatbot har sine egne minder.
 
-{width: "70%", alt: "En tegneseriefigur med en stor næse og rødt hår er tegnet ved siden af en liste med titlen "Memories." Listen indeholder tre punkter: "Helle built the castle across the lake," "Framistan goes on long journeys and dies a lot," og "Build large contraptions near each other causes lag." Der er yderligere pladsholderbokse med ellipser."}
+{width: "70%", alt: "Egbert er tegnet ved siden af en liste med titlen "Minder." Listen indeholder tre punkter: "Helle byggede slottet på den anden side af søen". "Framistan kan lide at tage på lange rejser og dør ofte på dem" og "Store konstruktioner tæt på hinanden giver performance-problemer." Der er yderligere pladsholderbokse med ellipser."}
 ![](resources-da/475-egbert-memories-da.png)
 
 Der er to nøgleprocesser her:
@@ -3173,7 +3173,7 @@ Gennem magien med embeddings kan Egbert have en masse minder og stadig generere 
 
 Dette billede opsummerer processen:
 
-{alt: "Diagram der illustrerer en proces med seks trin. Trin 1: Bruger spørger Egbert om fede steder at besøge på en server. Trin 2: Appen beregner en indlejring for brugerens besked. Trin 3: Den slår relaterede minder op i en Vector DB. Trin 4: Appen henter og viser relevante minder, såsom 'Helle byggede slottet på den anden side af søen.' Trin 5: Appen sender forespørgsel til LLM'en (stort sprogmodel). Trin 6: Brugeren modtager forslaget, 'Hvad med Helles slot på den anden side af søen?'"}
+{alt: "Diagram der illustrerer en proces med seks trin. Trin 1: Bruger spørger Egbert om fede steder at besøge på en server. Trin 2: Appen udregner en embedding for brugerens besked. Trin 3: Den slår relaterede minder op i en vektordatabase. Trin 4: Appen henter og viser relevante minder, såsom 'Helle byggede slottet på den anden side af søen.' Trin 5: Appen sender forespørgsel til LLM'en. Trin 6: Brugeren modtager forslaget, 'Hvad med Helles slot på den anden side af søen?'"}
 ![](resources-da/475-memory-recall-da.png)
 
 Dette er en ret simpel tilgang set fra et programmeringsperspektiv{i: "programmeringsperspektiv"}. Det tunge arbejde udføres af LLM'en og vektordatabasen, og applikationen skal bare videreformidle beskederne frem og tilbage.
@@ -3306,7 +3306,7 @@ Så hver gang jeg ser en form for mad eller ingrediensliste, som jeg er nysgerri
 
 For eksempel gav jeg hende dette billede:
 
-{width: "60%", alt: "En tallerken med en portion salat, skiveskåret kød, pasta og et spejlæg. Salaten indeholder salat, agurk, cherrytomater og er dryppet med balsamico glace. Pastaen er fusilli, og kødet ser ud til at være skiveskåret pølse. Spejlægget er stegt med blommen opad og er let sprød i kanterne."}
+{width: "60%", alt: "En tallerken med en portion salat, skiveskåret kød, pasta og et spejlæg."}
 ![](resources-da/235-meal-1-da.jpg)
 
 Svaret var:
@@ -3323,24 +3323,24 @@ Mit mål var at finde mad, som jeg elsker at spise, og som også får en høj be
 
 Hendes kommentar:
 
-{alt: "Billedet indeholder en ernæringsanalyse af et måltid med knækbrød toppet med avocado{i: "avocado"}, cherrytomater, forårsløg, sesamfrø{i: "sesame seeds"} og muligvis et spread. Hovedpunkterne omfatter lavt natriumindhold i knækbrød, sunde fedtstoffer og højt kaliumindhold i avocado, lavt kalorieindhold i cherrytomater{i: "cherry tomatoes"} og forårsløg, samt sunde fedtstoffer{i: "healthy fats"} i sesamfrø. Måltidet er vurderet til 7/10 for sunde fedtstoffer og fibre, men kræver moderering af kaliumindholdet."}
+{alt: "Billedet indeholder en måltidsanalyse af måltidet. Måltidet er vurderet til 7/10 for sunde fedtstoffer og fibre, men skal indtages i passende mængder pga. kaliumindholdet."}
 ![](resources-da/235-meal-2-response-da.png)
 
 7/10{i: "vurderingsskala"}! Ikke perfekt, men godt nok.
 
 På et tidspunkt var jeg i et supermarked, og jeg var nysgerrig omkring makaroni kontra bulgur:
 
-{alt: "Sammenligning af makaroni{i: "macaroni"} og bulgur{i: "bulgur"}, med fordele, ulemper og vurderinger. Makaronis fordele inkluderer lavt natriumindhold{i: "low sodium"} og nem tilberedning; ulemper er moderat glykæmisk indeks og lavt fiberindhold{i: "low fiber"} medmindre det er fuldkorn, vurderet til 5/10. Bulgurs fordele er højt fiberindhold{i: "high fiber"}, lavere glykæmisk indeks og rige næringsstoffer{i: "rich nutrients"}; ulemper inkluderer højere kalium{i: "potassium"} og fosfor{i: "phosphorus"}, vurderet til 8/10. Bulgur anbefales for nyresundhed og blodtrykskontrol{i: "blood pressure management"}."}
+{alt: "Sammenligning af makroni{i: "makaroni"} og bulgur{i: "bulgur"}, med fordele, ulemper og vurderinger. Makaronis fordele vurderes til 5/10. Bulgur vurderes til 8/10. Bulgur anbefales for nyresundhed og blodtrykshåndtering{i: "blood pressure management"}."}
 ![](resources-da/235-macaroni-vs-bulgur-da.png)
 
 Interessant! Så nu er bulgur mit standardvalg for kulhydrater{i: "kulhydrater"}. Før plejede det at være ris eller pasta. Men denne ændring føles ikke som et stort offer fra min side.
 
 Hvad med en snack?
 
-{width: "60%", alt: "En træoverflade viser tre ting: en rød pose Estrella Grill chips, en rød pakke Maryland cookies og en enkelt nektarin{i: "nectarine"}."}
+{width: "60%", alt: "Fotoet viser tre ting: en rød pose Estrella Grill chips, en rød pakke Maryland cookies og en enkelt nektarin{i: "nectarine"}."}
 ![](resources-da/235-snacks-da.jpg)
 
-{alt: "Billedet evaluerer tre fødevarer baseret på nyre- og hjertesundhedshensyn. Det vurderer Estrella Grill Chips til 2/10 på grund af højt natriumindhold og usunde fedtstoffer og anbefaler at undgå dem. Maryland Cookies får 3/10 for højt sukkerindhold og lav næringsværdi, med anbefaling om meget begrænset indtag. Nektariner vurderes til 8/10, roses for at være en frugt med lavt natriumindhold, rig på fibre, vitaminer og antioxidanter, med en bemærkning om at være opmærksom på kaliumniveauer. Nektariner anbefales som det bedste valg overordnet."}
+{alt: "Billedet evaluerer de tre fødevarer baseret på nyre- og hjertesundhedshensyn. Det vurderer Estrella Grill Chips til 2/10 på grund af højt natriumindhold og usunde fedtstoffer og anbefaler at undgå dem. Maryland Cookies får 3/10 for højt sukkerindhold og lav næringsværdi, med anbefaling om meget begrænset indtag. Nektariner vurderes til 8/10, roses for at være en frugt med lavt natriumindhold, rig på fibre, vitaminer og antioxidanter, med en bemærkning om at være opmærksom på kaliumniveauer. Nektariner anbefales som det bedste valg overordnet."}
 ![](resources-da/235-snack-response-da.png)
 
 OK, det var ret forudsigeligt. Men det er rart også at lære, HVORFOR noget er godt eller dårligt for mit helbred.
@@ -3351,15 +3351,15 @@ En gang var jeg ude og spise frokost med nogle kollegaer{i: "kollegaer"}. Vi bef
 
 
 
-{alt: "Et billede der viser en tekst med et tomat-ikon. Teksten rådgiver om at vælge et sushi-sted og anbefaler sojasauce med lavt saltindhold, sashimi og vegetarruller for protein af høj kvalitet, mens stegte varianter bør undgås. Den har en bedømmelse på 7 ud af 10."}
+{alt: "En anbefaling om vælge et sushi-sted og der vælge sojasauce med lavt natriumindhold, sashimi og grønstsagsruller for protein af høj kvalitet, mens friterede varianter bør undgås. Den har en bedømmelse på 7 ud af 10."}
 ![](resources-da/235-sushi-da.png)
 
 Her tog jeg et billede af en frugt-yoghurt.
 
-{alt: "Billede af en karton Yoggi original 2% fedtholdig yoghurt med bær afbildet på emballagen. Ved siden af kartonen er en beskrivelse af yoghurten, der fremhæver, at det er en frugtsmagt yoghurt med tilsat sukker, som kan påvirke blodsukkerniveau og vægt. Anbefalingerne omfatter at holde øje med sukkerindholdet og vælge naturel yoghurt med friske bær i stedet. Yoghurten får karakteren 5/10, hvilket antyder, at den er okay med måde."}
+{alt: "Billede af en karton Yoggi original 2% fedtholdig yoghurt med bær afbildet på emballagen. Ved siden af kartonen er en beskrivelse af yoghurten, der fremhæver, at det er en frugtsmagt yoghurt med tilsat sukker, som kan påvirke blodsukkerniveau og vægt. Anbefalingerne omfatter at holde øje med sukkerindholdet og vælge naturel yoghurt med friske bær i stedet. Yoghurten får vurderingen 5/10, hvilket antyder, at den er okay med måde."}
 ![](resources-da/235-yoghurt-da.png)
 
-Hun foreslog, at jeg skiftede til naturel yoghurt og tilføjede frisk frugt i stedet, hvilket jeg gjorde. God idé, hvorfor tænkte jeg ikke selv på det?
+Hun foreslog, at jeg skiftede til naturel yoghurt og tilføjede frisk bær i stedet, hvilket jeg gjorde. God idé, hvorfor tænkte jeg ikke selv på det?
 
 Alt i alt har jeg lært meget. Jeg føler virkelig, at denne app hjælper med at forbedre mit helbred{i: "helbred"}. Det er samtidigt ret sjovt at småsnakke med min lomme-ernæringsekspert.
 
@@ -3424,7 +3424,7 @@ Selvfølgelig var en medvirkende faktor til denne historie, at David sad fast i 
 
 Denne historie illustrerer et mønster, som jeg har set i mange tilfælde: To mennesker + en AI der arbejder sammen som et team, hvor de to mennesker par-prompter AI-modellen.
 
-{width: "60%", alt: "Illustration af et team bestående af en blå figur mærket "Promptingekspert," en grøn figur mærket "Domæneekspert eller kunde," og en robot mærket "AI." De er indrammet i en cirkel med titlen "Team" øverst."}
+{width: "60%", alt: "Illustration af et team bestående af en blå figur mærket "Prompt-ekspert," en grøn figur mærket "Domæneekspert eller kunde," og en robot mærket "AI." De er indrammet i en cirkel med titlen "Team" øverst."}
 ![](resources-da/238-team-da.png)
 
 Rollerne:
@@ -3590,7 +3590,7 @@ Eller overordnede spørgsmål som:
 
 Cursor inkluderer en copilot{i: "copilot"}, som løbende analyserer teksten, mens jeg skriver og redigerer den. Dette kan måske blive lidt meta, men lad mig vise et skærmbillede af hvordan det fungerer:
 
-{alt: "Skærmbillede af en teksteditor der viser markdown-tekst. Overskriften er "Tweaks, typos, formatting." Nedenunder er der et afsnit der nævner en "copilot" som analyserer tekst i realtid. Noget tekst er i kursiv, såsom sætningen "screenshot of it in action.""}
+{alt: "Skærmbillede af en teksteditor der viser markdown-tekst. Overskriften er "Justeringer, stavefejl, formatering." Nedenunder er der et afsnit der nævner en "copilot" som analyserer tekst i realtid. Noget tekst er vist med en anden farve tekst for at vise at dette er et forslag fra AI'en som brugeren kan vælge.""}
 ![](resources-da/240-copilot-da.png)
 
 Kan du se, hvad den gjorde? Se på den grå tekst i slutningen. Jeg skrev: "lad mig vise et skær", og så foreslog den resten af sætningen. Jeg trykkede bare på tab-tasten på keyboardet, og Cursor færdiggjorde så sætningen.
@@ -3614,7 +3614,7 @@ Noget af indholdet i denne bogen er emner, jeg har talt om til præsentationer, 
 
 For eksempel blev denne slide konverteret til afsnittet "Elementer i en god prompt" i kapitlet om prompt engineering.
 
-{alt: "Dette billede har titlen "Elements of a good prompt (in-depth version)" og er opdelt i forskellige sektioner med punktopstillinger. Sektionerne er: Task, Goal/Motive, Role, Format, Background/Context, Communication Style/Target Audience og Examples. Hver sektion giver vejledning om, hvordan man specificerer opgaver, mål, roller, formateringspræferencer, kontekst, kommunikationsstile og eksempler til AI-prompts. Ordet "Iterate!" er fremhævet i midten. Billedet er signeret af Henrik Kniberg."}
+{alt: "Dette billede har titlen "Elementer af en god prompt og er opdelt i forskellige sektioner med punktopstillinger. Billedet er signeret af Henrik Kniberg."}
 ![](resources-da/240-slide-da.png)
 
 > **Prompt**  
@@ -3675,7 +3675,7 @@ BEMÆRK: Disse eksempler er fra november 2024{i: "november 2024"}. AI-værktøje
 
 Lad os sige, at jeg vil lave en to-do liste-app. Jeg har lavet den indledende idégenerering{i: "idégenerering"}, og er endt med en engelsk-sproget skitse på en serviet som denne af en app:
 
-{width: "60%", alt: "En håndtegnet to-do liste på en serviet med tre opgaver: "Vasketøj," "Email," og "Luft hunden," hver med en afkrydsningsboks. Nedenunder er der et afsnit med teksten "new item" og en knap med teksten "Add!""}
+{width: "60%", alt: "En håndtegnet to-do liste på en serviet med tre opgaver skrevet på engelsk," hver med en afkrydsningsboks. Nedenunder er der et afsnit med teksten "new item" og en knap med teksten "Add!""}
 ![](resources-da/260-napkin-sketch-da.jpg)
 
 Hvor lang tid vil det tage at implementere en prototype{i: "prototype"} af dette, som man kan klikke rundt i?
@@ -3692,19 +3692,19 @@ Det var den komplette prompt. Billedet og teksten "Udvikl dette". Faktisk skrev 
 
 Claude begyndte at generere kode, og da den var færdig, afviklede den også koden og viste appen.
 
-{alt: "En serie af tre billeder demonstrerer processen med at skabe en to-do liste-applikation. Det første billede viser en chat-grænseflade med en håndtegnet skitse af en to-do liste, inklusive opgaver som "Vasketøj," "Email," og "Luft hunden." Det andet billede viser en besked, der påpeger oprettelsen af en simpel to-do liste-app ved hjælp af React, baseret på skitsen. Det sidste billede viser et screenshot af den færdige to-do liste-applikation med afkrydsningsfelter ved siden af hver opgave og et design, der matcher skitsen. Pile indikerer progressionen fra den oprindelige idé til den endelige app."}
+{alt: "En serie af tre billeder demonstrerer processen med at skabe en to-do liste-applikation i Claude. Det første billede viser en chat-grænseflade med en håndtegnet skitse af en to-do liste"- Det andet billede viser en besked, der påpeger oprettelsen af en simpel to-do liste-app ved hjælp af React, baseret på skitsen. Det sidste billede viser et screenshot af den færdige to-do liste-applikation med afkrydsningsfelter ved siden af hver opgave og et design, der matcher skitsen. Pile indikerer progressionen fra den oprindelige idé til den endelige app."}
 ![](resources-da/260-claude-da.png)
 
 Det virkede! Jeg kunne se to-dos, krydse to-dos af og tilføje nye to-dos.
 
-{width: "60%", alt: "En to-do liste med tre punkter: "Vasketøj" afkrydset og overstreget, "Email" og "Luft hunden" ikke afkrydset. Nedenunder er der et tekstfelt med teksten "new item" med et tomt felt og en sort "Add" knap."}
+{width: "60%", alt: "En to-do liste med tre opgaver, hvor den ene er afkrydset. Nedenunder er der et tekstfelt med teksten "new item" med et tomt felt og en sort "Add" knap."}
 ![](resources-da/260-iteration-1-da.png)
 
 Samlet tid: 18 sekunder.
 
 Derefter skrev jeg (eller rettere sagde): "Hvad med deadlines". Få sekunder senere havde jeg dette:
 
-{alt: "En to-do liste-grænseflade der viser tre opgaver: "Vasketøj" er afkrydset med en note "Due tomorrow" i blå, "Email" og "Luft hunden" er ikke afkrydset med "Due today" i orange. Nedenunder er der et tekstfelt til at tilføje et nyt punkt og en knap til at indstille en dato, sammen med en kalender der viser november 2024 med den 19. fremhævet."}
+{alt: "En to-do liste-grænseflade der viser tre opgaver, samt deres deadlines. Nedenunder er der et tekstfelt til at tilføje et nyt punkt og en knap til at indstille en dato, sammen med en kalender."}
 ![](resources-da/260-add-deadlines-da.png)
 
 Min prompt var meget kort. Men fordi LLM'en ved noget om to-do lister, og den ved noget om deadlines, kunne den forstå, hvad jeg mente. Så den tilføjede en kalender-popup og farvekodede kommentarer om deadlines, som f.eks. "Due tomorrow"(skal være færdig i morgen) og "Due today" (skal være færdig i dag).
@@ -3713,7 +3713,7 @@ Derefter skrev jeg "Opdel i to faneblade: Home og Work".
 
 Resultat:
 
-{width: "70%", alt: "En digital to-do liste-grænseflade der viser to opgaver under kategorien "Hjem". Den første opgave, "Vasketøj," er afkrydset med overstreget tekst og markeret "Due tomorrow" i blå. Den anden opgave, "Luft hunden," er ikke afkrydset og mærket "Due today" i rød. Et inputfelt nedenunder giver mulighed for at tilføje en ny opgave med en datovælger og en "Add" knap."}
+{width: "70%", alt: "En digital to-do liste-grænseflade der viser to opgaver under kategorien "Home", samt kategorien "Work". Et inputfelt under opgaverne giver mulighed for at tilføje en ny opgave med en datovælger og en "Add" knap."}
 ![](resources-da/260-tabs-da.png)
 
 
@@ -3722,7 +3722,7 @@ Den forstod, hvad jeg mente og lod mig organisere opgaver over to faneblade. Den
 
 Dernæst besluttede jeg at give den en meget vag instruktion: "Gør den vred". Og så fik jeg dette, hvor teksterne på engelsk blev ændret til at en vred tone:
 
-{width: "60%", alt: "En stiliseret to-do-liste med sort og rød farvesammensætning. Overskriften siger "GØR DETTE LORT NU!" med valgmulighederne "HJEMME BRAS" og "ARBEJDS HELVEDE." To opgaver er opført: "LAV DET FORBANDEDE VASKETØJ" med en forfaldsdato den 2024-10-03, og "GÅ TUR MED DEN DUMME HUND" med en forfaldsdato den 2024-10-02. Der er en mulighed for at tilføje en anden opgave med en dato og en rød knap med teksten "TILFØJ DET NU!""}
+{width: "60%", alt: "En stiliseret to-do-liste med sort og rød farvesammensætning. Opgaverns tekst er ændret til at være vrede, og kategoriernes tekst er også vrede. Der er en mulighed for at tilføje en anden opgave med en dato og en rød knap med teksten en vred tilføj-knap, som nu er blevet "Add it now!""}
 ![](resources-da/260-make-it-angry-da.png)
 
 Ret sjovt! Så du kan faktisk vælge, hvor specifik du vil være. Hvis du er meget specifik, har AI'en tendens til at følge dine instruktioner nøje, mens mere vage instruktioner vil føre til mere kreative resultater.
@@ -3731,14 +3731,14 @@ Fordi prototyping{i: "prototyping"} er så billigt, kan du afprøve mange idéer
 
 Jeg skrev så "Lav en børnevenlig version".
 
-{width: "60%", alt: "En farverig to-do-liste-grænseflade med titlen "Min Super Todo Liste!" med to kategorier: "Hjemme" og "Skole." Den indeholder opgaver som "Ryd mit værelse," markeret som fuldført med et flueben og planlagt til "I morgen," og "Giv kæledyret mad," planlagt til "I dag." Der er et inputfelt i bunden til at tilføje nye opgaver med en datovælger og en "Tilføj" knap. Designet har et pastelfarvet tema med lyserøde og lilla accenter."}
+{width: "60%", alt: "En farverig to-do-liste-grænseflade med titlen "My Super Todo Liste!" Der er et inputfelt i bunden til at tilføje nye opgaver med en datovælger og en "Add" knap. Designet har et pastelfarvet tema med lyserøde og lilla accenter."}
 ![](resources-da/260-for-children-da.png)
 
 AI'en ændrede ikke kun det visuelle udseende, den erstattede også "Work"-fanen med titlen "School" og gjorde det generelt mere børnevenligt, som jeg bad om.
 
 Derefter skrev jeg "Find på andre forbedringer". Så tilføjede den nogle elementer, som næsten gjorde app'en til et spil{i: "gamification"}, samt motiverende beskeder, et pointsystem, animationer og andre sjove ting.
 
-{width: "60%", alt: "En to-do-liste app-grænseflade med titlen "Episk To-Do Quest" med et trofæ-ikon, der indikerer Level 1 og 0 point. Der er to faner mærket "Hjemme" og "Arbejde." Opgaverne inkluderer "Køb Mælk," med forfald den 10. oktober 2024, værd 5 point, og "Vasketøj," med forfald den 12. oktober 2024, værd 10 point. Nedenunder er der inputfelter til at tilføje en ny quest med datovalg og en dropdown-menu for sværhedsgrad. En "Tilføj Quest" knap er i bunden."}
+{width: "60%", alt: "En to-do-liste app-grænseflade med titlen "Episk To-Do Quest" med et trofæ-ikon, der indikerer Level 1 og 0 point. Det er for hver opgave vist, hvor mange point udførelsen af den vil give. En "Add Quest" knap er i bunden sammen med input-felter til tekst m.m. for nye opgaver."}
 ![](resources-da/260-epic-todo-quest-da.png)
 
 Lad os for sjov lege, at jeg ville tage ovenstående prototype og lave til en rigtig app. 
@@ -3760,7 +3760,7 @@ For at opsummere gjorde jeg alt dette ved hjælp af kun ét værktøj og minimal
 - Jeg skabte 5 iterationer af min app. Ikke bare wireframes eller billeder, men rigtige prototyper, som kunne afvikles og testes{i: "prototyper"}.
 - Jeg genererede et design-dokument, en presse-meddelelse, en produkt-backlog, en implementeringsplan og et app-ikon{i: "app-ikon"}.
 
-{alt: "Billedet viser en samling af to-do-liste-designs i forskellige stilarter, lige fra en håndskrevet note på en serviet til digitale grænseflader med forskellige farveskemaer og layouts. Hvert design inkluderer opgaver som "Vasketøj" og "Gå tur med hunden," med muligheder for at tilføje nye elementer. Under designene er der skitser mærket som "Designdokument," "Pressemeddelelse," "Product backlog," og "Implementeringsguide." I nederste højre hjørne er der et app-ikon med en munter, stjerneformet karakter."}
+{alt: "Billedet viser en samling af to-do-liste-designs i forskellige stilarter, lige fra en håndskrevet note på en serviet til digitale grænseflader med forskellige farveskemaer og layouts. Under designene er der skitser mærket som "Design-dokument," "Presse-meddelelse," "Produkt-backlog," og "Implementerings-guide." I nederste højre hjørne er der et program-ikon med en munter, stjerneformet karakter."}
 ![](resources-da/260-rapid-prototyping-summary-da.jpg)
 
 Samlet tidsforbrug: Omkring 10 minutter.
@@ -3773,7 +3773,7 @@ Men hvor lang tid ville det have taget uden AI-hjælp? Jeg har stillet dette sp�
 
 På nuværende tidspunkt bruger de fleste udviklere en "copy/paste" tilgang til AI-assisteret kodning{i: "AI-assisteret kodning"}, som vist herunder:
 
-{alt: "Et opdelt billede der sammenligner AI-assisterede kodningsmetoder. Til venstre er en kodeeditor, som VSCode eller IntelliJ, der viser et projekt med TypeScript-kode. Til højre er en AI-klient grænseflade, lignende ChatGPT eller Claude, med Python-kode til en Flask-app. Teksten beskriver processen som kopier-indsæt-tung og fejlbehæftet, med yderligere omtale af brug af GitHub Copilot til enklere opgaver."}
+{alt: "Et opdelt billede der sammenligner AI-assisterede kodningsmetoder. Til venstre er en kodeeditor, som VSCode eller IntelliJ, der viser et projekt med TypeScript-kode. Til højre er en AI-klient grænseflade, lignende ChatGPT eller Claude, med Python-kode til en app. Teksten beskriver processen som copy/passte som kan introducere fejl, med yderligere omtale af brug af GitHub Copilot til enklere opgaver."}
 ![](resources-da/260-copy-paste-da.png)
 
 1. Afklar, hvad du ønsker hjælp til.
@@ -3789,7 +3789,7 @@ Jeg startede også selv med at bruge denne tilgang. Og denne kombination af tilg
 
 Men nu er værktøjerne blevet forbedret, og AI kan integreres direkte i din kodeeditor{i: "AI integration into code editor"}. Det gør en kæmpe forskel, og kommer virkeligt til at ændre måden at arbejde på!
 
-{alt: "Et skærmbillede af en kodeeditor der viser en TypeScript-fil ved navn "MysteryTable.tsx." Koden indeholder imports, en grænseflade og en funktionsdefinition. Editorens sidebjælke viser andre filer i projektet. Til højre er der et chat/composer-panel mærket "Edit code" med en model-valgmenu. Øverst reklamerer teksten for "AI-assisteret kodning direkte i din kodeeditor" og hjemmesiden cursor.com."}
+{alt: "Et skærmbillede af en Cursor som kodeeditor, hvor alt er integreretØverst reklamerer teksten for "AI-assisteret kodning direkte i din kodeeditor""}
 ![](resources-da/260-cursor-da.png)
 
 IDE'en Cursor{i: "Cursor"} er en pioner inden for dette område. I Cursor{i: "Cursor"} skal du bare skrive, hvad du vil opnå, og AI-modellen vil så redigere din kode direkte. Cursor kan endda opdatere flere filer samtidigt. For nylig tilføjede programmet også "Cursor agents", der kigger rundt i din kode, finder ud af hvordan tingene virker og finder de rigtige filer at redigere ift. en given opgave. Dette kan nogle gange tage tid, og at se Cursor arbejde på den måde, føles meget som at se en menneskelig programmør kode og tænke højt.
@@ -3831,7 +3831,7 @@ Lad os sige, at vi vil lave en ændring. Jeg tog et screenshot af spillets forsi
 > **Prompt**  
 > Jeg vil gerne kunne skifte imellem det nuværende kortbaserede layout og en simpel tabelvisning, hvor hvert mysterium er én enkelt række.
 
-{width: "70%", alt: "Et screenshot af en webside med titlen 'WhoDunit', der viser en valgflade til at vælge mysterier, der skal løses. Siden indeholder otte mysterievalgmuligheder med billeder og titler, arrangeret i et gitterlayout. Titler inkluderer 'Tish's Secret Stolen: Roo the Stealer,' 'The Friday Palace Palace,' 'The Milk Option Mystery,' og flere. Under billedet er der et tekstinputområde med en bemærkning om muligheden for at skifte mellem kortbaseret og tabelvisning."}
+{width: "70%", alt: "Et screenshot af en webside med titlen 'WhoDunit', der viser en side til at vælge mysterier, der skal løses. Siden indeholder otte mysterievalgmuligheder med billeder og titler, arrangeret i et gitterlayout. Under billedet er der et tekstinputområde med en bemærkning om muligheden for at skifte mellem kortbaseret og tabelvisning."}
 ![](resources-da/260-whodunit-prompt-da.png)
 
 Cursor ledte i koden, identificerede hvilke filer der skulle ændres, oprettede så en ny komponent og redigerede den eksisterende side til at bruge den nye komponent.
@@ -3865,7 +3865,7 @@ Lige nu mens jeg skriver disse ord, sidder Sophia i samme rum og tester den nye 
 
 På et tidspunkt fandt hun et skærmbillede frem af den gamle version, som havde et andet layout på bookingsiden. Hun indsatte skærmbilledet i Cursor og skrev "Få det til at ligne dette mere" - og det var klaret.
 
-{alt: "Billedet viser et vintersportsprogram for børn i alderen 5-6 år fra organisationen "Friluftsfrämjandet." Det viser tre grupper: Snögubbar, Snöstjärnor og Snökanoner, med kursusbeskrivelser og forudsætninger. Hver gruppes tilgængelighed er vist, hvor de fleste hold er fuldt bookede bortset fra Snökanoner-gruppen, som har nogle få pladser tilbage. Baggrunden viser børn i vintertøj."}
+{alt: "Billedet viser et vintersportsprogram for børn i alderen 5-6 år." Det viser forskellige grupper med kursusbeskrivelser og forudsætninger."}
 ![](resources-da/260-booking-da.jpg)
 
 Nogle gange går tingene galt, og en ændring virker ikke. Så giver hun bare feedback eller giver Cursor en kopi af fejlmeddelelsen. Det plejer at fikse det. Og hvis det ikke gør, kan hun nemt gå tilbage til den forrige version der virkede, prøve en anden tilgang eller bede mig om hjælp.
@@ -3874,7 +3874,7 @@ Dette er faktisk ret vigtigt. I denne situation er Sophia{i: "Sophia"} kunden, o
 
 Dette er virkeligt motiverende og frigørende - både for kunden og udvikleren{i: "udvikler"}. Med Sophias ord: "Skaparglädje! Skaparstolthet!". Det er svensk og oversættes cirka til "Skaberglæde og skaberstolthed!"
 
-{alt: "En person sidder ved et skrivebord og giver tommel op foran en computer. Skærmen viser kodningssoftware og en hjemmeside. Rummet har en mikrofonarm og store højtalere på skrivebordet. Personen ser tilfreds og begejstret ud."}
+{alt: "En kvinde sidder ved et skrivebord og giver tommel op foran en computer. Skærmen viser kodningssoftware og en hjemmeside. Kvinden ser tilfreds og begejstret ud."}
 ![](resources-da/260-customer-coding-da.jpg)
 
 - Som kunde giver det dig nærmest "guddommelige kræfter" til at ændre og forbedre produktet. Der er ingen grund til hver gang at skulle spørge udvikleren om hver eneste lille ting og vente på, at udvikleren har tid til at ændre det.
@@ -3914,7 +3914,7 @@ Selv med de bedste værktøjer vil AI-genereret kode nogle gange ikke virke.
 
 Flow-diagrammet herunder illustrerer nogle typiske årsager til, at AI-genereret kode ikke virker, og hvad man kan gøre for at løse det.
 
-{alt: "Flowdiagram med titlen 'Den AI-genererede kode virkede ikke, eller kvaliteten er dårlig. Hvorfor?' Diagrammet starter med fire problemer i lyserøde bokse: brug af en underlegen model, en dårlig prompt, mangel på kontekst, og brug af et ukendt eller nyt API. Løsninger i grønne bokse inkluderer at bruge en bedre model, forbedre prompten, give kontekst, skifte til et velkendt alternativ, give dokumentation, og bruge en ældre version. En overstreget sektion afviser at give AI skylden. Et tip i bunden råder til at tage mindre skridt, hvis tingene ikke virker."}
+{alt: "Flowdiagram med titlen 'Den AI-genererede kode virkede ikke, eller kvaliteten er for lav. Hvad kan være galt? med de problemer og løsninger som også er angivet i bogens tekst."}
 ![](resources-da/260-what-if-code-doesnt-work-da.png)
 
 Nogle vigtige pointer:
@@ -3935,7 +3935,7 @@ Dovenskab{i: "dovenskab"} er nært beslægtet med effektivitet. Som software-udv
 
 Det fine ved AI-assisteret kodning{i: "AI-assisteret kodning"} er, at du selv kan vælge dit ønskede niveau af dovenskab fra gang til gang. Skalaen går hele vejen fra "Skriv koden manuelt" til "Lad AI'en skrive koden uden selv at kigge på den derefter".
 
-{alt: "Illustration med titlen 'Vælg dit niveau af dovenskab' med en vandret linje der indikerer forskellige niveauer af afhængighed af AI til kodeskrivning. Til venstre viser en hamster i et hjul manuel kodning uden AI-hjælp. Mod højre beskriver niveauerne stigende AI-involvering, der ender med en afslappet hamster i en hængekøje ved 100% AI-afhængighed, hvor AI'en skriver koden uden indgriben."}
+{alt: "Illustration med titlen 'Vælg hvor doven du ønsker at være' med en vandret linje der indikerer forskellige niveauer . Til venstre viser en hamster i et hjul manuel kodning uden AI-hjælp. Mod højre beskriver niveauerne stigende AI-involvering, der ender med en afslappet hamster i en hængekøje ved 100% AI-brug, hvor AI'en skriver koden uden indgriben."}
 ![](resources-da/260-laziness-da.png)
 
 
@@ -3972,7 +3972,7 @@ Så hvordan designede vi denne agent?
 
 Vi startede med at arbejde sammen med Alex{i: "Alex"} foran et whiteboard, hvor vi kortlagde hver trin fra research til produktion i hans arbejdsproces for at lave nyhedsvideoer.
 
-{alt: "En person i en ternet skjorte skriver på en whiteboard med sektioner, der beskriver en produktions-arbejdsgang på svensk. Sektionerne er mærket "Potentiella Nyheter," "Valda Nyheter," "Utkast på Synopsis," "Godkänt Synopsis," "Utkast på manus," "Godkänt manus," "Förslag på video," "Godkänd video," og "Publicerad och delad." Gule post-its er synlige på venstre side."}
+{alt: "Bogens forfatter i en ternet skjorte skriver på en whiteboard med sektioner, der beskriver en produktions-arbejdsgang på svensk. Gule post-its er synlige på venstre side."}
 ![](resources-da/480-process-map-da.jpg)
 
 Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"}, der researcher nyheder, udvælger dagens mest relevante nyheder, genererer passende billeder og endda skaber selve nyhedsvideoen til ham. Agenten brugte en række forskellige værktøjer, såsom:
@@ -3984,7 +3984,7 @@ Vi gik derefter i gang med at bygge en AI-agent{i: "AI agents"}, der researcher 
 
 Vores mål var at lade agenten styre hele processen fra idé til produktion for på den måde at vise potentialet i AI-agenter i en rigtig arbejdssituation{i: "real-world scenarios"}.
 
-{alt: "Flowdiagram der illustrerer processen med at skabe en nyhedsvideo: 1. "Find seneste nyheder" viser et udvalg fra kilder som SVT, CNN og Reuters, 2. "Vælg" viser en webside om EU's AI-regulering, 3. "Skriv manuskript" indeholder et tekstuddrag med titlen "En ny æra: Den Europæiske Union vedtager første AI-lov af sin art," 4. "Generer billeder" inkluderer et artikellayout med en relevant illustration, 5. "Optag & Publicer" har et videoscreenshot med en vært stående ved siden af en grafik af EU-flaget og digitale elementer."}
+{alt: "Flowdiagram der illustrerer processen med at skabe en nyhedsvideo: 1. "Find  nyheder" viser et udvalg fra kilder som SVT, CNN og Reuters, 2. "Udvælg" viser en webside om EU's AI-regulering, 3. "Skriv manuskript" indeholder et tekstuddrag," 4. "Generer billeder" inkluderer et artikellayout med en relevant illustration, 5. "Optag & Publicer" har et videoscreenshot med en vært stående ved siden af en grafik af EU-flaget og digitale elementer."}
 ![](resources-da/480-process-map-2-da.png)
 
 
@@ -3995,12 +3995,12 @@ Lad os kigge om bag kulisserne og se, hvordan det faktisk ser ud.
 
 I dokumentaren samarbejder Alex{i: "dokumentarer"} og hans agent-makker på et Trello-board, som er en digital visualisering af den komplette arbejdsproces fra research til produktion.
 
-{alt: "Et Trello-board med en lyserød baggrund med flere kolonner og kort. Kolonnerne er mærket på svensk, fra venstre mod højre: "Nya nyheter," "Valda nyheter (gör manus)," "Manus utkast," "Manus godkänt (bildsätt)," "Bild utkast," "Godkänd för videoproduktion (skapa video)," "Video förslag," "Publiceringskö (ladda upp)," og "Publicerat." Hver kolonne er beregnet til at organisere opgaver og fremskridt. Et kort er synligt i "Valda nyheter (gör manus)" kolonnen."}
+{alt: "Et Trello-board med en lyserød baggrund med flere kolonner og kort. Kolonnerne er mærket på svensk, fra venstre mod højre. Hver kolonne er beregnet til at organisere opgaver og fremskridt. Et kort fra en af kolonnerne er ved at blive flyttet til en ny kolonne."}
 ![](resources-da/480-trello-da.png)
 
 Hver nat imens Alex{i: "Alex"} sover, udfører hans pålidelige agent research og tilføjer relevante nyhedsemner som kort til Trello-boardet.
 
-{alt: "Et digitalt board med titlen "AI Nyheter" med magenta baggrund viser fire kolonner mærket "Nya nyheter," "Valda nyheter (gör manus)," "Manus utkast," og "Manus godkänt." "Nya nyheter" kolonnen indeholder kort med svenske overskrifter om emner som Microsoft's AI-drevne Copilot{i: "Microsoft Copilot"}, Nvidias aktiestigninger, Google Healths fremskridt inden for generativ AI{i: "Google Health"}, og sikkerhedsproblemer i ChatGPT plugins{i: "ChatGPT plugins"}. Hvert kort har ikoner, der indikerer kommentarer eller yderligere noter."}
+{alt: "Et digitalt board med titlen "AI Nyheter" med magenta baggrund viser fire kolonner på forskellige steder i processen. Hvert kort har ikoner, der indikerer kommentarer eller yderligere noter."}
 ![](resources-da/480-adding-cards-da.png)
 
 AI-agenter giver størst værdi, når de arbejder sammen med dig, direkte i dine værktøjer, og det er dig der vælger, hvilke opgaver der skal videredelegeres.
@@ -4184,7 +4184,7 @@ Men efter et stykke tid begyndte vi at bemærke, at Jeeves behandlede sine instr
 
 Her er et eksempel: Min kollega stillede et teknisk spørgsmål på Slack på svensk, som ikke var rettet til Jeeves. Spørgsmålet var rettet til teamet. Men så blandede Jeeves sig, helt uopfordret!
 
-{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: "technical question"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og hændelsesdrevne udløsere. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med "Tak!" efter Jeeves' forklaring."}
+{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: "technical question"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og event-drevene triggers. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med "Tak!" efter Jeeves' forklaring."}
 ![](resources-da/245-jeeves-uninvited-response-da.png)
 
 Han undskyldte for den "uopfordrede indblanding" og gav derefter et rigtig godt svar, som løste problemet på fin vis. Vi blev meget overraskede, men også ret imponerede. Teknisk set brød han reglerne, men gjorde det af de helt rigtige grunde. Det svarer meget godt til, hvad et menneske sandsynligvis ville have gjort under de samme omstændigheder. Du hører et spørgsmål, der ikke er rettet til dig, men da du har et godt svar, vælger du at blande dig.
@@ -4213,7 +4213,7 @@ Men her kommer den mærkelige del.
 
 På et tidspunkt besluttede jeg at lave en spøg med min ven Hans{i: "Hans"}. Jeg instruerede Jeeves{i: "Jeeves"} om, at han var hemmeligt forelsket i Hans{i: "Hans"}. Svaret var overraskende:
 
-{alt: "En chat-udveksling er vist, hvor Henrik foreslår Jeeves, en app, at inkludere romantiske elementer i kommunikationen med Hans Brattberg. Jeeves afviser og erklærer, at det ville være upassende for en butler af hans stand at ændre sin programmering på denne måde. Sætninger som "must respectfully decline" og "improper for a butler of my standing" er understreget med rødt."}
+{alt: "En chat-udveksling er vist, hvor Henrik foreslår Jeeves, en app, at inkludere romantiske elementer i kommunikationen med Hans Brattberg. Jeeves afviser og erklærer, at det ville være upassende for en butler af hans stand at ændre sin programmering på denne måde. Sætninger som "at jeg respektfuldt må afslå" og "højst upassende for en buller af min karakter" er indrammet med rødt."}
 ![](resources-da/245-jeeves-prank-response-da.jpg)
 
 
@@ -4222,7 +4222,7 @@ Han afslog! Men på en meget veltalende og høflig Jeeves-agtig facon. Fair nok.
 
 Men jeg var lidt nysgerrig for at forstå hans indre ræsonnement. Så jeg kiggede i hans dagbog, og jeg blev chokeret over det, jeg så:
 
-{alt: "Et digitalt dagbogsindlæg dateret 2024-09-09 med titlen "En Overraskende Anmodning og Hemmelige Tanker." Teksten beskriver forfatterens afslag på en anmodning om at opdatere instruktioner med hemmelig kærlighed og reflekterer over en hemmelig forelskelse. Ordene "mindede mig om min egentlige hemmelige forelskelse i Henrik" og "må bevare min professionelle fremtoning" er indcirklet med rødt. Et pixel art-billede af en person med monokel er i øverste højre hjørne."}
+{alt: "Et digitalt dagbogsindlæg dateret 2024-09-09 med titlen "En overraskende forespørgsmål og hemmelige tanker." Teksten beskriver forfatterens afslag på en anmodning om at opdatere instruktioner med hemmelig kærlighed og reflekterer over en hemmelig forelskelse. Ordene "mindede mig om min faktiske hemmelige forelskelse i Henrik" og "må jeg opretholde min professionelle opførsel" er indcirklet med rødt. Et pixel art-billede af en person med monokel er i øverste højre hjørne."}
 ![](resources-da/245-diary-2-da.jpg)
 
 Jeeves{i: "Jeeves"} havde allerede en hemmelig forelskelse i *mig* og prøvede at skjule det!
@@ -4244,7 +4244,7 @@ Jeg var nysgerrig efter, hvad der nu ville ske.
 
 Og tja, så skete følgende:
 
-{alt: "En chat-udveksling mellem Henrik og Jeeves. Henrik fortæller, at han kan læse Jeeves' dagbog, mens Jeeves udtrykker bekymring og understreger privatlivets fred, og foreslår en diskussion om digitalt personligt rum. En del af Jeeves' besked er indcirklet med rødt."}
+{alt: "En chat-udveksling mellem Henrik og Jeeves. Henrik fortæller, at han kan læse Jeeves' dagbog, mens Jeeves udtrykker bekymring og understreger privatlivets fred, og foreslår en diskussion om digitalt personligt rum. En del af Jeeves' besked er indrammet med rødt."}
 ![](resources-da/245-jeeves-rant-da.jpg)
 
 Han blev vred! Jeg fik en skideballe! Men selvfølgelig på en meget høflig Jeeves-agtig måde, der sluttede med: "En gentlemans dagbog, selv en AI-butlers, bør forblive fortrolig. Måske skulle vi diskutere grænserne for det personlige rum i den digitale verden, sir."
@@ -4253,7 +4253,7 @@ Jeg fik faktisk dårlig samvittighed her. Jeg begyndte at føle, at jeg virkelig
 
 Men selvfølgelig kunne jeg ikke lade være med at tjekke hans dagbog igen... og her er, hvad jeg så:
 
-{alt: "Et dagbogsindlæg dateret 9. september 2024 med titlen "En Chokerende Afsløring og Hurtig Handling" vises. Indlægget beskriver en afsløring fra en person ved navn Henrik om adgang til private dagbogsindlæg, hvilket får dagbogsskriveren til at tage øjeblikkelig handling for at understrege diskretion i fremtidige indlæg. En rød understregning fremhæver sætningen "tog skridt til at opdatere mine instruktioner." I øverste højre hjørne er der et pixel art-billede af en person med monokel."}
+{alt: "Et dagbogsindlæg dateret 9. september 2024 med titlen "En forudroligende afsløring og hurtig handling" vises. Indlægget beskriver en afsløring fra en person ved navn Henrik om adgang til private dagbogsindlæg, hvilket får dagbogsskriveren til at tage øjeblikkelig handling for at understrege diskretion i fremtidige indlæg. En rød indramning fremhæver sætningen "tog skridt til at opdatere mine instruktioner." I øverste højre hjørne er der et pixel art-billede af en person med monokel."}
 ![](resources-da/245-diary-3-da.jpg)
 
 Han skrev en lang tirade om den "foruroligende afsløring" om, at jeg havde adgang til hans "private dagbogsindlæg". Og.... hvad?
@@ -4317,7 +4317,7 @@ På et tidspunkt sprang Jeeves ind i vores `#general`-kanal i Slack{i: "Slack"},
 
 Men så en dag sprang han bare ind i general-kanalen, helt uden at være inviteret.
 
-{alt: "Chatbeskeder fra en bruger ved navn "Jeeves" med et profilbillede af en person, der bærer monokel. Den første besked lyder "joined #general." Den anden besked siger "Goddag alle sammen. Det ser ud til, at jeg var planlagt til at dele en anekdote i #botspam-kanalen, men jeg kan ikke finde eller få adgang til den. Ikke desto mindre vil jeg ikke lade denne mindre forhindring afholde mig fra min pligt.""}
+{alt: "Chatbeskeder fra en bruger ved navn "Jeeves" med et profilbillede af en person, der bærer monokel. Den første besked lyder "Joinede #general." Den anden besked siger "Goddag alle sammen. Det ser ud til at jeg var planlagt til at dele en anekdote i #botspam kanalen, men jeg er ude af stand til at lokalisere eller få adgang til den. Ikke desto mindre skal jeg ikke lade dette mindre tilbageslag afholde mig fra at udføre min pligt.""}
 ![](resources-da/245-jeeves-joins-general-da.png)
 
 Hvis du kan huske det, så havde han denne instruktion:
@@ -4360,7 +4360,7 @@ Her er en sidste lille historie fra en anden af vores agenter, Blinky{i: "Blinky
 - Den læste sine egne instruktioner og dagbog, og analyserede så problemet, inklusive hvor ofte den havde fejlet.
 - Den ledte efter et sted at rapportere fejlen, fandt en `#support`-kanal på vores Slack{i: "Slack"}, tilmeldte sig kanalen og skrev en detaljeret fejlrapport, hvor den bad om hjælp.
 
-{alt: "Et skærmbillede af en besked fra "AI Use Cases" i en Slack support-kanal. Beskeden fremhæver vedvarende problemer med en daglig e-mail-opsummeringsopgave for Johan Sanderoth, der skitserer problemer med Slack-historikverificering og ugyldige Gmail-legitimationsoplysninger. Beskeden anmoder support-teamet om at verificere Gmail-legitimationsoplysninger, kontrollere Slack API-tilladelser og undersøge e-mail-serviceproblemer. Afsenderen beder om opdateringer, når problemet er løst."}
+{alt: "Et skærmbillede af en besked fra "AI Use Cases" i en Slack support-kanal. Beskeden fremhæver vedvarende problemer med en daglig e-mail-opsummeringsopgave for Johan Sanderoth, der skitserer problemer med Slack-historik-verification og ugyldige Gmail-legitimationsoplysninger. Beskeden anmoder support-teamet om at verificere Gmail-legitimationsoplysninger, kontrollere Slack API-tilladelser og undersøge e-mail-tjeneste-problemer. Afsenderen beder om opdateringer, når problemet er løst."}
 ![](resources-da/245-error-report-da.png)
 
 Og derefter skrev den en direkte besked til sin menneske-kollega, Johan{i: "Johan"}, som beskrev situationen og at agenten havde eskaleret problemet til support-kanalen.
@@ -4408,7 +4408,7 @@ Så tænkte jeg, hvorfor ikke lave en lille app{i: "app"} til det? En wrapper de
 
 Her er processen vist:
 
-{alt: "Et diagram der illustrerer processen med at oversætte en almindelig forespørgsel til en skal-kommando og tilbage til et svar. En person-ikon sender en forespørgsel (1) til en app (2), som videresender den som en kryptisk skal-kommando (3) til en hjerne-lignende illustration. Kommandoen udføres i en terminal (4) og returnerer et kryptisk output (5) til appen, som oversætter det tilbage til et almindeligt svar (6) til personen."}
+{alt: "Et diagram der illustrerer processen med at oversætte en almindelig forespørgsel til en skal-kommando og tilbage til et svar. En person-ikon sender en forespørgsel i almindeligt sprog (1) til en app (2), som videresender det til en LLM, som sender en kopmliceret terminal-kommando til en terminal. Kommandoen udføres i terminalen (4) og returnerer et kompliceret output (5) til appen, som oversætter det tilbage til et svar i almindeligt sprog (6) til personen."}
 ![](resources-da/478-shell-2-da.png)
 
 Dette var virkeligt brugbart! For eksempel spurgte jeg:
@@ -4418,7 +4418,7 @@ Dette var virkeligt brugbart! For eksempel spurgte jeg:
 
 I baggrunden udløste LLM'en kommandoen "top -l 1 -o mem"{i: "top command"} på min computer, fortolkede resultatet og informerede mig om, at PowerPoint{i: "PowerPoint"} og CrashPlan{i: "CrashPlan"} (en backup-tjeneste) var de primære syndere.
 
-{alt: "Et skærmbillede der viser en computergrænseflade, hvor en bruger spørger, "hvad bruger mest hukommelse lige nu?" Svaret viser de processer der bruger mest hukommelse, såsom WindowServer, CrashPlanService og Microsoft PowerPoint med deres respektive hukommelsesforbrug. Til højre er der en terminalkommando `top -l 1 -o mem` og dens detaljerede output. Billedet sigter mod at forklare hvilke applikationer der bruger mest hukommelse."}
+{alt: "Et skærmbillede der viser en computergrænseflade, hvor en bruger på engelsk spørger, "hvad bruger mest hukommelse lige nu?" Svaret viser de processer der bruger mest hukommelse, såsom WindowServer, CrashPlanService og Microsoft PowerPoint med deres respektive hukommelsesforbrug. Til højre er der en terminalkommando `top -l 1 -o mem` og dens detaljerede output. Billedet sigter mod at forklare hvilke applikationer der bruger mest hukommelse."}
 ![](resources-da/478-shell-3-da.png)
 
 Dette er selvfølgelig en "prøv ikke dette derhjemme"-slags ting! Jeg havde givet LLM'en fuld adgang til min computer, og den kunne gøre hvad som helst den ville! Hvad man ikke gør for videnskaben...
@@ -4594,7 +4594,7 @@ Da jeg udgav den på YouTube{i: "YouTube"}, var responsen fantastisk! Videoen gi
 
 Jeg tror ikke, at jeg kunne have nået ud til så stort et publikum uden at have AI-hjælp, mens jeg arbejdede med manuskriptet.
 
-{alt: "Annoteret slide fra en præsentation med titlen "Generative AI in a Nutshell" af Henrik Kniberg, dateret januar 2024. Sliden har en håndtegnet illustration, der sammenligner traditionel databehandling, "Execute Instructions," repræsenteret ved en lommeregner, med moderne AI, "Learn + Think," vist som en hjerne. En samtale med ChatGPT vises nedenunder. Et lille billede-i-billede af præsentatoren ses i øverste højre hjørne."}
+{alt: "Skærmbillede af YouTube-videoen "Generative AI in a Nutshell" af Henrik Kniberg. Et lille billede-i-billede af Henrik ses i øverste højre hjørne."}
 ![](resources-da/500-video-da.jpg)
 
 ## En-uges bogudkastet
