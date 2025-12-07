@@ -2037,7 +2037,7 @@ Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en A
 
 AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomhed har hver person, team og funktion i virksomheden  adgang til gode generativ AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
 
-Når Generativ AI er fuldt integreret i din daglige drift, og brugen er blevet lige så intuitiv og uundværlig som internettet, så er du en AI-native virksomhed{i: AI-native virksomhed}.
+Når generativ AI er fuldt integreret i din daglige drift, og brugen er blevet lige så intuitiv og uundværlig som internettet, så er du en AI-native virksomhed{i: AI-native virksomhed}.
 
 Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble - den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
@@ -4131,7 +4131,7 @@ For at eksperimentere med agent-autonomi skabte vi Jeeves, en generel agent som 
 
 Vores platform inkluderer en webportal til interaktion med agenterne. Men vi gav også Jeeves mulighed for at kommunikere gennem andre medier, såsom Slack og email{i: "email"}. Her er et screenshot af en dialog med Jeeves, der præsenterer sig selv:
 
-{alt: "En chat-grænseflade med titlen \"Flitig\" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger \"Hvad er du?\" Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: \"Wodehouse, P.G.\"}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
+{alt: "En chat-grænseflade med titlen \"Flitig\" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger \"Hvad er du?\". Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: \"Wodehouse, P.G.\"}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
 ![](resources-da/245-jeeves-intro-da.png)
 
 Som du kan se, bruger han ret mange ord. Men vi konfigurerede ham til at være sådan. Vi kan lide denne personlighed. Det er interessant, hvordan bare få ord i en prompt - i dette tilfælde "Jeeves, den berømte butler" - kan have så stor indflydelse på en agents kommunikationsstil.
