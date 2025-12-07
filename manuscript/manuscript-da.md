@@ -154,7 +154,7 @@ I resten af denne bog vil jeg bruge betegnelsen "AI-klient{i: "AI-klient"}" som 
 {alt: "Diagram af en neural netværksproces. Til venstre omdannes input mærket "Tekst, Billeder, Lyd, Video" til tal "[1,5,3,16]." Disse tal går ind i et neuralt netværk, repræsenteret ved en stiliseret sammenkoblet hjerneagtig struktur med knudepunkter og tal. Til højre omdannes output-tallene "[5,2,13,4]" tilbage til "Tekst, Billeder, Lyd, Video.""}
 ![](resources-da/040-neural-network-da.png)
 
-Så hvordan virker det egentligt?&#x20;
+Så hvordan virker det egentligt?
 
 En LLM er et kunstigt neuralt netværk{i: "kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
 
@@ -1217,7 +1217,7 @@ Her er en simpel øvelse, jeg anbefaler, enten alene eller sammen med dit team{i
 1. **Hvad laver du?** Tag nogle post-its og skriv alle de typer opgaver ned, du laver i løbet af en typisk uge - arbejdsrelaterede eller personlige eller begge dele. Tag bare et kig i din kalender. For arbejdsrelaterede ting kunne det være såsom "Fællesmøde", "Møde med leverandører", "Følge op på emails", "Forberede præsentationer", "Skrive kode", "Gennemgå lagerbeholdning", "Fikse den forbandede printer" eller noget helt andet, afhængigt af din situation{i: "tilpasning til situation"}.
 2. **Hvor kan AI hjælpe?** Tænk over hvilke af disse opgaver du bør fortsætte med at udføre selv, hvilke du kan få AI-assistance til{i: "AI-assisterede opgaver"} og hvilke der potentielt kan udføres helt af AI. Gruppér herefter noterne. Du behøver ikke vide _hvordan_ det vil hjælpe dig, bare identificér de opgaver, som du tror, AI vil kunne hjælpe med. _Hvordan_ kommer senere.
 3. **Hvad vil du bruge den ekstra tid på?** Forestil dig, at du har fået AI-hjælp til mange af disse opgaver. Det vil frigive tid, ikke? Hvad vil du bruge den ekstra tid på? Det er rart at tænke over. Hvilke typer opgaver ville du elske at have mere tid til? Du kan også tænke over, hvilke typer opgaver der måske slet ikke længere er nødvendige at udføre. Gruppér noterne derefter.
-4. **Reflektér & diskutér.** Træd et skridt tilbage, kig på tavlen og reflektér. Eller diskutér med dit team/chef/ægtefælle/ven/osv.
+4. **Reflektér og diskutér.** Træd et skridt tilbage, kig på tavlen og reflektér. Eller diskutér med dit team/chef/ægtefælle/ven/osv.
 5. **Afgør hvor du vil starte.** Ideelt set et sted der er ret simpelt - en irriterende opgave som du meget nemt kunne få AI-assistance til.
 6. **Eksperimenter**. Begynd at eksperimentere med hvordan du kan få AI-assistance til den opgave. Det kan tage tid at finde ud af, så vær vedholdende. Men hvis det viser sig at være for svært, så prøv bare en anden opgave.
 
@@ -2220,7 +2220,7 @@ Nogle retningslinjer:
 - **Møder**{i: "møder"}. Organiser møder, frokostmøder osv. Du kan også opfordre folk til at skabe deres egne lokale fællesskaber inden for deres afdeling eller projekt. Og opfordr selvfølgelig til uformel deling - ved kaffemaskinen, til frokost osv.
 - **Gentag eksperimenter**. Teknologien udvikler sig hurtigt, så ting der ikke virkede for en måned siden, kan virke rigtig godt nu. Så gentag eksperimenterne!
 - **Fællesskab**{i: "fællesskab"}. Opret en MS Teams-gruppe, Slack-kanal, wiki-side osv. til deling af AI-tips og tricks.
-- **Inspirerende foredrag & træning**{i: "inspirerende foredrag og træning"}. Organiser inspirerende foredrag med eksterne eller interne talere. Giv folk adgang til træningskurser.
+- **Inspirerende foredrag og træning**{i: "inspirerende foredrag og træning"}. Organiser inspirerende foredrag med eksterne eller interne talere. Giv folk adgang til træningskurser.
 - **Hackathons**{i: "hackathons"}. Organiser hackathons, hvor folk kan arbejde sammen i grupper om at udforske mulighederne med AI og dele viden, mens de har det sjovt.
 
 Udforsknings-trinnet er normalt ikke så svært. Så længe folk har nem adgang til teknologien og noget support, vil de som regel _gerne_ udforske mulighederne. Alt hvad du behøver at gøre, er at puste til flammerne.
@@ -2332,10 +2332,10 @@ Behandling af dokumenter er en fremragende opgave for generativ AI. Så vi bygge
 
 Alle RFP'erne kunne videresendes til Ralph. Inden for 10 sekunder kunne han læse og analysere en RFP, skrive et resumé der besvarer alle ovenstående spørgsmål på en måde, der er relevant for denne virksomhed, vurdere om en RFP er en god mulighed for deres virksomhed, og hvis ja, så dirigere den til den mest egnede afdeling. Hver RFP blev fulgt som en opgave på en digital tavle, så alle kunne se, hvad der skete, og også give Ralph feedback eller vælge at ændre nogle af hans beslutninger.
 
-{alt: "Dette billede er et flowdiagram med titlen 'RFP-arbejdsgang' med fire rækker mærket 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Kolonnerne er mærket 'Modtag & analyser RFP,' 'Beslut om vi skal gøre det,' 'Videresend det til det rigtige team,' og '(resten af opgaverne).' Afkrydsninger indikerer hvilke opgaver hver type kan håndtere."}
+{alt: "Dette billede er et flowdiagram med titlen 'RFP-arbejdsgang' med fire rækker mærket 'Kun menneske,' 'Menneske med AI-assistance,' 'AI med menneskelig assistance,' og 'Kun AI.' Kolonnerne er mærket 'Modtag og analyser RFP,' 'Beslut om vi skal gøre det,' 'Videresend det til det rigtige team,' og '(resten af opgaverne).' Afkrydsninger indikerer hvilke opgaver hver type kan håndtere."}
 ![](resources-da/510-rfp-process-da.png)
 
-- **Modtag & analyser RFP: AI med menneskeassistance.**
+- **Modtag og analyser RFP: AI med menneskeassistance.**
   - Ralph gør det, men et menneske kan give feedback eller bede ham om at lave ændringer.
 - **Beslut om vi skal gøre det: AI med menneskeassistance.**
   - Ralph gør det, men et menneske kan give feedback eller bede ham om at lave ændringer.
@@ -2473,7 +2473,7 @@ OK, lad os dykke ned i nogle specifikke prompt engineering-teknikker. Jeg vil an
 
 Jeg kunne sandsynligvis skrive en hel bog bare om prompt engineering-teknikker{i: "prompt engineering-teknikker"}. Men i denne sektion har jeg udvalgt de vigtigste teknikker: Ting som jeg tror vil fortsætte med at være vigtige, selv når modellerne bliver bedre og ikke behøver lige så meget babysitning.
 
-## Hold øje med kontekstvinduet & prompt-længden{i: "kontekstvindue"}
+## Hold øje med kontekstvinduet og prompt-længden{i: "kontekstvindue"}
 
 Kontekstvinduet er den maksimale mængde tekst, som en model kan acceptere som input.
 
@@ -2734,7 +2734,7 @@ Så vi starter med at diskutere overordnede muligheder{i: "overordnede mulighede
 
 Denne opsummering kan derefter bruges som udgangspunkt for flere afledte samtaler{i: "afledte samtaler"}, hver med forskelligt fokus. For eksempel en logistikplan, et invitationsbrev til deltagerne og en præsentation til chefen.
 
-{alt: "Flowdiagram der viser planlægningsprocessen for et team offsite. Hovedidéen er øverst: 'Vi planlægger en team udflugt. Her er konteksten & planen: <opsummering>.' Nedenunder forgrener tre opgaver sig: 'Lav en logistik-plan for det,' 'Skriv en invitation til deltagerne,' og 'Lav en præsentation til min chef.'"}
+{alt: "Flowdiagram der viser planlægningsprocessen for et team offsite. Hovedidéen er øverst: 'Vi planlægger en team udflugt. Her er konteksten og planen: <opsummering>.' Nedenunder forgrener tre opgaver sig: 'Lav en logistik-plan for det,' 'Skriv en invitation til deltagerne,' og 'Lav en præsentation til min chef.'"}
 ![](resources-da/460-drilldown-da.png)
 
 
@@ -3982,7 +3982,7 @@ Vi gik derefter i gang med at bygge en AI-agent{i: "AI agent"}, der researcher n
 
 Vores mål var at lade agenten styre hele processen fra idé til produktion for på den måde at vise potentialet i AI-agenter i en rigtig arbejdssituation{i: "rigtig arbejdssituation"}.
 
-{alt: "Flowdiagram der illustrerer processen med at skabe en nyhedsvideo: 1. "Find  nyheder" viser et udvalg fra kilder som SVT, CNN og Reuters, 2. "Udvælg" viser en webside om EU's AI-regulering, 3. "Skriv manuskript" indeholder et tekstuddrag," 4. "Generer billeder" inkluderer et artikellayout med en relevant illustration, 5. "Optag & Publicer" har et videoscreenshot med en vært stående ved siden af en grafik af EU-flaget og digitale elementer."}
+{alt: "Flowdiagram der illustrerer processen med at skabe en nyhedsvideo: 1. "Find  nyheder" viser et udvalg fra kilder som SVT, CNN og Reuters, 2. "Udvælg" viser en webside om EU's AI-regulering, 3. "Skriv manuskript" indeholder et tekstuddrag," 4. "Generer billeder" inkluderer et artikellayout med en relevant illustration, 5. "Optag og Publicer" har et videoscreenshot med en vært stående ved siden af en grafik af EU-flaget og digitale elementer."}
 ![](resources-da/480-process-map-2-da.png)
 
 
