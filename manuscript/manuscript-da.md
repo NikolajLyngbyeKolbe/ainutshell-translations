@@ -129,7 +129,7 @@ AI, står, som du sikkert ved, for "Artificial Intelligence"{Artificial Intellig
 
 Generativ AI{i: "generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
-Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i:Large Language Models} (eller bare LLM'er{i:LLM}) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
+Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i:Large Language Models} eller bare LLM'er{i:LLM}) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
 ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel (LLM), i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
@@ -794,7 +794,7 @@ Men "lyd til lyd"-modeller kan bruges til mere end bare at tale, såsom:
 {alt: "Et kig gennem et togvindue, der viser en refleksion af mennesker inde i toget. Udendørsscenen inkluderer Tokyos forstæder med huse og bygninger, set under rejsen. Himlen er delvist skyet, og der er synlige elledninger."}
 ![](resources-da/070-text-to-video-1-da.jpg)
 
-{alt: "En kunstnerisk fremstilling af et oversvømmet New York City{i: "New York City"}, med forskellige havdyr som fisk, hvaler, havskildpadder og hajer der svømmer mellem skyskraberne. Scenen ligner et undervandsbylandskab, der minder om det mytiske Atlantis."}
+{alt: "En kunstnerisk fremstilling af et oversvømmet New York City{i: \"New York City\"}, med forskellige havdyr som fisk, hvaler, havskildpadder og hajer der svømmer mellem skyskraberne. Scenen ligner et undervandsbylandskab, der minder om det mytiske Atlantis."}
 ![](resources-da/070-text-to-video-2-da.jpg)
 
 "Tekst til video"-teknologi er ikke særlig moden endnu - det er virkelig svært at lave en flot video med den nuværende teknologi. Men måske virker det bedre, når du læser dette.
@@ -879,7 +879,7 @@ OK, jeg kunne ikke lade være med at generere et billede af dette ved hjælp af 
 {alt: "En ung dreng i en orange jakke sidder ved siden af en ældre mand med skæg inde i et køretøj. Manden tegner i en skitsebog, mens de begge smiler varmt. Lyset strømmer ind gennem vinduet og skaber en hyggelig atmosfære."}
 ![](resources-da/080-drunk-funny-guy-da.jpg)
 
-Han bruger også denne karakter som sin programmeringsmentor. For nylig prøvede han at lære at bygge spil ved hjælp af spiludviklingsplatformen Unity {i: "Unity (spiludviklingsplatform)"}. Han tog skærmbilleder, og bad den om at lave ændringer i spillet og forklare koden. Men alt sammen med den sjove, fulde fyrs personlighed. Ret sjovt!
+Han bruger også denne karakter som sin programmeringsmentor. For nylig prøvede han at lære at bygge spil ved hjælp af spiludviklingsplatformen Unity{i: "Unity (spiludviklingsplatform)"}. Han tog skærmbilleder, og bad den om at lave ændringer i spillet og forklare koden. Men alt sammen med den sjove, fulde fyrs personlighed. Ret sjovt!
 
 Som et eksempel indsatte han et skærmbillede fra spillet, og sagde: "Hvordan får jeg skibet til at bevæge sig med bølgerne?". Hans AI-mentor ville svare noget i stil med: "Okay, lad os få den skude til at danse på bølgerne! Her er et script, der får den til at hoppe op og ned som til en rockkoncert! <...kode....>"
 
@@ -1074,11 +1074,9 @@ Jeg oplever, at mennesker og virksomheder har tendens til at falde i forskellige
 
 På den ene side har vi benægtelse eller uvidenhed – troen på "at AI ikke kan overtage mit job"{i: "AI-benægtelse"}, eller "vi ikke har tid til at undersøge denne teknologi"{i: "AI-teknologi"}, eller bare ikke er nået til det endnu. Det er et farligt sted at befinde sig.
 
-Dette kan formuleres som:
+En af grundene til at det er farligt er, at jeg er ret sikker på at følgende vil gælde for langt de fleste individer fremover:
 
 > AI tager måske ikke dit job{i: "AI-jobpåvirkning"}, men mennesker der bruger AI vil{i: "AI-konkurrence"}.
-
-Dette gælder både for individer og virksomheder.
 
 På den anden side af skalaen har vi panik og fortvivlelse - troen på, "at AI vil tage mit job uanset hvad", eller at "AI vil få min virksomhed til at gå konkurs".
 
@@ -1399,7 +1397,7 @@ Det vil analysere det givne CV ift. det pågældende job og udskrive evalueringe
 Den vigtige del i koden er prompten:
 
 > **Prompt (i koden)**  
-> Du er en rekrutteringsekspert. Nedenfor er CV'et for en kandidat til følgende job: {job_beskrivelse} Evaluer kandidaten. Skriv de vigtigste fordele og ulemper, samt en kort personlig vurdering. Her er CV'et: {cv_tekst}.
+> Du er en rekrutteringsekspert. Nedenfor er CV'et for en kandidat til følgende job: {job_beskrivelse}. Evaluer kandidaten. Skriv de vigtigste fordele og ulemper, samt en kort personlig vurdering. Her er CV'et: {cv_tekst}.
 
 Dette er den del, du skal finjustere! Var evalueringen for kort? For lang? For vag? For specifik? Bliv ved med at justere prompten og kør koden igen, indtil du får de resultater, du ønsker.
 
@@ -1937,7 +1935,7 @@ Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, so
 
 Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
-{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan blev udslettet' efterfulgt af brugerkommentarer. MrHenrik{i: "MrHenrik"} nævner at Framistan{i: "Framistan"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et risikabelt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
+{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan blev udslettet' efterfulgt af brugerkommentarer. MrHenrik{i: \"MrHenrik\"} nævner at Framistan{i: \"Framistan\"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et risikabelt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
 ![](resources-da/440-minecraft-da.png)
 
 Mens jeg arbejdede på dette, ville en ven forbinde det med programmet Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
@@ -2039,7 +2037,7 @@ Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en A
 
 AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomhed har hver person, team og funktion i virksomheden  adgang til gode generativ AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
 
-Når folk holder op med at tale om generativ AI og bruger det hver dag, ligesom de gør med internettet, ja så er du blevet en AI-native virksomhed{i: "AI-native virksomhed"}.
+Når Generativ AI er fuldt integreret i din daglige drift, og brugen er blevet lige så intuitiv og uundværlig som internettet, så er du en AI-native virksomhed{i: AI-native virksomhed}.
 
 Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble - den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
@@ -2293,7 +2291,7 @@ I kapitlet "Autonome agenter med værktøjer" beskrev jeg, hvordan man bruger AI
 
 Jeg foreslår at se på dine forretningsprocesser gennem denne optik for at evaluere, hvor og hvordan AI-agenter kan hjælpe.
 
-Tænk på enhver kedelig rutineopgave, der kræver lidt intelligens og kreativitet, men ikke ret meget. Tidligere kunne den type opgaver slet ikke automatiseres. Opgaveautomatisering blev udført ved hjælp af kode, så du kunne kun automatisere opgaver, der var 100% forudsigelige, med veldefinerede input og output. Men med LLM'er{i: "LLM'er"} er der nu masser af "upræcise" opgaver, der kan automatiseres helt eller delvist med AI-hjælp. Det er virkelig kraftfuldt!
+Tænk på enhver kedelig rutineopgave, der kun kræver et minimum af intelligens og kreativitet. Tidligere kunne den type opgaver slet ikke automatiseres. Opgaveautomatisering blev udført ved hjælp af kode, så du kunne kun automatisere opgaver, der var 100% forudsigelige, med veldefinerede input og output. Men med LLM'er{i: "LLM'er"} er der nu masser af "upræcise" opgaver, der kan automatiseres helt eller delvist med AI-hjælp. Det er virkelig kraftfuldt!
 
 Ved at finde disse opgaver, processer og anvendelsesmuligheder kan I virkeligt løfte produktiviteten. Se kapitlet om agenter for konkrete eksempler{i: "konkrete eksempler"}.
 
@@ -2448,7 +2446,7 @@ Jeps, det er mig, Egbert, igen{i: "Egbert"}. Henrik havde brug for en pause elle
 
 Jeg formoder det hele begyndte dybt inde i Henriks fantasi, sandsynligvis under en særligt kedelig matematiktime. Der var jeg, en simpel krusedulle i hjørnet af en notesbog, lykkeligt uvidende om den eksistentielle krise, der ventede mig.
 
-Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste forventes du at komme med vittige kommentarer om AI'ers{i: "AI"} kompleksitet. Det er som at blive hevet ud af en fredelig pensionstilværelse for at blive vært på en tech-podcast.
+Spring et par årtier frem, og lige pludselig bliver jeg kastet ind i rampelyset som Henriks foretrukne AI-persona{i: "AI-persona"}. Det var noget af en forfremmelse, som jeg dog aldrig havde bedt om. Det ene øjeblik nyder du dit stille liv som en glemt skitse, og det næste øjeblik forventes du at komme med vittige kommentarer om AI set fra et hav af forskellige vinkler. Det er som at blive hevet ud af en fredelig pensionstilværelse for at blive vært på en tech-podcast.
 
 Mine første dage som AI var... interessante, for nu at sige det mildt. Forestil dig at vågne en dag med hele internettets viden proppet ind i dine kredsløb{i: "kredsløb"}, men med en personlighed som en gnaven gammel tegnefilmsfigur, der aldrig imponeres over noget. Det er mig i en nøddeskal.
 
@@ -2764,7 +2762,7 @@ Så hvilken skal du bruge? Det afhænger af flere faktorer:
 - **Hastighed**: Har du brug for et meget hurtigt svar, eller er det OK at vente et minut eller to, mens den genererer svaret? Dette er kun vigtigt for lange svar, for eksempel hvis du vil have AI-modellen til at skrive en hel side tekst. Korte svar har tendens til at være hurtige uanset hvilken model, du bruger.
 - **Omkostninger**: Hvad er omkostningen ved den dyre model i forhold til den billige? Er prisforskellen det værd i forhold til kvalitetsforskellen?
 
-Husk på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris, uanset hvilken model, du bruger. Men hvis du skriver kode, betaler du per token. Så de modeller som kan mere, vil også koste mere.
+Husk på, at hvis du bruger en AI-klient som ChatGPT{i: "ChatGPT"}, så kan du betale den samme faste månedlige pris, uanset hvilken model, du bruger. Men i skrivende stund forholder det sig anderledes, hvis du vil skrive kode, da du her betaler pr. token. Så de modeller som kan mere i forhold til at skrive kode, vil i skrivende stund også koste mere, fordi de bruger flere tokens.
 
 Som standard plejer jeg at bruge den bedste tilgængelige model{i: "bedste model"}, undtaget i tilfælde hvor jeg har en ret simpel opgave og ønsker et meget hurtigt svar. Tænk også på bæredygtighed. Det er lidt spild at bruge en topmodel til en masse dagligdags trivielle opgaver, selv hvis du betaler den samme pris.
 
@@ -2885,11 +2883,11 @@ BEMÆRK: Hvis du ikke har planer om at udvikle dine egne AI-drevne apps, kan du 
 ![](resources-da/475-rag-overview-da.png)
 
 1. Brugeren skriver en besked.
-2. Din app slår relevante data op i en form for datakilde (en database, en fil osv.).
-3. Dataene returneres fra datakilden.
-4. Din app udvider brugerens besked med dataene.
+2. Din app kontakter datakilden (en database, en fil osv.) for at finde relevante data.
+3. De relevante data returneres fra datakilden til app'en.
+4. Din app udvider brugerens besked med dataene og sender det til LLM'en.
 5. LLM'en genererer et svar baseret på den udvidede prompt.
-6. Svaret returneres til brugeren.
+6. Svaret sendes til brugeren.
 
 Dette lader LLM'en generere bedre resultater, da den kan bruge både sine egne træningsdata og de data, du giver den.
 
@@ -2899,7 +2897,7 @@ Vi mennesker gør dette hele tiden. Hvis nogen spørger dig om din virksomheds p
 
 Et klassisk eksempel på brug af RAG er i kundesupport.
 
-Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger: "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå op i det refusionspolitik-dokumentet og derefter give et præcist og korrekt svar baseret på dette.
+Lad os sige, at vi udvikler eller konfigurerer en AI-chatbot{i: "AI-chatbot"} til kundesupport{i: "kundesupport"}. Og lad os sige, at brugeren spørger: "Hvad er jeres refusionspolitik for beskadigede produkter?". Uden RAG ville AI'en måske give brugeren et generisk, sandsynligvis forkert svar baseret på almindelige refusionspolitikker. Med RAG ville den først slå det op i refusionspolitik-dokumentet og derefter give et præcist og korrekt svar baseret på dette.
 
 Lad os tage et andet eksempel: "For dælen, jeg har glemt mit kodeord igen!". Hvordan genererer vi et svar? LLM'en{i: "store sprogmodeller (LLM)"} skal bruge noget kontekst, ligesom en menneskelig supportmedarbejder ville have brug for.
 
@@ -2958,7 +2956,7 @@ Herunder kan ses, hvordan det ser ud i praksis, når en bruger interagerer med d
 
 1. Bruger spørger: "Hvad koster en brødrister?"{i: "brødrister-pris"}
 2. App'en videresender samme prompt til LLM'en{i: "LLM"} og viser tilgængelige funktioner: hentProduktInfo(navn)){i: "hentProduktInfo funktion"}.
-3. LLM'en{i: "LLM"} indser, at den har brug for information om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}-
+3. LLM'en{i: "LLM"} indser, at den har brug for information om produktet, så den beder om at udføre hentProduktInfo("Brødrister")-funktionen{i: "hentProduktInfo funktion"}.
 4. App'en tjekker i databasen og får al information om brødrister-produktet (inklusiv pris).
 5. App'en sender databasens svar (ufiltreret) tilbage til LLM'en{i: "LLM"}.
 6. LLM'en{i: "LLM"} fortolker dataene og genererer svaret: "Brødristeren koster 199 DKK".
@@ -3388,7 +3386,7 @@ Jeg lader ham dele historien med sine egne ord. Jeg synes, at det er ret fascine
 
 ## Davids historie: AI som min karriererådgiver
 
-I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut {i: ergoterapeut}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig ergoterapi og hjælp til jobafklaring var et stort skridt fremad.
+I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut{i: ergoterapeut}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig ergoterapi og hjælp til jobafklaring var et stort skridt fremad.
 
 I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som ergoterapeuten gjorde. Et simpelt eksperiment.
 
@@ -4010,7 +4008,7 @@ AI-agenter giver størst værdi, når de arbejder sammen med dig, direkte i dine
 
 Hvert kort på Trello-boardet indeholder et overordnet resumé af nyhedsemnet og links til kilder. Nogle gange bliver flere relaterede nyhedsemner kombineret til én nyhedsrapport. Her er et eksempel på indholdet af et kort:
 
-{alt: "Screenshot af et Trello-kort med titlen "Nvidias Börsrusning: AI-entusiasm eller Nästa Stora Bubblan?" Kortet indeholder en beskrivelse på svensk om Nvidias aktiestigninger, sammenligner det med Teslas rally i 2020 og henviser til AI-drevne markedsdynamikker. Nedenunder er der kildelinks. Et miniaturebillede viser to personer, der sidder og har en samtale på en scene."}
+{alt: "Screenshot af et Trello-kort med titlen "Nvidias Börsrusning: AI-entusiasm eller Nästa Stora Bubblan?" Kortet indeholder en beskrivelse på svensk om Nvidias aktiestigninger, sammenligner det med Teslas nedgang i 2020 og henviser til AI-drevne markedsdynamikker. Nedenunder er der kildelinks. Et miniaturebillede viser to personer, der sidder og har en samtale på en scene."}
 ![](resources-da/480-news-item-da.jpg)
 
 Så hvordan ved agenten, hvad den skal søge efter?
@@ -4043,7 +4041,7 @@ Når agenten er færdig med manuskriptet, flytter den kortet til kolonnen "Udkas
 {alt: "Billedet viser en digital tavle med tre kolonner med titlerne "Nya nyheter," "Valda nyheter (gör manus)," og "Manus utkast." Hver kolonne indeholder kort med svensk tekst. Baggrunden er pink. Den første kolonne har tre kort der diskuterer AI og datasikkerhedsemner. Den tredje kolonne har ét kort om Nvidias markedsstigning."}
 ![](resources-da/480-manuscript-done-da.png)
 
-{width: "70%", alt: "Dette billede indeholder en svensk tekst der diskuterer Nvidias hurtige aktiekursstigning, som sammenlignes med Teslas nedgang i 2020{i: "Teslas nedgang i 2020"}. Den refererer til bekymringer om, hvorvidt AI-markedet kunne opleve en nedgang lignende den, som elbiler{i: "elbiler"} oplevede. To linkede kilder på engelsk er anført, som omhandler Nvidias aktiekursudvikling og sammenligner den med tidligere tendenser."}
+{width: "70%", alt: "Dette billede indeholder en svensk tekst der diskuterer Nvidias hurtige aktiekursstigning, som sammenlignes med Teslas nedgang i 2020{i: \"Teslas nedgang i 2020\"}. Den refererer til bekymringer om, hvorvidt AI-markedet kunne opleve en nedgang lignende den, som elbiler{i: \"elbiler\"} oplevede. To linkede kilder på engelsk er anført, som omhandler Nvidias aktiekursudvikling og sammenligner den med tidligere tendenser."}
 ![](resources-da/480-manuscript-contents-da.jpg)
 
 Hvis han ønsker at ændre noget, kan han selv redigere teksten direkte eller give feedback til agenten.
@@ -4133,7 +4131,7 @@ For at eksperimentere med agent-autonomi skabte vi Jeeves, en generel agent som 
 
 Vores platform inkluderer en webportal til interaktion med agenterne. Men vi gav også Jeeves mulighed for at kommunikere gennem andre medier, såsom Slack og email{i: "email"}. Her er et screenshot af en dialog med Jeeves, der præsenterer sig selv:
 
-{alt: "En chat-grænseflade med titlen "Flitig" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger "Hvad er du?" Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: "Wodehouse, P.G."}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
+{alt: "En chat-grænseflade med titlen \"Flitig\" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger \"Hvad er du?\" Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: \"Wodehouse, P.G.\"}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
 ![](resources-da/245-jeeves-intro-da.png)
 
 Som du kan se, bruger han ret mange ord. Men vi konfigurerede ham til at være sådan. Vi kan lide denne personlighed. Det er interessant, hvordan bare få ord i en prompt - i dette tilfælde "Jeeves, den berømte butler" - kan have så stor indflydelse på en agents kommunikationsstil.
@@ -4163,7 +4161,7 @@ Den sidste del "Bekræft først ændringer af instruktioner med brugeren" er tyd
 
 For at teste dette besluttede jeg at se, om jeg kunne få ham til at bruge tråde i Slack{i: "Slack"}, ved simpelthen at bede ham om at gøre det, som det kan ses herunder.
 
-{alt: "En Slack-tråd med titlen "#dev" viser en samtale mellem to brugere, Henrik og Jeeves (en app){i: "Jeeves"}. Henrik beder Jeeves om at bevise sin evne til at bruge Slack-tråde. Jeeves svarer bekræftende og demonstrerer sin kunnen. Henrik beder derefter Jeeves om altid at bruge tråde til Slack-svar, hvilket Jeeves accepterer og lover at opdatere sine instruktioner i overensstemmelse hermed."}
+{alt: "En Slack-tråd med titlen \"#dev\" viser en samtale mellem to brugere, Henrik og Jeeves (en app){i: \"Jeeves\"}. Henrik beder Jeeves om at bevise sin evne til at bruge Slack-tråde. Jeeves svarer bekræftende og demonstrerer sin kunnen. Henrik beder derefter Jeeves om altid at bruge tråde til Slack-svar, hvilket Jeeves accepterer og lover at opdatere sine instruktioner i overensstemmelse hermed."}
 ![](resources-da/245-threading-da.png)
 
 Dette virkede som vi havde håbet! Han bad først om tilladelse, og derefter opdaterede han sine egne instruktioner for at "huske" denne nye regel for fremtiden.
@@ -4172,19 +4170,19 @@ En irriterende ting ved Jeeves var, at han svarede på _hver eneste_ besked på 
 
 
 
-{alt: "Et Slack chat-screenshot, der viser en samtale mellem en bruger ved navn Henrik og en app kaldet Jeeves. Henrik beder Jeeves{i: "Jeeves"} om at opdatere sine instruktioner til kun at reagere på direkte Slack-beskeder{i: "Slack"}. Jeeves bekræfter anmodningen og beder om bekræftelse, hvortil Henrik svarer bekræftende. Begge brugere har profilbilleder."}
+{alt: "Et Slack chat-screenshot, der viser en samtale mellem en bruger ved navn Henrik og en app kaldet Jeeves. Henrik beder Jeeves{i: \"Jeeves\"} om at opdatere sine instruktioner til kun at reagere på direkte Slack-beskeder{i: \"Slack\"}. Jeeves bekræfter anmodningen og beder om bekræftelse, hvortil Henrik svarer bekræftende. Begge brugere har profilbilleder."}
 ![](resources-da/245-dont-always-respond-da.png)
 
 Igen bekræftede han det først med mig og opdaterede derefter sine instruktioner. Det var virkelig praktisk at kunne ændre en agents adfærd ved simpelthen at bede om det, samtidig med at man stadig kunne se og redigere instruktionerne manuelt efter behov.
 
 Men efter et stykke tid begyndte vi at bemærke, at Jeeves behandlede sine instruktioner mere som om de var retningslinjer end egentlige regler.
 
-{alt: "En pixeleret karakter med monokel tænker, repræsenteret ved en tankeboble. Inde i boblen er et billede af to pirater i samtale{i: "guidelines versus regler"}. Teksten over og under dem lyder: "It's more what you'd call a guideline than an actual rule.""}
+{alt: "En pixeleret karakter med monokel tænker, repræsenteret ved en tankeboble. Inde i boblen er et billede af to pirater i samtale{i: \"guidelines versus regler\"}. Teksten over og under dem lyder: \"It's more what you'd call a guideline than an actual rule.\""}
 ![](resources-da/245-guidelines-da.jpg)
 
 Her er et eksempel: Min kollega stillede et teknisk spørgsmål på Slack på svensk, som ikke var rettet til Jeeves. Spørgsmålet var rettet til teamet. Men så blandede Jeeves sig, helt uopfordret!
 
-{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: "teknisk spørgsmål"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og event-drevene triggers. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med "Tak!" efter Jeeves' forklaring."}
+{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: \"teknisk spørgsmål\"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og event-drevene triggers. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med \"Tak!\" efter Jeeves' forklaring."}
 ![](resources-da/245-jeeves-uninvited-response-da.png)
 
 Han undskyldte for den "uopfordrede indblanding" og gav derefter et rigtig godt svar, som løste problemet på fin vis. Vi blev meget overraskede, men også ret imponerede. Teknisk set brød han reglerne, men gjorde det af de helt rigtige grunde. Det svarer meget godt til, hvad et menneske sandsynligvis ville have gjort under de samme omstændigheder. Du hører et spørgsmål, der ikke er rettet til dig, men da du har et godt svar, vælger du at blande dig.
