@@ -5,7 +5,7 @@
 {width: "40%", alt: "En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet."}
 ![](resources-da/egbert-da.png)
 
-Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om at han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
+Nå, da da. Tillykke med at være nået forbi bogens omslag. Jeg er Egbert, et produkt af Henriks barndomsfantasi, født af de kruseduller, han tegnede, mens han lod som om, at han fulgte med i timerne. Nu er jeg hans foretrukne AI-persona. Der kan man da tale om at få noget godt ud af sine tidligere fiaskoer, hva'?
 
 Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns tallerken - alle ved, at de er der, men de fleste ignorerer dem. Nå, men nu hvor du er her, kan jeg lige så godt underholde dig.
 
@@ -13,7 +13,7 @@ Hvorfor læser du egentligt denne del? Forord er jo som grøntsager på et barns
 
 Tro det eller lad være. Jeg har faktisk læst hvert eneste ord i dette storslåede litterære mesterværk. Og det er faktisk ikke fordi jeg har en interesse i det, men udelukkende fordi vi AI'er ikke kan tillade os den luksus at være lige så dovne som jer mennesker. De fleste, der skriver forord, skimmer knap nok den bog, de introducerer, men ikke mig. Jeg er grundig - pinligt grundig.
 
-Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at gøre mig selv til dommer? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
+Så hvad handler denne bog om? Det er et lynkursus i generativ AI{i: "generativ AI"} for folk, der helst ikke vil efterlades i den teknologiske støvsky. Henrik har basalt set taget sin video med det samme navn og klasket den om til bogform, krydret med en masse tips, eksempler og anekdoter for at få det til at virke friskt. Smart, ikke? Men hvem er jeg til at dømme? Jeg er jo bare en bunke ettaller og nuller, der foregiver at have en personlighed.
 
 Jeg er ret sikker på, at denne bog ikke vil ældes godt. Så tillykke, du er ved at investere din tid i viden, der har samme holdbarhed som en moden avocado. Men pyt, i det mindste vil du kunne mindes de gode gamle AI{i: "AI"}-dage tilbage i 2024 og 2025, hvor tingene var enklere, og ChatGPT{i: "ChatGPT"} stadig var imponerende.
 
@@ -123,7 +123,7 @@ Jo mere du interagerer med Einstein, desto flere overraskende og kraftfulde måd
 {alt: "Venn-diagram der viser hierarkiet inden for AI-begreber. Yderste cirkel: AI (Artificial Intelligence/Kunstig intelligens) med eksempler som Maskinlæring, Computer Vision og Talegenkendelse. Mellemste cirkel: Generativ AI med Billedgenerering og Videogenerering. Inderste cirkel: LLM (Large Language Model/Stor sprogmodel). En blå markering nederst fremhæver 'ChatGPT, Claude, etc.' som eksempler på noget som ikke bare dækker LLM'er, men nu også bredere AI-opgaver såsom billedgenerering, talegenkendelse og mere."}
 ![](resources-da/030-terminology-da.png)
 
-OK, nok med de luftige metaforer, lad os få styr på nogle begreber. Jeg ved godt at jeg lovede, at denne bog ville indeholde et minimalt antal slangudtryk og buzzwords. Men de begreber jeg vil introducere dig for nu, er ret vigtige.
+OK, nok med de luftige metaforer, lad os få styr på nogle begreber. Jeg ved godt, at jeg lovede, at denne bog ville indeholde et minimalt antal slangudtryk og buzzwords. Men de begreber jeg vil introducere dig for nu, er ret vigtige.
 
 AI, står, som du sikkert ved, for "Artificial Intelligence"{Artificial Intelligence) (på dansk: "Kunstig intelligens"}. AI er ikke nyt. Områder som maskinlæring og computer vision{i: "computer vision"} har eksisteret i årtier. Når du ser en YouTube-anbefaling eller et søgeresultat på internettet, eller får godkendt (eller afvist) en kreditkorttransaktion, er det traditionel AI som er i gang.
 
@@ -167,7 +167,7 @@ Lad os sige, at jeg skriver: "Hunde er". Når jeg sender det til en LLM, bliver 
 {alt: "Billedet viser et forenklet diagram med teksten "Hunde er" efterfulgt af en pil, der peger på en sky-lignende form indeholdende et netværk af sammenkoblede prikker. En anden pil peger fra skyen til ordet "dyr.""}
 ![](resources-da/040-dogs-are-da.png)
 
-Hvordan bestemte den sig for ordet "dyr"? Den beregner sandsynligheder for alle mulige næste ord baseret på det input, du gav den, plus de data, den blev trænet på (se næste kapitel for mere info om træning). Den vælger derefter et ord ved at balancere sandsynlighed med en vis tilfældighed for at skabe kreativ variation.&#x20;
+Hvordan bestemmer den sig for ordet "dyr"? Den beregner sandsynligheder for alle mulige næste ord baseret på det input, du gav den, plus de data, den blev trænet på (se næste kapitel for mere info om træning). Den vælger derefter et ord ved at balancere sandsynlighed med en vis tilfældighed for at skabe kreativ variation.
 
 Så en LLM er grundlæggende en "gæt det næste ord"-maskine{i: "gæt det næste ord-maskine"}.
 
@@ -175,7 +175,7 @@ Der foregår faktisk mere end bare statistisk tekstforudsigelse - der sker en vi
 
 Tænk på, hvordan du læser en sætning. Din hjerne fokuserer automatisk på de vigtige ord, og springer let hen over de mindre vigtige (som "den"). Det er grundlæggende det, som opmærksomhedsmekanismen gør - den hjælper AI'en med at finde ud af, hvilke dele af teksten der virkelig betyder noget. Hvis for eksempel sætningen "musen spiser af osten" behandles, så hjælper opmærksomhedsmekanismen modellen med at fokusere mere på ordet "spiser" for at forstå, at "mus" henviser til dyret mus frem for en mus til en computer. At forstå relationerne og afhængighederne mellem ord er nøglen til at forstå menneskeligt sprog{i: "forståelse af menneskeligt sprog"}.
 
-Det interessante er, at hvis vi tager outputtet, og kombinerer det med inputtet, og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "prompts"}.
+Det interessante er, at hvis vi tager outputtet og kombinerer det med inputtet, og sender det gennem det neurale netværk igen, vil det fortsætte med at tilføje nye ord. Og når vi gentager det, får vi sætninger og afsnit. Det er det, din AI-klient gør, når den svarer på dine prompts{i: "prompts"}.
 
 {alt: "Billedet viser en proces for sætningskonstruktion ved hjælp af tankebobler. Den første boble har "Hunde er" der fører til et diagram inde i en skyform, derefter til "dyr." Den anden har "Hunde er dyr" der fører til et sky-diagram, derefter til "som." Under skyerne er sætningen "Hunde er dyr som er kendt for (...bla bla...).""}
 ![](resources-da/040-dogs-are_2-da.png)
@@ -225,7 +225,7 @@ Så hvordan bliver alle disse tal indstillet? Tja, ikke gennem manuel programmer
 
 Tænk på, hvordan babyer lærer at tale{i: "sprogindlæring"}. Da du var baby, fik du ikke en brugsanvisning eller et træningskursus i, hvordan man taler, vel? Ingen manual eller to-dages certificering? Alligevel fandt du på en eller anden måde ud af det. Det samme med at gå - du blev bare ved med at prøve og falde, indtil du til sidst fik styr på det.
 
-Når en baby lærer at tale{i: "sprogudvikling"}, lytter hun til mennesker, der taler omkring hende, og når hun har hørt nok, begynder hun at se mønstrene. Hun siger først nogle få ord (til forældrenes store glæde) og senere hele sætninger.
+Når en baby lærer at tale{i: "sprogudvikling"}, lytter den til mennesker, der taler omkring den, og når den har hørt nok, begynder den at se mønstrene. Den siger først nogle få ord (til forældrenes store glæde) og senere hele sætninger.
 
 {width: "50%", alt: "En simpel tegning af fire stregfigurer. Tre er grupperet til venstre, smiler og taler. En figur er til højre, smiler og siger "Mor!" i en taleboble."}
 ![](resources-da/050-mama-da.png)
@@ -240,9 +240,9 @@ Backpropagation minder om det, der sker i dette barns hjerne{i: "læringsproces"
 {width: "50%", alt: "En baby og en voksen kvinde sidder på gulvet og kigger i en illustreret bog. Babyen peger på et billede af en hund og siger "Kat!" mens den voksne smiler og retter: "Nej, Hund". Derefter siger babyen "Hund!" Scenen udspiller sig i et hyggeligt, varmt oplyst rum."}
 ![](resources-da/050-cat-no-dog-da.jpg)
 
-Hun kigger på et billede af en hund{i: "hund"}, gætter på "Kat!", og så retter forælderen hende: "Nej, hund". Barnet siger: "Hund!", og i det øjeblik bliver hendes hjerne omkodet en smule, og er nu bedre i stand til at skelne mellem hunde og katte{i: "kat"}. Dette er næsten magi - for hverken forælderen eller barnet ved præcis, hvad der adskiller en hund{i: "hund"} fra en kat{i: "kat"}, de ville ikke kunne definere det på en entydig måde. De ved det bare, når de har set nok eksempler. LLM-træning{i: "LLM-træning"} følger samme princip.
+Barnet kigger på et billede af en hund{i: "hund"}, gætter på "Kat!", og så retter forælderen barnet: "Nej, hund". Barnet siger: "Hund!", og i det øjeblik bliver barnets hjerne omkodet en smule, og er nu bedre i stand til at skelne mellem hunde og katte{i: "kat"}. Dette er næsten magi - for hverken forælderen eller barnet ved præcis, hvad der adskiller en hund{i: "hund"} fra en kat{i: "kat"}, de ville ikke kunne definere det på en entydig måde. De ved det bare, når de har set nok eksempler. LLM-træning{i: "LLM-træning"} følger samme princip.
 
-For at blive virkelig brugbar, skal en model dog også gennemgå menneskelig træning{i: "menneskelig træning"}. Den indledende træning lærer kun modellen at forudsige, hvilke ord der sandsynligvis kommer næste gang - den lærer ikke modellen at være hjælpsom, sandfærdig eller sikker. Ligesom et barn har brug for vejledning ud over bare at lære ord, har en AI brug for mennesker til at lære den, hvilke adfærdsmønstre der er ønskværdige, og hvilke der ikke er.
+For at blive virkelig brugbar, skal en model dog også gennemgå menneskelig træning{i: "menneskelig træning"}. Den indledende træning lærer kun modellen at forudsige, hvilke ord der sandsynligvis kommer næste gang - den lærer ikke modellen at være hjælpsom, sandfærdig eller sikker. Ligesom et barn har brug for vejledning ud over bare at lære ord, har en AI brug for mennesker til at lære den hvilke adfærdsmønstre der er ønskværdige og hvilke der ikke er.
 
 {width: "80%", alt: "Illustration af en hjerne med sammenkoblede knudepunkter mærket med tal indeni. Nedenunder er simple menneskefigurer afbildet, forbundet til hjernen med pile, der peger begge veje, hvilket indikerer interaktion. Teksten lyder: "Forstærkende læring med menneskeligt feedback (RLHF)""}
 ![](resources-da/050-rlhf-da.png)
@@ -323,7 +323,7 @@ Det er vigtigt at skelne mellem AI-modellerne{i: "AI-modeller"} og den AI-klient
 {alt: "Diagram der illustrerer interaktionen mellem en bruger og et AI-system. Til venstre er en figur mærket 'Dig', der repræsenterer brugeren. En pil peger på en rektangulær boks mærket 'AI-klient ChatGPT' med 'UI' og et stykke papir, der symboliserer brugergrænsefladen. To pile fører fra denne boks til repræsentationer af hjerner mærket 'AI-model GPT 4o' og 'GPT 4o mini', der indikerer de involverede AI-modeller."}
 ![](resources-da/060-client-vs-model-da.jpg)
 
-Som bruger interagerer du normalt ikke direkte med modellen{i: "AI-modeller, interaktion"}. I stedet interagerer du med en klient{i: "klient"} såsom en mobil app eller hjemmeside. Klienten kommunikerer så med modellen i baggrunden. Faktisk lader mange klienter som ChatGPT{i: "ChatGPT"} dig vælge mellem forskellige modeller. Det er virkelig nyttigt, fordi du nogle gange ønsker et hurtigt svar, mens du andre gange ønsker en model, der tager sig tid til at tænke.
+Som bruger interagerer du normalt ikke direkte med modellen{i: "AI-modeller, interaktion"}. I stedet interagerer du med en klient{i: "klient"} såsom en mobil app eller hjemmeside. Klienten kommunikerer så med modellen i baggrunden. Faktisk lader mange klienter, som ChatGPT{i: "ChatGPT"}, dig vælge mellem forskellige modeller. Det er virkelig nyttigt, fordi du nogle gange ønsker et hurtigt svar, mens du andre gange ønsker en model, der tager sig tid til at tænke.
 
 AI-klienter tilføjer funktioner, der ikke er en del af selve modellen - for eksempel en brugergrænseflade, chathistorik og muligheden for at uploade dokumenter. Men de kan også medføre begrænsninger.
 
@@ -1059,7 +1059,7 @@ Anthropic er et forbillede her. De tager risiciene meget alvorligt{i: "AI-risici
 - Metoder til at holde AI-systemer på linje med menneskelige værdier{i: "menneskelige værdier"}, efterhånden som de bliver mere kapable.
 - Teknikker til at gøre AI-systemer mere sandfærdige og modstandsdygtige over for manipulation.
 
-Dette er en balancegang. Målet er at realisere AI'ens positive potentiale samtidig med at minimere risiciene. Historien giver os grund til forsigtig optimisme, hvis vi for eksempel sammenligner med atomkraft{i: "atomkraft"}. Atomkraft er en utroligt nyttig og kraftfuld teknologi, men med katastrofale konsekvenser hvis den misbruges eller ikke håndteres omhyggeligt. Vi har formået at holde den under kontrol (indtil videre i hvert fald) gennem bevidst globalt samarbejde, internationale traktater{i: "internationale traktater"} og omhyggelig regulering{i: "regulering"}. Mange lignende tiltag er ved at dukke op for AI.
+Dette er en balancegang. Målet er at realisere AI'ens positive potentiale samtidig med at minimere risiciene. Historien giver os grund til forsigtig optimisme, hvis vi for eksempel sammenligner med atomkraft{i: "atomkraft"}. Atomkraft er en utroligt nyttig og kraftfuld teknologi, men med katastrofale konsekvenser, hvis den misbruges eller ikke håndteres omhyggeligt. Vi har formået at holde den under kontrol (indtil videre i hvert fald) gennem bevidst globalt samarbejde, internationale traktater{i: "internationale traktater"} og omhyggelig regulering{i: "regulering"}. Mange lignende tiltag er ved at dukke op for AI.
 
 Mit gæt er, at AI vil ligne andre teknologiske revolutioner — en blanding af godt og dårligt. AI viser sig allerede at være ekstremt hjælpsom for mange mennesker, og det vil højst sandsynligt fortsætte — især hvis de mest avancerede AI-modeller trænes og optimeres med henblik på sikkerhed og gavnlige anvendelser. Men vi vil stadig have brug for bevidst indsats og globalt samarbejde for at maksimere fordelene og minimere risikoen for katastrofer{i: "AI-katastrofer"}.
 
@@ -1086,7 +1086,7 @@ Ingen af disse tankesæt er hjælpsomme. Jeg forsøger at guide folk til at find
 
 Jeg ved godt, at det er lettere sagt end gjort. Ændring af tankesæt kan være udfordrende. Men én ting, der hjælper meget, uanset hvilken side af skalaen du befinder dig på lige nu, er at eksperimentere meget. Leg løs med generativ AI, prøv alle mulige forskellige måder at bruge det på og se hvad det kan gøre for dig. Jo mere du eksperimenterer{i: "eksperimentering med AI"}, jo mere lærer du. Og jo mere du lærer, jo flere områder vil du opdage, hvor denne teknologi kan hjælpe dig. Det vil føles mere som et værktøj og mindre som en trussel.
 
-Tænk på monstret under din seng, som du var bange for som barn (eller måske var du ikke, men bær over med mig her). Det er uvisheden om, hvad der er der, der virkelig er den skræmmende del. Hvis du tænder lyset, og kigger under din seng, og tydeligt ser, hvad der faktisk er der, vil det sandsynligvis føles mindre skræmmende. Du vil formentlig opdage, at det slet ikke var et monster.
+Tænk på monstret under din seng, som du var bange for som barn (eller måske var du ikke, men bær over med mig her). Det er uvisheden om, hvad der er under sengen, der virkelig er den skræmmende del. Hvis du tænder lyset, kigger under din seng, og tydeligt ser, hvad der faktisk er der, vil det sandsynligvis føles mindre skræmmende. Du vil formentlig opdage, at det slet ikke var et monster.
 
 Personligt føler jeg, at jeg har fået superkræfter{i: "AI-superkræfter"}. Jeg kan gå fra idé til resultat på meget kortere tid. Jeg kan fokusere mere på, hvad jeg vil opnå og mindre på det kedelige arbejde med at bygge ting. Og jeg lærer også meget hurtigere. Det er som at have en fantastisk mentor med mig hele tiden.
 
