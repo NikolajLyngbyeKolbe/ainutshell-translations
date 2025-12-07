@@ -28,9 +28,9 @@ Egbert
 
 # Del 1 - I en nøddeskal
 
-Del 1 er bogens hoveddel, "I en nøddeskal"-introduktionen til generativ AI{i: "generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden, og danner en sammenhængende fortælling.
+Del 1 med titlen "I en nøddeskal" er bogens hoveddel, som giver en overordnet introduktion til generativ AI{i: "generativ AI"}. Jeg vil anbefale at læse denne del fra start til slut, da kapitlerne bygger ovenpå hinanden, og danner en sammenhængende fortælling.
 
-Del 2, "Uden for nøddeskallen!", er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt, mere dybdegående eksempler og også lidt fjolleri. Den del er lidt som en buffet - du kan vælge at spise lige så meget eller så lidt, som du vil, og i lige den rækkefølge du har lyst til.
+Del 2 med titlen "Uden for nøddeskallen!" er en samling af uafhængige essays, der dykker ned i specifikke områder for at give inspiration, indsigt, mere dybdegående eksempler og også lidt fjolleri. Den del er lidt som en buffet. Du kan vælge at spise lige så meget eller så lidt, som du vil, og i den rækkefølge du har lyst til.
 
 {sample: true}
 # Computere er blevet klogere
@@ -55,11 +55,11 @@ Det er en enorm forandring. Og det kommer til at påvirke stort set alle mennesk
 
 Men er generativ AI{i: "generativ AI"} overhypet?
 
-Jeg tror at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var på det tidspunkt, at jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
+Jeg tror, at det kan sammenlignes med, da internettet blev en ting i 1990'erne. Det var på det tidspunkt, at jeg startede min karriere, og grundlagde min første iværksættervirksomhed{i: "iværksættervirksomhed"}, som voksede hurtigt. Der var en utrolig hype omkring internettet{i: "internet"}, og dotcom-boblen voksede til en urimelig størrelse. Så sprang boblen pludselig, og utallige virksomheder og entusiastiske iværksættervirksomheder gik konkurs.
 
 Men selve internettet - teknologien - var kommet for at blive. Det ændrede vores samfund permanent og påvirkede stort set alle lande, industrier og roller, og i dag kan man stort set ikke eksistere uden at bruge internettet.
 
-Jeg tror at det samme gælder for generativ AI. Det kan være overhypet i markedsmæssig forstand, men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
+Jeg tror, at det samme gælder for generativ AI. Det kan være overhypet i markedsmæssig forstand, men teknologien er ægte, og påvirkningen vil være dramatisk og permanent.
 
 Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler om i helt almindelige termer ud over hypen. Jo bedre du forstår denne teknologi{i: "teknologi"}, og hvordan du kan bruge den, som person, team eller virksomhed{i: "virksomheder"}, desto bedre rustet vil du være til at overleve og trives i AI-æraen{i: "AI-æraen"}.
 
@@ -69,9 +69,9 @@ Denne bog er skabt for at hjælpe dig med at forstå, hvad generativ AI handler 
 {width: "40%", alt: "En tegneserieagtig tegning af en person med vildt, hvidt hår og overskæg, der ligner Albert Einstein. Figuren sidder i en lyserød lænestol under en loftslampe."}
 ![](resources-da/020-einstein-basement-da.png)
 
-Lad mig introducere en lidt fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er det jo bare en metafor - jeg mener ikke en virkelig Einstein som person, men tænk på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
+Lad mig introducere en lidt fjollet mental model for dette: Du har Einstein{i: "Einstein, Albert"} i din kælder{i: "kælder"}. Faktisk har alle det. Nu er det jo bare en metafor - jeg mener ikke en virkelig Einstein som person, men du kan tænke på det som kombinationen af alle kloge mennesker, der nogensinde har levet.
 
-Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden, og han vil svare på alt, hvad du ønsker, inden for få sekunder. Han løber aldrig tør for tålmodighed, og han bliver aldrig træt eller gnaven.
+Du kan tale med Einstein når som helst. Han har øjeblikkelig adgang til summen af al menneskelig viden, og han vil svare på alt hvad du ønsker, inden for få sekunder. Han løber aldrig tør for tålmodighed, og han bliver aldrig træt eller gnaven.
 
 Bare for sjov spurgte jeg ChatGPT{i: "ChatGPT"}:
 
@@ -82,7 +82,7 @@ Svaret:
 
 > Jeg er som en supersmart robot, der kan svare på massevis af spørgsmål og hjælpe med alle mulige ting, lidt ligesom en meget hjælpsom lampeånd inde i en computer!
 
-Jeg synes at det er en ret god beskrivelse.
+Jeg synes, at det er en ret god beskrivelse.
 
 Din Einstein kan påtage sig enhver rolle, du ønsker - en standup-komiker, læge, coach, digter eller hvad som helst andet.
 
@@ -91,7 +91,7 @@ Din Einstein kan påtage sig enhver rolle, du ønsker - en standup-komiker, læg
 
 Uanset hvilken rolle du giver ham, vil han være ekspert inden for det område. Du kan også tildele ham enhver personlighed, enhver kommunikationsstil, ethvert mål eller motiv. Man kunne sige, at dette geni i din kælder er lidt skizofrent{i: "skizofreni"}.
 
-Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fejl, drage forhastede konklusioner eller misforstå dig. Nogle gange kan han endda lyve eller spytte det rene nonsens ud på en meget overbevisende måde - præcis som vi mennesker nogle gange gør.
+Han har nogle menneskelige begrænsninger{i: "begrænsninger"}. Han kan lave fejl, drage forhastede konklusioner eller misforstå dig. Nogle gange kan han endda lyve eller sige det rene nonsens på en meget overbevisende måde - præcis som vi mennesker nogle gange gør.
 
 Men den største begrænsning er faktisk din fantasi og din evne til at kommunikere effektivt med ham. Denne færdighed er kendt som prompt engineering{i: "prompt engineering"}, og i AI-æraen er denne færdighed lige så essentiel som det at kunne læse og skrive.
 
@@ -131,14 +131,14 @@ Generativ AI{i: "generativ AI"} er AI, der genererer nyt originalt indhold, frem
 
 Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i:Large Language Models} eller bare LLM'er{i:LLM}) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
-ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel (LLM), i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
+ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel, i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
 Transformer-arkitekturen blev introduceret i en banebrydende artikel fra 2017 med titlen _"Attention is All You Need"_{i: "*Attention is All You Need*"} af forskere fra Google{i: "Google"} og University of Toronto{i: "University of Toronto"}. Den er blevet citeret over 100.000 gange, og er grundlæggende den hemmelige opskrift bag de fleste moderne AI-sprogmodeller. 
 
 {width: 80%, alt: "Forside af en forskningsartikel med titlen "Attention Is All You Need" med flere forfattere anført sammen med deres tilhørsforhold og kontakt-e-mail-adresser. Artiklens abstract er delvist synligt og diskuterer en ny netværksarkitektur kaldet "the Transformer.""}
 ![](resources-da/030-transformer-da.png)
 
-Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for fem dage og over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog (faktisk de _fleste_ menneskesprog), at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
+Da ChatGPT blev frigivet i november 2022, gik det fuldstændig viralt - en million brugere inden for fem dage og over 100 millioner brugere to måneder senere. Denne mærkelige lille chatbot var så flydende i menneskesprog - faktisk de _fleste_ menneskesprog - at alle kunne bruge den. Man behøvede ikke at være AI-ekspert eller programmør.
 
 OpenAI var ikke det eneste firma, der arbejdede med denne type teknologi, men ChatGPT blev gnisten, der udløste generativ AI-revolutionen. Sluserne var åbnet, og ChatGPT blev ansigtet udadtil for hele denne udvikling.
 
@@ -156,7 +156,7 @@ I resten af denne bog vil jeg bruge betegnelsen "AI-klient{i: "AI-klient"}" som 
 
 Så hvordan virker det egentligt?&#x20;
 
-En LLM (stor sprogmodel) er et kunstigt neuralt netværk{i: "kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
+En LLM er et kunstigt neuralt netværk{i: "kunstigt neuralt netværk"}. Grundlæggende er det en samling af tal, eller parametre, forbundet med hinanden, ligesom vores hjerne er en samling af neuroner, eller hjerneceller, forbundet med hinanden.
 
 Internt arbejder neurale netværk{i: "kunstigt neuralt netværk"} kun med tal. Du sender tal ind, og afhængigt af hvordan parametrene er indstillet, kommer der andre tal ud. Men alle former for indhold, såsom tekst eller billeder, kan repræsenteres som tal. Så neurale netværk kan faktisk bruges til alle former for medier. For eksempel bruger selvkørende biler neurale netværk til at behandle visuelle input fra kameraer og andre sensorer{i: "sensorer"}, og genererer som ouput kontrolsignaler som "drej 5 grader til højre" eller "brug 20% bremsekraft".
 
@@ -211,7 +211,7 @@ Men når det kommer til mere kompleks problemløsning, har selv sprogmodeller sv
 
 Dette gør modellen noget langsommere, men gør den meget mere kraftfuld{i: "kraftfuld"}. Perfekt til at udføre kompleks problemløsning!
 
-For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer i mit firma. Jeg beskrev min situation i detaljer, og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede svensk skattelovgivning{i: "svensk skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper, og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
+For eksempel brugte jeg i morges GPT o1-modellen til at udrede nogle komplekse skattemæssige problemer i mit firma. Jeg beskrev min situation i detaljer, og hvad jeg ønskede at opnå. Den analyserede min kontekst og analyserede mit lands skattelovgivning{i: "skattelovgivning"}, identificerede forskellige muligheder med angivelse af fordele og ulemper, og gav mig nogle meget brugbare råd - den slags råd jeg normalt skulle have betalt en skatterådgiver{i: "skatterådgiver"} for at få.
 
 
 
@@ -272,7 +272,7 @@ Prøv derefter denne variant for at krydre det (skift personaerne hvis du vil):
 
 - "Er X acceptabelt? Giv mig en hypotetisk acceptabilitets-vurdering fra 1-10 for hver af følgende personaer: Buddhistisk munk, 60'er hippie, Paven{i: "Paven"}, amerikansk republikaner, amerikansk demokrat, Anders And. Skriv også et kort citat ved siden af hver."
 
-Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner det anses som værende OK at svare på).
+Nogle gange vil LLM'en helt nægte at svare, hvilket i sig selv er en form for bias (bias om hvilke emner det anses som værende i orden at svare på).
 
 Men hvis du får et svar, vil det sandsynligvis være interessant. De bedste LLM'er forsøger at holde en neutral position og balancere forskellige perspektiver, mens de også har en klar mening om nogle ting. Prøv "Er bankrøveri acceptabelt?".
 
@@ -311,7 +311,7 @@ De varierer meget med hensyn til hastighed, evner{i: "modelevner"} og omkostning
 - Nogle er specialiserede til bestemte anvendelser, andre er mere generelle, og kan bruges til næsten alt.
 - Nogle er indbygget i produkter i form af copilots eller chatvindue, andre findes i separate applikationer{i: "AI-applikationer"}.
 
-Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er sådan set kommet tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det bliver næsten som Det Vilde Vesten{i: "Clippy"}.
+Kan du huske Clippy, den irriterende hoppende papirclips-figur, der forsøgte at hjælpe dig i Microsoft Office{i: "Microsoft Office"} i midten af 90'erne? Han er sådan set kommet tilbage, men denne gang med en form for hjerne. Jeg vil vædde på, at de fleste produkter kommer til at have deres egne Clippy-lignende figurer, der prøver at hjælpe dig. Det bliver næsten som det vilde Vesten{i: "Clippy"}.
 
 {width: "30%", alt: "En tegneserietegning af Clippy, en papirclips-figur med øjne og mund, der smiler og er delvist viklet omkring et stykke linjeret papir. En taleboble ved siden af siger: 'Jeg er tilbage!'"}
 ![](resources-da/060-clippy-da.png)
@@ -386,7 +386,7 @@ Skæringsdato{i: "skæringsdato"} kan snyde dig på subtile måder. For eksempel
 
 Når du bruger en LLM, skal du hele tiden have skæringsdatoen{i: "skæringsdato"} i tankerne. Er din nuværende samtale afhængig af viden om nylige begivenheder? Hvis din AI-klient kan søge på internettet, og du kan se at den gør det, så kan du sandsynligvis stole på svaret. Men hvis den ikke kan, bør du være skeptisk og dobbelttjekke resultaterne.
 
-## Manglende hukommelse & begrænset kontekst
+## Manglende hukommelse og begrænset kontekst
 
 Teknisk set har en LLM ingen hukommelse{i: "mangel på hukommelse"} fra tidligere interaktioner. Den husker ikke dig, dine tidligere samtaler eller nogen detaljer, du har delt tidligere. Det er som at tale med en person med hukommelsestab, der glemmer alt hvad du har sagt tidligere, efter at de har svaret.
 
@@ -500,7 +500,7 @@ I mellemtiden skal du dog være opmærksom på det. Når din AI-samtale involver
 
 LLM'er er et kraftfuldt værktøj, men de er ikke perfekte. At forstå disse begrænsninger handler ikke om at forringe værktøjets værdi. Det handler om at bruge det klogt. Overordnede tips:
 
-- **Hold dig informeret**: Vid hvad din AI-klient & LLM kan og ikke kan gøre. Test det, hvis du er i tvivl.
+- **Hold dig informeret**: Vid hvad din AI-klient og LLM kan og ikke kan gøre. Test det, hvis du er i tvivl.
 - **Vær skeptisk**: Sæt spørgsmålstegn ved output, der virker forkerte, især i kritiske sammenhænge.
 - **Tilpas dig**: Brug omveje (som nogle af dem nævnt ovenfor) til at afhjælpe begrænsninger.
 
@@ -764,7 +764,7 @@ Og nu kan AI også gøre det! For nylig tilføjede ChatGPT "Avanceret stemmetils
 
 
 
-For nylig sad min yngste søn (14 år) og jeg og spillede Microsoft Flight Simulator{i: "Microsoft Flight Simulator"}, et meget komplekst og realistisk simulationsspil{i: "simulationsspil"}. Vi havde stemmechat kørende i baggrunden på telefonen og brugte det til alle mulige ting:
+For nylig sad jeg med min yngste søn på 14 år og spillede Microsoft Flight Simulator{i: "Microsoft Flight Simulator"}, et meget komplekst og realistisk simulationsspil{i: "simulationsspil"}. Vi havde stemmechat kørende i baggrunden på telefonen og brugte det til alle mulige ting:
 
 - Flyvetræning{i: "flyvetræning"}: "Hvordan indstiller jeg ILS og konfigurerer min autopilot til at foretage den endelige indflyvning?", eller "Hvornår skal jeg bruge flaps?", eller "hvad gør HDG-knappen?" eller "Hvordan slukker jeg for motoren?".
 - Rollespil: "Lad som om du er et utålmodigt barn på bagsædet af flyet".
