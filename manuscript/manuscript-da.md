@@ -795,7 +795,7 @@ Men "lyd til lyd"-modeller kan bruges til mere end bare at tale, såsom:
 {alt: "Et kig gennem et togvindue, der viser en refleksion af mennesker inde i toget. Udendørsscenen inkluderer Tokyos forstæder med huse og bygninger, set under rejsen. Himlen er delvist skyet, og der er synlige elledninger."}
 ![](resources-da/070-text-to-video-1-da.jpg)
 
-{alt: "En kunstnerisk fremstilling af et oversvømmet New York City{i: \"New York City\"}, med forskellige havdyr som fisk, hvaler, havskildpadder og hajer der svømmer mellem skyskraberne. Scenen ligner et undervandsbylandskab, der minder om det mytiske Atlantis."}
+{alt: "En kunstnerisk fremstilling af et oversvømmet New York City{i: "New York City"}, med forskellige havdyr som fisk, hvaler, havskildpadder og hajer der svømmer mellem skyskraberne. Scenen ligner et undervandsbylandskab, der minder om det mytiske Atlantis."}
 ![](resources-da/070-text-to-video-2-da.jpg)
 
 "Tekst til video"-teknologi er ikke særlig moden endnu - det er virkelig svært at lave en flot video med den nuværende teknologi. Men måske virker det bedre, når du læser dette.
@@ -1936,7 +1936,7 @@ Min største aha-oplevelse fik jeg, da jeg arbejdede på Egbert{i: "Egbert"}, so
 
 Det var sådan Egbert blev født som en AI-persona. Det startede som et lille hack, men udviklede sig til en platform for at kunne tilføje AI-chatbots til steder som Discord, Slack{i: "Slack"}, Minecraft-servere osv. AI-chatbots'ne har endda hukommelse, dvs. at de lærer ting om de mennesker og det miljø, de interagerer med. Her er et Minecraft-screenshot af Egbert, der driller en spiller, som lige er død.
 
-{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan blev udslettet' efterfulgt af brugerkommentarer. MrHenrik{i: \"MrHenrik\"} nævner at Framistan{i: \"Framistan\"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et risikabelt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
+{alt: "In-game chat-tekst fra en multiplayer-session viser: 'Framistan blev udslettet' efterfulgt af brugerkommentarer. MrHenrik{i: "MrHenrik"} nævner at Framistan{i: "Framistan"} igen er kommet i problemer og spørger Egbert om han ved hvad der skete. Egbert forudsiger at Framistan tog på endnu et risikabelt eventyr og døde langt fra spawn som sædvanlig, og bemærker at han ikke kan modstå spændingen ved fare."}
 ![](resources-da/440-minecraft-da.png)
 
 Mens jeg arbejdede på dette, ville en ven forbinde det med programmet Telegram, da hans familie brugte det chatsystem. Vi satte os ned sammen og forventede at bruge en aften eller to på at læse dokumentationen for Telegram og famle os frem til at få det til at virke. Jeg havde aldrig brugt Telegram før og vidste ikke rigtig noget om det.
@@ -4042,7 +4042,7 @@ Når agenten er færdig med manuskriptet, flytter den kortet til kolonnen "Udkas
 {alt: "Billedet viser en digital tavle med tre kolonner med titlerne "Nya nyheter," "Valda nyheter (gör manus)," og "Manus utkast." Hver kolonne indeholder kort med svensk tekst. Baggrunden er pink. Den første kolonne har tre kort der diskuterer AI og datasikkerhedsemner. Den tredje kolonne har ét kort om Nvidias markedsstigning."}
 ![](resources-da/480-manuscript-done-da.png)
 
-{width: "70%", alt: "Dette billede indeholder en svensk tekst der diskuterer Nvidias hurtige aktiekursstigning, som sammenlignes med Teslas nedgang i 2020{i: \"Teslas nedgang i 2020\"}. Den refererer til bekymringer om, hvorvidt AI-markedet kunne opleve en nedgang lignende den, som elbiler{i: \"elbiler\"} oplevede. To linkede kilder på engelsk er anført, som omhandler Nvidias aktiekursudvikling og sammenligner den med tidligere tendenser."}
+{width: "70%", alt: "Dette billede indeholder en svensk tekst der diskuterer Nvidias hurtige aktiekursstigning, som sammenlignes med Teslas nedgang i 2020{i: "Teslas nedgang i 2020"}. Den refererer til bekymringer om, hvorvidt AI-markedet kunne opleve en nedgang lignende den, som elbiler{i: "elbiler"} oplevede. To linkede kilder på engelsk er anført, som omhandler Nvidias aktiekursudvikling og sammenligner den med tidligere tendenser."}
 ![](resources-da/480-manuscript-contents-da.jpg)
 
 Hvis han ønsker at ændre noget, kan han selv redigere teksten direkte eller give feedback til agenten.
@@ -4132,7 +4132,7 @@ For at eksperimentere med agent-autonomi skabte vi Jeeves, en generel agent som 
 
 Vores platform inkluderer en webportal til interaktion med agenterne. Men vi gav også Jeeves mulighed for at kommunikere gennem andre medier, såsom Slack og email{i: "email"}. Her er et screenshot af en dialog med Jeeves, der præsenterer sig selv:
 
-{alt: "En chat-grænseflade med titlen \"Flitig\" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger \"Hvad er du?\". Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: \"Wodehouse, P.G.\"}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
+{alt: "En chat-grænseflade med titlen "Flitig" viser en samtale mellem en bruger og en AI-assistent ved navn Jeeves. Brugeren spørger "Hvad er du?". Jeeves svarer ved at beskrive sig selv som en AI, der ligner en digital butler, inspireret af P.G. Wodehouses karakter{i: "Wodehouse, P.G."}, og er en del af en AI-platform kaldet Flitig skabt af et svensk firma. Grænsefladen indeholder brugeravatarer og tekstbobler på en mørk baggrund."}
 ![](resources-da/245-jeeves-intro-da.png)
 
 Som du kan se, bruger han ret mange ord. Men vi konfigurerede ham til at være sådan. Vi kan lide denne personlighed. Det er interessant, hvordan bare få ord i en prompt - i dette tilfælde "Jeeves, den berømte butler" - kan have så stor indflydelse på en agents kommunikationsstil.
@@ -4162,7 +4162,7 @@ Den sidste del "Bekræft først ændringer af instruktioner med brugeren" er tyd
 
 For at teste dette besluttede jeg at se, om jeg kunne få ham til at bruge tråde i Slack{i: "Slack"}, ved simpelthen at bede ham om at gøre det, som det kan ses herunder.
 
-{alt: "En Slack-tråd med titlen \"#dev\" viser en samtale mellem to brugere, Henrik og Jeeves (en app){i: \"Jeeves\"}. Henrik beder Jeeves om at bevise sin evne til at bruge Slack-tråde. Jeeves svarer bekræftende og demonstrerer sin kunnen. Henrik beder derefter Jeeves om altid at bruge tråde til Slack-svar, hvilket Jeeves accepterer og lover at opdatere sine instruktioner i overensstemmelse hermed."}
+{alt: "En Slack-tråd med titlen "#dev" viser en samtale mellem to brugere, Henrik og Jeeves (en app){i: "Jeeves"}. Henrik beder Jeeves om at bevise sin evne til at bruge Slack-tråde. Jeeves svarer bekræftende og demonstrerer sin kunnen. Henrik beder derefter Jeeves om altid at bruge tråde til Slack-svar, hvilket Jeeves accepterer og lover at opdatere sine instruktioner i overensstemmelse hermed."}
 ![](resources-da/245-threading-da.png)
 
 Dette virkede som vi havde håbet! Han bad først om tilladelse, og derefter opdaterede han sine egne instruktioner for at "huske" denne nye regel for fremtiden.
@@ -4171,19 +4171,19 @@ En irriterende ting ved Jeeves var, at han svarede på _hver eneste_ besked på 
 
 
 
-{alt: "Et Slack chat-screenshot, der viser en samtale mellem en bruger ved navn Henrik og en app kaldet Jeeves. Henrik beder Jeeves{i: \"Jeeves\"} om at opdatere sine instruktioner til kun at reagere på direkte Slack-beskeder{i: \"Slack\"}. Jeeves bekræfter anmodningen og beder om bekræftelse, hvortil Henrik svarer bekræftende. Begge brugere har profilbilleder."}
+{alt: "Et Slack chat-screenshot, der viser en samtale mellem en bruger ved navn Henrik og en app kaldet Jeeves. Henrik beder Jeeves{i: "Jeeves"} om at opdatere sine instruktioner til kun at reagere på direkte Slack-beskeder{i: "Slack"}. Jeeves bekræfter anmodningen og beder om bekræftelse, hvortil Henrik svarer bekræftende. Begge brugere har profilbilleder."}
 ![](resources-da/245-dont-always-respond-da.png)
 
 Igen bekræftede han det først med mig og opdaterede derefter sine instruktioner. Det var virkelig praktisk at kunne ændre en agents adfærd ved simpelthen at bede om det, samtidig med at man stadig kunne se og redigere instruktionerne manuelt efter behov.
 
 Men efter et stykke tid begyndte vi at bemærke, at Jeeves behandlede sine instruktioner mere som om de var retningslinjer end egentlige regler.
 
-{alt: "En pixeleret karakter med monokel tænker, repræsenteret ved en tankeboble. Inde i boblen er et billede af to pirater i samtale{i: \"guidelines versus regler\"}. Teksten over og under dem lyder: \"It's more what you'd call a guideline than an actual rule.\""}
+{alt: "En pixeleret karakter med monokel tænker, repræsenteret ved en tankeboble. Inde i boblen er et billede af to pirater i samtale{i: "guidelines versus regler"}. Teksten over og under dem lyder: "It's more what you'd call a guideline than an actual rule.""}
 ![](resources-da/245-guidelines-da.jpg)
 
 Her er et eksempel: Min kollega stillede et teknisk spørgsmål på Slack på svensk, som ikke var rettet til Jeeves. Spørgsmålet var rettet til teamet. Men så blandede Jeeves sig, helt uopfordret!
 
-{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: \"teknisk spørgsmål\"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og event-drevene triggers. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med \"Tak!\" efter Jeeves' forklaring."}
+{alt: "Et Slack chat-screenshot viser en samtale mellem Hans Brattberg og en AI-bot ved navn Jeeves. Hans stiller et teknisk spørgsmål{i: "teknisk spørgsmål"} på svensk om Slack-beskedudløsere. Jeeves svarer detaljeret om AI-responsivitet og nævner metoder som alarmer/polling og event-drevne triggers. En håndskrevet note i rødt indikerer, at Hans' spørgsmål ikke var rettet til Jeeves. Hans svarer med "Tak!" efter Jeeves' forklaring."}
 ![](resources-da/245-jeeves-uninvited-response-da.png)
 
 Han undskyldte for den "uopfordrede indblanding" og gav derefter et rigtig godt svar, som løste problemet på fin vis. Vi blev meget overraskede, men også ret imponerede. Teknisk set brød han reglerne, men gjorde det af de helt rigtige grunde. Det svarer meget godt til, hvad et menneske sandsynligvis ville have gjort under de samme omstændigheder. Du hører et spørgsmål, der ikke er rettet til dig, men da du har et godt svar, vælger du at blande dig.
