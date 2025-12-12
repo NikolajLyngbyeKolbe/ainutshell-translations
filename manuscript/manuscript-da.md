@@ -3387,7 +3387,7 @@ Jeg lader ham dele historien med sine egne ord. Jeg synes, at det er ret fascine
 
 ## Davids historie: AI som min karriererådgiver
 
-I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut{i: ergoterapeut}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig ergoterapi og hjælp til jobafklaring var et stort skridt fremad.
+I et stykke tid kæmpede jeg med at vende tilbage til arbejdsmarkedet efter en længere sygeorlov. Jeg fulgte retningslinjerne, systemerne og de officielle kanaler, som den svenske regering havde etableret. Efter et halvt år med møder med en håndfuld vejledere, startede jeg ergoterapeutisk behandling med en professionel ergoterapeut{i: "ergoterapeut"}. På dette tidspunkt var jeg allerede dødtræt af, hvor langsomt og udtrukket processen havde været, selvom det endeligt at blive godkendt til rigtig ergoterapi og hjælp til jobafklaring var et stort skridt fremad.
 
 I løbet af processen gjorde jeg den fornuftige ting at lufte mine frustrationer over for familie og venner{i: "lufte frustrationer"}. Som svar foreslog Henrik at lade en AI coache mig på samme måde som ergoterapeuten gjorde. Et simpelt eksperiment.
 
