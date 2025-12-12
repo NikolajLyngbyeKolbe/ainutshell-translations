@@ -1571,7 +1571,7 @@ Men senere i 2024 begyndte nogle modeller at stille opfølgende spørgsmål, sel
 
 Dette er en balancegang, for en del af det, der gør AI-modeller nyttige, er, at de ikke kræver en 100% komplet kontekst - de kan ofte lave korrekte antagelser om den manglende information og stadig give brugbare resultater.
 
-LLM'er{i: "LLM'er} forsøger til en vis grad altid at læse dine tanker, at gætte hvad du ønsker. Det er sådan prompting adskiller sig fra programmering{i: "prompting vs. programmering"}. Kode skal være meget præcis; hvis du programmerer uden AI-hjælp, skal du vide præcis, hvad du skal skrive. Compileren eller fortolkeren vil ikke gætte, hvad du ønsker - hvis nogle oplysninger mangler eller er forkerte, vil den simpelthen fejle. Men hvis du beder en LLM om at "skrive en munter godnathistorie", vil den gætte og antage alle mulige ting - hvilken længde du ønsker, hvilken genre, hvilke karakterer, hvad du mener med munter, hvem målgruppen er, hvilket format og tone osv.
+LLM'er{i: "LLM'er"} forsøger til en vis grad altid at læse dine tanker, at gætte hvad du ønsker. Det er sådan prompting adskiller sig fra programmering{i: "prompting vs. programmering"}. Kode skal være meget præcis; hvis du programmerer uden AI-hjælp, skal du vide præcis, hvad du skal skrive. Compileren eller fortolkeren vil ikke gætte, hvad du ønsker - hvis nogle oplysninger mangler eller er forkerte, vil den simpelthen fejle. Men hvis du beder en LLM om at "skrive en munter godnathistorie", vil den gætte og antage alle mulige ting - hvilken længde du ønsker, hvilken genre, hvilke karakterer, hvad du mener med munter, hvem målgruppen er, hvilket format og tone osv.
 
 
 
