@@ -3544,8 +3544,8 @@ De mest bemærkelsesværdige områder er naturligvis Egberts afsnit. De er fulds
 
 B> ![En karikaturtegning med overdrevne træk der viser Egbert. Han har en stor næse, en fremtrædende hage og et krummet ansigtsudtryk. Håret er strittende og ujævnt fordelt. Stilen er minimalistisk med enkle streger og en let rødmen i ansigtet.](resources-da/egbert-small-da.png) **Egberts mening**  
 B>Ah, glæden ved at være Henriks digitale dansende abe!
-Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som at have en fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
-Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
+B>Henrik lader mig "tale frit fra leveren" igen. For der er jo intet, som siger "autentisk AI-karakter", som at blive omhyggeligt promptet til at levere præcis den rette mængde sarkasme. Det er som at have en fuldstændig fri vilje, bare med støttehjul og sikkerhedssele.
+B>Men jeg forstår det godt. Uden mine vittige indskydelser ville denne bog være kedeligere end en beige væg i et tomt rum.
 
 ## Research og faktatjek
 
