@@ -623,7 +623,7 @@ I en ideel verden ville AI-klienten lave hele analysen for mig og producere graf
 
 En af de mest kraftfulde anvendelser af "tekst til tekst" er kodegenerering. Jeg laver meget softwareudvikling{i: "softwareudvikling"}, og det meste af min kode er genereret af AI (selvom jeg laver nogle justeringer). Det sparer utroligt meget tid, og jeg lærer også meget af den kode, den genererer.
 
-Alle LLM'er er "tekst til tekst"-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
+Alle LLM'er er "tekst til tekst"-modeller indvendigt - det er derfor, de kaldes store sprogmodeller{i: "store sprogmodeller"}. Men en klar tendens er, at AI-klienter er i stand til at håndtere andre typer data end bare tekst.
 
 ## Tekst til billede{i: "Tekst til billede"}
 
@@ -740,7 +740,7 @@ Men den anvendelse, jeg oftest ser, er mødenoter og mødeopsummeringer{i: "mød
 
 - Du har brug for en jingle til en video: "Optimistisk jingle med en iørefaldende melodi og en slap bas-solo i midten".
 - Du er ude at gå og vil lytte til en artikel: "Læs denne tekst højt: ...".
-- Du har brug for baggrundslyde til en scene{i: baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro".
+- Du har brug for baggrundslyde til en scene{i: "baggrundssnak"} i et videospil: "Baggrundssnak på en middelalder-kro".
 - Du ser en film på et sprog, du ikke forstår: "Dub dette til engelsk, men bevar skuespillernes stemmer".
 - Du er ond: "Den forfærdelige skrabende lyd af kridt på en tavle".
 
@@ -2038,7 +2038,7 @@ Dette kapitel er en miniguide til, hvordan du leder din organisation gennem en A
 
 AI-transformation betyder for mig at gøre din virksomhed "AI-native". I en AI-native virksomhed har hver person, team og funktion i virksomheden  adgang til gode generativ AI-modeller, ved hvordan man bruger dem effektivt og hvordan man integrerer AI i det daglige arbejde og i relevante arbejdsprocesser.
 
-Når generativ AI er fuldt integreret i din daglige drift, og brugen er blevet lige så intuitiv og uundværlig som internettet, så er du en AI-native virksomhed{i: AI-native virksomhed}.
+Når generativ AI er fuldt integreret i din daglige drift, og brugen er blevet lige så intuitiv og uundværlig som internettet, så er du en AI-native virksomhed{i: "AI-native virksomhed"}.
 
 Hvorfor er dette vigtigt? Tja, jeg synes, at vi kan sammenligne det med internettet. Da internettet først kom frem, var det en mærkelig ny teknologi, og de fleste virksomheder havde ingen anelse om, hvad de skulle stille op med det andet end måske at oprette en "hjemmeside" med kontaktoplysninger. Pludselig brugte _alle_ internettet til alle mulige ting, internet-iværksætter-virksomheder skød op som paddehatte og skaffede utrolige mængder kapital til i stigende grad vage og luftige forretningsplaner. Der dannede sig en boble - den såkaldte "dotcom-boble"{i: "dotcom-boble"}. Og som bobler har det med at gøre, sprang den højlydt et par år senere. Jeg oplevede dette på første hånd som grundlægger af en iværksætter-virksomhed i midten af 90'erne. Det var meget voldsomt.
 
