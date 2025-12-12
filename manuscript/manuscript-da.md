@@ -129,7 +129,7 @@ AI, står, som du sikkert ved, for "Artificial Intelligence"{Artificial Intellig
 
 Generativ AI{i: "generativ AI"} er AI, der genererer nyt originalt indhold, frem for blot at finde eller klassificere eksisterende indhold. Det er der G'et i GPT stammer fra.
 
-Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i:Large Language Models} eller bare LLM'er{i:LLM}) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
+Store sprogmodeller{i: "Store sprogmodeller"} (på engelsk "Large Language Models"{i: "Large Language Models"} eller bare LLM'er{i:"LLM"}) er en type generativ AI, der kan kommunikere ved hjælp af normalt menneskeligt sprog.
 
 ChatGPT{i: "ChatGPT"} er et produkt fra virksomheden OpenAI{i: "OpenAI"}. Det startede som en stor sprogmodel, i bund og grund bare en avanceret chatbot, men er lavet ved hjælp af en ny arkitektur kaldet Transformer-arkitekturen{i: "Transformer-arkitektur"}. Det er der T'et i GPT stammer fra.
 
