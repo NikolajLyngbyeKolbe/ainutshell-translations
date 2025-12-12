@@ -1640,7 +1640,7 @@ I stedet skal du gå ned til Einstein i kælderen og gøre det, en god leder vil
 - Adgang til internettet.
 - Adgang til penge.
 - Mulighed for at slå ting op i en database.
-- Mulighed for at sende og modtage beskeder på Slack, Teams, email, osv..
+- Mulighed for at sende og modtage beskeder på Slack, Teams, email, osv.
 - Mulighed for at kommunikere med systemer som Notion, Trello, Google Docs eller MS Sharepoint.
 - Mulighed for at bestille pizza.
 - ... osv ...
